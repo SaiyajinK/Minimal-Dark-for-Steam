@@ -49,6 +49,9 @@ I re-edited and fix the whole code according to my theme. <br>
 
 1️⃣ - Download & extract latest release [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/releases)<br>
 2️⃣ - Copy skins folder to "C:\Program Files (x86)\Steam\steamui\"<br>
+
+![npi7oFttSE](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/b239aef2-7d25-4bad-86ab-245f1cbf0bfb) <br>
+
 3️⃣ - Download latest SFP [here](https://github.com/PhantomGamers/SFP/releases) <br>
 4️⃣ - Launch SFP, in settings go to Steam, check "Inject JavaScript", and now select steam skin (steam will reload automatically). If you want dev Steam, type `-dev` on the end of launch arguments to get `-cef-enable-debugging -dev`.<br>
 
