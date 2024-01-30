@@ -1,0 +1,220 @@
+.gamelistbar_Container_3x1Hk {
+    background: var(--minimal_dark_blacker_alt);
+    height: 100%;
+    flex: 1;
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    user-select: none;
+    outline: none;
+    border-top: 0px solid var(--minimal_dark_be_grey);
+}
+
+.gamelistbar_GameListHomeAndSearch_2TKEa {
+    padding: 4px 6px 2px 6px;
+    background-color: var(--minimal_dark_blacker_alt);
+    box-shadow: rgba(61,68,80,.75) 1px 0px 0px 0px inset, rgba(38,45,56,.42) 0px -1px 0px 0px inset, rgba(0,0,0,.2) 0px 3px 3px;
+    position: relative;
+    display: none; /* remove this line to display home and collection button */
+    height: 36px;
+    border-top: 1px solid #222323;
+}
+
+.gamelistsectionheader_Container_2sYIg {
+    box-sizing: border-box;
+    color: #707379;
+    border: 1px solid rgba(29,32,37,0);
+    border-right: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    background: linear-gradient(to right, #232323b8 40%, rgba(62, 78, 105, 0) 100%);
+    display: flex;
+    flex-grow: 0;
+    user-select: none;
+    cursor: pointer;
+}
+
+.gamelistsectionheader_Container_2sYIg:hover {
+    box-sizing: border-box;
+    background: var(--minimal_dark_be_grey);
+}
+
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(30,30,30,1) 0%, rgba(30,30,30,1) 50%, rgba(255,255,255,0) 100%);
+    box-shadow: 0 0px 2px 0px #0005, 0 0px 16px 0px #0004;
+}
+
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z:hover, .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy, .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z :hover, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z:hover, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z :hover {
+    background-color: var(--minimal_dark_black);
+}
+
+.gamelistentry_Container_2-O4Z:hover, .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
+    color: #fff;
+    background: linear-gradient(90deg, rgba(30,30,30,1) 0%, rgba(30,30,30,1) 50%, rgba(255,255,255,0) 100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.gamelisthome_Bar_3pSPl .gamelisthome_Icon_1ooRO {
+    width: 100%;
+    height: 100%;
+    flex: none;
+    fill: rgba(255,255,255,.05);
+    position: absolute;
+    z-index: 0;
+    -webkit-mask-image: linear-gradient(to right, rgb(19 19 19) 30%, #1b1b1bd6 80%);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    background: var(--minimal_dark_blacker);
+}
+
+.gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
+    background-color: var(--minimal_dark_be_grey);
+    background-repeat: no-repeat;
+}
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
+    color: #fff;
+    background-color: var(--minimal_dark_be_grey);
+}
+
+.gamelistdropdown_Bar_1ZS_x {
+    box-sizing: border-box;
+    padding: 8px 6px 0px;
+    outline: none;
+    display: flex;
+    min-width: 0;
+    position: relative;
+    border-top: solid 1px var(--minimal_dark_be_grey);
+}
+
+.gamelistsectionheader_SectionHeaderContent_3cV3O:hover .gamelistsectionheader_SectionName_2mZ8L {
+    color: var(--minimal_dark_currency);
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Installed_2ws8D {
+    color: var(--minimal_dark_installed_games);
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Installed_2ws8D:hover {
+    color: var(--minimal_dark_white);
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Installed_2ws8D {
+    color: var(--minimal_dark_color);
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover {
+    color: var(--minimal_dark_white);
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Uninstalled_5YTBr {
+    color: var(--minimal_dark_red2);
+}
+
+.gamelistentry_Selected_1UBpA {
+    color: var(--minimal_dark_orange);
+}
+
+.collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
+    stroke: var(--minimal_dark_color);
+}
+
+.collapseicon_CollapseIconParent_ehAsU:hover .collapseicon_Container_3SFRZ:hover {
+    stroke: var(--minimal_dark_greyblack1);
+}
+
+.SVGIcon_Button .SVGIcon_FriendIcon {
+	color:var(--minimal_dark_color);
+}
+
+.gamelistentry_FriendIsPlaying_cNZ3w Focusable {
+	color:var(--minimal_dark_color);
+}
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B .gamelistentry_DownloadProgress_3uk3F {
+    color: var(--minimal_dark_browser_overlay_close);
+    flex-shrink: 0;
+    margin-left: 4px;
+	text-transform: var(--minimal_dark_fontdown);
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp {
+    color: var(--minimal_dark_status_green);
+    
+}
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.gamelistentry_FriendIsPlaying_cNZ3w {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    left: 6px;
+    top: 3px;
+}
+
+.gamelistsectionheader_SectionHeaderContent_3cV3O {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    min-width: 0;
+    padding: 3px 9px;
+    padding-left: 2px;
+    color: var(--minimal_dark_currency);
+}
+
+.gamelistentry_Container_2-O4Z {
+    box-sizing: border-box;
+    font-size: 12px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    box-shadow: 0 0px 0px 0px #000, 0 0px 0px 0px #000;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    user-select: none;
+    outline: none;
+    cursor: default;
+}
+
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: var(--minimal_dark_black);
+    border: 1px solid #36383e;
+    opacity: 1;
+    flex: 0;
+    transition-property: background-color;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    border-radius: 4px;
+}
+
+.gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow {
+    background-color: var(--minimal_dark_blacker);
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Disabled_1Gjk2 {
+    background-color: var(--minimal_dark_blacker);
+}
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameIcon_ga1hy {
+    margin-right: 10px;
+    margin-top: -1px;
+	border-radius: 10px !important;
+}
+
+.libraryassetimage_Visibility_3d_bT.libraryassetimage_Visible_yDr03 {
+    opacity: 1;
+    border-radius: 0px !important;
+}

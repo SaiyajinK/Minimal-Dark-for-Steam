@@ -1,0 +1,434 @@
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
+    box-sizing: border-box;
+    display: block;
+    height: 450px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background: none;
+    background-color: #12121294;
+    z-index: 0;
+}
+
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_ColumnContainer_OhSdL {
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.appdetailsspotlight_ReviewContainer_3LE-6 {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 10px;
+    background-color: transparent;
+    color: #969696;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.writereview_RatingContainer_2SAb6 {
+    background-color: transparent;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_ColumnContainer_OhSdL {
+    /* background: #121212ab; */
+    backdrop-filter: blur(10px);
+}
+
+.appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+    background: transparent;
+    border-image-width: 1px;
+    border-image-repeat: stretch;
+    border-image-slice: 7;
+    box-shadow: none;
+    margin-left: 12px;
+}
+
+.appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
+    backdrop-filter: blur(10px);
+    background-color: #121212ab;
+    margin-top: -15px;
+    padding-top: 15px;
+}
+
+.appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
+    border-image-width: 1px;
+    border-image-repeat: stretch;
+    border-image-slice: 7;
+    background: none;
+    box-shadow: none;
+}
+
+.appdetailssection_Highlight_38t1m {
+    background: transparent;
+    box-shadow: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #ccc;
+    position: relative;
+    margin-bottom: 8px;
+    border-radius: 2px;
+}
+
+[class*="appactionbutton_ButtonChild_"] {
+    background: transparent !important;
+    border: 2px solid rgba(62,64,71,0.50);
+    transform: scale(0.75, 0.75) translate(0px, 3px) !important;
+}
+
+:not([class*="appactionbutton_Disabled_"]) > [class*="appactionbutton_Green_"] > [class*="appactionbutton_ButtonChild_"]:hover {
+    background-image: var(--minimal_dark_bgg) !important;
+    border: 2px solid rgba(62,64,71,0.50);
+    transform: scale(0.73, 0.73) translate(0px, 3px) !important;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+}
+
+:not([class*="appactionbutton_Disabled_"]) > [class*="appactionbutton_Green_"] > [class*="appactionbutton_ButtonChild_"]:active {
+    background-image: var(--minimal_dark_bgg) !important;
+    border: 2px solid rgba(62,64,71,0.50);
+    transform: scale(0.71, 0.71) translate(0px, 3px) !important;
+    box-shadow: inset 0px 3px 10px #000000ab;
+}
+
+:not([class*="appactionbutton_Disabled_"]) > [class*="appactionbutton_ButtonChild_"]:hover {
+    background-image: radial-gradient(circle, #4fd1ff, #4bcbf8, #47c5f2, #42bfeb, #3eb9e5, #3db7e5, #3cb4e5, #3cb2e5, #42b2eb, #4ab2f1, #54b2f6, #5fb1fb) !important;
+    border: 2px solid rgba(62,64,71,0.50);
+    transform: scale(0.73, 0.73) translate(0px, 3px) !important;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+}
+
+:not([class*="appactionbutton_Disabled_"]) > [class*="appactionbutton_ButtonChild_"]:active {
+    background-image: radial-gradient(circle, #4fd1ff, #4bcbf8, #47c5f2, #42bfeb, #3eb9e5, #3db7e5, #3cb4e5, #3cb2e5, #42b2eb, #4ab2f1, #54b2f6, #5fb1fb) !important;
+    border: 2px solid rgba(62,64,71,0.50);
+    transform: scale(0.7, 0.7) translate(0px, 3px) !important;
+    box-shadow: inset 0px 3px 10px #000000ab;
+}
+
+.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
+    display: none;
+}
+
+.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX svg {
+    fill: white;
+}
+
+:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX svg {
+    color: white;
+    fill: white;
+}
+
+.sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_TopCapsule_2meE3 {
+    overflow: visible;
+    max-height: 320px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid var(--minimal_dark_be_grey);
+}
+
+.appactivityday_PartnerEvent_1AYE1 {
+    border-image-width: 1px;
+    border-image-repeat: stretch;
+    border-image-slice: 7;
+    box-shadow: none;
+    background: #58333300;
+}
+
+.appactivityday_PartnerEventMediumImage_Container_1HZy7 {
+    background: transparent;
+    transition-property: background;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+}
+
+.appactivityday_PartnerEventTextOnly_3QRf- {
+    font-size: 13px;
+    border-image-width: 1px;
+    border-image-repeat: stretch;
+    border-image-slice: 7;
+    box-shadow: 0 0 12px #00000025;
+    background: transparent;
+    transition-property: background;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+}
+
+.spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
+    height: 170px;
+    background: transparent;
+    position: relative;
+    padding: 10px 0px 5px 0px;
+    border-radius: 3px;
+}
+
+.appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
+    background: linear-gradient(to right, #235ecf 0%, #235ecf 60%);
+    background-position: 0%;
+    background-size: 330% 100%;
+    display: none;
+}
+
+.appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
+    background: var(--minimal_dark_color);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {
+    background-color: var(--minimal_dark_color);
+    border-radius: 10px;
+    height: 100%;
+    transition-property: width;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+
+a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
+    background-color: var(--minimal_dark_invisblegrey);
+    color: #fff;
+}
+
+.appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416 {
+    background-image: linear-gradient(0deg, rgba(8,8,8,1) 0%, rgba(8,8,8,0) 100%, rgba(0,0,0,0) 100%);
+}
+
+.appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416 {
+    background: var(--minimal_dark_blacker_alt);
+}
+
+.appdetailscommunityfeed_CommunityItem_3QS6O {
+    background-color: var(--minimal_dark_blacker);
+}
+
+.appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_Header_l0pbv {
+    margin-left: 6px;
+    flex: 1 1 auto;
+    overflow: hidden;
+    background: var(--minimal_dark_blacker_alt);
+}
+
+.appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSectionInner_1dJuv {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    background: var(--minimal_dark_blacker_alt);
+    border-radius: 2px;
+    position: relative;
+}
+
+button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:hover {
+    background-color: var(--minimal_dark_invisblegrey);
+    cursor: pointer;
+}
+
+.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY:hover {
+    background-color: var(--minimal_dark_transparent);
+    cursor: pointer;
+}
+
+.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY:active {
+    background-color: var(--minimal_dark_transparent);
+    cursor: pointer;
+}
+
+.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY:active .appdetailsprimarylinkssection_Text_2sNDj {
+    color: var(--minimal_dark_color);
+}
+
+button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL:hover {
+    background-color: var(--minimal_dark_blacker);
+    color: #fff;
+    cursor: pointer;
+}
+
+.appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
+    background: var(--minimal_dark_invisblegrey);
+    cursor: pointer;
+}
+
+.appactivityday_PartnerEventTextOnly_3QRf-:hover {
+    background: rgb(45 45 45 / 35%);
+    cursor: pointer;
+}
+
+.launchoptionsdialog_LaunchOptionDialog_LclHw {
+    background: var(--minimal_dark_blacker_alt);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: #fff;
+}
+
+.launchoptionsdialog_LaunchOptionDialog_LclHw .launchoptionsdialog_OptionList_2aHnQ .launchoptionsdialog_ListContainer_134yW {
+    background: transparent;
+}
+
+.launchoptionsdialog_LaunchOptionDialog_LclHw .launchoptionsdialog_OptionList_2aHnQ .launchoptionsdialog_ListContainer_134yW .launchoptionsdialog_ListItem_3DEhf {
+    background: var(--minimal_dark_blacker);
+}
+
+.launchoptionsdialog_LaunchOptionDialog_LclHw .launchoptionsdialog_OptionList_2aHnQ .launchoptionsdialog_ListContainer_134yW .launchoptionsdialog_ListItem_3DEhf:hover {
+    background: var(--minimal_dark_be_grey);
+}
+
+.launchoptionsdialog_LaunchOptionDialog_LclHw .launchoptionsdialog_ButtonContainer_3H2Ge .launchoptionsdialog_PlayButton_3EWVu:hover, .launchoptionsdialog_LaunchOptionDialog_LclHw .launchoptionsdialog_ButtonContainer_3H2Ge .launchoptionsdialog_CancelButton_1d8Cb:hover {
+    background: var(--minimal_dark_be_grey);
+}
+
+.launchoptionsdialog_LaunchOptionDialog_LclHw .launchoptionsdialog_ButtonContainer_3H2Ge .launchoptionsdialog_PlayButton_3EWVu, .launchoptionsdialog_LaunchOptionDialog_LclHw .launchoptionsdialog_ButtonContainer_3H2Ge .launchoptionsdialog_CancelButton_1d8Cb {
+    background: var(--minimal_dark_black);
+}
+
+button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh:hover {
+    background-color: var(--minimal_dark_invisblegrey);
+    color: #fff;
+    cursor: pointer;
+}
+
+.posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
+    border: 1px solid var(--minimal_dark_greyblack);
+    background: var(--minimal_dark_invisblegrey);
+}
+
+.posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus {
+    outline: none;
+    background: rgb(25 26 27 / 25%);
+    box-shadow: inset 1px 1px 6px rgba(0,0,0,.4);
+}
+
+.posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu {
+    background-color: var(--minimal_dark_invisblegrey);
+}
+
+.posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu:hover {
+    background-color: var(--minimal_dark_invisblegrey);
+    color: #fff;
+}
+
+.posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja {
+    background-image: var(--minimal_dark_bgb) !important;
+}
+
+.appdetailsactivitysection_ViewLastNews_1EC1x:hover {
+    background-color: var(--minimal_dark_invisblegrey);
+    color: #fff;
+}
+
+.addtocartbutton_Action_2ECxA:active {
+    background-image: var(--minimal_dark_bgg) !important;
+    color: #fff;
+    box-shadow: inset 2px 2px 15px rgba(0,0,0,.5);
+    cursor: pointer;
+    box-shadow: inset 0px 3px 10px #000000ab !important;
+}
+
+.posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA {
+    background-color: var(--minimal_dark_invisblegrey);
+}
+
+.btn_blue_steamui > span {
+    background-image: var(--minimal_dark_bgb) !important;
+}
+
+.DesktopUI .controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u {
+    position: relative;
+    background: var(--minimal_dark_blacker);
+    padding-bottom: 0px;
+}
+
+.controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u .DialogButton.controllerconfigurator_interstitial_OKButton_vTxP0 {
+    background: var(--minimal_dark_bgg) !important;
+}
+	
+.appdetailscontrollersupport_ControllerStatusSVG_2A8Ng {
+    width: 44px;
+    min-width: 44px;
+    flex-basis: 44px;
+    height: 44px;
+    color: var(--minimal_dark_color);
+    margin-left: 12px;
+}
+
+.appdetailscontrollersupport_ControllerSupportSectionHeader_2L06P {
+    color: var(--minimal_dark_color);
+}
+
+.appdetailscontrollersupport_ControllerSupportSectionDesc_8tm4K {
+    color: rgba(var(--minimal_dark_color_rgba),0.80);
+}
+
+.appdetailsachievementssection_AdditionalItem_2aVnD {
+    background-color: var(--minimal_dark_be_grey);
+}
+
+.appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
+    border-radius: 2px 0px 0px 2px;
+    margin-top: -4px;
+}
+
+.writereview_ReviewThumbButton_1kCN0 {
+    background: var(--minimal_dark_invisblegrey);
+	color: white;
+}
+
+.writereview_ThumbIcon_2Jkk-.writereview_Down_32G01 {
+    transform: rotate(180deg) scaleX(-1);
+    fill: var(--minimal_dark_red2);
+}
+
+.writereview_ThumbIcon_2Jkk- {
+    fill: var(--minimal_dark_progress_bar);
+}
+
+.writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K):hover {
+    background: var(--minimal_dark_be_grey);
+}
+
+.writereview_RatingContainer_2SAb6 .writereview_LeftContainer_2aeAn .writereview_Playtime_qX4kN {
+    color: var(--minimal_dark_color);
+    font-weight: 500;
+}
+
+.achievementslist_AchievementList_1UXC2 {
+    background-color: transparent;
+}
+
+.achievementspage_Page_3FQHg {
+    background-color: transparent;
+}
+
+.achievementspage_Background_ODpLj .achievementspage_Blur_3Fjw7 {
+    backdrop-filter: brightness(60%) blur(20px);
+    background: transparent;
+}
+
+.gamepadtabbedpage_GamepadTabbedPage_3IBLc.gamepadtabbedpage_IsUnderHeader_31Zle .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::before, .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs.gamepadtabbedpage_ScrolledDown_1jNhb::before {
+    backdrop-filter: blur(0px) !important;
+    background: transparent;
+}
+
+.achievementslist_AchievementListItemBase_2Kmn7 {
+    background-color: var(--minimal_dark_black) !important;
+    border-radius: 2px;
+}
+
+.gamepadtabbedpage_Floating_3I3IM .gamepadtabbedpage_TabContentsScroll_1X4dt.DesktopUI, .DesktopUI .gamepadtabbedpage_Floating_3I3IM .gamepadtabbedpage_TabContentsScroll_1X4dt {
+    clip: initial;
+    background: var(--minimal_dark_blacker_alt);
+}
+
+.smartscrollcontainer_ScrollToTopButton_1bCHN div {
+    background: linear-gradient(to bottom, rgba(var(--minimal_dark_color_rgba), .75), var(--minimal_dark_black) 100%);
+    backdrop-filter: blur(50px);
+}
+
+.smartscrollcontainer_ScrollToTopButton_1bCHN {
+    color: white;
+}
+
+.smartscrollcontainer_ScrollToTopButton_1bCHN:hover.smartscrollcontainer_Visible_2ZDSm {
+    filter: brightness(1.5);
+}
+

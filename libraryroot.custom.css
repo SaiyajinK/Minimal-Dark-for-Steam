@@ -1,0 +1,1006 @@
+@import url('friends.custom.css');
+@import url('config.css');
+@import url('sidebar.css');
+@import url('scrollbar.css');
+@import url('downloads.css');
+@import url('gamepage.css');
+@import url('library.css');
+@import url('miniprofile.css');
+@import url('properties.css');
+@import url('overlay.css');
+@import url('webkit.css');
+@import url('profile.css');
+
+* {
+	cursor: default !important;
+	outline: none !important;
+}
+
+.steamdesktop_FocusBar_3pXas.steamdesktop_Focused_2MkHZ {
+    display: none;
+}
+
+.window_resize_grip {
+    background-size: 16px 16px;
+    background-position: 4px 4px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    opacity: .3;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    filter: opacity(0.25);
+}
+
+.DesktopUI .title-area .title-bar-actions {
+    margin-right: 3px;
+    margin-top: 1px;
+}
+
+.DesktopUI .title-area-icon .SVGIcon_X_Line {
+	display:none;
+}
+
+.title-bar-actions .title-area-icon.closeButton {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_topgrey);
+    -webkit-mask-image: var(--minimal_dark_closebutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.6);
+}
+
+.title-bar-actions .title-area-icon.closeButton:hover {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_red);
+    -webkit-mask-image: var(--minimal_dark_closebutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.6);
+}
+
+.title-bar-actions .title-area-icon.closeButton:active {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_red1);
+    -webkit-mask-image: var(--minimal_dark_closebutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.55);
+}
+
+.DesktopUI .title-area-icon:hover {
+    background: var(--minimal_dark_blacker);
+    transition: background .15s ease-out;
+}
+
+.title-bar-actions .title-area-icon.maximizeButton {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_topgrey);
+    -webkit-mask-image: var(--minimal_dark_maxbutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.5);
+}
+
+.title-bar-actions .title-area-icon.maximizeButton:hover {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_color);
+    -webkit-mask-image: var(--minimal_dark_maxbutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.5);
+}
+
+.title-bar-actions .title-area-icon.maximizeButton:active {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_white);
+    -webkit-mask-image: var(--minimal_dark_maxbutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.45);
+}
+
+.title-bar-actions .title-area-icon.minimizeButton {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_topgrey);
+    -webkit-mask-image: var(--minimal_dark_minbutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.35);
+	margin-bottom: 6px;
+}
+
+.title-bar-actions .title-area-icon.minimizeButton:hover {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_color);
+    -webkit-mask-image: var(--minimal_dark_minbutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.35);
+	margin-bottom: 6px;
+}
+
+.title-bar-actions .title-area-icon.minimizeButton:active {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_white);
+    -webkit-mask-image: var(--minimal_dark_minbutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.3);
+	margin-bottom: 4px;
+}
+
+.title-bar-actions .title-area-icon.restoreButton {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_topgrey);
+    -webkit-mask-image: var(--minimal_dark_restorebutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.62);
+}
+
+.title-bar-actions .title-area-icon.restoreButton:hover {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_color);
+    -webkit-mask-image: var(--minimal_dark_restorebutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.62);
+}
+
+.title-bar-actions .title-area-icon.restoreButton:active {
+    color: var(--minimal_dark_transparent);
+    background-color: var(--minimal_dark_white);
+    -webkit-mask-image: var(--minimal_dark_restorebutton);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.57);
+}
+
+.titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_AnnouncementsButton_5wILZ {
+	display:none;
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk {
+    background-color: var(--minimal_dark_blacker);
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover {
+    background-color: var(--minimal_dark_black);
+    transition: background-color .15s ease-out;
+}
+
+.titlebarcontrols_Button_2Szzh:hover {
+    color: var(--minimal_dark_color);
+    transition: color .15s ease-out;
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3 .titlebarcontrols_Icon_34bQc {
+    margin-top: 0px;
+}
+
+svg.titlebarcontrols_Icon_34bQc {
+    transform: scale(1);
+}
+
+svg.titlebarcontrols_Icon_34bQc:hover {
+    transform: scale(1);
+    color: var(--minimal_dark_color) !important;
+}
+
+svg.titlebarcontrols_Icon_34bQc:active {
+    transform: scale(0.9);
+	color: white !important;
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8 {
+    background-color: var(--minimal_dark_blacker);
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:not(.titlebarcontrols_Disabled_1QQWj):hover {
+    background-color: var(--minimal_dark_blacker);
+    transition: background-color .15s ease-out;
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3 {
+    color: var(--minimal_dark_color);
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj):hover, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover {
+    background-color: var(--minimal_dark_black) !important;
+    transition: background-color .15s ease-out;
+}
+
+.titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_BranchBar_1n8t0, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_SupportAlertsButton_32TmR, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_OSEndOfLifeAlertsButton_1AcQ7, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_ParentalToggleButton_13vrq, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_KioskModeToggleButton_3arz-, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_AnnouncementsButton_5wILZ, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_NotificationButtonContainer_3mGEz, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_AccountMenu_3yD46, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_SoundtrackControls_Utdt7 {
+    margin-right: 8px;
+    min-height: 26px;
+}
+
+.titlebarcontrols_AccountMenu_3yD46 {
+    max-height: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    border-radius: 2px;
+    padding-right: 8px;
+    font-size: 12px;
+    background-color: var(--minimal_dark_blacker);
+}
+
+.titlebarcontrols_AccountMenu_3yD46 .titlebarcontrols_WalletBalance_2jphj {
+    color: var(--minimal_dark_currency);
+}
+
+.steamdesktop_TopBar_3Z7VQ {
+    flex: 0 0 auto;
+    width: 100%;
+    background: var(--minimal_dark_blacker_alt);
+    box-shadow: inset rgba(61,68,80,.75) 1px 1px 1px 0px, inset rgba(61,68,80,.25) -1px 0px 1px 0px;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    min-height: 36px;
+}
+
+.steamdesktop_LocalContentContainer_RGNMW .steamdesktop_URLBarReplacement_2Cmrn {
+    min-height: 6px;
+    height: 12px;
+    background: var(--minimal_dark_blacker_alt);
+    box-shadow: inset rgba(61,68,80,.75) 1px 0px 0px 0px, inset rgba(61,68,80,.25) -1px -1px 0px 0px;
+}
+
+.bottombar_BottomBar_3vCzS.Maximized, .Maximized .bottombar_BottomBar_3vCzS {
+    box-shadow: inset rgba(61,68,80,.65) 0px 0px 0px 0px;
+}
+
+.Maximized .bottombar_BottomBar_3vCzS {
+    box-shadow: inset rgba(61,68,80,.65) 0px 0px 0px 0px;
+}
+
+.bottombar_BottomBar_3vCzS {
+    background: var(--minimal_dark_blacker);
+    right: 0 !important;
+    margin-right: var(--minimal_dark_alignment) !important;
+    position: fixed;
+    top: 4px !important;
+    border-radius: 2px !important;
+    border: none;
+    align-content: center !important;
+    display: block;
+    max-height: 26px;
+    max-width: 26px;
+    margin-top: 1px;
+    box-shadow: none;
+}
+
+.bottombar_BottomBar_3vCzS:hover {
+    background: var(--minimal_dark_black);
+    right: 0 !important;
+    margin-right: var(--minimal_dark_alignment) !important;
+    position: fixed;
+    top: 4px !important;
+    border-radius: 2px !important;
+    border: none;
+    align-content: center !important;
+    display: block;
+    max-height: 26px;
+    max-width: 26px;
+    margin-top: 1px;
+    box-shadow: none;
+}
+
+.bottombar_Icon_1KrJ3 {
+    transform: scale(1.2);
+    background-color: var(--minimal_dark_topgrey);
+    -webkit-mask-image: var(--minimal_dark_download);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+}
+
+.bottombar_Icon_1KrJ3:hover {
+    transform: scale(1.2);
+    background-color: var(--minimal_dark_color);
+    -webkit-mask-image: var(--minimal_dark_download);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+}
+
+.bottombar_Icon_1KrJ3:active {
+    transform: scale(1.1);
+    background-color: var(--minimal_dark_white);
+    -webkit-mask-image: var(--minimal_dark_download);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+}
+
+.menu_MenuPopup_3pofG {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px !important;
+    background: var(--minimal_dark_blacker);
+}
+
+.menu_MenuPopup_3pofG {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px !important;
+    background: var(--minimal_dark_be_grey);
+}
+
+.menu_MenuItem_2jXHP.menu_Item_2uiDe:hover {
+    background-color: var(--minimal_dark_blacker);
+    color: var(--minimal_dark_more_less_white);
+}
+
+.DialogContent, .DialogContentTransition {
+    background: var(--minimal_dark_blacker);
+    user-select: none;
+}
+
+button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, button.DialogButton:enabled:active.gpfocus {
+    background: var(--minimal_dark_invisblegrey);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.6);
+    transition-duration: .04s;
+}
+
+button.DialogButton:hover, button.DialogButton.gpfocus {
+    background: var(--minimal_dark_greyblack);
+    color: #fff;
+}
+
+.DialogContent, .DialogContentTransition {
+    background: var(--minimal_dark_blacker_alt);
+    backdrop-filter: blur(10px);
+    user-select: none;
+}
+
+button.DialogButton {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 0;
+    font: inherit;
+    overflow: visible;
+    padding: 0;
+    margin: 2px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    line-height: 32px;
+    color: #dfe3e6;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+    transition-property: opacity,background,color,box-shadow;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    background: var(--minimal_dark_be_grey);
+    background-position: 99% 1%;
+    background-size: 300% 300%;
+    position: relative;
+}
+
+.DialogTextInputBase, ._DialogInputContainer {
+    background: var(--minimal_dark_be_grey);
+    color: #dfe3e6;
+    font-size: 14px;
+    font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    margin: 0;
+    border: none;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 0px #0000;
+}
+
+.DialogTextInputBase:not(:disabled):hover {
+    background: var(--minimal_dark_greyblack);
+}
+
+.DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
+	background: var(--minimal_dark_greyblack);
+	box-shadow: inset 1px 1px 4px #000a;
+	padding-left: 11px;
+}
+
+[class*="contextmenu_contextMenu_"] {
+	background: none;
+	min-width:fit-content !important;
+	color: var(--minimal_dark_white);
+    padding: 2px 2px !important;
+}
+
+.contextmenu_contextMenuContents_2y2tU {
+    background: var(--minimal_dark_be_grey);
+}
+
+.DesktopUI .contextmenu_contextMenuItem_pFo3k:hover  {
+    background: var(--minimal_dark_blacker);
+    color: #dcdedf;
+}
+
+.contextMenuItem:hover .jumplist_JumpListGameName_2Qcdr.jumplist_Updating_33a4z, .contextMenuItem:hover .jumplist_JumpListGameName_2Qcdr.jumplist_Running_54dy2 {
+    color: var(--minimal_dark_color);
+    font-weight: 400;
+}
+
+.DesktopUI .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU {
+	background: var(--minimal_dark_blacker);
+    color: white;
+}
+
+.DesktopUI .library_ContextMenuAction_Z5iAX.Stream, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic, .DesktopUI .library_ContextMenuAction_Z5iAX.Play {
+    background-image: var(--minimal_dark_bgg) !important;
+    color: white;
+}
+
+.DesktopUI .library_ContextMenuAction_Z5iAX.Stream:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Stream:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Play:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Play:focus {
+    background: var(--minimal_dark_bgg) !important
+	color: white;
+}
+
+.DesktopUI .library_ContextMenuAction_Z5iAX.Download, .DesktopUI .library_ContextMenuAction_Z5iAX.Update, .DesktopUI .library_ContextMenuAction_Z5iAX.PreLoad, .DesktopUI .library_ContextMenuAction_Z5iAX.Resume, .DesktopUI .library_ContextMenuAction_Z5iAX.Pause, .DesktopUI .library_ContextMenuAction_Z5iAX.BorrowApp, .DesktopUI .library_ContextMenuAction_Z5iAX.Stop, .DesktopUI .library_ContextMenuAction_Z5iAX.Cancel, .DesktopUI .library_ContextMenuAction_Z5iAX.Install, .DesktopUI .library_ContextMenuAction_Z5iAX.PurchaseApp {
+    background-image: var(--minimal_dark_bgb) !important;
+	color: white;
+}
+
+.DesktopUI .library_ContextMenuAction_Z5iAX.Download:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Download:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Update:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Update:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.PreLoad:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.PreLoad:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Resume:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Resume:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Pause:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Pause:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.BorrowApp:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.BorrowApp:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Stop:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Stop:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Cancel:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Cancel:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Install:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Install:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.PurchaseApp:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.PurchaseApp:focus {
+    background-image: var(--minimal_dark_bgb) !important;
+	color: white;
+}
+
+.DesktopUI [class*="libraryhomeshowcases_CollectionDropDownContainer_"][class*="libraryhomeshowcases_CollectionDropDownContainer_"] ._DialogInputContainer {
+    background: var(--minimal_dark_be_grey) !important;
+    color: var(--minimal_dark_less_white);
+}
+
+.DesktopUI [class*="libraryhomeshowcases_CollectionDropDownContainer_"][class*="libraryhomeshowcases_CollectionDropDownContainer_"] [class*="libraryhomeshowcases_DropDownItems_"]:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_less_white);
+}
+
+.rootmenu_SteamButton_bSKGl .rootmenu_Logo_GG9wV {
+    width: 18px;
+    height: 18px;
+    margin-top: 0px;
+    transform: scale(1.25);
+}
+
+.rootmenu_RootMenuButton_2UyOB {
+    color: var(--minimal_dark_topgrey);
+    font-size: 12px;
+    padding: 6px 4px;
+    transition: none !important;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+	padding-left: 10px;
+	margin-left: -8px;
+}
+
+.rootmenu_RootMenuButton_2UyOB:hover:not(.rootmenu_Disabled_2hcbl) {
+    color: var(--minimal_dark_color);
+    cursor: pointer;
+}
+
+.rootmenu_RootMenuButton_2UyOB:active:not(.rootmenu_Disabled_2hcbl) {
+    color: var(--minimal_dark_white);
+    cursor: pointer;
+}
+
+.steamdesktop_TitleBar_39oUC .steamdesktop_RootMenuBar_3s0lk {
+    flex: 0 0 auto;
+    margin-top: 2px;
+    border-right: 1px solid var(--minimal_dark_be_grey);
+    padding-right: 12px;
+}
+
+.supernav_SuperNav_2D64j {
+    width: 100%;
+    height: 104%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.supernav_SuperNavMenu_7AlhC {
+	font-size: 13px !important;
+	font-weight: 300;
+    height: inherit;
+    text-transform: none;
+    overflow-x: visible;
+    cursor: pointer;
+    margin-top: 0px;
+    border: 1px solid var(--minimal_dark_be_grey);
+	transform: translate(7px, 0px);
+}
+
+.supernav_SuperNavMenu_7AlhC:hover:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK {
+    color: var(--minimal_dark_white);
+    transition: color .15s ease-out,text-shadow .15s ease-out;
+    cursor: pointer;
+}
+
+.supernav_SuperNavMenu_7AlhC:active:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK {
+    color: var(--minimal_dark_color);
+    transition: color .15s ease-out,text-shadow .15s ease-out;
+    cursor: pointer;
+}
+
+.steamdesktop_LocalContentContainer_RGNMW.steamdesktop_Library_3WJCt .steamdesktop_URLBarReplacement_2Cmrn {
+    box-shadow: inset rgba(61,68,80,.75) 1px 0px 0px 0px, inset rgba(61,68,80,.25) -1px 0px 0px 0px;
+    display: none;
+}
+
+.supernav_SuperNavMenu_7AlhC .supernav_MenuButton_19axK {
+    color: #dcdedf;
+    margin-top: 8px;
+}
+
+.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK {
+    color: var(--minimal_dark_color);
+    text-shadow: 0px 0px 1px var(--minimal_dark_color);
+    transition: text-shadow .15s ease-out;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.supernav_Arrow_25lBL {
+    min-width: 16px;
+    width: 16px;
+    min-height: 16px;
+    height: 16px;
+    color: #67707b;
+    padding: 0 4px 6px;
+    transition: color .15s ease-out;
+    -webkit-app-region: no-drag;
+    margin-top: 6px;
+}
+
+.steamdesktop_SuperNavBar_3Z3oh {
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    min-height: 32px;
+    -webkit-app-region: drag;
+    max-width: 500px;
+    position: fixed;
+    margin-left: 245px;
+    margin-top: 0px;
+}
+
+.titlebarcontrols_GamepadUIToggle_3LKQ3 {
+    display: none;
+}
+
+.bottombar_FriendsButton_1TdaA {
+	display:none;
+}
+
+.bottombar_AddGameButton_2foCk {
+	display:none;
+}
+
+.bottombar_DetailedDownloadProgress_2VtAq {
+	margin-top: -1px;
+}
+
+.bottombar_ProgressBarWrapper_2_Fom .bottombar_Status_1sCy- {
+    flex-grow: 1;
+    text-transform: none;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ .bottombar_Status_1sCy- {
+    font-size: 12px;
+    color: transparent;
+    font-weight: 400;
+}
+
+.bottombar_ProgressBarWrapper_2_Fom .bottombar_Percentage_1-TLi {
+    flex-grow: 0;
+    color: var(--minimal_dark_browser_overlay_close);
+	transform: translate(-27px, 1px);
+}
+
+.bottombar_Icon_1KrJ3 {
+	width: 17px !important;
+	height: 17px !important;
+}
+
+.bottombar_ProgressBarWrapper_2_Fom { 
+	margin-top: -3px !important;
+}
+
+.bottombar_DetailedDownloadProgress_2VtAq {
+	max-width: 30px !important;
+	border-radius: var(--minimal_dark_corner5) !important;
+}
+
+.bottombar_DetailedDownloadProgress_2VtAq .bottombar_IconBevel_21vPQ {
+	background-image: none !important;
+}
+
+[class*="bottombar_DownloadStatusContent_"] {
+	display:block;
+	max-width:11px;
+	width:16px;
+	padding:12px 8px;
+	overflow:visible;
+	height:14px;
+}
+
+[class*="bottombar_DownloadStatusContent_"] [class*="bottombar_Icon_"] svg {
+	transform:scale(1);
+	color: var(--minimal_dark_blacker);
+	background: #d2d2d2;
+	display:none;
+}
+
+[class*="bottombar_DownloadStatusContent_"] [class*="bottombar_Icon_"],[class*="bottombar_DownloadStatusContent_"] [class*="bottombar_Status_"] {
+	background-repeat: no-repeat;
+    background-position: center;
+    width: 14px;
+    height: 14px;
+    margin-bottom: 0px;
+    margin-top: -2px;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ {
+    flex-grow: 1;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 30vw;
+    gap: 10px;
+    padding: 6px 6px 6px 6px;
+    color: rgba(255,255,255,.8);
+    cursor: pointer;
+    transition-duration: .1s;
+    -webkit-app-region: none;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ:hover .bottombar_Icon_1KrJ3 {
+    color: #9ba2ab;
+}
+
+[class*="bottombar_ProgressBarWrapper_"] [class*="bottombar_ProgressBar_"] {
+	height: 4px;
+    --color-progress-bar-background: var(--minimal_dark_greyblack2) !important;
+    --color-progress-bar-foreground: var(--minimal_dark_status_green) !important;
+	transform: translate(-18px, 3px);
+}
+
+.bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD {
+    height: 5px;
+    --color-progress-bar-foreground: var(--minimal_dark_blue);
+    --color-progress-bar-background: var(--minimal_dark_greyblack2);
+	transform: translate(-16px, 2px);
+}
+
+.gamelistentry_AppIconDownloading_2kzMb svg.gamelistentry_DownloadProgressSVG_f6-7- circle {
+    stroke-width: 60px;
+    stroke: var(--minimal_dark_status_green);
+    transition-property: stroke-dashoffset;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+
+.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3, .bottombar_Icon_1KrJ3, .bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx {
+	margin-bottom: 2px !important;
+}
+
+.bottombar_AddGameButton_2foCk .bottombar_Text_3OhUx, .bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx, .bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT{
+	display: none !important;
+}
+
+.bottombar_DownloadStatus_2EQ7g {
+	margin-top: 2px !important;
+	margin-right: auto !important;
+	position: relative !important;
+	-webkit-app-region: no-drag !important;
+} 
+
+.bottombar_DownloadStatus_2EQ7g {
+    margin-top: -.5px !important;
+    margin-right: auto !important;
+    position: relative !important;
+    -webkit-app-region: no-drag !important;
+}
+
+.titlebarcontrols_TitleBarControls_3cykd {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 58px;
+}
+
+.bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD {
+    height: 5px;
+    --color-progress-bar-foreground: var(--minimal_dark_color);
+    --color-progress-bar-background: #000000;
+    border-radius: 0px;
+}
+
+[class*="supernav_Arrow_"][class*="supernav_Disabled_"] {
+    filter: opacity(1);
+    color: var(--minimal_dark_greyblack1) !important;
+    border: 1px solid var(--minimal_dark_greyblack1);
+    padding: 3px 3px;
+}
+
+[class*="supernav_Arrow_"][class*="supernav_Enabled_"]:hover {
+    background-color: var(--minimal_dark_transparent) !important;
+    filter: opacity(1);
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color);
+}
+
+[class*="supernav_Arrow_"][class*="supernav_Enabled_"]:active {
+    background-color: var(--minimal_dark_transparent) !important;
+    filter: opacity(1);
+    color: var(--minimal_dark_white) !important;
+    border: 1px solid var(--minimal_dark_white);
+}
+
+.supernav_Arrow_25lBL {
+    margin-top: -.5px !important;
+    margin-right: 6px;
+    min-width: 16px;
+    width: 16px;
+    min-height: 16px;
+    height: 16px;
+    color: #e1e6ecd9;
+    padding: 3px;
+    transition: none;
+    -webkit-app-region: no-drag;
+    border: 1px solid var(--minimal_dark_greyblack);
+    border-radius: 15px;
+}
+
+.supernav_Arrow_25lBL:first-child {
+    padding-left: 3px;
+    margin-left: 6px;
+}
+
+.titlebarcontrols_NotificationHeader_MCa4R .titlebarcontrols_AllNotificationsButton_1oERP {
+    background-color: var(--minimal_dark_black);
+    color: #fff;
+    border-style: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.titlebarcontrols_NotificationHeader_MCa4R .titlebarcontrols_AllNotificationsButton_1oERP:hover {
+    background-color: var(--minimal_dark_blacker);
+    transition-property: background;
+    transition-duration: 250ms;
+}
+
+.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--minimal_dark_color);
+    border-radius: 3px;
+    animation: supernav_slide_2wrHk .5s;
+}
+
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(3) {
+	color: var(--minimal_dark_transparent);
+    width: 19px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 10px;
+    background-color: var(--minimal_dark_topgrey);
+    -webkit-mask-image: var(--minimal_dark_display);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(1.05);
+}
+
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(3):hover {
+    color: var(--minimal_dark_transparent);
+    width: 19px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 10px;
+    background-color: var(--minimal_dark_color);
+    -webkit-mask-image: var(--minimal_dark_display);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+	transform: scale(1.05);
+}
+
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(3):active {
+    color: var(--minimal_dark_transparent);
+    width: 19px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 10px;
+    background-color: var(--minimal_dark_white);
+    -webkit-mask-image: var(--minimal_dark_display);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+	transform: scale(0.95);
+}
+
+/* Contact menu */
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(5) {
+	color: var(--minimal_dark_transparent);
+    width: 22px;
+    margin-left: 7px;
+    margin-top: -2px;
+    background-color: var(--minimal_dark_topgrey);
+    -webkit-mask-image: var(--minimal_dark_contact);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(1) translate(0px, 1px);
+}
+
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(5):hover {
+    color: var(--minimal_dark_transparent);
+    width: 22px;
+    margin-left: 7px;
+    margin-top: -2px;
+    background-color: var(--minimal_dark_color);
+    -webkit-mask-image: var(--minimal_dark_contact);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(1) translate(0px, 1px);
+}
+
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(5):active {
+	color: var(--minimal_dark_transparent);
+    width: 22px;
+    margin-left: 7px;
+    margin-top: -2px;
+    background-color: var(--minimal_dark_white);
+    -webkit-mask-image: var(--minimal_dark_contact);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(0.9) translate(0px, 1px);
+}
+
+/* Game menu */
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(7) {
+    color: var(--minimal_dark_transparent);
+    width: 16px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 8px;
+    margin-top: 0px;
+    background-color: var(--minimal_dark_topgrey);
+    -webkit-mask-image: var(--minimal_dark_game);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(1.15);
+}
+
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(7):hover {
+    color: var(--minimal_dark_transparent);
+    width: 16px;
+    padding: 5px 0px 5px 0px;
+    margin-left: 8px;
+    margin-top: 0px;
+    background-color: var(--minimal_dark_color);
+    -webkit-mask-image: var(--minimal_dark_game);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+	transform: scale(1.15);
+}
+
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(7):active {
+    color: var(--minimal_dark_transparent);
+    width: 16px;
+    padding: 5px 0px 5px 0px;
+    margin-left: 8px;
+    margin-top: 0px;
+    background-color: var(--minimal_dark_white);
+    -webkit-mask-image: var(--minimal_dark_game);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+	transform: scale(1.05);
+}
+
+/* Support menu */
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(9) {
+	color: var(--minimal_dark_transparent);
+    width: 19px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 9px;
+    margin-top: 0px;
+    background-color: var(--minimal_dark_topgrey);
+    -webkit-mask-image: var(--minimal_dark_help);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(1.1);
+}
+
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(9):hover {
+	color: var(--minimal_dark_transparent);
+    width: 19px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 9px;
+    margin-top: 0px;
+    background-color: var(--minimal_dark_color);
+    -webkit-mask-image: var(--minimal_dark_help);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(1.1);
+}
+
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(9):active {
+	color: var(--minimal_dark_transparent);
+    width: 19px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 9px;
+    margin-top: 1px;
+    background-color: var(--minimal_dark_white);
+    -webkit-mask-image: var(--minimal_dark_help);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    transform: scale(1);
+}
+
+.menu_MenuItem_2jXHP.menu_Separator_21GPY {
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 0.5px solid var(--minimal_dark_blacker);
+    margin: 0px;
+    padding: 0px;
+}
+
+.titlebarcontrols_AccountMenu_3yD46:hover {
+    transition: background-color .15s ease-out;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 0px rgba(76,180,255,.2);
+}
+
+.titlebarcontrols_AccountMenu_3yD46:active {
+    background-color: transparent;
+    transition: background-color .15s ease-out;
+    cursor: pointer;
+    box-shadow: inset 0px 1px 10px 1px rgb(0 0 0);
+}
+
+.standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q {
+    background: var(--minimal_dark_blacker);
+}
+

@@ -1,0 +1,44 @@
+.downloads_ItemListScrollWrapper_Z6wLC {
+    overflow: hidden;
+    flex-grow: 1;
+    background-color: var(--minimal_dark_blacker_alt);
+}
+
+.downloads_SectionItem_1VNuY:hover, .downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
+    background-color: var(--minimal_dark_black);
+    border-radius: 2px;
+}
+
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
+    background: var(--minimal_dark_be_grey);
+}
+
+.downloads_SectionItem_1VNuY:hover, .downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
+    background-color: var(--minimal_dark_black);
+    border-radius: 2px;
+}
+
+.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
+    background: var(--minimal_dark_blacker);
+}
+
+.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5:hover.DialogButton:enabled {
+    background: var(--minimal_dark_red);
+    color: #fff;
+    box-shadow: none;
+}
+
+.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5:active.DialogButton:enabled {
+    background: var(--minimal_dark_red2);
+    color: #fff;
+    box-shadow: inset 0px 0px 4px black;
+}
+
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
+    background: var(--minimal_dark_invisblegrey);
+    color: #dcdedf;
+}
+
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover {
+    background: var(--minimal_dark_invisblegrey);
+}

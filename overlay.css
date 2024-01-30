@@ -1,0 +1,411 @@
+.steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s {
+    position: relative;
+    padding: 0px 4px 4px 9px;
+    display: flex;
+    align-items: center;
+    background: #23262e;
+    background: var(--minimal_dark_blacker_alt);
+    box-shadow: inset rgba(61,68,80,.75) 1px 0px 0px 0px, inset rgba(61,68,80,.25) -1px -1px 0px 0px;
+    border-top: 1px solid var(--minimal_dark_be_grey);
+}
+
+.apppartnereventspage_AppPartnerEventsBanner_2yR2O {
+    width: 100%;
+    background-color: var(--minimal_dark_blacker_alt);
+    background-image: radial-gradient(ellipse at bottom center, rgba(255, 255, 255, 0.1) 10%, rgba(255, 255, 255, 0) 80%);
+    display: flex;
+    box-shadow: 0 0 10px #000;
+    z-index: 3;
+}
+
+.apppartnereventspage_PartnerEvent_lwprN {
+    max-width: 848px;
+    overflow: hidden;
+    margin: 56px auto 16px auto;
+    position: relative;
+    background-color: var(--minimal_dark_blacker_alt);
+    border-radius: 4px;
+    background-image: radial-gradient(ellipse at top left, #42454c, #000000);
+    box-shadow: 0 0 32px #000;
+    pointer-events: initial;
+    border: 1px solid transparent;
+    font-weight: 300;
+}
+
+.steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_URLBarText_2m_or {
+    margin-top: 2px;
+}
+
+.steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_URLBarText_2m_or:hover {
+    cursor: pointer;
+    background: var(--minimal_dark_grey);
+    border-radius: 0px;
+    margin-top: 2px;
+}
+
+.addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_Header_3m0Mn {
+    margin-top: 8px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    background: var(--minimal_dark_blacker);
+    border: 1px solid #0e141b;
+    border-bottom: none;
+}
+
+.addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_GameList_1e6tj {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: var(--minimal_dark_blacker);
+    border: 1px solid #0e141b;
+    box-shadow: inset 0px 4px 4px rgba(0,0,0,.25);
+    border-radius: 2px;
+}
+
+.DesktopUI .contextmenu_contextMenu_LQkrb, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb {
+    box-shadow: 0 10px 32px 0px #000000ab;
+    background: var(--minimal_dark_black);
+    -webkit-app-region: no-drag;
+}
+
+.DesktopUI .DesktopUI .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k:hover, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU {
+    background: var(--minimal_dark_blacker_alt);
+    color: #dcdedf;
+}
+
+.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB {
+    background: var(--minimal_dark_blacker_alt);
+    flex: 1;
+    min-width: 140px;
+    max-width: 220px;
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.pagedsettings_PagedSettingsDialog_PageContent_1I3Ni.DesktopUI, .DesktopUI .pagedsettings_PagedSettingsDialog_PageContent_1I3Ni {
+    padding: 24px 0px 0px 24px;
+    background: var(--minimal_dark_blacker);
+}
+
+.settings_SettingsDialogFatButton_UqEiV.DesktopUI, .DesktopUI .settings_SettingsDialogFatButton_UqEiV {
+    background-color: var(--minimal_dark_black);
+    padding: 6px 0;
+    line-height: 16px;
+}
+
+.pagedsettings_PagedSettingsDialog_PageListItem_bkfjn.pagedsettings_Active_Myra7 {
+    color: #fff;
+    background-color: var(--minimal_dark_black);
+}
+
+.pagedsettings_PagedSettingsDialog_PageListItem_bkfjn:not(.pagedsettings_Active_Myra7):hover {
+    background-color: var(--minimal_dark_blacker);
+    color: white;
+}
+
+.pagedsettings_PagedSettingsDialog_PageListItem_bkfjn:not(.pagedsettings_Active_Myra7):hover .pagedsettings_PageListItem_Icon_U6HcK {
+    color: white;
+}
+
+.settings_SettingsDialogButton_3epr8.DesktopUI, .DesktopUI .settings_SettingsDialogButton_3epr8 {
+    color: #dfe3e6;
+    background-color: var(--minimal_dark_black);
+    padding: 8px 14px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, button.DialogButton:enabled:active.gpfocus {
+    background: var(--minimal_dark_dark);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.6);
+    transition-duration: .04s;
+}
+
+.DesktopUI .title-area-icon:hover, .friendsui-container .title-area-icon:hover {
+    background: var(--minimal_dark_blacker);
+    transition: background .15s ease-out;
+}
+
+.DesktopUI .title-area-icon:active, .friendsui-container .title-area-icon:active {
+    background: var(--minimal_dark_blacker);
+    transition: background .15s ease-out;
+}
+
+.console_Console_1fuML {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--minimal_dark_blacker);
+    user-select: text;
+}
+
+.franchise_notice {
+    display: block;
+    position: relative;
+    height: 54px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+    border-radius: 0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.console_SpewLine_3jy87 .console_Input_31oMF {
+    color: var(--minimal_dark_fluogreen);
+}
+
+.console_Console_1fuML, .console_Console_1fuML pre {
+    font-family: "Consolas","Lucida Console",monospace;
+    font-size: 13px;
+    color: var(--minimal_dark_browser_overlay_close);
+}
+
+.steamdesktopoverlay_OverlayPopup_C9tvu {
+    background: var(--minimal_dark_blacker_alt);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    transition: opacity .2s linear;
+}
+
+.desktopbrowser_BrowserTabs_aqvbk .desktopbrowser_BrowserTab_TSlxC.desktopbrowser_Active_1W4bb {
+    background-color: var(--minimal_dark_blacker_alt);
+    border: 1px solid #3d4450;
+    border-left: 0px;
+}
+
+.desktopbrowser_BrowserTabs_aqvbk .desktopbrowser_BrowserTab_TSlxC {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+    background-color: var(--minimal_dark_blacker_alt);
+    border: 1px solid #23262e;
+    border-left: 0px;
+    cursor: pointer;
+}
+
+.desktopbrowser_URLBar_26Gmf {
+    position: relative;
+    padding: 4px 4px 4px 9px;
+    display: flex;
+    align-items: center;
+    background: var(--minimal_dark_blacker_alt);
+}
+
+.desktopbrowser_URLBar_26Gmf .desktopbrowser_NavigationButton_1oXr_:hover {
+    cursor: pointer;
+    background: var(--minimal_dark_black);
+    border-radius: 2px;
+    color: #fff;
+}
+
+.desktopbrowser_BrowserTabs_aqvbk .desktopbrowser_BrowserTab_TSlxC:hover {
+    background-color: var(--minimal_dark_black);
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO {
+    background: var(--minimal_dark_black);
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 {
+    background: var(--minimal_dark_be_grey);
+}
+
+.standardtemplates_PinnedTemplateWeb_MmdBj, .standardtemplates_PinnedTemplateDesktop_2caCr {
+    height: 36px;
+    padding: 0px;
+    position: relative;
+    background-color: var(--minimal_dark_blacker);
+    border-radius: 2px;
+    margin: 0 auto 2px auto;
+}
+
+.standardtemplates_PinnedTemplateWeb_MmdBj:hover, .standardtemplates_PinnedTemplateDesktop_2caCr:hover {
+    background: var(--minimal_dark_black);
+}
+
+.collectionview_OuterContainer_2sNr7 {
+    min-height: 100%;
+    background: var(--minimal_dark_blacker_alt);
+}
+
+.libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
+    background: var(--minimal_dark_blacker_alt);
+    user-select: none;
+}
+
+.desktopbrowser_BrowserTabs_aqvbk .desktopbrowser_BrowserTab_TSlxC .desktopbrowser_CloseTabButton_2DQbo :hover {
+    color: var(--minimal_dark_red2);
+}
+
+.writereview_FormContainer_sK8bm .writereview_ReviewTextArea_392iE {
+    border: none;
+	padding: 10px;
+	box-shadow: 0px 0px 10px black;
+}
+
+.writereview_ReviewTextArea_392iE {
+    background: var(--minimal_dark_blacker);
+    color: white;
+	padding: 10px;
+}
+
+.writereview_FormContainer_sK8bm .writereview_ReviewTextArea_392iE:focus {
+    outline: none !important;
+	padding: 10px;
+}
+
+.DesktopUI .installrequest_FolderOption_Oo5JP {
+    color: #fff;
+    background: var(--minimal_dark_black);
+}
+
+.DesktopUI .installrequest_FolderOption_Oo5JP:hover {
+    color: #fff;
+    background: var(--minimal_dark_be_grey);
+}
+
+button.DialogButton.Primary {
+    background: var(--minimal_dark_bgb) !important;
+    background-position: 25%;
+    background-size: 330% 100%;
+}
+
+button.DialogButton.Primary:hover {
+    background: var(--minimal_dark_bgb) !important;
+    background-position: 25%;
+    background-size: 330% 100%;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.3)
+}
+
+.DesktopUI .installrequest_FolderOption_Oo5JP.installrequest_Active_gkgG- {
+    background: var(--minimal_dark_bgb) !important;
+    color: #fff;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.3)
+	
+}
+
+button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:hover:active, button.DialogButton.Primary:enabled:active.gpfocus {
+    background: var(--minimal_dark_bgb) !important;
+    background-position: 40%;
+    transition-duration: .04s;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 3px 10px #000000ab;
+}
+
+div.ModalPosition_TopBar {
+    background: var(--minimal_dark_bgb) !important;
+}
+
+.mediamanagerutils_ButtonBox_28eIR.mediamanagerutils_Secondary_QE3sH {
+    background-color: var(--minimal_dark_be_grey);
+}
+
+.mediamanagerutils_ButtonBox_28eIR.mediamanagerutils_Secondary_QE3sH:hover {
+    background-color: var(--minimal_dark_greyblack1);
+}
+
+.mediamanagerutils_ButtonBox_28eIR.mediamanagerutils_Secondary_QE3sH:active {
+    background-color: var(--minimal_dark_blacker);
+}
+
+.serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_TopControlsCtr_2X_Zp button.serverbrowserdialog_SwitchTabButton_1jEPp.serverbrowserdialog_Selected_L3t04 {
+    font-weight: bold;
+    color: #fff;
+    background: var(--minimal_dark_color);
+}
+
+.serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_ServerList_2_4_n {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background: var(--minimal_dark_be_grey);
+    border: 1px solid #0e141b;
+    box-shadow: inset 0px 4px 4px rgba(0,0,0,.25);
+}
+
+.serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_ServerList_2_4_n .serverbrowserdialog_ServerListHeaderCtr_2cIK- {
+    background: var(--minimal_dark_blacker);
+}
+
+.serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_ServerList_2_4_n .serverbrowserdialog_SelectColumnsButton_3mCrT {
+    background: var(--minimal_dark_be_grey);
+}
+
+.serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_BottomControlsRow_341md .serverbrowserdialog_ToggleShowFilterDetailsButton_30Bn7.serverbrowserdialog_Selected_L3t04 {
+    color: #fff;
+    background: var(--minimal_dark_black);
+}
+
+button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogButton.Disabled, button.DialogButton.Disabled:hover {
+    background: var(--minimal_dark_be_grey);
+}
+
+.playersdialog_PlayersListHeaderCtr_20eva {
+    background: var(--minimal_dark_grey);
+}
+
+.playersdialog_PlayersListBody_3kjEL {
+    background: var(--minimal_dark_black);
+}
+
+.games_list_tabs_ctn {
+    background: var(--minimal_dark_black);
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.hardwaresurveydialog_HardwareSurveyDialog_3v2Gg.hardwaresurveydialog_Desktop_hYVp3 .hardwaresurveydialog_HardwareSurveySections_3f3VJ {
+    background: var(--minimal_dark_be_grey);
+}
+
+button.DialogButton.Primary {
+    background: var(--minimal_dark_bgb);
+}
+
+button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:hover:active, button.DialogButton.Primary:enabled:active.gpfocus {
+    background: var(--minimal_dark_bgb);
+    box-shadow: inset 0px 0px 5px black;
+}
+
+button.DialogButton {
+    background: var(--minimal_dark_invisblegrey);
+}
+
+button.DialogButton:hover, button.DialogButton.gpfocus {
+    background: var(--minimal_dark_be_grey);
+    color: #fff;
+}
+
+button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, button.DialogButton:enabled:active.gpfocus {
+    background: var(--minimal_dark_blacker_alt);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.6);
+    transition-duration: .04s;
+}
+
+.steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_StatusIcon_3izqE {
+    height: 18px;
+    color: var(--minimal_dark_topgrey);
+}
+
+.steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_ReloadButton_3KaB9 {
+    margin-top: 1px;
+}
+
+.steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_ReloadButton_3KaB9:hover {
+    margin-top: 1px;
+}

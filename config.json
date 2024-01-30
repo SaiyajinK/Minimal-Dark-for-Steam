@@ -1,0 +1,17 @@
+{
+  "patch": [
+    { "url": "store.steampowered.com", "css": "webkit.css", "js": "libraryroot.custom.js", "remote": true },
+	{ "url": "steamcommunity.com", "css": "webkit.css", "remote": true },
+    { "url": "Steam", "css": "libraryroot.custom.css", "js": "steam.js", "remote": false },
+    { "url": "Friends List", "css": "friends.custom.css", "remote": false },
+    { "url": "Profile Supernav", "css": "libraryroot.custom.css","remote": false },
+    { "url": "Community Supernav", "css": "libraryroot.custom.css", "remote": false },
+    { "url": "Library Supernav", "css": "libraryroot.custom.css", "remote": false },
+    { "url": "Store Supernav", "css": "libraryroot.custom.css", "remote": false },
+    { "url": "Account Menu", "css": "libraryroot.custom.css", "remote": false },
+    { "url": "Steam Root Menu", "css": "libraryroot.custom.css", "remote": false },
+    { "url": "Menu", "css": "libraryroot.custom.css", "remote": false },
+    { "url": "Steam Settings", "css": "libraryroot.custom.css", "remote": false },
+    { "url": "Steam Big Picture Mode", "css": "bigpicture.custom.css", "remote": false }
+	]
+}
