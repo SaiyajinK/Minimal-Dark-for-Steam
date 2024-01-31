@@ -275,3 +275,12 @@
 .appportrait_Draggable_1pwP4.appportrait_HoversEnabled_54PuC:not(.appportrait_Soundtrack_3Lu_5):hover .appportrait_AppPortraitBannerContainer_2jj5T {
     transform: none;
 }
+
+.libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd .libraryhomenewupdates_EventTimeSpan_3OSZu {
+    background-color: rgba(var(--minimal_dark_color_rgba), .05) !important;
+    color: #fff;
+    backdrop-filter: blur(30px);
+    border-top-left-radius: 5px;
+    border-top: 1px solid var(--minimal_dark_invisblegrey) !important;
+    border-left: 1px solid var(--minimal_dark_invisblegrey) !important;
+}
