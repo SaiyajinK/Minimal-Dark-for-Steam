@@ -48,7 +48,7 @@ I re-edited and fix the whole code according to my theme. <br>
 ## `🔗 Download & installation 🔗` <br>
 
 1️⃣ - Download & extract latest release [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/releases)<br>
-2️⃣ - Copy skins folder to "C:\Program Files (x86)\Steam\steamui\"<br>
+2️⃣ - Copy `Minimal-Dark-for-Steam` folder to "C:\Program Files (x86)\Steam\steamui\skins\"<br>
 
 ![npi7oFttSE](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/b239aef2-7d25-4bad-86ab-245f1cbf0bfb) <br>
 
