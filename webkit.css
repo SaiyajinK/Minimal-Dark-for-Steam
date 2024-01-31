@@ -5528,6 +5528,15 @@ body.v6 .game_page_background {
     background-image: var(--minimal_dark_bgb) !important;
 }
 
+.salesection_ShowContentsContainer_14g7C .salesection_ShowContentsButton_p8mU9 {
+    color: white !important;
+    background: rgba(255,255,255,.7);
+}
 
+.salesection_ShowContentsContainer_14g7C .salesection_ShowContentsButton_p8mU9:hover {
+    color: white !important;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.7);
+}
 
 /* end webkit */
