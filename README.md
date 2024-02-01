@@ -45,16 +45,16 @@ I re-edited and fix the whole code according to my theme. <br>
 
 ![Webkit](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/77ac0c6c-6b26-4446-912c-736848ad5ab6) <br> 
 
-## `✅ Quick installation (recommanded) ✅` <br>
-🔝 Using [Millennium](https://millennium.web.app/) <br>
+## `✅ Quick installation (Recommended) ✅` <br>
+🔝 Using [Millennium](https://millennium.web.app/) drag the theme from the download button onto the millennium interface. <br>
 <br>
 
 ## `🔗 Manual installation 🔗` <br>
 
 1️⃣ - Download & extract latest release [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/releases)<br>
 2️⃣ - Copy `Minimal-Dark-for-Steam` folder to "C:\Program Files (x86)\Steam\steamui\skins\"<br>
-3️⃣ - Download latest SFP [here](https://github.com/PhantomGamers/SFP/releases) <br>
-4️⃣ - Launch SFP, in settings go to Steam, check "Inject JavaScript", and now select steam skin (steam will reload automatically). If you want dev Steam, type `-dev` on the end of launch arguments to get `-cef-enable-debugging -dev`.<br>
+3️⃣ - Download latest Millennium version [here](https://millennium.web.app/), or SFP [here](https://github.com/PhantomGamers/SFP/releases)  <br>
+4️⃣ - Launch Steam and in Millennium or SFP, check "Inject JavaScript", and now select steam skin (steam will reload automatically). If you want dev Steam, type `-dev` on the end of launch arguments to get `-cef-enable-debugging -dev`.<br>
 
 ## `🛠️ Tools used 🛠️` <br>
 - Steam DevTools <br>
