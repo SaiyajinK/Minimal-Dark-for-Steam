@@ -5558,4 +5558,18 @@ body.v6 .game_area_already_owned.page_content {
     color: var(--minimal_dark_progress_bar) !important;
 }
 
+.ds_flag.ds_owned_flag {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.ds_flag.ds_owned_flag {
+    background: #19191961 !important;
+    backdrop-filter: blur(30px);
+}
+
+.ds_flag.ds_owned_flag {
+    background: none;
+	padding-left: 4px;
+}
+
 /* end webkit */
