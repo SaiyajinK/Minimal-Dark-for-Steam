@@ -1,0 +1,24 @@
+{
+  "Steam-WebKit": "webkit.css",
+  "UseDefaultPatches": true,
+
+  "author": "SaiyajinK",
+  "description": "A dark minimalist skin for steam new UI ",
+  "name": "Minimal Dark for Steam",
+  "version": "2.1.0",
+
+  "github": {
+    "owner": "SaiyajinK",
+    "repo_name": "Minimal-Dark-for-Steam"
+  },
+  "discord_support": {
+    "inviteCodeExcludingLink": "https://discord.gg/KvKsDMq43E"
+  },
+  "tags": [
+    "Minimal Dark for Steam",
+    "Steam skin",
+    "minimal UI"
+  ],
+  "header_image": "http://site.com/path/to/thumbnail.png",
+  "splash_image": "http://site.com/path/to/splash.png"
+}
