@@ -53,7 +53,7 @@ I re-edited and fix the whole code according to my theme. <br>
 7️⃣ - Return to the `Library tab` and refresh the list of downloaded skins and click on `Minimal Dark for Steam`.<br>
 
 ## `🎥 Video installation 🎥`<br>
-[<img src="https://i.imgur.com/ZjdSZPS.png" width="50%">](https://www.youtube.com/watch?v=Hc79sDi3f0U)
+[<img src="https://i.imgur.com/ZjdSZPS.png" width="50%">](https://youtu.be/4GHb2_N6D3g)
 
 
 ## `🔗 Manual installation with SFP 🔗` <br>
