@@ -409,3 +409,20 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 .steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_ReloadButton_3KaB9:hover {
     margin-top: 1px;
 }
+
+.reaction_award_hover .reaction_award_info {
+    padding: 10px;
+    text-align: center;
+    background: var(--minimal_dark_less_white);
+}
+
+.achieveBarProgress {
+    height: 8px;
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.achieveBar {
+    background: var(--minimal_dark_blacker_alt) !important;
+    padding: 1px;
+    border: 1px solid #aeaeae;
+}
