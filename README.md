@@ -66,4 +66,4 @@ I re-edited and fix the whole code according to my theme. <br>
 ## `🖱️ Contributors links 🖱️` <br>
 - [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit<br>
 - [Unofficial Patch for Metro for Steam](https://discord.gg/dMsSwufK7Q) for sharing reboot/reload script<br>
-- [ShadowMonster99](https://millennium.web.app/](https://github.com/ShadowMonster99/millennium-steam-patcher)https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
+- [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
