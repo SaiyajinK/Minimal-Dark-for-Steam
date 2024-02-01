@@ -3270,7 +3270,8 @@ body.v6 #footer .rule {
 }
 
 .ds_flag.ds_owned_flag {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner0)!important;
+    color: var(--minimal_dark_browser_overlay_close);
 }
 
 .ds_flag.ds_wishlist_flag {
@@ -5174,7 +5175,7 @@ body.v6 .game_page_background {
 }
 
 .game_area_purchase_game.demo_above_purchase {
-    background: var(--minimal_dark_bgg) !important;
+    background: var(--minimal_dark_black) !important;
 }
 
 .game_area_purchase_game, .game_area_offsite_purchase {
@@ -5537,6 +5538,24 @@ body.v6 .game_page_background {
     color: white !important;
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,.7);
+}
+
+.gutter_header {
+    color: var(--minimal_dark_color) !important;
+}
+
+a.gutter_item {
+    color: var(--minimal_dark_less_white) !important;
+    font-weight: 400 !important;
+}
+
+a.gutter_item:hover {
+    color: white !important;
+}
+
+body.v6 .game_area_already_owned.page_content {
+	background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_progress_bar) !important;
 }
 
 /* end webkit */
