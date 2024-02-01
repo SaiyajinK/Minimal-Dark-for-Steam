@@ -284,3 +284,26 @@
     border-top: 1px solid var(--minimal_dark_invisblegrey) !important;
     border-left: 1px solid var(--minimal_dark_invisblegrey) !important;
 }
+
+.appportraithover_CapsuleBackgroundContainer_Yts2c {
+    border-radius: 5px !important;
+}
+
+.appportraithover_AppPortraitHover_2sGn0 {
+    width: 240px;
+    height: fit-content;
+    background-color: var(--minimal_dark_invisblegrey);
+    backdrop-filter: blur(20px);
+	border-radius: 5px !important;
+}
+
+.appportraithover_PlaytimeDetails_1VGPO .appportraithover_Header_MIHa_ {
+    color: var(--minimal_dark_color);
+    font-weight: 600;
+}
+
+.appportrait_HoversEnabled_54PuC :hover .appportrait_LibraryItemBoxShine_MyNb5 {
+    opacity: .2;
+    transform: rotateZ(210deg) translateX(12%) translateY(32%);
+    filter: blur(10px);
+}
