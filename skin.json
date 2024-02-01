@@ -12,12 +12,12 @@
     "repo_name": "Minimal-Dark-for-Steam"
   },
   "discord_support": {
-    "inviteCodeExcludingLink": "https://discord.gg/KvKsDMq43E"
+    "inviteCodeExcludingLink": "KvKsDMq43E"
   },
   "tags": [
-    "Minimal Dark for Steam",
-    "Steam skin",
-    "minimal UI"
+    "minimal",
+    "dark",
+    "compact"
   ],
   "header_image": "https://i.imgur.com/6wN196b.png",
   "splash_image": "https://i.imgur.com/6YLmems.png"
