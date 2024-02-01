@@ -33,9 +33,6 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 
 ![Reboot   recharge menu](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/7f73abce-ede6-4011-8053-305d197156b0) <br> 
 
-## `📸 Screenchots 📸` <br> 
-![Game_view](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/3954cada-8278-464b-ae8a-832e25bb8e2e) <br> 
-
 ## `📸 Compact mode + friends 📸` <br> 
 ![Compact_view_and_Friends_list](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/7f831092-ab72-4490-aaaf-2dc9f3294472) <br>
 
@@ -43,14 +40,23 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 `Thanks Shiina for the base of the webkit` <br>
 I re-edited and fix the whole code according to my theme. <br>
 
-![Webkit](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/77ac0c6c-6b26-4446-912c-736848ad5ab6) <br> 
+![webkit](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/981efb46-7c9b-4eb8-be3a-4e002595fcb3) <br> 
 
-## `✅ Quick installation (recommanded) ✅` <br>
-🔝 Using [Millennium](https://millennium.web.app/) <br>
-<br>
+## `✅ Quick installation with Millennium (recommanded) ✅` <br>
+🔝 Using [Millennium](https://millennium.web.app/) :<br>
+1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
+2️⃣ - Clic on  `Integrate` and wait for the end of integration (Steam will close)<br>
+3️⃣ - Restart Steam and go `Settings` > `Interface` > `Steam Skin` > `Open Millennium`<br>
+4️⃣ - In Millennium interface click on `Settings` and check that `JavaScript Execution` is checked.<br>
+5️⃣ - Always in Millennium interface click on `Community` (Steam browser will open).<br>
+6️⃣ - Select the Minimal Dark for Steam theme and drag `Drop onto Millennium button` in the Millennium and wait download & installation<br>
+7️⃣ - Return to the `Library tab` and refresh the list of downloaded skins and click on `Minimal Dark for Steam`.<br>
 
-## `🔗 Manual installation 🔗` <br>
+## `🎥 Video installation 🎥`<br>
+[<img src="https://i.imgur.com/ZjdSZPS.png" width="50%">](https://www.youtube.com/watch?v=Hc79sDi3f0U)
 
+
+## `🔗 Manual installation with SFP 🔗` <br>
 1️⃣ - Download & extract latest release [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/releases)<br>
 2️⃣ - Copy `Minimal-Dark-for-Steam` folder to "C:\Program Files (x86)\Steam\steamui\skins\"<br>
 3️⃣ - Download latest SFP [here](https://github.com/PhantomGamers/SFP/releases) <br>
