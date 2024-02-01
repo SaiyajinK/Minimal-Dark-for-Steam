@@ -5554,7 +5554,7 @@ a.gutter_item:hover {
 }
 
 body.v6 .game_area_already_owned.page_content {
-	background: var(--minimal_dark_blacker) !important;
+    background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_progress_bar) !important;
 }
 
@@ -5569,7 +5569,7 @@ body.v6 .game_area_already_owned.page_content {
 
 .ds_flag.ds_owned_flag {
     background: none;
-	padding-left: 4px;
+    padding-left: 4px;
 }
 
 /* end webkit */
