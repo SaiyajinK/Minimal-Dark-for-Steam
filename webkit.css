@@ -5670,4 +5670,14 @@ body.v6 .store_nav #genre_flyout .popup_menu_subheader .popup_menu_item, body.v6
     color: var(--minimal_dark_color) !important;
 }
 
+.discount_block.no_discount .bundle_base_discount {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.discount_block.no_discount .discount_final_price {
+    color: var(--minimal_dark_progress_bar) !important;
+}
+
+
+
 /* end webkit */
