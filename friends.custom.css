@@ -587,3 +587,18 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     color: var(--minimal_dark_greygrey) !important;
 }
 
+.ToggleGroupChatList {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.FriendsListChatSection.ChatRoomListContainerParent.Collapsed .ToggleGroupChatList .SVGIcon_DoubleArrow {
+    transform: rotateZ(90deg) !important;
+    transition: all .2s ease-in-out;
+}
+
+.FriendsListChatSection.ChatRoomListContainerParent .ToggleGroupChatList .SVGIcon_DoubleArrow {
+    transition: all .2s ease-in-out;
+    transform: rotate(-90deg) !important;
+}
+
