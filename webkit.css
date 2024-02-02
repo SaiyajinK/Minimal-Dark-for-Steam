@@ -810,9 +810,9 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
     border-bottom: 2px solid var(--minimal_dark_color) !important;
 }
 
-.creator .responsive_page_template_content .popup_menu .popup_menu_item,.curator .responsive_page_template_content .popup_menu .popup_menu_item,.footer_content .popup_menu .popup_menu_item,.search_area .popup_body .match,.search_area .popup_body .match .match_name,.store_nav .popup_menu .popup_menu_item {
-	color:var(--minimal_dark_white)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+.creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name, .store_nav .popup_menu .popup_menu_item {
+    color: var(--minimal_dark_less_white) !important;
+    border-radius: var(--minimal_dark_corner0)!important;
 }
 
 .store_nav .tab.focus,.store_nav .tab.focus>span,.store_nav .tab:hover,.store_nav .tab:hover>span {
