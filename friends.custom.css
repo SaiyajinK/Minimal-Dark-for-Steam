@@ -527,15 +527,15 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .chatRoomButton .SVGIcon_Button {
-    fill: var(--minimal_dark_less_white) !important;
+    fill: var(--minimal_dark_lightgrey) !important;
 }
 
 .inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line {
-    stroke: var(--minimal_dark_less_white) !important;
+    stroke: var(--minimal_dark_greygrey) !important;
 }
 
 .inviteAnotherFriendButton:hover .SVGIcon_Button line, .chatRoomButton:hover:not(.Disabled) .SVGIcon_Button line {
-    stroke: #fff !important;
+    stroke: var(--minimal_dark_color) !important;
 }
 
 .pagedcontent_Nav_1Vqsn {
@@ -565,5 +565,25 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .DialogTextInputBase:disabled, .DialogTextInputBase:read-only {
     color: var(--minimal_dark_progress_bar) !important;
+}
+
+.chatRoomGroupHeader {
+    max-height: 32px;
+}
+
+.ChatRoomMultiFriendAvatar {
+    display: none !important;
+}
+
+.inviteAnotherFriendButton:hover, .chatRoomButton:hover:not(.Disabled) .SVGIcon_Button:hover {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.chatRoomGroupHeaderName {
+    font-size: 14px;
+}
+
+.chatRoomGroupHeaderName {
+    color: var(--minimal_dark_greygrey) !important;
 }
 
