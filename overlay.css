@@ -426,3 +426,11 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     padding: 1px;
     border: 1px solid #aeaeae;
 }
+
+.artworkmodal_ModalBox_1Lfu7 {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.mediamanagerutils_CaptionField_-8fRT {
+    background-color: var(--minimal_dark_black) !important;
+}
