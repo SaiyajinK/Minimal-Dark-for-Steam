@@ -5666,4 +5666,8 @@ body.v6 .game_area_already_owned.page_content {
     background: transparent !important;
 }
 
+body.v6 .store_nav #genre_flyout .popup_menu_subheader .popup_menu_item, body.v6 .store_nav #noteworthy_flyout .popup_menu_subheader .popup_menu_item {
+    color: var(--minimal_dark_color) !important;
+}
+
 /* end webkit */
