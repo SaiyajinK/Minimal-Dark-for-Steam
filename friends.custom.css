@@ -526,3 +526,16 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     display: none;
 }
 
+.chatRoomButton .SVGIcon_Button {
+    fill: var(--minimal_dark_less_white) !important;
+}
+
+.inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line {
+    stroke: var(--minimal_dark_less_white) !important;
+}
+
+.inviteAnotherFriendButton:hover .SVGIcon_Button line, .chatRoomButton:hover:not(.Disabled) .SVGIcon_Button line {
+    stroke: #fff !important;
+}
+
+
