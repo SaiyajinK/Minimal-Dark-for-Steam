@@ -2982,8 +2982,8 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer {
 }
 
 .game_purchase_action .game_purchase_price {
-	background-color:transparent!important;
-	color:var(--minimal_dark_white)!important;
+    background-color: transparent !important;
+    color: var(--minimal_dark_progress_bar) !important;
 }
 
 .highlight_movie {
