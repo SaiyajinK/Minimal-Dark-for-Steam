@@ -567,14 +567,6 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     color: var(--minimal_dark_progress_bar) !important;
 }
 
-.chatRoomGroupHeader {
-    max-height: 32px;
-}
-
-.ChatRoomMultiFriendAvatar {
-    display: none !important;
-}
-
 .inviteAnotherFriendButton:hover, .chatRoomButton:hover:not(.Disabled) .SVGIcon_Button:hover {
     fill: var(--minimal_dark_color) !important;
 }
