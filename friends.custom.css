@@ -538,4 +538,32 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     stroke: #fff !important;
 }
 
+.pagedcontent_Nav_1Vqsn {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.pagedcontent_Content_2mJpA {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.inviteLinkContainer .DialogInput_Wrapper._DialogLayout {
+    background: none !important;
+}
+
+.inviteLinkContainer .DialogDropDown._DialogInputContainer {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.inviteLinkContainer .DialogDropDown._DialogInputContainer:hover {
+    color: #fff;
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.inviteLinkContainer .DialogInputLabelGroup .DialogInput {
+    background: var(--minimal_dark_black) !important;
+}
+
+.DialogTextInputBase:disabled, .DialogTextInputBase:read-only {
+    color: var(--minimal_dark_progress_bar) !important;
+}
 
