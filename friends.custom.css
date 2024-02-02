@@ -200,6 +200,7 @@
     background-color: transparent;
     box-shadow: 0px -2px 3px 0px rgba(0,0,0,.05), 4px -1px 1px 0px rgba(0,0,0,.05);
     color: var(--minimal_dark_less_white);
+    border-bottom: 1px solid var(--minimal_dark_be_grey);
 }
 
 .friendSearchInput[type=text] {
