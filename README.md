@@ -43,7 +43,6 @@ I re-edited and fix the whole code according to my theme. <br>
 ![webkit](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/981efb46-7c9b-4eb8-be3a-4e002595fcb3) <br> 
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
-🔝 Using [Millennium](https://millennium.web.app/) :<br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
 2️⃣ - Clic on  `Integrate` and wait for the end of integration (Steam will close)<br>
 3️⃣ - Restart Steam and go `Settings` > `Interface` > `Steam Skin` > `Open Millennium`<br>
