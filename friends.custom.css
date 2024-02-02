@@ -199,7 +199,7 @@
 .activeTab {
     background-color: transparent;
     box-shadow: 0px -2px 3px 0px rgba(0,0,0,.05), 4px -1px 1px 0px rgba(0,0,0,.05);
-    color: #b7ccd5;
+    color: var(--minimal_dark_less_white);
 }
 
 .friendSearchInput[type=text] {
@@ -251,7 +251,7 @@
     font-size: 12px;
     line-height: 20px;
     text-align: left;
-    color: #b7ccd5;
+    color: var(--minimal_dark_less_white) !important;
     padding: 0;
     position: relative;
 }
@@ -502,3 +502,25 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     color: var(--minimal_dark_topgrey);
     font-weight: 500;
 }
+
+.friendsListSectionTitle .SVGIcon_NewChatGroup {
+    fill: var(--minimal_dark_less_white) !important;
+}
+
+.ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
+    stroke: var(--minimal_dark_less_white) !important;
+}
+
+.ChatRoomListGroupItem:hover .ChatRoomListGroupItem_header {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.currentUserContainer {
+    padding-right: 24px;
+    border-bottom: 0px solid rgba(67,73,83,.3);
+}
+
+.insetshadow_FriendsListInsetShadowCtn_17ewz {
+    display: none;
+}
+
