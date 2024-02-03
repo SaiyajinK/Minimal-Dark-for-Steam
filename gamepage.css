@@ -467,3 +467,16 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
     background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%);
 }
 
+.appactivityday_LeftSideMajorUpdateBar_3oMUS {
+    background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), 0) 0%, rgba(var(--minimal_dark_color_rgba), .25) 18px, rgba(var(--minimal_dark_color_rgba), .5) 18px, rgba(var(--minimal_dark_color_rgba), 1) 22px);
+}
+
+.appactivityday_PartnerEventLargeUpdate_39Zk3 {
+    border-image: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), .5) 0%, rgba(var(--minimal_dark_color_rgba), .5) 0% 18px, rgba(var(--minimal_dark_color_rgba), .5) 0% 50%, rgba(var(--minimal_dark_color_rgba), .5) 0% 100%);
+    background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), 0) 0%, rgba(var(--minimal_dark_color_rgba), .5) 18px, rgba(var(--minimal_dark_color_rgba), 1) 50%, rgba(var(--minimal_dark_color_rgba), .5) 100%);
+}
+
+.appactivityday_PartnerEventTypeUpdate_29bW1 {
+    color: var(--minimal_dark_color);
+}
+
