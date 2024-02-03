@@ -75,16 +75,18 @@
 
 [class*="appactionbutton_ButtonChild_"] {
     background: transparent !important;
-    border: 2px solid rgba(62,64,71,0.50);
+    border: 2px solid rgba(62,64,71,0.10);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
     border-radius: 5px;
+    box-shadow: 0px 1px 30px 1px rgba(0,0,0,.2);
 }
 
 :not([class*="appactionbutton_Disabled_"]) > [class*="appactionbutton_Green_"] > [class*="appactionbutton_ButtonChild_"]:hover {
     background-image: var(--minimal_dark_bgg) !important;
     border: 2px solid rgba(62,64,71,0.50);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
-	text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 16px #00000078;
 }
 
 :not([class*="appactionbutton_Disabled_"]) > [class*="appactionbutton_Green_"] > [class*="appactionbutton_ButtonChild_"]:active {
