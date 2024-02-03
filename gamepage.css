@@ -464,6 +464,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM .appactivityday_Rule_3pcPR {
-    background: var(--minimal_dark_color);
+    background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%);
 }
 
