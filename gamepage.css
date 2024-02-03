@@ -453,7 +453,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .appdetailssection_Body_5uvIN {
-    border: 1px solid var(--minimal_dark_invisblegrey);
+    border: 1px solid var(--minimal_dark_invisblegrey) !important;;
     border-radius: 2px;
     background: #12121236;
     backdrop-filter: blur(10px);
@@ -472,12 +472,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .appactivityday_PartnerEventLargeUpdate_39Zk3 {
-    border: 1px solid var(--minimal_dark_color);
+    border: 1px solid var(--minimal_dark_color) !important;
     border-image: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), .5) 0%, rgba(var(--minimal_dark_color_rgba), .5) 0% 18px, rgba(var(--minimal_dark_color_rgba), .5) 0% 50%, rgba(var(--minimal_dark_color_rgba), .5) 0% 100%);
     background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), 0) 0%, rgba(var(--minimal_dark_color_rgba), .5) 18px, rgba(var(--minimal_dark_color_rgba), 1) 50%, rgba(var(--minimal_dark_color_rgba), .5) 100%);
 }
 
 .appactivityday_PartnerEventTypeUpdate_29bW1 {
-    color: var(--minimal_dark_color);
+    color: var(--minimal_dark_color) !important;
 }
 
