@@ -472,6 +472,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .appactivityday_PartnerEventLargeUpdate_39Zk3 {
+    border: 1px solid var(--minimal_dark_color);
     border-image: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), .5) 0%, rgba(var(--minimal_dark_color_rgba), .5) 0% 18px, rgba(var(--minimal_dark_color_rgba), .5) 0% 50%, rgba(var(--minimal_dark_color_rgba), .5) 0% 100%);
     background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), 0) 0%, rgba(var(--minimal_dark_color_rgba), .5) 18px, rgba(var(--minimal_dark_color_rgba), 1) 50%, rgba(var(--minimal_dark_color_rgba), .5) 100%);
 }
