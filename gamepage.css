@@ -77,7 +77,7 @@
     background: transparent !important;
     border: 2px solid rgba(62,64,71,0.50);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 :not([class*="appactionbutton_Disabled_"]) > [class*="appactionbutton_Green_"] > [class*="appactionbutton_ButtonChild_"]:hover {
