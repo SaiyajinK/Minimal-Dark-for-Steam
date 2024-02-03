@@ -60,6 +60,7 @@
     border-image-slice: 7;
     background: none;
     box-shadow: none;
+    border-radius: 5px !important;
 }
 
 .appdetailssection_Highlight_38t1m {
@@ -374,7 +375,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 .writereview_ReviewThumbButton_1kCN0 {
     background: var(--minimal_dark_invisblegrey);
-	color: white;
+    color: white;
+    border-radius: 5px !important;
+    transform: scale(0.9);
 }
 
 .writereview_ThumbIcon_2Jkk-.writereview_Down_32G01 {
@@ -442,4 +445,16 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 .appdetailsplaysection_DetailsProgressContainer_25YVD {
     background-color: var(--minimal_dark_black) !important;
+}
+
+.appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
+    padding: 0px 10px 0px 10px;
+    flex-direction: row;
+}
+
+.appdetailssection_Body_5uvIN {
+    border: 1px solid var(--minimal_dark_invisblegrey);
+    border-radius: 4px;
+    background: #12121236;
+    backdrop-filter: blur(10px);
 }
