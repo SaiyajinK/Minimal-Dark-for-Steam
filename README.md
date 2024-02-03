@@ -18,6 +18,12 @@ That said, I hope you enjoy the interface! <br>
 How change the skin color ? <br>
 Open `-config.css-` with notepad++ and modify `line 4` and `line 6` ; save and reload Steam. <br> 
 
+⚠️ note: color settings reset with each update (for now).<br>
+
+This is because Millennium, during an update reloads the entire Github directory and not just the updated files.<br>
+I passed the information on to the dev, I'm waiting for his return. (the problem does not occur with SFP).<br>
+
+
 ## `🧪 Restylised vanilla skin topbar 🧪` <br> 
 
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
