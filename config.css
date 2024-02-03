@@ -1,9 +1,9 @@
 :root { 
 
 /* chose your skin color */
---minimal_dark_color: #1a9fff;
+--minimal_dark_color: #1a9fff !important;
 /* default color is blue (#1a9fff) ; to apply your color, use https://htmlcolorcodes.com or use my recommended colors : Orange : #f68b02; or #ffbd00; | Red : #f82d36; or #ff000b; | Green : #37eb4a; or #9bfb07; | Purple : #c354f0; or #7c54f0; Cyan : #4af1f1; or #4af1b7; */
---minimal_dark_color_rgba: 26,159,255; /* also change this value by converting your chosen hexadecimal color code to rgba (https://rgbacolorpicker.com/hex-to-rgba) */
+--minimal_dark_color_rgba: 26,159,255 !important; /* also change this value by converting your chosen hexadecimal color code to rgba (https://rgbacolorpicker.com/hex-to-rgba) */
 
 /* global colors */
 --minimal_dark_night: #141414;
