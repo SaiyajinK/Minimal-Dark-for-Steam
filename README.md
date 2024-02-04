@@ -40,13 +40,14 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 ![Reboot   recharge menu](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/7f73abce-ede6-4011-8053-305d197156b0) <br> 
 
 ## `📸 Compact mode + friends 📸` <br> 
-![Compact_view_and_Friends_list](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/7f831092-ab72-4490-aaaf-2dc9f3294472) <br>
+
+![Compact_view_and_Friends_list](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/369ffcd5-39b6-4718-9e52-dbe20a814fb5) <br>
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
 I re-edited and fix the whole code according to my theme. <br>
 
-![webkit](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/981efb46-7c9b-4eb8-be3a-4e002595fcb3) <br> 
+![Compact_view_and_Friends_list](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/25482c47-5068-42e9-85fa-6773aaa1c336) <br> 
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
