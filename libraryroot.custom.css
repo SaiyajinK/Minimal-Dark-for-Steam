@@ -78,6 +78,12 @@
     transition: background .15s ease-out;
 }
 
+.titlebarcontrols_AccountMenu_3yD46 .titlebarcontrols_Chevron_3x51w {
+    width: 10px;
+    padding-top: 1px;
+    /* display: none; */
+}
+
 .title-bar-actions .title-area-icon.maximizeButton {
     color: var(--minimal_dark_transparent);
     background-color: var(--minimal_dark_topgrey);
@@ -177,6 +183,15 @@
 
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk {
     background-color: var(--minimal_dark_blacker);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: -9px;
+    border-top: 1px solid var(--minimal_dark_be_grey);
+    border-left: 1px solid var(--minimal_dark_be_grey);
+    border-bottom: 1px solid var(--minimal_dark_be_grey);
+    margin-top: -1px;
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover {
@@ -225,9 +240,18 @@ svg.titlebarcontrols_Icon_34bQc:active {
     transition: background-color .15s ease-out;
 }
 
-.titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_BranchBar_1n8t0, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_SupportAlertsButton_32TmR, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_OSEndOfLifeAlertsButton_1AcQ7, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_ParentalToggleButton_13vrq, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_KioskModeToggleButton_3arz-, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_AnnouncementsButton_5wILZ, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_NotificationButtonContainer_3mGEz, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_AccountMenu_3yD46, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_SoundtrackControls_Utdt7 {
+.titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_AccountMenu_3yD46 {
+    margin-right: 0px;
+    min-height: 27px;
+    border-top: 1px solid var(--minimal_dark_be_grey);
+    border-bottom: 1px solid var(--minimal_dark_be_grey);
+    margin-top: 1px;
+    padding-left: 5px;
+}
+
+.titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_BranchBar_1n8t0, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_SupportAlertsButton_32TmR, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_OSEndOfLifeAlertsButton_1AcQ7, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_ParentalToggleButton_13vrq, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_KioskModeToggleButton_3arz-, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_AnnouncementsButton_5wILZ, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_NotificationButtonContainer_3mGEz, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_SoundtrackControls_Utdt7 {
     margin-right: 8px;
-    min-height: 26px;
+    min-height: 27px;
 }
 
 .titlebarcontrols_AccountMenu_3yD46 {
@@ -244,6 +268,51 @@ svg.titlebarcontrols_Icon_34bQc:active {
 
 .titlebarcontrols_AccountMenu_3yD46 .titlebarcontrols_WalletBalance_2jphj {
     color: var(--minimal_dark_currency);
+}
+
+.steamavatar_avatarHolder_1YGAH.X-Small {
+    height: 28px;
+    width: 28px;
+    margin-bottom: 1px;
+    margin-right: 12px;
+}
+
+.steamavatar_avatar_1p_Qr {
+    /* border: 1px solid #383c43; */
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,.3);
+    transition: filter .24s ease-in-out;
+    /* border-radius: 20px !important; */
+    /* filter: drop-shadow(2px 4px 6px black); */
+}
+
+.steamavatar_avatarStatus_1yIzy.right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px !important;
+    margin-top: 12px;
+    margin-right: -14px;
+}
+
+.awayOrSnooze .steamavatar_avatarStatus_1yIzy {
+    -webkit-mask: none !important;
+    -webkit-mask-size: none !important;
+    mask: none !important;
+    mask-size: none !important;
+    opacity: .75;
+}
+
+.online .steamavatar_avatarStatus_1yIzy {
+    background: #4cb4ff !important;
+}
+
+.awayOrSnooze .steamavatar_avatarStatus_1yIzy {
+    background: orange !important;
 }
 
 .steamdesktop_TopBar_3Z7VQ {
@@ -282,10 +351,17 @@ svg.titlebarcontrols_Icon_34bQc:active {
     border: none;
     align-content: center !important;
     display: block;
-    max-height: 26px;
+    max-height: 27px;
     max-width: 26px;
-    margin-top: 1px;
+    /* margin-top: 1px; */
     box-shadow: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-top: 1px solid var(--minimal_dark_be_grey);
+    border-right: 1px solid var(--minimal_dark_be_grey);
+    border-bottom: 1px solid var(--minimal_dark_be_grey);
 }
 
 .bottombar_BottomBar_3vCzS:hover {
@@ -298,10 +374,17 @@ svg.titlebarcontrols_Icon_34bQc:active {
     border: none;
     align-content: center !important;
     display: block;
-    max-height: 26px;
+    max-height: 27px;
     max-width: 26px;
-    margin-top: 1px;
+    /* margin-top: 1px; */
     box-shadow: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-top: 1px solid var(--minimal_dark_be_grey);
+    border-right: 1px solid var(--minimal_dark_be_grey);
+    border-bottom: 1px solid var(--minimal_dark_be_grey);
 }
 
 .bottombar_Icon_1KrJ3 {
@@ -952,7 +1035,7 @@ button.DialogButton {
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(9):hover {
-	color: var(--minimal_dark_transparent);
+    color: var(--minimal_dark_transparent);
     width: 19px;
     padding: 10px 0px 10px 0px;
     margin-left: 9px;
@@ -966,7 +1049,7 @@ button.DialogButton {
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(9):active {
-	color: var(--minimal_dark_transparent);
+    color: var(--minimal_dark_transparent);
     width: 19px;
     padding: 10px 0px 10px 0px;
     margin-left: 9px;
@@ -991,6 +1074,8 @@ button.DialogButton {
     transition: background-color .15s ease-out;
     cursor: pointer;
     box-shadow: inset 1px 1px 0px rgba(76,180,255,.2);
+    min-height: 28px !important;
+    margin-bottom: 1px;
 }
 
 .titlebarcontrols_AccountMenu_3yD46:active {
@@ -998,9 +1083,10 @@ button.DialogButton {
     transition: background-color .15s ease-out;
     cursor: pointer;
     box-shadow: inset 0px 1px 10px 1px rgb(0 0 0);
+    min-height: 27px !important;
+    margin-bottom: 1px;
 }
 
 .standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q {
     background: var(--minimal_dark_blacker);
 }
-
