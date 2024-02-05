@@ -593,3 +593,9 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     transition: all .2s ease-in-out;
     transform: rotate(-90deg) !important;
 }
+
+.ScrollToBottomButton>span {
+    background: rgba(var(--minimal_dark_color_rgba),.25);
+    color: var(--minimal_dark_less_white) !important;
+    backdrop-filter: blur(15px);
+}
