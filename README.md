@@ -30,7 +30,7 @@ I passed the information on to the dev, I'm waiting for his return. (the problem
 
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
 
-![Library](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/dfdcfc55-caf5-4707-acce-3bca980d2979) <br>
+![minimal_dark](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/d047d8c9-f27b-47ac-844e-c7ee04bfd57e) <br>
 
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a minimal topbar to best optimize the space compared to the vanilla base. <br> 
 
@@ -43,13 +43,13 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![Compact_view_and_Friends_list](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/25482c47-5068-42e9-85fa-6773aaa1c336) <br> 
+![minimal_dark_1](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/93b267cc-9c53-4466-95f0-3df136396a3d) <br> 
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
 I re-edited and fix the whole code according to my theme. <br>
 
-![webkit](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/981efb46-7c9b-4eb8-be3a-4e002595fcb3) <br> 
+![minimal_dark_w](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/feb38fd2-aedd-4fb5-877e-5178e1d23454) <br> 
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
