@@ -688,12 +688,24 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     display: block;
     position: absolute;
     right: 0;
-    top: 14px;
-    left: 46px;
+    top: 28px;
+    left: 54px;
     bottom: 0;
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     border-radius: 10px;
+}
+
+.personanameandstatus_richPresenceContainer_2nrSd {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 30px);
+    margin-left: 12px;
+}
+
+.titleBarContainer .currentUserContainer .personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N {
+    margin-top: 0px;
+    transform: translate(-12px, 0px) !important;
 }
 
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
@@ -726,7 +738,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .awayOrSnooze .steamavatar_avatarStatus_1yIzy {
     background: orange !important;
-	-webkit-mask: none !important;
+    -webkit-mask: none !important;
     -webkit-mask-size: 5px 5px !important;
     mask: none !important;
     mask-size: none !important;
