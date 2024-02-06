@@ -306,7 +306,7 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 }
 
 div.ModalPosition_TopBar {
-    background: var(--minimal_dark_bgb) !important;
+    background: var(--minimal_dark_color) !important;
 }
 
 .mediamanagerutils_ButtonBox_28eIR.mediamanagerutils_Secondary_QE3sH {
