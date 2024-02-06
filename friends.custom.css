@@ -708,6 +708,11 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     transform: translate(-12px, 0px) !important;
 }
 
+.groupMemberList .personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N {
+    font-size: 12px;
+    transform: translate(-12px, 0px) !important;
+}
+
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
 	display:none !important;
 }
