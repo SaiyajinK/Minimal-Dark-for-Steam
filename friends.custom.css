@@ -683,3 +683,48 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .friendGroup .groupName {
     margin-left: 15px !important;
 }
+
+.friendlistListContainer .friend .avatarHolder .avatarStatus, .CompactFriendsList .friend .avatarHolder .avatarStatus, .FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 14px;
+    left: 46px;
+    bottom: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.friend .labelHolder {
+    margin-left: 20px;
+}
+
+.friend .avatarHolder .avatarStatus {
+    transition-property: height,background-color,opacity,width,transform;
+    transition-duration: .08s,.24s;
+    transition-timing-function: linear,ease-in-out;
+    background: grey;
+    border: 1px solid var(--minimal_dark_greygrey);
+}
+
+.online .steamavatar_avatarStatus_1yIzy {
+    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%) !important;
+}
+
+.ingame .steamavatar_avatarStatus_1yIzy {
+    background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%) !important;
+}
+
+.offline .steamavatar_avatarStatus_1yIzy {
+    background: var(--minimal_dark_lightgrey) !important
+}
+
+.awayOrSnooze .steamavatar_avatarStatus_1yIzy {
+    background: orange !important;
+	-webkit-mask: none !important;
+    -webkit-mask-size: 5px 5px !important;
+    mask: none !important;
+    mask-size: none !important;
+    opacity: 1 !important;
+}
