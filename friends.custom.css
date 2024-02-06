@@ -655,55 +655,6 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     padding: 0px 3px 3px 5px;
 }
 
-.groupName:hover .ExpandPlusMinus .SVGIcon_PlusCircle line {
-    stroke: var(--minimal_dark_color);
-}
-
-.ExpandPlusMinus .SVGIcon_PlusCircle {
-    margin-left: -5px !important;
-	transform: scale(1.25) !important;
-}
-
-.friendGroup .groupName {
-    margin-left: 15px !important;
-}
-
-.friendGroup .friend {
-    padding: 2px 0px 2px 28px !important;
-}
-
-.addFriendButton:hover .SVGIcon_AddFriend .friendHead, .addFriendButton:hover .SVGIcon_AddFriend .friendBody {
-    color: var(--minimal_dark_color);
-}
-
-.friendsListSectionTitle .createChatRoomButton:hover .SVGIcon_NewChatGroup {
-    fill: var(--minimal_dark_color) !important;
-}
-
-.friendsListSectionTitle .SVGIcon_NewChatGroup:hover line {
-    stroke: white !important;
-}
-
-.currentUserAvatar .avatarFrame {
-    margin-left: 8px;
-}
-
-.friendsui-container [class*=online] .avatar {
-    color: rgb(var(--online)) !important;
-    fill: rgb(var(--online)) !important;
-    margin-left: 8px;
-}
-
-.currentUserContainer .labelHolder {
-    margin: 0px 0px 0px 21px !important;
-}
-
-.accountsettings_AvatarAndLabel_2SLeh .accountsettings_LabelHolder_2nksW {
-    padding-top: 2px;
-    padding-left: 14px;
-    padding-bottom: 14px;
-}
-
 .ChatRoomAddRoomBtn:hover:not(.NoPermission) .SVGIcon_PlusCircle {
     filter: brightness(1.2);
 }
