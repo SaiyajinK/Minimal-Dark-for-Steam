@@ -3,9 +3,9 @@
   "UseDefaultPatches": true,
 
   "author": "SaiyajinK",
-  "description": "A dark minimalist skin for steam new UI ",
+  "description": "A dark minimalist skin for steam new UI",
   "name": "Minimal Dark for Steam",
-  "version": "2.3.0",
+  "version": "2.3.1",
 
   "github": {
     "owner": "SaiyajinK",
@@ -17,7 +17,9 @@
   "tags": [
     "minimal",
     "dark",
-    "compact"
+    "compact",
+    "color",
+    "customizable"
   ],
   "header_image": "https://i.imgur.com/0LM2PTY.png",
   "splash_image": "https://i.imgur.com/0LM2PTY.png"
