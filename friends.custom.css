@@ -684,7 +684,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     margin-left: 15px !important;
 }
 
-.friendlistListContainer .friend .avatarHolder .avatarStatus, .CompactFriendsList .friend .avatarHolder .avatarStatus, .FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
+.friendlistListContainer .friend .avatarHolder .avatarStatus, .FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
     display: block;
     position: absolute;
     right: 0;
@@ -694,6 +694,10 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     width: 8px;
     height: 8px;
     border-radius: 10px;
+}
+
+.CompactFriendsList .friend .avatarHolder .avatarStatus {
+	display:none !important;
 }
 
 .friend .labelHolder {
