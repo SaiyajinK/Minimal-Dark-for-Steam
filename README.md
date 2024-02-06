@@ -43,7 +43,7 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![minimal_dark_1](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/93b267cc-9c53-4466-95f0-3df136396a3d) <br> 
+![minimal_dark_1](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/9e21a297-4071-466e-934c-9425c376ae87) <br> 
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
