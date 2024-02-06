@@ -434,3 +434,9 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 .mediamanagerutils_CaptionField_-8fRT {
     background-color: var(--minimal_dark_black) !important;
 }
+
+.accountsettings_AvatarAndLabel_2SLeh .accountsettings_LabelHolder_2nksW {
+    padding-top: 2px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+}
