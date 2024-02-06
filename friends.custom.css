@@ -732,3 +732,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     mask-size: none !important;
     opacity: 1 !important;
 }
+
+.msg.serverMsg .msgText {
+    display: none !important;
+}
