@@ -599,3 +599,58 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     color: var(--minimal_dark_less_white) !important;
     backdrop-filter: blur(15px);
 }
+
+.chatRoomTextChannel.ActiveTextChannel {
+    background-color: #2e3c44;
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.ChannelTypeTitle {
+    color: var(--minimal_dark_less_white) !important;
+}
+
+.chatRoomGroupNavColumn .chatRoomGroupNavCollapseExpand {
+    margin-right: 6px;
+    right: -12px;
+}
+
+.ChannelTypeTitle .ChannelTypeLabel:hover:not(.NoPermission) {
+    color: var(--minimal_dark_color);
+}
+
+.chatRoomGroupHeaderTagline {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.friendsui-container .SVGIcon_Pin.Pinned .head {
+    fill: var(--minimal_dark_red2) !important;
+}
+.friendsui-container .SVGIcon_Pin .head {
+    stroke: var(--minimal_dark_invisblegrey) !important;
+}
+
+.ChatRoomAddRoomBtn .SVGIcon_PlusCircle {
+    stroke: var(--minimal_dark_color) !important;
+}
+
+.friendsui-container .SVGIcon_Pin .head {
+    fill: var(--minimal_dark_red2) !important;
+    stroke: var(--minimal_dark_invisblegrey) !important;
+}
+
+.friendsui-container .SVGIcon_Pin .point {
+	transition: all .21s ease-in-out;
+    fill: var(--minimal_dark_less_white) !important;
+}
+
+.friendsui-container .SVGIcon_Pin:hover {
+    filter: brightness(1.5);
+}
+
+.chatRoomGroupNavCollapsed .chatRoomTextChannel.ActiveTextChannel:hover {
+    background: var(--minimal_dark_color) !important;
+}
+
+.namedGroup .chatRoomGroupHeader {
+    padding: 0px 3px 3px 5px;
+}
