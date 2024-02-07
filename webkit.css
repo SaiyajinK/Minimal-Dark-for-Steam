@@ -691,7 +691,7 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 }
 
 .searchbox:hover {
-	background: rgb(70 70 70 / 0.50)!important;
+    background: rgb(70 70 70 / 0.50)!important;
     border-radius: var(--minimal_dark_corner5)!important;
     border: 1px solid var(--minimal_dark_color);
 }
@@ -725,7 +725,7 @@ input::-webkit-input-placeholder {
 }
 
 a.store_header_btn_content {
-	display: inline-block;
+    display: inline-block;
     /* padding: 0px 53px 0px 53px; */ /* remove forced padding on whishlist button */
     margin: 0 1px;
     line-height: 20px;
@@ -776,7 +776,7 @@ div#store_search {
 .store_header_btn_gray a:hover {
 	background:var(--minimal_dark_color)!important;
 	color:var(--minimal_dark_white)!important;
-	border-radius: 0px;
+	border-radius: 5px;
 	text-align: center;
 }
 
@@ -868,7 +868,7 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 div.store_header_btn {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 	margin-right:4px !important;
 }
 
