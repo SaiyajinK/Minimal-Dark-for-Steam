@@ -789,4 +789,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     color: var(--minimal_dark_less_white) !important;
 }
 
+.friendsnooze_SnoozeContainer_3EzTy.online .friendsnooze_SnoozeZ_1DArl {
+    color: orange !important;
+}
+
 
