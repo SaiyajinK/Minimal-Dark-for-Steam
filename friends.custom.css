@@ -688,7 +688,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     display: block;
     position: absolute;
     right: 0;
-    top: 28px;
+    top: 26px;
     left: 54px;
     bottom: 0;
     width: 6px;
@@ -752,4 +752,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .msg.serverMsg .msgText {
     display: none !important;
+}
+
+.friendsnooze_SnoozeContainer_3EzTy.online .friendsnooze_SnoozeZ_1DArl {
+    color: orange;
 }
