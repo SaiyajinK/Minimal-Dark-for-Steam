@@ -362,7 +362,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
     border-top: 1px solid var(--minimal_dark_be_grey);
     border-right: 1px solid var(--minimal_dark_be_grey);
     border-bottom: 1px solid var(--minimal_dark_be_grey);
-	border-left: 1px solid #2d2d2d;
+    border-left: 1px solid var(--minimal_dark_be_grey);
 }
 
 .bottombar_BottomBar_3vCzS:hover {
@@ -386,7 +386,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
     border-top: 1px solid var(--minimal_dark_be_grey);
     border-right: 1px solid var(--minimal_dark_be_grey);
     border-bottom: 1px solid var(--minimal_dark_be_grey);
-	border-left: 1px solid #2d2d2d;
+    border-left: 1px solid var(--minimal_dark_be_grey);
 }
 
 .bottombar_Icon_1KrJ3 {
