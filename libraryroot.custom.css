@@ -241,7 +241,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
 }
 
 .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_AccountMenu_3yD46 {
-    margin-right: 0px;
+    padding-right: 10px;
     min-height: 27px;
     border-top: 1px solid var(--minimal_dark_be_grey);
     border-bottom: 1px solid var(--minimal_dark_be_grey);
@@ -344,7 +344,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
 .bottombar_BottomBar_3vCzS {
     background: var(--minimal_dark_blacker);
     right: 0 !important;
-    margin-right: var(--minimal_dark_alignment) !important;
+    margin-right: 108px !important;
     position: fixed;
     top: 4px !important;
     border-radius: 2px !important;
@@ -362,12 +362,13 @@ svg.titlebarcontrols_Icon_34bQc:active {
     border-top: 1px solid var(--minimal_dark_be_grey);
     border-right: 1px solid var(--minimal_dark_be_grey);
     border-bottom: 1px solid var(--minimal_dark_be_grey);
+	border-left: 1px solid #2d2d2d;
 }
 
 .bottombar_BottomBar_3vCzS:hover {
     background: var(--minimal_dark_black);
     right: 0 !important;
-    margin-right: var(--minimal_dark_alignment) !important;
+    margin-right: 108px !important;
     position: fixed;
     top: 4px !important;
     border-radius: 2px !important;
@@ -385,6 +386,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
     border-top: 1px solid var(--minimal_dark_be_grey);
     border-right: 1px solid var(--minimal_dark_be_grey);
     border-bottom: 1px solid var(--minimal_dark_be_grey);
+	border-left: 1px solid #2d2d2d;
 }
 
 .bottombar_Icon_1KrJ3 {
@@ -820,7 +822,7 @@ button.DialogButton {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 58px;
+    margin-right: 49px;
 }
 
 .bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD {
