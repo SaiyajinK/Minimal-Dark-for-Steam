@@ -758,7 +758,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N {
-    margin-top: 2px;
+    margin-top: -1px;
 }
 
 .friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl {
@@ -769,3 +769,45 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     width: 14px;
     height: 14px;
 }
+
+.chattabs_ChatTabContent_Friend_2ZiZ7 .friend .avatarHolder .avatarStatus {
+    right: -21px !important;
+    top: 22px !important;
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 10px !important;
+}
+
+.ChatRoomSpeaker .speaker .speakerStatus {
+    width: 6px !important;
+    height: 6px !important;
+    margin-left: 8px !important;
+    border-radius: 10px !important;
+}
+
+.messages_SpeakerName_InGame_3xyn_ {
+    color: var(--minimal_dark_topgrey);
+}
+
+.speakerTimeStamp {
+    font-size: 9px !important;
+    color: var(--minimal_dark_installed_games) !important;
+}
+
+.speaker.away .speakerStatus {
+    -webkit-mask: none !important;
+    -webkit-mask-size: none !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+    mask-size: 4px 4px;
+    background-color: orange !important;
+}
+
+.online .personanameandstatus_playerName_r62qz {
+    margin-bottom: 10px !important;
+}
+
+.offline .personanameandstatus_playerName_r62qz {
+    margin-bottom: 10px !important;
+}
+
