@@ -784,3 +784,9 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     margin-top: -15px;
     border-bottom-left-radius: 6px;
 }
+
+.speakerTimeStamp {
+    color: var(--minimal_dark_less_white) !important;
+}
+
+
