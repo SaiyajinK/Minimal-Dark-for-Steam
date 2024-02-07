@@ -793,4 +793,18 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     color: orange !important;
 }
 
+.awayOrSnooze .personanameandstatus_richPresenceLabel_1k82N {
+    color: orange !important;
+}
 
+.awayOrSnooze .personanameandstatus_playerName_r62qz {
+    color: orange !important;
+}
+
+.personastatusicons_PersonaStatusIcon_1YsWj.online .SVGIcon_MobilePhone path {
+    fill: #4c91ac !important;
+}
+
+.personastatusicons_PersonaStatusIcon_1YsWj.awayOrSnooze .SVGIcon_MobilePhone path {
+    fill: orange !important;
+}
