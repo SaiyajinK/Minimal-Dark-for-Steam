@@ -756,3 +756,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .friendsnooze_SnoozeContainer_3EzTy.online .friendsnooze_SnoozeZ_1DArl {
     color: orange;
 }
+
+.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N {
+    margin-top: 2px;
+}
