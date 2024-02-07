@@ -5713,7 +5713,8 @@ body.v6 .store_nav #genre_flyout .popup_menu_subheader .popup_menu_item, body.v6
 }
 
 .salesectioneventschedule_SaleSchedCtn_3yzeu {
-    background-image: var(--minimal_dark_blacker_alt) !important;
+	background-color: var(--minimal_dark_blacker_alt) !important;
+    background-image: none !important;
 }
 
 .salesectioneventschedule_SchedSectionLabel_3G-bl {
@@ -5741,7 +5742,5 @@ body.v6 .store_nav #genre_flyout .popup_menu_subheader .popup_menu_item, body.v6
 .broadcast_embeddable_bordered_container_3cQe7 {
     background: var(--minimal_dark_blacker) !important;
 }
-
-
 
 /* end webkit */
