@@ -830,3 +830,13 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     color: #6e6e6e;
     margin-top: -12px !important;
 }
+
+.steamavatar_avatarHolder_1YGAH .steamavatar_avatarStatus_1yIzy.right {
+    margin-top: 24px !important;
+}
+
+.ingame .personanameandstatus_playerName_r62qz {
+    color: #e3ffc2;
+    transform: translate(-2px, 0px) !important;
+}
+
