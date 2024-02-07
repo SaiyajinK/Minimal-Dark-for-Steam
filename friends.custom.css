@@ -758,7 +758,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N {
-    margin-top: -1px;
+    margin-top: 0px !important;
 }
 
 .friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl {
@@ -811,3 +811,22 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     margin-bottom: 10px !important;
 }
 
+.ingame .steamavatar_avatarStatus_1yIzy {
+    background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%) !important;
+}
+
+.friend .avatarHolder .avatarStatus {
+    display: none;
+    z-index: 1;
+    transform: translate(0px, -2px);
+}
+
+.online .personanameandstatus_richPresenceLabel_1k82N, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
+    color: #4c91ac;
+    transform: translate(0px, -11px) !important;
+}
+
+.offline .personanameandstatus_richPresenceLabel_1k82N, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
+    color: #6e6e6e;
+    margin-top: -12px !important;
+}
