@@ -688,7 +688,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     display: block;
     position: absolute;
     right: 0;
-    top: 26px;
+    top: 28px;
     left: 54px;
     bottom: 0;
     width: 6px;
@@ -726,7 +726,6 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     transition-duration: .08s,.24s;
     transition-timing-function: linear,ease-in-out;
     background: grey;
-    border: 1px solid var(--minimal_dark_greygrey);
 }
 
 .online .steamavatar_avatarStatus_1yIzy {
