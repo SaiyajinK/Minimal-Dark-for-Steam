@@ -5678,6 +5678,40 @@ body.v6 .store_nav #genre_flyout .popup_menu_subheader .popup_menu_item, body.v6
     color: var(--minimal_dark_progress_bar) !important;
 }
 
+.reaction_award_hover .reaction_award_name {
+    font-weight: bold;
+    font-size: 12px;
+    color: var(--minimal_dark_color) !important;
+}
 
+.reaction_award_hover .reaction_award_desc {
+    padding-top: 5px;
+    font-size: 10px;
+    color: var(--minimal_dark_color) !important;
+}
+
+.reaction_award_hover .reaction_award_points {
+    padding-top: 5px;
+    font-size: 10px;
+    color: var(--minimal_dark_less_white) !important;
+}
+
+.reaction_award_hover .reaction_award_info {
+    padding: 10px;
+    text-align: center;
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.community_tooltip.reaction_award_hover {
+    padding: 0px;
+    border: 4px solid var(--minimal_dark_lightgrey) !important;
+}
+
+.reaction_award_hover .reaction_award_icon {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 3px 3px 0 0;
+    padding-top: 5px;
+    text-align: center;
+}
 
 /* end webkit */
