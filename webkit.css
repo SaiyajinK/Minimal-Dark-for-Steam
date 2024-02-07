@@ -672,7 +672,7 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 
 #store_nav_area .store_nav_bg,.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
 	background: #262626ad;
-    border-radius: 0px;
+    border-radius: 5px;
     backdrop-filter: blur(10px);
     border: 1px solid var(--minimal_dark_invisblegrey);
 }
@@ -686,34 +686,32 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 
 .searchbox {
 	background: rgb(70 70 70 / 0.50)!important;
-    border-radius: var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
     border: 1px solid var(--minimal_dark_lightgrey);
 }
 
 .searchbox:hover {
 	background: rgb(70 70 70 / 0.50)!important;
-    border-radius: var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
     border: 1px solid var(--minimal_dark_color);
 }
 
 a#store_search_link img {
 	filter: grayscale(1) invert(1); 
 	cursor: default;
+	border-radius: 5px !important;
 }
 
 a#store_search_link img:hover {
 	filter: grayscale(1) invert(1);
 	cursor: default;
-}
-
-a#store_search_link img:hover {
-	filter: grayscale(1) invert(1);
-	cursor: default;
+	border-radius: 5px !important;
 }
 
 a#store_search_link img:active {
 	filter: grayscale(1) invert(1);
 	cursor: default;
+	border-radius: 5px !important;
 }
 
 input#store_nav_search_term {
@@ -815,10 +813,10 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
     border-radius: var(--minimal_dark_corner0)!important;
 }
 
-.store_nav .tab.focus,.store_nav .tab.focus>span,.store_nav .tab:hover,.store_nav .tab:hover>span {
-	text-shadow:none!important;
-	border-radius:var(--minimal_dark_corner0);
-	background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(32,32,32,0.25) 100%) !important;
+.store_nav .tab.focus, .store_nav .tab.focus>span, .store_nav .tab:hover, .store_nav .tab:hover>span {
+    text-shadow: none!important;
+    border-radius: var(--minimal_dark_corner5) !important;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(32,32,32,0.25) 100%) !important;
 }
 
 .searchbox input{color: var(--minimal_dark_installed_games); !important; margin-top:0!important;}
@@ -5713,5 +5711,37 @@ body.v6 .store_nav #genre_flyout .popup_menu_subheader .popup_menu_item, body.v6
     padding-top: 5px;
     text-align: center;
 }
+
+.salesectioneventschedule_SaleSchedCtn_3yzeu {
+    background-image: var(--minimal_dark_blacker_alt) !important;
+}
+
+.salesectioneventschedule_SchedSectionLabel_3G-bl {
+    background: var(--minimal_dark_black) !important;
+}
+
+.salepreviewwidgets_Action_3Af0S {
+    background-image: var(--minimal_dark_bgg) !important;
+    color: white !important;
+}
+
+.demobutton_DemoButton_1GAs9:not(.demobutton_DisabledButton_2TQ4l):hover {
+    background: var(--minimal_dark_bgg) !important;
+    text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
+    color: white !important;
+}
+
+.demobutton_DemoButton_1GAs9:not(.demobutton_DisabledButton_2TQ4l):active {
+    background: var(--minimal_dark_bgg) !important;
+    text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
+    color: white !important;
+	box-shadow: inset 0px 4px 6px #000000ab !important;
+}
+
+.broadcast_embeddable_bordered_container_3cQe7 {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+
 
 /* end webkit */
