@@ -737,7 +737,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .offline .steamavatar_avatarStatus_1yIzy {
-    background: var(--minimal_dark_lightgrey) !important
+    background: #7a7a7a !important;
 }
 
 .awayOrSnooze .steamavatar_avatarStatus_1yIzy {
