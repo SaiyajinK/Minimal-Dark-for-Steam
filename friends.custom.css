@@ -760,3 +760,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N {
     margin-top: 2px;
 }
+
+.friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl {
+    color: orange !important;
+}
