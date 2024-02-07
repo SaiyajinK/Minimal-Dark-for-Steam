@@ -764,3 +764,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl {
     color: orange !important;
 }
+
+.chattabs_CloseButton_7gMwY {
+    width: 14px;
+    height: 14px;
+}
