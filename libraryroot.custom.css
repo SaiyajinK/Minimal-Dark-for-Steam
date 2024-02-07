@@ -1069,19 +1069,19 @@ button.DialogButton {
 }
 
 .titlebarcontrols_AccountMenu_3yD46:hover {
-    transition: background-color .15s ease-out;
+    transition: background-color .2s ease-out;
     cursor: pointer;
     box-shadow: inset 0px 1px 0px rgba(var(--minimal_dark_color_rgba),1) !important;
-    min-height: 27px !important;
+    min-height: 28px !important;
     margin-bottom: 1px;
-	background-color: rgba(var(--minimal_dark_color_rgba),0.25) !important;
+    background-color: rgba(var(--minimal_dark_color_rgba),0.25) !important;
 }
 
 .titlebarcontrols_AccountMenu_3yD46:active {
-    background-color: transparent;
-    transition: background-color .15s ease-out;
+    background-color: transparent !important;
+    transition: background-color .5s ease-out;
     cursor: pointer;
-    box-shadow: inset 0px 1px 10px 1px rgb(0 0 0);
+    box-shadow: inset 0px 1px 0px rgb(0 0 0) !important;
     min-height: 27px !important;
     margin-bottom: 1px;
 }
