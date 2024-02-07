@@ -688,44 +688,38 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     display: block;
     position: absolute;
     right: 0;
-    top: 28px;
-    left: 54px;
+    top: 1px;
+    left: 29px;
     bottom: 0;
     width: 6px;
     height: 6px;
-    border-radius: 10px;
 }
 
 .personanameandstatus_richPresenceContainer_2nrSd {
     display: flex;
     flex-direction: column;
     width: calc(100% - 30px);
-    margin-left: 12px;
 }
 
 .titleBarContainer .currentUserContainer .personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N {
     margin-top: 0px;
-    transform: translate(-12px, 0px) !important;
 }
 
 .groupMemberList .personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N {
     font-size: 12px;
-    transform: translate(-12px, 0px) !important;
 }
 
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
 	display:none !important;
 }
 
-.friend .labelHolder {
-    margin-left: 11px;
+.msg.serverMsg .msgText {
+    display: none !important;
 }
 
-.friend .avatarHolder .avatarStatus {
-    transition-property: height,background-color,opacity,width,transform;
-    transition-duration: .08s,.24s;
-    transition-timing-function: linear,ease-in-out;
-    background: grey;
+.chattabs_CloseButton_7gMwY {
+    width: 14px;
+    height: 14px;
 }
 
 .online .steamavatar_avatarStatus_1yIzy {
@@ -740,6 +734,13 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     background: #7a7a7a !important;
 }
 
+.chattabs_ChatTabContent_Friend_2ZiZ7 .friend .avatarHolder .avatarStatus {
+    right: 1px !important;
+    top: 1px !important;
+    width: 6px !important;
+    height: 6px !important;
+}
+
 .awayOrSnooze .steamavatar_avatarStatus_1yIzy {
     background: orange !important;
     -webkit-mask: none !important;
@@ -749,94 +750,37 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     opacity: 1 !important;
 }
 
-.msg.serverMsg .msgText {
+.steamavatar_avatarFrame_3atbN .steamavatar_avatarFrameImg_338kJ {
     display: none !important;
 }
 
-.friendsnooze_SnoozeContainer_3EzTy.online .friendsnooze_SnoozeZ_1DArl {
-    color: orange;
+.personanameandstatus_richPresenceContainer_2nrSd {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 30px);
+    margin-left: 0px !important;
 }
 
-.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N {
-    margin-top: 0px !important;
+.steamavatar_avatarFrame_3atbN .steamavatar_avatarFrameImg_338kJ {
+    display: none !important;
 }
 
-.friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl {
-    color: orange !important;
+.personanameandstatus_richPresenceContainer_2nrSd {
+    margin-left: 0px !important;
 }
 
-.chattabs_CloseButton_7gMwY {
-    width: 14px;
-    height: 14px;
+.friend.firstInGroup .SteamPlayerGroupLines {
+    height: 24px;
+    margin-top: 18px;
+    border-left: 1px solid var(--minimal_dark_color);
+    border-top: 1px solid var(--minimal_dark_color);
+    border-top-left-radius: 6px;
 }
 
-.chattabs_ChatTabContent_Friend_2ZiZ7 .friend .avatarHolder .avatarStatus {
-    right: -21px !important;
-    top: 22px !important;
-    width: 6px !important;
-    height: 6px !important;
-    border-radius: 10px !important;
+.friend.lastInGroup .SteamPlayerGroupLines, .SteamPlayerGroupFooter .SteamPlayerGroupLines {
+    height: 24px;
+    border-left: 1px solid var(--minimal_dark_color);
+    border-bottom: 1px solid var(--minimal_dark_color);
+    margin-top: -15px;
+    border-bottom-left-radius: 6px;
 }
-
-.ChatRoomSpeaker .speaker .speakerStatus {
-    width: 6px !important;
-    height: 6px !important;
-    margin-left: 8px !important;
-    border-radius: 10px !important;
-}
-
-.messages_SpeakerName_InGame_3xyn_ {
-    color: var(--minimal_dark_topgrey);
-}
-
-.speakerTimeStamp {
-    font-size: 9px !important;
-    color: var(--minimal_dark_installed_games) !important;
-}
-
-.speaker.away .speakerStatus {
-    -webkit-mask: none !important;
-    -webkit-mask-size: none !important;
-    -webkit-mask-image: none !important;
-    mask-image: none !important;
-    mask-size: 4px 4px;
-    background-color: orange !important;
-}
-
-.online .personanameandstatus_playerName_r62qz {
-    margin-bottom: 10px !important;
-}
-
-.offline .personanameandstatus_playerName_r62qz {
-    margin-bottom: 10px !important;
-}
-
-.ingame .steamavatar_avatarStatus_1yIzy {
-    background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%) !important;
-}
-
-.friend .avatarHolder .avatarStatus {
-    display: none;
-    z-index: 1;
-    transform: translate(0px, -2px);
-}
-
-.online .personanameandstatus_richPresenceLabel_1k82N, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
-    color: #4c91ac;
-    transform: translate(0px, -11px) !important;
-}
-
-.offline .personanameandstatus_richPresenceLabel_1k82N, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
-    color: #6e6e6e;
-    margin-top: -12px !important;
-}
-
-.steamavatar_avatarHolder_1YGAH .steamavatar_avatarStatus_1yIzy.right {
-    margin-top: 24px !important;
-}
-
-.ingame .personanameandstatus_playerName_r62qz {
-    color: #e3ffc2;
-    transform: translate(-2px, 0px) !important;
-}
-
