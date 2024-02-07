@@ -274,7 +274,6 @@ svg.titlebarcontrols_Icon_34bQc:active {
     height: 28px;
     width: 28px;
     margin-bottom: 1px;
-    margin-right: 12px;
 }
 
 .steamavatar_avatar_1p_Qr {
@@ -294,9 +293,8 @@ svg.titlebarcontrols_Icon_34bQc:active {
     right: 0;
     width: 6px;
     height: 6px;
-    border-radius: 10px !important;
-    margin-top: 12px;
-    margin-right: -14px;
+    margin-top: 1px;
+    margin-right: 1px;
 }
 
 .awayOrSnooze .steamavatar_avatarStatus_1yIzy {
@@ -1073,9 +1071,10 @@ button.DialogButton {
 .titlebarcontrols_AccountMenu_3yD46:hover {
     transition: background-color .15s ease-out;
     cursor: pointer;
-    box-shadow: inset 1px 1px 0px rgba(76,180,255,.2);
-    min-height: 28px !important;
+    box-shadow: inset 0px 1px 0px rgba(var(--minimal_dark_color_rgba),1) !important;
+    min-height: 27px !important;
     margin-bottom: 1px;
+	background-color: rgba(var(--minimal_dark_color_rgba),0.25) !important;
 }
 
 .titlebarcontrols_AccountMenu_3yD46:active {
@@ -1089,4 +1088,10 @@ button.DialogButton {
 
 .standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q {
     background: var(--minimal_dark_blacker);
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3 {
+    padding: 0px 5px !important;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
