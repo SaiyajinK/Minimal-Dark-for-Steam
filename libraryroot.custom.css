@@ -824,10 +824,10 @@ button.DialogButton {
 }
 
 .bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD {
-    height: 5px;
+    height: 4px;
     --color-progress-bar-foreground: var(--minimal_dark_color);
     --color-progress-bar-background: #000000;
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 [class*="supernav_Arrow_"][class*="supernav_Disabled_"] {
