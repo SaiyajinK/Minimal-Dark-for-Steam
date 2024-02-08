@@ -312,4 +312,9 @@
     background-color: var(--minimal_dark_color) !important;
 }
 
-
+.steamavatar_avatarStatus_1yIzy.bottom {
+    left: 29px !important;
+    height: 6px !important;
+    width: 6px !important;
+    top: 1px !important;
+}
