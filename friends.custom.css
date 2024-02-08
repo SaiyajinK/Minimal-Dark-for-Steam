@@ -808,3 +808,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .personastatusicons_PersonaStatusIcon_1YsWj.awayOrSnooze .SVGIcon_MobilePhone path {
     fill: orange !important;
 }
+
+.MultiUserChat .msg:not(.ChatMsgSlashEmote) {
+    padding-left: 36px;
+}
