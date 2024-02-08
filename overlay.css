@@ -434,3 +434,9 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     padding-left: 14px;
     padding-bottom: 14px;
 }
+
+.updatealert_Alert_2iJsg {
+    background-color: var(--minimal_dark_color) !important;
+    border-radius: 0px !important;
+}
+
