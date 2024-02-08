@@ -224,6 +224,10 @@ svg.titlebarcontrols_Icon_34bQc:active {
 
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8 {
     background-color: var(--minimal_dark_blacker);
+    transform: translate(9px, -1px);
+    border-top: 1px solid var(--minimal_dark_be_grey);
+    border-left: 1px solid var(--minimal_dark_be_grey);
+    border-bottom: 1px solid var(--minimal_dark_be_grey);
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:not(.titlebarcontrols_Disabled_1QQWj):hover {
