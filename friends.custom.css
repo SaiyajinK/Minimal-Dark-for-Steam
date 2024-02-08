@@ -812,3 +812,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .MultiUserChat .msg:not(.ChatMsgSlashEmote) {
     padding-left: 36px;
 }
+
+.friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl {
+    color: orange !important;
+}
