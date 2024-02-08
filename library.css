@@ -307,3 +307,9 @@
     transform: rotateZ(210deg) translateX(12%) translateY(32%);
     filter: blur(10px);
 }
+
+.libraryhomenewupdates_EventOptions_2-p7s:hover>div {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+
