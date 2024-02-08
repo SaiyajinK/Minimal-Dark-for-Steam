@@ -26,11 +26,11 @@ I passed the information on to the dev, I'm waiting for his return. (the problem
 🗣️ Dev answer : Millennium will be updated to fix this shortly.
 
 
-## `🧪 Restylised vanilla skin topbar 🧪` <br> 
+## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
 
-![minimal_dark_bis](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/6c9f0eec-3129-4b19-8131-fa6293cb9502) <br>
+![minimal_dark](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/5c15a599-4e3a-40da-83d3-a9ee78cb41a9) <br>
 
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a minimal topbar to best optimize the space compared to the vanilla base. <br> 
 
