@@ -703,6 +703,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .titleBarContainer .currentUserContainer .personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N {
     margin-top: 0px;
+    opacity: .75;
 }
 
 .groupMemberList .personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N {
@@ -795,7 +796,16 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .awayOrSnooze .personanameandstatus_richPresenceLabel_1k82N {
     color: orange !important;
+	opacity: .75 !important;
 }
+
+.personastatusicons_PersonaStatusIcon_1YsWj.personastatusicons_MobilePhoneIcon_3pGV8 {
+    margin-top: -2px;
+    margin-left: -1px;
+    opacity: .75;
+}
+
+
 
 .awayOrSnooze .personanameandstatus_playerName_r62qz {
     color: orange !important;
