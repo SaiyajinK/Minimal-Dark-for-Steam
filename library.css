@@ -87,11 +87,10 @@
     background-color: var(--minimal_dark_grey);
     box-shadow: inset 0px 0px 0px #0000 !important;
     border-left: 4px solid var(--minimal_dark_color) !important;
-    background-image: var(--minimal_dark_searchbutton) !important;
+    background-image: none !important;
     height: 32px;
     background-repeat: no-repeat;
     background-position: 8px center;
-    transition: color .15s ease-out,text-shadow .15s ease-out;
 	border-radius: 3px;
 }
 
