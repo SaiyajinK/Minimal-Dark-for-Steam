@@ -508,7 +508,7 @@ button.DialogButton {
     box-shadow: none;
     border-left: 4px solid var(--minimal_dark_color) !important;
     background-image: none !important;
-    height: 32px;
+    /* height: 32px; */
     background-repeat: no-repeat;
     background-position: 8px center;
     /* padding-left: 32px; */
