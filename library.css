@@ -59,9 +59,40 @@
     background-color: var(--minimal_dark_be_grey);
 }
 
+.DialogInput_ClearAction:hover .SVGIcon_X_Line line {
+    stroke: var(--minimal_dark_red2);
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
+    background-image: var(--minimal_dark_searchbutton) !important;
+    border-left: 4px solid var(--minimal_dark_be_grey);
+}
+
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:hover {
     background-color: var(--minimal_dark_grey);
-    box-shadow: inset 1px 2px 4px 1px #0f0f0fa6;
+    box-shadow: none;
+    border-left: 4px solid var(--minimal_dark_color);
+    background-image: var(--minimal_dark_searchbutton);
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+	border-radius: 3px;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:active {
+    background-color: var(--minimal_dark_grey);
+    box-shadow: inset 0px 0px 0px #0000 !important;
+    border-left: 4px solid var(--minimal_dark_color) !important;
+    background-image: var(--minimal_dark_searchbutton) !important;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    transition: color .15s ease-out,text-shadow .15s ease-out;
+	border-radius: 3px;
 }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
