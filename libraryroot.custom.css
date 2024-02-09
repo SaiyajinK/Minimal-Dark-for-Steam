@@ -346,7 +346,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
 .bottombar_BottomBar_3vCzS {
     background: var(--minimal_dark_blacker);
     right: 0 !important;
-    margin-right: 108px !important;
+    margin-right: var(--minimal_dark_alignment) !important;
     position: fixed;
     top: 4px !important;
     border: none;
