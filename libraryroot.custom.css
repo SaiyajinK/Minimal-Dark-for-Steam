@@ -504,9 +504,18 @@ button.DialogButton {
 }
 
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
-	background: var(--minimal_dark_greyblack);
-	box-shadow: inset 1px 1px 4px #000a;
-	padding-left: 11px;
+    background-color: var(--minimal_dark_grey);
+    box-shadow: none;
+    border-left: 4px solid var(--minimal_dark_color) !important;
+    background-image: var(--minimal_dark_searchbutton) !important;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    padding-left: 32px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
 }
 
 [class*="contextmenu_contextMenu_"] {
