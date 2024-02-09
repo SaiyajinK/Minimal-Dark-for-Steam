@@ -62,10 +62,11 @@
 --minimal_dark_maxbutton: url("./resources/maxbutton.svg");
 --minimal_dark_closebutton: url("./resources/closebutton.svg");
 --minimal_dark_restorebutton: url("./resources/restorebutton.svg");
+--minimal_dark_searchbutton: url("./resources/search.svg");
 
 /* others */
 --minimal_dark_progress_bar: #21d083; /* progress bar color sidebar/topbar */
---minimal_dark_alignment: 110px; /* align top bar buttons according to your offset - a higher value will move the buttons to the left, and lower value to the right. /!\ several modifications of this value will probably have to be made to have an optimal alignment. */
+--minimal_dark_alignment: 108px; /* align top bar buttons according to your offset - a higher value will move the buttons to the left, and lower value to the right. /!\ several modifications of this value will probably have to be made to have an optimal alignment. */
 --minimal_dark_currency: #d6d6df; /* custom color for top bar user name currency - default color #d6d6df  */
 --minimal_dark_installed_games: #d6cab7; /* installed games color - modify this value to change the color. Type 'none;' for same color for all games */
 --minimal_dark_bgb: radial-gradient(circle, rgba(66,186,216,1) 0%, rgba(66,143,216,1) 100%);
