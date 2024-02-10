@@ -348,3 +348,23 @@
     width: 6px !important;
     top: 1px !important;
 }
+
+.tooltip_ToolTipCustom_3Dt__ {
+    background-color: var(--minimal_dark_blacker);
+    border-radius: 0px !important;
+    border: 1px solid var(--minimal_dark_greyblack2) !important;
+}
+
+.tooltip_ToolTipCustom_3Dt__ .tooltip_ToolTipTitle_3YNfm {
+    color: var(--minimal_dark_color) !important;
+}
+
+.tooltip_TextToolTip_29b2a {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 0px !important;
+    border: 1px solid var(--minimal_dark_greyblack2) !important;
+}
+
+.tooltip_ToolTipCustom_3Dt__ .tooltip_ToolTipInsetContent_1nxOn {
+    color: var(--minimal_dark_less_white) !important;
+}
