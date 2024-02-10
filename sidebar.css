@@ -218,3 +218,8 @@
     opacity: 1;
     border-radius: 0px !important;
 }
+
+.gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {
+    background: rgba(var(--minimal_dark_color_rgba), .25) !important;
+    box-shadow: none !important;
+}
