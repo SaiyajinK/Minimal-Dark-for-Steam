@@ -1083,7 +1083,7 @@ button.DialogButton {
 }
 
 .titlebarcontrols_AccountMenu_3yD46:hover {
-    transition: background-color .2s ease-out;
+    transition: none;
     cursor: pointer;
     box-shadow: inset 0px 1px 1px rgba(var(--minimal_dark_color_rgba),1) !important;
     min-height: 28px !important;
