@@ -442,3 +442,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     border-radius: 0px !important;
 }
 
+.pagedsettings_PageListSeparator_1UEEm {
+    background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
+}
+
