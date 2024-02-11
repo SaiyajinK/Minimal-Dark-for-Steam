@@ -32,6 +32,8 @@ The home and collection button are now hidden to minimize the space taken up (th
 
 ![minimal_dark](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/211949a5-8171-4ef8-9dac-ae56133bfbeb) <br>
 
+![minimal_dark_1](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/5497af09-1460-4bd2-94c6-b7e8d2bc737b) <br>
+
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a minimal topbar to best optimize the space compared to the vanilla base. <br> 
 
 ## `🔄 Reboot/recharge menu 🔄` <br> 
