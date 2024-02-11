@@ -368,3 +368,29 @@
 .tooltip_ToolTipCustom_3Dt__ .tooltip_ToolTipInsetContent_1nxOn {
     color: var(--minimal_dark_less_white) !important;
 }
+
+.allcollections_Collection_3IWn- .allcollections_NavTimer_2Tnpa svg circle {
+    stroke: var(--minimal_dark_color) !important;
+}
+
+.libraryhomeshowcases_DropOption_1HgDL .libraryhomeshowcases_Showcase_V7RuD {
+    border: 2px dashed var(--minimal_dark_color) !important;
+}
+
+.libraryhomeshowcases_DropTarget_3oXyq .libraryhomeshowcases_Showcase_V7RuD {
+    border: 2px solid var(--minimal_dark_color) !important;
+    background: rgba(var(--minimal_dark_color_rgba),.75) !important;
+}
+
+.library_MainPanel_3BFcm .library_NewCollectionTarget_3PAPB {
+    background-color: rgba(var(--minimal_dark_color_rgba),.9) !important;
+}
+
+.allcollections_Collection_3IWn-.allcollections_DropOption_-D43E {
+    border: 2px dashed var(--minimal_dark_color) !important;
+}
+
+.allcollections_Collection_3IWn-.allcollections_DropTarget_2AN97 {
+    border: 2px solid var(--minimal_dark_color) !important;
+	background: rgba(var(--minimal_dark_color_rgba),.5) !important;
+}
