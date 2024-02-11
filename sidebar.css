@@ -37,7 +37,7 @@
 
 .gamelistsectionheader_Container_2sYIg:hover {
     box-sizing: border-box;
-    background: var(--minimal_dark_be_grey);
+    background: linear-gradient(to right, rgba(38, 38, 38, 1) 40%, rgba(62, 78, 105, 0) 100%);
 }
 
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
@@ -220,6 +220,8 @@
 }
 
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {
-    background: rgba(var(--minimal_dark_color_rgba), .25) !important;
+    background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), 0.25) 40%, rgba(62, 78, 105, 0) 100%);
     box-shadow: none !important;
 }
+
+
