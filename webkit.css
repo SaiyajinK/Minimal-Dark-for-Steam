@@ -5812,19 +5812,19 @@ body.v6 .store_nav #genre_flyout .popup_menu_subheader .popup_menu_item, body.v6
     color: white !important;
     background: var(--minimal_dark_bgg) !important;
     border-radius: var(--minimal_dark_corner0)!important;
-	text-shadow: none;
+    text-shadow: none;
 }
 
 #widget .btn_addtocart .btn_addtocart_content:hover {
     color: white !important;
     background: var(--minimal_dark_bgg) !important;
-	text-shadow: 1px 1px 2px rgba( 0, 0, 0, 0.3 ) !important;
+    text-shadow: 1px 1px 2px rgba( 0, 0, 0, 0.3 ) !important;
 }
 
 #widget .btn_addtocart .btn_addtocart_content:active {
     color: white !important;
     background: var(--minimal_dark_bgg) !important;
-	box-shadow: inset 0px 3px 10px #000000ab;
+    box-shadow: inset 0px 3px 10px #000000ab;
 }
 
 /* end webkit */
