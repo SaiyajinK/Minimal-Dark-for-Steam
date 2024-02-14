@@ -1101,7 +1101,18 @@ button.DialogButton {
 }
 
 .standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q {
-    background: var(--minimal_dark_blacker);
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q:hover {
+    background: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q:active {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid rgba(var(--minimal_dark_color_rgba), .5) !important;
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3 {
