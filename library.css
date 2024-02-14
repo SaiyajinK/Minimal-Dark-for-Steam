@@ -351,7 +351,7 @@
 
 .tooltip_ToolTipCustom_3Dt__ {
     background-color: var(--minimal_dark_blacker);
-    border-radius: 0px !important;
+    border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_greyblack2) !important;
 }
 
@@ -361,7 +361,7 @@
 
 .tooltip_TextToolTip_29b2a {
     background-color: var(--minimal_dark_blacker) !important;
-    border-radius: 0px !important;
+    border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_greyblack2) !important;
 }
 
