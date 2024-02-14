@@ -224,4 +224,12 @@
     box-shadow: none !important;
 }
 
+.gamelistentry_FriendIsPlaying_cNZ3w svg circle, .gamelistentry_FriendIsPlaying_cNZ3w svg path {
+    fill: #8cd61d !important;
+}
 
+.ModalOverlayBackground {
+    background: rgba(0,0,0,.8);
+    z-index: 7;
+    backdrop-filter: blur(5px);
+}
