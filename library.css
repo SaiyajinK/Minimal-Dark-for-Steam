@@ -394,3 +394,7 @@
     border: 2px solid var(--minimal_dark_color) !important;
 	background: rgba(var(--minimal_dark_color_rgba),.5) !important;
 }
+
+.library_AppDetailsTransitionGroup_2Dd4T {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
