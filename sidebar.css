@@ -35,6 +35,14 @@
     cursor: pointer;
 }
 
+.collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
+    stroke: #676666 !important;
+}
+
+.collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ:hover {
+    stroke: var(--minimal_dark_color) !important;
+}
+
 .gamelistsectionheader_Container_2sYIg:hover {
     box-sizing: border-box;
     background: linear-gradient(to right, rgba(38, 38, 38, 1) 40%, rgba(62, 78, 105, 0) 100%);
@@ -116,14 +124,6 @@
 
 .gamelistentry_Selected_1UBpA {
     color: var(--minimal_dark_orange);
-}
-
-.collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
-    stroke: var(--minimal_dark_color);
-}
-
-.collapseicon_CollapseIconParent_ehAsU:hover .collapseicon_Container_3SFRZ:hover {
-    stroke: var(--minimal_dark_greyblack1);
 }
 
 .SVGIcon_Button .SVGIcon_FriendIcon {
