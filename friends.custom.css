@@ -839,3 +839,6 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     background-color: var(--minimal_dark_be_grey) !important;
 }
 
+.throbber_ThrobberText_1Zlvf, .throbber_LoadingWrapper_3Z36h .throbber_ThrobberText_1Zlvf {
+    color: var(--minimal_dark_color) !important;
+}
