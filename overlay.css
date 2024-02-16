@@ -446,3 +446,43 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
 }
 
+.DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.gamepaddialog_ToggleRail_2JtC3::before {
+    background: var(--minimal_dark_color) !important;
+	border-radius: 9001px !important;
+}
+
+.gamepaddialog_ToggleRail_2JtC3 {
+    background: rgba(255,255,255,.15) !important;
+    border-radius: 9001px !important;
+}
+
+.gamepaddialog_Toggle_24G4g:not(.gamepaddialog_Disabled_1pmyx):hover {
+    box-shadow: 0px 0px 0px 4px rgba(255,255,255,.3);
+    border-radius: 9001px !important;
+    transition: box-shadow 100ms ease-in;
+}
+
+.gamepaddialog_ToggleSwitch_3__OD {
+    border-radius: 9001px !important;
+}
+
+.gamepaddialog_Toggle_24G4g.gamepaddialog_On_3ld7T .gamepaddialog_ToggleRail_2JtC3::before {
+    transform: translateX(-3px) !important;
+}
+
+.radio_Group_2qYC3 {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.radio_Button_3lwcR.radio_Active_3ZBFo, .radio_Button_3lwcR.radio_Active_3ZBFo:hover {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.settings_SettingsModal_3few7 .DialogDropDown:hover {
+    background: var(--minimal_dark_greyblack) !important;
+}
