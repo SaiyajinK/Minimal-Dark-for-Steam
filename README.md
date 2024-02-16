@@ -20,10 +20,17 @@ Open `-config.css-` with notepad++ and modify `line 4` and `line 6` ; save and r
 
 ⚠️ note: color settings reset with each update (for now).<br>
 
-This is because Millennium, during an update reloads the entire Github directory and not just the updated files.<br>
-I passed the information on to the dev, I'm waiting for his return. (the problem does not occur with SFP).<br>
+`More simply` :<br>
+- If you use the base color (which is Steam's default color, light blue): no problem since it is the base of the skin.<br>
 
-🗣️ Dev answer : Millennium will be updated to fix this shortly.
+`On the other hand` :<br>
+- If you use a custom color: you will have to redefine the custom color during EACH update (for the moment) whether manual (by opening millenium from Steam settings) or automatic (when launching or restarting Steam).<br>
+
+`Why ?` :<br>
+- This is because Millennium, during an update reloads the entire Github directory and not just the updated files.<br>
+I passed the information on to the dev, I'm waiting for his return (the problem does not occur with SFP).<br>
+
+🗣️ Dev response : Millennium will be updated soon to resolve this issue to only update files changed during a skin update.
 
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
