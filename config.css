@@ -25,8 +25,10 @@
 --minimal_dark_red: #ff002e;
 --minimal_dark_red1: #ff0000;
 --minimal_dark_red2: #f12446;
+--minimal_dark_redsettings: #bf3d3d;
 --minimal_dark_red2_rgba: 241,36,70,1;
 --minimal_dark_green: #008000;
+--minimal_dark_greensettings: #5aa05a;
 --minimal_dark_darker_green: #5c7e10;
 --minimal_dark_grey: #1a1a1a;
 --minimal_dark_be_grey: #262626;
@@ -43,6 +45,7 @@
 --minimal_dark_light_blue: #a4d7f5;
 --minimal_dark_lime: #d0ff15;
 --minimal_dark_less_white: #dcdcdc;
+--minimal_dark_yellow: #e0b825;
 
 /* global configuration */
 --minimal_dark_fontdown: lowercase;
@@ -63,6 +66,8 @@
 --minimal_dark_closebutton: url("./resources/closebutton.svg");
 --minimal_dark_restorebutton: url("./resources/restorebutton.svg");
 --minimal_dark_searchbutton: url("./resources/search.svg");
+--minimal_dark_offline: url("./resources/offline.svg");
+--minimal_dark_paused: url("./resources/paused.svg");
 
 /* others */
 --minimal_dark_progress_bar: #21d083; /* progress bar color sidebar/topbar */
