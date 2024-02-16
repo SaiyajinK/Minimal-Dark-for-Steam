@@ -15,7 +15,7 @@
 
 .downloads_SectionItem_1VNuY:hover, .downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
     background-color: var(--minimal_dark_black);
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
@@ -41,4 +41,30 @@
 
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover {
     background: var(--minimal_dark_invisblegrey);
+}
+
+.downloads_Active_IbePL .downloads_SectionList_OINnO {
+    border-bottom: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.downloads_SectionItem_1VNuY:hover .downloads_Button_3oavR.DialogButton:enabled {
+    background: transparent !important;
+	fill: var(--minimal_dar_color) !important;
+}
+
+button.DialogButton::before {
+	box-shadow: none !important;
+}
+
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
+    background: transparent !important;
+}
+
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled:hover, .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled:focus {
+    background: none !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled.downloads_RemoveFromQueue_2xR-V:hover {
+    color: var(--minimal_dark_redsettings) !important;
 }
