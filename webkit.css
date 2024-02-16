@@ -129,6 +129,7 @@ body::-webkit-scrollbar-track {
 #footer {
 	display:none!important;
 }
+}
 
 @media only screen and (min-width:3400px) {
 .responsive_page_content {
@@ -144,6 +145,7 @@ body::-webkit-scrollbar-track {
 #footer {
 	display:none!important;
 }
+}
 
 @media only screen and (min-width:4000px) {
 .responsive_page_content {
@@ -158,6 +160,7 @@ body::-webkit-scrollbar-track {
 
 #footer {
 	display:none!important;
+}
 }
 
 html {
