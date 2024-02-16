@@ -58,7 +58,7 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 `Thanks Shiina for the base of the webkit` <br>
 I re-edited and fix the whole code according to my theme. <br>
 
-![minimal_dark_w1](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/3fe429d4-f63b-44de-a0b8-5b91678ebdb8) <br> 
+![minimal_dark_w](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/907b1457-7b51-4fea-99b2-b1c8d1193e21) <br> 
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
