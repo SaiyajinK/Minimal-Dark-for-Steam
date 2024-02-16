@@ -398,3 +398,35 @@
 .library_AppDetailsTransitionGroup_2Dd4T {
     background: var(--minimal_dark_blacker_alt) !important;
 }
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg circle {
+    stroke: var(--minimal_dark_color) !important;
+}
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg circle {
+    stroke: var(--minimal_dark_less_white);
+}
+
+.collectionview_Container_2q70u .collectionview_Header_2rqTS .collectionview_Rule_1grg9 {
+    flex-grow: 1;
+    height: 1px;
+    margin-left: 16px;
+    align-self: center;
+    background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba),.5), rgba(255, 255, 255, 0)) !important;
+}
+
+.appgrid_AppGridSectionHeader_3bWIS::after {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
+    flex-grow: 1;
+    height: 1px;
+    align-self: center;
+    margin-left: 10px;
+    background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba),.5), rgba(255, 255, 255, 0)) !important;
+}
