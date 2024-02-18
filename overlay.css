@@ -375,10 +375,6 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
     background: var(--minimal_dark_be_grey);
 }
 
-button.DialogButton.Primary {
-    background: var(--minimal_dark_bgb);
-}
-
 button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:hover:active, button.DialogButton.Primary:enabled:active.gpfocus {
     background: var(--minimal_dark_bgb);
     box-shadow: inset 0px 0px 5px black;
