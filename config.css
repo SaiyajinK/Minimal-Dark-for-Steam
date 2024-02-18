@@ -66,8 +66,6 @@
 --minimal_dark_closebutton: url("./resources/closebutton.svg");
 --minimal_dark_restorebutton: url("./resources/restorebutton.svg");
 --minimal_dark_searchbutton: url("./resources/search.svg");
---minimal_dark_offline: url("./resources/offline.svg");
---minimal_dark_paused: url("./resources/paused.svg");
 
 /* others */
 --minimal_dark_progress_bar: #21d083; /* progress bar color sidebar/topbar */
