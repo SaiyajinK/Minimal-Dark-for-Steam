@@ -87,14 +87,14 @@
     border: 2px solid rgba(62,64,71,0.50);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
-    box-shadow: 0px 5px 16px #00000078;
+    box-shadow: none !important;
 }
 
 :not([class*="appactionbutton_Disabled_"]) > [class*="appactionbutton_Green_"] > [class*="appactionbutton_ButtonChild_"]:active {
     background-image: var(--minimal_dark_bgg) !important;
     border: 2px solid rgba(62,64,71,0.50);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
-    box-shadow: inset 0px 5px 6px #000000ab;
+    box-shadow: inset 0px 2px 4px #000000ab !important;
 }
 
 :not([class*="appactionbutton_Disabled_"]) > [class*="appactionbutton_ButtonChild_"]:hover {
@@ -102,14 +102,18 @@
     border: 2px solid rgba(62,64,71,0.10);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
-    box-shadow: 0px 5px 16px #00000078;
+    box-shadow: none !important;
 }
 
 :not([class*="appactionbutton_Disabled_"]) > [class*="appactionbutton_ButtonChild_"]:active {
     background-image: var(--minimal_dark_bgb) !important;
     border: 2px solid rgba(62,64,71,0.50);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
-    box-shadow: inset 0px 5px 6px #000000ab;
+    box-shadow: inset 0px 2px 4px #000000ab !important;
+}
+
+.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX {
+    border-radius: 50px !important;
 }
 
 .appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
@@ -369,7 +373,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
-    border-radius: 2px 0px 0px 2px;
+    border-radius: 50px !important;
     margin-top: -4px;
 }
 
@@ -473,7 +477,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 .appactivityday_PartnerEventLargeUpdate_39Zk3 {
     border: 1px solid var(--minimal_dark_color) !important;
-    border-image: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), .5) 0%, rgba(var(--minimal_dark_color_rgba), .5) 0% 18px, rgba(var(--minimal_dark_color_rgba), .5) 0% 50%, rgba(var(--minimal_dark_color_rgba), .5) 0% 100%) !important;
+    border-image: none !important;
     background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), 0) 0%, rgba(var(--minimal_dark_color_rgba), .5) 18px, rgba(var(--minimal_dark_color_rgba), 1) 50%, rgba(var(--minimal_dark_color_rgba), .5) 100%) !important;
 }
 
@@ -482,7 +486,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .appactivityday_Event_UVeN0.appactivityday_PartnerEventFeatured_3xi-H {
-    border-image: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), .5) 0%, rgba(var(--minimal_dark_color_rgba), .5) 0% 18px, rgba(var(--minimal_dark_color_rgba), .5) 0% 50%, rgba(var(--minimal_dark_color_rgba), .5) 0% 100%) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-image: none !important;
     background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), .5) 0%, rgba(var(--minimal_dark_color_rgba), .5) 0% 18px, rgba(var(--minimal_dark_color_rgba), .5) 0% 50%, rgba(var(--minimal_dark_color_rgba), .5) 0% 100%) !important;
 }
 
@@ -512,4 +517,34 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 .appdetailscommunityfeed_MenuButton_CwZqp:hover {
     background-color: transparent !important;
+}
+
+.appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
+    margin-left: 15px !important;
+}
+
+.appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
+    margin-left: 15px !important;
+}
+
+.appdetailscommunityfeed_ArtItem_1aP1b .appdetailscommunityfeed_BottomSection_3uabi {
+    background: #1515155e !important;
+    backdrop-filter: blur(10px) !important;
+	border-right: 1px solid var(--minimal_dark_invisblegrey) !important;
+	border-top: 1px solid var(--minimal_dark_invisblegrey) !important
+}
+
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {
+    padding: 2px 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {
+    background-color: var(--minimal_dark_greyblack) !important;
+}
+
+.euladialog_EULAContent_1dbgU {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 0px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
