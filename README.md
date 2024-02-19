@@ -52,7 +52,7 @@ I re-edited and fix the whole code according to my theme. <br>
 6️⃣ - Select the Minimal Dark for Steam theme and drag `Drop onto Millennium button` in the Millennium and wait download & installation<br>
 7️⃣ - Return to the `Library tab` and refresh the list of downloaded skins and click on `Minimal Dark for Steam`.<br>
 
-Official source : https://millennium.gitbook.io/steam-patcher/getting-started/installation <br>
+> Official source : https://millennium.gitbook.io/steam-patcher/getting-started/installation <br>
 
 ## `🔗 Manual installation with SFP 🔗` <br>
 1️⃣ - Download & extract latest release [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/releases)<br>
@@ -72,7 +72,7 @@ Official source : https://millennium.gitbook.io/steam-patcher/getting-started/in
 - [Unofficial Patch for Metro for Steam](https://discord.gg/dMsSwufK7Q) for sharing reboot/reload script<br>
 - [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
 
-_
+------
 
 Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
 
