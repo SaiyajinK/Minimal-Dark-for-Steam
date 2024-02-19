@@ -78,7 +78,7 @@
     background: transparent !important;
     border: 2px solid rgba(62,64,71,0.10);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
-    border-radius: 5px;
+    border-radius: 50px;
     box-shadow: 0px 1px 30px 1px rgba(0,0,0,.2);
 }
 
