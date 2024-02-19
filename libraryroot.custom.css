@@ -684,7 +684,7 @@ button.DialogButton {
     -webkit-app-region: drag;
     max-width: 500px;
     position: fixed;
-    margin-left: 245px;
+    margin-left: 258px;
     margin-top: 0px;
 }
 
@@ -913,7 +913,7 @@ button.DialogButton {
 	color: var(--minimal_dark_transparent);
     width: 19px;
     padding: 10px 0px 10px 0px;
-    margin-left: 10px;
+    margin-left: 18px;
     background-color: var(--minimal_dark_topgrey);
     -webkit-mask-image: var(--minimal_dark_display);
     -webkit-mask-repeat: no-repeat;
@@ -926,7 +926,7 @@ button.DialogButton {
     color: var(--minimal_dark_transparent);
     width: 19px;
     padding: 10px 0px 10px 0px;
-    margin-left: 10px;
+    margin-left: 18px;
     background-color: var(--minimal_dark_color);
     -webkit-mask-image: var(--minimal_dark_display);
     -webkit-mask-repeat: no-repeat;
@@ -939,7 +939,7 @@ button.DialogButton {
     color: var(--minimal_dark_transparent);
     width: 19px;
     padding: 10px 0px 10px 0px;
-    margin-left: 10px;
+    margin-left: 18px;
     background-color: var(--minimal_dark_white);
     -webkit-mask-image: var(--minimal_dark_display);
     -webkit-mask-repeat: no-repeat;
@@ -1129,4 +1129,8 @@ button.DialogButton {
 .titlebarcontrols_AccountMenu_3yD46.awayOrSnooze {
     color: orange;
     background-color: none !important;
+}
+
+[class*="supernav_SuperNavMenu_"]:nth-of-type(1), [class*="supernav_SuperNavMenu_"]:nth-of-type(1):hover, [class*="supernav_SuperNavMenu_"]:nth-of-type(1):active {
+	margin-left: 5px !important;
 }
