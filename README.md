@@ -68,9 +68,7 @@ I re-edited and fix the whole code according to my theme. <br>
 6️⃣ - Select the Minimal Dark for Steam theme and drag `Drop onto Millennium button` in the Millennium and wait download & installation<br>
 7️⃣ - Return to the `Library tab` and refresh the list of downloaded skins and click on `Minimal Dark for Steam`.<br>
 
-## `🎥 Video installation 🎥`<br>
-[<img src="https://i.imgur.com/ZjdSZPS.png" width="50%">](https://youtu.be/4GHb2_N6D3g)
-
+Official source : https://millennium.gitbook.io/steam-patcher/getting-started/installation <br>
 
 ## `🔗 Manual installation with SFP 🔗` <br>
 1️⃣ - Download & extract latest release [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/releases)<br>
