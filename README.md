@@ -47,7 +47,7 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a mi
 I added a js script to the skin that adds the restart and refresh UI actions. <br>
 `Script has shared on the unofficial metro discord` <br>
 
-https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/cffbeb5b-0c9e-4364-a0c7-de397a700d8a
+![Reboot_recharge menu](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/7f73abce-ede6-4011-8053-305d197156b0) <br> 
 
 ## `📸 Compact mode + friends 📸` <br> 
 
