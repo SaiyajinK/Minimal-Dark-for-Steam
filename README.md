@@ -38,9 +38,7 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
 
-![minimal_dark](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/211949a5-8171-4ef8-9dac-ae56133bfbeb) <br>
-
-![minimal_dark_1](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/5497af09-1460-4bd2-94c6-b7e8d2bc737b) <br>
+![minimal_dark](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/f5c370ea-1cb7-44b9-929f-4dcbfadc5e40) <br>
 
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a minimal topbar to best optimize the space compared to the vanilla base. <br> 
 
@@ -49,11 +47,11 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a mi
 I added a js script to the skin that adds the restart and refresh UI actions. <br>
 `Script has shared on the unofficial metro discord` <br>
 
-![Reboot   recharge menu](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/7f73abce-ede6-4011-8053-305d197156b0) <br> 
+https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/cffbeb5b-0c9e-4364-a0c7-de397a700d8a
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![minimal_dark_2](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/a3577b4c-e5f9-4382-8433-b91751b4c92f) <br> 
+![minimal_dark_2](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/161b9e39-6881-42b4-875b-b7a2465b74cf) <br> 
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
