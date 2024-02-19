@@ -1,17 +1,4 @@
 ## ⚡ Minimal Dark for Steam ⚡ <br> 
-Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
-
-Initially, it was a skin that I had made only for myself. <br>
-After some thought I decided to share it with other people. <br>
-
-I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
-All the sources and tools I used are at the bottom of the description. <br>
-
-I'm not a coder or developer, I have notions and I do this on my free time when I have some. <br>
-Be understandable if you encounter some bugs. <br>
-
-That said, I hope you enjoy the interface! <br>
-> this sharing is non-profit ! <br>
 
 ## `🎨 Customize theme with the color of your choice!🎨` <br> 
 
@@ -21,14 +8,11 @@ How change the skin color ? <br>
 
 ⚠️ note: color settings reset with each update (for now).<br>
 
-`More simply` :<br>
-- If you use the base color (which is Steam's default color, light blue): no problem since it is the base of the skin.<br>
+`More simply` : If you use the base color (which is Steam's default color, light blue): no problem since it is the base of the skin.<br>
 
-`On the other hand` :<br>
-- If you use a custom color: you will have to redefine the custom color during EACH update (for the moment) whether manual (by opening millenium from Steam settings) or automatic (when launching or restarting Steam).<br>
+`On the other hand` : If you use a custom color: you will have to redefine the custom color during EACH update (for the moment) whether manual (by opening millenium from Steam settings) or automatic (when launching or restarting Steam).<br>
 
-`Why ?` :<br>
-- This is because Millennium, during an update reloads the entire Github directory and not just the updated files.<br>
+`Why ?` : This is because Millennium, during an update reloads the entire Github directory and not just the updated files.<br>
 I passed the information on to the dev, I'm waiting for his return (the problem does not occur with SFP).<br>
 
 🗣️ Dev response : Millennium will be updated soon to resolve this issue to only update files changed during a skin update.
@@ -87,3 +71,19 @@ Official source : https://millennium.gitbook.io/steam-patcher/getting-started/in
 - [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit<br>
 - [Unofficial Patch for Metro for Steam](https://discord.gg/dMsSwufK7Q) for sharing reboot/reload script<br>
 - [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
+
+_
+
+Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
+
+Initially, it was a skin that I had made only for myself. <br>
+After some thought I decided to share it with other people. <br>
+
+I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
+All the sources and tools I used are at the bottom of the description. <br>
+
+I'm not a coder or developer, I have notions and I do this on my free time when I have some. <br>
+Be understandable if you encounter some bugs. <br>
+
+That said, I hope you enjoy the interface! <br>
+> this sharing is non-profit ! <br>
