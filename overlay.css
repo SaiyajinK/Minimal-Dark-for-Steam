@@ -137,12 +137,8 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 .console_Console_1fuML {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--minimal_dark_blacker);
-    user-select: text;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .franchise_notice {
@@ -481,4 +477,8 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 .settings_SettingsModal_3few7 .DialogDropDown:hover {
     background: var(--minimal_dark_greyblack) !important;
+}
+
+.prosemirror_ToolbarRow_2H40R .prosemirror_CommandButton_1-R1U.prosemirror_Toggled_41y1p {
+    background: var(--minimal_dark_color) !important;
 }
