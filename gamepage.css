@@ -27,7 +27,7 @@
 
 .writereview_RatingContainer_2SAb6 {
     background-color: transparent;
-    padding: 15px;
+    padding: 2px;
     display: flex;
     justify-content: space-between;
     margin: 30px 0;
@@ -76,7 +76,6 @@
 
 [class*="appactionbutton_ButtonChild_"] {
     background: transparent !important;
-    border: 2px solid rgba(62,64,71,0.10);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
     border-radius: 50px;
     box-shadow: 0px 1px 30px 1px rgba(0,0,0,.2);
@@ -112,8 +111,16 @@
     box-shadow: inset 0px 2px 4px #000000ab !important;
 }
 
+.appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
+    border-radius: 50px !important;
+    margin-top: -4px;
+	border: 2px solid rgba(66,143,216,1) !important;
+}
+
 .appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX {
     border-radius: 50px !important;
+	border: 2px solid rgb(142 142 142 / 50%) !important;
+	margin-top: -2px !important;
 }
 
 .appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
@@ -372,11 +379,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
     background-color: var(--minimal_dark_be_grey);
 }
 
-.appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
-    border-radius: 50px !important;
-    margin-top: -4px;
-}
-
 .writereview_ReviewThumbButton_1kCN0 {
     background: var(--minimal_dark_invisblegrey);
     color: white;
@@ -547,4 +549,97 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
     background: var(--minimal_dark_blacker_alt) !important;
     border-radius: 0px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.appactionbutton_PlayButton_3ydig .appactionbutton_ButtonText_33cnX {
+    display: none;
+}
+
+.appactionbutton_PlayButtonContainer_1FnJ6 {
+    min-width: 0px !important;
+}
+
+.appactionbutton_PlayButton_3ydig svg {
+    margin-right: 0px !important;
+}
+
+.appactionbutton_PlayButtonContainer_1FnJ6.appactionbutton_ShowingStreaming_1hhB2 {
+    min-width: 0px !important;
+}
+
+.appactionbutton_PlayButton_3ydig {
+    padding: 4px 11px 4px 12px !important;
+    border: 2px solid #8b929a29;
+    margin-top: -2px !important;
+}
+
+.appdetailsplaysection_InnerContainer_3Y87Y {
+    padding: 7px 20px 2px 20px !important;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ {
+    background-color: #acb2c900 !important;
+}
+
+.comment_thread_ActivityCommentThreadMinimized_EhWKR {
+    padding-top: 0px !important;
+}
+
+.comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover {
+    background-color: rgb(33 33 33 / 97%) !important;
+    border-radius: 5px !important;
+}
+
+.comment_thread_ActivityCommentThread_39nna {
+    background: transparent !important;
+}
+
+.appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_StatusAndStats_1YbtI {
+    height: 39px !important;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ {
+    padding: 8px !important;
+    transform: translate(0px, -3px) !important;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ.appdetailsplaysection_FavoriteButton_21hXW.appdetailsplaysection_Favorited_2WaHZ svg path {
+    stroke: rgba(var(--minimal_dark_color_rgba),.5) !important;
+    fill: var(--minimal_dark_color) !important;
+}
+
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 {
+    margin-bottom: 20px !important;
+}
+.appdetailssection_AppDetailsSection_2r4TK {
+    margin-bottom: 0px !important;
+}
+
+.comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK, .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H, .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb {
+    border-radius: 5px !important;
+}
+
+.comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover {
+    background-color: rgb(33 33 33 / 97%) !important;
+    border-radius: 5px !important;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ:hover .SVGIcon_Settings path {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ:hover .appdetailsplaysection_DotDotDot_zvLq1 .SVGIcon_Information .I {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ:hover .appdetailsplaysection_DotDotDot_zvLq1 svg circle {
+    stroke: var(--minimal_dark_color) !important;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ.appdetailsplaysection_FavoriteButton_21hXW:hover svg path {
+    stroke: gold !important;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ:hover .appdetailsplaysection_DotDotDot_zvLq1 svg polyline {
+    stroke: var(--minimal_dark_color) !important;
 }
