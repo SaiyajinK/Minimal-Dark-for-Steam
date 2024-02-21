@@ -20,6 +20,7 @@
 
 .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
     background: var(--minimal_dark_blacker);
+    border-radius: 50px !important;
 }
 
 .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5:hover.DialogButton:enabled {
