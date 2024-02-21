@@ -61,11 +61,12 @@
     box-sizing: border-box;
     background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),.1) 0%, rgba(30,30,30,1) 50%, rgba(255,255,255,0) 100%) !important;
     box-shadow: 0 0px 2px 0px #0005, 0 0px 16px 0px #0004;
-	border-left: 1px solid var(--minimal_dark_color) !important;
+	border-left: 2px solid var(--minimal_dark_color) !important;
 }
 
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z:hover, .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy, .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z :hover, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z:hover, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z :hover {    
-    background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),.1) 0%, rgba(30,30,30,1) 50%, rgba(255,255,255,0) 100%) !important;
+    /* background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),.1) 0%, rgba(30,30,30,1) 50%, rgba(255,255,255,0) 100%) !important; */
+    background: transparent !important;
 }
 
 .gamelistentry_Container_2-O4Z:hover {
@@ -73,7 +74,7 @@
     background: linear-gradient(90deg, rgba(30,30,30,1) 0%, rgba(30,30,30,1) 50%, rgba(255,255,255,0) 100%);
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-	border-left: 1px solid rgba(var(--minimal_dark_color_rgba),0.4) !important;
+	border-left: 2px solid rgba(var(--minimal_dark_color_rgba),0.4) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
@@ -243,12 +244,8 @@
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {
     background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), 0.15) 40%, rgba(62, 78, 105, 0) 100%) !important;
     box-shadow: none !important;
-	border-top: 1px solid rgba(var(--minimal_dark_color_rgba), 0.1) !important;
+	border-top: 2px solid rgba(var(--minimal_dark_color_rgba), 0.1) !important;
     border-bottom: 1px solid rgba(var(--minimal_dark_color_rgba), 0.1) !important;
-}
-
-.gamelistentry_FriendIsPlaying_cNZ3w svg circle, .gamelistentry_FriendIsPlaying_cNZ3w svg path {
-    fill: #8cd61d !important;
 }
 
 .ModalOverlayBackground {
@@ -281,5 +278,20 @@
 }
 
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B {
-    padding: 2px 4px 2px 12px !important;
+    padding: 2px 0px 2px 24px !important;
+}
+
+.gamelistentry_FriendIsPlaying_cNZ3w svg circle, .gamelistentry_FriendIsPlaying_cNZ3w svg path {
+    fill: transparent !important;
+}
+
+svg.SVGIcon_Button.SVGIcon_FriendIcon {
+    padding-top: 6px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    border-left: 2px solid #8cd61d !important;
+    margin-top: -3px;
+    margin-left: 0px;
+    background: transparent !important;
 }
