@@ -22,7 +22,11 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
 
-![minimal_dark](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/f5c370ea-1cb7-44b9-929f-4dcbfadc5e40) <br>
+![steamwebhelper_m9ISXn8BbN](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/2423bda6-ba69-468f-9552-abcc0765a491) <br>
+
+Edited interface. <br>
+
+![steamwebhelper_OdbYdgLonN](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/c380fc55-5bf7-483c-b859-69ab43733e9f) <br>
 
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a minimal topbar to best optimize the space compared to the vanilla base. <br> 
 
@@ -31,17 +35,25 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a mi
 I added a js script to the skin that adds the restart and refresh UI actions. <br>
 `Script has shared on the unofficial metro discord` <br>
 
-![Reboot_recharge menu](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/7f73abce-ede6-4011-8053-305d197156b0) <br> 
+
+
+https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/24233ebb-c2ac-4417-a8f8-56747813d72b
+
+
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![minimal_dark_2](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/161b9e39-6881-42b4-875b-b7a2465b74cf) <br> 
+![steamwebhelper_phO93tJRKG](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/cd713841-5f4f-4f58-be4b-49b48b98e891) <br> 
+
+## `📸 Profil 📸` <br> 
+
+https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/37376c5a-39ab-4076-8d8b-3ef6cfca186a
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
 I re-edited and fix the whole code according to my theme. <br>
 
-![minimal_dark_w](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/907b1457-7b51-4fea-99b2-b1c8d1193e21) <br> 
+![steamwebhelper_T7EDceI3Pt](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/81bb949e-8e22-48fb-b29f-eeeedfce4680) <br> 
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
