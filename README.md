@@ -35,18 +35,15 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a mi
 I added a js script to the skin that adds the restart and refresh UI actions. <br>
 `Script has shared on the unofficial metro discord` <br>
 
-
-https://private-user-images.githubusercontent.com/105972098/306773216-24233ebb-c2ac-4417-a8f8-56747813d72b.mp4
-
-
+https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/bfdf5984-ea9d-4cc1-b4f1-00070388e681
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![steamwebhelper_phO93tJRKG](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/cd713841-5f4f-4f58-be4b-49b48b98e891) <br> 
+![steamwebhelper_phO93tJRKG](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/cd713841-5f4f-4f58-be4b-49b48b98e891) <br>
 
 ## `📸 Profil 📸` <br> 
 
-https://github-production-user-asset-6210df.s3.amazonaws.com/105972098/306772661-37376c5a-39ab-4076-8d8b-3ef6cfca186a.mp4
+https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/b889225a-4912-4871-93c0-899e2c82a27c
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
