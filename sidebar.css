@@ -244,7 +244,7 @@
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {
     background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba), 0.15) 40%, rgba(62, 78, 105, 0) 100%) !important;
     box-shadow: none !important;
-	border-top: 2px solid rgba(var(--minimal_dark_color_rgba), 0.1) !important;
+	border-top: 1px solid rgba(var(--minimal_dark_color_rgba), 0.1) !important;
     border-bottom: 1px solid rgba(var(--minimal_dark_color_rgba), 0.1) !important;
 }
 
