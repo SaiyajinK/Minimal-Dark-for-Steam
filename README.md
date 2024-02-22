@@ -36,8 +36,7 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 `Script has shared on the unofficial metro discord` <br>
 
 
-
-https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/24233ebb-c2ac-4417-a8f8-56747813d72b
+https://private-user-images.githubusercontent.com/105972098/306773216-24233ebb-c2ac-4417-a8f8-56747813d72b.mp4
 
 
 
@@ -47,7 +46,7 @@ https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/24233ebb-c2
 
 ## `📸 Profil 📸` <br> 
 
-https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/37376c5a-39ab-4076-8d8b-3ef6cfca186a
+https://github-production-user-asset-6210df.s3.amazonaws.com/105972098/306772661-37376c5a-39ab-4076-8d8b-3ef6cfca186a.mp4
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
