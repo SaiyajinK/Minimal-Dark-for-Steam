@@ -47,6 +47,8 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 
 ## `📸 Profil 📸` <br> 
 
+Blurred profil. <br>
+
 https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/b889225a-4912-4871-93c0-899e2c82a27c
 
 ## `🌐 Dark webkit 🌐` <br> 
