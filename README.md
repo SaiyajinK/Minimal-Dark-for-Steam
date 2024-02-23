@@ -1,5 +1,9 @@
 ## ⚡ Minimal Dark for Steam ⚡ <br> 
 
+Minimal vs vanilla :<br>
+
+![minimal_vs_vanilla](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/a53f4580-d691-4edf-bb4c-4d4e53237d90) <br> 
+
 ## `🎨 Customize theme with the color of your choice!🎨` <br> 
 
 How change the skin color ? <br>
@@ -17,17 +21,17 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 🗣️ Dev response : Millennium will be updated soon to resolve this issue to only update files changed during a skin update.
 
-
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
+Topbar <br>
 
-![steamwebhelper_m9ISXn8BbN](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/2423bda6-ba69-468f-9552-abcc0765a491) <br>
+![topbar_reworked](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/79cc79af-77bd-4700-a5df-70bf3fe486e8) <br>
 
-Edited interface. <br>
+Edited interface <br>
 
 ![steamwebhelper_OdbYdgLonN](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/c380fc55-5bf7-483c-b859-69ab43733e9f) <br>
 
+The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a minimal topbar to best optimize the space compared to the vanilla base. <br> 
 
 ## `🔄 Reboot/recharge menu 🔄` <br> 
