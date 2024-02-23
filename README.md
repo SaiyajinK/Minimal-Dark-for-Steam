@@ -23,11 +23,11 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-Topbar <br>
+Topbar :<br>
 
 ![topbar_reworked](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/79cc79af-77bd-4700-a5df-70bf3fe486e8) <br>
 
-Edited interface <br>
+Edited interface :<br>
 
 ![steamwebhelper_OdbYdgLonN](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/c380fc55-5bf7-483c-b859-69ab43733e9f) <br>
 
@@ -47,7 +47,7 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 
 ## `📸 Profil 📸` <br> 
 
-Blurred profil. <br>
+Blurred profil :<br>
 
 https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/b889225a-4912-4871-93c0-899e2c82a27c
 
