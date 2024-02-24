@@ -53,25 +53,23 @@ https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/b889225a-49
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
-I re-edited and fix the whole code according to my theme. <br>
+With aspects changed to match my theme. <br>
 
 ![steamwebhelper_T7EDceI3Pt](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/81bb949e-8e22-48fb-b29f-eeeedfce4680) <br> 
 
-## `✅ Quick installation with Millennium (recommanded) ✅` <br>
+## `✅ Quick installation with Millennium (recommended) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
-2️⃣ - Clic on  `Integrate` and wait for the end of integration (Steam will close)<br>
-3️⃣ - Restart Steam and go `Settings` > `Interface` > `Steam Skin` > `Open Millennium`<br>
-4️⃣ - In Millennium interface click on `Settings` and check that `JavaScript Execution` is checked.<br>
-5️⃣ - Always in Millennium interface click on `Community` (Steam browser will open).<br>
-6️⃣ - Select the Minimal Dark for Steam theme and drag `Drop onto Millennium button` in the Millennium and wait download & installation<br>
-7️⃣ - Return to the `Library tab` and refresh the list of downloaded skins and click on `Minimal Dark for Steam`.<br>
+2️⃣ - In Millennium interface click on `Settings` and check that `JavaScript Execution` is checked.<br>
+3️⃣ - In Millennium interface click on `Community` (Steam browser will open).<br>
+4️⃣ - Select the Minimal Dark for Steam theme and drag `Drop onto Millennium button` in the Millennium and wait for download & installation<br>
+5️⃣ - Return to the `Library tab` and refresh the list of downloaded skins and click on `Minimal Dark for Steam`.<br>
 
-> Official source : https://millennium.gitbook.io/steam-patcher/getting-started/installation <br>
+> Installation documentation : https://millennium.gitbook.io/steam-patcher/getting-started/installation <br>
 
 ## `🔗 Manual installation with SFP 🔗` <br>
 1️⃣ - Download & extract latest release [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/releases)<br>
 2️⃣ - Copy `Minimal-Dark-for-Steam` folder to "C:\Program Files (x86)\Steam\steamui\skins\"<br>
-3️⃣ - Download latest SFP [here](https://github.com/PhantomGamers/SFP/releases) <br>
+3️⃣ - Download the latest SFP version [here](https://github.com/PhantomGamers/SFP/releases) <br>
 4️⃣ - Launch SFP, in settings go to Steam, check "Inject JavaScript", and now select steam skin (steam will reload automatically). If you want dev Steam, type `-dev` on the end of launch arguments to get `-cef-enable-debugging -dev`.<br>
 
 ## `🛠️ Tools used 🛠️` <br>
@@ -79,12 +77,15 @@ I re-edited and fix the whole code according to my theme. <br>
 - [Color picker](https://htmlcolorcodes.com/color-picker/) <br>
 - [ColorSpace](https://mycolor.space) <br>
 - [CSS Gradient](https://cssgradient.io/) <br>
-- [Free SVG collection](https://thenounproject.com/) <br>
+- [Free SVG collection](https://thenounproject.com/) <be>
 
-## `🖱️ Contributors links 🖱️` <br>
-- [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit<br>
-- [Unofficial Patch for Metro for Steam](https://discord.gg/dMsSwufK7Q) for sharing reboot/reload script<br>
-- [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
+## `📜 Open Source Refrences 📜` <br>
+- Credits to Rose's [Metro for Steam](https://github.com/RoseTheFlower/MetroSteam) for the initial base of the theme
+- A majority of the webkit is based on [Shiina's Dark Mode](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) <br>
+- Thanks to [PhantomGamers](https://github.com/PhantomGamers) for the reboot/reload script <br> 
+- ShadowMonster's [Millennium Steam Patcher](https://github.com/ShadowMonster99/millennium-steam-patcher) <br>
+- PhantomGamers [SFP](https://github.com/PhantomGamers) <br>
+- WaitForElement module by [LaserFlash](https://github.com/LaserFlash)
 
 ------
 
