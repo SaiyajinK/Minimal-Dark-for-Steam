@@ -86,8 +86,7 @@ All aspects were changed to match my theme. <br>
 - [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit<br>
 - [Unofficial Patch for Metro for Steam](https://discord.gg/dMsSwufK7Q) for sharing reboot/reload script<br>
 - [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
-- [SFP](https://github.com/PhantomGamers) by PhantomGamers <br>
-- [PhantomGamers](https://github.com/PhantomGamers) for the reboot/reload script <br> 
+- [PhantomGamers](https://github.com/PhantomGamers) for SFP and the reboot/reload script <br>
 - [LaserFlash](https://github.com/LaserFlash) for WaitForElement module <br>
 
 ------
