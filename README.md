@@ -98,6 +98,3 @@ All the sources and tools I used are at the bottom of the description. <br>
 
 I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. <br>
 Be understandable if you encounter any bugs. <br>
-
-That said, I hope you enjoy the interface! <br>
-> this sharing is non-profit ! <br>
