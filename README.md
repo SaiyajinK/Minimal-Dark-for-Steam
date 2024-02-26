@@ -1,6 +1,13 @@
 ## ⚡ Minimal Dark for Steam ⚡ <br> 
 
-Minimal vs vanilla :<br>
+Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
+I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
+All the sources and tools I used are at the bottom of the description. <br>
+
+I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. <br>
+Be understandable if you encounter any bugs. <br>
+
+## `🔎 Minimal Dark vs Steam vanilla 🔎`<br>
 
 ![minimal_vs_vanilla](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/a53f4580-d691-4edf-bb4c-4d4e53237d90) <br> 
 
@@ -90,11 +97,3 @@ All aspects were changed to match my theme. <br>
 - [LaserFlash](https://github.com/LaserFlash) for WaitForElement module <br>
 
 ------
-
-Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
-
-I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
-All the sources and tools I used are at the bottom of the description. <br>
-
-I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. <br>
-Be understandable if you encounter any bugs. <br>
