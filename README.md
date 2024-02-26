@@ -89,7 +89,8 @@ All aspects were changed to match my theme. <br>
 - [CSS Gradient](https://cssgradient.io/) <br>
 - [Free SVG collection](https://thenounproject.com/) <br>
 
-## `🖱️ Contributors links 🖱️` <br>
+## `🖱️ Open Source References 🖱️` <br>
+- Credits to [Rose's Metro for Steam](https://github.com/RoseTheFlower) for the initial base of the theme and the inspiration it gave me.
 - [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit<br>
 - [Unofficial Patch for Metro for Steam](https://discord.gg/dMsSwufK7Q) for sharing reboot/reload script<br>
 - [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
