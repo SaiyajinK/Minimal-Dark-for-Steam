@@ -53,9 +53,10 @@ https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/b889225a-49
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
-I re-edited and fix the whole code according to my theme. <br>
+All aspects were changed to match my theme. <br>
 
-![steamwebhelper_T7EDceI3Pt](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/81bb949e-8e22-48fb-b29f-eeeedfce4680) <br> 
+![steamwebhelper_WiAWKPCkPa](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/2561340e-d5af-4c24-b11b-abd030c8aa76) <br> 
+
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
@@ -66,12 +67,12 @@ I re-edited and fix the whole code according to my theme. <br>
 6️⃣ - Select the Minimal Dark for Steam theme and drag `Drop onto Millennium button` in the Millennium and wait download & installation<br>
 7️⃣ - Return to the `Library tab` and refresh the list of downloaded skins and click on `Minimal Dark for Steam`.<br>
 
-> Official source : https://millennium.gitbook.io/steam-patcher/getting-started/installation <br>
+> Installation documentation : https://millennium.gitbook.io/steam-patcher/getting-started/installation <br>
 
 ## `🔗 Manual installation with SFP 🔗` <br>
 1️⃣ - Download & extract latest release [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/releases)<br>
 2️⃣ - Copy `Minimal-Dark-for-Steam` folder to "C:\Program Files (x86)\Steam\steamui\skins\"<br>
-3️⃣ - Download latest SFP [here](https://github.com/PhantomGamers/SFP/releases) <br>
+3️⃣ - Download the latest SFP version [here](https://github.com/PhantomGamers/SFP/releases) <br>
 4️⃣ - Launch SFP, in settings go to Steam, check "Inject JavaScript", and now select steam skin (steam will reload automatically). If you want dev Steam, type `-dev` on the end of launch arguments to get `-cef-enable-debugging -dev`.<br>
 
 ## `🛠️ Tools used 🛠️` <br>
@@ -85,6 +86,9 @@ I re-edited and fix the whole code according to my theme. <br>
 - [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit<br>
 - [Unofficial Patch for Metro for Steam](https://discord.gg/dMsSwufK7Q) for sharing reboot/reload script<br>
 - [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
+- [SFP](https://github.com/PhantomGamers) by PhantomGamers <br>
+- [PhantomGamers](https://github.com/PhantomGamers) for the reboot/reload script <br> 
+- [LaserFlash](https://github.com/LaserFlash) for WaitForElement module <br>
 
 ------
 
@@ -96,8 +100,8 @@ After some thought I decided to share it with other people. <br>
 I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
 All the sources and tools I used are at the bottom of the description. <br>
 
-I'm not a coder or developer, I have notions and I do this on my free time when I have some. <br>
-Be understandable if you encounter some bugs. <br>
+I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. <br>
+Be understandable if you encounter any bugs. <br>
 
 That said, I hope you enjoy the interface! <br>
 > this sharing is non-profit ! <br>
