@@ -70,7 +70,9 @@
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
     background-image: var(--minimal_dark_searchbutton) !important;
     border-left: 4px solid var(--minimal_dark_be_grey);
-    transform: translate(-1px, 0px);
+    transform: translate(-1px, 0px) !important;
+    background-repeat: no-repeat !important;
+    background-position: 8px center !important;
 }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:hover {
