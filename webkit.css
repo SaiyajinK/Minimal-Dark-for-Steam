@@ -277,16 +277,27 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote {
 }
 
 .btnv6_white_transparent > span {
-	border-radius:var(--minimal_dark_corner0)!important;
-	color:var(--minimal_dark_blue)!important;background:var(--minimal_dark_dark)!important;
-	border:1px solid var(--minimal_dark_dark)!important;
+    border-radius: var(--minimal_dark_corner0)!important;
+    color: var(--minimal_dark_topgrey) !important;
+    background: var(--minimal_dark_dark)!important;
+    border: 1px solid var(--minimal_dark_dark)!important;
+	border-radius: 5px !important;
 }
 
 .btnv6_white_transparent > span:hover {
-	border-radius:var(--minimal_dark_corner0)!important;
-	color:var(--minimal_dark_blacker)!important;
-	background:var(--minimal_dark_blue)!important;
-	border:1px solid var(--minimal_dark_blue)!important;
+    border-radius: var(--minimal_dark_corner0)!important;
+    color: var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	border-radius: 5px !important;
+}
+
+.btnv6_white_transparent > span:active {
+    border-radius: var(--minimal_dark_corner0)!important;
+    color: var(--minimal_dark_white) !important;
+    background: var(--minimal_dark_be_grey) !important;
+    border: 1px solid rgba(var(--minimal_dark_color_rgba),.5) !important;
+	border-radius: 5px !important;
 }
 
 .home_broadcast_more_ctn_stretch_bg {
@@ -5979,6 +5990,26 @@ button.DialogButton {
 
 .DialogMenuPosition visible ._2qyBZV8YvxstXuSKiYDF19 {
     background: var(--minimal_dark_black) !important;
+}
+
+.customization_edit_area {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.profile_showcase_selector {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+select.gray_bevel {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.customization_controls select {
+    border-radius: 5px !important;
+}
+
+._1IEiKQnjHpIv-m601y6hvP.K-lPMiafCuZRqjfXykujt {
+    background-color: transparent !important;
 }
 
 /* end webkit */
