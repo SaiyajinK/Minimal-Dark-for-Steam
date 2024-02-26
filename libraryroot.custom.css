@@ -322,8 +322,8 @@ svg.titlebarcontrols_Icon_34bQc:active {
 .steamdesktop_TopBar_3Z7VQ {
     flex: 0 0 auto;
     width: 100%;
-    background: var(--minimal_dark_blacker_alt);
-    box-shadow: inset rgba(61,68,80,.75) 1px 1px 1px 0px, inset rgba(61,68,80,.25) -1px 0px 1px 0px;
+    background: var(--minimal_dark_blacker_alt) !important;
+    box-shadow: none !important;
     display: flex;
     flex-direction: column;
     user-select: none;
