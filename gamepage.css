@@ -643,3 +643,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 .appdetailsplaysection_MenuButton_3qDWQ:hover .appdetailsplaysection_DotDotDot_zvLq1 svg polyline {
     stroke: var(--minimal_dark_color) !important;
 }
+
+.appdetailshover_AppDetailsHover_38FqI .appdetailshover_Background_rYBZB {
+    background: transparent !important;
+    backdrop-filter: blur(30px) !important;
+}
+
+.appdetailshover_AppDetailsHover_38FqI {
+    border-radius: 5px !important;
+}
