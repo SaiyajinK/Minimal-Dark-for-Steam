@@ -249,10 +249,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Bot
     cursor: pointer;
 }
 
-.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY:active .appdetailsprimarylinkssection_Text_2sNDj {
-    color: var(--minimal_dark_color);
-}
-
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL:hover {
     background-color: var(--minimal_dark_blacker);
     color: #fff;
@@ -396,7 +392,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K):hover {
-    background: var(--minimal_dark_be_grey);
+    background: var(--minimal_dark_invisblegrey);
+    box-shadow: 0px 0px 1px 1px rgba(var(--minimal_dark_color_rgba),.1) !important;
 }
 
 .writereview_RatingContainer_2SAb6 .writereview_LeftContainer_2aeAn .writereview_Playtime_qX4kN {
@@ -650,5 +647,43 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .appdetailshover_AppDetailsHover_38FqI {
+    border-radius: 5px !important;
+}
+
+button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY {
+    background: var(--minimal_dark_invisblegrey) !important;
+    border-radius: 5px !important;
+}
+
+.appdetailsprimarylinkssection_LinksSection_3-V8v>div {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh {
+    background-color: rgba(101,113,128,.1) !important;
+    border-radius: 5px !important;
+}
+
+.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY:hover .appdetailsprimarylinkssection_Text_2sNDj {
+    color: var(--minimal_dark_color) !important;
+    font-weight: 400 !important;
+}
+
+.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY:active .appdetailsprimarylinkssection_Text_2sNDj {
+    color: var(--minimal_dark_white) !important;
+    font-weight: 400 !important;
+}
+
+.writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K):hover .writereview_ThumbIcon_2Jkk- {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.writereview_ReviewThumbButton_1kCN0:hover span {
+    color: var(--minimal_dark_color) !important;
+    font-weight: 400 !important;
+}
+
+.appdetailsheader_InCollection_1HS4t {
     border-radius: 5px !important;
 }
