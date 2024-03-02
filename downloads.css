@@ -36,7 +36,7 @@
 }
 
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
-    background: var(--minimal_dark_invisblegrey);
+    background: var(--minimal_dark_invisblegrey) !important;
     color: #dcdedf;
 }
 
