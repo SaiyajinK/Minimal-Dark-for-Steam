@@ -476,3 +476,7 @@
 .libraryhomeshowcases_ShowcaseHeader_23Snl .SVGIcon_ReadyToPlay path {
     fill: var(--minimal_dark_color) !important;
 }
+
+.libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
+    background: transparent !important;
+}
