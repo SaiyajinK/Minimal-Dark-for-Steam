@@ -24,13 +24,13 @@
 }
 
 .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5:hover.DialogButton:enabled {
-    background: var(--minimal_dark_red);
+    background: var(--minimal_dark_red) !important;
     color: #fff;
     box-shadow: none;
 }
 
 .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5:active.DialogButton:enabled {
-    background: var(--minimal_dark_red2);
+    background: var(--minimal_dark_red2) !important;
     color: #fff;
     box-shadow: inset 0px 0px 4px black;
 }
