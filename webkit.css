@@ -3391,7 +3391,11 @@ body.v6 #footer .rule {
 }
 
 .ds_flag.ds_wishlist_flag {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner0)!important;
+    color: white !important;
+    background: #ffffff00 !important;
+    border-left: 2px solid white !important;
+    backdrop-filter: blur(20px) !important;
 }
 
 .ds_flag.ds_incart_flag {
@@ -6015,26 +6019,35 @@ select.gray_bevel {
 }
 
 .ds_collapse_flag_tiny.ds_flagged:hover .ds_flag {
-    padding-left: 8px !important;
-    padding-right: 8px !important;
+    padding-left: 10px !important;
+    padding-right: 340px !important;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
+    background: transparent !important;
 }
 
 .game_area_dlc_row.ds_flagged:hover .ds_flag {
     box-shadow: 0 0 2px 0 #000000;
-    border-right: 2px solid var(--minimal_dark_browser_overlay_close) !important;
+    border-left: 2px solid var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.ds_flag {
+    padding-left: 8px !important;
+    border-right: 0px solid var(--minimal_dark_browser_overlay_close) !important;
+    transform: translate(-2px, 0px) !important;
 }
 
 .ds_collapse_flag.ds_collapse_flag_tiny.ds_flagged .ds_flag {
-    padding-left: 8px !important;
-    border-right: 2px solid var(--minimal_dark_browser_overlay_close) !important;
-    transform: translate(-2px, 0px) !important;
+    box-shadow: none !important;
 }
 
 .game_area_dlc_name {
     padding-right: 5px !important;
     padding-left: 13px !important;
+}
+
+.game_area_dlc_row.ds_flagged .ds_flag {
+    border-left: 2px solid !important;
 }
 
 /* end webkit */
