@@ -358,6 +358,7 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote {
     border-radius: var(--minimal_dark_corner0)!important;
     background: var(--minimal_dark_be_grey) !important;
     border-left: 2px solid var(--minimal_dark_be_grey) !important;
+	height: 14px !important;
 }
 
 #dlc_footer #dlc_show_all_link {
@@ -3414,6 +3415,7 @@ div.early_access_header {
     border-radius: var(--minimal_dark_corner0)!important;
     background: var(--minimal_dark_black) !important;
     border-left: 2px solid var(--minimal_dark_be_grey) !important;
+	height: 14px !important;
 }
 
 div.early_access_banner {
@@ -4962,7 +4964,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    line-height: 14px;
+    line-height: 14px !important;
 }
 
 a.communitylink_achievement.communitylink_achivement_plusmore:hover {
@@ -4975,6 +4977,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {
     background-color: rgba(var(--minimal_dark_color_rgba), .5) !important;
     text-decoration: none;
     color: #ffffff;
+	height: 14px !important;
 }
 
 .queue_btn_menu > .queue_menu_arrow {
