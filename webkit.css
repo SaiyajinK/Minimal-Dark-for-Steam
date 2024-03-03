@@ -6031,7 +6031,7 @@ select.gray_bevel {
 
 .game_area_dlc_row.ds_flagged:hover .ds_flag {
     box-shadow: 0 0 2px 0 #000000;
-    border-left: 2px solid var(--minimal_dark_browser_overlay_close) !important;
+    /* border-left: 2px solid var(--minimal_dark_browser_overlay_close) !important; */
 }
 
 .ds_flag {
@@ -6051,6 +6051,10 @@ select.gray_bevel {
 
 .game_area_dlc_row.ds_flagged .ds_flag {
     border-left: 2px solid !important;
+}
+
+.ds_flag.ds_wishlist_flag:hover {
+    border-left: 2px solid white !important;
 }
 
 /* end webkit */
