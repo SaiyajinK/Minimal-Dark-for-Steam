@@ -480,3 +480,7 @@
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
     background: transparent !important;
 }
+
+.gamepaddialog_Toggle_24G4g.gamepaddialog_On_3ld7T .gamepaddialog_ToggleSwitch_3__OD {
+    transform: translateX(16px) !important;
+}
