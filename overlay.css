@@ -482,3 +482,19 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 .prosemirror_ToolbarRow_2H40R .prosemirror_CommandButton_1-R1U.prosemirror_Toggled_41y1p {
     background: var(--minimal_dark_color) !important;
 }
+
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.screenshotmanagerdialog_CaptionField_oQafB {
+    background-color: var(--minimal_dark_black) !important;
+}
