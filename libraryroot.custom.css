@@ -720,7 +720,7 @@ button.DialogButton {
 .bottombar_ProgressBarWrapper_2_Fom .bottombar_Percentage_1-TLi {
     flex-grow: 0;
     color: var(--minimal_dark_browser_overlay_close);
-	transform: translate(-28px, -3px);
+	transform: translate(-26px, 0px) !important;
 }
 
 .bottombar_Icon_1KrJ3 {
@@ -742,12 +742,12 @@ button.DialogButton {
 }
 
 [class*="bottombar_DownloadStatusContent_"] {
-	display:block;
-	max-width:11px;
-	width:16px;
-	padding:12px 8px;
-	overflow:visible;
-	height:14px;
+    display: block;
+    max-width: 11px;
+    width: 16px;
+    padding: 12px 8px;
+    overflow: visible;
+    height: 15px !important;
 }
 
 [class*="bottombar_DownloadStatusContent_"] [class*="bottombar_Icon_"] svg {
@@ -763,7 +763,7 @@ button.DialogButton {
     width: 14px;
     height: 14px;
     margin-bottom: 0px;
-    margin-top: -2px;
+    margin-top: 1px;
 	display: inline !important ;
 }
 
@@ -797,7 +797,7 @@ button.DialogButton {
     height: 5px;
     --color-progress-bar-foreground: var(--minimal_dark_blue);
     --color-progress-bar-background: var(--minimal_dark_greyblack2);
-	transform: translate(-15px, -1px);
+	transform: translate(-15px, 1px);
 }
 
 .gamelistentry_AppIconDownloading_2kzMb svg.gamelistentry_DownloadProgressSVG_f6-7- circle {
