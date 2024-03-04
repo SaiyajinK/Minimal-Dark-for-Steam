@@ -839,7 +839,7 @@ button.DialogButton {
 }
 
 .bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD {
-    height: 4px;
+    height: 5px;
     --color-progress-bar-foreground: var(--minimal_dark_color);
     --color-progress-bar-background: #000000;
     border-radius: 10px;
