@@ -877,3 +877,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .inviteAnotherFriendButton:hover .SVGIcon_Button {
     fill: var(--minimal_dark_color) !important;
 }
+
+.FriendChatTypingNotification {
+    background-color: none !important;
+    background: none !important;
+}
