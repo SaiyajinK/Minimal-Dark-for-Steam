@@ -6117,6 +6117,10 @@ div.sharedfiles_filterselect_options {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
+#ScreenshotManagementToggle {
+    filter: grayscale(1);
+}
+
 #ScreenshotManagementToggle.screenshotManagementToggleUp {
     filter: grayscale(1) !important;
 }
