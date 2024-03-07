@@ -117,7 +117,10 @@ body::-webkit-scrollbar-track {
 	-webkit-box-shadow:none!important;
 	background:var(--minimal_dark_night)!important
 }
-.DialogBody::-webkit-scrollbar{display:none!important;}
+
+.DialogBody::-webkit-scrollbar {
+	display:none!important;
+}
 
 @media only screen and (min-width:3000px) {
 .responsive_page_content {
@@ -125,10 +128,10 @@ body::-webkit-scrollbar-track {
 	-webkit-transform-origin:50% 00% 0!important
 }
 
-.modal_frame {
-	width:66%!important;
-	height:80%!important;
-}
+/* .modal_frame { */
+	/* width:66%!important; */
+	/* height:80%!important; */
+/* } */
 
 #footer {
 	display:none!important;
@@ -141,10 +144,10 @@ body::-webkit-scrollbar-track {
 	-webkit-transform-origin:50% 00% 0!important
 }
 
-.modal_frame {
-	width:66%!important;
-	height:80%!important;
-}
+/* .modal_frame { */
+	/* width:66%!important; */
+	/* height:80%!important; */
+/* } */
 
 #footer {
 	display:none!important;
@@ -157,10 +160,10 @@ body::-webkit-scrollbar-track {
 	-webkit-transform-origin:50% 00% 0!important;
 }
 
-.modal_frame {
-	width:66%!important;
-	height:80%!important;
-}
+/* .modal_frame { */
+	/* width:66%!important; */
+	/* height:80%!important; */
+/* } */
 
 #footer {
 	display:none!important;
@@ -178,14 +181,14 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote {
 	border:0px!important;
 }
 
-#modalContent.modal.frame {
-	position:absolute!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	width:100%!important;
-	height:100%!important;
-	margin:0!important;
-	display:flex!important;
-}
+/* #modalContent.modal.frame { */
+	/* position:absolute!important; */
+	/* border-radius:var(--minimal_dark_corner0)!important; */
+	/* width:100%!important; */
+	/* height:100%!important; */
+	/* margin:0!important; */
+	/* display:flex!important; */
+/* } */
 
 .store_nav .tab img.foryou_avatar {
 	border-radius:var(--minimal_dark_corner0)!important;
@@ -1695,13 +1698,13 @@ input.community_home_search_players_input {
 	transform:translate(-50%)!important;
 }
 
-.modal {
-	max-height:calc(100% - 100px)!important;
-	position:fixed!important;
-	top:50%!important;
-	left:50%!important;
-	transform:translate(-50%,-50%)!important;
-}
+/* .modal { */
+	/* max-height:calc(100% - 100px)!important; */
+	/* position:fixed!important; */
+	/* top:50%!important; */
+	/* left:50%!important; */
+	/* transform:translate(-50%,-50%)!important; */
+/* } */
 
 .mediaTop .mediaSidebar {
 	background-color:var(--minimal_dark_be_grey)!important;
@@ -1750,6 +1753,7 @@ body.flat_page:not(.iframe) {
 
 .sectionTab.active>span {
 	background:var(--minimal_dark_night_alt1)!important;
+	border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
 .sectionTab.active {
@@ -2545,6 +2549,7 @@ body.v6 .discount_block {
 .sectionTab:hover {
 	background:rgba(0,0,0,.2)!important;
 	border-radius:var(--minimal_dark_corner0)!important;
+	color: var(--minimal_dark_color) !important;
 }
 
 .responsive_tab_baseline {
@@ -4505,20 +4510,20 @@ h2.pageheader {
 	border-radius:var(--minimal_dark_corner0)!important;
 }
 
-.flat_page .modal_frame {
-	width:97%!important;
-	left:0!important;
-	margin:0 40px 0 10px!important;
-}
+/* .flat_page .modal_frame { */
+	/* width:97%!important; */
+	/* left:0!important; */
+	/* margin:0 40px 0 10px!important; */
+/* } */
 
 #modalContentFrameContainer {
 	height:100%!important;
 	overflow:scroll!important;
 }
 
-#modalContentFrameContainer .modalContent_iFrame {
-	height:900%!important;
-}
+/* #modalContentFrameContainer .modalContent_iFrame { */
+	/* height:900%!important; */
+/* } */
 
 .favorite_game_cap a img {
 	border-radius:var(--minimal_dark_corner0)!important;
@@ -6055,6 +6060,127 @@ select.gray_bevel {
 
 .ds_flag.ds_wishlist_flag:hover {
     border-left: 2px solid white !important;
+}
+
+body {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+#ScreenshotUploadLink, #VideoUploadLink {
+    color: #828282;
+    background-color: var(--minimal_dark_black) !important;
+}
+
+#ScreenshotUploadLink:hover, #VideoUploadLink:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+#ScreenshotManagementToggle {
+    color: #828282;
+    background-color: var(--minimal_dark_black) !important;
+}
+
+#ScreenshotManagementToggle:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+#ScreenshotManagementControls {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+#ScreenshotManagementInstructions {
+    color: white !important;
+}
+
+.ScreenshotManagementButton {
+    background-image: none !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    color: white;
+}
+
+div.sharedfiles_filterselect.focus {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+div.sharedfiles_filterselect_options {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_black) !important;
+	transform: translate(11px, 12px) !important;
+}
+
+#confirmBatchModal, #noSelectedShotsModal, #changeVisibilityModal, #privacyFailedModal {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+#ScreenshotManagementToggle.screenshotManagementToggleUp {
+    filter: grayscale(1) !important;
+}
+
+#sharedfiles_filterselect_app_filter {
+	height: 18px !important;
+    width: 238px !important;
+    border: 1px solid var(--minimal_dark_blacker) !important;
+    background-color: var(--minimal_dark_black) !important;
+}
+
+div#sharedfiles_filterselect_app_filterable {
+    background-color: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
+}
+
+#sharedfiles_filterselect_search_img {
+    top: 6px !important;
+    right: 10px !important;
+}
+
+.imgWallItem:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.imgWall_BackToTopButton {
+    background-image: none !important;
+}
+
+#modalContent.modal_frame {
+    border: none !important;
+}
+
+#modalContentTitleBar {
+    background-color: var(--minimal_dark_dark) !important;
+}
+
+.mediaTop .mediaSidebar {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.mediaSidebar .mediaTitle {
+    color: var(--minimal_dark_color) !important;
+}
+
+#modalMediaRightScroll .general_btn:hover {
+    background-color: var(--minimal_dark_greyblack) !important;
+}
+
+.modal_box .modal_box_ctn {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.modal_box {
+    background: var(--minimal_dark_be_grey) !important;
+}
+
+.imgWallHoverBottom {
+    backdrop-filter: blur(30px) !important;
+}
+
+.imgWallHoverDescription {
+    background-color: rgb(84 84 84 / 12%) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 /* end webkit */
