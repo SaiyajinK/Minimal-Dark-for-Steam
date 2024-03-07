@@ -882,3 +882,11 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     background-color: none !important;
     background: none !important;
 }
+
+.chatentry_chatSubmitButton_1IEiK:not(.chatentry_disabled_2GM2k) .SVGIcon_Button.SVGIcon_Submit path {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.chatentry_chatEntryControls_2gP0D .chatentry_chatSubmitButton_1IEiK:not(.chatentry_disabled_2GM2k) {
+    background: none !important;
+}
