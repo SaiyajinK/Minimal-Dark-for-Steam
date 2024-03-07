@@ -6187,4 +6187,8 @@ div#sharedfiles_filterselect_app_filterable {
     color: var(--minimal_dark_color) !important;
 }
 
+a.profile_media_item.auto_height .imgWallHoverBottom {
+    bottom: 4px !important;
+}
+
 /* end webkit */
