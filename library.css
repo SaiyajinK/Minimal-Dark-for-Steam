@@ -149,6 +149,12 @@
 .libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd.libraryhomenewupdates_HoversEnabled_278jF:hover .libraryhomenewupdates_EventSummaryContainer_3Rb_j, .gpfocus>.libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd.libraryhomenewupdates_HoversEnabled_278jF .libraryhomenewupdates_EventSummaryContainer_3Rb_j {
     background: var(--minimal_dark_invisblegrey);
     backdrop-filter: blur(10px);
+    border-left: 1px solid black !important;
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    border-right: 2px solid black !important;
+    width: 99% !important;
+    height: 99% !important;
 }
 
 .library_LibraryWindowDivider_276E6.library_Sizable_2g5K_:hover {
@@ -318,7 +324,7 @@
     background-color: rgba(var(--minimal_dark_color_rgba), .05) !important;
     color: #fff;
     backdrop-filter: blur(30px);
-    border-top-left-radius: 5px;
+    border-top-left-radius: 0px;
     border-top: 1px solid var(--minimal_dark_invisblegrey) !important;
     border-left: 1px solid var(--minimal_dark_invisblegrey) !important;
 }
@@ -483,4 +489,8 @@
 
 .gamepaddialog_Toggle_24G4g.gamepaddialog_On_3ld7T .gamepaddialog_ToggleSwitch_3__OD {
     transform: translateX(16px) !important;
+}
+
+*:hover>.libraryhomenewupdates_EventOptions_2-p7s {
+    right: 1px !important;
 }
