@@ -14,7 +14,7 @@ Be understandable if you encounter any bugs. <br>
 ## `🎨 Customize theme with the color of your choice!🎨` <br> 
 
 How change the skin color ? <br>
-1. Open `-config.css-` with notepad++ and modify `line 4` and `line 6`. <br> 
+1. Open `-config.css-` with notepad++ and modify `line 4` and `line 5`. <br> 
 2. Open `-webkit.css-` and modify `line 8` and `line 9` ; save and reload Steam. <br> 
 
 ⚠️ note: color settings reset with each update (for now).<br>
