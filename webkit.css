@@ -6229,4 +6229,48 @@ input[type="search" i]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-s
     border-left-color: var(--minimal_dark_color) !important;
 }
 
+.workshopItemSubscription {
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+.workshopItemSubscription:hover {
+    background-color: rgba(var(--minimal_dark_color_rgba),0.15) !important;
+}
+
+.workshopItemPreviewHolder:hover {
+    border-color: var(--minimal_dark_color) !important;
+}
+
+.general_btn {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.general_btn.voteUp:hover {
+    background-color: rgba(var(--minimal_dark_color_rgba),.75) !important;
+}
+
+.general_btn.voteDown:hover {
+    background-color: rgba(var(--minimal_dark_color_rgba),.75) !important;
+}
+
+.general_btn.favorite:hover {
+    background-color: rgba(var(--minimal_dark_color_rgba),.75) !important;
+}
+
+.subscribe.general_btn:hover {
+    background-color: var(--minimal_dark_progress_bar) !important;
+    text-shadow: 0px 0px 4px black !important;
+}
+
+.general_btn.subscribe.toggled:hover .subscribeOptionUnsubscribe:hover {
+    background-color: var(--minimal_dark_redsettings) !important;
+    padding: 0px 8px 0px 32px !important;
+    border-radius: 3px !important;
+}
+
+.subscribe.general_btn.toggled {
+    background: var(--minimal_dark_color) !important;
+    color: white !important;
+}
+
 /* end webkit */
