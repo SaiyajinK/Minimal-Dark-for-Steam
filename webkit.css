@@ -5999,7 +5999,8 @@ button.DialogButton {
 }
 
 .DialogTextInputBase, ._DialogInputContainer {
-    background: var(--minimal_dark_black) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .DialogMenuPosition visible ._2qyBZV8YvxstXuSKiYDF19 {
@@ -6189,6 +6190,19 @@ div#sharedfiles_filterselect_app_filterable {
 
 a.profile_media_item.auto_height .imgWallHoverBottom {
     bottom: 4px !important;
+}
+
+input[type="search" i]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-search-cancel-button {
+    -webkit-mask-image: var(--minimal_dark_closebutton) !important;
+	-webkit-mask-position: center !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-size: contain !important;
+    transform: scale(1.25) !important;
+}
+
+.em_count {
+    color: white !important;
+    background-color: var(--minimal_dark_red) !important;
 }
 
 /* end webkit */
