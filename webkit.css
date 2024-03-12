@@ -6205,4 +6205,8 @@ input[type="search" i]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-s
     background-color: var(--minimal_dark_red) !important;
 }
 
+._3n-KUi74Nvym37yTD-ZsSx {
+    background-color: var(--minimal_dark_color) !important;
+}
+
 /* end webkit */
