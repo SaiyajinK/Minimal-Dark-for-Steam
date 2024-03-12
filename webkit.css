@@ -95,6 +95,14 @@
 	outline: none !important;
 }
 
+body::-webkit-scrollbar-thumb:window-active {
+	background-clip: padding-box!important;
+	-webkit-box-shadow:none!important;
+	background: var(--minimal_dark_black) !important;
+	border-radius: 5px !important;
+	border: 5px solid var(--minimal_dark_blacker_alt) !important;
+}
+
 body::-webkit-scrollbar-thumb:window-inactive {
 	background-clip: padding-box!important;
 	-webkit-box-shadow:none!important;
@@ -112,6 +120,15 @@ body::-webkit-scrollbar-thumb:window-inactive:hover {
 }
 
 body::-webkit-scrollbar-thumb {
+	background-clip:padding-box!important;
+	-webkit-box-shadow:none!important;
+	background-color: var(--minimal_dark_black) !important;
+	width: 25px !important;
+	border: 5px solid var(--minimal_dark_blacker_alt) !important;
+	border-radius: 6px !important;
+}
+
+body::-webkit-scrollbar-thumb:hover {
 	background-clip:padding-box!important;
 	-webkit-box-shadow:none!important;
 	background-color: var(--minimal_dark_color) !important;
