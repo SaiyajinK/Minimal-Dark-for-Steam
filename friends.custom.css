@@ -967,3 +967,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     background-color: rgba(0,0,0,.25) !important;
     border-radius: 5px !important;
 }
+
+.addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+}
