@@ -687,3 +687,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 .appdetailsheader_InCollection_1HS4t {
     border-radius: 5px !important;
 }
+
+.achievementslist_GlobalAchievementListItem_316Uo {
+    background: var(--minimal_dark_blacker) !important;
+}
