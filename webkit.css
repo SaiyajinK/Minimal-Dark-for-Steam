@@ -98,24 +98,38 @@
 body::-webkit-scrollbar-thumb:window-inactive {
 	background-clip: padding-box!important;
 	-webkit-box-shadow:none!important;
-	background:transparent!important;
-	border-radius:var(--minimal_dark_corner0)!important
+	background: var(--minimal_dark_black) !important;
+	border-radius: 5px !important;
+	border: 5px solid var(--minimal_dark_blacker_alt) !important;
+}
+
+body::-webkit-scrollbar-thumb:window-inactive:hover {
+	background-clip: padding-box!important;
+	-webkit-box-shadow:none!important;
+	background: var(--minimal_dark_color) !important;
+	border-radius: 6px !important;
+	border: 5px solid var(--minimal_dark_blacker_alt) !important;
 }
 
 body::-webkit-scrollbar-thumb {
 	background-clip:padding-box!important;
 	-webkit-box-shadow:none!important;
-	background-color:var(--minimal_dark_blacker)!important;
-	width:25px!important
+	background-color: var(--minimal_dark_color) !important;
+	width: 25px !important;
+	border: 5px solid var(--minimal_dark_blacker_alt) !important;
+	border-radius: 6px !important;
 }
 
 body::-webkit-scrollbar {
 	background-clip:padding-box!important;
-	background-color:transparent!important
+	background-color: var(--minimal_dark_blacker_alt) !important;
+	border-radius: 5px !important;
 }
+
 body::-webkit-scrollbar-track {
-	-webkit-box-shadow:none!important;
-	background:var(--minimal_dark_night)!important
+	-webkit-box-shadow: none !important;
+	background: transparent !important;
+	border-radius: 5px !important;
 }
 
 .DialogBody::-webkit-scrollbar {
@@ -125,7 +139,7 @@ body::-webkit-scrollbar-track {
 @media only screen and (min-width:3000px) {
 .responsive_page_content {
 	-webkit-transform:scale(2)!important;
-	-webkit-transform-origin:50% 00% 0!important
+	-webkit-transform-origin:50% 00% 0!important;
 }
 
 /* .modal_frame { */
