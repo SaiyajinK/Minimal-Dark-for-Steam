@@ -4632,8 +4632,10 @@ body.v6.winter_sale_home h2.winter {
 }
 
 .hover_box {
-	background:var(--minimal_dark_night)!important;
-	color:var(--minimal_dark_lightgrey)!important;
+    background: var(--minimal_dark_night)!important;
+    color: var(--minimal_dark_less_white) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
 }
 
 .hover_arrow_inner {
@@ -6215,6 +6217,16 @@ input[type="search" i]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-s
 
 .count {
     color: var(--minimal_dark_color) !important;
+}
+
+.hover_arrow_left {
+    right: 100% !important;
+    border-right-color: var(--minimal_dark_color) !important;
+}
+
+.hover_arrow_right {
+    left: 100%;
+    border-left-color: var(--minimal_dark_color) !important;
 }
 
 /* end webkit */
