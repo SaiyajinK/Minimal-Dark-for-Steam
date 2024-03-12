@@ -2331,8 +2331,9 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .friends_nav a:hover {
-	background-color:var(--minimal_dark_blacker)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    background-color: var(--minimal_dark_blacker)!important;
+    border-radius: var(--minimal_dark_corner0)!important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .friends_nav a {
