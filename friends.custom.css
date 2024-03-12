@@ -198,7 +198,7 @@
 
 .activeTab {
     background-color: transparent;
-    box-shadow: 0px -2px 3px 0px rgba(0,0,0,.05), 4px -1px 1px 0px rgba(0,0,0,.05);
+    box-shadow: none !important;
     color: var(--minimal_dark_less_white);
     border-bottom: 1px solid var(--minimal_dark_be_grey);
 }
@@ -889,4 +889,81 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .chatentry_chatEntryControls_2gP0D .chatentry_chatSubmitButton_1IEiK:not(.chatentry_disabled_2GM2k) {
     background: none !important;
+}
+
+.pagedcontent_Nav_3o6fv {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.pagedcontent_Content_APT8A {
+    background: none !important;
+}
+
+._DialogRow._DialogRowBackground {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.DialogSpanningTable.BannedUsersTable tr.hoverRow, .DialogSpanningTable.InvitedUsersTable tr.hoverRow, .DialogSpanningTable.InviteLinksTable tbody tr {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.chatentry_chatSubmitButton_1IEiK:not(.chatentry_disabled_2GM2k) .SVGIcon_Button.SVGIcon_Submit path:hover {
+    fill: rgba(var(--minimal_dark_color_rgba), 1) !important;
+    filter: brightness(1.25) !important;
+}
+
+.confirmInviteRequestContainer .confirmInviteButton {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.confirmInviteRequestContainer .confirmInviteButton:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.friendInviteButton.bright.acceptFriendInvite, .friendInviteButton.bright.declineFriendInvite {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.friendInviteButton.bright.acceptFriendInvite:hover, .friendInviteButton.bright.declineFriendInvite:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.confirmInviteButton.confirmInvites {
+    background: var(--minimal_dark_color) !important;
+    color: white !important;
+	text-shadow: 0px 1px 4px black;
+}
+
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendHead, .friendRequestButton:hover .SVGIcon_FriendRequest .friendArm, .friendRequestButton:hover .SVGIcon_FriendRequest .friendBody, .friendRequestButton:hover .SVGIcon_FriendRequest .friendBodyFull {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.TabSearchButton:hover .ColorSelector {
+    stroke: var(--minimal_dark_color) !important;
+    fill: var(--minimal_dark_color) !important;
+}
+
+.friendSearchClear .SVGIcon_X_Line line {
+    stroke: var(--minimal_dark_white) !important;
+}
+
+.socialInputContainer .friendSearchInput[type=text] {
+    border-radius: 5px !important;
+}
+
+.TabSearchButton:hover {
+    background-color: transparent !important;
+}
+
+.friendGroup .friend, .friendGroup .SteamPlayerGroupFooter {
+    margin: 2px 20px 2px 20px !important;
+}
+
+.friendStatusHover.online:hover, .friendStatusHover.online.Friend_ContextMenuActive {
+    border-radius: 5px !important;
+}
+
+.friendStatusHover.offline:hover, .friendStatusHover.offline.Friend_ContextMenuActive {
+    background-color: rgba(0,0,0,.25) !important;
+    border-radius: 5px !important;
 }
