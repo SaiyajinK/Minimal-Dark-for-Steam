@@ -971,3 +971,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
     color: var(--minimal_dark_browser_overlay_close) !important;
 }
+
+.friendStatusHover.ingame:hover, .friendStatusHover.ingame.Friend_ContextMenuActive {
+    border-radius: 5px !important;
+}
