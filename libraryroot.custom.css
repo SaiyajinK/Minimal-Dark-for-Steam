@@ -454,9 +454,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .DialogContent, .DialogContentTransition {
-    background: var(--minimal_dark_blacker_alt);
-    backdrop-filter: blur(10px);
-    user-select: none;
+    background: #1212124a !important;
+    backdrop-filter: blur(20px) !important;
 }
 
 button.DialogButton {
