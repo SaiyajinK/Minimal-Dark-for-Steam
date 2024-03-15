@@ -3563,11 +3563,13 @@ a.communitylink_achievement.communitylink_achivement_plusmore {
 }
 
 .review_box.partial .view_more a {
-	background:rgba(47,137,188,1)!important;color:var(--minimal_dark_light_blue)!important;
+    background: rgba(var(--minimal_dark_color_rgba),0.15) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .review_box.partial .view_more a:hover {
-	background:rgba(23,67,92,1)!important;color:var(--minimal_dark_white)!important;
+    background: rgba(var(--minimal_dark_color_rgba),0.15) !important;
+    color: white !important;
 }
 
 .user_reviews_active_filters .active_filter {
