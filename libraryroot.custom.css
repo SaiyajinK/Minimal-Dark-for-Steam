@@ -903,12 +903,12 @@ button.DialogButton {
 
 .supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK::after {
     content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background: var(--minimal_dark_color);
-    border-radius: 3px;
-    animation: supernav_slide_2wrHk .5s;
+    display: block !important;
+    width: 100% !important;
+    height: 3px !important;
+    background: var(--minimal_dark_color) !important;
+    border-radius: 3px !important;
+    animation: supernav_slide_2wrHk .5s !important;
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(3) {
@@ -1135,4 +1135,17 @@ button.DialogButton {
 
 [class*="supernav_SuperNavMenu_"]:nth-of-type(1), [class*="supernav_SuperNavMenu_"]:nth-of-type(1):hover, [class*="supernav_SuperNavMenu_"]:nth-of-type(1):active {
 	margin-left: 5px !important;
+}
+
+.libraryhomeshowcases_OptionsRule_2U_Y7 {
+    border-top: 0.5px solid var(--minimal_dark_blacker) !important;
+}
+
+.appgrid_SortingDropDownContainer_1ZpBQ>div.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ>div {
+    background: var(--minimal_dark_be_grey) !important;
+}
+
+.appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover {
+    background: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_less_white) !important;
 }
