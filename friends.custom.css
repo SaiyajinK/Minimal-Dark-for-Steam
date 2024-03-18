@@ -975,3 +975,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .friendStatusHover.ingame:hover, .friendStatusHover.ingame.Friend_ContextMenuActive {
     border-radius: 5px !important;
 }
+
+.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
+    padding: 2px 0px 2px 20px !important;
+}
