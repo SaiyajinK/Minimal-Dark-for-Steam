@@ -69,20 +69,20 @@
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
     background-image: var(--minimal_dark_searchbutton) !important;
-    border-left: 4px solid var(--minimal_dark_be_grey);
+    border-left: 4px solid var(--minimal_dark_be_grey) !important;
     transform: translate(-1px, 0px) !important;
     background-repeat: no-repeat !important;
     background-position: 8px center !important;
 }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:hover {
-    background-color: var(--minimal_dark_grey);
-    box-shadow: none;
-    border-left: 4px solid var(--minimal_dark_color);
-    background-image: var(--minimal_dark_searchbutton);
+    background-color: var(--minimal_dark_grey) !important;
+    box-shadow: none !important;
+    border-left: 4px solid var(--minimal_dark_color) !important;
+    background-image: var(--minimal_dark_searchbutton) !important;
     height: 32px;
-    background-repeat: no-repeat;
-    background-position: 8px center;
+    background-repeat: no-repeat !important;
+    background-position: 8px center !important;
 	border-radius: 3px;
 }
 
@@ -92,16 +92,16 @@
     border-left: 4px solid var(--minimal_dark_color) !important;
     background-image: none !important;
     height: 32px;
-    background-repeat: no-repeat;
-    background-position: 8px center;
-	border-radius: 3px;
+    background-repeat: no-repeat !important;
+    background-position: 8px center !important;
+    border-radius: 3px;
 }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
     content: "";
     width: 16px;
     height: 32px;
-    background-color: var(--minimal_dark_be_grey);
+    background-color: var(--minimal_dark_be_grey) !important;
     position: absolute;
     left: -12px;
 	display:none;
