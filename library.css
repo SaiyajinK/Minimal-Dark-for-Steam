@@ -90,7 +90,7 @@
     background-color: var(--minimal_dark_grey);
     box-shadow: inset 0px 0px 0px #0000 !important;
     border-left: 4px solid var(--minimal_dark_color) !important;
-    background-image: none !important;
+    background-image: var(--minimal_dark_searchbutton) !important;
     height: 32px;
     background-repeat: no-repeat !important;
     background-position: 8px center !important;
