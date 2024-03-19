@@ -704,3 +704,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
     left: -36px !important;
     top: 10px !important;
 }
+
+.appdetailsreviewsection_ReviewReminderBox_1ckgR {
+    border-color: var(--minimal_dark_color) !important;
+	margin-bottom: 10px !important;
+}
+
+.appactivityday_PartnerEvent_1AYE1 {
+    border-image-source: none !important;
+}
