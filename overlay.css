@@ -1,12 +1,9 @@
 .steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s {
-    position: relative;
-    padding: 0px 4px 4px 9px;
-    display: flex;
-    align-items: center;
-    background: #23262e;
-    background: var(--minimal_dark_blacker_alt);
-    box-shadow: inset rgba(61,68,80,.75) 1px 0px 0px 0px, inset rgba(61,68,80,.25) -1px -1px 0px 0px;
-    border-top: 1px solid var(--minimal_dark_be_grey);
+    padding: 0px 14px 2px 14px !important;
+	background: var(--minimal_dark_blacker_alt) !important;
+    box-shadow: none !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .apppartnereventspage_AppPartnerEventsBanner_2yR2O {
@@ -34,13 +31,14 @@
 
 .steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_URLBarText_2m_or {
     margin-top: 2px;
+	margin-left: 5px !important;
 }
 
 .steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_URLBarText_2m_or:hover {
     cursor: pointer;
-    background: var(--minimal_dark_grey);
-    border-radius: 0px;
-    margin-top: 2px;
+    background: var(--minimal_dark_grey) !important;
+    border-radius: 6px !important;
+    margin-top: 2px !important;
 }
 
 .addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_Header_3m0Mn {
@@ -497,4 +495,13 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 .screenshotmanagerdialog_CaptionField_oQafB {
     background-color: var(--minimal_dark_black) !important;
+}
+
+.steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_ReloadButton_3KaB9:hover {
+    background: var(--minimal_dark_be_grey) !important;
+}
+
+.steamdesktop_URLBarCopied_3ZGpa {
+	background-color: var(--minimal_dark_color) !important;
+	color: white !important;
 }
