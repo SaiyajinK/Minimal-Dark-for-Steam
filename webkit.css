@@ -2946,16 +2946,15 @@ span.invite_action_txt {
 }
 
 .community_search_text_box {
-	background:0 0!important;
-	background-color:var(--minimal_dark_dark)!important;
-	border:0!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	color:var(--minimal_dark_white)!important;
+	background: 0 0 !important;
+	background-color:var(--minimal_dark_dark) !important;
+	border: 0 !important;
+	border-radius:var(--minimal_dark_corner0) !important;
+	color:var(--minimal_dark_white) !important;
 }
 
 input[type=number],input[type=password],input[type=text],select {
-    /* border-left: 2px solid var(--minimal_dark_color); */
-    /* border-radius: var(--minimal_dark_corner0); */
+    /* border-left: 2px solid var(--minimal_dark_color) !important; */
     margin-left: 1px !important;
 }
 
@@ -6304,6 +6303,117 @@ input[type="search" i]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-s
 
 .subscribe.general_btn.toggled {
     background: var(--minimal_dark_color) !important;
+    color: white !important;
+}
+
+.current_player_workshop_title {
+    padding-top: 14px !important;
+    padding-left: 70px !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.primary_panel_border {
+    box-shadow: 0 0 6px 0 #0000001f !important;
+}
+
+.browseOptionImage {
+    filter: grayscale(1) !important;
+}
+
+div.sortselect_options {
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+div.sortselect_options div.option:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+div.sortselect {
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+div#sharedfiles_filterselect_app_filterable div.option:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.game_area_purchase_game {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.commentsTab.active {
+    background: var(--minimal_dark_color) !important;
+}
+
+#commentsTabFade {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.commentsTab:hover {
+    background-color: rgba(var(--minimal_dark_color_rgba),.25) !important;
+}
+
+div.visibilityselect_options {
+    color: white !important;
+    background-color: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transform: translate(12px, 12px) !important;
+    padding-right: 33px !important;
+    padding-left: 33px !important;
+}
+
+div.visibilityselect_options div.option:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+	padding-left: 32px !important;
+    padding-right: 32px !important;
+    transform: translate(-32px, 0px) !important;
+}
+
+.visibilityselectcontainer {
+    background: var(--minimal_dark_blacker_alt) !important;
+	width: 98% !important;
+}
+
+div.visibilityselect.focus {
+    background-color: var(--minimal_dark_be_grey) !important;
+    width: 94% !important;
+}
+
+div.visibilityselect {
+    width: 94% !important;
+}
+
+.general_btn.panel_btn:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+div.visibilityselect #visibilityselect_activevisibility:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+.modal_box .updateKVTagsForm, .modal_box .updateTagsForm, .modal_box .reportsTable {
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+.updateKVTagsForm .titleField {
+    background-color: var(--minimal_dark_be_grey) !important;
+	border-top-color: none !important;
+    border-left-color: none !important;
+}
+
+.itemBulletArrow {
+    filter: grayscale(1) !important;
+}
+
+.modal_top_band {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+select.languageField {
+    color: white !important;
+    background-color: rgba(var(--minimal_dark_color_rgba),.25) !important;
+}
+
+.language_option.no_content {
     color: white !important;
 }
 
