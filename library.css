@@ -495,3 +495,8 @@
 *:hover>.libraryhomenewupdates_EventOptions_2-p7s {
     right: 1px !important;
 }
+
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin, .gamepaddialog_Field_S-_La.gamepaddialog_Clickable_27UVY:not(.gamepaddialog_Disabled_1pmyx):hover {
+    background: var(--minimal_dark_be_grey) !important;
+    color: #fff;
+}
