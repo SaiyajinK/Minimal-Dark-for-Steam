@@ -274,7 +274,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 button.DialogButton.Primary {
-    background: var(--minimal_dark_bgb) !important;
+    background: var(--minimal_dark_blacker) !important;
     background-position: 25%;
     background-size: 330% 100%;
 }
@@ -347,8 +347,12 @@ div.ModalPosition_TopBar {
     background: var(--minimal_dark_black);
 }
 
-button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogButton.Disabled, button.DialogButton.Disabled:hover {
-    background: var(--minimal_dark_be_grey);
+button.DialogButton:disabled, button.DialogButton.Disabled  {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+button.DialogButton:disabled:hover, button.DialogButton.Disabled:hover {
+	background: var(--minimal_dark_be_grey) !important;
 }
 
 .playersdialog_PlayersListHeaderCtr_20eva {
@@ -504,4 +508,8 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 .steamdesktop_URLBarCopied_3ZGpa {
 	background-color: var(--minimal_dark_color) !important;
 	color: white !important;
+}
+
+.desktopbrowser_URLBar_26Gmf .desktopbrowser_URLBarText_1d2NZ:hover {
+    background: var(--minimal_dark_be_grey) !important;
 }
