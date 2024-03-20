@@ -229,7 +229,7 @@
 .appfilterpane_Container_170Np {
     padding: 20px 20px !important;
     background: var(--minimal_dark_black) !important;
-	border-radius: 0px !important;
+	border-radius: 6px !important;
 	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
@@ -499,4 +499,9 @@
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin, .gamepaddialog_Field_S-_La.gamepaddialog_Clickable_27UVY:not(.gamepaddialog_Disabled_1pmyx):hover {
     background: var(--minimal_dark_be_grey) !important;
     color: #fff;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM.gamelistsearchbar_Visible_1v65x .gamelistsearchbar_AdvancedSearchPane_Woh0k {
+    opacity: 1;
+    transform: scale(1) translate(4px, -1px) !important;
 }
