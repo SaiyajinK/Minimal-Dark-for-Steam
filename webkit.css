@@ -6417,4 +6417,34 @@ select.languageField {
     color: white !important;
 }
 
+#dlc_footer #dlc_show_all_link {
+    background: rgba(var(--minimal_dark_color_rgba),.1) !important;
+}
+
+#dlc_footer #dlc_show_all_link:hover {
+    background: rgba(var(--minimal_dark_color_rgba),.25) !important;
+}
+
+._38m8DGDKcTxyFKbuvEpMIx {
+    background: rgb(103 193 245 / 0%) !important;
+}
+
+._38m8DGDKcTxyFKbuvEpMIx:hover {
+    color: #fff;
+    background: rgb(103 193 245 / 25%) !important;
+}
+
+body.v6 .discount_pct {
+    color: #000000;
+    background: var(--minimal_dark_bgg) !important;
+}
+
+body.v6 .discount_prices > div {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+body.v6 .discount_prices .discount_original_price {
+    color: #848e94 !important;
+}
+
 /* end webkit */
