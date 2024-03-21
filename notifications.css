@@ -1,0 +1,86 @@
+.desktoptoasts_DesktopToastContainer_zXrpA {
+	width:283px;
+	height:70px;
+	overflow:hidden;
+	background-color:transparent;
+}
+
+.notificationcontent_StandardLogoDimensions_32niV {
+	height: 44px;
+	width: 44px;
+	flex-shrink: 0;
+}
+
+.desktoptoasts_DesktopToastPopup_1OOQP {
+	background: var(--minimal_dark_blacker_alt) !important;
+	border-top: 1px solid var(--minimal_dark_color) !important;
+}
+
+.desktoptoasts_DesktopToastPopup_1OOQP.desktoptoasts_Top_2oeq2:hover .desktoptoasts_DesktopToastBackground_3RkGk {
+	color: var(--minimal_dark_color) !important;
+	opacity:.1;
+	transition:opacity .3s ease-in-out,color .3s ease-in-out;
+	border-top: 1px solid var(--minimal_dark_color) !important;
+}
+
+.desktoptoasts_DesktopToastPopup_1OOQP.desktoptoasts_Top_2oeq2 .desktoptoasts_DesktopToastBackground_3RkGk {
+	position:absolute;
+	top:-10px;
+	right:-75px;
+	width:80%;
+	opacity:.05;
+	transition:top .3s ease-in-out;
+	animation-delay:0s,var(--toast-duration);
+	background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.desktoptoasts_DesktopToastPopup_1OOQP.desktoptoasts_Middle_2Rof8:hover .desktoptoasts_DesktopToastBackground_3RkGk {
+	color: var(--minimal_dark_color) !important;
+	opacity:.1;
+	transition:opacity .3s ease-in-out,color .3s ease-in-out;
+}
+
+.desktoptoasts_DesktopToastPopup_1OOQP.desktoptoasts_Bottom_EPgHC:hover .desktoptoasts_DesktopToastBackground_3RkGk {
+	color: var(--minimal_dark_color) !important;
+	opacity:.1;
+	transition:opacity .3s ease-in-out,color .3s ease-in-out;
+}
+
+.desktoptoasts_DesktopToastPopup_1OOQP::before {
+	content:"";
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	/* background:radial-gradient(155.42% 100% at 0% 0%, #1F2A39 0 0%, #1aa0ff53 100%); */
+	background: rgba(var(--minimal_dark_color_rgba),.5) !important;
+	transition:opacity .3s linear;
+	opacity: 0;
+}
+
+.desktoptoasts_DesktopToastPopup_1OOQP.desktoptoasts_Middle_2Rof8 .desktoptoasts_DesktopToastBackground_3RkGk {
+	position:absolute;
+	top:-77px;
+	right:-75px;
+	width:80%;
+	opacity:.05;
+	transition:top .3s ease-in-out;
+}
+
+.desktoptoasts_DesktopToastPopup_1OOQP.desktoptoasts_Bottom_EPgHC .desktoptoasts_DesktopToastBackground_3RkGk {
+	position:absolute;
+	top:-148px;
+	right:-75px;
+	width:80%;
+	opacity:.05;
+	transition:top .3s ease-in-out;
+}
+
+.desktoptoasts_DesktopToastPopup_1OOQP:hover {
+	cursor:pointer;
+}
+
+.desktoptoasts_DesktopToastPopup_1OOQP:hover::before {
+	opacity:.5;
+}
