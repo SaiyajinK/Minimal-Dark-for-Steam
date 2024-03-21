@@ -9,7 +9,7 @@ Be understandable if you encounter any bugs. <br>
 
 ## `🔎 Minimal Dark vs Steam vanilla 🔎`<br>
 
-![minimal_vs_vanilla](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/a53f4580-d691-4edf-bb4c-4d4e53237d90) <br> 
+![minimal_vs_vanilla_](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/6fde1755-453e-4ec8-a834-9bd39b7fee35) <br> 
 
 ## `🎨 Customize theme with the color of your choice!🎨` <br> 
 
@@ -36,7 +36,7 @@ Topbar :<br>
 
 Edited interface :<br>
 
-![steamwebhelper_OdbYdgLonN](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/c380fc55-5bf7-483c-b859-69ab43733e9f) <br>
+![steamwebhelper_bNYk7VVWOU](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/384d431d-17bc-4af0-9c8d-41959a623f4e) <br>
 
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a minimal topbar to best optimize the space compared to the vanilla base. <br> 
