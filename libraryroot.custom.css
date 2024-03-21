@@ -10,6 +10,7 @@
 @import url('overlay.css');
 @import url('webkit.css');
 @import url('profile.css');
+@import url('notifications.css');
 
 * {
 	cursor: default !important;
