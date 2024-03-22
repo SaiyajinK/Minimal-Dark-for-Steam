@@ -36,7 +36,7 @@ Topbar :<br>
 
 Edited interface :<br>
 
-![minimal_dark__](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/d66c775e-e803-4449-b329-19e8f2d88092) <br>
+![minimal_dark__](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/085b9ca6-4305-4658-863d-2a7658644b93) <br>
 
 
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
