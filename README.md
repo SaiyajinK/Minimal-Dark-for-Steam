@@ -36,7 +36,8 @@ Topbar :<br>
 
 Edited interface :<br>
 
-![steamwebhelper_bNYk7VVWOU](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/384d431d-17bc-4af0-9c8d-41959a623f4e) <br>
+![minimal_dark__](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/d66c775e-e803-4449-b329-19e8f2d88092) <br>
+
 
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a minimal topbar to best optimize the space compared to the vanilla base. <br> 
