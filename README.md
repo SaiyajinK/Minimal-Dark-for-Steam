@@ -7,10 +7,6 @@ All the sources and tools I used are at the bottom of the description. <br>
 I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. <br>
 Be understandable if you encounter any bugs. <br>
 
-## `🔎 Minimal Dark vs Steam vanilla 🔎`<br>
-
-![minimal_vs_vanilla_](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/6fde1755-453e-4ec8-a834-9bd39b7fee35) <br> 
-
 ## `🎨 Customize theme with the color of your choice!🎨` <br> 
 
 How change the skin color ? <br>
@@ -36,7 +32,7 @@ Topbar :<br>
 
 Edited interface :<br>
 
-![minimal_dark__](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/085b9ca6-4305-4658-863d-2a7658644b93) <br>
+![minimal_dark__](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/f1515ebf-e5e2-4b2c-b4a5-6da3cdf6d92c) <br>
 
 
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
