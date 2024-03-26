@@ -607,3 +607,8 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
 .libraryhomeshowcases_ShowcaseHeader_23Snl {
     padding-left: 4px !important;
 }
+
+.libraryhomeshowcases_AddShowcaseRow_3SkuN.libraryhomeshowcases_ButtonHovered_3dQDo .libraryhomeshowcases_Rule_1PhK8 {
+    height: 13px !important;
+    border-radius: 5px !important;
+}
