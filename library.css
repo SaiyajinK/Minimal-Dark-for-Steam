@@ -509,3 +509,97 @@
 html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
     padding: 0px !important;
 }
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L {
+    border-radius: 50%;
+    background-color: transparent !important;
+}
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl:hover .libraryhomeshowcases_Rule_1PhK8 {
+    height: 13px;
+    border-radius: 5px !important;
+}
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Rule_1PhK8 {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.DesktopUI ._DialogInputContainer {
+    border-radius: 5px;
+}
+
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_CurrentDisplay {
+    background-color: transparent !important;
+	padding-top: 2px !important;
+}
+
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_Arrow {
+    background-color: transparent !important;
+}
+
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer.DialogDropDown:hover {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer.DialogDropDown {
+    box-shadow: none;
+    color: #fff;
+    background-color: transparent !important;
+    padding-left: 6px !important;
+    padding-top: 2px !important;
+    border: 1px solid var(--minimal_dark_greyblack) !important;
+    padding-bottom: 0px !important;
+    padding-right: 5px !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+}
+
+.libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer.DialogDropDown:hover {
+    box-shadow: none;
+    color: #fff;
+    background-color: var(--minimal_dark_be_grey) !important;
+    padding-left: 6px !important;
+    padding-top: 2px !important;
+    border: 1px solid var(--minimal_dark_greyblack) !important;
+    padding-bottom: 0px !important;
+    padding-right: 5px !important;
+    border-radius: 5px !important;
+	font-size: 12px !important;
+}
+
+.pageablecontainer_HeaderPageControls_2pAbU .pageablecontainer_Name_1Y5_H {
+    flex: none;
+    user-select: none;
+    font-size: 12px !important;
+    box-shadow: none;
+    background-color: transparent !important;
+    padding-left: 6px !important;
+    padding-top: 2px !important;
+    border: 1px solid var(--minimal_dark_greyblack) !important;
+    padding-bottom: 2px !important;
+    padding-right: 5px !important;
+    border-radius: 5px !important;
+}
+
+.pageablecontainer_HeaderPageControls_2pAbU .pageablecontainer_Name_1Y5_H:hover {
+    flex: none;
+    user-select: none;
+    font-size: 12px !important;
+    box-shadow: none;
+    color: #fff;
+    background-color: var(--minimal_dark_be_grey) !important;
+    padding-left: 6px !important;
+    padding-top: 2px !important;
+    border: 1px solid var(--minimal_dark_greyblack) !important;
+    padding-bottom: 2px !important;
+    padding-right: 5px !important;
+    border-radius: 5px !important;
+}
+
+.libraryhomeshowcases_CollectionDropDown_1YdRd .libraryhomeshowcases_CountDisplay_2qm05 {
+    font-size: 12px !important;
+}
+
+.libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer .DialogDropDown_Arrow {
+    top: 1px !important;
+}
