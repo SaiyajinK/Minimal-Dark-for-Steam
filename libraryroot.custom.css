@@ -1194,3 +1194,7 @@ button.DialogButton {
 .library_AppDetailsMain_2Nq6o {
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
 }
+
+.titlebarcontrols_AccountMenuPopup_HoGkI .titlebarcontrols_AccountName_11phB, .titlebarcontrols_AccountMenuPopup_HoGkI .titlebarcontrols_WalletBalance_2jphj {
+    color: var(--minimal_dark_color) !important;
+}
