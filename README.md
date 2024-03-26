@@ -26,13 +26,7 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-Topbar :<br>
-
-![topbar_reworked](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/79cc79af-77bd-4700-a5df-70bf3fe486e8) <br>
-
-Edited interface :<br>
-
-![minimal_dark__](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/f1515ebf-e5e2-4b2c-b4a5-6da3cdf6d92c) <br>
+![minimal_dark_2 8](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/ddec6e0a-0e60-4b3e-9e52-b5bdc5b68605) <br>
 
 
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
