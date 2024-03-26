@@ -505,3 +505,7 @@
     opacity: 1;
     transform: scale(1) translate(4px, -1px) !important;
 }
+
+html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
+    padding: 0px !important;
+}
