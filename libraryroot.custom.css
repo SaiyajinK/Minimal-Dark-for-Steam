@@ -183,16 +183,17 @@
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk {
-    background-color: var(--minimal_dark_blacker);
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    background-color: var(--minimal_dark_blacker_alt);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     margin-right: -9px;
     border-top: 1px solid var(--minimal_dark_be_grey);
     border-left: 1px solid var(--minimal_dark_be_grey);
     border-bottom: 1px solid var(--minimal_dark_be_grey);
-    margin-top: -1px;
+    margin-top: 0px;
+    height: 35px !important;
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover {
@@ -229,6 +230,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
     border-top: 1px solid var(--minimal_dark_be_grey);
     border-left: 1px solid var(--minimal_dark_be_grey);
     border-bottom: 1px solid var(--minimal_dark_be_grey);
+	min-height: 35px !important;
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:not(.titlebarcontrols_Disabled_1QQWj):hover {
@@ -241,19 +243,40 @@ svg.titlebarcontrols_Icon_34bQc:active {
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj):hover, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover {
-    background-color: var(--minimal_dark_black) !important;
+    background-color: var(--minimal_dark_blacker) !important;
     transition: background-color .15s ease-out;
 }
 
 .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_AccountMenu_3yD46 {
-    padding-right: 10px;
-    min-height: 27px;
-    border-top: 1px solid var(--minimal_dark_be_grey);
-    border-bottom: 1px solid var(--minimal_dark_be_grey);
-    margin-top: 1px;
-    padding-left: 5px;
-	border-right: 1px solid var(--minimal_dark_be_grey);
-    border-left: 1px solid var(--minimal_dark_be_grey);
+    padding-right: 10px !important;
+    min-height: 35px !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-top: 1px !important;
+    padding-left: 5px !important;
+	border-right: 1px solid var(--minimal_dark_be_grey) !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+	background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.titlebarcontrols_AccountMenu_3yD46:hover {
+    transition: none;
+    cursor: pointer;
+    box-shadow: inset 0px 1px 0px rgba(var(--minimal_dark_color_rgba),1) !important;
+    min-height: 35px !important;
+    margin-bottom: 1px;
+    /* background-color: rgba(var(--minimal_dark_color_rgba),0.25) !important; */
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 0px !important;
+}
+
+.titlebarcontrols_AccountMenu_3yD46:active {
+    background-color: transparent !important;
+    transition: background-color .5s ease-out;
+    cursor: pointer;
+    box-shadow: inset 0px 1px 0px rgb(0 0 0) !important;
+    min-height: 35px !important;
+    margin-bottom: 1px;
 }
 
 .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_BranchBar_1n8t0, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_SupportAlertsButton_32TmR, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_OSEndOfLifeAlertsButton_1AcQ7, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_ParentalToggleButton_13vrq, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_KioskModeToggleButton_3arz-, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_AnnouncementsButton_5wILZ, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_NotificationButtonContainer_3mGEz, .titlebarcontrols_TitleBarControls_3cykd .titlebarcontrols_SoundtrackControls_Utdt7 {
@@ -347,7 +370,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
 }
 
 .bottombar_BottomBar_3vCzS {
-    background: var(--minimal_dark_blacker);
+    background: var(--minimal_dark_blacker_alt) !important;
     right: 0 !important;
     margin-right: var(--minimal_dark_alignment) !important;
     position: fixed;
@@ -355,14 +378,14 @@ svg.titlebarcontrols_Icon_34bQc:active {
     border: none;
     align-content: center !important;
     display: block;
-    max-height: 27px;
+    height: 35px !important;
     max-width: 26px;
-    /* margin-top: 1px; */
+    margin-top: -4px;
     box-shadow: none;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    border-top-right-radius: 5px !important;
-    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
     border-top: 1px solid var(--minimal_dark_be_grey);
     border-right: 1px solid var(--minimal_dark_be_grey);
     border-bottom: 1px solid var(--minimal_dark_be_grey);
@@ -370,7 +393,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
 }
 
 .bottombar_BottomBar_3vCzS:hover {
-    background: var(--minimal_dark_black);
+    background: var(--minimal_dark_blacker) !important;
     right: 0 !important;
     margin-right: var(--minimal_dark_alignment) !important;
     position: fixed;
@@ -378,14 +401,14 @@ svg.titlebarcontrols_Icon_34bQc:active {
     border: none;
     align-content: center !important;
     display: block;
-    max-height: 27px;
+    height: 35px !important;
     max-width: 26px;
-    /* margin-top: 1px; */
+    margin-top: -4px;
     box-shadow: none;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    border-top-right-radius: 5px !important;
-    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
     border-top: 1px solid var(--minimal_dark_be_grey);
     border-right: 1px solid var(--minimal_dark_be_grey);
     border-bottom: 1px solid var(--minimal_dark_be_grey);
@@ -638,6 +661,19 @@ button.DialogButton {
 	transform: translate(7px, 0px);
 }
 
+.supernav_SuperNavMenu_7AlhC:hover {
+	font-size: 13px !important;
+	font-weight: 300;
+    height: inherit;
+    text-transform: none;
+    overflow-x: visible;
+    cursor: pointer;
+    margin-top: 0px;
+    border: 1px solid var(--minimal_dark_be_grey);
+	transform: translate(7px, 0px);
+	background: var(--minimal_dark_blacker) !important;
+}
+
 .supernav_SuperNavMenu_7AlhC:hover:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK {
     color: var(--minimal_dark_white);
     transition: color .15s ease-out,text-shadow .15s ease-out;
@@ -820,14 +856,14 @@ button.DialogButton {
 }
 
 .bottombar_DownloadStatus_2EQ7g {
-	margin-top: 2px !important;
+	margin-top: 3px !important;
 	margin-right: auto !important;
 	position: relative !important;
 	-webkit-app-region: no-drag !important;
 } 
 
 .bottombar_DownloadStatus_2EQ7g {
-    margin-top: -.5px !important;
+    margin-top: 3.5px !important;
     margin-right: auto !important;
     position: relative !important;
     -webkit-app-region: no-drag !important;
@@ -1089,24 +1125,6 @@ button.DialogButton {
     padding: 0px;
 }
 
-.titlebarcontrols_AccountMenu_3yD46:hover {
-    transition: none;
-    cursor: pointer;
-    box-shadow: inset 0px 1px 1px rgba(var(--minimal_dark_color_rgba),1) !important;
-    min-height: 28px !important;
-    margin-bottom: 1px;
-    background-color: rgba(var(--minimal_dark_color_rgba),0.25) !important;
-}
-
-.titlebarcontrols_AccountMenu_3yD46:active {
-    background-color: transparent !important;
-    transition: background-color .5s ease-out;
-    cursor: pointer;
-    box-shadow: inset 0px 1px 0px rgb(0 0 0) !important;
-    min-height: 27px !important;
-    margin-bottom: 1px;
-}
-
 .standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
@@ -1124,8 +1142,8 @@ button.DialogButton {
 
 .titlebarcontrols_NotificationsButton_RtSv3 {
     padding: 0px 5px !important;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .titlebarcontrols_AccountMenu_3yD46.ingame {
@@ -1139,6 +1157,15 @@ button.DialogButton {
 }
 
 [class*="supernav_SuperNavMenu_"]:nth-of-type(1), [class*="supernav_SuperNavMenu_"]:nth-of-type(1):hover, [class*="supernav_SuperNavMenu_"]:nth-of-type(1):active {
+	margin-left: 5px !important;
+}
+
+[class*="supernav_SuperNavMenu_"]:nth-of-type(1):hover {
+	margin-left: 5px !important;
+	background: var(--minimal_dark_blacker) !important;
+}
+
+[class*="supernav_SuperNavMenu_"]:nth-of-type(1):active {
 	margin-left: 5px !important;
 }
 
@@ -1162,4 +1189,8 @@ button.DialogButton {
 
 .titlebarcontrols_EmptyNotificationsCtn_p2CKe .titlebarcontrols_EmptyNotificationsTitle_2uHOs {
     color: var(--minimal_dark_color) !important;
+}
+
+.library_AppDetailsMain_2Nq6o {
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
 }
