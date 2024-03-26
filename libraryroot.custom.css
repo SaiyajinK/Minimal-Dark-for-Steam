@@ -548,18 +548,19 @@ button.DialogButton {
 }
 
 .DesktopUI .library_ContextMenuAction_Z5iAX.Stream, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic, .DesktopUI .library_ContextMenuAction_Z5iAX.Play {
-    background-image: var(--minimal_dark_bgg) !important;
+    background: var(--minimal_dark_greyblack) !important;
     color: white;
     border-radius: 0px !important;
 }
 
 .DesktopUI .library_ContextMenuAction_Z5iAX.Stream:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Stream:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Play:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Play:focus {
-    background: var(--minimal_dark_bgg) !important
-	color: white;
+    background: var(--minimal_dark_bgg) !important;
+    color: white;
+    opacity: 1.5 !important;
 }
 
 .DesktopUI .library_ContextMenuAction_Z5iAX.Download, .DesktopUI .library_ContextMenuAction_Z5iAX.Update, .DesktopUI .library_ContextMenuAction_Z5iAX.PreLoad, .DesktopUI .library_ContextMenuAction_Z5iAX.Resume, .DesktopUI .library_ContextMenuAction_Z5iAX.Pause, .DesktopUI .library_ContextMenuAction_Z5iAX.BorrowApp, .DesktopUI .library_ContextMenuAction_Z5iAX.Stop, .DesktopUI .library_ContextMenuAction_Z5iAX.Cancel, .DesktopUI .library_ContextMenuAction_Z5iAX.Install, .DesktopUI .library_ContextMenuAction_Z5iAX.PurchaseApp {
-    background-image: var(--minimal_dark_bgb) !important;
+    background: var(--minimal_dark_greyblack) !important;
 	color: white;
 	border-radius: 0px !important;
 }
