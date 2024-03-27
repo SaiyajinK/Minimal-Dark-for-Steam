@@ -856,7 +856,8 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 .store_nav .popup_menu .popup_menu_item:hover, .store_nav .popup_menu .popup_menu_item.focus {
-    border-bottom: 2px solid var(--minimal_dark_color) !important;
+    border-bottom: 2px solid rgba(var(--minimal_dark_color_rgba),.5) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name, .store_nav .popup_menu .popup_menu_item {
@@ -868,6 +869,7 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
     text-shadow: none!important;
     border-radius: var(--minimal_dark_corner5) !important;
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(32,32,32,0.25) 100%) !important;
+	color: var(--minimal_dark_color) !important;
 }
 
 .searchbox input{color: var(--minimal_dark_installed_games); !important; margin-top:0!important;}
@@ -6449,6 +6451,26 @@ body.v6 .discount_prices .discount_original_price {
 
 ._2m9JUBWfx2mQPWn_3xDhsF:hover {
     background: var(--minimal_dark_be_grey) !important;
+}
+
+body.v6 .store_nav .popup_menu_subheader {
+    color: var(--minimal_dark_color) !important;
+}
+
+body.v6 .store_nav .popup_menu_subheader a {
+    color: var(--minimal_dark_color) !important;
+}
+
+body.v6 .store_nav #genre_flyout .popup_menu_subheader, body.v6 .store_nav #noteworthy_flyout .popup_menu_subheader {
+    font-weight: normal !important;
+}
+
+a.pulldown_desktop:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+a:hover {
+    color: var(--minimal_dark_color) !important;
 }
 
 /* end webkit */
