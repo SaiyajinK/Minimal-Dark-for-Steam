@@ -315,3 +315,7 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
     padding: 4px !important;
     border-radius: 5px !important;
 }
+
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
