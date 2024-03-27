@@ -302,7 +302,7 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 }
 
 div.ModalPosition_TopBar {
-    background: var(--minimal_dark_color) !important;
+    background: radial-gradient(circle, rgba(26,159,255,1) 0%, rgba(26,159,255,0) 95%, rgba(26,159,255,0) 100%) !important;
 }
 
 .mediamanagerutils_ButtonBox_28eIR.mediamanagerutils_Secondary_QE3sH {
