@@ -321,6 +321,7 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
 }
 
 .gamelistentry_HasContextMenuOpen_3km84 {
-    border: 1px solid rgba(var(--minimal_dark_color_rgba),.5) !important;
+    border-top: 1px solid rgba(var(--minimal_dark_color_rgba),.25) !important;
+    border-bottom: 1px solid rgba(var(--minimal_dark_color_rgba),.25) !important;
     background-color: var(--minimal_dark_blacker) !important;
 }
