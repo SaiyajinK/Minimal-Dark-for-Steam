@@ -319,3 +319,8 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
     background-color: transparent !important;
 }
+
+.gamelistentry_HasContextMenuOpen_3km84 {
+    border: 1px solid rgba(var(--minimal_dark_color_rgba),.5) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+}
