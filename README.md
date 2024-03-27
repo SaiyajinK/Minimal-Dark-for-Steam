@@ -9,17 +9,19 @@ Be understandable if you encounter any bugs. <br>
 
 ## `🎨 Customize theme with the color of your choice!🎨` <br> 
 
+I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the color code defined in the configuration file across the entire skin and webkit. <br>
+
 How change the skin color ? <br>
 1. Open `-config.css-` with notepad++ and modify `line 4` and `line 5`. <br> 
 2. Open `-webkit.css-` and modify `line 8` and `line 9` ; save and reload Steam. <br> 
 
 ⚠️ note: color settings reset with each update (for now).<br>
 
-`More simply` : If you use the base color (which is Steam's default color, light blue): no problem since it is the base of the skin.<br>
+More simply : If you use the base color (which is Steam's default color, light blue): no problem since it is the base of the skin.<br>
 
-`On the other hand` : If you use a custom color: you will have to redefine the custom color during EACH update (for the moment) whether manual (by opening millenium from Steam settings) or automatic (when launching or restarting Steam).<br>
+On the other hand : If you use a custom color: you will have to redefine the custom color during EACH update (for the moment) whether manual (by opening millenium from Steam settings) or automatic (when launching or restarting Steam).<br>
 
-`Why ?` : This is because Millennium, during an update reloads the entire Github directory and not just the updated files.<br>
+Why ? : This is because Millennium, during an update reloads the entire Github directory and not just the updated files.<br>
 I passed the information on to the dev, I'm waiting for his return (the problem does not occur with SFP).<br>
 
 🗣️ Dev response : Millennium will be updated soon to resolve this issue to only update files changed during a skin update.
@@ -29,8 +31,8 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 ![minimal_dark_2 8](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/ddec6e0a-0e60-4b3e-9e52-b5bdc5b68605) <br>
 
 
+I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
-I'm not a fan of heavy interfaces with "uncoordinated" colors. So I created a minimal topbar to best optimize the space compared to the vanilla base. <br> 
 
 ## `🔄 Reboot/recharge menu 🔄` <br> 
 
@@ -38,6 +40,8 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 `Script has shared on the unofficial metro discord` <br>
 
 ![steamwebhelper_4FpJOM4dmK](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/09a09386-b252-4033-8c7a-5cb82b690776)
+
+⚠️ note: on the beta channel, this function is no longer available. There must have been changes that broke the script. I will keep an eye out for a possible update to the script (if it is updated of course) and if so, my skin will be updated accordingly. <br>
 
 ## `📸 Compact mode + friends 📸` <br> 
 
