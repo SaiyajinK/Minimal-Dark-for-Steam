@@ -517,8 +517,3 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 .pagedsettings_PagedSettingsDialog_Title_3qEgQ {
     color: var(--minimal_dark_color) !important;
 }
-
-.miniprofile_miniProfile_1AMAp {
-    box-shadow: 0 10px 32px 0px #000000ab;
-    border-radius: 10px !important;
-}
