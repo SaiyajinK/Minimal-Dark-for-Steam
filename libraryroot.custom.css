@@ -558,7 +558,7 @@ button.DialogButton {
 
 .DesktopUI .contextmenu_contextMenuItem_pFo3k:hover  {
     background: var(--minimal_dark_blacker);
-    color: #dcdedf;
+    color: var(--minimal_dark_color) !important;
 }
 
 .contextMenuItem:hover .jumplist_JumpListGameName_2Qcdr.jumplist_Updating_33a4z, .contextMenuItem:hover .jumplist_JumpListGameName_2Qcdr.jumplist_Running_54dy2 {
@@ -568,24 +568,24 @@ button.DialogButton {
 
 .DesktopUI .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU {
 	background: var(--minimal_dark_blacker);
-    color: white;
+    color: var(--minimal_dark_color) !important;
 }
 
 .DesktopUI .library_ContextMenuAction_Z5iAX.Stream, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic, .DesktopUI .library_ContextMenuAction_Z5iAX.Play {
     background: var(--minimal_dark_greyblack) !important;
-    color: white;
+    color: white !important;
     border-radius: 0px !important;
 }
 
 .DesktopUI .library_ContextMenuAction_Z5iAX.Stream:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Stream:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Play:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Play:focus {
     background: var(--minimal_dark_bgg) !important;
-    color: white;
+    color: white !important;
     opacity: 1.5 !important;
 }
 
 .DesktopUI .library_ContextMenuAction_Z5iAX.Download, .DesktopUI .library_ContextMenuAction_Z5iAX.Update, .DesktopUI .library_ContextMenuAction_Z5iAX.PreLoad, .DesktopUI .library_ContextMenuAction_Z5iAX.Resume, .DesktopUI .library_ContextMenuAction_Z5iAX.Pause, .DesktopUI .library_ContextMenuAction_Z5iAX.BorrowApp, .DesktopUI .library_ContextMenuAction_Z5iAX.Stop, .DesktopUI .library_ContextMenuAction_Z5iAX.Cancel, .DesktopUI .library_ContextMenuAction_Z5iAX.Install, .DesktopUI .library_ContextMenuAction_Z5iAX.PurchaseApp {
     background: var(--minimal_dark_greyblack) !important;
-	color: white;
+	color: white !important;
 	border-radius: 0px !important;
 }
 
