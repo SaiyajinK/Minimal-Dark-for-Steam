@@ -102,8 +102,8 @@
 }
 
 .pagedsettings_PagedSettingsDialog_PageListItem_bkfjn:not(.pagedsettings_Active_Myra7):hover {
-    background-color: var(--minimal_dark_blacker);
-    color: white;
+    background-color: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .pagedsettings_PagedSettingsDialog_PageListItem_bkfjn:not(.pagedsettings_Active_Myra7):hover .pagedsettings_PageListItem_Icon_U6HcK {
