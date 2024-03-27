@@ -54,7 +54,7 @@
 	right:0;
 	left:0;
 	/* background:radial-gradient(155.42% 100% at 0% 0%, #1F2A39 0 0%, #1aa0ff53 100%); */
-	background: rgba(var(--minimal_dark_color_rgba),.5) !important;
+	background: linear-gradient(0deg, rgba(0,0,0,0) 25%, rgba(var(--minimal_dark_color_rgba),.2) 100%) !important;
 	transition:opacity .3s linear;
 	opacity: 0;
 }
