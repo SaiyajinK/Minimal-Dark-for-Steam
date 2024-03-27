@@ -480,7 +480,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .DialogContent, .DialogContentTransition {
     background: #1212124a !important;
     backdrop-filter: blur(20px) !important;
-	border-radius: 10px !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 button.DialogButton {
