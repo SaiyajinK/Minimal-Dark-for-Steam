@@ -1,0 +1,20 @@
+.miniprofile_miniProfile_1AMAp {
+    box-shadow: 0 10px 32px 0px #000000ab;
+    border-radius: 10px !important;
+}
+
+.miniprofile_miniProfileContent_3QoRR.miniprofile_notInOrWatchingGame_34jjZ .miniprofile_miniProfileBottom_2MwqO, .miniprofile_miniProfileContent_3QoRR .miniprofile_miniProfileGameContainer_3gSTD {
+    background: radial-gradient(circle, rgba(25,25,25,1) 0%, rgba(18,18,18,1) 100%) !important;
+}
+
+.miniprofile_miniProfileBackdropBlur_LN94b {
+    backdrop-filter: blur(10px) !important;
+}
+
+.miniprofile_miniProfileContent_3QoRR .miniprofile_miniProfileHeader_TzmYo {
+    backdrop-filter: blur(10px) !important;
+}
+
+.miniprofile_miniProfileContent_3QoRR .miniprofile_miniProfileBottom_2MwqO {
+    padding: 8px 8px 1px 12px !important;
+}
