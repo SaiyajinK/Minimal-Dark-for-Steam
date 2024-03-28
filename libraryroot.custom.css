@@ -502,7 +502,7 @@ button.DialogButton {
     color: #dfe3e6;
     font-size: 14px;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 5px !important;
     cursor: pointer;
     width: 100%;
     transition-property: opacity,background,color,box-shadow;
@@ -522,7 +522,7 @@ button.DialogButton {
     font-weight: 300;
     margin: 0;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px !important;
     box-shadow: inset 0px 0px 0px #0000;
 }
 
