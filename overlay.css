@@ -86,7 +86,7 @@
 }
 
 .pagedsettings_PagedSettingsDialog_PageContent_1I3Ni.DesktopUI, .DesktopUI .pagedsettings_PagedSettingsDialog_PageContent_1I3Ni {
-    padding: 24px 0px 0px 24px;
+    padding: 28px 6px 0px 16px !important;
     background: var(--minimal_dark_blacker);
 }
 
@@ -516,4 +516,52 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 .pagedsettings_PagedSettingsDialog_Title_3qEgQ {
     color: var(--minimal_dark_color) !important;
+}
+
+.contentmanagement_DriveSettingsButton_1WKUO {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.contentmanagement_DriveSettingsButton_1WKUO:hover, .contentmanagement_DriveSettingsButton_1WKUO:focus {
+    color: #fff;
+    background: var(--minimal_dark_greyblack) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover .DialogCheckbox {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppSelected_2qURX .DialogCheckbox {
+    background: var(--minimal_dark_be_grey) !important;
+}
+
+.contentmanagement_DriveUsageIndicator_1EubJ {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:hover, .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:active {
+    background: var(--minimal_dark_be_grey) !important;
+}
+
+.radio_Button_3lwcR {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.radio_Button_3lwcR:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.dropdown_DialogDropDownMenu_Item_1R-DV:hover {
+    background: var(--minimal_dark_black) !important;
+	color: var(--minimal_dark_color) !important;
+	border-radius: 5px !important;p
+}
+
+._DialogInputContainer {
+    padding: 6px !important;
 }
