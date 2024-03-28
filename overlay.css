@@ -112,7 +112,7 @@
 
 .settings_SettingsDialogButton_3epr8.DesktopUI, .DesktopUI .settings_SettingsDialogButton_3epr8 {
     color: #dfe3e6;
-    background-color: var(--minimal_dark_black);
+    background-color: var(--minimal_dark_black) !important;
     padding: 8px 14px;
     font-size: 13px;
     line-height: 18px;
