@@ -616,3 +616,7 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
 .DesktopUI .contextmenu_contextMenu_LQkrb, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb {
     background: var(--minimal_dark_blacker) !important;
 }
+
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
+    padding: 0 !important;
+}
