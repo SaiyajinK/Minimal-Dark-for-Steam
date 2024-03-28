@@ -1191,7 +1191,7 @@ button.DialogButton {
 
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover {
     background: var(--minimal_dark_black) !important;
-    color: var(--minimal_dark_less_white) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .titlebarcontrols_NotificationsMenu_1UgM1 {
