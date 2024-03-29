@@ -721,9 +721,9 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 	border-radius:var(--minimal_dark_corner0)!important;
 } */
 
-#store_nav_area .store_nav_bg,.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
-	background: #262626ad;
-    border-radius: 5px;
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
+    background: #262626ad;
+    border-radius: 0px !important;
     backdrop-filter: blur(10px);
     border: 1px solid var(--minimal_dark_invisblegrey);
 }
@@ -737,13 +737,13 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 
 .searchbox {
 	background: rgb(70 70 70 / 0.50)!important;
-    border-radius: var(--minimal_dark_corner5)!important;
+    border-radius: var(--minimal_dark_corner0)!important;
     border: 1px solid var(--minimal_dark_lightgrey);
 }
 
 .searchbox:hover {
     background: rgb(70 70 70 / 0.50)!important;
-    border-radius: var(--minimal_dark_corner5)!important;
+    border-radius: var(--minimal_dark_corner0)!important;
     border: 1px solid var(--minimal_dark_color);
 }
 
@@ -825,10 +825,10 @@ div#store_search {
 }
 
 .store_header_btn_gray a:hover {
-	background:var(--minimal_dark_color)!important;
-	color:var(--minimal_dark_white)!important;
-	border-radius: 5px;
-	text-align: center;
+    background: var(--minimal_dark_color)!important;
+    color: var(--minimal_dark_white)!important;
+    border-radius: 0px !important;
+    text-align: center;
 }
 
 .store_nav .search_area {
@@ -868,9 +868,9 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 
 .store_nav .tab.focus, .store_nav .tab.focus>span, .store_nav .tab:hover, .store_nav .tab:hover>span {
     text-shadow: none!important;
-    border-radius: var(--minimal_dark_corner5) !important;
+    border-radius: var(--minimal_dark_corner0) !important;
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(32,32,32,0.25) 100%) !important;
-	color: var(--minimal_dark_color) !important;										 
+    color: var(--minimal_dark_color) !important;
 }
 
 .searchbox input{color: var(--minimal_dark_installed_games); !important; margin-top:0!important;}
@@ -922,8 +922,8 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 div.store_header_btn {
-	border-radius:var(--minimal_dark_corner5)!important;
-	margin-right:4px !important;
+    border-radius: var(--minimal_dark_corner0)!important;
+    margin-right: 4px !important;
 }
 
 .store_main_capsule .screenshots>div>div {
@@ -1233,9 +1233,13 @@ a.home_marketing_message {
 }
 
 .carousel_container .carousel_thumbs>div {
-	border-radius:var(--minimal_dark_corner0)!important;
-	width:15px!important;
-	height:15px!important;
+    border-radius: var(--minimal_dark_corner10)!important;
+    width: 15px!important;
+    height: 15px!important;
+}
+
+.carousel_container .carousel_thumbs > div.focus {
+    background-color: rgba(var(--minimal_dark_color_rgba),.8) !important;
 }
 
 .home_marketing_message>span {
