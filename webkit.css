@@ -1233,7 +1233,7 @@ a.home_marketing_message {
 }
 
 .carousel_container .carousel_thumbs>div {
-    border-radius: var(--minimal_dark_corner10)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
     width: 15px!important;
     height: 15px!important;
 }
