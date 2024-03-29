@@ -713,3 +713,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
 .appactivityday_PartnerEvent_1AYE1 {
     border-image-source: none !important;
 }
+
+.spotlightgameplaysummary_EventDaySeparator_1AIgW {
+    background-color: var(--minimal_dark_invisblegrey) !important;
+}
+
+.spotlightgameplaysummary_SummaryCarouselContainer_wgbDI:after {
+    box-shadow: inset 1px 1px 30px #00000059 !important;
+	border: 1px solid var(--minimal_dark_invisblegrey) !important;
+}
