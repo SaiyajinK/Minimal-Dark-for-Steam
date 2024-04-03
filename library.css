@@ -620,3 +620,12 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
     padding: 0 !important;
 }
+
+.appportraithover_GameUpdatedContainer_QO8Xp .appportraithover_ImportantUpdate_3eZ2g {
+    color: var(--minimal_dark_fluogreen) !important;
+}
+
+.appportraithover_GameUpdatedContainer_QO8Xp .appportraithover_GameUpdatedCircle_158pN {
+    background: var(--minimal_dark_fluogreen) !important;
+    box-shadow: 0px 0px 8px 1px var(--minimal_dark_fluogreen), 0px 0px 16px 1px var(--minimal_dark_greensettings) !important;
+}
