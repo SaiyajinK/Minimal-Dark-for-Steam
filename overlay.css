@@ -565,3 +565,22 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 ._DialogInputContainer {
     padding: 6px !important;
 }
+
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Primary_3RXwD {
+    background-color: transparent;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Primary_3RXwD:hover {
+    background-color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Primary_3RXwD:active {
+    background-color: rgba(var(--minimal_dark_color_rgba),.5) !important;
+    border: 1px solid rgba(var(--minimal_dark_color_rgba),1) !important;
+}
+
+.screenshotmanagerdialog_ComboboxSelectorContextMenu_4BQHp {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
