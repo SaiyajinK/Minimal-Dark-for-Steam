@@ -722,3 +722,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
     box-shadow: inset 1px 1px 30px #00000059 !important;
 	border: 1px solid var(--minimal_dark_invisblegrey) !important;
 }
+
+.appdetailsgameinfopanel_Container_2jPMy {
+    background-color: transparent !important;
+}
+
+.appdetailsfeatureicon_Container_1SIa8 .appdetailsfeatureicon_Icon_2RwHE {
+    width: 32px !important;
+    height: 32px !important;
+}
