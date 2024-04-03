@@ -323,9 +323,10 @@
     color: #aaa;
     border: 0px solid transparent;
     padding-right: 2px;
+    border-radius: 5px !important;
 }
 
-.chatentry_chatSubmitButton_1IEiK.chatentry_EmbedButton_24xNx, .chatentry_chatSubmitButton_1IEiK.chatentry_EmoticonPickerButton_K-lPM {
+.chatentry_chatSubmitButton_1IEiK.chatentry_EmoticonPickerButton_K-lPM {
     flex: 0;
     min-width: 46px;
     position: relative;
@@ -337,6 +338,24 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+}
+
+.chatentry_chatSubmitButton_1IEiK.chatentry_EmbedButton_24xNx {
+    flex: 0;
+    min-width: 46px;
+    position: relative;
+    background-color: var(--minimal_dark_black);
+    margin: 0px;
+    margin-top: 0px;
+    max-width: 46px;
+    max-height: 46px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
 }
 
 .chatentry_EmoticonPickerButton_K-lPM:hover, .chatentry_EmoticonPickerButton_K-lPM:focus {
@@ -360,6 +379,7 @@
     transition-property: width,max-width,border-radius,border,background-color;
     transition-duration: .3s;
     display: flex;
+    border-radius: 5px !important;
 }
 
 .chatentry_chatEntryControls_2gP0D .chatentry_chatSubmitButton_1IEiK {
@@ -852,6 +872,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .chattabs_ChatTab_X2iyw.chattabs_Active_1BNlZ {
     background-color: var(--minimal_dark_black) !important;
     border-top: 2px solid var(--minimal_dark_color) !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
 }
 
 .chattabs_ChatTab_X2iyw:before, .chattabs_ChatTab_X2iyw:last-of-type:after {
@@ -978,4 +1000,16 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
     padding: 2px 0px 2px 20px !important;
+}
+
+.ChatMessageEntryVoice {
+    border-radius: 5px !important;
+}
+
+.chatentry_chatEntryActionsContainer_1X1-n, .chatentry_chatEntryActionsGroup_3grea {
+    border-radius: 5px !important;
+}
+
+.chatentry_chatTextarea_pewyB {
+    padding-left: 10px !important;
 }
