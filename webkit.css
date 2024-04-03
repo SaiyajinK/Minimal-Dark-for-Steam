@@ -272,7 +272,7 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote {
 }
 
 .ds_options > div {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
 }
 
 .tag_square {
@@ -6492,6 +6492,16 @@ a:hover {
 
 .queue_menu_option:hover {
     background: var(--minimal_dark_be_grey) !important;
-}										  
+}
+
+.screenshot_popup_modal_content {
+    padding: 5px !important;
+    border-radius: 5px !important;
+    background: linear-gradient( 0deg, var(--minimal_dark_blacker) 5%,var(--minimal_dark_blacker) 95%) !important;
+}			  
+
+.screenshot_popup_modal_footer {
+    margin-top: 0px !important;
+}
 
 /* end webkit */
