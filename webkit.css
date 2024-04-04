@@ -6504,4 +6504,73 @@ a:hover {
     margin-top: 0px !important;
 }
 
+.popup_block_new {
+    box-shadow: 0 0 2px #6a6a6a !important;
+}
+
+body.v6 .store_nav #genre_flyout .popup_menu_subheader.reduced_vspace {
+    margin-top: 1px !important;
+    margin-bottom: -1px !important;
+}
+
+#genre_flyout .popup_body {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    width: 928px !important;
+}
+
+._1DLtrlf4UuAlYReDnWN2R_ {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+._1DLtrlf4UuAlYReDnWN2R_ ._2A05H52cYxSuyis9Gh5VMt ._1-UjkYu0LldVtiXsc2eIa {
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+._1DLtrlf4UuAlYReDnWN2R_ ._2A05H52cYxSuyis9Gh5VMt ._1-UjkYu0LldVtiXsc2eIa:hover {
+    background: var(--minimal_dark_be_grey) !important;
+}
+
+._3Zc7j06ya2uuADW3FEf83Q .TOM8JA0NsOaZR2JyQpCix:hover {
+    background-image: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba),.1) 20%, rgba(var(--minimal_dark_color_rgba),.5) 100%) !important;
+}
+
+._2n5abCyi49qXR-JV2o-34- ._dpvOvrb5FkLOjt-1DHbB {
+    background: var(--minimal_dark_black) !important;
+}
+
+._2n5abCyi49qXR-JV2o-34- ._dpvOvrb5FkLOjt-1DHbB ._23MUU1u8cND5uLZHdJAlJ3 {
+    background-color: rgba(var(--minimal_dark_color_rgba),.3) !important;
+}
+
+._1DLtrlf4UuAlYReDnWN2R_ ._2A05H52cYxSuyis9Gh5VMt ._3k3GiyfHYeT-QIo_lbvP-I {
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+._1DLtrlf4UuAlYReDnWN2R_ ._2A05H52cYxSuyis9Gh5VMt .hHIh7StF-eO80SUa14EIC {
+    background-color: var(--minimal_dark_be_grey) !important;
+    padding-left: 0px !important;
+}
+
+.DialogContent, .DialogContentTransition {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+._1ePmt2nZUwaVPHpiX2iJ7C .feb3UZkYgNzr1touf1YC0:hover {
+    background: var(--minimal_dark_color) !important;
+}
+
+._3Zc7j06ya2uuADW3FEf83Q .TOM8JA0NsOaZR2JyQpCix {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+body.v6 {
+    color: var(--minimal_dark_color) !important;
+}
+
+._3Zc7j06ya2uuADW3FEf83Q .TOM8JA0NsOaZR2JyQpCix.EhtJ_Bmg_1_FxN0vYx03l {
+    border-right: 4px solid var(--minimal_dark_color) !important;
+    background: linear-gradient(30deg, rgba(7, 191, 255, 0.2) 0%, rgba(7, 191, 255, 0.1) 100%) !important;
+}
+
 /* end webkit */
