@@ -6677,4 +6677,13 @@ div.ModalPosition_TopBar {
     background: var(--minimal_dark_invisblegrey) !important;
 }
 
+.GreenEnvelopeMenu, .LQkrbbayZPY11qHm01t7F {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.pFo3kQOzrl9qVLPXXGIMp:hover, .pFo3kQOzrl9qVLPXXGIMp._1KPWUt7wYWSfD3V7sYpsyT {
+    background: var(--minimal_dark_black) !important;
+	color: var(--minimal_dark_color) !important;
+}
+
 /* end webkit */
