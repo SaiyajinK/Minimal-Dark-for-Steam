@@ -6686,4 +6686,8 @@ div.ModalPosition_TopBar {
 	color: var(--minimal_dark_color) !important;
 }
 
+.emoticon_popup {
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
 /* end webkit */
