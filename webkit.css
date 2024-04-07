@@ -6610,7 +6610,7 @@ body.v6 {
 }
 
 div.ModalPosition_TopBar {
-    background: var(--minimal_dark_color) !important;
+    background: radial-gradient(circle, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,159,255,0) 95%, rgba(26,159,255,0) 100%) !important;
 }
 
 ._27-NnvpvTeoXCQvQ6B0_ly {
