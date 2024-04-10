@@ -417,7 +417,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
 }
 
 .bottombar_Icon_1KrJ3 {
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: var(--minimal_dark_topgrey);
     -webkit-mask-image: var(--minimal_dark_download);
     -webkit-mask-repeat: no-repeat;
@@ -426,7 +426,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
 }
 
 .bottombar_Icon_1KrJ3:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: var(--minimal_dark_color);
     -webkit-mask-image: var(--minimal_dark_download);
     -webkit-mask-repeat: no-repeat;
@@ -622,7 +622,7 @@ button.DialogButton {
     box-sizing: border-box;
     height: 100%;
 	padding-left: 10px;
-	margin-left: -8px;
+	margin-left: -9px;
 }
 
 .rootmenu_RootMenuButton_2UyOB:hover:not(.rootmenu_Disabled_2hcbl) {
@@ -728,7 +728,7 @@ button.DialogButton {
     -webkit-app-region: drag;
     max-width: 500px;
     position: fixed;
-    margin-left: 258px;
+    margin-left: 257px;
     margin-top: 0px;
 }
 
@@ -957,16 +957,16 @@ button.DialogButton {
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(3) {
 	color: var(--minimal_dark_transparent);
-    width: 19px;
-    padding: 10px 0px 10px 0px;
-    margin-left: 18px;
-    background-color: var(--minimal_dark_topgrey);
-    -webkit-mask-image: var(--minimal_dark_display);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(1.05);
-	margin-bottom: 1px !important;
+	width: 19px;
+	padding: 10px 0px 10px 0px;
+	margin-left: 18px;
+	background-color: var(--minimal_dark_topgrey);
+	-webkit-mask-image: var(--minimal_dark_display);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: contain;
+	-webkit-mask-position: center;
+	/* transform: scale(1.05); */
+	/* margin-bottom: 1px !important; */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(3):hover {
@@ -979,8 +979,8 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-	transform: scale(1.05);
-	margin-bottom: 1px !important;
+    /* transform: scale(1.05); */
+    /* margin-bottom: 1px !important; */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(3):active {
@@ -993,23 +993,23 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-	transform: scale(0.95);
-	margin-bottom: 1px !important;
+    /* transform: scale(0.95); */
+    /* margin-bottom: 1px !important; */
 }
 
 /* Contact menu */
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(5) {
 	color: var(--minimal_dark_transparent);
-    width: 22px;
-    margin-left: 7px;
-    margin-top: -2px;
-    background-color: var(--minimal_dark_topgrey);
-    -webkit-mask-image: var(--minimal_dark_contact);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(1) translate(0px, 1px);
-	margin-bottom: 1px !important;
+	width: 22px;
+	margin-left: 7px;
+	margin-top: -2px;
+	background-color: var(--minimal_dark_topgrey);
+	-webkit-mask-image: var(--minimal_dark_contact);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: contain;
+	-webkit-mask-position: center;
+	transform: scale(0.95) translate(0px, 0px);
+	margin-bottom: -1px !important;
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(5):hover {
@@ -1022,22 +1022,26 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    transform: scale(1) translate(0px, 1px);
-	margin-bottom: 1px !important;
+    /* transform: scale(1) translate(0px, 1px); */
+    /* margin-bottom: 1px !important; */
+    transform: scale(0.95) translate(0px, 0px);
+    margin-bottom: -1px !important;
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(5):active {
 	color: var(--minimal_dark_transparent);
-    width: 22px;
-    margin-left: 7px;
-    margin-top: -2px;
-    background-color: var(--minimal_dark_white);
-    -webkit-mask-image: var(--minimal_dark_contact);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.9) translate(0px, 1px);
-	margin-bottom: 1px !important;
+	width: 22px;
+	margin-left: 7px;
+	margin-top: -2px;
+	background-color: var(--minimal_dark_white);
+	-webkit-mask-image: var(--minimal_dark_contact);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: contain;
+	-webkit-mask-position: center;
+	/* transform: scale(0.9) translate(0px, 1px); */
+	/* margin-bottom: 1px !important; */
+	transform: scale(0.95) translate(0px, 0px);
+	margin-bottom: -1px !important;
 }
 
 /* Game menu */
@@ -1052,7 +1056,7 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    transform: scale(1.15);
+    /* transform: scale(1.15); */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(7):hover {
@@ -1066,7 +1070,7 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-	transform: scale(1.15);
+    /* transform: scale(1.15); */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(7):active {
@@ -1080,23 +1084,23 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-	transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 
 /* Support menu */
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(9) {
 	color: var(--minimal_dark_transparent);
-    width: 19px;
-    padding: 10px 0px 10px 0px;
-    margin-left: 9px;
-    margin-top: 0px;
-    background-color: var(--minimal_dark_topgrey);
-    -webkit-mask-image: var(--minimal_dark_help);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(1.1);
-	margin-bottom: 1px !important;
+	width: 19px;
+	padding: 10px 0px 10px 0px;
+	margin-left: 9px;
+	margin-top: 0px;
+	background-color: var(--minimal_dark_topgrey);
+	-webkit-mask-image: var(--minimal_dark_help);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: contain;
+	-webkit-mask-position: center;
+	/* transform: scale(1.1); */
+	/* margin-bottom: 1px !important; */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(9):hover {
@@ -1110,8 +1114,8 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    transform: scale(1.1);
-	margin-bottom: 1px !important;
+    /* transform: scale(1.1); */
+    /* margin-bottom: 1px !important; */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(9):active {
@@ -1125,8 +1129,8 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    transform: scale(1);
-	margin-bottom: 1px !important;
+    /* transform: scale(1); */
+    /* margin-bottom: 1px !important; */
 }
 
 .menu_MenuItem_2jXHP.menu_Separator_21GPY {
