@@ -965,8 +965,6 @@ button.DialogButton {
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-size: contain;
 	-webkit-mask-position: center;
-	/* transform: scale(1.05); */
-	/* margin-bottom: 1px !important; */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(3):hover {
@@ -979,8 +977,6 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    /* transform: scale(1.05); */
-    /* margin-bottom: 1px !important; */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(3):active {
@@ -993,8 +989,6 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    /* transform: scale(0.95); */
-    /* margin-bottom: 1px !important; */
 }
 
 /* Contact menu */
@@ -1008,7 +1002,7 @@ button.DialogButton {
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-size: contain;
 	-webkit-mask-position: center;
-	transform: scale(0.95) translate(0px, 0px);
+	transform: scale(0.98) translate(0px, 0px);
 	margin-bottom: -1px !important;
 }
 
@@ -1022,9 +1016,7 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    /* transform: scale(1) translate(0px, 1px); */
-    /* margin-bottom: 1px !important; */
-    transform: scale(0.95) translate(0px, 0px);
+    transform: scale(0.98) translate(0px, 0px);
     margin-bottom: -1px !important;
 }
 
@@ -1038,9 +1030,7 @@ button.DialogButton {
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-size: contain;
 	-webkit-mask-position: center;
-	/* transform: scale(0.9) translate(0px, 1px); */
-	/* margin-bottom: 1px !important; */
-	transform: scale(0.95) translate(0px, 0px);
+	transform: scale(0.98) translate(0px, 0px);
 	margin-bottom: -1px !important;
 }
 
@@ -1056,13 +1046,12 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    /* transform: scale(1.15); */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(7):hover {
     color: var(--minimal_dark_transparent);
     width: 16px;
-    padding: 5px 0px 5px 0px;
+    padding: 10px 0px 10px 0px;
     margin-left: 8px;
     margin-top: 0px;
     background-color: var(--minimal_dark_color);
@@ -1070,13 +1059,12 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    /* transform: scale(1.15); */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(7):active {
     color: var(--minimal_dark_transparent);
     width: 16px;
-    padding: 5px 0px 5px 0px;
+    padding: 10px 0px 10px 0px;
     margin-left: 8px;
     margin-top: 0px;
     background-color: var(--minimal_dark_white);
@@ -1084,7 +1072,6 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    /* transform: scale(1.05); */
 }
 
 /* Support menu */
@@ -1099,8 +1086,6 @@ button.DialogButton {
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-size: contain;
 	-webkit-mask-position: center;
-	/* transform: scale(1.1); */
-	/* margin-bottom: 1px !important; */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(9):hover {
@@ -1114,8 +1099,6 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    /* transform: scale(1.1); */
-    /* margin-bottom: 1px !important; */
 }
 
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(9):active {
@@ -1129,8 +1112,6 @@ button.DialogButton {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
-    /* transform: scale(1); */
-    /* margin-bottom: 1px !important; */
 }
 
 .menu_MenuItem_2jXHP.menu_Separator_21GPY {
