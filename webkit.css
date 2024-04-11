@@ -6690,4 +6690,29 @@ div.ModalPosition_TopBar {
     background-color: var(--minimal_dark_blacker) !important;
 }
 
+.home_page_content.takeunder a {
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    border-radius: 5px !important;
+}
+
+.home_page_content.takeunder a:hover {
+    box-shadow: 0 0 10px var(--minimal_dark_color) !important;
+	border-radius: 5px !important;
+}
+
+.home_hardware_banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px !important;
+}
+
+.home_hardware_banner > a:hover {
+    box-shadow: 0 0 12px var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.referring_curator {
+    background: var(--minimal_dark_be_grey) !important;
+}
+
 /* end webkit */
