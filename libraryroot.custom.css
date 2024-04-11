@@ -762,7 +762,7 @@ button.DialogButton {
 .bottombar_ProgressBarWrapper_2_Fom .bottombar_Percentage_1-TLi {
     flex-grow: 0;
     color: var(--minimal_dark_browser_overlay_close);
-	transform: translate(-26px, 0px) !important;
+    transform: translate(-27px, 0px) !important;
 }
 
 .bottombar_Icon_1KrJ3 {
@@ -839,7 +839,7 @@ button.DialogButton {
     height: 5px;
     --color-progress-bar-foreground: var(--minimal_dark_blue);
     --color-progress-bar-background: var(--minimal_dark_greyblack2);
-	transform: translate(-15px, 1px);
+	transform: translate(-16px, 1px);
 }
 
 .gamelistentry_AppIconDownloading_2kzMb svg.gamelistentry_DownloadProgressSVG_f6-7- circle {
