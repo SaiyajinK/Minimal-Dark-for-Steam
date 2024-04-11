@@ -639,8 +639,8 @@ button.DialogButton {
     flex: 0 0 auto;
     margin-top: 2px;
     border-right: 1px solid var(--minimal_dark_be_grey);
-    padding-right: 12px;
-	height: 34px !important;
+    padding-right: 13px;
+    height: 34px !important;
 }
 
 .supernav_SuperNav_2D64j {
