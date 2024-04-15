@@ -464,7 +464,8 @@
 }
 
 .appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer {
-    background: var(--minimal_dark_blacker) !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
 }
 
 .appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer.DialogDropDown:hover {
@@ -628,4 +629,24 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
 .appportraithover_GameUpdatedContainer_QO8Xp .appportraithover_GameUpdatedCircle_158pN {
     background: var(--minimal_dark_fluogreen) !important;
     box-shadow: 0px 0px 8px 1px var(--minimal_dark_fluogreen), 0px 0px 16px 1px var(--minimal_dark_greensettings) !important;
+}
+
+.appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer .DialogDropDown_CurrentDisplay {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_blacker_alt) !important;
+    border-bottom: 1px solid var(--minimal_dark_blacker_alt) !important;
+    border-left: 1px solid var(--minimal_dark_blacker_alt) !important;
+}
+
+.appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer .DialogDropDown_Arrow {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_blacker_alt) !important;
+    border-top: 1px solid var(--minimal_dark_blacker_alt)!important;
+    border-right: 1px solid var(--minimal_dark_blacker_alt) !important;
+}
+
+.appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer .DialogDropDown_CurrentDisplay:hover {
+    background: linear-gradient(90deg, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 25%, rgba(38,38,38,1) 85%, rgba(38,38,38,1) 90%) !important;
+    border-bottom: 1px solid var(--minimal_dark_blacker_alt) !important;
+    border-top: 1px solid var(--minimal_dark_blacker_alt)!important;
 }
