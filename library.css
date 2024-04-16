@@ -143,18 +143,19 @@
 .libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd .libraryhomenewupdates_PartnerEventRowCapsule_MainImageContainer_SPz0i {
     overflow: hidden;
     background-color: #000a;
-    border-radius: 0px;
+    border-radius: 5px;
 }
 
 .libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd.libraryhomenewupdates_HoversEnabled_278jF:hover .libraryhomenewupdates_EventSummaryContainer_3Rb_j, .gpfocus>.libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd.libraryhomenewupdates_HoversEnabled_278jF .libraryhomenewupdates_EventSummaryContainer_3Rb_j {
     background: var(--minimal_dark_invisblegrey);
     backdrop-filter: blur(10px);
-    border-left: 1px solid black !important;
-    border-top: 1px solid black !important;
-    border-bottom: 1px solid black !important;
-    border-right: 2px solid black !important;
-    width: 99% !important;
-    height: 99% !important;
+    /* border-left: 1px solid black !important; */
+    /* border-top: 1px solid black !important; */
+    /* border-bottom: 1px solid black !important; */
+    /* border-right: 2px solid black !important; */
+    /* width: 100% !important; */
+    /* height: 100% !important; */
+    border-radius: 5px !important;
 }
 
 .library_LibraryWindowDivider_276E6.library_Sizable_2g5K_:hover {
@@ -263,6 +264,8 @@
 
 .libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd {
     cursor: default;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px;
 }
 
 .libraryhomenewupdates_GameIconAndName_3_xMy {
@@ -287,12 +290,24 @@
     filter: brightness(1.2) contrast(1.05) saturate(1);
 }
 
-/* animation portrait hover */
+.appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV-, .appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn, .appportrait_LibraryItemBox_WYgDg.appportrait_InFriendsActivity_3ngZC {
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-.Panel:hover {
+    border: 2px solid rgba(var(--minimal_dark_color_rgba), .75) !important;
+}
+
 .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover:not(.appportrait_Landscape_3VOR2), .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg.appportrait_ShowAsHovered_2YsY_:not(.appportrait_Landscape_3VOR2) {
     transform: rotateX(0deg) translateZ(10px);
     filter: brightness(1.1) contrast(0.95) saturate(1);
     box-shadow: 0px 14px 12px 0px rgba(0,0,0,.3);
     z-index: 12;
+    border: 2px solid rgba(var(--minimal_dark_color_rgba), .75) !important;
+    border-radius: 5px !important;
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx {
@@ -664,4 +679,9 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
 
 .screenshots_Hover_2EMM5 .screenshots_Screenshot_2pHz5 {
     border-radius: 5px !important;
+}
+
+.appportrait_LibraryItemBox_WYgDg {
+    border-radius: 5px !important;
+	border: 2px solid var(--minimal_dark_be_grey) !important;
 }
