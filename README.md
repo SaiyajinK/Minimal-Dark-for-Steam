@@ -47,9 +47,6 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 
 ![steamwebhelper_phO93tJRKG](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/cd713841-5f4f-4f58-be4b-49b48b98e891) <br>
 
-## `📸 Profil 📸` <br> 
-
-Blurred profil : https://steamcommunity.com/id/saiyajinkk/ <br>
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
