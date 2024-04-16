@@ -7,6 +7,14 @@ All the sources and tools I used are at the bottom of the description. <br>
 I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. <br>
 Be understandable if you encounter any bugs. <br>
 
+## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
+
+![steamwebhelper_2PxeAc0FeH](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/880797cf-768f-46a2-a2cd-bb6dfb7b3505) <br>
+
+
+I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
+The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
+
 ## `🎨 Customize theme with the color of your choice!🎨` <br> 
 
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the color code defined in the configuration file across the entire skin and webkit. <br>
@@ -26,14 +34,6 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 🗣️ Dev response : Millennium will be updated soon to resolve this issue to only update files changed during a skin update.
 
-## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
-
-![minimal_dark_2 8](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/ddec6e0a-0e60-4b3e-9e52-b5bdc5b68605) <br>
-
-
-I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
-The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
-
 ## `🔄 Reboot/recharge menu 🔄` <br> 
 
 I added a js script to the skin that adds the restart and refresh UI actions. <br>
@@ -41,7 +41,7 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 
 ![steamwebhelper_4FpJOM4dmK](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/09a09386-b252-4033-8c7a-5cb82b690776)
 
-⚠️ note: on the beta channel, this function is no longer available. There must have been changes that broke the script. I will keep an eye out for a possible update to the script (if it is updated of course) and if so, my skin will be updated accordingly. <br>
+⚠️ note: on the beta channel, this function is no longer available. There must have been changes that broke the script. I will keep an eye out for a possible update (if it is updated of course) and if so, my skin will be updated accordingly. <br>
 
 ## `📸 Compact mode + friends 📸` <br> 
 
@@ -49,15 +49,13 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 
 ## `📸 Profil 📸` <br> 
 
-Blurred profil :<br>
-
-https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/b889225a-4912-4871-93c0-899e2c82a27c
+Blurred profil : https://steamcommunity.com/id/saiyajinkk/ <br>
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
 All aspects were changed to match my theme. <br>
 
-![steamwebhelper_WiAWKPCkPa](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/2561340e-d5af-4c24-b11b-abd030c8aa76) <br> 
+![steamwebhelper_UI5b3LGnBc](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/47b8c8e5-c135-4b9d-81d2-ef8df6c75cea) <br> 
 
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
