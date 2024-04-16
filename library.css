@@ -646,7 +646,18 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
 }
 
 .appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer .DialogDropDown_CurrentDisplay:hover {
-    background: linear-gradient(90deg, rgba(64,64,64,1) 0%, rgba(64,64,64,1) 25%, rgba(38,38,38,1) 85%, rgba(38,38,38,1) 90%) !important;
+    background: linear-gradient(90deg, rgba(50,50,50,1) 0%, rgba(50,50,50,1) 25%, rgba(38,38,38,1) 85%, rgba(38,38,38,1) 90%) !important;
     border-bottom: 1px solid var(--minimal_dark_blacker_alt) !important;
     border-top: 1px solid var(--minimal_dark_blacker_alt)!important;
+}
+
+.appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer .DialogDropDown_CurrentDisplay:active {
+    background: linear-gradient(90deg, rgba(50,50,50,1) 0%, rgba(50,50,50,1) 25%, rgba(38,38,38,1) 85%, rgba(38,38,38,1) 90%) !important;
+    border-bottom: 1px solid var(--minimal_dark_blacker_alt) !important;
+    border-top: 1px solid var(--minimal_dark_blacker_alt) !important;
+    box-shadow: inset 1px 2px 4px 0px #121212 !important;
+}
+
+.appfilterpane_SteamDeckCompatDropDown_1SFpb {
+    padding-bottom: 0px !important;
 }
