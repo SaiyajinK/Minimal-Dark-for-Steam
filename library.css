@@ -699,3 +699,7 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
     background: var(--minimal_dark_be_grey) !important;
     border-bottom: 2px solid var(--minimal_dark_color) !important;
 }
+
+.collectionview_Container_2q70u .collectionview_DynamicCollectionSubHeader_1sK_7 {
+    display: none;
+}
