@@ -291,7 +291,7 @@
 }
 
 .appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV-, .appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn, .appportrait_LibraryItemBox_WYgDg.appportrait_InFriendsActivity_3ngZC {
-    transition-duration: .4s;
+    transition-duration: .2s !important;
     transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
     border: 2px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
@@ -300,6 +300,7 @@
 .appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-.Panel:hover {
     /* border: 2px solid rgba(var(--minimal_dark_color_rgba), .75) !important; */
     border: 2px solid #484848 !important;
+    border-bottom: 2px solid var(--minimal_dark_color) !important;
 }
 
 .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover:not(.appportrait_Landscape_3VOR2), .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg.appportrait_ShowAsHovered_2YsY_:not(.appportrait_Landscape_3VOR2) {
@@ -310,6 +311,7 @@
     /* border: 2px solid rgba(var(--minimal_dark_color_rgba), .75) !important; */
     border: 2px solid #484848 !important;
     border-radius: 5px !important;
+    border-bottom: 2px solid var(--minimal_dark_color) !important;
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx {
