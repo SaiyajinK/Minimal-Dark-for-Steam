@@ -299,7 +299,7 @@
 
 .appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-.Panel:hover {
     /* border: 2px solid rgba(var(--minimal_dark_color_rgba), .75) !important; */
-    border: 2px solid #424242 !important;
+    border: 2px solid #353535 !important;
     border-bottom: 2px solid var(--minimal_dark_color) !important;
 }
 
@@ -309,7 +309,7 @@
     box-shadow: 0px 14px 12px 0px rgba(0,0,0,.3);
     z-index: 12;
     /* border: 2px solid rgba(var(--minimal_dark_color_rgba), .75) !important; */
-    border: 2px solid #424242 !important;
+    border: 2px solid #353535 !important;
     border-radius: 5px !important;
     border-bottom: 2px solid var(--minimal_dark_color) !important;
 }
@@ -702,4 +702,16 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
 
 .collectionview_Container_2q70u .collectionview_DynamicCollectionSubHeader_1sK_7 {
     display: none;
+}
+
+.collectionview_Container_2q70u .collectionview_Header_2rqTS .collectionview_DynamicCollectionLabelAndButton_8JUfQ.Focusable:focus {
+    outline: none !important;
+    background-color: var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_white) !important;
+    border-radius: 5px !important;
+}
+
+.collectionview_Container_2q70u .collectionview_Header_2rqTS .collectionview_DynamicCollectionLabelAndButton_8JUfQ:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
