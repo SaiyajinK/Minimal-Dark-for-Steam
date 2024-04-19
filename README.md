@@ -39,7 +39,8 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 I added a js script to the skin that adds the restart and refresh UI actions. <br>
 `Script has shared on the unofficial metro discord` <br>
 
-![steamwebhelper_4FpJOM4dmK](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/09a09386-b252-4033-8c7a-5cb82b690776)
+![steamwebhelper_ZuUoU4GBwI](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/d9521d81-3a92-40b7-8486-6c3fb8b6511e)
+
 
 ⚠️ note: on the beta channel, this function is no longer available. There must have been changes that broke the script. I will keep an eye out for a possible update (if it is updated of course) and if so, my skin will be updated accordingly. <br>
 
@@ -52,7 +53,7 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 `Thanks Shiina for the base of the webkit` <br>
 All aspects were changed to match my theme. <br>
 
-![steamwebhelper_UI5b3LGnBc](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/47b8c8e5-c135-4b9d-81d2-ef8df6c75cea) <br> 
+ ![steamwebhelper_HTsjGN9GLD](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/f160048f-2c79-4a43-a834-1d51bf67fd8c) <br> 
 
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
