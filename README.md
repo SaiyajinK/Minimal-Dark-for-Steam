@@ -1,5 +1,7 @@
 ## ⚡ Minimal Dark for Steam ⚡ <br> 
 
+![Minimal_dark_2024](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/7b3274c7-ea3d-4f17-9020-139ae501b1f9)  <br>
+
 Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
 I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
 All the sources and tools I used are at the bottom of the description. <br>
