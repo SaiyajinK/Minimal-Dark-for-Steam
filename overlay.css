@@ -16,17 +16,10 @@
 }
 
 .apppartnereventspage_PartnerEvent_lwprN {
-    max-width: 848px;
-    overflow: hidden;
-    margin: 56px auto 16px auto;
-    position: relative;
-    background-color: var(--minimal_dark_blacker_alt);
-    border-radius: 4px;
-    background-image: radial-gradient(ellipse at top left, #42454c, #000000);
-    box-shadow: 0 0 32px #000;
-    pointer-events: initial;
-    border: 1px solid transparent;
-    font-weight: 300;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    background-image: none !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
 
 .steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_URLBarText_2m_or {
@@ -583,4 +576,38 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 .screenshotmanagerdialog_ComboboxSelectorContextMenu_4BQHp {
     background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.aboutsteamdialog_AboutSteamDialog_FFIKU.aboutsteamdialog_Desktop_yXl6A .aboutsteamdialog_DialogHeader_3QhXB {
+    color: var(--minimal_dark_color) !important;
+}
+
+.apppartnereventspage_CloseButton_35HbM {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.apppartnereventspage_CloseButton_35HbM:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.apppartnereventspage_ScrollButton_357Gu {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.apppartnereventspage_ScrollButton_357Gu:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.apppartnereventspage_ScrollButton_357Gu svg polygon {
+    fill: #9e9ead !important;
+}
+
+.apppartnereventspage_ScrollButton_357Gu:hover svg polygon {
+    fill: white !important;
 }
