@@ -343,7 +343,7 @@
     background-color: rgba(var(--minimal_dark_color_rgba), .05) !important;
     color: #fff;
     backdrop-filter: blur(30px);
-    border-top-left-radius: 0px;
+    border-top-left-radius: 5px !important;
     border-top: 1px solid var(--minimal_dark_invisblegrey) !important;
     border-left: 1px solid var(--minimal_dark_invisblegrey) !important;
 }
