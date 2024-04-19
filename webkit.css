@@ -5647,6 +5647,7 @@ body.v6 .game_page_background {
 
 .partnereventshared_Button_3P0Tm.partnereventshared_Icon_3p1Hj {
     background: var(--minimal_dark_invisblegrey);
+    border-radius: 5px !important;
 }
 
 .eventcalendar_EventCalendarContainer_3vzNv .eventcalendar_RowContainer_24NWG .eventcalendar_Rows_1TY7h .eventcalendar_PastSection_2S38Q.eventcalendar_DarkerBackground_iSooR {
@@ -6723,6 +6724,18 @@ div.ModalPosition_TopBar {
 
 ._1-yPTyNLjIAr7TpssNaC3w:hover {
     border: 1px solid var(--minimal_dark_color) !important;
+}
+
+._1-sO3stfp3wEO5LuB56LY_ {
+    border-radius: 5px !important;
+}
+
+._6IVLnrO3Nq29eAo0CoXcg {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+._35-UbCInUAiUv7UIRWnV5a {
+    background: var(--minimal_dark_be_grey) !important;
 }
 
 /* end webkit */
