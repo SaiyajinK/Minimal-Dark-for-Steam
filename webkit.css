@@ -1950,7 +1950,7 @@ a.recent_game_discussion.quasi_official_group:hover {
 }
 
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 	background-color:var(--minimal_dark_lite_grey)!important;
 	border:0!important;
 }
@@ -1962,7 +1962,7 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .profileFriendSearchBox {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 	background-color:var(--minimal_dark_lite_grey)!important;
 	border:0!important;
 }
@@ -1978,7 +1978,7 @@ div#headerSearch.friend_activity_header_search {
 
 .blotter_appselect div.option,.blotter_appselect_options div.option {
 	padding-right:7px!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 	cursor:pointer!important;
 }
 
@@ -2022,9 +2022,9 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .blotter_block {
-	position:relative!important;
-	background:var(--minimal_dark_night_alt1)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    background: var(--minimal_dark_night_alt1)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .dynamiclink_box {
@@ -4181,15 +4181,16 @@ img#blotter_nofriends_block {
 }
 
 #friendactivity_right_column .box {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .blotter_eventsblock {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
+	padding: 12px !important;
 }
 
 .friends_add_block {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .profile_options_divider {
@@ -4207,7 +4208,7 @@ img#blotter_nofriends_block {
 }
 
 #blotter_statuspost_submit {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .blotter_day {
@@ -7271,5 +7272,11 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
     border-radius: 5px !important;
     background: linear-gradient(0deg, rgba(var(--minimal_dark_color_rgba),.3) 0%, var(--minimal_dark_color) 80%) !important;
 }
+
+.blotter_appselect {
+    background-image: none !important;
+}
+
+
 
 /* end webkit */
