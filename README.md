@@ -15,7 +15,7 @@ Be understandable if you encounter any bugs. <br>
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
 
-## `🎨 Customize theme with the color of your choice!🎨` <br> 
+## `🎨 Customize theme with the color of your choice 🎨` <br> 
 
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the color code defined in the configuration file across the entire skin and webkit. <br>
 
