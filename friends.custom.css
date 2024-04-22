@@ -713,6 +713,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     bottom: 0;
     width: 6px;
     height: 6px;
+    border-radius: 5px !important;
 }
 
 .personanameandstatus_richPresenceContainer_2nrSd {
@@ -1012,4 +1013,30 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .chatentry_chatTextarea_pewyB {
     padding-left: 10px !important;
+}
+
+.friendslist_OfflineContainer_2HYiy {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.friendslist_OfflineMessage_2Wp_Z .friendslist_retryButton_1BUWX {
+    background: var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.friendslist_OfflineMessage_2Wp_Z .friendslist_retryButton_1BUWX:hover {
+    background: rgba(var(--minimal_dark_color_rgba),.75) !important;
+}
+
+.friendslist_OfflineMessage_2Wp_Z .friendslist_retryButton_1BUWX:active {
+    background: rgba(var(--minimal_dark_color_rgba),.25) !important;
+}
+
+.friendslist_OfflineMessage_2Wp_Z .friendslist_summaryText_nKXfu {
+    color: var(--minimal_dark_red2) !important;
+}
+
+.steamavatar_avatar_1p_Qr {
+    border-radius: 5px !important;
 }
