@@ -2802,8 +2802,16 @@ a.activetrigger,a.trigger {
 }
 
 #profile_action_dropdown .popup_menu_item {
-	padding: 0px 12px!important;
-	line-height:26px!important;
+    padding: 0px 12px!important;
+    line-height: 26px!important;
+    background: var(--minimal_dark_be_grey)!important;
+}
+
+.popup_menu .popup_menu_item:hover, .popup_menu .popup_menu_item.focus {
+    color: #171d25;
+    text-decoration: none;
+    background: #dcdedf;
+    background: var(--minimal_dark_blacker) !important;
 }
 
 .profile_customization {
@@ -3276,6 +3284,7 @@ body.v6 #footer .rule {
 .rightcol.game_meta_data .block.heading {
     border-radius: var(--minimal_dark_corner0)!important;
     background: transparent !important;
+    border-radius: 5px !important;
 }
 
 .short_header {
@@ -7277,6 +7286,9 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
     background-image: none !important;
 }
 
-
+.rightcol.game_meta_data .block.recommendation_reasons {
+    padding-left: 28px;
+    margin-top: 8px !important;
+}
 
 /* end webkit */
