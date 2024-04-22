@@ -7117,4 +7117,8 @@ div.rightcol {
     margin-left: -2px !important;
 }
 
+.carousel_container.spotlight .carousel_items > * .store_capsule {
+    margin-bottom: 9px !important;
+}
+
 /* end webkit */
