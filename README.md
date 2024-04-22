@@ -20,8 +20,8 @@ The home and collection button are now hidden to minimize the space taken up (th
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the color code defined in the configuration file across the entire skin and webkit. <br>
 
 How change the skin color ? <br>
-1. Open `config.css` with notepad++ and modify line `4` and line `5`. <br> 
-2. Open `webkit.css` and modify line `8` and line `9` ; save and reload Steam. <br> 
+1. Open `config.css` with notepad++ and modify lines `4` and `5`. <br> 
+2. Open `webkit.css` and modify lines `8` and `9` ; save and reload Steam. <br> 
 
 ⚠️ note: color settings reset with each update (for now).<br>
 
