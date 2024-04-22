@@ -6528,6 +6528,7 @@ a.pulldown_desktop:hover {
 
 a:hover {
     color: var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_blacker) !important;
 }
 
 .queue_menu_option {
@@ -7119,6 +7120,54 @@ div.rightcol {
 
 .carousel_container.spotlight .carousel_items > * .store_capsule {
     margin-bottom: 9px !important;
+}
+
+.account_setting_block {
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.account_header_line {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+
+.account_manage_link {
+    border-radius: 5px !important;
+}
+
+.two_column .nav_item.active {
+    background: linear-gradient(to right, var(--minimal_dark_be_grey), transparent) !important;
+    border-radius: 5px !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.two_column .nav_item:hover {
+    background: linear-gradient(to right, rgba(var(--minimal_dark_color_rgba),.25), transparent) !important;
+    border-radius: 5px !important;
+}
+
+._3Sbby9pYJeX9b2Dcjx1Gbc {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+}
+
+._3Sbby9pYJeX9b2Dcjx1Gbc button.DialogButton {
+    color: var(--minimal_dark_color) !important;
+	border-radius: 5px !important;
+}
+
+.account_settings_container {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+#primary_language_droplist {
+    background-color: var(--minimal_dark_be_grey) !important;
 }
 
 /* end webkit */
