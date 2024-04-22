@@ -313,7 +313,7 @@ svg.titlebarcontrols_Icon_34bQc:active {
     width: calc(100% - 2px);
     box-shadow: 2px 2px 8px 1px rgba(0,0,0,.3);
     transition: filter .24s ease-in-out;
-    /* border-radius: 20px !important; */
+    border-radius: 5px !important;
     /* filter: drop-shadow(2px 4px 6px black); */
 }
 
@@ -334,6 +334,11 @@ svg.titlebarcontrols_Icon_34bQc:active {
     mask: none !important;
     mask-size: none !important;
     opacity: .75;
+}
+
+.steamavatar_avatarHolder_1YGAH .steamavatar_avatarStatus_1yIzy.right, .steamavatar_avatarHolder_1YGAH .steamavatar_avatarStatus_1yIzy.bottom {
+    display: block !important;
+    border-radius: 5px !important;
 }
 
 .online .steamavatar_avatarStatus_1yIzy {
