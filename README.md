@@ -59,7 +59,7 @@ If you want to remove this, open `webkit.css` and remove lines `98` to `107` <br
 `Thanks Shiina for the base of the webkit` <br>
 All aspects were changed to match my theme (the header image of the webkit is not changed, it's just for the screenshot). <br>
 
-![steamwebhelper_rPAL6VNlNf](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/8f5f7379-09a1-417b-a7a1-14ef1fc3be14) <br>
+![steamwebhelper_9yHrROZM9N](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/ebc1021c-7793-47c8-b3af-608247455180) <br>
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
