@@ -9,7 +9,7 @@ Be understandable if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-![steamwebhelper_eYY6jCMPZR](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/82128021-81ae-4286-8788-603e01d1e93a) <br>
+![324554257-82128021-81ae-4286-8788-603e01d1e93aez](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/f4435cea-bf62-4993-a5f9-29ec4bf8307c) <br>
 
 
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
@@ -46,20 +46,20 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![steamwebhelper_2zD12NqBjP](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/66566b92-ae5f-4a94-9138-035e96ed6a9d) <br>
+![steamwebhelper_z51xOLKTjZ](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/75300a80-df99-4e7b-abc2-fb85362b189d) <br>
 
 ## `👤 Profil 👤` <br> 
 
 I defined a static color by default which will have the effect of not displaying static or video backgrounds. <br>
 If you want to remove this, open `webkit.css` and remove lines `98` to `107` <br>
 
-![steamwebhelper_WXV5TtjdBd](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/2f5308e6-4347-45c1-be35-d2a45e9dd7ca) <br>
+![steamwebhelper_6VczGuCOtR](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/d47f9b82-95e2-4791-8864-973342abc338) <br>
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
 All aspects were changed to match my theme (the header image of the webkit is not changed, it's just for the screenshot). <br>
 
-![steamwebhelper_9yHrROZM9N](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/ebc1021c-7793-47c8-b3af-608247455180) <br>
+![324642831-ebc1021c-7793-47c8-b3af-6082474551ee80](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/200f0dc4-981e-4f45-8517-42778ef6d228) <br>
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
