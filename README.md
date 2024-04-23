@@ -9,7 +9,7 @@ Be understandable if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-![324554257-82128021-81ae-4286-8788-603e01d1e93aez](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/f4435cea-bf62-4993-a5f9-29ec4bf8307c) <br>
+![325003835-f4435cea-bf62-4993-a5f9-k29ec4bf8307c](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/ead8e9fb-905d-4191-a26e-f65331014141) <br>
 
 
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
