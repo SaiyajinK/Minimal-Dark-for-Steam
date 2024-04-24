@@ -256,8 +256,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
-    background: var(--minimal_dark_invisblegrey);
-    cursor: pointer;
+    background: var(--minimal_dark_invisblegrey) !important;
+    border-radius: 5px !important;
 }
 
 .appactivityday_PartnerEventTextOnly_3QRf-:hover {
@@ -454,8 +454,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
-    padding: 0px 10px 0px 10px;
-    flex-direction: row;
+    padding: 0px 10px 0px 10px !important;
 }
 
 .appdetailssection_Body_5uvIN {
@@ -463,6 +462,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
     border-radius: 5px;
     background: #12121236;
     backdrop-filter: blur(10px);
+	padding: 6px !important;
 }
 
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
@@ -878,4 +878,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
 
 .appdetailsachievementssection_Hover_37Lk8 .appdetailsachievementssection_Unlocked_2KA0p {
     border-radius: 5px !important;
+}
+
+.appactivityday_AppActivityDay_S2Fu9 {
+    margin-bottom: 0px !important;
+    padding: 0px 0px 0px 0px !important;
 }
