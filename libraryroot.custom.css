@@ -1139,6 +1139,15 @@ button.DialogButton {
 	border-radius: 5px !important;
 }
 
+.titlebarcontrols_AccountMenuPopup_HoGkI .titlebarcontrols_AccountName_11phB, .titlebarcontrols_AccountMenuPopup_HoGkI .titlebarcontrols_WalletBalance_2jphj {
+    color: var(--minimal_dark_color) !important;
+}
+
+.titlebarcontrols_NotificationsMenuScrollable_3sTMv.titlebarcontrols_MenuScrollbarHidden_2IZUd {
+    margin-right: 4px;
+    padding-bottom: 4px;
+}
+
 .titlebarcontrols_NotificationsButton_RtSv3 {
     padding: 0px 5px !important;
     border-top-left-radius: 0px;
@@ -1192,8 +1201,4 @@ button.DialogButton {
 
 .library_AppDetailsMain_2Nq6o {
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
-}
-
-.titlebarcontrols_AccountMenuPopup_HoGkI .titlebarcontrols_AccountName_11phB, .titlebarcontrols_AccountMenuPopup_HoGkI .titlebarcontrols_WalletBalance_2jphj {
-    color: var(--minimal_dark_color) !important;
 }
