@@ -822,9 +822,9 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 .creator .popup_menu .popup_menu_item.focus, .creator .popup_menu .popup_menu_item:hover, .curator .popup_menu .popup_menu_item.focus, .curator .popup_menu .popup_menu_item:hover, .footer_content .popup_menu .popup_menu_item.focus, .footer_content .popup_menu .popup_menu_item:hover, .search_area .popup_body .match:hover, .search_area .popup_body .match:hover .match_name, .store_nav .popup_menu .popup_menu_item.focus, .store_nav .popup_menu .popup_menu_item:hover {
-    color: var(--minimal_dark_white) !important;
+    color: var(--minimal_dark_color) !important;
     background: var(--minimal_dark_invisblegrey) !important;
-    border-radius: var(--minimal_dark_corner0) !important;
+    border-radius: var(--minimal_dark_corner5) !important;
 }
 
 .store_nav .popup_menu .popup_menu_item:hover, .store_nav .popup_menu .popup_menu_item.focus {
@@ -3664,11 +3664,13 @@ h2 span.note:hover {
 }
 
 .item_store_items_game_page_container {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
+	background: var(--minimal_dark_blacker) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .item_def_icon_container {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .rightcol .panel {
@@ -7374,6 +7376,50 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 	border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
 	border-left: 1px solid var(--minimal_dark_be_grey) !important;
 	border-right: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.popup_body.search_v2 .match.match_v2 .match_img img {
+	border-radius: 5px !important;
+}
+
+.popup_body.search_v2 .match.match_v2 .match_subtitle {
+    color: var(--minimal_dark_less_white) !important;
+}
+
+.popup_body.search_v2 .match.match_v2:hover .match_subtitle {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.popup_body.search_v2 .match.match_v2.hover, .popup_body.search_v2 .match.match_v2.focus {
+    color: var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_invisblegrey) !important;
+    border-radius: var(--minimal_dark_corner5) !important;
+}
+
+.popup_body.search_v2 .match.match_v2:hover .match_name {
+	background: transparent !important;
+}
+
+.popup_body.search_v2 .match.match_v2 .match_name span {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+}
+
+.popup_body.search_v2 .match.match_tag.match_v2 {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.item_store_overlay_link:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.item_def_icon {
+    border-radius: 5px !important;
+}
+
+.similar_recent_apps_container > a > img {
+    border-radius: 10px !important;
 }
 
 /* end webkit */
