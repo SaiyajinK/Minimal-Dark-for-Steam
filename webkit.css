@@ -6007,6 +6007,7 @@ body.v6 .store_nav #genre_flyout .popup_menu_subheader .popup_menu_item, body.v6
 ._2mFH5j7jjyfKD6D14nhTB5:hover {
     background: var(--minimal_dark_black) !important;
     color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
 }
 
 .skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh ._1D-8s79QAmUBhHzL8NO5Xx {
@@ -7420,6 +7421,35 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 
 .similar_recent_apps_container > a > img {
     border-radius: 10px !important;
+}
+
+.Y6hHMH1PrvTkz6wc6Rc-v {
+    background: url(https://store.cloudflare.steamstatic.com/public/images/applications/store/diamonds_tile.png?v=6fbc929…) no-repeat,radial-gradient(100% 1000px at 20% 0px, #161616 5%, #121212 100%) !important;
+    border-radius: 5px !important;
+}
+
+._19X6AbdPOUHqSxNz3mm18i ._2pwsWXANIuk8w8cZ8wvNz {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+}
+
+._3Ju8vy_foEPg9ILmy2-htb {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+}
+
+._2pwsWXANIuk8w8cZ8wvNz:hover {
+    background: var(--minimal_dark_be_grey) !important;
+}
+
+._3Ju8vy_foEPg9ILmy2-htb:hover {
+    background: var(--minimal_dark_be_grey) !important;
+    color: #fff;
+}
+
+.SRxqV4jytIuP55fxgfpD1 {
+    background: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
 }
 
 /* end webkit */
