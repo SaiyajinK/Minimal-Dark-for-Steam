@@ -944,6 +944,10 @@ div.store_header_btn {
     border-bottom-right-radius: 5px !important;
 }
 
+.carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal:hover {
+    border-bottom: 2px solid var(--minimal_dark_color) !important;
+}
+
 .carousel_container.spotlight .carousel_items>* .store_capsule {
 	background-image:none!important;
 	background:var(--minimal_dark_dark)!important;
@@ -959,6 +963,10 @@ div.store_header_btn {
     height: 390px!important;
     border-radius: var(--minimal_dark_corner5)!important;
     border: 2px solid var(--minimal_dark_be_grey)!important;
+}
+
+.home_area_spotlight.underlined_links:hover {
+    border-bottom: 2px solid var(--minimal_dark_color) !important;
 }
 
 .spotlight_weeklong_ctn {
@@ -4813,6 +4821,10 @@ body.v6.winter_sale_home h2.winter {
 .carousel_items.store_capsule_container > * > * {
     border-radius: var(--minimal_dark_corner5)!important;
     border: 2px solid var(--minimal_dark_be_grey)!important;
+}
+
+.carousel_items.store_capsule_container > * > *:hover {
+    border-bottom: 2px solid var(--minimal_dark_color) !important;
 }
 
 .community_recommendation_app > .right_col {
