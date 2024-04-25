@@ -700,7 +700,7 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 }
 
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
-    background: rgb(18 18 18 / 25%) !important;
+    background: rgb(18 18 18 / 45%) !important;
     border-radius: 5px !important;
     backdrop-filter: blur(8px) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
@@ -3108,9 +3108,10 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer {
 }
 
 img.game_header_image_full {
-	border-radius:var(--minimal_dark_corner5)!important;
-	width:324px!important;
-	margin-left:-5px!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    width: 324px!important;
+    margin-left: -5px!important;
 }
 
 body.v6 .game_area_already_owned.page_content {
@@ -7462,6 +7463,83 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 .SRxqV4jytIuP55fxgfpD1 {
     background: var(--minimal_dark_color) !important;
     border-radius: 5px !important;
+}
+
+#highlight_player_area {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._3Sg16slqY19nA7lkahpFcN {
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+._3Sg16slqY19nA7lkahpFcN ._1vT_0um4Qd00Q7JwFCLJsQ {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+}
+
+._1pDmtnMdcWL7fGMr_vI6pk {
+    background-color: var(--minimal_dark_blacker_alt);
+    border-radius: 5px !important;
+}
+
+.videoSrc {
+    background-color: var(--minimal_dark_blacker_alt);
+    border-bottom-right-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+
+.videoControlButton.videoControlGoLive .SVGIcon_Button {
+    display: none !important;
+}
+
+.videoControlButton.videoControlGoLive .jumpGoLive {
+    background-color: var(--minimal_dark_red2) !important;
+    border-radius: 5px !important;
+    margin-left: 14px !important;
+}
+
+.STV_timelineGrabberArrow .SVGIcon_STVTimelineGrabber .grabber {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.videoControlButton.buttonPlayPause:hover {
+    border: 1px solid #7e7e7e;
+    background-color: var(--minimal_dark_color) !important;
+}
+
+._2fD_xf6D7pxw5Wq6XJ_Fh8 {
+    filter: grayscale(1) !important;
+}
+
+._mdbDguqqYWDuP8ZWsMT7 {
+    filter: grayscale(1) !important;
+}
+
+._1f-oL9JGjO2ogLCmXJGPqg:hover {
+    filter: grayscale(1) !important;
+}
+
+.videoTimelineMain .STV_timelineGhostValue {
+    background: linear-gradient(to right, #368fa7 0%, var(--minimal_dark_color) calc(100% - 4px), var(--minimal_dark_color) calc(100% - 1px), #dcf2ff 100%) !important;
+    border-radius: 5px !important;
+}
+
+.videoTimelineMain .STV_timelineNoVideo {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+}
+
+.videoControlButton.videoControlGoLive.isLiveEdge:hover .jumpGoLive, .videoControlButton.videoControlGoLive.isLiveEdge .jumpGoLive {
+    background-color: transparent;
+    color: white !important
 }
 
 /* end webkit */
