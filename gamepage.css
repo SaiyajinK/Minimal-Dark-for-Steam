@@ -114,7 +114,7 @@
 .appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
     border-radius: 50px !important;
     margin-top: -4px;
-	border: 2px solid rgba(66,143,216,1) !important;
+	border: 2px solid #8b929a29 !important;
 }
 
 .appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX {
@@ -829,10 +829,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
 .videoControlButton.buttonPlayPause:hover {
     border: 1px solid #7e7e7e;
     background-color: var(--minimal_dark_color) !important;
-}
-
-.videoTimelineMain .STV_timelineNoVideo {
-    background: var(--minimal_dark_color) !important;
 }
 
 .videoControlButton.videoControlGoLive.isLiveEdge:hover .jumpGoLive, .videoControlButton.videoControlGoLive.isLiveEdge .jumpGoLive {
