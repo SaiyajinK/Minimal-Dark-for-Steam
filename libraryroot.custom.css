@@ -1186,7 +1186,7 @@ button.DialogButton {
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover {
-    background: var(--minimal_dark_black) !important;
+    background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
 }
 
