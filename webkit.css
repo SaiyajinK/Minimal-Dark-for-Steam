@@ -2068,43 +2068,39 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .playerAvatar.profile_header_size.in-game {
-	max-width:40%!important;
-	float:left!important;
-	margin-right:18px!important;
-	position:relative!important;
-	width:166px!important;
-	height:166px!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	background:-webkit-linear-gradient(top,rgba(143,185,59,1) 5%,rgba(110,140,49,1) 95%)!important;
-	background:linear-gradient(to bottom,rgba(143,185,59,1) 5%,rgba(110,140,49,1) 95%)!important;
-	filter:none!important;
+	max-width: 40%!important;
+    float: left!important;
+    margin-right: 18px!important;
+    position: relative!important;
+    width: 166px!important;
+    height: 166px!important;
+    border-radius: var(--minimal_dark_corner0)!important;
+    background: var(--minimal_dark_be_grey) !important;
+    filter: none!important;
 }
 
 .playerAvatar.profile_header_size.online {
-	max-width:40%!important;
-	float:left!important;
-	margin-right:18px!important;
-	position:relative!important;
-	width:166px!important;
-	height:166px!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	background-color:var(--minimal_dark_status_blue)!important;
-	background:-webkit-linear-gradient(top,rgba(83,164,196,1) 5%,rgba(69,128,151,1) 95%)!important;
-	background:linear-gradient(to bottom,rgba(83,164,196,1) 5%,rgba(69,128,151,1) 95%)!important;
-	filter:none!important;
+    max-width: 40%!important;
+    float: left!important;
+    margin-right: 18px!important;
+    position: relative!important;
+    width: 166px!important;
+    height: 166px!important;
+    border-radius: var(--minimal_dark_corner0)!important;
+    background: var(--minimal_dark_be_grey) !important;
+    filter: none!important;
 }
 
 .playerAvatar.profile_header_size.offline {
-	max-width:40%!important;
-	float:left!important;
-	margin-right:18px!important;
-	position:relative!important;
-	width:166px!important;
-	height:166px!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	background:-webkit-linear-gradient(top,rgba(106,106,106,1) 5%,rgba(85,85,85,1) 95%)!important;
-	background:linear-gradient(to bottom,rgba(106,106,106,1) 5%,rgba(85,85,85,1) 95%)!important;
-	filter:none!important;
+	max-width: 40%!important;
+    float: left!important;
+    margin-right: 18px!important;
+    position: relative!important;
+    width: 166px!important;
+    height: 166px!important;
+    border-radius: var(--minimal_dark_corner0)!important;
+    background: var(--minimal_dark_be_grey) !important;
+    filter: none!important;
 }
 
 .responsive .profile_header .playerAvatar.profile_header_size {
@@ -2118,13 +2114,13 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .playerAvatar.profile_header_size .playerAvatarAutoSizeInner img {
-	background:0 0!important;
-	filter:none!important;
-	display:block!important;
-	padding:0!important;
-	width:100%!important;
-	height:100%!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    background: 0 0!important;
+    filter: none!important;
+    display: block!important;
+    padding: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+    border-radius: var(--minimal_dark_corner5)!important;
 }
 
 .groupadmin_content .rightbox_content_header {
@@ -3803,32 +3799,32 @@ div.early_access_announcements .post .more:hover {
 	padding:0!important;
 }
 
-.appHubIconHolder.ignored,.appHubIconHolder.offline,.avatar_block_status_offline,.friend_activity.friend_status_offline .friend_block_avatar,.friend_block_holder.friend_status_offline .friend_block_avatar,.playerAvatar.offline {
-	border-radius:var(--minimal_dark_corner0)!important;
+.appHubIconHolder.ignored, .appHubIconHolder.offline, .avatar_block_status_offline, .friend_activity.friend_status_offline .friend_block_avatar, .friend_block_holder.friend_status_offline .friend_block_avatar, .playerAvatar.offline {
+    border-radius: var(--minimal_dark_corner5)!important;
 }
 
-.appHubIconHolder.offline img,.avatar_block_status_offline img,.friend_status_offline .friend_block_avatar img,.playerAvatar.offline img {
-	border-radius:var(--minimal_dark_corner0)!important;
+.appHubIconHolder.offline img, .avatar_block_status_offline img, .friend_status_offline .friend_block_avatar img, .playerAvatar.offline img {
+    border-radius: var(--minimal_dark_corner5)!important;
 }
 
 .appHubIconHolder.online,.avatar_block_status_online,.friend_activity.friend_status_online .friend_block_avatar,.friend_block_holder.friend_status_online .friend_block_avatar,.playerAvatar.online {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .appHubIconHolder.online img,.avatar_block_status_online img,.friend_status_online .friend_block_avatar img,.playerAvatar.online img {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .appHubIconHolder.in-game,.avatar_block_status_in-game,.friend_activity.friend_status_in-game .friend_block_avatar,.friend_block_holder.friend_status_in-game .friend_block_avatar,.playerAvatar.in-game {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .appHubIconHolder.in-game img,.avatar_block_status_in-game img,.friend_status_in-game .friend_block_avatar img,.playerAvatar.in-game img {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .appHubIconHolder.golden,.avatar_block_status_golden,.friend_activity.friend_status_golden .friend_block_avatar,.friend_block_holder.friend_status_golden .friend_block_avatar,.playerAvatar.golden {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .group_content_rule {
@@ -7540,6 +7536,38 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 .videoControlButton.videoControlGoLive.isLiveEdge:hover .jumpGoLive, .videoControlButton.videoControlGoLive.isLiveEdge .jumpGoLive {
     background-color: transparent;
     color: white !important
+}
+
+._16w1DqxiJ7Hou6al4RGELE .Z3REHSppX48KICnAjjh90 {
+    background: var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+._16w1DqxiJ7Hou6al4RGELE .Z3REHSppX48KICnAjjh90 ._2TBs_xzgkuwXPkgIBiITOJ {
+    background: var(--minimal_dark_blacker_alt) !important;
+	border-radius: 5px !important;
+}
+
+.border_color_offline, .border_color_online, .border_color_AwayOrSnooze, .border_color_ingame {
+    border-color: transparent;
+}
+
+.miniprofile_container {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.miniprofile_playersection .playersection_avatar img {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.miniprofile_playersection {
+    backdrop-filter: blur(4px) !important;
+}
+
+.miniprofile_backdrop {
+    background: #1212128c !important;
 }
 
 /* end webkit */
