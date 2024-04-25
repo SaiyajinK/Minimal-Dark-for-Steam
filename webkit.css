@@ -2661,19 +2661,21 @@ body.v6 .wishlist_header h2 {
 
 #wishlist_search {
     border-radius: var(--minimal_dark_corner5)!important;
-    background-color: var(--minimal_dark_be_grey)!important;
-    border: 0!important;
+    background-color: var(--minimal_dark_black)!important;
     box-shadow: none;
-    border: 1px solid var(--minimal_dark_) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 #wishlist_search:hover {
-	border:0!important;
+    border: 0!important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
+    box-shadow: 0 0 12px rgb(0 0 0 / 50%) inset, 1px 1px 0 0 rgb(255 255 255 / 0%) !important;
 }
 
 .wishlist_row {
-    border-radius: var(--minimal_dark_corner5)!important;
-    background-color: var(--minimal_dark_dark)!important;
+    border-radius: var(--minimal_dark_corner5) !important;
+    background-color: var(--minimal_dark_dark) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .wishlist_row:hover .hover_handle .order input {
@@ -7607,6 +7609,10 @@ a.pulldown_desktop:hover {
 div#foryou_tab:nth-of-type(1) {
     border-top-left-radius: 5px !important;
     border-bottom-left-radius: 5px !important;
+}
+
+.wishlist_row .title.term_matched {
+    border-radius: 5px !important;
 }
 
 /* end webkit */
