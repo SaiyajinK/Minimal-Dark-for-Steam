@@ -7586,4 +7586,8 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
     border-bottom: 2px solid var(--minimal_dark_be_grey) !important;
 }
 
+._27tBXgfdEAfkIIkBVcHcz7 img {
+    border-radius: 5px !important;
+}
+
 /* end webkit */
