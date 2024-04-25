@@ -1,20 +1,38 @@
 .miniprofile_miniProfile_1AMAp {
     box-shadow: 0 10px 32px 0px #000000ab;
-    border-radius: 10px !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .miniprofile_miniProfileContent_3QoRR.miniprofile_notInOrWatchingGame_34jjZ .miniprofile_miniProfileBottom_2MwqO, .miniprofile_miniProfileContent_3QoRR .miniprofile_miniProfileGameContainer_3gSTD {
-    background: radial-gradient(circle, rgba(25,25,25,1) 0%, rgba(18,18,18,1) 100%) !important;
+    background: radial-gradient(circle, rgb(25 25 25 / 15%) 0%, rgb(18 18 18) 100%) !important;
 }
 
 .miniprofile_miniProfileBackdropBlur_LN94b {
-    backdrop-filter: blur(10px) !important;
+    backdrop-filter: blur(4px) !important;
 }
 
 .miniprofile_miniProfileContent_3QoRR .miniprofile_miniProfileHeader_TzmYo {
-    backdrop-filter: blur(10px) !important;
+    backdrop-filter: blur(4px) !important;
 }
 
 .miniprofile_miniProfileContent_3QoRR .miniprofile_miniProfileBottom_2MwqO {
     padding: 8px 8px 1px 12px !important;
+}
+
+.appdetailsfriendssection_PlaytimeSection_1s3b9 .appdetailsfriendssection_GameLogo_2HU_E {
+    border-radius: 5px !important;
+}
+
+.appdetailsfriendssection_PlaytimeSection_1s3b9 {
+    background: none !important;
+    backdrop-filter: blur(4px) !important;
+}
+
+.miniprofile_miniProfileContent_3QoRR .miniprofile_playerAvatar_2rDsq img {
+    border-radius: 5px !important;
+}
+
+.miniprofile_miniProfileContent_3QoRR .miniprofile_playerAvatar_2rDsq {
+    border-radius: 5px !important;
 }
