@@ -358,6 +358,7 @@
     background-color: var(--minimal_dark_invisblegrey);
     backdrop-filter: blur(20px);
     border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .appportraithover_PlaytimeDetails_1VGPO .appportraithover_Header_MIHa_ {
