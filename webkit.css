@@ -3353,7 +3353,7 @@ body.v6 #footer .rule {
 }
 
 .game_area_comingsoon {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
 }
 
 .game_page_autocollapse_fade {
@@ -7568,6 +7568,22 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 
 .miniprofile_backdrop {
     background: #1212128c !important;
+}
+
+.game_area_purchase_game_wrapper .advanced_access_header_wrapper .advanced_access_header {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top: 2px solid var(--minimal_dark_be_grey) !important;
+    border-left: 2px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 2px solid var(--minimal_dark_be_grey) !important;
+}
+
+.game_area_purchase_game_wrapper .advanced_access_header_wrapper .advanced_access_header_start {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-top: 2px solid var(--minimal_dark_be_grey) !important;
+    border-right: 2px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 2px solid var(--minimal_dark_be_grey) !important;
 }
 
 /* end webkit */
