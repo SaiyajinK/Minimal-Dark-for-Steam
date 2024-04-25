@@ -1040,3 +1040,21 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .steamavatar_avatar_1p_Qr {
     border-radius: 5px !important;
 }
+
+html.client_chat_frame body, html.web_chat_frame body {
+    background: transparent !important;
+}
+
+.HoverPositionPopup .miniProfileHoverInner {
+    border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.miniprofile_miniProfileVideoBackgroundContainer_2SW_Y {
+    background-color: transparent !important;
+}
+
+.miniprofile_miniProfileContent_3QoRR {
+    width: 326px !important;
+    height: 210px !important;
+}
