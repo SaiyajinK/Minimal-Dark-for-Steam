@@ -7717,4 +7717,8 @@ body.v6 .page_content_ctn.dark {
     border: 2px solid var(--minimal_dark_be_grey) !important;
 }
 
+.profile_customization_block {
+    padding: 20px 8px 11px 8px !important;
+}
+
 /* end webkit */
