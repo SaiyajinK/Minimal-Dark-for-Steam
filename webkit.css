@@ -7692,7 +7692,7 @@ a.home_marketing_message:hover {
 }
 
 .home_marketing_message.small {
-    margin: 0 0 6px 10px !important;
+    margin: 0 0 6px 5px !important;
 }
 
 .marketingmessage_area {
@@ -7705,6 +7705,16 @@ a.home_marketing_message:hover {
 
 body.v6 .page_content_ctn.dark {
     padding: 0px 0 !important;
+}
+
+.steamdeck_banner_desktop, .steamdeck_banner_mobile {
+    border-radius: 5px !important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
+}
+
+.top_new_releases_banner_ctn a {
+    border-radius: 5px !important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
 }
 
 /* end webkit */
