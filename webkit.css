@@ -7711,15 +7711,4 @@ body.v6 .page_content_ctn.dark {
     padding: 20px 8px 11px 8px !important;
 }
 
-.libraryhomenewupdates_EventOptions_2-p7s>div {
-    background-color: rgb(18 18 18 / 10%) !important;
-    backdrop-filter: blur(10px) !important;
-    background-image: url("./resources/event_options.png") !important;
-    background-position: 5px 6px !important;
-    background-size: 7px !important;
-    border-radius: 12px !important;
-    box-shadow: 0 0 10px #000 !important;
-    padding: 1px !important;
-}
-
 /* end webkit */
