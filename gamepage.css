@@ -890,3 +890,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
     margin-bottom: 0px !important;
     padding: 0px 0px 0px 0px !important;
 }
+
+.appactivityday_PartnerEvent_1AYE1:last-child {
+    border-radius: 5px !important;
+}
