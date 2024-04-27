@@ -216,15 +216,6 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote {
 	border:0px!important;
 }
 
-/* #modalContent.modal.frame { */
-	/* position:absolute!important; */
-	/* border-radius:var(--minimal_dark_corner0)!important; */
-	/* width:100%!important; */
-	/* height:100%!important; */
-	/* margin:0!important; */
-	/* display:flex!important; */
-/* } */
-
 .store_nav .tab img.foryou_avatar {
 	border-radius:var(--minimal_dark_corner0)!important;
 }
@@ -847,7 +838,7 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 .store_nav .tab.focus, .store_nav .tab.focus>span, .store_nav .tab:hover, .store_nav .tab:hover>span {
-    text-shadow: none!important;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%) !important;
     border-radius: var(--minimal_dark_corner0) !important;
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(32,32,32,0.25) 100%) !important;
     color: var(--minimal_dark_color) !important;
@@ -909,11 +900,9 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 div.store_header_btn {
     border-radius: var(--minimal_dark_corner5)!important;
     margin-right: 4px !important;
-    background: #12121254 !important;
+    background: rgb(18 18 18 / 45%) !important;
     backdrop-filter: blur(10px) !important;
-    height: 20px;
-    /* top: .5px !important; */
-    border: 1px solid var(--minimal_dark_greyblack2);
+    border: 1px solid var(--minimal_dark_greyblack2) !important;
 }
 
 .store_main_capsule .screenshots>div>div {
@@ -7354,12 +7343,12 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 }
 
 ._12zYFuKO2U-1QfeVxlGfwF:hover {
-    color: var(--minimal_dark_redsettings) !important;
+    color: var(--minimal_dark_red2) !important;
 }
 
 ._2Fm-3XmbFRXR6yOZiRB0-d {
     color: var(--minimal_dark_browser_overlay_close) !important;
-    background: #12121254 !important;
+    background: rgb(18 18 18 / 45%) !important;
     border-radius: 5px !important;
     box-shadow: 0 0 3px #000 !important;
     backdrop-filter: blur(15px) !important;
@@ -7615,6 +7604,7 @@ a.pulldown_desktop {
 
 a.pulldown_desktop:hover {
     color: var(--minimal_dark_color) !important;
+	text-shadow: 0px 2px 3px rgb(0 0 0 / 30%) !important;
 }
 
 .store_nav .tab:hover {
@@ -7719,6 +7709,17 @@ body.v6 .page_content_ctn.dark {
 
 .profile_customization_block {
     padding: 20px 8px 11px 8px !important;
+}
+
+.libraryhomenewupdates_EventOptions_2-p7s>div {
+    background-color: rgb(18 18 18 / 10%) !important;
+    backdrop-filter: blur(10px) !important;
+    background-image: url("./resources/event_options.png") !important;
+    background-position: 5px 6px !important;
+    background-size: 7px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 0 10px #000 !important;
+    padding: 1px !important;
 }
 
 /* end webkit */
