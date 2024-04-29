@@ -827,7 +827,6 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 .store_nav .popup_menu .popup_menu_item:hover, .store_nav .popup_menu .popup_menu_item.focus {
-																				
     border-bottom: 2px solid rgba(var(--minimal_dark_color_rgba),.5) !important;
     color: var(--minimal_dark_color) !important;										
 }
