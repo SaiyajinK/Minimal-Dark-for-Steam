@@ -727,3 +727,12 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
     box-shadow: 0 0 10px #000 !important;
     padding: 1px !important;
 }
+
+.library_IsResizingLeftList_2ZP8e .library_LibraryWindowDivider_276E6 {
+    background-color: rgba(var(--minimal_dark_color_rgba),.5) !important;
+}
+
+.library_LeftListSizableContainer_9sPoV {
+    min-width: 256px !important;
+    max-width: 346px !important;
+}
