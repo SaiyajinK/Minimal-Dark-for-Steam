@@ -1043,6 +1043,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 html.client_chat_frame body, html.web_chat_frame body {
     background: transparent !important;
+    background: var(--minimal_dark_blacker) !important;
 }
 
 .HoverPositionPopup .miniProfileHoverInner {
