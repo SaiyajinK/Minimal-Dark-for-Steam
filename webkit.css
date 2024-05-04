@@ -2740,7 +2740,7 @@ body.v6 .wishlist_header h2 {
 }
 
 .btnv6_green_white_innerfade {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5) !important;
 	padding:3px!important;
 	text-decoration:none!important;
 	color: var(--minimal_dark_lime)!important;
@@ -2748,7 +2748,7 @@ body.v6 .wishlist_header h2 {
 }
 
 .btnv6_blue_blue_innerfade {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 	padding:3px!important;
 	text-decoration:none!important;
 	color:var(--minimal_dark_light_blue)!important;
@@ -2756,23 +2756,23 @@ body.v6 .wishlist_header h2 {
 }
 
 .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 	background:rgba(83,105,4,1)!important;
 	color:var(--minimal_dark_white)!important;
 }
 
 .btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 	background:#23678e!important;
 	color:var(--minimal_dark_white)!important;
 }
 
-.btn_medium>span,input.btn_medium {
+.btn_medium>span, input.btn_medium {
     padding: 0 15px!important;
     /* line-height: 34px!important; */
-    border-radius: 0px;
+    border-radius: 5px !important;
     display: block;
-	/* background: var(--minimal_dark_be_grey) !important; */														  
+    /* background: var(--minimal_dark_be_grey) !important; */
 }
 
 #rightContents .box {
@@ -7708,6 +7708,90 @@ body.v6 .page_content_ctn.dark {
 
 .profile_customization_block {
     padding: 20px 8px 11px 8px !important;
+}
+
+.checkout_review_cart_item, .checkout_content_box .checkout_content.cart, .checkout_content_box .checkout_content.confirm {
+    margin: 16px 4px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    padding: 6px 18px !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.checkout_review_item_img img {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.review_row {
+    margin-top: 12px !important;
+}
+
+.cart_total_rule {
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.cart_tab_on {
+    background-color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.cart_tab_left_on {
+    background-image: none !important;
+}
+
+.block {
+    border-radius: 5px !important;
+    border: 1px solid !important;
+}
+
+.block.accountInfoBlock {
+    margin-bottom: 20px;
+    padding: 10px !important;
+}
+
+.checkout_content_box input[type="text"], .checkout_content_box input[type="password"], .checkout_content_box select, .checkout_content_box textarea, .checkout_main .dselect_container a.trigger {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+}
+
+.game_purchase_action_bg > * {
+    border-radius: var(--minimal_dark_corner5) !important;
+}
+
+.checkout_footer_notes {
+    color: var(--minimal_dark_orange) !important;
+}
+
+#payment_info_tab .checkout_content .payment_info_form_area {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.checkout_checkbox {
+    color: var(--minimal_dark_topgrey) !important;
+}
+
+label {
+    color: var(--minimal_dark_topgrey) !important;
+}
+
+.checkout_gotsteam_area, .receipt_body, .checkout_receipt_gift_detail {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.purchase_summary_area, .add_free_content_success_area, .checkout_steam_direct_area {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	padding: 16px;
+}
+
+.checkout_content .rule {
+    border-top: 1px solid var(--minimal_dark_blacker_alt) !important;
 }
 
 /* end webkit */
