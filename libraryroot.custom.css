@@ -552,14 +552,16 @@ button.DialogButton {
 }
 
 [class*="contextmenu_contextMenu_"] {
-	background: none;
-	min-width:fit-content !important;
-	color: var(--minimal_dark_white);
-    padding: 2px 2px !important;
+    background: transparent !important;
+    min-width: fit-content !important;
+    color: var(--minimal_dark_white);
+    padding: 1px 1px 1px 1px !important;
+    border-radius: 5px !important;
 }
 
 .contextmenu_contextMenuContents_2y2tU {
     background: var(--minimal_dark_be_grey);
+    border-radius: 5px !important;
 }
 
 .DesktopUI .contextmenu_contextMenuItem_pFo3k:hover  {
@@ -572,6 +574,15 @@ button.DialogButton {
     font-weight: 400;
 }
 
+html.contextmenu_ContextMenuPopup_2GpKT body {
+    background: transparent !important;
+	/* background: var(--minimal_dark_blacker) !important; */
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
+	border-radius: 5px !important;
+}
+
 .DesktopUI .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU {
 	background: var(--minimal_dark_blacker);
     color: var(--minimal_dark_color) !important;
@@ -580,24 +591,38 @@ button.DialogButton {
 .DesktopUI .library_ContextMenuAction_Z5iAX.Stream, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic, .DesktopUI .library_ContextMenuAction_Z5iAX.Play {
     background: var(--minimal_dark_greyblack) !important;
     color: white !important;
-    border-radius: 0px !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 
 .DesktopUI .library_ContextMenuAction_Z5iAX.Stream:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Stream:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Connect:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Launch:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Play:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Play:focus {
     background: var(--minimal_dark_bgg) !important;
     color: white !important;
-    opacity: 1.5 !important;
+    opacity: 1 !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 
 .DesktopUI .library_ContextMenuAction_Z5iAX.Download, .DesktopUI .library_ContextMenuAction_Z5iAX.Update, .DesktopUI .library_ContextMenuAction_Z5iAX.PreLoad, .DesktopUI .library_ContextMenuAction_Z5iAX.Resume, .DesktopUI .library_ContextMenuAction_Z5iAX.Pause, .DesktopUI .library_ContextMenuAction_Z5iAX.BorrowApp, .DesktopUI .library_ContextMenuAction_Z5iAX.Stop, .DesktopUI .library_ContextMenuAction_Z5iAX.Cancel, .DesktopUI .library_ContextMenuAction_Z5iAX.Install, .DesktopUI .library_ContextMenuAction_Z5iAX.PurchaseApp {
     background: var(--minimal_dark_greyblack) !important;
 	color: white !important;
-	border-radius: 0px !important;
+	border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 
 .DesktopUI .library_ContextMenuAction_Z5iAX.Download:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Download:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Update:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Update:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.PreLoad:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.PreLoad:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Resume:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Resume:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Pause:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Pause:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.BorrowApp:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.BorrowApp:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Stop:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Stop:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Cancel:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Cancel:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.Install:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.Install:focus, .DesktopUI .library_ContextMenuAction_Z5iAX.PurchaseApp:hover, .DesktopUI .library_ContextMenuAction_Z5iAX.PurchaseApp:focus {
     background-image: var(--minimal_dark_bgb) !important;
 	color: white;
+	border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 
 .DesktopUI [class*="libraryhomeshowcases_CollectionDropDownContainer_"][class*="libraryhomeshowcases_CollectionDropDownContainer_"] ._DialogInputContainer {
@@ -1183,6 +1208,11 @@ button.DialogButton {
 
 .appgrid_SortingDropDownContainer_1ZpBQ>div.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ>div {
     background: var(--minimal_dark_be_grey) !important;
+	padding: 0px !important;
+}
+
+.appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
+    padding: 6px 10px !important;
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover {
