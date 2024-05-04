@@ -1042,8 +1042,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 html.client_chat_frame body, html.web_chat_frame body {
-    background: transparent !important;
-    background: var(--minimal_dark_blacker) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .HoverPositionPopup .miniProfileHoverInner {
@@ -1058,4 +1057,106 @@ html.client_chat_frame body, html.web_chat_frame body {
 .miniprofile_miniProfileContent_3QoRR {
     width: 326px !important;
     height: 210px !important;
+}
+
+.friendslist_RemotePlayInviteLinkSection_SRcc1 .friendslist_LinkRow_2kAtv {
+    background-color: rgba(var(--minimal_dark_color_rgba),.25) !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 9px !important;
+    color: var(--minimal_dark_color) !important;
+    font-weight: 400 !important;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%) !important;
+    font-size: 11px !important;
+    border-radius: 5px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    border: 2px solid var(--minimal_dark_blacker) !important;
+}
+
+.friendslist_RemotePlayInviteLinkSection_SRcc1 .friendslist_LinkRow_2kAtv .friendslist_LinkRowText_o_39q {
+    font-size: 11px !important;
+    letter-spacing: 1px !important;
+}
+
+.friendslist_RemotePlayInviteLinkSection_SRcc1 .friendslist_LinkRow_2kAtv:hover {
+    color: white !important;
+    text-shadow: 2px 1px 1px rgb(0 0 0 / 30%) !important;
+    background-color: rgba(var(--minimal_dark_color_rgba),1) !important;
+	border: 2px solid var(--minimal_dark_be_grey) !important;
+	border-radius: 5px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.remoteplay_SectionTitle_3uFt_ {
+    color: var(--minimal_dark_color) !important;
+}
+
+.remoteplay_ContentBox_2NVbS {
+    background-color: var(--minimal_dark_black) !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
+}
+
+.remoteplay_PersonaAvatar_1Bb6h {
+    border-radius: 5px !important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
+}
+
+.remoteplay_BoxButton_3o7CS.remoteplay_Dark_IqjmS {
+    background-color: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+.remoteplay_BoxButton_3o7CS.remoteplay_Dark_IqjmS:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+.remoteplay_MediaButton_qOHK8 {
+    padding: 2px !important;
+    background-color: var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.remoteplay_MediaButton_qOHK8 .remoteplay_ButtonContent_TwOz2 {
+    background-color: var(--minimal_dark_blacker) !important;
+	border-radius: 5px !important;
+	border: 2px solid var(--minimal_dark_be_grey) !important
+}
+
+.remoteplay_ContentBox_2NVbS.remoteplay_Interactable_ZF6iJ:hover {
+    background-color: var(--minimal_dark_be_grey) !important;
+	border: 2px solid var(--minimal_dark_color) !important;
+}
+
+.remoteplay_ControllerDropSlotsContainer_22LMC .remoteplay_ControllerDropSlots_I3s3o {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+}
+
+.remoteplay_ControllerDropSlot_1Kiq1 {
+    background-color: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+}
+
+.remoteplay_SliderControlContainer_33TDS .remoteplay_SliderIconContainer_1sqgW, .remoteplay_SliderControlContainer_33TDS .remoteplay_SliderContainer_3MoFs {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.DialogSlider_Grabber {
+    background: var(--minimal_dark_color) !important;
+    box-shadow: 0px 0px 0px 2px rgb(0 0 0 / 40%) !important;
+}
+
+.DialogSlider_Value {
+    background: var(--minimal_dark_color) !important;
+}
+
+.remoteplay_ControllerDropSlotsContainer_22LMC .remoteplay_ControllerDropSlots_I3s3o .remoteplay_HowToHint_K3lo5 {
+    background-color: var(--minimal_dark_blacker_alt) !important;
 }
