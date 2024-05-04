@@ -58,8 +58,9 @@
 
 .DesktopUI .contextmenu_contextMenu_LQkrb, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb {
     box-shadow: 0 10px 32px 0px #000000ab;
-    background: var(--minimal_dark_black);
+	background: var(--minimal_dark_blacker) !important;
     -webkit-app-region: no-drag;
+	border-radius: 5px !important;
 }
 
 .DesktopUI .DesktopUI .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k:hover, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU {
