@@ -267,7 +267,18 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote {
 }
 
 .ds_options > div {
+    background-color: rgb(18 18 18 / 10%) !important;
+	backdrop-filter: blur(10px) !important;
+    box-shadow: 0 0 5px #000 !important;
+    border: 1px solid #525252 !important;
     border-radius: var(--minimal_dark_corner5)!important;
+	color: #fff !important;
+	background-image: url(https://store.akamai.steamstatic.com/public/shared/images/v6/moremenu.png) !important;
+}
+
+.ds_options:hover > div {
+    background-color: var(--minimal_dark_color) !important;
+	box-shadow: 0 0 5px #000 !important;
 }
 
 .tag_square {
@@ -925,8 +936,8 @@ div.store_header_btn {
     height: 353px!important;
     background-position: center center!important;
     background-size: cover!important;
-    border-top-left-radius: 5px !important;
-    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
 }
 
 .carousel_container.maincap .capsule .screenshot {
@@ -935,9 +946,7 @@ div.store_header_btn {
 
 .carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal {
     background: var(--minimal_dark_dark)!important;
-    border-radius: var(--minimal_dark_corner0)!important;
-    border-bottom-left-radius: 5px !important;
-    border-bottom-right-radius: 5px !important;
+    border-radius: var(--minimal_dark_corner5)!important;
 }
 
 .carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal:hover {
@@ -4813,8 +4822,9 @@ body.v6.winter_sale_home h2.winter {
 .hover_box {
     background: var(--minimal_dark_night)!important;
     color: var(--minimal_dark_less_white) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
+    box-shadow: inset 0 0 15px rgba(var(--minimal_dark_color_rgba),.15) !important;
 }
 
 .hover_arrow_inner {
@@ -4828,6 +4838,7 @@ body.v6.winter_sale_home h2.winter {
 
 .carousel_items.store_capsule_container > * > *:hover {
     border-bottom: 2px solid var(--minimal_dark_color) !important;
+    color: white !important;
 }
 
 .community_recommendation_app > .right_col {
@@ -6794,8 +6805,9 @@ div.ModalPosition_TopBar {
 }
 
 .home_page_content.takeunder a:hover {
-    box-shadow: 0 0 10px var(--minimal_dark_color) !important;
-	border-radius: 5px !important;
+    border-radius: 5px !important;
+    border: 2px solid var(--minimal_dark_color) !important;
+    box-shadow: none !important;
 }
 
 .home_hardware_banner img {
@@ -6908,9 +6920,22 @@ div.ModalPosition_TopBar {
     border-radius: 5px !important;
 }
 
+.store_main_capsule {
+    color: #fff !important;
+}
+
+.store_main_capsule:hover {
+    color: #fff !important;
+	box-shadow: 0 0 10px var(--minimal_dark_color) !important;
+}
+
 .carousel_container.maincap .carousel_items {
     border: 2px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
+}
+
+.carousel_container.maincap .carousel_items:hover {
+    border-bottom: 2px solid var(--minimal_dark_color) !important;
 }
 
 .carousel_container.spotlight .carousel_items > * > div {
@@ -7699,6 +7724,12 @@ body.v6 .page_content_ctn.dark {
 .steamdeck_banner_desktop, .steamdeck_banner_mobile {
     border-radius: 5px !important;
     border: 2px solid var(--minimal_dark_be_grey) !important;
+	box-shadow: none !important;
+}
+
+.steamdeck_banner_desktop:hover {
+    box-shadow: none !important;
+    border: 2px solid var(--minimal_dark_color) !important;
 }
 
 .top_new_releases_banner_ctn a {
@@ -7834,6 +7865,43 @@ label {
 ._1JFlRrkeYJegFK8xCBRfYw img {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.hover_screenshots .screenshot:nth-child(1) {
+    border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.hover_screenshots .screenshot:nth-child(2) {
+    border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.hover_screenshots .screenshot:nth-child(3) {
+    border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.hover_screenshots .screenshot:nth-child(4) {
+    border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+body.v6 .deep_dive_tag {
+    border-radius: 5px !important;
+}
+
+body.v6 .broadcast_live_stream_icon {
+    background: #f12446 !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: 16px 16px !important;
+    background-position-x: 2px !important;
+    background-position-y: 2px !important;
+    padding: 3px 6px 3px 6px !important;
+    box-shadow: none !important;
+    border-radius: 5px !important;
+    border: 1px solid #a50000 !important;
 }
 
 /* end webkit */
