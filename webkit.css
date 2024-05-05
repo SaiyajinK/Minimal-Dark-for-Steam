@@ -872,15 +872,23 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 .hover_body .hover_review_summary {
-	color:var(--minimal_dark_more_less_white)!important;
-	background-color:var(--minimal_dark_night)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    color: var(--minimal_dark_more_less_white)!important;
+    background-color: var(--minimal_dark_night)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    padding-left: 10px !important;
+    margin-top: 20px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.hover_tag_row {
+    height: 22px !important;
 }
 
 .hover_tag_row .app_tag {
-	background-color:var(--minimal_dark_night)!important;
-	color:var(--minimal_dark_more_less_white)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    background-color: var(--minimal_dark_night) !important;
+    color: var(--minimal_dark_more_less_white) !important;
+    border-radius: var(--minimal_dark_corner5) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .game_hover .hover_arrow_left,.game_hover .hover_arrow_right {
@@ -4822,11 +4830,15 @@ body.v6.winter_sale_home h2.winter {
 }
 
 .hover_box {
-    background: var(--minimal_dark_night)!important;
+    background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_less_white) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
-    box-shadow: inset 0 0 15px rgba(var(--minimal_dark_color_rgba),.15) !important;
+    box-shadow: 0 0 30px 18px black !important;
+}
+
+.hover_tag_row {
+    margin-top: 8px !important;
 }
 
 .hover_arrow_inner {
