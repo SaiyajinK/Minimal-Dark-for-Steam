@@ -720,9 +720,9 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuContents_2y2tU {
     background-position: 5px 6px !important;
     background-size: 7px !important;
     border-radius: 12px !important;
-    box-shadow: 0 0 10px #000 !important;
+    box-shadow: 0 0 5px #000 !important;
     padding: 1px !important;
-	border: 1px solid #525252 !important;
+    border: 1px solid #525252 !important;
 }
 
 .library_IsResizingLeftList_2ZP8e .library_LibraryWindowDivider_276E6 {
