@@ -298,17 +298,17 @@
 }
 
 .appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-.Panel:hover {
-    /* border: 2px solid rgba(var(--minimal_dark_color_rgba), .75) !important; */
+    border: 2px solid rgba(var(--minimal_dark_color_rgba), .75) !important;
     border: 2px solid #353535 !important;
     border-bottom: 2px solid var(--minimal_dark_color) !important;
+    filter: brightness(1) contrast(1.1) !important;
 }
 
 .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover:not(.appportrait_Landscape_3VOR2), .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg.appportrait_ShowAsHovered_2YsY_:not(.appportrait_Landscape_3VOR2) {
-    transform: rotateX(0deg) translateZ(10px);
-    filter: brightness(1.1) contrast(0.95) saturate(1);
+    transform: rotateX(0deg) translateZ(10px) !important;
+    filter: brightness(1.1) contrast(1.1) saturate(1);
     box-shadow: 0px 14px 12px 0px rgba(0,0,0,.3);
     z-index: 12;
-    /* border: 2px solid rgba(var(--minimal_dark_color_rgba), .75) !important; */
     border: 2px solid #353535 !important;
     border-radius: 5px !important;
     border-bottom: 2px solid var(--minimal_dark_color) !important;
