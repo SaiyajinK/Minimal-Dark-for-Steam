@@ -3644,8 +3644,10 @@ h2 span.note:hover {
 }
 
 .early_access_review {
-	background-color:rgba(0,0,0,0)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    background-color: rgba(0,0,0,0) !important;
+    border-radius: var(--minimal_dark_corner5) !important;
+    color: var(--minimal_dark_orange) !important;
+    border: 1px solid var(--minimal_dark_orange) !important;
 }
 
 #review_histograms_container {
