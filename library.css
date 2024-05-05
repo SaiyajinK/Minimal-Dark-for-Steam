@@ -304,8 +304,12 @@
     filter: brightness(1) contrast(1.1) !important;
 }
 
+.appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-.Panel:active {
+    filter: brightness(1.1) !important;
+}
+
 .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover:not(.appportrait_Landscape_3VOR2), .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg.appportrait_ShowAsHovered_2YsY_:not(.appportrait_Landscape_3VOR2) {
-    transform: rotateX(0deg) translateZ(10px) !important;
+    transform: rotateX(0deg) translateZ(6px) !important;
     filter: brightness(1.1) contrast(1.1) saturate(1);
     box-shadow: 0px 14px 12px 0px rgba(0,0,0,.3);
     z-index: 12;
