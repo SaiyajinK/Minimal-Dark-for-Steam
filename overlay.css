@@ -56,6 +56,10 @@
     border-radius: 2px;
 }
 
+html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb {
+    display: block !important;
+}
+
 .DesktopUI .contextmenu_contextMenu_LQkrb, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb {
     box-shadow: 0 10px 32px 0px #000000ab;
 	background: var(--minimal_dark_blacker) !important;
