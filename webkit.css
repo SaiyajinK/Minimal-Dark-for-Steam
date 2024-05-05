@@ -7772,7 +7772,7 @@ body.v6 .page_content_ctn.dark {
 
 .block {
     border-radius: 5px !important;
-    border: 1px solid !important;
+    border: 0px solid !important;
 }
 
 .block.accountInfoBlock {
