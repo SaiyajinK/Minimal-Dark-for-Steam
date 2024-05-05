@@ -7907,4 +7907,20 @@ body.v6 .broadcast_live_stream_icon {
     color: white !important;
 }
 
+._3isvN1K0OSelqFk6h2VmQq {
+    background: var(--minimal_dark_blacker) !important;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.25) !important;
+    border-radius: 0px 5px 5px 0px !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._2oYi0P4Z1jEx865YKYHrPa {
+    border-radius: 5px 0px 0px 5px !important;
+	border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
 /* end webkit */
