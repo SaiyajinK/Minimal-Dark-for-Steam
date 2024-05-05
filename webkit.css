@@ -6586,8 +6586,7 @@ a.pulldown_desktop:hover {
 }
 
 a:hover {
-    color: var(--minimal_dark_color) !important;
-    /* background: var(--minimal_dark_blacker) !important; */
+    color: white !important;
 }
 
 .queue_menu_option {
@@ -7902,6 +7901,10 @@ body.v6 .broadcast_live_stream_icon {
     box-shadow: none !important;
     border-radius: 5px !important;
     border: 1px solid #a50000 !important;
+}
+
+.broadcast_live_stream_icon:hover {
+    color: white !important;
 }
 
 /* end webkit */
