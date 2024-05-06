@@ -51,7 +51,7 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 ## `👤 Profil 👤` <br> 
 
 I defined a static color by default which will have the effect of not displaying static or video backgrounds. <br>
-If you want to remove this, open `webkit.css` and remove lines `98` to `107` <br>
+If you want to remove this, open `webkit.css` and remove lines `98` to `106` and edit line `109`<br>
 
 ![steamwebhelper_6VczGuCOtR](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/d47f9b82-95e2-4791-8864-973342abc338) <br>
 
