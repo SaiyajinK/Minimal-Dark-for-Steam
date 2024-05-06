@@ -95,7 +95,7 @@
 	outline: none !important;
 }
 
-/* background profil */
+/* background profil video/wallpaper remove static color */
 .profile_animated_background > video {
     display: none !important;
 }
@@ -104,7 +104,11 @@ div.profile_page.has_profile_background {
     background: var(--minimal_dark_blacker_alt) !important;
     background-image: none !important;
 }
-/* end background profil */
+
+.profile_animated_background {
+    background-color: var(--minimal_dark_blacker_alt) !important; /* set #000000 if you have remove the lines above */
+}
+/* end background profil video/wallpaper remove static color */
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--minimal_dark_black) !important;
@@ -1144,7 +1148,7 @@ img.member_tile {
 }
 
 .apphub_Card.interactable {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .apphub_Card.interactable:hover {
@@ -2213,6 +2217,8 @@ div#headerSearch.friend_activity_header_search {
 	white-space:nowrap!important;
 	text-overflow:ellipsis!important;
 	position:relative!important;
+	border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 }
 
 .friendBlock.persona.online {
@@ -2226,6 +2232,8 @@ div#headerSearch.friend_activity_header_search {
 	white-space:nowrap!important;
 	text-overflow:ellipsis!important;
 	position:relative!important;
+	border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 }
 
 .friendBlock.persona.offline {
@@ -2239,6 +2247,8 @@ div#headerSearch.friend_activity_header_search {
 	white-space:nowrap!important;
 	text-overflow:ellipsis!important;
 	position:relative!important;
+	border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 }
 
 .profile_content.has_profile_background {
@@ -3215,6 +3225,8 @@ body.v6 .game_area_already_owned.page_content {
 
 .game_description_column .block .block_content a {
     border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin: 0px 1px 0px 1px !important;
 }
 
 .game_description_column .block .block_content a:hover {
@@ -4733,7 +4745,8 @@ h2.pageheader {
 }
 
 .showcase_achievement a img {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .profile_leftcol_header>h2 {
@@ -4977,16 +4990,6 @@ body.v6.winter_sale_home h2.winter {
 }
 
 /* background profile */
-.profile_animated_background {
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    background-color: var(--minimal_dark_blacker_alt) !important;
-}
-
 .btn_profile_action:hover, .btn_profile_action.focus {
     background-color: var(--minimal_dark_color) !important;
     filter: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.25));
@@ -7954,6 +7957,27 @@ body.v6 .broadcast_live_stream_icon {
     border-radius: 5px !important;
 	color: var(--minimal_dark_color) !important;
     border: 2px solid var(--minimal_dark_be_grey) !important;
+}
+
+.commentthread_area {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.game_area_description {
+    line-height: 1.3em !important;
+    font-size: 12px !important;
+    margin-top: 8px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+}
+
+.sys_req {
+    margin-top: 20px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
 }
 
 /* end webkit */
