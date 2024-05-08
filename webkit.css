@@ -2080,10 +2080,8 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .profile_header_badge {
-	border-radius: 3px;
-	background-color: transparent;
-	height: 70px;
-	margin-bottom: 13px;
+	border-radius: 5px!important;
+	background-color: transparent !important;
 }
 
 .profile_header_bg {
@@ -8140,6 +8138,21 @@ body.v6 .broadcast_live_stream_icon {
 .item_desc_game_info .item_desc_game_icon > img {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.profile_customization_header {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.showcase_content_bg:last-child {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_blacker) !important;
+    margin-top: 10px !important;
+}
+
+.showcase_content_bg {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_blacker) !important;
 }
 
 /* end webkit */
