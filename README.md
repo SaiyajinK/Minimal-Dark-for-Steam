@@ -42,7 +42,8 @@ I added a js script to the skin that adds the restart and refresh UI actions. <b
 ![steamwebhelper_ZuUoU4GBwI](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/d9521d81-3a92-40b7-8486-6c3fb8b6511e) <br>
 
 
-⚠️ note: on the beta channel, this function is no longer available. There must have been changes that broke the script. I will keep an eye out for a possible update (if it is updated of course) and if so, my skin will be updated accordingly. <br>
+⚠️ note : EDIT 08/05/2024 : The beta branch has been moved to the stable channel and the script is now deprecated. <br>
+I will keep an eye out for a possible update (if it is updated of course) and if so, my skin will be updated accordingly. <br>
 
 ## `📸 Compact mode + friends 📸` <br> 
 
