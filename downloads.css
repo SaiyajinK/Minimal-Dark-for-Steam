@@ -1,54 +1,54 @@
-.downloads_ItemListScrollWrapper_Z6wLC {
+.Z6wLCsR5it0hjFblgrb6 {
     overflow: hidden;
     flex-grow: 1;
     background-color: var(--minimal_dark_blacker_alt);
 }
 
-.downloads_SectionItem_1VNuY:hover, .downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
+._1VNuYHM6BPBOJspC6zPf5r:hover, ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
     background-color: var(--minimal_dark_black);
     border-radius: 2px;
 }
 
-.downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
+._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:active, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled:active:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
     background: var(--minimal_dark_be_grey);
 }
 
-.downloads_SectionItem_1VNuY:hover, .downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
+._1VNuYHM6BPBOJspC6zPf5r:hover, ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
     background-color: var(--minimal_dark_black);
     border-radius: 5px;
 }
 
-.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
+._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI.DialogButton:enabled {
     background: var(--minimal_dark_blacker);
     border-radius: 50px !important;
 }
 
-.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5:hover.DialogButton:enabled {
+._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI:hover.DialogButton:enabled {
     background: var(--minimal_dark_red) !important;
     color: #fff;
     box-shadow: none;
 }
 
-.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5:active.DialogButton:enabled {
+._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI:active.DialogButton:enabled {
     background: var(--minimal_dark_red2) !important;
     color: #fff;
     box-shadow: inset 0px 0px 4px black;
 }
 
-.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
+._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:enabled, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:active, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:hover, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:enabled:active:hover, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC.DialogButton:enabled {
     background: var(--minimal_dark_invisblegrey) !important;
     color: #dcdedf;
 }
 
-.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover {
+._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:hover {
     background: var(--minimal_dark_invisblegrey);
 }
 
-.downloads_Active_IbePL .downloads_SectionList_OINnO {
+.IbePLaw-vSvhG1GTenYFg .OINnOU8K5HzPe2nzczpZi {
     border-bottom: 1px solid var(--minimal_dark_browser_overlay_close) !important;
 }
 
-.downloads_SectionItem_1VNuY:hover .downloads_Button_3oavR.DialogButton:enabled {
+._1VNuYHM6BPBOJspC6zPf5r:hover ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
     background: transparent !important;
 	fill: var(--minimal_dar_color) !important;
 }
@@ -57,15 +57,15 @@ button.DialogButton::before {
 	box-shadow: none !important;
 }
 
-.downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
+._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
     background: transparent !important;
 }
 
-.downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled:hover, .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled:focus {
+._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled:hover, ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled:focus {
     background: none !important;
     color: var(--minimal_dark_color) !important;
 }
 
-.downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled.downloads_RemoveFromQueue_2xR-V:hover {
+._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled._2xR-V97DWI7svSjgiCb3N-:hover {
     color: var(--minimal_dark_redsettings) !important;
 }
