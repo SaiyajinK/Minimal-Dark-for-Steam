@@ -34,16 +34,15 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 🗣️ Dev response : Millennium will be updated soon to resolve this issue to only update files changed during a skin update.
 
-## `🔄 Reboot/recharge menu 🔄` <br> 
+## `🔄 Reboot/recharge menu (outdated for now) 🔄` <br> 
 
 I added a js script to the skin that adds the restart and refresh UI actions. <br>
 `Script has shared on the unofficial metro discord` <br>
 
-![steamwebhelper_ZuUoU4GBwI](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/d9521d81-3a92-40b7-8486-6c3fb8b6511e) <br>
-
-
-⚠️ note : EDIT 08/05/2024 : The beta branch has been moved to the stable channel and the script is now deprecated. <br>
+⚠️ EDIT 08/05/2024 : The beta branch has been moved to the stable channel and the script is now deprecated. <br>
 I will keep an eye out for a possible update (if it is updated of course) and if so, my skin will be updated accordingly. <br>
+
+![steamwebhelper_ZuUoU4GBwI](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/d9521d81-3a92-40b7-8486-6c3fb8b6511e) <br>
 
 ## `📸 Compact mode + friends 📸` <br> 
 
