@@ -2402,18 +2402,21 @@ div#headerSearch.friend_activity_header_search {
 
 .friends_nav a.active {
 	background-color:var(--minimal_dark_night_alt)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .friends_nav a:hover {
     background-color: var(--minimal_dark_blacker)!important;
-    border-radius: var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
     color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .friends_nav a {
-	margin-bottom:2px!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    margin-bottom: 2px!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey)!important;
+	margin-bottom: 5px !important;
 }
 
 .group_block {
@@ -2442,11 +2445,11 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .player_avatar {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .player_avatar img {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .friend_block_link_overlay {
@@ -5036,12 +5039,14 @@ body.v6.winter_sale_home h2.winter {
 .profile_friends .friend_block_v2 {
 	width:280px!important;
 	background:var(--minimal_dark_night_alt)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
+	border: 1px solid var(--minimal_dark_blacker)!important;
 }
 
 .profile_friends .friend_block_v2:hover {
 	background:var(--minimal_dark_blacker)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
+	border: 1px solid var(--minimal_dark_be_grey)!important;
 }
 
 .friend_block_v2 .player_avatar {
@@ -8153,6 +8158,29 @@ body.v6 .broadcast_live_stream_icon {
 .showcase_content_bg {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_blacker) !important;
+}
+
+.profile_friends.manage_link {
+    margin-right: 12px !important;
+}
+
+.profile_friends.manage_link {
+    margin-right: 12px !important;
+}
+
+.profile_friends.title_bar, .profile_groups.title_bar {
+    background-color: transparent !important;
+}
+
+.friends_search_text_box, .groups_search_text_box {
+    border-radius: 5px !important;
+    padding: 0 0 0 15px !important;
+}
+
+.manage_friends_panel {
+    border-radius: 5px !important;
+	box-shadow: 0 0 0 1px var(--minimal_dark_color) inset !important;
+	background: rgba(var(--minimal_dark_color_rgba),.1) !important;
 }
 
 /* end webkit */
