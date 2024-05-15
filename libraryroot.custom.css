@@ -628,11 +628,13 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer {
     background: var(--minimal_dark_be_grey) !important;
     color: var(--minimal_dark_less_white);
+	border-radius: 5px !important;
 }
 
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:hover {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_less_white);
+	border-radius: 5px !important;
 }
 
 .bSKGlAJG2UVWTsntEJY2v .GG9wVQz6PLlhGHlJyZh4E {
