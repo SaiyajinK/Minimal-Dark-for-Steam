@@ -434,8 +434,28 @@ body.v6 .page_content.browse_reviews {
 }
 
 .forum_topic_tooltip {
-	background-color:var(--minimal_dark_smallgrey)!important;
-	border:1px solid var(--minimal_dark_greyblack)!important;
+    background-color: var(--minimal_dark_blacker)!important;
+    border: 1px solid var(--minimal_dark_be_grey)!important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 40px #000000 !important;
+}
+
+.topic_hover_row span.topic_hover_data {
+    color: var(--minimal_dark_color) !important;
+}
+
+.forum_topic_icon {
+    padding: 12px 12px 11px 6px !important;
+    filter: grayscale(1) !important;
+}
+
+.forum_paging_pagelink.active, .forum_paging_controls .commentthread_pagelink.active {
+    color: var(--minimal_dark_color) !important;
+    font-size: 18px !important;
+}
+
+.forum_topic_lastpost {
+    color: var(--minimal_dark_installed_games) !important;
 }
 
 .apphub_Card.interactable:hover .apphub_CardContentDiscussionType {
@@ -1643,14 +1663,20 @@ body.v6 div#global_header .content {
 	background:var(--minimal_dark_night_alt1)!important;
 }
 
-.apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,.apphub_sectionTab.active>span {
-	border-radius:var(--minimal_dark_corner0)!important;
-	background:var(--minimal_dark_dark)!important;
-	color:var(--minimal_dark_white)!important;
+.apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner, .apphub_sectionTab.active>span {
+    border-radius: var(--minimal_dark_corner5)!important;
+    background: transparent !important;
+    color: var(--minimal_dark_color)!important;
+    border: 0px solid var(--minimal_dark_color) !important;
 }
 
 .apphub_responsive_tab .responsive_tab_control,.apphub_sectionTab.active,.apphub_sectionTab.active:hover {
 	background:0 0!important;
+}
+
+.apphub_sectionTab, a.apphub_sectionTab, .apphub_responsive_tab .responsive_tab_control {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .apphub_sectionTabsHR {
@@ -1658,7 +1684,10 @@ body.v6 div#global_header .content {
 }
 
 .apphub_sectionTab:hover {
-	background:0 0!important;
+    background: var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
 }
 
 .btn_darkblue_white_innerfade>span {
@@ -1962,10 +1991,16 @@ a.recent_game_discussion.quasi_official_group:hover {
 .forum_paging {
 	background:var(--minimal_dark_night_alt1)!important;
 	border-radius:var(--minimal_dark_corner0)!important;
+	color: var(--minimal_dark_installed_games)!important;
+}
+
+.forum_topic_award_count img {
+    filter: sepia(1) contrast(1.25) !important;
 }
 
 .forum_topic {
 	background-color:var(--minimal_dark_dark)!important;
+	height: 49px !important;
 }
 
 .blotter_appselect_activeoption {
@@ -2038,26 +2073,23 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .forumtopic_comments .commentthread_comment {
-	background-color:var(--minimal_dark_night_alt1)!important;
-	color:var(--minimal_dark_lightgrey)!important;
-	margin-bottom:2px!important;
-	padding:12px 8px 20px 60px!important;
-	border:1px solid var(--minimal_dark_night_alt1)!important;
-	overflow:hidden!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    background-color: var(--minimal_dark_blacker)!important;
+    color: var(--minimal_dark_lightgrey)!important;
+    padding: 11px 8px 20px 60px!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    box-shadow: 0 0 0px #000 !important;
+    margin-bottom: 10px !important;
 }
 
 .forum_op {
-	position:relative!important;
-	padding:7px 12px 21px 63px!important;
-	margin-bottom:8px!important;
-	max-width:565px!important;
-	background-color:var(--minimal_dark_night_alt1)!important;
-	background-image:none!important;
-	background-repeat:no-repeat!important;
-	background-position:top left!important;
-	border:0!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    box-shadow: 0 0 5px #000 !important;
+    border-radius: 5px !important;
+}
+
+.forumtopic_comments .commentthread_comment_container {
+    margin-left: -12px !important;
 }
 
 .blotter_block {
@@ -2800,7 +2832,7 @@ body.v6 .wishlist_header h2 {
 .btn_medium>span, input.btn_medium {
     padding: 0 15px !important;
     border-radius: 5px !important;
-    background: var(--minimal_dark_black) !important;
+    background: var(--minimal_dark_blacker) !important;
 }
 
 .btn_grey_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
@@ -3913,15 +3945,22 @@ div.early_access_announcements .post .more:hover {
 }
 
 .forum_topic_overlay {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .forum_topic_overlay:hover {
-	background:var(--minimal_dark_night_alt)63!important;
+    background: transparent !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.forum_topic_op {
+    color: var(--minimal_dark_color) !important;
 }
 
 .forum_topic {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
+	margin-bottom: 5px !important;
 }
 
 .btn_blue_white_innerfade {
@@ -3959,6 +3998,11 @@ div.early_access_announcements .post .more:hover {
 	padding:1px!important;
 	background-color:transparent!important;
 	border-radius:var(--minimal_dark_corner0)!important;
+}
+
+.notice_box_content {
+    border: 1px solid #a25024 !important;
+    border-radius: 5px !important;
 }
 
 .notice_box_content_blue_box {
@@ -4972,12 +5016,9 @@ body.v6.winter_sale_home h2.winter {
 }
 
 .newmodal {
-	background:var(--minimal_dark_night_alt)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	border-width:0px!important;
-	border-style:solid!important;
-	border-color:transparent!important;
-	border-image:initial!important;
+    background: var(--minimal_dark_night_alt) !important;
+    border-radius: var(--minimal_dark_corner5) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 }
 
 .newmodal_background {
@@ -8181,6 +8222,27 @@ body.v6 .broadcast_live_stream_icon {
     border-radius: 5px !important;
 	box-shadow: 0 0 0 1px var(--minimal_dark_color) inset !important;
 	background: rgba(var(--minimal_dark_color_rgba),.1) !important;
+}
+
+#add_to_wishlist_area_success .wishlist_added_temp_notice {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_game) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+#add_to_wishlist_area_success .wishlist_added_temp_notice:after {
+    bottom: 104% !important;
+}
+
+.cookiepreferences_popup_content {
+    background: #121212a1 !important;
+    border-left: 1px solid var(--minimal_dark_color) !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    backdrop-filter: blur(25px) !important;
 }
 
 /* end webkit */
