@@ -218,7 +218,7 @@
     padding: 0px 1px 0px 0px !important;
     box-shadow: 1px 8px 32px 1px #0009 !important;
     border: .5px solid #6e6e6e;
-    border-radius: 0;
+    border-radius: 5px !important;
     background: var(--minimal_dark_black) !important;
     color: #fff;
     border-left: 1px solid #ced0da;
