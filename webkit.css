@@ -519,12 +519,6 @@ body.recommendgame #review_create {
 	padding:16px!important;
 }
 
-#review_create .input_box {
-	border:1px solid var(--minimal_dark_blacker)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	background-color:#222b3500!important;
-}
-
 #footerText {
 	padding-bottom:26px!important;
 }
@@ -3186,13 +3180,10 @@ img.game_header_image_full {
     margin-left: -5px!important;
 }
 
-body.v6 .game_area_already_owned.page_content {
-    border-radius: var(--minimal_dark_corner5) !important;
-}
-
 .game_area_play_stats {
     border-radius: var(--minimal_dark_corner5)!important;
-    background: var(--minimal_dark_black);
+    background: var(--minimal_dark_blacker) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 #recommendation_success .review_box .thumb {
@@ -3287,17 +3278,21 @@ body.v6 .game_area_already_owned.page_content {
 }
 
 #review_create .avatar>img {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
 }
 
 #review_create .avatar {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+}
+
+.playerAvatar.online, .friend_block_holder.friend_status_online .friend_block_avatar, .friend_activity.friend_status_online .friend_block_avatar, .appHubIconHolder.online, .avatar_block_status_online {
+    background: var(--minimal_dark_be_grey) !important;
 }
 
 #review_create .input_box {
-	border:0!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	background-color:var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
 .review_controls {
@@ -3637,11 +3632,6 @@ body.v6 #footer .rule {
 
 .sale_page_purchase_content .bundle_contents_preview {
 	border-radius:var(--minimal_dark_corner0)!important;
-}
-
-.ds_flag.ds_owned_flag {
-    border-radius: var(--minimal_dark_corner5)!important;
-    color: var(--minimal_dark_browser_overlay_close);
 }
 
 .ds_flag.ds_wishlist_flag {
@@ -5682,12 +5672,19 @@ body.v6 .game_page_background {
 }
 
 .dropcontainer ul {
-    background: var(--minimal_dark_black);
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+#review_create .content .controls .dselect_container a.trigger:hover, #review_create .content .controls .dselect_container a.activetrigger, #review_create .content .controls .dselect_container a.activetrigger:hover {
+    border-radius: 5px !important;
 }
 
 .dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {
-    color: #ffffff;
-    background: var(--minimal_dark_greyblack1);
+    color: var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_be_grey) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 #security_code_cached, #security_code_cached:focus {
@@ -6128,20 +6125,16 @@ a.gutter_item:hover {
 body.v6 .game_area_already_owned.page_content {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_progress_bar) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-bottom: 10px !important;
 }
 
 .ds_flag.ds_owned_flag {
     background: var(--minimal_dark_blacker) !important;
-}
-
-.ds_flag.ds_owned_flag {
-    background: #19191961 !important;
     backdrop-filter: blur(30px);
-}
-
-.ds_flag.ds_owned_flag {
-    background: none;
-    padding-left: 4px;
+	border-radius: var(--minimal_dark_corner5)!important;
+    color: var(--minimal_dark_browser_overlay_close);
+	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 #home_gutter_recentlyviewed {
