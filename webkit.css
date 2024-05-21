@@ -596,7 +596,7 @@ body.v6.infinite_scrolling #footer.small_footer {
 }
 
 body.v6 #footer {
-	background:var(--minimal_dark_night_alt1)!important;
+	background: transparent !important;
 }
 
 .curator_buttons_ctn {
@@ -604,7 +604,7 @@ body.v6 #footer {
 }
 
 body.flat_page #footer {
-    background: var(--minimal_dark_blacker_alt)!important;
+    background: transparent !important;
 }
 
 div#global_header {
@@ -917,7 +917,9 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 .ds_options_tooltip {
-	background:var(--minimal_dark_night)!important;
+    background: var(--minimal_dark_night)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
 
 .ds_options_tooltip > .option:hover {
@@ -1168,7 +1170,18 @@ img.member_tile {
 }
 
 .apphub_Card.interactable:hover {
-	border:1px solid transparent!important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.apphub_CardAnnouncementBG {
+    width: 8px !important;
+    height: 8px !important;
+    top: 6px !important;
+    left: 7px !important;
+    background-image: none !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    background-color: var(--minimal_dark_color) !important;
 }
 
 .apphub_Card.interactable:hover .apphub_CardContentAuthorBlock {
@@ -1180,16 +1193,13 @@ img.member_tile {
 }
 
 .appHubNewsIconHolder {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .community_home_search_box {
 	border:0!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-}
-
-.community_home_shortcut_content {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius:var(--minimal_dark_corner5)!important;
 }
 
 .community_home_app_shortcuts {
@@ -1198,7 +1208,8 @@ img.member_tile {
 }
 
 .community_home_app_shortcuts .community_home_shortcut_content {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .apphub_CardContentType {
@@ -1642,19 +1653,21 @@ body.v6 div#global_header .content {
 }
 
 .community_home_search_apps {
-	border-radius:var(--minimal_dark_corner0)!important;
-	background-color:var(--minimal_dark_dark)!important;
-	border:0!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    box-shadow: 1px 1px 0 var(--minimal_dark_color) !important;
+	background-color: var(--minimal_dark_blacker) !important;
 }
 
 .community_home_search_players {
-	border-radius:var(--minimal_dark_corner0)!important;
-	border:0!important;
-	background-color:var(--minimal_dark_dark)!important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    box-shadow: 1px 1px 0 var(--minimal_dark_color) !important;
 }
 
 .community_home_shortcut_content {
-	background:var(--minimal_dark_night_alt1)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner, .apphub_sectionTab.active>span {
@@ -1727,7 +1740,7 @@ body.v6 div#global_header .content {
 }
 
 .apphub_background {
-	background:var(--minimal_dark_night_alt)!important;
+    background: var(--minimal_dark_blacker_alt)!important;
 }
 
 .popup_block .popup_body {
@@ -1746,7 +1759,12 @@ div#game_select_suggestions_ctn {
 }
 
 .apphub_Card {
-	background-color:var(--minimal_dark_night_alt1)!important;
+	background-color:var(--minimal_dark_blacker_alt)!important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.apphub_HubDivider {
+    display: none !important;
 }
 
 .apphub_CardContentNewsFade {
@@ -1755,7 +1773,7 @@ div#game_select_suggestions_ctn {
 }
 
 .apphub_CardContentMain .UserReviewCardContent_Footer .gradient {
-	background:linear-gradient(to bottom,var(--minimal_dark_night_alt1)00,var(--minimal_dark_night_alt1))!important;
+    background: linear-gradient(to bottom,var(--minimal_dark_night_alt1))!important;
 }
 
 .apphub_CardContentGuideTitle {
@@ -1902,13 +1920,19 @@ body.flat_page:not(.iframe) {
 }
 
 .apphub_BackToTopButton {
-	background-image:none!important;
-	background-color:var(--minimal_dark_color)!important;
-	color:var(--minimal_dark_white)!important;
+    background-image: none !important;
+    background-color: var(--minimal_dark_color)!important;
+    color: var(--minimal_dark_white)!important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
 }
 
-.apphub_BackToTop:hover .apphub_BackToTopButton {
-	background-image:none!important;
+.apphub_BackToTop:hover {
+	background-image: none !important;
+}
+
+.apphub_BackToTopButton.rightcap, .apphub_BackToTopButton.leftcap {
+    display: none !important;
 }
 
 .group_content.bottomless {
@@ -2081,6 +2105,8 @@ div#headerSearch.friend_activity_header_search {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     box-shadow: 0 0 5px #000 !important;
     border-radius: 5px !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    background-image: none !important;
 }
 
 .forumtopic_comments .commentthread_comment_container {
@@ -4322,6 +4348,7 @@ img#blotter_nofriends_block {
 
 #footer {
 	border-radius:var(--minimal_dark_corner0)!important;
+	background-color: transparent !important;
 }
 
 #friendactivity_right_column .box {
@@ -8173,10 +8200,10 @@ body.v6 .broadcast_live_stream_icon {
 }
 
 .store_tooltip {
-	background: var(--minimal_dark_blacker) !important;
+    background: var(--minimal_dark_blacker) !important;
     border-radius: 5px !important;
-	color: var(--minimal_dark_color) !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .commentthread_area {
@@ -8262,6 +8289,179 @@ body.v6 .broadcast_live_stream_icon {
     border-right: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
     backdrop-filter: blur(25px) !important;
+}
+
+.apphub_SectionFilter {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+div.filterselect {
+    color: white !important;
+    background: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+}
+
+div.filterselect:hover {
+    color: white !important;
+    background: var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+div.filterselect_options {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+	box-shadow: 0px 0px 15px 6px black !important;
+}
+
+div.filterselect_options div.option:hover {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_color) !important;
+	border-radius: 5px !important;
+}
+
+.apphub_SectionFilterLabel {
+    color: var(--minimal_dark_color) !important;
+}
+
+.apphub_MostPopularLink {
+    color: var(--minimal_dark_color) !important;
+}
+
+.apphub_CardContentPreviewImage {
+    border-radius: 5px !important;
+}
+
+.apphub_Card.interactable:hover .apphub_CardContentType {
+    backdrop-filter: blur(10px) !important;
+    background: #12121261 !important;
+}
+
+.apphub_Guides .subtitle_ctn {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    margin-top: 0px !important;
+}
+
+.guide_home_category_selection {
+    background: -webkit-linear-gradient( top, #17435c 5%, #21658a 95%);
+    background: rgba(var(--minimal_dark_color_rgba),.2) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+img.guide_category_icon {
+    border-radius: 5px !important;
+}
+
+.searchTextContainer {
+    background-image: none !important;
+}
+
+.searchText.defaultText {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    padding: 2px 0px 2px 10px !important;
+    top: 10px !important;
+    left: -1px !important;
+}
+
+input.searchText {
+    top: 12px !important;
+    left: 0px !important;
+    background-color: transparent !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    padding: 2px 0px 2px 10px !important;
+}
+
+#ig_bottom .sidebar .detailPanel, #ig_bottom .sidebar .panel {
+    background: var(--minimal_dark_dark)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.apphub_ContentGuides .workshopItemCollection {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    margin-bottom: 10px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.apphub_ContentGuides .workshopItemCollection:hover {
+    background-color: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.searchedForTerm {
+    padding: 6px !important;
+    background-color: var(--minimal_dark_dark) !important;
+    border: 1px solid var(--minimal_dark_greensettings) !important;
+    border-radius: 5px !important;
+    color: var(--minimal_dark_browser_overlay_close) !important;
+	margin-right: 6px !important;
+}
+
+.apphub_StoreInfoHeader {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    margin-top: 8px !important;
+}
+
+.apphub_HeaderBottom {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.apphub_StorePrice {
+    border-radius: 5px !important;
+}
+
+.searchedForTerm:hover {
+    background-color: var(--minimal_dark_progress_bar) !important;
+    color: black !important;
+    border: 1px solid var(--minimal_dark_blacker) !important;
+    margin-right: 6px !important;
+}
+
+.browseOption.notSelected:hover, .browseOption.notSelected.gpfocus {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.browseOption.notSelected:hover a, .browseOption.notSelected.gpfocus a {
+    color: var(--minimal_dark_color) !important;
+}
+
+.filterOption:hover {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.filterOption.checked {
+    background: rgba(var(--minimal_dark_color_rgba),.2) !important;
+}
+
+.workshopItemCollection .workshopItemShortDesc {
+    color: var(--minimal_dark_color) !important;
+}
+
+.workshopItemCollection .workshopItemAuthorLine {
+    color: var(--minimal_dark_color) !important;
+}
+
+.workshopItemCollection .workshopItemAuthorName {
+    color: var(--minimal_dark_more_less_white) !important;
+}
+
+.responsive_tab_ctn.sharedfiles_responsive_tab .responsive_tab_control {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.responsive_tab_control select option {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 /* end webkit */
