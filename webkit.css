@@ -3277,7 +3277,10 @@ img.game_header_image_full {
 }
 
 .ds_flag.ds_completetheset {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	color: var(--minimal_dark_dark) !important;
+    font-weight: 700 !important;
 }
 
 .game_description_column h2,.recommendation_bodytext h2 {
