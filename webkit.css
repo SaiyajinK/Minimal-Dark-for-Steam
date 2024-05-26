@@ -1939,10 +1939,6 @@ body.flat_page:not(.iframe) {
     display: none !important;
 }
 
-.group_content.bottomless {
-	background:0 0!important;
-}
-
 .discussionSearchTextContainer {
 	background-image:none!important;
 	border-radius:var(--minimal_dark_corner5)!important;
@@ -1971,23 +1967,52 @@ input.discussionSearchText {
 }
 
 a.recent_game_discussion {
-	border-radius:var(--minimal_dark_corner0)!important;
-	background-color:var(--minimal_dark_dark)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    background-color: var(--minimal_dark_dark)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-right: 18px !important;
 }
 
 a.recent_game_discussion:hover {
-	border-radius:var(--minimal_dark_corner0)!important;
-	background-color:var(--minimal_dark_night_alt)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    background-color: var(--minimal_dark_night_alt)!important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.discussions_game_header {
+    height: 45px;
+    line-height: 45px;
+    padding: 11px 9px;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    margin-bottom: 4px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.discussions_game_footer {
+    height: 28px;
+    line-height: 28px;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    padding: 0px 10px;
+    font-size: 11px;
+    color: #e1e1e1;
+    text-align: right;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .discussions_forum_row {
-	border-radius:var(--minimal_dark_corner0)!important;
-	background-color:var(--minimal_dark_dark)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    background-color: var(--minimal_dark_dark)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+	margin-bottom: 5px !important;
 }
 
 .discussions_forum_row:hover {
-	border-radius:var(--minimal_dark_corner0)!important;
-	background-color:var(--minimal_dark_night_alt)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    background-color: var(--minimal_dark_black)!important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .discussion_tab_content_rule {
@@ -3942,10 +3967,11 @@ div.early_access_announcements .post .more:hover {
 }
 
 .group_content.bottomless {
-	background:var(--minimal_dark_be_grey)!important;
-	margin-bottom:50px!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	padding-left:7px!important;
+    background: var(--minimal_dark_blacker)!important;
+    margin-bottom: 50px!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    padding-left: 7px!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .commentthread_entry {
@@ -4045,15 +4071,17 @@ div.early_access_announcements .post .more:hover {
 }
 
 .group_tab {
-	background:0 0!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	-moz-border-radius:var(--minimal_dark_corner0)!important;
+    background: 0 0!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    -moz-border-radius: var(--minimal_dark_corner0)!important;
+    border: 1px solid var(--minimal_dark_be_grey)!important;
 }
 
-a.group_tab:hover {
-	background:var(--minimal_dark_blue)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-}
+/* a.group_tab:hover { */
+    /* background: var(--minimal_dark_black)!important; */
+    /* border-radius: var(--minimal_dark_corner5)!important; */
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
+/* } */
 
 .group_tab.active {
 	height:35px!important;
@@ -4062,9 +4090,10 @@ a.group_tab:hover {
 }
 
 .group_tab.active>span {
-	height:35px!important;
-	background:rgba(102,192,244,.8)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    height: 35px!important;
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .rightbox {
@@ -8480,6 +8509,11 @@ input.searchText {
 
 img.communitylink_achievement {
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.discussions_forumlist_linkoverlay img {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
 
 /* end webkit */
