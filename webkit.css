@@ -6171,6 +6171,7 @@ body.v6 .game_area_already_owned.page_content {
     color: var(--minimal_dark_progress_bar) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     margin-bottom: 10px !important;
+    border-radius: 5px !important;
 }
 
 .ds_flag.ds_owned_flag {
