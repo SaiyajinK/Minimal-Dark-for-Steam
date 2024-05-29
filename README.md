@@ -9,7 +9,7 @@ Be understandable if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-![avril24](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/56ca7d23-e49d-45cf-9551-7c4f2de251c2) <br>
+![steamwebhelper_uDZMjEsp8R](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/fd8c6410-6a9d-4f43-8c8e-c6192e45b3c5) <br>
 
 
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
@@ -33,16 +33,6 @@ Why ? : This is because Millennium, during an update reloads the entire Github d
 I passed the information on to the dev, I'm waiting for his return (the problem does not occur with SFP).<br>
 
 🗣️ Dev response : Millennium will be updated soon to resolve this issue to only update files changed during a skin update.
-
-## `🔄 Reboot/recharge menu (outdated for now) 🔄` <br> 
-
-I added a js script to the skin that adds the restart and refresh UI actions. <br>
-`Script has shared on the unofficial metro discord` <br>
-
-⚠️ EDIT 08/05/2024 : The beta branch has been moved to the stable channel and the script is now deprecated. <br>
-I will keep an eye out for a possible update (if it is updated of course) and if so, my skin will be updated accordingly. <br>
-
-![steamwebhelper_ZuUoU4GBwI](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/d9521d81-3a92-40b7-8486-6c3fb8b6511e) <br>
 
 ## `📸 Compact mode + friends 📸` <br> 
 
