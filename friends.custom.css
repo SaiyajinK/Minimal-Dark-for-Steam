@@ -259,7 +259,8 @@
 }
 
 .friendsListSectionTitle.chatSectionTitle:hover {
-    background-color: var(--minimal_dark_blacker);
+    background-color: var(--minimal_dark_blacker) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
 .titleBarContainer.ChatTabs {
@@ -414,18 +415,9 @@
 }
 
 .chatFileUploadPreviewContainer {
-    position: absolute;
-    bottom: 72px;
-    left: 16px;
-    min-width: 260px;
-    background: var(--minimal_dark_black);
-    padding: 8px;
-    border-radius: 4px;
-    box-shadow: 0 10px 32px 0px #000000ab;
-    margin-bottom: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .messages_MsgWithAddons_32Uri:hover {
@@ -1159,4 +1151,66 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 ._22LMC4oK3LB708upCdiF7L .I3s3okfGPF7NnDguZz-by .K3lo5ez7fmmWgDQ1yQP4B {
     background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.chatFileUploadProgressContainer {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+	box-shadow: none !important;
+}
+
+button.DialogButton.Primary {
+    background: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.BBCodeAlreadyCollapsedText {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.BBCodeAlreadyCollapsed.Minimized:hover .BBCodeAlreadyCollapsedText, .BBCodeResizableComponent.Minimized:hover .BBCodeCollapsed {
+    background-color: var(--minimal_dark_be_grey) !important;
+    color: #fff;
+}
+
+.friendsui-container .statusHeaderGlow {
+	opacity:.6 !important;
+}
+
+.friendsui-container [class*=ingame] .statusHeaderGlow stop:first-child {
+    stop-color: #9aff23 !important;
+    stop-opacity: .6 !important;
+}
+
+.friendsui-container [class*=ingame] .statusHeaderGlow stop:last-child {
+	stop-color: #9aff23 !important;
+}
+
+.friendsui-container [class*=online] .statusHeaderGlow stop:first-child {
+	stop-color: #6dcff6 !important;
+	stop-opacity: .6 !important;
+}
+
+.friendsui-container [class*=online] .statusHeaderGlow stop:last-child {
+	stop-color: #6dcff6 !important;
+}
+
+.friendsui-container [class*=offline] .statusHeaderGlow stop:first-child {
+	stop-color: #a0a0a0 !important;
+	stop-opacity: .6 !important;
+}
+
+.friendsui-container [class*=offline] .statusHeaderGlow stop:last-child {
+	stop-color: #a0a0a0 !important;
+}
+
+.friendsui-container [class*=away] .statusHeaderGlow stop:first-child {
+	stop-color: orange !important;
+	stop-opacity:.6 !important;
+}
+
+.friendsui-container [class*=away] .statusHeaderGlow stop:last-child {
+	stop-color: orange !important;
 }
