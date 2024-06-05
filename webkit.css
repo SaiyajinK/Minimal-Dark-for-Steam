@@ -2628,7 +2628,8 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 }
 
 .profile_group_avatar img {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .search_results_none {
@@ -2993,8 +2994,10 @@ a.activetrigger,a.trigger {
 
 .achievement_progress_bar_ctn {
     padding: 0!important;
-    border: 0!important;
     border-radius: var(--minimal_dark_corner5) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    box-shadow: none !important;
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .game_info_achievement, .game_info_achievement img {
@@ -3078,10 +3081,10 @@ a.activetrigger,a.trigger {
 }
 
 .profile_comment_area .commentthread_entry_quotebox {
-	border-bottom:0!important;
-	border:0!important;
-	background-color:var(--minimal_dark_lite_grey)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-bottom: 0!important;
+    border: 0!important;
+    background-color: var(--minimal_dark_lite_grey)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
 }
 
 .commentthread_entry_quotebox {
@@ -5050,6 +5053,7 @@ h2.pageheader {
 
 .recent_game .game_info .game_info_cap img {
     border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .favoritegame_showcase .game_info_stats,.recent_game .game_info_stats {
@@ -7607,7 +7611,7 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 
 .achievement_progress_bar_ctn .progress_bar {
     border-radius: 5px !important;
-    background: linear-gradient(0deg, rgba(var(--minimal_dark_color_rgba),.3) 0%, var(--minimal_dark_color) 80%) !important;
+    background: linear-gradient(88deg, rgba(var(--minimal_dark_color_rgba),.3) 0%, var(--minimal_dark_color) 80%) !important;
 }
 
 .blotter_appselect {
@@ -8556,6 +8560,10 @@ img.communitylink_achievement {
 
 ._1BxZDLT8KveuJzn-1q4NTP .OS07NfYlp6v-Eh5oQ7dwn {
     color: rgba(var(--minimal_dark_color_rgba),.6) !important;
+}
+
+.profile_flag {
+    border-radius: 5px !important;
 }
 
 /* end webkit */
