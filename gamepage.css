@@ -268,7 +268,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.Q7tULXy1gQNG1eU--hN27:hover {
 ._1HZy7BvOZuPT8feUwadL4W:hover {
     background: var(--minimal_dark_invisblegrey) !important;
     border-radius: 5px !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid rgba(var(--minimal_dark_color_rgba),.4) !important;
 }
 
 ._3QRf-tp5VddAF00vWY5Gn8:hover {
@@ -977,15 +977,6 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 }
 
 ._1wJJQwnV-ssGrL0xveFujy:hover {
-    padding: 12px 12px 12px 12px;
-    min-width: 50%;
-    display: flex;
-    border: 1px solid var(--minimal_dark_invisblegrey) !important;
     border-radius: 5px !important;
-	border: 1px solid var(--minimal_dark_color) !important;
-}
-
-._2bF7XkQZA1M7jTj6txLFp- .HAvWsE0-ycDj77SdyLXE- {
-    border-radius: 5px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+	border: 1px solid rgba(var(--minimal_dark_color_rgba),.4) !important;
 }
