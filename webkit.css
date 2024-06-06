@@ -8632,4 +8632,9 @@ img.communitylink_achievement {
     border-radius: 5px !important;
 }
 
+.search_results_filtered_warning > div {
+    background-color: transparent !important;
+    color: var(--minimal_dark_orange) !important;
+}
+
 /* end webkit */
