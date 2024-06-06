@@ -172,22 +172,18 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 .aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-._1W4bbifjEN3KdqKEhpmies {
-    background-color: var(--minimal_dark_blacker_alt);
-    border: 1px solid #3d4450;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid #3d4450 !important;
     border-left: 2px solid green !important;
     border-top: 1px solid green !important;
-    border-left: 0px;
+    border-radius: 5px !important;
 }
 
 .aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8- {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 8px;
     background-color: var(--minimal_dark_blacker_alt);
-    border: 1px solid #23262e;
-    border-left: 0px;
-    cursor: pointer;
+    border: 1px solid #23262e !important;
+    border-radius: 5px !important;
+    margin-left: 5px !important;
 }
 
 ._26Gmfe09NRsnF7eprTZYdY {
