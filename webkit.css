@@ -1573,9 +1573,9 @@ body.v6.newonsteam .newonsteam_headercaps>a {
 }
 
 #term {
-	background-color:var(--minimal_dark_greyblack)!important;
-	border-radius:var(--minimal_dark_corner0)!important;
-	border:1px solid rgba(30,30,31,.52)!important;
+    background-color: var(--minimal_dark_greyblack)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid rgba(30,30,31,.52)!important;
 }
 
 .searchbar_left>button {
@@ -3777,7 +3777,7 @@ h2 span.note:hover {
 #review_histograms_container {
     border-top-left-radius: var(--minimal_dark_corner5)!important;
     border-top-right-radius: var(--minimal_dark_corner5)!important;
-    background-color: var(--minimal_dark_blacker);
+    background-color: var(--minimal_dark_blacker) !important;
     position: relative;
     box-shadow: none !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
@@ -5004,6 +5004,39 @@ h2.pageheader {
 
 .newsrightcol .block .block_header {
 	padding:5px 10px!important;
+}
+
+.block .block_header {
+    border-radius: 5px !important;
+}
+
+.block_content {
+    border-radius: 5px !important;
+}
+
+.search_result_row:hover {
+    border: 1px solid rgba( 139, 185, 224, 0.2 );
+    background: rgba( 0, 0, 0, 0.4 );
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.search_result_row .col.search_released {
+    color: var(--minimal_dark_installed_games) !important;
+}
+
+.search_review_summary.positive {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.search_review_summary.mixed {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.search_review_summary.negative {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .block a.linkbar {
@@ -7126,6 +7159,12 @@ div.ModalPosition_TopBar {
 
 .tab_filter_control.checked, .tab_filter_control_row:not(.disabled).checked {
     background: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+.tab_filter_control:hover, .tab_filter_control_row:not(.disabled):hover {
+    border-radius: 5px !important;
 }
 
 .tab_filter_control, .range_display {
@@ -7138,6 +7177,18 @@ div.ModalPosition_TopBar {
 
 .searchtag {
     color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.searchbar {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.search_result_row {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
 
 .game_description_snippet {
