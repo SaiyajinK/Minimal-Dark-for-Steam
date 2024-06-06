@@ -152,13 +152,6 @@
     background: #58333300;
 }
 
-._1HZy7BvOZuPT8feUwadL4W {
-    background: transparent;
-    transition-property: background;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-}
-
 ._3QRf-tp5VddAF00vWY5Gn8 {
     font-size: 13px;
     border-image-width: 1px;
@@ -215,7 +208,15 @@ a._1Z3B4iGT48X6pYKxjbVdBO:hover {
 }
 
 ._3QS6OBHpvI5bXsSQA2zQuW {
-    background-color: var(--minimal_dark_blacker);
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+._3QS6OBHpvI5bXsSQA2zQuW:hover {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
 }
 
 ._-85o5-M_cGo-fefOuWwER .l0pbvMApUzYaf32F51pIO {
@@ -255,9 +256,19 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.Q7tULXy1gQNG1eU--hN27:hover {
     cursor: pointer;
 }
 
+._1HZy7BvOZuPT8feUwadL4W {
+    background: var(--minimal_dark_invisblegrey) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition-property: background;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+}
+
 ._1HZy7BvOZuPT8feUwadL4W:hover {
     background: var(--minimal_dark_invisblegrey) !important;
     border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 ._3QRf-tp5VddAF00vWY5Gn8:hover {
@@ -535,10 +546,10 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 }
 
 ._3lh8aaHNMcFvupuNhQDfFt ._1GfHtX6GRZ_5BukahmkQp4 {
-    background-color: #1919199e !important;
+    background-color: #121212c7 !important;
     border-radius: 10px !important;
     backdrop-filter: blur(30px) !important;
-	border: 1px solid var(--minimal_dark_greyblack) !important;
+    border: 1px solid var(--minimal_dark_greyblack) !important;
 }
 
 ._1ul9ZRBfhF0vyj-hrit6nU {
@@ -571,10 +582,13 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 ._3yTl3RiWfo-Itg-xp967wP ._39ZurKJQex6v69aXzvc_nj {
     padding: 2px 10px !important;
     margin-bottom: 10px !important;
+    background: var(--minimal_dark_invisblegrey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 ._3yTl3RiWfo-Itg-xp967wP ._39ZurKJQex6v69aXzvc_nj:hover {
-    background-color: var(--minimal_dark_greyblack) !important;
+    background: var(--minimal_dark_invisblegrey) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 ._1dbgUdk0xgEX7E4Db_r5mb {
@@ -952,4 +966,21 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 ._1izIEyRuLgphVa7NKAGtIb {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._1wJJQwnV-ssGrL0xveFujy {
+    padding: 12px 12px 12px 12px;
+    min-width: 50%;
+    display: flex;
+    border: 1px solid var(--minimal_dark_invisblegrey) !important;
+    border-radius: 5px !important;
+}
+
+._1wJJQwnV-ssGrL0xveFujy:hover {
+    padding: 12px 12px 12px 12px;
+    min-width: 50%;
+    display: flex;
+    border: 1px solid var(--minimal_dark_invisblegrey) !important;
+    border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_color) !important;
 }
