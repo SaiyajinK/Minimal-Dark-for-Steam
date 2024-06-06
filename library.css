@@ -229,7 +229,7 @@
 
 ._170Npw5h84elypMSQ8zNDI {
     padding: 20px 20px !important;
-    background: var(--minimal_dark_black) !important;
+    background: var(--minimal_dark_blacker) !important;
 	border-radius: 6px !important;
 	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
@@ -737,4 +737,26 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
 ._9sPoVBFyE_vE87mnZJ5aB {
     min-width: 256px !important;
     max-width: 346px !important;
+}
+
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY .DialogCheckbox {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	width: 14px !important;
+    height: 14px !important;
+}
+
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY .DialogCheckbox:hover {
+    background-color: #1e1f23 !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.DialogCheckbox.Active .SVGIcon_DialogCheck {
+    opacity: 1;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 10px !important;
+}
+
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY svg {
+    margin-left: -1px !important;
+    margin-top: -1px !important;
 }
