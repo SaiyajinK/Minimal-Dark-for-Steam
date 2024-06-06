@@ -3295,13 +3295,19 @@ img.game_header_image_full {
 	background:0 0!important;
 }
 
+.glance_details img {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
 .glance_details img:hover {
-	border:0!important;
-	border-radius:var(--minimal_dark_corner0)!important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner5) !important;
 }
 
 .game_area_dlc_bubble {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey)!important;
 }
 
 .ds_flag.ds_completetheset {
@@ -3371,7 +3377,9 @@ img.game_header_image_full {
 }
 
 .review_box a.vote_header {
+    background: var(--minimal_dark_blacker_alt) !important;
 	border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .review_box a.vote_header:hover {
@@ -3524,13 +3532,14 @@ body.v6 #footer .rule {
     color: rgba(var(--minimal_dark_color_rgba),1) !important;
     padding: 4px 6px!important;
     border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .game_description_column .block .block_header .right a:hover {
-    background-color: rgba(var(--minimal_dark_color_rgba),.25) !important;
+    background: rgba(var(--minimal_dark_color_rgba),.5) !important;
     color: white !important;
     border-radius: var(--minimal_dark_corner5) !important;
-    background: transparent;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .no_curators_followed {
@@ -3769,8 +3778,10 @@ h2 span.note:hover {
     border-top-left-radius: var(--minimal_dark_corner5)!important;
     border-top-right-radius: var(--minimal_dark_corner5)!important;
     background-color: var(--minimal_dark_blacker);
-    box-shadow: 0 0 5px #000;
     position: relative;
+    box-shadow: none !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: none !important;
 }
 
 .review_histogram_section .user_reviews_summary_bar {
@@ -8563,6 +8574,10 @@ img.communitylink_achievement {
 }
 
 .profile_flag {
+    border-radius: 5px !important;
+}
+
+.pre_release_review {
     border-radius: 5px !important;
 }
 
