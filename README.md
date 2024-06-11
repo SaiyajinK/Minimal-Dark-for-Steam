@@ -9,8 +9,7 @@ Be understandable if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-![minimal](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/6b967546-7335-4a4f-9135-4305f9296c21) <br>
-
+![minimal](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/291a252d-3a4b-41ea-b97c-1e3761831d79) <br>
 
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
@@ -36,20 +35,20 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![minimal2](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/9c497a30-4589-438d-af52-f152cf70bddd) <br>
+![minimal2](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/e0ef0ccc-bb29-4e10-8840-4270b8eaeb3d) <br>
 
 ## `👤 Profil 👤` <br> 
 
 I defined a static color by default which will have the effect of not displaying static or video backgrounds. <br>
 If you want to remove this, open `webkit.css` and remove lines `98` to `106` and edit line `109`<br>
 
-![minimal3](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/ccad9280-d1fb-4867-b2cc-fb235c11e882) <br>
+![minimal3](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/e00aec1b-3e17-4898-9529-ceeeda904502) <br>
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
 All aspects were changed to match my theme. <br>
 
-![minimal4](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/da4e210a-9629-4fa2-8069-b310b979b531) <br>
+![minimal4](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/a52752b7-efa4-40c7-b13d-39a875dd9c18) <br>
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
