@@ -8357,7 +8357,7 @@ body.v6 .broadcast_live_stream_icon {
 }
 
 #add_to_wishlist_area_success .wishlist_added_temp_notice:after {
-    bottom: 104% !important;
+    display: none !important;
 }
 
 .cookiepreferences_popup_content {
