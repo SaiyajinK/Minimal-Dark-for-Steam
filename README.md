@@ -11,6 +11,9 @@ Be understandable if you encounter any bugs. <br>
 
 ![minimal](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/291a252d-3a4b-41ea-b97c-1e3761831d79) <br>
 
+![juin24](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/b9b5e4fc-b083-4a45-ba4c-9df3a2b23f8a) <br>
+
+
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
 
