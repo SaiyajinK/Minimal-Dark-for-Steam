@@ -8637,4 +8637,28 @@ img.communitylink_achievement {
     color: var(--minimal_dark_orange) !important;
 }
 
+.html5_video_overlay .progress_bar_background {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+}
+
+.html5_video_overlay .progress_bar {
+    background-color: var(--minimal_dark_color) !important;
+    border-bottom-left-radius: 5px !important;
+}
+
+.html5_video_overlay .play_button.play {
+    filter: grayscale(1) !important;
+}
+
+.html5_video_overlay .play_button.pause {
+    filter: grayscale(1) !important;
+}
+
+.html5_video_overlay .autoplay_checkbox.checked {
+    filter: grayscale(1) !important;
+}
+
 /* end webkit */
