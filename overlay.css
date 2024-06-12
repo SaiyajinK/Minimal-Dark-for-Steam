@@ -484,6 +484,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk {
+    border-radius: 5px !important;
     background-color: var(--minimal_dark_black) !important;
 }
 
@@ -493,6 +494,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 .oQafBNf0Aso9mt7Tt5wQi {
     background-color: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
 }
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09:hover {
@@ -563,20 +565,24 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 ._1FPJYJrOP3sGOAaFkUKvsa._3RXwDIH9FKgDDHeFmbIraU {
     background-color: transparent;
     border: 1px solid var(--minimal_dark_color) !important;
+	border-radius: 5px !important;
 }
 
 ._1FPJYJrOP3sGOAaFkUKvsa._3RXwDIH9FKgDDHeFmbIraU:hover {
     background-color: var(--minimal_dark_color) !important;
     border: 1px solid var(--minimal_dark_color) !important;
+	border-radius: 5px !important;
 }
 
 ._1FPJYJrOP3sGOAaFkUKvsa._3RXwDIH9FKgDDHeFmbIraU:active {
     background-color: rgba(var(--minimal_dark_color_rgba),.5) !important;
     border: 1px solid rgba(var(--minimal_dark_color_rgba),1) !important;
+    border-radius: 5px !important;
 }
 
 ._4BQHp2F51n2v8292fxZLZ {
     background-color: var(--minimal_dark_be_grey) !important;
+	border-radius: 5px !important;
 }
 
 .FFIKUQ7BGKw6vO1voazlr.yXl6Aog783PLUFn-IiX7E ._3QhXBKJwISpG-AmpbOQgLQ {
@@ -696,5 +702,30 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 ._1-nHjRywUoX7Mpyc6JOPaQ {
     background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._1xlfggpT8Cn4-EK9iJBdx8.eUBvTRJhZMBfITGCx_tBA {
+    border-color: var(--minimal_dark_color) !important;
+    filter: brightness(1.1);
+    box-shadow: 0px 0px 8px #00000088;
+    border-radius: 5px !important;
+}
+
+._1xlfggpT8Cn4-EK9iJBdx8.eUBvTRJhZMBfITGCx_tBA:hover {
+    border-color: var(--minimal_dark_color) !important;
+	border-radius: 5px !important;
+	transform: scale(1);
+    filter: brightness(1.2);
+}
+
+._1xlfggpT8Cn4-EK9iJBdx8 ._2J4GI0xeNpNga2OP4ksXi- {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._9C3IQcKq_7IuypXHqXTYI ._287ZGrkOOAizxtuE-F-1Tg {
+    background-color: #000000 !important;
+    border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
