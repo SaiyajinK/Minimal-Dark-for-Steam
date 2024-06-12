@@ -77,7 +77,7 @@
 ._2AzIX5kl9k6JnxLfR5H4kX {
     background: transparent !important;
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 0px 1px 30px 1px rgba(0,0,0,.2);
 }
 
@@ -87,6 +87,8 @@
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
     box-shadow: none !important;
+	border-radius: 50px !important;
+	transition: .15s ease-out !important;
 }
 
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9) > ._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX:active {
@@ -94,6 +96,8 @@
     border: 2px solid rgba(62,64,71,0.50);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
     box-shadow: inset 0px 2px 4px #000000ab !important;
+	border-radius: 50px !important;
+	transition: .15s ease-out !important;
 }
 
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9) > ._2AzIX5kl9k6JnxLfR5H4kX:hover {
@@ -102,6 +106,8 @@
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
     box-shadow: none !important;
+	border-radius: 50px !important;
+	transition: .15s ease-out !important;
 }
 
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9) > ._2AzIX5kl9k6JnxLfR5H4kX:active {
@@ -109,6 +115,8 @@
     border: 2px solid rgba(62,64,71,0.50);
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
     box-shadow: inset 0px 2px 4px #000000ab !important;
+	border-radius: 50px !important;
+	transition: .15s ease-out !important;
 }
 
 ._1hhB2Wf7iExA15zh_lDQ_y ._3ydigb6zZAjJ0JCDgHwSYA {
@@ -118,9 +126,10 @@
 }
 
 ._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX {
-    border-radius: 50px !important;
+    border-radius: 10px !important;
 	border: 2px solid #8b929a29 !important;
 	margin-top: -2px !important;
+	transition: .15s ease-out !important;
 }
 
 ._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
@@ -617,6 +626,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
     padding: 4px 11px 4px 12px !important;
     border: 2px solid #8b929a29;
     margin-top: -2px !important;
+	transition: .15s ease-out !important;
 }
 
 ._3Y87YQY56ZCOqhgcZFaDc5 {
