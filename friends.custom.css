@@ -983,16 +983,20 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .friendGroup .friend, .friendGroup .SteamPlayerGroupFooter {
-    margin: 2px 20px 2px 20px !important;
+    margin: 2px 7px 2px 20px !important;
+    border: 1px solid #262626 !important;
+    border-radius: 5px !important;
 }
 
 .friendStatusHover.online:hover, .friendStatusHover.online.Friend_ContextMenuActive {
     border-radius: 5px !important;
+	border: 1px solid rgba(var(--minimal_dark_color_rgba),0.2) !important;
 }
 
 .friendStatusHover.offline:hover, .friendStatusHover.offline.Friend_ContextMenuActive {
     background-color: rgba(0,0,0,.25) !important;
     border-radius: 5px !important;
+	border: 1px solid rgba(var(--minimal_dark_color_rgba),0.2) !important;
 }
 
 .addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
@@ -1000,6 +1004,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .friendStatusHover.ingame:hover, .friendStatusHover.ingame.Friend_ContextMenuActive {
+    border: 1px solid rgba(var(--minimal_dark_color_rgba),0.2) !important;
     border-radius: 5px !important;
 }
 
@@ -1253,4 +1258,53 @@ button.DialogButton.Primary {
 
 ._18EIcuUAoTtqjzcDzsTcdy:hover .SVGIcon_X_Line line {
     stroke: var(--minimal_dark_red2) !important;
+}
+
+.unreadMessageViolator {
+    color: white !important;
+    background: #1919194f !important;
+    height: 28px !important;
+    top: 109px !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    /* line-height: 24px !important; */
+    left: 5px !important;
+    backdrop-filter: blur(25px) !important;
+}
+
+.unreadMessageViolator:hover {
+	filter: brightness(1.1) !important;
+    color: var(--minimal_dark_color) !important;
+	background: #1919194f !important;
+    height: 28px !important;
+    top: 109px !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    /* line-height: 24px !important; */
+    left: 5px !important;
+    backdrop-filter: blur(25px) !important;
+}
+
+._2z-o5GLHkTjJrgQAgz2uqh {
+    background: radial-gradient(ellipse farthest-corner at 98% 90%, rgba(var(--minimal_dark_color_rgba), 0.8) 0%, rgba(var(--minimal_dark_color_rgba), 0.2) 40%, rgba(233, 154, 35, 0) 70%) !important;
+	border-radius: 5px !important
+}
+
+._2NKkBU2gEImqo4YaPQ9Lck {
+    display: none !important;
+}
+
+.ChatRoomListGroupItem .FriendMessageCount, .unreadFriend .FriendMessageCount {
+    /* background: rgba(var(--minimal_dark_color_rgba),.35) !important; */
+    /* box-shadow: 0 0 14px 1px rgba(var(--minimal_dark_color_rgba),.5) !important; */
+    border-radius: 20px !important;
+}
+
+.friend .labelHolder {
+    width: 10px !important;
+}
+
+.friendGroup.taggedGroup, .friendGroup.gameGroup {
+    border-top: none !important;
+    margin-top: 12px !important;
 }
