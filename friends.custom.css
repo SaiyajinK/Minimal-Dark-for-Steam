@@ -146,34 +146,14 @@
 }
 
 .friendsui-container ::-webkit-scrollbar-thumb {
-	background-color:rgba(0,0,0,0);
-	border-radius:8px;
-	border-width:2px;
-	margin:4px;
-	min-height:32px;
-	min-width:32px;
-	width:14px;
-}
-
-.friendsui-container [class*=scrollpanel_ScrollPanel]:hover::-webkit-scrollbar-thumb,.friendsui-container .chatRoomListContainer:hover::-webkit-scrollbar-thumb,.friendsui-container .friendlistListContainer:hover::-webkit-scrollbar-thumb,.friendsui-container .DialogBody:hover::-webkit-scrollbar-thumb,.friendsui-container .FriendPicker_Suggestions_List:hover::-webkit-scrollbar-thumb,.friendsui-container .chatHistoryScroll:hover::-webkit-scrollbar-thumb {
-	border-radius:20px !important;
-}
-
-.friendsui-container [class*=scrollpanel_ScrollPanel]:hover::-webkit-scrollbar-thumb,.friendsui-container .chatRoomListContainer:hover::-webkit-scrollbar-thumb,.friendsui-container .friendlistListContainer:hover::-webkit-scrollbar-thumb,.friendsui-container .DialogBody:hover::-webkit-scrollbar-thumb,.friendsui-container .FriendPicker_Suggestions_List:hover::-webkit-scrollbar-thumb,.friendsui-container .chatHistoryScroll:hover::-webkit-scrollbar-thumb {
-	background-color:rgb(var(--scrollbar-primary));
+	background-color: var(--minimal_dark_be_grey) !important;
+	border: 6px solid transparent !important;
+    border-radius: 20px !important;
 }
 
 .friendsui-container ::-webkit-scrollbar-thumb:hover {
-	background-color:rgb(var(--scrollbar-primary-hover)) !important;
+	background-color: var(--minimal_dark_color) !important;
 	border-radius:20px !important;
-}
-
-.friendsui-container .chatentry_chatTextarea_3e__5::-webkit-scrollbar-thumb {
-	background-color:rgb(var(--scrollbar-secondary));
-}
-
-.friendsui-container .chatentry_chatTextarea_3e__5::-webkit-scrollbar-thumb:hover {
-	background-color:rgb(var(--scrollbar-secondary-hover)) !important;
 }
 
 .friendlistListContainer {
@@ -983,7 +963,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .friendGroup .friend, .friendGroup .SteamPlayerGroupFooter {
-    margin: 2px 7px 2px 20px !important;
+    margin: 2px 16px 2px 16px !important;
     border: 1px solid #262626c9 !important;
     border-radius: 5px !important;
 }
@@ -1313,4 +1293,14 @@ button.DialogButton.Primary {
 .friendGroup.taggedGroup, .friendGroup.gameGroup {
     border-top: none !important;
     margin-top: 12px !important;
+}
+
+.friendGroup .groupName .groupCount {
+    color: #73c257;
+    margin-left: 10px;
+    letter-spacing: 0px;
+    font-size: 12px;
+    opacity: 1;
+    transform: translateX(-4px);
+    transition: all .28s ease-in-out;
 }
