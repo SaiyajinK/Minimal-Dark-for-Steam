@@ -179,17 +179,22 @@
     background: transparent;
     border: 2px solid #8b929a29 !important;
     transform: scale(0.70, 0.70) translate(0px, 3px) !important;
-    border-radius: 50px;
+    border-radius: 10px !important;
+	transition: .15s ease-out !important;
 }
 
 ._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs):hover {
     background-image: var(--minimal_dark_bgg) !important;
-    transform: scale(0.75, 0.75) translate(0px, 3px) !important;
+    transform: scale(0.70, 0.70) translate(0px, 3px) !important;
+	border-radius: 50px !important;
+	transition: .15s ease-out !important;
 }
 
 ._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs):active {
     background-image: var(--minimal_dark_bgg) !important;
 	box-shadow: inset 0px 2px 4px #000000ab;
+	transform: scale(0.68, 0.68) translate(0px, 3px) !important;
+	border-radius: 50px !important;
 }
 
 .xp7A-08Y404Of3FBHqX32 ._3AjoLnMNKxYmNTGTJCLfgs {
@@ -197,19 +202,25 @@
     border: 2px solid #8b929a29 !important;
     transform: scale(0.70, 0.70) translate(0px, 3px) !important;
     box-shadow: 0px 1px 30px 1px rgba(0,0,0,.2);
-    border-radius: 50px !important;
+    border-radius: 10px !important;
+	transition: .15s ease-out !important;
 }
 
 ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC ._3AjoLnMNKxYmNTGTJCLfgs:hover:not(._1aml4h4CSJbtrNbX4brUYs):not(._1_Bo2Ied5s2Od4YKYTOsau) {
     border: 2px solid #8b929a29 !important;
-    transform: scale(0.75, 0.75) translate(0px, 3px) !important;
+    transform: scale(0.70, 0.70) translate(0px, 3px) !important;
     background-image: var(--minimal_dark_bgb) !important;
+	border-radius: 50px !important;
+	transition: .15s ease-out !important;
 }
 
 ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC ._3AjoLnMNKxYmNTGTJCLfgs:active:not(._1aml4h4CSJbtrNbX4brUYs):not(._1_Bo2Ied5s2Od4YKYTOsau) {
     border: 2px solid #8b929a29 !important;
     box-shadow: inset 0px 2px 4px #000000ab;
     background-image: var(--minimal_dark_bgb) !important;
+	transform: scale(0.68, 0.68) translate(0px, 3px) !important;
+	border-radius: 50px !important;
+	transition: .15s ease-out !important;
 }
 
 ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer {
