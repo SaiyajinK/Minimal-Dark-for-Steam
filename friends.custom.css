@@ -1259,13 +1259,13 @@ button.DialogButton.Primary {
 }
 
 .unreadMessageViolator:hover {
-	filter: brightness(1.1) !important;
+    filter: brightness(1.1) !important;
     color: var(--minimal_dark_color) !important;
-	background: #1919194f !important;
+    background: #1919194f !important;
     height: 28px !important;
     top: 109px !important;
     border-radius: 5px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
     /* line-height: 24px !important; */
     left: 5px !important;
     backdrop-filter: blur(25px) !important;
@@ -1296,11 +1296,49 @@ button.DialogButton.Primary {
 }
 
 .friendGroup .groupName .groupCount {
-    color: #73c257;
-    margin-left: 10px;
-    letter-spacing: 0px;
-    font-size: 12px;
+    color: rgb(68 209 131 / 85%) !important;
+    opacity: 1 !important;
+    margin-left: 10px !important;
+}
+
+.gameGroup .gameGroupContainer {
+    display: flex;
+    color: rgb(145 194 87 / 75%) !important;
+}
+
+.friendGroup.gameGroup .groupName {
+    color: rgb(68 209 131 / 85%) !important;
+    padding-right: 10px !important;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+    color: rgb(133 133 133 / 100%) !important;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName {
+    color: rgb(109 207 246 / 75%) !important;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.ingameFriends .groupName {
+    color: rgb(145 194 87 / 75%) !important;
+}
+
+.friendGroup.onlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed {
     opacity: 1;
-    transform: translateX(-4px);
-    transition: all .28s ease-in-out;
+    transform: translateX(0px);
+    color: rgb(109 207 246 / 75%) !important;
+}
+
+.friendGroup.offlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed {
+    opacity: 1;
+    transform: translateX(0px);
+    color: rgb(129 129 129 / 75%) !important;
+}
+
+.recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName {
+    color: rgb(255 218 38 / 75%) !important;
+}
+
+.recentChatsGroup .friendGroup .groupName .groupCount {
+    color: rgb(255 218 38 / 75%) !important;
 }
