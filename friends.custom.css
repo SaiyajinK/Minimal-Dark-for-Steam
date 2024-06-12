@@ -1307,20 +1307,20 @@ button.DialogButton.Primary {
 }
 
 .friendGroup.gameGroup .groupName {
-    color: rgb(68 209 131 / 85%) !important;
+    color: #c5d6d4 !important;
     padding-right: 10px !important;
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
-    color: rgb(133 133 133 / 100%) !important;
+    color: #c5d6d4 !important;
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName {
-    color: rgb(109 207 246 / 75%) !important;
+    color: #c5d6d4 !important;
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.ingameFriends .groupName {
-    color: rgb(145 194 87 / 75%) !important;
+    color: #c5d6d4 !important;
 }
 
 .friendGroup.onlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed {
@@ -1336,7 +1336,7 @@ button.DialogButton.Primary {
 }
 
 .recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName {
-    color: rgb(255 218 38 / 75%) !important;
+    color: #c5d6d4 !important;
 }
 
 .recentChatsGroup .friendGroup .groupName .groupCount {
