@@ -499,12 +499,14 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .chatTabSelector {
-    background: var(--minimal_dark_black);
+    background: var(--minimal_dark_black) !important;
+    width: 24px !important;
+    border-radius: 5px !important;
+    margin-left: 10px !important;
 }
 
 .chatTabSelector:hover {
-    background: var(--minimal_dark_blacker);
-    cursor: pointer;
+    background: var(--minimal_dark_be_grey) !important;
 }
 
 .messages_SpeakerName_Online_7B6M2 {
@@ -860,13 +862,23 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
     border-top: 2px solid var(--minimal_dark_greyblack1) !important;
+    margin-left: 6px !important;
+    border-radius: 5px !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 2px solid var(--minimal_dark_be_grey) !important;
 }
 
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
     background-color: var(--minimal_dark_black) !important;
     border-top: 2px solid var(--minimal_dark_color) !important;
-    border-top-left-radius: 5px !important;
-    border-top-right-radius: 5px !important;
+    /* border-top-left-radius: 5px !important; */
+    /* border-top-right-radius: 5px !important; */
+    border-radius: 5px !important;
+    margin-left: 6px !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 2px solid var(--minimal_dark_be_grey) !important;
 }
 
 .X2iywwN7fcdh9zXpXVsrk::before, .X2iywwN7fcdh9zXpXVsrk:last-of-type::after {
@@ -1213,4 +1225,32 @@ button.DialogButton.Primary {
 
 .friendsui-container [class*=away] .statusHeaderGlow stop:last-child {
 	stop-color: orange !important;
+}
+
+.inviteAnotherFriendButton {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.inviteAnotherFriendButton .SVGIcon_Button {
+    fill: var(--minimal_dark_be_grey) !important;
+}
+
+._1AMAp6cciTbpuVe8FTH3rK {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.ChatTabs.HasWindowControls {
+    padding-top: 4px !important;
+    height: 40px !important;
+}
+
+.chatTabSelector .SVGIcon_DownArrowContextMenu {
+    margin-left: 6px !important;
+    margin-top: 14px !important;
+}
+
+._18EIcuUAoTtqjzcDzsTcdy:hover .SVGIcon_X_Line line {
+    stroke: var(--minimal_dark_red2) !important;
 }
