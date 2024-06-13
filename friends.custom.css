@@ -1391,3 +1391,7 @@ button.DialogButton.Primary {
 .currentUserContainer .labelHolder {
     margin-top: 16px !important;
 }
+
+:not(.friendInviteContainer) .awayOrSnooze .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+    fill: orange !important;
+}
