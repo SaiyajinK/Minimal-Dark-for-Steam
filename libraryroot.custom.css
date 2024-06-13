@@ -203,8 +203,9 @@
 }
 
 ._2Szzh5sKyGgnLUR870zbDE:hover {
-    color: var(--minimal_dark_color);
+    color: var(--minimal_dark_color) !important;
     transition: color .15s ease-out;
+    background: var(--minimal_dark_blacker) !important;
 }
 
 .RtSv39ZoBOySnb8XQ5hJf ._34bQcTHo5QKzuujoEyU1tm {
@@ -1234,3 +1235,27 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 ._2Nq6ov7A1hGcHXVOXNt_OE {
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
 }
+
+/* vr headset icon topbar */
+._3lRfTo8Wo3phXfE1DvK6QW {
+    color: var(--minimal_dark_topgrey) !important;
+    width: 32px !important;
+    height: 24px !important;
+    border-radius: 0px !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    padding: 4px 0px 7px 0px !important;
+    transform: translate(-8px, 0px) !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._3lRfTo8Wo3phXfE1DvK6QW ._34bQcTHo5QKzuujoEyU1tm {
+    padding-top: 4px !important;
+}
+
+._3lRfTo8Wo3phXfE1DvK6QW._1oMrxBB04U_-xwAqI3k6Pq ._34bQcTHo5QKzuujoEyU1tm {
+    color: var(--minimal_dark_color) !important;
+}
+
+._3lRfTo8Wo3phXfE1DvK6QW._1oMrxBB04U_-xwAqI3k6Pq ._34bQcTHo5QKzuujoEyU1tm:hover {
+    color: var(--minimal_dark_red2) !important;
+/* end vr headset icon topbar */
