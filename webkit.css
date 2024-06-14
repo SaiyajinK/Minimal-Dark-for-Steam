@@ -8861,14 +8861,6 @@ img.communitylink_achievement {
     backdrop-filter: blur(10px) !important;
 }
 
-._DialogInputContainer {
-    padding: 7px !important;
-}
-
-.DialogDropDown_Arrow {
-    top: 9px !important;
-}
-
 .DialogDropDown._DialogInputContainer:hover {
     background: var(--minimal_dark_invisblegrey) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
