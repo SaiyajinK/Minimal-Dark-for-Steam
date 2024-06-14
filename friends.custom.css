@@ -461,7 +461,9 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .friendsui-container .LQkrbbayZPY11qHm01t7F {
-	background: var(--minimal_dark_black);
+	background: var(--minimal_dark_black) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-radius: 5px !important;
 }
 
 .friendSearchInput[type="text"]:focus {
@@ -1394,4 +1396,10 @@ button.DialogButton.Primary {
 
 :not(.friendInviteContainer) .awayOrSnooze .ContextMenuButton .SVGIcon_DownArrowContextMenu {
     fill: orange !important;
+}
+
+._3kEgIPZCMTtXeWWzzRLo4K ._3nIwHFIw4nSXC_DUrzO_a6 {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
