@@ -5,7 +5,7 @@ I started from the basic Steam skin using the development tool (DevTools) as wel
 All the sources and tools I used are at the bottom of the description. <br>
 
 I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. <br>
-Be understandable if you encounter any bugs. <br>
+Be understanding if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
