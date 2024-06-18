@@ -803,3 +803,21 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
 ._2R6-lF5h4f0SPrOL9B9IAw {
     background: transparent !important;
 }
+
+._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt), ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt), .WYgDg9NyCcMIVuMyZ_NBC.gpfocus ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt) {
+    background-color: var(--minimal_dark_invisblegrey) !important;
+    border-radius: 5px !important;
+    border: 1px solid transparent !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt):hover, ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt):hover, .WYgDg9NyCcMIVuMyZ_NBC.gpfocus ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt):hover {
+    background-color: var(--minimal_dark_invisblegrey) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+svg.SVGIcon_Button.SVGIcon_Download:hover {
+    color: var(--minimal_dark_color) !important;
+}
