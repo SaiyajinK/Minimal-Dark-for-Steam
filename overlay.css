@@ -729,3 +729,40 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
+
+.DialogToggleField_Option.Off.Active {
+    color: #dfe3e6;
+    background: var(--minimal_dark_black) !important;
+}
+
+.DialogToggleField_Option.Off:hover {
+    color: #dfe3e6;
+    background: var(--minimal_dark_be_grey) !important;
+}
+
+.DialogToggleField_Option.Active {
+    color: #dfe3e6;
+    background: var(--minimal_dark_color) !important;
+}
+
+.DialogToggleField_Option {
+    background: var(--minimal_dark_black) !important;
+}
+
+.DialogToggleField_Option:hover {
+    background: var(--minimal_dark_be_grey) !important;
+}
+
+.qFjVwKFidyZdbmIhaENhV {
+    border: 1px solid transparent !important;
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.DialogToggleField_Control {
+    border-radius: 5px;
+    background: transparent !important;
+}
+
+.ModalPosition_Content {
+    border-radius: 5px !important;
+}
