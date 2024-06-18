@@ -1053,7 +1053,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 ._3QoRRxsgnDolcCPCrAPm47 {
     width: 326px !important;
-    height: 210px !important;
+    height: auto !important;
 }
 
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7 {
@@ -1402,4 +1402,19 @@ button.DialogButton.Primary {
     background: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
+}
+
+.msg.isCurrentUser.ChatMessageErrorSending {
+    background: linear-gradient(to bottom, rgba(68, 44, 44, 0.4) 0%, rgba(61, 22, 22, 0.2) 60%, rgba(66, 58, 58, 0.05) 100%);
+    border-radius: 5px !important;
+    border: 1px dashed var(--minimal_dark_redsettings) !important;
+}
+
+.msg.isCurrentUser.ChatMessageErrorSending .msgText {
+    color: var(--minimal_dark_redsettings) !important;
+}
+
+.ChatMessageErrorSendingAlert {
+    background-color: #f1244624 !important;
+    color: var(--minimal_dark_red2) !important;
 }
