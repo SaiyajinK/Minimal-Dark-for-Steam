@@ -1008,3 +1008,24 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 .PVXAA8K7W59k1ZLVWAPy9 ._33nAFYa-4M0coUprfk3WqL, .PVXAA8K7W59k1ZLVWAPy9 ._2pLSojgHqkjUtB38scov5A {
     border-color: var(--minimal_dark_color) !important;
 }
+
+._1GCZAht_W2I3Elndk5cU0-:hover {
+    background-color: var(--minimal_dark_invisblegrey) !important;
+    border-radius: 5px !important;
+}
+
+._2MKO5j24KqDdD-92hH5FXi {
+    height: 163px !important;
+    background: var(--minimal_dark_invisblegrey) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_invisblegrey) !important;
+}
+
+._2MKO5j24KqDdD-92hH5FXi:after {
+    box-shadow: inset 1px 1px 12px #0000005e !important;
+    border-radius: 5px !important;
+}
+
+._27RcNu8aXKBpYkHcNNrt-X ._11kuVRYZvWXn-3rBJ_6yL8._3wbndu1paxHkciYr4rFJH5 {
+    width: calc(67% - 34px) !important;
+}
