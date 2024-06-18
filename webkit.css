@@ -8894,4 +8894,18 @@ img.communitylink_achievement {
 	box-shadow: 0px 0px 20px 10px #00000085, 2px 2px 16px 1px #0005 !important;
 }
 
+.discussions_searchedForTerm, a.discussions_searchedForTerm {
+    border-radius: 5px !important;
+}
+
+select {
+    background: var(--minimal_dark_black) !important;
+    box-shadow: none !important;
+    border-radius: 5px !important;
+}
+
+select option {
+    background: var(--minimal_dark_black) !important;
+}
+
 /* end webkit */
