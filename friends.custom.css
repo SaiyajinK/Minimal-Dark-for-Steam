@@ -147,7 +147,7 @@
 
 .friendsui-container ::-webkit-scrollbar-thumb {
 	background-color: var(--minimal_dark_be_grey) !important;
-	border: 6px solid transparent !important;
+	border: 4.5px solid transparent !important;
     border-radius: 20px !important;
 }
 
@@ -843,24 +843,32 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .X2iywwN7fcdh9zXpXVsrk {
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
-    border-top: 2px solid var(--minimal_dark_greyblack1) !important;
+    border-top: 1px solid var(--minimal_dark_greyblack1) !important;
     margin-left: 6px !important;
     border-radius: 5px !important;
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
     border-right: 1px solid var(--minimal_dark_be_grey) !important;
-    border-bottom: 2px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+	height: 40px !important;
+	margin: 2px 0px 2px 6px !important;
 }
 
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
     background-color: var(--minimal_dark_black) !important;
-    border-top: 2px solid var(--minimal_dark_color) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
     /* border-top-left-radius: 5px !important; */
     /* border-top-right-radius: 5px !important; */
     border-radius: 5px !important;
     margin-left: 6px !important;
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
     border-right: 1px solid var(--minimal_dark_be_grey) !important;
-    border-bottom: 2px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+	height: 40px !important;
+	margin: 2px 0px 2px 6px !important;
+}
+
+.X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:before, .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk+.X2iywwN7fcdh9zXpXVsrk:before, .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:last-of-type:after, .X2iywwN7fcdh9zXpXVsrk:first-of-type:before {
+    display: none !important;
 }
 
 .X2iywwN7fcdh9zXpXVsrk::before, .X2iywwN7fcdh9zXpXVsrk:last-of-type::after {
@@ -868,7 +876,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     top: 0px !important;
     bottom: 0px !important;
     width: 1px !important;
-    height: 34px !important;
+	display: none !important;
 }
 
 .VUHcmgCbu1oxey7ydJHP2 {
@@ -1235,8 +1243,8 @@ button.DialogButton.Primary {
 }
 
 .ChatTabs.HasWindowControls {
-    padding-top: 4px !important;
-    height: 40px !important;
+    height: 50px !important;
+    padding-left: 4px !important;
 }
 
 .chatTabSelector .SVGIcon_DownArrowContextMenu {
@@ -1417,4 +1425,18 @@ button.DialogButton.Primary {
 .ChatMessageErrorSendingAlert {
     background-color: #f1244624 !important;
     color: var(--minimal_dark_red2) !important;
+}
+
+._3n80SfAwzFqelSuprYLFQv {
+    height: 44px !important;
+}
+
+.X2iywwN7fcdh9zXpXVsrk:hover:not(._1BNlZUYDbVr8VhCTmq7ksk) {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border: 1px solid rgba(var(--minimal_dark_color_rgba),0.1) !important;
+}
+
+.timeDivision.time_passes .preHorizDivider, .timeDivision.time_passes .horizDivider {
+    border: 1px dashed rgba(var(--minimal_dark_color_rgba),0.5) !important;
+	margin-right: -6px !important;
 }
