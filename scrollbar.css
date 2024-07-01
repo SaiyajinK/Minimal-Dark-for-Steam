@@ -1,6 +1,6 @@
 ::-webkit-scrollbar-thumb {
 	background: var(--minimal_dark_be_grey) !important;
-	border: 8px solid var(--minimal_dark_transparent) !important;
+	border: 7px solid var(--minimal_dark_transparent) !important;
 	background-clip: padding-box !important;
 	border-radius: 10px !important;
 }
