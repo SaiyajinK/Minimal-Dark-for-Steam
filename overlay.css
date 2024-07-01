@@ -214,16 +214,19 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 .MmdBjSLHW3AVSShFBJVNt, ._2caCrhFIrYqRuguK-cB6be {
-    height: 36px;
+    height: 36px !important;
     padding: 0px;
     position: relative;
-    background-color: var(--minimal_dark_blacker);
-    border-radius: 2px;
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     margin: 0 auto 2px auto;
 }
 
 .MmdBjSLHW3AVSShFBJVNt:hover, ._2caCrhFIrYqRuguK-cB6be:hover {
-    background: var(--minimal_dark_black);
+    background: var(--minimal_dark_black) !important;
+	border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 ._2sNr7PFYcJZWNkEMCDVVPR {
