@@ -6560,7 +6560,7 @@ select.gray_bevel {
 }
 
 body {
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: transparent !important;
 }
 
 #ScreenshotUploadLink, #VideoUploadLink {
