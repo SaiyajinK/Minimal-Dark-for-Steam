@@ -413,6 +413,8 @@
     background-color: var(--minimal_dark_blacker) !important;
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_greyblack2) !important;
+    transform: translate(0px, -5px) !important;
+    padding: 0px 8px !important;
 }
 
 ._3Dt__IV9HmQY4KgsvaOz1i ._1nxOnnCuHV-WYfXeUtBTKf {
