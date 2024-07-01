@@ -538,6 +538,11 @@
 .S-_LaQG5eEOM2HWZ-geJI.wE4V6Ei2Sy2qWDo_XNcwn.gpfocus, .S-_LaQG5eEOM2HWZ-geJI.wE4V6Ei2Sy2qWDo_XNcwn.gpfocuswithin, .S-_LaQG5eEOM2HWZ-geJI._27UVYW_V-GslmLf0-gfVCM:not(._1pmyxI3wxLrWwGnc52yVns):hover {
     background: var(--minimal_dark_be_grey) !important;
     color: #fff;
+	border-radius: 5px !important;
+}
+
+.S-_LaQG5eEOM2HWZ-geJI._3s1Rkl6cFOze_SdV2g-AFo::after {
+    background: transparent !important;
 }
 
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7._1v65xCmMo53Ju6vCXk4U0_ .Woh0kBQCmatzC1daBX9i6 {
@@ -818,4 +823,20 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     backdrop-filter: blur(8px) !important;
+}
+
+.S-_LaQG5eEOM2HWZ-geJI._5UO-_VhgFhDWlkDIOZcn_ .H9WOq6bV_VhQ4QjJS_Bxg {
+    padding: 0px 10px 0px 10px !important;
+}
+
+.S-_LaQG5eEOM2HWZ-geJI.wE4V6Ei2Sy2qWDo_XNcwn.gpfocus.DesktopUI, .DesktopUI .S-_LaQG5eEOM2HWZ-geJI.wE4V6Ei2Sy2qWDo_XNcwn.gpfocus, .S-_LaQG5eEOM2HWZ-geJI.wE4V6Ei2Sy2qWDo_XNcwn.gpfocuswithin.DesktopUI, .DesktopUI .S-_LaQG5eEOM2HWZ-geJI.wE4V6Ei2Sy2qWDo_XNcwn.gpfocuswithin, .S-_LaQG5eEOM2HWZ-geJI._27UVYW_V-GslmLf0-gfVCM:not(._1pmyxI3wxLrWwGnc52yVns):hover.DesktopUI, .DesktopUI .S-_LaQG5eEOM2HWZ-geJI._27UVYW_V-GslmLf0-gfVCM:not(._1pmyxI3wxLrWwGnc52yVns):hover {
+    margin: 10px 0px 10px 0px !important;
+}
+
+.S-_LaQG5eEOM2HWZ-geJI.wE4V6Ei2Sy2qWDo_XNcwn.gpfocus.DesktopUI, .DesktopUI .S-_LaQG5eEOM2HWZ-geJI.wE4V6Ei2Sy2qWDo_XNcwn.gpfocus, .S-_LaQG5eEOM2HWZ-geJI.wE4V6Ei2Sy2qWDo_XNcwn.gpfocuswithin.DesktopUI, .DesktopUI .S-_LaQG5eEOM2HWZ-geJI.wE4V6Ei2Sy2qWDo_XNcwn.gpfocuswithin, .S-_LaQG5eEOM2HWZ-geJI._27UVYW_V-GslmLf0-gfVCM:not(._1pmyxI3wxLrWwGnc52yVns).DesktopUI, .DesktopUI .S-_LaQG5eEOM2HWZ-geJI._27UVYW_V-GslmLf0-gfVCM:not(._1pmyxI3wxLrWwGnc52yVns) {
+    margin: 10px 0px 10px 0px !important;
+}
+
+._3lwcRYJ_r7x01Cn15bcdYI:not(._3ZBFoxumQBb1JEVw_DZzaC)+._3lwcRYJ_r7x01Cn15bcdYI:not(._3ZBFoxumQBb1JEVw_DZzaC)::before {
+    background: transparent !important;
 }
