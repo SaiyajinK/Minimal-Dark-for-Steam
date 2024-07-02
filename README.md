@@ -81,5 +81,6 @@ All aspects were changed to match my theme. <br>
 - [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
 - [PhantomGamers](https://github.com/PhantomGamers) for SFP and the reboot/reload script <br>
 - [LaserFlash](https://github.com/LaserFlash) for WaitForElement module <br>
+- [Icon8](https://icons8.com) for Base64 icons
 
 ------
