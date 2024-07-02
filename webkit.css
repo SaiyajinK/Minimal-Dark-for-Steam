@@ -2526,6 +2526,7 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
     border-radius: var(--minimal_dark_corner5)!important;
     border: 1px solid var(--minimal_dark_be_grey)!important;
 	margin-bottom: 5px !important;
+	padding: 11px 21px !important;
 }
 
 .group_block {
@@ -6446,22 +6447,22 @@ body.v6 .deep_dive_key_tags {
 }
 
 .agegate_birthday_selector {
-    background: var(--minimal_dark_blacker) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 #app_agegate select {
     color: var(--minimal_dark_color) !important;
-	background-color: rgba(var(--minimal_dark_color_rgba),.2) !important;
+    background-color: rgba(var(--minimal_dark_color_rgba),.05) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .agegate_text_container img {
-    padding: 30px !important;
-    padding-top: 5px !important;
-    width: 50% !important;
-    height: 50%;
-    background-color: transparent !important;
-    box-shadow: none !important;
-    transform: scale(1.5) !important;
+    padding: none !important;
+    padding-top: none !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-bottom: 42px !important;
 }
 
 #app_agegate select option {
@@ -9130,6 +9131,16 @@ p.reason.info:before {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     backdrop-filter: blur(10px) !important;
+}
+
+div.agegate_text_container > h2 {
+    color: #f1ca5c !important;
+    font-weight: 400 !important;
+}
+
+.friends_nav h4 {
+    color: var(--minimal_dark_color) !important;
+    padding: 5px 8px 6px 8px !important;
 }
 
 /* end webkit */
