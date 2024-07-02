@@ -1456,3 +1456,8 @@ button.DialogButton.Primary {
     width: 24px !important;
     height: 20px !important;
 }
+
+.quickAccessFriends:not(.emptyQuickAccess) {
+    padding-top: 32px !important;
+    padding-left: 16px !important;
+}
