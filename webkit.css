@@ -5380,15 +5380,17 @@ body.v6.winter_sale_home h2.winter {
 }
 
 .discount_icon {
-    height: 26px;
-    width: 26px;
-    color: var(--minimal_dark_transparent);
-    background-color: #00ff95;
-    -webkit-mask-image: var(--minimal_dark_market);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.9);
+    height: 26px !important;
+    width: 26px !important;
+    color: var(--minimal_dark_transparent) !important;
+    background-color: #00ff95 !important;
+    -webkit-mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADmklEQVR4nO2Zy29PQRTHP16JR4UE0XrUipKgbNANCYqF58KjLAg2qpp0K7ooIkSUxGPvXRIsPOJP8NjRpiTeSRcatGixEGXS7y+ZXPd3fzM/09/VpN9kNnPPfOfMnZlzzpwDAxhAqhgM1ALNQBfwCrgM7AamWHJT1XcNeAN81ph94khN+etAT0L7qJYkcz2tRTRKgU/AVmAsMAvYA9wGOiwlO9Rnvs0GxgPbLBnDVVBs08Q/gMUJcuPVsmGJOAxXFQXCCuC7Jq0OwFctrm9AJX2ICuAS8FMTng7IfUachvui5gqCIlmZ59Z5NlveAAwKNQm9XA3WcerRnLXSIS+UAa8twjbgBFBK36FUF7rNmteY5hm+RMOAVhE8BdYX2NQN0ZxPpUOrdHLGWmv1eW9hABRJB6PLGp+B9Rp0jPRxXLoYnbytQg3pY590MTo544IGbXeQnQ/cA74CX4C7wLwE+blAO3DAUZcd0uU8HrilQRtzyM0EumPim25ZsShGAC2SOeKoyybJ3/RZQLMGJf1JRNqjKHOi2jX13YiRP6tvLVoMjjucsYZOWKQBncDwHLLtki22+krU9z4ia6zILzmrcldl6NWhU5wLcwkPBR5L+KADeWYBJTkWUGLJ1uGPQxr7SDpmxX4JvgXGOBDbR6hYLXqETJhwX3338wxBxkinHukYi2m6fGablzoSl+klFr3EXdYlrlNfe2SnfLFMunVnC2dOaaIrnsTmot+RCf2ih0vmjJfrzP/y9aRZcDXpAfRIH028HwLm8j0Rp7E+IbBSfA8KsYBzlskcGYhzVdICTuqj2aZ/RZzJ9PXYcWiSjias/wuleVziOMSZTF+PnesSmzRNEDMaRTaT6euxozAZj3e5zChyEpm7YJyHL7KZTB+PHYfDkn2Yy5H5hhI2kkymq8eOw3Bl8gzvAgIHc3FR5tk8PXawYM4nnM7gaI4o08VjZ8Nmj7uS14MGPffa9VjJx2MHf9D0+ydlfX9/1K/7T9Iqo63k2mqfgSaJ9CyS2DLJpkJhCLDBsoatLvY/CmMdXkZSi419nFqcppjMTi2+AKb3h+TuwZjkrrnAo0JNUqHU98/AMb4degdPr8ehUsWIUAWOvVaBYzkFQpV1nEyZKBsmqLmUmLaQUpGvQzWzccAcFfLuWLmcTGBoF/nGpV3kcy2zflBLkmlKu1Zco8d7p8yuqaPtBCZZcpOBXfr2SrJmTHWayg9gAH/+wG8Q7XwXu3qInAAAAABJRU5ErkJggg==') !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-size: contain !important;
+    -webkit-mask-position: center !important;
+    transform: scale(0.9) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .discount_icon img {
