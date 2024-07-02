@@ -931,6 +931,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .confirmInviteRequestContainer .confirmInviteButton {
     background-color: var(--minimal_dark_black) !important;
+	border-radius: 5px !important;
 }
 
 .confirmInviteRequestContainer .confirmInviteButton:hover {
@@ -1439,4 +1440,19 @@ button.DialogButton.Primary {
 .timeDivision.time_passes .preHorizDivider, .timeDivision.time_passes .horizDivider {
     border: 1px dashed rgba(var(--minimal_dark_color_rgba),0.5) !important;
 	margin-right: -6px !important;
+}
+
+.friendInviteBlockContainer .DialogCheckbox {
+    border-radius: 12px !important;
+}
+
+.friendInviteBlockContainer .blockCommunicationLabel {
+    color: var(--minimal_dark_redsettings) !important;
+}
+
+.confirmInviteRequestContainer .cancelAddFriends {
+    top: 11px !important;
+    right: 5px !important;
+    width: 24px !important;
+    height: 20px !important;
 }
