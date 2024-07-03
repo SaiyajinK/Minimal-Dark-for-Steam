@@ -105,6 +105,11 @@ div.profile_page.has_profile_background {
     background-image: none !important;
 }
 
+body.profile_page, div.profile_page {
+    background: var(--minimal_dark_blacker_alt) !important;
+    background-image: none !important;
+}
+
 .profile_animated_background {
     background-color: var(--minimal_dark_blacker_alt) !important; /* set #000000 if you have remove the lines above */
 }
@@ -1157,7 +1162,17 @@ img.tab_item_cap_img {
 }
 
 .share {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.workshopItemControls .vertical_divider {
+    background-color: transparent !important;
+}
+
+.workshopItemControlCtn .rateUpCount, .workshopItemControls .workshopItemControlCtn .general_btn, .workshopItemControls .workshopItemControlCtn .share_controls, .workshopItemControls .workshopItemControlCtn .settings_controls {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
 
 .newshr {
@@ -1879,12 +1894,17 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
 }
 
 .workshop_item_header {
-	background:var(--minimal_dark_night_alt1)!important;
+    background: var(--minimal_dark_night_alt1)!important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .sectionTab.active>span {
-	background:var(--minimal_dark_night_alt1)!important;
-	border-top: 1px solid var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_night_alt1)!important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
+    border-bottom: none !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .sectionTab.active {
@@ -2571,7 +2591,7 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 }
 
 .profile_content {
-	background: #c8dae20d!important;
+    background: var(--minimal_blacker_alt) !important;
 }
 
 .guideTop .workshopItemControls {
@@ -6763,14 +6783,33 @@ input[type="search" i]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-s
 
 .general_btn {
     background-color: var(--minimal_dark_blacker_alt) !important;
+	margin-right: 4px !important;
+    border-radius: 5px !important;
+}
+
+.workshopItemControls .general_btn {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.workshopItemPreviewImageEnlargeable {
+    border-radius: 5px !important;
+}
+
+.workshopItemPreviewImageEnlargeableContainer {
+    border-radius: 5px !important;
 }
 
 .general_btn.voteUp:hover {
-    background-color: rgba(var(--minimal_dark_color_rgba),.75) !important;
+    background-color: var(--minimal_dark_status_green) !important;
 }
 
 .general_btn.voteDown:hover {
-    background-color: rgba(var(--minimal_dark_color_rgba),.75) !important;
+    background-color: var(--minimal_dark_redsettings) !important;
+}
+
+.workshopItemControls .general_btn:hover {
+    background-color: var(--minimal_dark_black) !important;
 }
 
 .general_btn.favorite:hover {
@@ -9143,6 +9182,25 @@ div.agegate_text_container > h2 {
 .friends_nav h4 {
     color: var(--minimal_dark_color) !important;
     padding: 5px 8px 6px 8px !important;
+}
+
+.workshopItemPreviewImage {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.workshopItemPreviewHolder {
+    border-radius: 5px !important;
+}
+
+.imgWallItem {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+div.sharedfiles_filterselect:hover {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
 
 /* end webkit */
