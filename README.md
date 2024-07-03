@@ -40,7 +40,7 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 ## `👤 Profil 👤` <br> 
 
 I defined a static color by default which will have the effect of not displaying static or video backgrounds. <br>
-If you want to remove this, open `webkit.css` and remove lines `98` to `106` and edit line `109`<br>
+If you want to remove this, open `webkit.css` and remove lines `98` to `111` and edit line `113`<br>
 
 ![profil](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/fcd4aa62-efc6-4356-90bb-e8eee890868a) <br>
 
