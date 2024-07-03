@@ -9203,4 +9203,13 @@ div.sharedfiles_filterselect:hover {
     background: transparent !important;
 }
 
+.profile_ban_status {
+    color: var(--minimal_dark_red2) !important;
+    font-weight: bold !important;
+}
+
+.published_file_icon {
+    filter: brightness(5) !important;
+}
+
 /* end webkit */
