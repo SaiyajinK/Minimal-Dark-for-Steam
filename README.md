@@ -35,7 +35,7 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![compact_friends](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/0ca7e901-2206-4d1d-9099-8be32ed850aa) <br>
+![compact_friends](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/9d5494b4-4f21-45bf-90e0-b0f640a4eec2) <br>
 
 ## `👤 Profil 👤` <br> 
 
