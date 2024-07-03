@@ -39,10 +39,10 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 ## `👤 Profil 👤` <br> 
 
-I defined a static color by default which will have the effect of not displaying static or video backgrounds. <br>
-If you want to remove this, open `webkit.css` and remove lines `98` to `111` and edit line `113`<br>
+Some profiles have neon lights around the headers, I removed them by default.<br>
+If you want to remove this, open `webkit.css` and remove line `100`<br>
 
-![profil](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/fcd4aa62-efc6-4356-90bb-e8eee890868a) <br>
+![profilr](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/c32a77bb-a72e-4673-a025-36b52ac2a553) <br>
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
