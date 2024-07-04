@@ -1277,3 +1277,13 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     color: var(--minimal_dark_red2) !important;
 }
 /* end vr headset icon topbar */
+
+.DesktopUI .DialogFooter button.DialogButton {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+button.DialogButton:hover, button.DialogButton.gpfocus {
+    background: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_color) !important;
+}
