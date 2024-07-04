@@ -9,7 +9,7 @@ Be understanding if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-![Minimal_Dark](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/aa20dbc9-3c0b-4504-8e86-24e9c5f9aeee) <br>
+![steamwebhelper_qAJtStMShP](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/663ff6ce-aad7-42c2-abec-71ea889c68a1) <br>
 
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
