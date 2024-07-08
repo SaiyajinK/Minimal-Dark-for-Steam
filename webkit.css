@@ -1036,6 +1036,7 @@ div.store_header_btn {
 	background:var(--minimal_dark_night_alt1)!important;
 	border-top-right-radius:var(--minimal_dark_corner10)!important;
 	border-bottom-right-radius:var(--minimal_dark_corner10)!important;
+	right: -46px;
 }
 
 .store_capsule .discount_block.discount_block_large .discount_prices {
@@ -1141,7 +1142,11 @@ img.tab_item_cap_img {
 }
 
 .carousel_items.store_capsule_container {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    padding: 10px !important;
+    background: #1212125e !important;
+    backdrop-filter: blur(10px) !important;
 }
 
 .screenshot_container {
@@ -7186,6 +7191,7 @@ div.ModalPosition_TopBar {
     border-right: 1px solid var(--minimal_dark_be_grey) !important;
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+    right: -46px !important;
 }
 
 .carousel_container .arrow.right:hover {
@@ -7203,6 +7209,7 @@ div.ModalPosition_TopBar {
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+	left: -46px !important;
 }
 
 .carousel_container .arrow.left:hover {
