@@ -280,7 +280,8 @@ button.DialogButton.Primary:hover {
     background: var(--minimal_dark_bgb) !important;
     background-position: 25%;
     background-size: 330% 100%;
-	text-shadow: 1px 1px 0px rgba(0,0,0,0.3)
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+    color: white !important;
 }
 
 .DesktopUI .Oo5JPcEk_erKEYAzYp2nY.gkgG-dWgjpwS_aqlcMNTM {
