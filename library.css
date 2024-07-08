@@ -846,3 +846,15 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
     opacity: 1;
     box-shadow: 0px 0px 20px 10px #121212ad !important;
 }
+
+._23SnllqT_AqZ1C_QHcNQ4Z._2Ho8z58cxQIJljp55uGkdt {
+    border-radius: 5px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._23SnllqT_AqZ1C_QHcNQ4Z._2Ho8z58cxQIJljp55uGkdt:hover {
+    border-radius: 5px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid rgba(var(--minimal_dark_color),.5) !important;
+}
