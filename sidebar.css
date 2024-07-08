@@ -282,13 +282,13 @@
 }
 
 svg.SVGIcon_Button.SVGIcon_FriendIcon {
-    padding-top: 6px;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 6px;
+    padding-top: 7px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 7px !important;
     border-left: 2px solid #8cd61d !important;
-    margin-top: -3px;
-    margin-left: 0px;
+    margin-top: -3px !important;
+    margin-left: 0px !important;
     background: transparent !important;
 }
 
