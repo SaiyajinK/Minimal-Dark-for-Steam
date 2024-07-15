@@ -282,21 +282,25 @@ button.DialogButton.Primary:hover {
     background-size: 330% 100%;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
     color: white !important;
+    transition: all 0.2s ease-out !important;
 }
 
 .DesktopUI .Oo5JPcEk_erKEYAzYp2nY.gkgG-dWgjpwS_aqlcMNTM {
     background: var(--minimal_dark_bgb) !important;
     color: #fff;
-	text-shadow: 1px 1px 0px rgba(0,0,0,0.3)
-	
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.3) !important;
 }
 
-button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:hover:active, button.DialogButton.Primary:enabled:active.gpfocus {
+button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:active.gpfocus {
+    background: transparent !important;
+    box-shadow: inset 0px 0px 4px 4px #0000007a !important;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
+}
+
+button.DialogButton.Primary:enabled:hover:active {
     background: var(--minimal_dark_bgb) !important;
-    background-position: 40%;
-    transition-duration: .04s;
-    text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
-    box-shadow: inset 0px 3px 10px #000000ab;
+    box-shadow: inset 0px 0px 4px 4px #0000007a !important;
+    border: 1px solid #42bad8 !important;
 }
 
 div.ModalPosition_TopBar {
@@ -369,11 +373,6 @@ button.DialogButton:disabled:hover, button.DialogButton.Disabled:hover {
 
 ._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m ._3f3VJUtyLXUf_JDFE-BaQ6 {
     background: var(--minimal_dark_be_grey);
-}
-
-button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:hover:active, button.DialogButton.Primary:enabled:active.gpfocus {
-    background: var(--minimal_dark_bgb);
-    box-shadow: inset 0px 0px 5px black;
 }
 
 button.DialogButton {
