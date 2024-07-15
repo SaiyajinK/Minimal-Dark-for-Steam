@@ -148,7 +148,7 @@
     max-height: 320px;
     display: flex;
     justify-content: center;
-    border-top: 1px solid var(--minimal_dark_be_grey);
+    border-top: 0px solid var(--minimal_dark_be_grey);
 }
 
 ._1AYE16384J_ecLpN0sEYc5 {
