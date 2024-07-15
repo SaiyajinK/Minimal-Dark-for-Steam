@@ -769,11 +769,11 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 }
 
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
-    color: var(--minimal_dark_color);
-    text-shadow: 0px 0px 1px var(--minimal_dark_color);
-    font-weight: 300;
+    color: var(--minimal_dark_color) !important;
+    text-shadow: 0px 0px 1px var(--minimal_dark_color) !important;
+    font-weight: 300 !important;
     cursor: pointer;
-    margin-top: 6px;
+    margin-top: 5px !important;
     transition: 0.08s ease-out !important;
 }
 
@@ -1331,5 +1331,5 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 ._1ENHEsrSLcTRtPQFl1F-wL {
     border: 0px solid var(--minimal_dark_transparent) !important;
-    background-color: transparent !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
 }
