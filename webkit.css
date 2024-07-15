@@ -1144,9 +1144,14 @@ img.tab_item_cap_img {
 .carousel_items.store_capsule_container {
     border-radius: var(--minimal_dark_corner5)!important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    padding: 10px !important;
+    padding: 0px !important;
     background: #1212125e !important;
     backdrop-filter: blur(10px) !important;
+}
+
+.content_hub_carousel_ctn .content_hub_capsule_ctn {
+    width: 20% !important;
+    margin: 16px !important;
 }
 
 .screenshot_container {
@@ -9042,7 +9047,7 @@ p.reason.info:before {
 
 .home_deck_section {
     background: transparent !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 0px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 }
 
