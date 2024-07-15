@@ -49,7 +49,7 @@
 
 ._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI:hover.DialogButton:enabled {
     background: var(--minimal_dark_red) !important;
-    color: #fff;
+    color: #fff !important;
     box-shadow: none;
     transition: .4s ease-out !important;
     border-radius: 10px !important;
