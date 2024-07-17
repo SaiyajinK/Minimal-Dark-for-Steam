@@ -5750,7 +5750,8 @@ body.v6 .game_page_background {
 }
 
 .filter_tab {
-    background: var(--minimal_dark_be_grey);
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .filter_section {
@@ -5759,11 +5760,13 @@ body.v6 .game_page_background {
 }
 
 .wishlist .controls .filter_tab:hover {
-    background: var(--minimal_dark_greyblack);
+    background: var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
 }
 
 .wishlist .controls div.filter_tab.hover {
-    background-color: var(--minimal_dark_greyblack);
+    background: var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
 }
 
 .dropdown_container {
@@ -6416,7 +6419,35 @@ body.v6 .deep_dive_key_tags {
 }
 
 button.DialogButton {
-    background: var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+	transition: all 0.2s ease-out !important;
+	border-radius: 5px !important;
+}
+
+.DesktopUI .DialogFooter button.DialogButton {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+button.DialogButton:hover, button.DialogButton.gpfocus {
+    background: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	transition: all 0.2s ease-out !important;
+}
+
+button.DialogButton:active, button.DialogButton.gpfocus {
+    background: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	box-shadow: inset 1px 1px 6px 2px #0000008f !important;
+	transition: all 0.2s ease-out !important;
+}
+
+button.DialogButton::before {
+    box-shadow: none !important;
 }
 
 .DialogTextInputBase, ._DialogInputContainer {
@@ -7568,10 +7599,6 @@ div.rightcol {
 
 #primary_language_droplist {
     background-color: var(--minimal_dark_be_grey) !important;
-}
-
-button.DialogButton {
-    border-radius: 5px !important;
 }
 
 body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.DialogTextInputBase:not(:disabled):hover, body.profile_edit_page input.DialogTextInputBase:disabled:hover, body.profile_edit_page input.DialogTextInputBase:focus {
@@ -8946,7 +8973,7 @@ p.reason.info:before {
 }
 
 ._1uSw_aqus0W7yb3vT9_-22 {
-    background-color: var(--minimal_dark_blacker) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 }
@@ -9261,6 +9288,55 @@ body.v6 .sale_capsule .discount_block_inline {
     background: var(--minimal_dark_blacker_alt) !important;
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.wishlist .hr {
+	display: none !important;
+}
+
+._3zXpFCyX2IiaD-MNF5KJFf {
+    background: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._2xZaMR-NKc0LbkeM50cZq8 {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._3KAysk4dlhWETa6ixz7V2j {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+._3KAysk4dlhWETa6ixz7V2j:hover, :hover>._3KAysk4dlhWETa6ixz7V2j {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.QFW0BtI4l77AFmv1xLAkx, ._3B8wRA4H7e_oSksYNqpSPv, ._2NdiftmP-B3C4LPWnNGTCB, ._25gii5r23MmAqXvLZj24tK, ._3k90ug209sE23xAMqcM74s {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.QFW0BtI4l77AFmv1xLAkx:hover {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.QFW0BtI4l77AFmv1xLAkx._1B1XTNsfuwOaDPAkkr8M42 {
+    background-color: rgba(var(--minimal_dark_color_rgba),.1) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.DialogCheckbox_Container .DialogCheckbox {
+    border-radius: 20px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.DialogCheckbox.Active {
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 /* end webkit */
