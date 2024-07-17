@@ -476,14 +476,13 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
 }
 
 button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, button.DialogButton:enabled:active.gpfocus {
-    background: var(--minimal_dark_invisblegrey);
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,.6);
-    transition-duration: .04s;
+    box-shadow: inset 0px 1px 4px 1px rgb(0 0 0 / 60%) !important;
+	transition: all 0.2s ease-out !important;
+	background: var(--minimal_dark_blacker_alt) !important;
 }
 
-button.DialogButton:hover, button.DialogButton.gpfocus {
-    background: var(--minimal_dark_greyblack);
-    color: #fff;
+button.DialogButton::before {
+    box-shadow: none !important;
 }
 
 .DialogContent, .DialogContentTransition {
@@ -493,33 +492,35 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 button.DialogButton {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    border: 0;
-    font: inherit;
-    overflow: visible;
-    padding: 0;
-    margin: 2px 0;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    display: block;
-    line-height: 32px;
-    color: #dfe3e6;
-    font-size: 14px;
-    text-align: center;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
-    cursor: pointer;
-    width: 100%;
-    transition-property: opacity,background,color,box-shadow;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    background: var(--minimal_dark_be_grey);
-    background-position: 99% 1%;
-    background-size: 300% 300%;
-    position: relative;
+	transition: all 0.2s ease-out !important;
+	border-radius: 5px !important;
+}
+
+.DesktopUI .DialogFooter button.DialogButton {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+button.DialogButton:hover, button.DialogButton.gpfocus {
+    background: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	transition: all 0.2s ease-out !important;
+}
+
+button.DialogButton:active, button.DialogButton.gpfocus {
+    background: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	box-shadow: inset 1px 1px 6px 2px #0000008f !important;
+	transition: all 0.2s ease-out !important;
+}
+
+button.DialogButton::before {
+    box-shadow: none !important;
 }
 
 .DialogTextInputBase, ._DialogInputContainer {
@@ -564,7 +565,7 @@ button.DialogButton {
 }
 
 ._2y2tUbsMx8OIwkimGSyHmb {
-    background: var(--minimal_dark_be_grey);
+    background: var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 }
 
@@ -998,14 +999,23 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 }
 
 .MCa4RMSvWJwwWjcZP2wTT ._1oERP7bVictkby2hP4BBva {
-    background-color: var(--minimal_dark_black) !important;
+    background-color: var(--minimal_dark_blacker) !important;
     border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
 }
 
 .MCa4RMSvWJwwWjcZP2wTT ._1oERP7bVictkby2hP4BBva:hover {
-    background-color: var(--minimal_dark_blacker);
-    transition-property: background;
-    transition-duration: 250ms;
+    background-color: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
+	color: var(--minimal_dark_color) !important;
+}
+
+.MCa4RMSvWJwwWjcZP2wTT ._1oERP7bVictkby2hP4BBva:active {
+    background-color: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
+    box-shadow: 1px 1px 2px 2px rgb(0 0 0 / 20%) inset !important;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
@@ -1204,7 +1214,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 
 ._1tsEfG-JyQFR7Un1HPOt98._2GC8qj5JitCjVasS9wQzax {
     background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
     border-radius: 5px !important;
 }
 
@@ -1314,16 +1324,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     color: var(--minimal_dark_red2) !important;
 }
 /* end vr headset icon topbar */
-
-.DesktopUI .DialogFooter button.DialogButton {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    background: var(--minimal_dark_blacker_alt) !important;
-}
-
-button.DialogButton:hover, button.DialogButton.gpfocus {
-    background: var(--minimal_dark_black) !important;
-    color: var(--minimal_dark_color) !important;
-}
 
 ._3mz8wQ6Q44B8P7pzPP4Iyw {
     border: 0px solid var(--minimal_dark_be_grey) !important;
