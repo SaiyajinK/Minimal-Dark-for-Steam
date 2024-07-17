@@ -215,12 +215,9 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 .MmdBjSLHW3AVSShFBJVNt, ._2caCrhFIrYqRuguK-cB6be {
     height: 36px !important;
-    padding: 0px;
-    position: relative;
     background-color: var(--minimal_dark_blacker) !important;
     border-radius: 5px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    margin: 0 auto 2px auto;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
 }
 
 .MmdBjSLHW3AVSShFBJVNt:hover, ._2caCrhFIrYqRuguK-cB6be:hover {
