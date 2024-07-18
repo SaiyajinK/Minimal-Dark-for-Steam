@@ -9,7 +9,7 @@ Be understanding if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-![Minimal_Dark](https://github.com/user-attachments/assets/ad86e37d-4ff9-4263-ad12-70834cfc05fe) <br>
+![Minimal_Dark](https://github.com/user-attachments/assets/4d3903bd-8f54-4a79-9b10-3df2ef7ee24b) <br>
 
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
