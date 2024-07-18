@@ -6416,6 +6416,7 @@ body.v6 .deep_dive_key_tags {
     border: 1px solid var(--minimal_dark_color) !important;
     color: var(--minimal_dark_color) !important;
     background-image: linear-gradient(to left, transparent, transparent 50%, rgba(var(--minimal_dark_color_rgba),.25) 50%, rgba(var(--minimal_dark_color_rgba),.25)) !important;
+    border-radius: 5px !important;
 }
 
 button.DialogButton {
@@ -6465,6 +6466,8 @@ button.DialogButton::before {
 
 .profile_showcase_selector {
     background: var(--minimal_dark_blacker_alt) !important;
+	border-top: 1px solid transparent !important;
+    border-bottom: 1px solid transparent !important;
 }
 
 select.gray_bevel {
@@ -6473,6 +6476,23 @@ select.gray_bevel {
 
 .customization_controls select {
     border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.customization_controls select:hover {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.customization_controls select:active {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_color) !important;
+    box-shadow: inset 0px 1px 10px black !important;
 }
 
 ._1IEiKQnjHpIv-m601y6hvP.K-lPMiafCuZRqjfXykujt {
@@ -7612,6 +7632,7 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 
 ._2ipSt29jAqoPXf-_iTAL0- {
     border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 ._2T2D7Afq6aW35s3wV5Tgkz .LhNoIaEKN1cIpOrnt59wq {
@@ -9337,6 +9358,77 @@ body.v6 .sale_capsule .discount_block_inline {
 
 .DialogCheckbox.Active {
     border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.aCrGPGVeH6HvzyPW8PaAj ._22EnaYFQb5I0kYtH2UHEhV {
+    transform: translate(-2px, 0px) !important;
+}
+
+._189ERe_A-jhzSSRw4f2Hw ._2Zeggw-2qC5ma2qpjzHRlF {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._1kB6_rUcA_VRp7MER6E0Vi ._1JFlRrkeYJegFK8xCBRfYw._19sKX1Sg9icPcVJAPT7kN0 {
+    background: transparent !important;
+}
+
+._39ksjd1_LKKPt0CIOhnMF7 ._33SnKgfa_4ZtACekXcqli0 ._36oStJXlvGWLdFxYUgNyg- {
+    border-radius: 5% !important;
+    border: solid 4px var(--minimal_dark_be_grey) !important;
+}
+
+._1yHxtA_qbj9xWiLkUiovpE ._1C_n640PvrV_-DCXwOeCZY {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.showcase_selection_pre {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
+}
+
+.showcase_selection_post {
+    border-right: 1px solid var(--minimal_dark_color) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
+}
+
+.ProfilePrivacyHeader {
+    color: var(--minimal_dark_color) !important;
+}
+
+.react-select__indicator-separator {
+    background-color: var(--minimal_dark_be_grey) !important;
+}
+
+.react-select-container .react-select__control {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.react-select-container .react-select__control:hover {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.react-select-container .react-select__menu {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.react-select-container .react-select__menu .react-select__option--is-selected {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.react-select-container .react-select__menu .react-select__option:hover {
+    color: var(--minimal_dark_color) !important;
+	background: var(--minimal_dark_blacker) !important;
+}
+
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.GreenEnvelopeMenu, .PP7LM0Ow1K5qkR8WElLpt {
+    background: var(--minimal_dark_black) !important;
+	border-radius: 5px !important;
 }
 
 /* end webkit */
