@@ -9413,7 +9413,8 @@ body.v6 .sale_capsule .discount_block_inline {
 
 .GreenEnvelopeMenu, .PP7LM0Ow1K5qkR8WElLpt {
     background: var(--minimal_dark_black) !important;
-	border-radius: 5px !important;
+    border-radius: 5px !important;
+    /* border: 1px solid var(--minimal_dark_blacker_alt) !important; */
 }
 
 .Cek1s5Ixk2xYmkqjjESD0, ._2dGPTYWTKq3CirJwPXKw2b {
