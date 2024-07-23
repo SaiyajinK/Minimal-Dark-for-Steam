@@ -9412,7 +9412,7 @@ body.v6 .sale_capsule .discount_block_inline {
 }
 
 .GreenEnvelopeMenu, .PP7LM0Ow1K5qkR8WElLpt {
-    background: var(--minimal_dark_black) !important;
+    background: var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
     /* border: 1px solid var(--minimal_dark_blacker_alt) !important; */
 }
@@ -9501,6 +9501,28 @@ a.btnv6_blue_hoverfade.btn_medium:active {
 
 ._3n8swQFM3I_ARVM_5bPhAs {
     border-radius: 5px !important;
+}
+
+.X9bYNT3rKpg6L1Cgq45pG {
+    background-color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.friends_content {
+    margin-top: 36px !important;
+}
+
+._1xwi06sEKXpwIpZcgHle_h {
+    background-color: rgb(0 0 0 / 0%) !important;
+}
+
+._1HjkZ3ooQw-4TV518YPtvp {
+    background-color: rgb(144 144 144 / 0%) !important;
+    border-radius: 5px !important;
+}
+
+._2N55HNCo3jLIzL6RNNlRUo {
+    background-color: rgb(0 0 0 / 0%) !important;
 }
 
 /* end webkit */
