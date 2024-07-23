@@ -436,6 +436,10 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
 }
 
+._1Hye7o1wYIfc9TE9QKRW4T {
+    background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
+}
+
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
     fill: var(--minimal_dark_color) !important;
 }
