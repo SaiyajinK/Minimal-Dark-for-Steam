@@ -244,16 +244,16 @@
 }
 
 .titleBarContainer.ChatTabs {
-    background-color: var(--minimal_dark_blacker_alt);
+    background-color: var(--minimal_dark_blacker_alt) !important;
     border: none;
     border-bottom: none;
     border-left: none;
-    box-shadow: inset 1px 1px 0px rgba(71,71,71,.3);
+    box-shadow: inset 1px 1px 0px rgba(71,71,71,.3); !important;
 }
 
 .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj {
-    background-color: var(--minimal_dark_black);
-    border-top: 1px solid var(--minimal_dark_color);
+    background-color: var(--minimal_dark_black) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
 .chatWindow {
@@ -266,7 +266,7 @@
     flex-direction: column;
     word-wrap: break-word;
     word-break: break-word;
-    background: var(--minimal_dark_blacker_alt);
+    background: var(--minimal_dark_blacker_alt) !important;
     font-size: 14px;
 }
 
@@ -278,7 +278,7 @@
     padding-top: 6px;
     padding-left: 6px;
     padding-right: 6px;
-    background-color: var(--minimal_dark_blacker);
+    background-color: var(--minimal_dark_blacker) !important;
     transition: all .21s ease-in-out;
     flex-wrap: wrap;
     justify-content: center;
@@ -286,11 +286,11 @@
 
 .chatWindow .chatHeader {
     flex-shrink: 0;
-    background-color: var(--minimal_dark_black);
+    background-color: var(--minimal_dark_black) !important;
     min-height: 4px;
     transition: background-color .2s ease-in-out;
     position: relative;
-    background: var(--minimal_dark_black);
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 
 ._2gP0DqVyb1aEACymAe6if3 {
@@ -311,7 +311,7 @@
     flex: 0;
     min-width: 46px;
     position: relative;
-    background-color: var(--minimal_dark_black);
+    background-color: var(--minimal_dark_black) !important;
     margin: 0px;
     margin-top: 0px;
     max-width: 46px;
@@ -345,21 +345,8 @@
 }
 
 .VoiceToggle {
-    max-width: 46px;
-    min-width: 46px;
-    max-height: 46px;
-    width: 46px;
-    height: 46px;
-    margin: 0px;
-    background: var(--minimal_dark_black);
-    border: none;
-    border: 1px solid #1b1c20;
-    box-shadow: none;
-    padding: 0px;
-    cursor: pointer;
-    transition-property: width,max-width,border-radius,border,background-color;
-    transition-duration: .3s;
-    display: flex;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 }
 
@@ -977,6 +964,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     margin: 2px 16px 2px 16px !important;
     border: 1px solid #262626c9 !important;
     border-radius: 5px !important;
+    padding-right: 12px !important;
 }
 
 .friendStatusHover.online:hover, .friendStatusHover.online.Friend_ContextMenuActive {
@@ -1048,8 +1036,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 html.client_chat_frame body, html.web_chat_frame body {
-    background: var(--minimal_dark_blacker_alt) !important;
-	/* background: transparent !important; */
+    /* background: var(--minimal_dark_blacker_alt) !important; */
+	background: transparent !important;
     border-radius: 5px !important;
 }
 
@@ -1246,8 +1234,8 @@ button.DialogButton.Primary {
 }
 
 .ChatTabs.HasWindowControls {
-    height: 50px !important;
-    padding-left: 4px !important;
+    height: 43px !important;
+    padding-left: 9px !important;
 }
 
 .chatTabSelector .SVGIcon_DownArrowContextMenu {
@@ -1462,4 +1450,152 @@ button.DialogButton.Primary {
 .quickAccessFriends:not(.emptyQuickAccess) {
     padding-top: 32px !important;
     padding-left: 16px !important;
+}
+
+._3Ule3rolhZJiBN4yNNtk1s {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    padding-right: 2px;
+    border-radius: 5px !important;
+}
+
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
+    background: transparent !important;
+    border-radius: 5px !important;
+    border: transparent !important;
+}
+
+._2XZq-_f6npaQdAgeRzKIkz {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-right: 10px !important;
+    border-radius: 5px !important;
+}
+
+._2XZq-_f6npaQdAgeRzKIkz:before, ._2XZq-_f6npaQdAgeRzKIkz:last-of-type:after {
+    background: transparent !important;
+}
+
+.HorizontalMiniSliderScroll {
+    overflow-x: initial !important;
+}
+
+._2QPdq7GZ_03AD1ioPixVXW {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: all 0.2s ease-out !important;
+}
+
+._2XZq-_f6npaQdAgeRzKIkz:hover:not(.Yd-DsWkYiFiYwpci--Yk_) {
+    background-color: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: all 0.2s ease-out !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
+}
+
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_:hover {
+    background-color: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+	transition: all 0.2s ease-out !important;
+	border-bottom: 1px solid var(--minimal_dark_color) !important;
+}
+
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
+    background-color: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
+    transition: all 0.2s ease-out !important;
+}
+
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):focus .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):hover .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) .SVGIcon_Button.SVGIcon_Submit path {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.Aupswi7-c-w3XwNO5cp2i:hover, .Aupswi7-c-w3XwNO5cp2i:focus {
+    background-color: var(--minimal_dark_be_grey) !important;
+    color: #fff;
+}
+
+.RVIs84dAE6wHcjH9tkinc {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._1DsumfIa3MlkzUV9EXY5W9.online ._2n0EiKMGRP-r_BI5tDtttu {
+    color: orange !important;
+}
+
+.online .awayOrSnooze .nOdcT-MoOaXGePXLyPe0H {
+    color: #f7a24b !important;
+}
+
+.online .awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN {
+    color: #cd9a5a !important;
+}
+
+._1DsumfIa3MlkzUV9EXY5W9.in-game ._2n0EiKMGRP-r_BI5tDtttu {
+    color: orange !important;
+}
+
+.GreenEnvelopeMenu, .PP7LM0Ow1K5qkR8WElLpt {
+    background: var(--minimal_dark_blacker_alt) !important;
+	border-radius: 5px !important;
+	padding: 0px !important;
+}
+
+.friend.awayOrSnooze .labelHolder {
+    opacity: 1 !important;
+}
+
+/* .ingame .awayOrSnooze .nOdcT-MoOaXGePXLyPe0H { */
+    /* color: #f7a24b !important; */
+/* } */
+
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+}
+
+html.client_chat_frame .popup_chat_frame {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+._2WfNoLBdfKwyutA6ho4aSH {
+    border-radius: 5px !important;
+}
+
+.KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_MobilePhone path {
+    fill: #f7a24b !important;
+}
+
+.online ._3xUpb5DWXPFNcHHIcv-9pe {
+    border-radius: 5px !important;
+    width: 5px !important;
+    height: 5px !important;
+}
+
+._3qYm9oxf8MdyvQDJgbfCrF:hover {
+    background-color: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+}
+
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN {
+    color: #f7a24b !important;
+}
+
+._1JXI4j2_xSpVK1YjyEuebr:hover .SVGIcon_X_Line line {
+    stroke: var(--minimal_dark_red2) !important;
+}
+
+.ConnectionTroubleContent {
+    background: var(--minimal_dark_color) !important;
+}
+
+._1xTATKELHR-lRS_s3A4yzd ._3CZcHyWskP9Hc5t7AOo75A {
+    height: auto !important;
 }
