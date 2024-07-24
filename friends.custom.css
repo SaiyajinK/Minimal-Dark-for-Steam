@@ -668,7 +668,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .friendlistListContainer .friend .avatarHolder .avatarStatus, .FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
-    display: block;
+    /* display: block; */
+	display: none !important;
     position: absolute;
     right: 0;
     top: 1px;
@@ -1449,7 +1450,7 @@ button.DialogButton.Primary {
 
 .quickAccessFriends:not(.emptyQuickAccess) {
     padding-top: 32px !important;
-    padding-left: 16px !important;
+    padding-left: 14px !important;
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s {
@@ -1598,4 +1599,25 @@ html.client_chat_frame .popup_chat_frame {
 
 ._1xTATKELHR-lRS_s3A4yzd ._3CZcHyWskP9Hc5t7AOo75A {
     height: auto !important;
+}
+
+.X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
+	display: none !important;
+}
+
+._3h-QRJGxnVOIExtHD1R0f2 {
+    border-radius: 5px !important;
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
+}
+
+.friend.quickAccessFriend {
+    border: 1px solid transparent !important;
+}
+
+.ChatTabContent .avatarHolder .avatarStatus, .friend.quickAccessFriend .avatarHolder .avatarStatus {
+    display: none !important;
+}
+
+.nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right, .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
+    display: none !important;
 }
