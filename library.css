@@ -914,12 +914,14 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
 
 ._2oAiZidGyUxL-hfupFDQ2m:hover {
     background: var(--minimal_dark_blacker) !important;
-	border-radius: 5px !important;
+    border-radius: 5px !important;
+	color: var(--minimal_dark_color) !important;
 }
 
 ._2oAiZidGyUxL-hfupFDQ2m:active {
-    background: var(--minimal_dark_white) !important;
-	border-radius: 5px !important;
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+	color: var(--minimal_dark_white) !important;
 }
 
 .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI {
