@@ -564,10 +564,16 @@ button.DialogButton::before {
     border-radius: 5px !important;
 }
 
-.DesktopUI .pFo3kQOzrl9qVLPXXGIMp:hover  {
+.DesktopUI .pFo3kQOzrl9qVLPXXGIMp:hover {
     background: var(--minimal_dark_blacker);
     color: var(--minimal_dark_color) !important;
-	border-radius: 5px !important;
+    border-radius: 5px !important;
+    /* padding-left: 22px !important; */
+}
+
+.ModalDialogPopup .DialogContent {
+    overflow: visible;
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .contextMenuItem:hover ._2QcdrheE9WasLLyJYHymUv._33a4zs_vxXCtw7vFTwb3XG, .contextMenuItem:hover ._2QcdrheE9WasLLyJYHymUv._54dy2uxVcadf_1e6Poifs {
