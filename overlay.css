@@ -87,11 +87,11 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F:nth-of-type(1) {
 
 ._1I3NifxqTHCkE-2DeritAs.DesktopUI, .DesktopUI ._1I3NifxqTHCkE-2DeritAs {
     padding: 28px 6px 0px 16px !important;
-    background: var(--minimal_dark_blacker);
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .UqEiVDhZ47cn3vWxM7cR0.DesktopUI, .DesktopUI .UqEiVDhZ47cn3vWxM7cR0 {
-    background-color: var(--minimal_dark_black);
+    background: var(--minimal_dark_blacker_alt) !important;
     padding: 6px 0;
     line-height: 16px;
 }
@@ -1061,4 +1061,8 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 	border: 1px solid var(--minimal_dark_be_grey) !important;
 	left: 22px !important;
     top: 59px !important;
+}
+
+._3few7361SOf4k_YuKCmM62.MzjwfxXSiSauz8kyEuhYO {
+    background: var(--minimal_dark_blacker_alt) !important;
 }
