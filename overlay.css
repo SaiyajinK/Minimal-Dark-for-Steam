@@ -371,7 +371,9 @@ button.DialogButton:disabled:hover, button.DialogButton.Disabled:hover {
 }
 
 ._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m ._3f3VJUtyLXUf_JDFE-BaQ6 {
-    background: var(--minimal_dark_be_grey);
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 button.DialogButton {
