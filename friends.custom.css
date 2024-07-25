@@ -665,6 +665,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .friendGroup .groupName {
     margin-left: 15px !important;
+    padding-bottom: 10px !important;
+    margin-top: 0px !important;
 }
 
 .friendlistListContainer .friend .avatarHolder .avatarStatus, .FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
