@@ -1036,9 +1036,15 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     border-radius: 5px !important;
 }
 
-html.client_chat_frame body, html.web_chat_frame body {
+html.client_chat_frame body {
     /* background: var(--minimal_dark_blacker_alt) !important; */
-	background: transparent !important;
+    background: transparent !important;
+    border-radius: 5px !important;
+}
+
+html.web_chat_frame body {
+    background: var(--minimal_dark_blacker_alt) !important;
+    /* background: transparent !important; */
     border-radius: 5px !important;
 }
 
