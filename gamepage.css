@@ -48,10 +48,26 @@
 }
 
 ._39RheXihcN6H2k2muQTjkI ._3DeO92O5aVkcdwEBCJDjWm {
-    backdrop-filter: blur(10px);
-    background-color: #121212ab;
-    margin-top: -15px;
-    padding-top: 15px;
+    backdrop-filter: blur(10px) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    margin-top: -1px !important;
+    padding-top: 0px !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._2_86QNCjVvJTL3Qe6Xztx_._2sKVnd_AUg44QSdoAp8Lne {
+    opacity: 1;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    background: transparent !important;
+    width: 99.4% !important;
+}
+
+._1YbtIWcfkQJOysLXQbwzRf ._2MBVRXpsw6DUjs7937DWZW ._1iNIp1p3ZhPoBwZbkmdb8o {
+    border-radius: 5px !important;
+}
+
+._1YbtIWcfkQJOysLXQbwzRf ._2MBVRXpsw6DUjs7937DWZW {
+    height: 34px !important;
 }
 
 ._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t {
@@ -628,7 +644,8 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 }
 
 ._3Y87YQY56ZCOqhgcZFaDc5 {
-    padding: 7px 20px 2px 20px !important;
+    padding: 5px 20px 2px 20px !important;
+    background: transparent !important;
 }
 
 ._3qDWQGB0rtwM3qpXTb11Q- {
