@@ -470,11 +470,6 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
     color: var(--minimal_dark_more_less_white);
 }
 
-.DialogContent, .DialogContentTransition {
-    background: var(--minimal_dark_blacker);
-    user-select: none;
-}
-
 button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, button.DialogButton:enabled:active.gpfocus {
     box-shadow: inset 0px 1px 4px 1px rgb(0 0 0 / 60%) !important;
 	transition: all 0.2s ease-out !important;
