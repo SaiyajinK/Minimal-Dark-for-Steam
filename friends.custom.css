@@ -1064,6 +1064,10 @@ html.web_chat_frame body {
     height: auto !important;
 }
 
+._3QoRRxsgnDolcCPCrAPm47 .TzmYo1OP0E5U3PkUBq2zY {
+    height: auto !important;
+}
+
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7 {
     background-color: rgba(var(--minimal_dark_color_rgba),.25) !important;
     padding-top: 0px !important;
@@ -1559,6 +1563,22 @@ button.DialogButton.Primary {
     /* color: #f7a24b !important; */
 /* } */
 
+._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze .drAAsgW-ufgBGjQ4mIfiJ, ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze ._2TAMH-SbRqivpq6WNRR-VH {
+    color: var(--minimal_dark_orange) !important;
+}
+
+._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze ._1oD1aSbwaTNwncgaVdaSv8 ._1nBxb6NZrm5NL86Cmgo4g2 {
+    color: #f7a24b !important;
+}
+
+._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game.awayOrSnooze ._1oD1aSbwaTNwncgaVdaSv8 ._1nBxb6NZrm5NL86Cmgo4g2 {
+    color: #f7a24b !important;
+}
+
+._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game.awayOrSnooze .K3kJzGQ5wihTMCijNJlBv:not(._2lhxiWpu1TQo8jSZm2VHsN) ._1NqKJdLf1QCef95pyZZwmL, ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game .K3kJzGQ5wihTMCijNJlBv._1oOq4b51Mdj1pZboaWOvOL ._1NqKJdLf1QCef95pyZZwmL {
+    color: var(--minimal_dark_orange) !important;
+}
+
 .RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
     background-color: var(--minimal_dark_blacker_alt) !important;
     border-radius: 5px !important;
@@ -1632,4 +1652,9 @@ html.client_chat_frame .popup_chat_frame {
 
 .currentUserContainer .nOdcT-MoOaXGePXLyPe0H {
     font-size: 14px !important;
+}
+
+.FriendInGameIcon img {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
