@@ -346,9 +346,13 @@
 }
 
 .N8aJrSpxQ6II4CY_aFdYI {
-    background: rgba(var(--minimal_dark_color_rgba), .5);
-    border-radius: 10px;
-    backdrop-filter: blur(40px);
+    background: #12121270 !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    line-height: 14px !important;
+    padding: 2px 8px !important;
 }
 
 ._1pwP4eeP1zQD7PEgmsep0W._54PuCatl_tYG836TOs4Mv:not(._3Lu_5jVxDAvsdeGpBzaQAt):hover ._2jj5TjFhHD1lvxMlpJYek6 {
