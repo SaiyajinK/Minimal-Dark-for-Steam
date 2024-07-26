@@ -851,20 +851,33 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
     border-bottom-right-radius: 5px !important;
 }
 
-.creator .popup_menu .popup_menu_item.focus, .creator .popup_menu .popup_menu_item:hover, .curator .popup_menu .popup_menu_item.focus, .curator .popup_menu .popup_menu_item:hover, .footer_content .popup_menu .popup_menu_item.focus, .footer_content .popup_menu .popup_menu_item:hover, .search_area .popup_body .match:hover, .search_area .popup_body .match:hover .match_name, .store_nav .popup_menu .popup_menu_item.focus, .store_nav .popup_menu .popup_menu_item:hover {
+.store_nav .popup_menu .popup_menu_item {
+    padding: 3px 6px 3px 6px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.store_nav .popup_menu .popup_menu_item:hover {
+    padding: 3px 6px 3px 6px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	background: transparent !important;
+}
+
+.creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name {
+    color: var(--minimal_dark_less_white) !important;
+    border-radius: var(--minimal_dark_corner0)!important;
+}
+
+.creator .popup_menu .popup_menu_item.focus, .creator .popup_menu .popup_menu_item:hover, .curator .popup_menu .popup_menu_item.focus, .curator .popup_menu .popup_menu_item:hover, .footer_content .popup_menu .popup_menu_item.focus, .footer_content .popup_menu .popup_menu_item:hover, .search_area .popup_body .match:hover, .search_area .popup_body .match:hover .match_name, .store_nav .popup_menu .popup_menu_item.focus {
     color: var(--minimal_dark_color) !important;
     background: var(--minimal_dark_invisblegrey) !important;
     border-radius: var(--minimal_dark_corner5) !important;
 }
 
 .store_nav .popup_menu .popup_menu_item:hover, .store_nav .popup_menu .popup_menu_item.focus {
-    border-bottom: 2px solid rgba(var(--minimal_dark_color_rgba),.5) !important;
+    border-bottom: 1px solid rgba(var(--minimal_dark_color_rgba),1) !important;
     color: var(--minimal_dark_color) !important;										
-}
-
-.creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name, .store_nav .popup_menu .popup_menu_item {
-    color: var(--minimal_dark_less_white) !important;
-    border-radius: var(--minimal_dark_corner0)!important;
 }
 
 .store_nav .tab.focus, .store_nav .tab.focus>span, .store_nav .tab:hover, .store_nav .tab:hover>span {
