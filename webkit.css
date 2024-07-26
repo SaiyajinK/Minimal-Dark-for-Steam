@@ -855,6 +855,7 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
     padding: 3px 6px 3px 6px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
+	transition: all 0.2s ease-out !important;
 }
 
 .store_nav .popup_menu .popup_menu_item:hover {
@@ -862,6 +863,7 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
     border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
 	background: transparent !important;
+	transition: all 0.2s ease-out !important;
 }
 
 .creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name {
