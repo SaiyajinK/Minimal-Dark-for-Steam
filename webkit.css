@@ -738,6 +738,8 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
     background: rgb(70 70 70 / 0.50) !important;
     border-radius: var(--minimal_dark_corner5) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+	box-shadow: inset 0px 0px 0px 1px rgb(255 255 255 / 10%) !important;
+	padding: 0px 0px !important;
 }
 
 .searchbox:hover {
@@ -754,8 +756,8 @@ a#store_search_link img {
 
 a#store_search_link img:hover {
 	filter: grayscale(1) invert(1);
-	cursor: default;
 	border-radius: 5px !important;
+	cursor: pointer !important;
 }
 
 a#store_search_link img:active {
@@ -765,9 +767,12 @@ a#store_search_link img:active {
 }
 
 input#store_nav_search_term {
-	font-size: 14px;
-	padding: 0px 0px 0px 0px;
-	transform: translate(0px, -1px);
+    font-size: 14px;
+    padding: 1px 0px 0px 1px;
+    color: var(--minimal_dark_orange) !important;
+    background: transparent !important;
+    width: 174px !important;
+    font-style: italic !important;
 }
 
 input::-webkit-input-placeholder {
@@ -1303,13 +1308,26 @@ a.home_marketing_message {
 }
 
 .carousel_container .carousel_thumbs>div {
-    border-radius: var(--minimal_dark_corner10)!important;
-    width: 15px!important;
-    height: 15px!important;
+    border-radius: 5px !important;
+    width: 14px !important;
+    height: 14px !important;
+    margin: 12px 4px !important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
+    background-color: #0000007a !important
+}
+
+.carousel_container .carousel_thumbs>div:hover {
+    border-radius: 5px !important;
+    width: 14px !important;
+    height: 14px !important;
+    margin: 12px 4px !important;
+    border: 2px solid var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_blacker) !important;
 }
 
 .carousel_container .carousel_thumbs > div.focus {
-    background-color: rgba(var(--minimal_dark_color_rgba),.8) !important;
+    background-color: rgba(var(--minimal_dark_color_rgba),.25) !important;
+	border: 2px solid rgba(var(--minimal_dark_color_rgba),1) !important;
 }
 
 .home_marketing_message>span {
@@ -7451,10 +7469,6 @@ body.v6 .deep_dive_tag {
 
 ._2qr1fNbf66KPlKVUK9DPxU, ._1B2KFfSCeANfYXihoXz87_ {
     border-radius: 5px !important;
-}
-
-.searchbox {
-    box-shadow: inset 0px 0px 0px 1px rgb(255 255 255 / 10%) !important;
 }
 
 .game_review_summary {
