@@ -9897,4 +9897,12 @@ html.touch ._3notzMjxQtogi11XHZMYXI .VI5mZtnq0CL7fw_2mxhfm:hover, ._3notzMjxQtog
     border-color: transparent !important;
 }
 
+html.responsive.touch div.nonresponsive_hidden {
+    display: none !important;
+}
+
+#ig_bottom {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
 /* end webkit */
