@@ -1697,3 +1697,16 @@ html.client_chat_frame .popup_chat_frame {
 ._3QoRRxsgnDolcCPCrAPm47 ._2rDsqxyJxBWUKDmY1lZ1Vw {
     box-shadow: none !important;
 }
+
+.Dialog_EditNickName .friend .avatarMedium, .Dialog_ChangePersonaName .friend .avatarMedium {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.Dialog_EditNickName .friend.online .DialogTextInputBase, .Dialog_ChangePersonaName .friend.online .DialogTextInputBase {
+    color: var(--minimal_dark_color) !important;
+}
+
+.Dialog_ChangePersonaName .friend .labelHolder {
+    color: var(--minimal_dark_installed_games) !important;
+}
