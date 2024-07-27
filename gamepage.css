@@ -1094,3 +1094,16 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
     width: 1px !important;
     margin: 24px 24px 16px 24px !important;
 }
+
+._27mfPohuGzwxwaotA5Pk9 {
+    color: var(--minimal_dark_color) !important;
+}
+
+._2ydoRKFVIxw7ZQ2k73pC27 {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._2ydoRKFVIxw7ZQ2k73pC27:hover {
+    background-color: rgba(0,0,0,.1);
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
