@@ -711,15 +711,29 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .online ._1yIzy56YfJIliF6ykwhP2r {
-    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%) !important;
+    /* background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%) !important; */
+    background: transparent !important;
+	box-shadow: none !important;
 }
 
 .ingame ._1yIzy56YfJIliF6ykwhP2r {
-    background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%) !important;
+    /* background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%) !important; */
+    background: transparent !important;
+}
+
+.ingame.awayOrSnooze ._1yIzy56YfJIliF6ykwhP2r {
+    /* background: orange !important; */
+	background: transparent !important;
+}
+
+.awayOrSnooze ._1yIzy56YfJIliF6ykwhP2r {
+    /* background: orange !important; */
+	background: transparent !important;
 }
 
 .offline ._1yIzy56YfJIliF6ykwhP2r {
-    background: #7a7a7a !important;
+    /* background: #7a7a7a !important; */
+    background: transparent !important;
 }
 
 .chattabs_ChatTabContent_Friend_2ZiZ7 .friend .avatarHolder .avatarStatus {
@@ -727,15 +741,6 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     top: 1px !important;
     width: 6px !important;
     height: 6px !important;
-}
-
-.awayOrSnooze ._1yIzy56YfJIliF6ykwhP2r {
-    background: orange !important;
-    -webkit-mask: none !important;
-    -webkit-mask-size: 5px 5px !important;
-    mask: none !important;
-    mask-size: none !important;
-    opacity: 1 !important;
 }
 
 ._3atbNcPD1_nRVTjOvryjWe ._338kJp62vHY5iDbsraaiKD {
@@ -1687,4 +1692,8 @@ html.client_chat_frame .popup_chat_frame {
 ._1xTATKELHR-lRS_s3A4yzd ._7-U6jtoeGvesTm7JFGH0- .A0XYrZMFUpzFpMU7qBrhJ {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._3QoRRxsgnDolcCPCrAPm47 ._2rDsqxyJxBWUKDmY1lZ1Vw {
+    box-shadow: none !important;
 }
