@@ -9873,4 +9873,28 @@ html.touch ._3notzMjxQtogi11XHZMYXI .VI5mZtnq0CL7fw_2mxhfm:hover, ._3notzMjxQtog
     border-right: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
+.miniprofile_playersection {
+    height: auto !important;
+}
+
+.border_color_online {
+    border-color: transparent !important;
+}
+
+.border_color_offline {
+    border-color: transparent !important;
+}
+
+.border_color_ingame {
+    border-color: transparent !important;
+}
+
+.border_color_ingame_awayOrSnooze {
+    border-color: transparent !important;
+}
+
+.border_color_awayOrSnooze {
+    border-color: transparent !important;
+}
+
 /* end webkit */
