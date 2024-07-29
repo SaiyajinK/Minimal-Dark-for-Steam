@@ -131,26 +131,28 @@
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE {
-    color: var(--minimal_dark_installed_games);
+    color: var(--minimal_dark_installed_games) !important;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE:hover {
-    color: var(--minimal_dark_white);
+    color: var(--minimal_dark_color) !important;
 	margin-left: 2px !important;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9._2ws8DONH9fxQjPXEmRpujE {
-    color: var(--minimal_dark_color);
+    color: var(--minimal_dark_color) !important;
 	margin-left: 2px !important;
+	font-weight: bold !important;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph:hover {
-    color: var(--minimal_dark_white);
+    color: var(--minimal_dark_color) !important;
 	margin-left: 2px !important;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9._5YTBr7WwIfzVU_3nUtAph {
-    color: var(--minimal_dark_red2);
+    color: var(--minimal_dark_red2) !important;
+    margin-left: 2px !important;
 }
 
 ._1UBpAXP408Ez_L_mXhW5Q9 {
@@ -325,4 +327,14 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
     margin-left: 2px !important;
     margin-right: 1px !important;
     color: rgba(var(--minimal_dark_color_rgba),.4) !important;
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph {
+    color: #a3aab9b0 !important;
+    font-weight: lighter !important;
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 {
+    padding: 3px 0px 2px 24px !important;
+    font-weight: lighter !important;
 }
