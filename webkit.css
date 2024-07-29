@@ -3583,7 +3583,14 @@ body.v6 #footer .rule {
 }
 
 .game_area_comingsoon {
-    border-radius: var(--minimal_dark_corner5)!important;
+    border-radius: 5px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.game_area_comingsoon .wishlist_add_reminder {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
 }
 
 .game_page_autocollapse_fade {
@@ -5815,10 +5822,6 @@ body.v6 .game_page_background {
     background-color: var(--minimal_dark_be_grey);
     color: var(--minimal_dark_color) !important;
 	border-radius: 5px !important;
-}
-
-.game_area_comingsoon {
-    background: var(--minimal_dark_lightgrey);
 }
 
 .game_area_purchase_game.demo_above_purchase {
