@@ -150,3 +150,7 @@ button.DialogButton::before {
 ._1SyggnJY6qbRSmbZpkK3-H ._2ns4wnmgr4XBzARpwn2NZ1 ._3WavcSX0NkHlBh5fICWKyB {
     color: var(--minimal_dark_yellow) !important;
 }
+
+._3mZ2rKd2RECK4q4ufmsDYX ._2VT4s72bqcVb83Su1b1VEv, ._3mZ2rKd2RECK4q4ufmsDYX ._1H3SuC0g9zjHUSMZY2T32U {
+    border: 1px solid transparent !important;
+}
