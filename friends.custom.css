@@ -635,7 +635,8 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .namedGroup .chatRoomGroupHeader {
-    padding: 0px 3px 3px 5px;
+    /* padding: 0px 3px 3px 5px; */
+    padding: 6px 12px 6px 12px !important
 }
 
 .ChatRoomAddRoomBtn:hover:not(.NoPermission) .SVGIcon_PlusCircle {
