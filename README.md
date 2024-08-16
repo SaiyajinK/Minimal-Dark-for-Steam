@@ -9,7 +9,7 @@ Be understanding if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-![Minimal_Dark](https://github.com/user-attachments/assets/4d3903bd-8f54-4a79-9b10-3df2ef7ee24b) <br>
+![minimal](https://github.com/user-attachments/assets/02eebc2e-fbd8-48fa-9c4e-f2f05b434d9b) <br>
 
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
@@ -35,20 +35,20 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![compact_friends](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/9bdb9fd9-8f27-4aca-9950-a891a2f0491f) <br>
+![minimal__](https://github.com/user-attachments/assets/a3328862-364b-4da2-aca0-d7dbc31e876a) <br>
 
 ## `👤 Profil 👤` <br> 
 
 Some profiles have neon lights around the headers, I removed them by default.<br>
 If you want to remove this, open `webkit.css` and remove line `100`<br>
 
-![profilr](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/9217ab11-81ad-416a-b9ea-75a4ce29d179) <br>
+![minimal_](https://github.com/user-attachments/assets/8569c004-6afe-4037-8fac-044480b631a4) <br>
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
 All aspects were changed to match my theme. <br>
 
-![webkit](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/assets/105972098/20b7727c-f64c-4187-9031-f3f487178735) <br>
+![minimal___](https://github.com/user-attachments/assets/5c66213e-8a71-4a2d-94ad-8e0223509572) <br>
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
