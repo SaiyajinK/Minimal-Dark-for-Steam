@@ -1,4 +1,4 @@
-[![KoFi](https://i.imgur.com/Z38C3oz.png)](https://ko-fi.com/saiyajink)
+[![KoFi](https://i.imgur.com/FOh851q.png)](https://ko-fi.com/saiyajink)
 
 ## ⚡ Minimal Dark for Steam ⚡ <br> 
 
@@ -87,4 +87,4 @@ All aspects were changed to match my theme. <br>
 
 ------
 
-[![KoFi](https://i.imgur.com/Z38C3oz.png)](https://ko-fi.com/saiyajink)
+[![KoFi](https://i.imgur.com/FOh851q.png)](https://ko-fi.com/saiyajink)
