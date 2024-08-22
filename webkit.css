@@ -9908,4 +9908,14 @@ html.responsive.touch div.nonresponsive_hidden {
     background: var(--minimal_dark_blacker_alt) !important;
 }
 
+.emoticon_hover_arrow {
+    display: none !important;
+}
+
+.emoticon_hover_content {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
 /* end webkit */
