@@ -154,3 +154,11 @@ button.DialogButton::before {
 ._3mZ2rKd2RECK4q4ufmsDYX ._2VT4s72bqcVb83Su1b1VEv, ._3mZ2rKd2RECK4q4ufmsDYX ._1H3SuC0g9zjHUSMZY2T32U {
     border: 1px solid transparent !important;
 }
+
+._3mZ2rKd2RECK4q4ufmsDYX.pHDI1ddoKXceD5KL7W-4z {
+    background: rgba(var(--minimal_dark_color_rgba),.5) !important;
+}
+
+._117rQTHH1RIewY7sSlvg3Z {
+    color: var(--minimal_dark_greensettings) !important;
+}
