@@ -3396,8 +3396,10 @@ img.game_header_image_full {
 .ds_flag.ds_completetheset {
     border-radius: var(--minimal_dark_corner5)!important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-	color: var(--minimal_blacker_alt) !important;
+    color: var(--minimal_blacker_alt) !important;
     font-weight: 700 !important;
+    background: #12121285 !important;
+    backdrop-filter: blur(10px) !important;
 }
 
 .game_description_column h2,.recommendation_bodytext h2 {
@@ -3804,7 +3806,9 @@ body.v6 #footer .rule {
 }
 
 .sale_page_purchase_content .bundle_contents_preview {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius: 5px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .ds_flag.ds_wishlist_flag {
@@ -4453,7 +4457,9 @@ a.readmore_link {
 }
 
 .bundle_contents_preview {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: 5px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .group_content_header .group_content_header_viewmore {
