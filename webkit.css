@@ -9412,7 +9412,7 @@ body.v6 .sale_capsule .discount_block_inline {
 }
 
 .DialogCheckbox.Active {
-    border: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid transparent !important;
 }
 
 .aCrGPGVeH6HvzyPW8PaAj ._22EnaYFQb5I0kYtH2UHEhV {
