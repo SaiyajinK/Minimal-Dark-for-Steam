@@ -465,14 +465,16 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .chatTabSelector {
-    background: var(--minimal_dark_black) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     width: 24px !important;
     border-radius: 5px !important;
-    margin-left: 10px !important;
+    margin-left: 8px !important;
+    margin-top: 3px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .chatTabSelector:hover {
-    background: var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_black) !important;
 }
 
 .messages_SpeakerName_Online_7B6M2 {
@@ -847,12 +849,12 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
-    background-color: var(--minimal_dark_black) !important;
     border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
-    margin-left: 6px !important;
     height: 40px !important;
     margin: 2px 0px 2px 6px !important;
+    background: radial-gradient(circle, rgba(2,0,36,0) -147%, rgba(var(--minimal_dark_color_rgba),.1) 100%) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:before, .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk+.X2iywwN7fcdh9zXpXVsrk:before, .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:last-of-type:after, .X2iywwN7fcdh9zXpXVsrk:first-of-type:before {
@@ -1434,8 +1436,9 @@ button.DialogButton.Primary {
 }
 
 .X2iywwN7fcdh9zXpXVsrk:hover:not(._1BNlZUYDbVr8VhCTmq7ksk) {
-    background-color: var(--minimal_dark_be_grey) !important;
-    border: 1px solid rgba(var(--minimal_dark_color_rgba),0.1) !important;
+    background-color: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
 }
 
 .timeDivision.time_passes .preHorizDivider, .timeDivision.time_passes .horizDivider {
@@ -1702,4 +1705,9 @@ html.client_chat_frame .popup_chat_frame {
 
 .Dialog_ChangePersonaName .friend .labelHolder {
     color: var(--minimal_dark_installed_games) !important;
+}
+
+.ChatTabsContextMenu.CompactFriendsList .friend {
+    margin-top: 2px !important;
+    padding: 4px 0px !important;
 }
