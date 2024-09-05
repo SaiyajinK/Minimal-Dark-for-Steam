@@ -752,9 +752,15 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 }
 
 ._38FqIwZQKW6BlRyzN66pi6 .rYBZBWnNW6m-N9vX0Chce {
-    background: transparent !important;
+    /* background: transparent !important; */
     backdrop-filter: blur(30px) !important;
 	border-radius: 5px !important;
+	background: #121212ad !important;
+    backdrop-filter: blur(15px) !important;
+}
+
+._38FqIwZQKW6BlRyzN66pi6 ._2HshOjKxsMkk2uUtP5Sp8x {
+    display: none !important;
 }
 
 ._38FqIwZQKW6BlRyzN66pi6 {
