@@ -285,12 +285,9 @@
 }
 
 .chatWindow .chatHeader {
-    flex-shrink: 0;
-    background-color: var(--minimal_dark_black) !important;
-    min-height: 4px;
-    transition: background-color .2s ease-in-out;
-    position: relative;
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: var(--minimal_dark_blacker) !important;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
 }
 
 ._2gP0DqVyb1aEACymAe6if3 {
@@ -851,16 +848,11 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
     background-color: var(--minimal_dark_black) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important;
-    /* border-top-left-radius: 5px !important; */
-    /* border-top-right-radius: 5px !important; */
+    border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
     margin-left: 6px !important;
-    border-left: 1px solid var(--minimal_dark_be_grey) !important;
-    border-right: 1px solid var(--minimal_dark_be_grey) !important;
-    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
-	height: 40px !important;
-	margin: 2px 0px 2px 6px !important;
+    height: 40px !important;
+    margin: 2px 0px 2px 6px !important;
 }
 
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:before, .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk+.X2iywwN7fcdh9zXpXVsrk:before, .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:last-of-type:after, .X2iywwN7fcdh9zXpXVsrk:first-of-type:before {
