@@ -1163,7 +1163,7 @@ img.tab_item_cap_img {
 
 .carousel_items.store_capsule_container {
     border-radius: var(--minimal_dark_corner5)!important;
-    border: 0px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     padding: 0px !important;
     background: #1212125e !important;
     backdrop-filter: blur(10px) !important;
@@ -3835,7 +3835,7 @@ div.early_access_header {
     border-radius: var(--minimal_dark_corner0)!important;
     background: var(--minimal_dark_black) !important;
     border-left: 2px solid var(--minimal_dark_be_grey) !important;
-    height: 14px !important;
+    height: auto !important;
     border-radius: 5px !important;
 }
 
@@ -3843,7 +3843,7 @@ div.early_access_header {
     border-radius: var(--minimal_dark_corner0)!important;
     background: var(--minimal_dark_be_grey) !important;
     border-left: 2px solid var(--minimal_dark_be_grey) !important;
-    height: 14px !important;
+    height: auto !important;
     border-radius: 5px !important;
 }
 
@@ -5587,7 +5587,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {
     background-color: rgba(var(--minimal_dark_color_rgba), .15) !important;
     text-decoration: none;
     color: #ffffff;
-    height: 14px !important;
+    height: auto !important;
 }
 
 .queue_btn_menu > .queue_menu_arrow {
@@ -8710,9 +8710,9 @@ img.communitylink_achievement {
     border-radius: 5px !important;
 }
 
-._2y2tUbsMx8OIwkimGSyHmb {
-    border-radius: 5px !important;
-}
+/* ._2y2tUbsMx8OIwkimGSyHmb { */
+    /* border-radius: 5px !important; */
+/* } */
 
 ._1BxZDLT8KveuJzn-1q4NTP .OS07NfYlp6v-Eh5oQ7dwn {
     color: rgba(var(--minimal_dark_color_rgba),.6) !important;
@@ -9357,6 +9357,10 @@ div.sharedfiles_filterselect:hover {
 
 body.v6 .sale_capsule .discount_block_inline {
     margin-top: 2px !important;
+}
+
+.discount_block_inline {
+    line-height: auto !important;
 }
 
 ._17gGs3rUyGwRkz8uPik0rB._1RS0bEbL5I8O-TAKKNlrd2 {
