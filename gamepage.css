@@ -972,11 +972,15 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 }
 
 ._1WsOngnf2RD4f5N-38rPLZ.QljE844uvSBWd7Qp0csZ7:hover {
-    transform: scale(0.45) !important;
+    transform: scale(1) !important;
 }
 
 ._1WsOngnf2RD4f5N-38rPLZ._2uDS75qS46-mk12qdXsilF.QljE844uvSBWd7Qp0csZ7:active {
-    transform: scale(0.45) !important;
+    transform: scale(0.98) !important;
+}
+
+._1WsOngnf2RD4f5N-38rPLZ {
+    animation: _3VKsZe4ICXyKlKoZB9nj4n .1s forwards !important;
 }
 
 ._37Lk82ESPo7El4__sqZgOV ._2KA0p5xYePYygXUbjjsPzA {
