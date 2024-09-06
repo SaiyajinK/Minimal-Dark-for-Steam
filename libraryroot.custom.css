@@ -481,9 +481,17 @@ button.DialogButton::before {
 }
 
 .DialogContent, .DialogContentTransition {
-    background: #1212124a !important;
-    backdrop-filter: blur(20px) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     border-radius: 5px !important;
+}
+
+.ModalOverlayBackground {
+    background: hsl(0deg 0% 7% / 75%) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+.DesktopUI .DialogHeader, .friendsui-container .DialogHeader {
+    color: var(--minimal_dark_color) !important;
 }
 
 button.DialogButton {
@@ -750,15 +758,13 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 }
 
 ._7AlhCx3XGzBeIrQaCneUD:hover:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
-    color: var(--minimal_dark_white);
-    transition: color .15s ease-out,text-shadow .15s ease-out;
-    cursor: pointer;
+    color: var(--minimal_dark_color) !important;
+    transition: color .15s ease-out,text-shadow .15s ease-out !important;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD:active:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
-    color: var(--minimal_dark_color);
-    transition: color .15s ease-out,text-shadow .15s ease-out;
-    cursor: pointer;
+    color: var(--minimal_dark_white) !important;
+    transition: color .15s ease-out,text-shadow .15s ease-out !important;
 }
 
 .RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5 ._2CmrnGY-Amtd83ScJkFvx2 {
