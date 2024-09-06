@@ -20,6 +20,7 @@
     background-image: none !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
+	box-shadow: 0 0 16px #000 !important;
 }
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt {
@@ -772,6 +773,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 .ModalPosition_Content {
     border-radius: 5px !important;
+	box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 75%) !important;
 }
 
 ._1TV2TLk7RNa3PqD1_WKqfs {
