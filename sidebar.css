@@ -245,12 +245,6 @@
     border-bottom: 1px solid rgba(var(--minimal_dark_color_rgba), 0.1) !important;
 }
 
-.ModalOverlayBackground {
-    background: rgba(0,0,0,.8);
-    z-index: 7;
-    backdrop-filter: blur(5px);
-}
-
 ._20QAC4WMXm8qFE8waUT5oo {
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
