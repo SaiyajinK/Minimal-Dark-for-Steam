@@ -1071,3 +1071,13 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 .aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8- ._2DQbopwR5aguhf6fXQO8dQ {
     transform: scale(1.25) !important;
 }
+
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._1zaACxBAyMqq2MspuISjix .nzZlhFJAzKTdsKCWil0F9 {
+    background-color: var(--minimal_dark_black) !important;
+	border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._1tTuIhabs4uQQmR2udzw_P {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
