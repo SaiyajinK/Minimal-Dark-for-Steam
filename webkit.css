@@ -995,7 +995,7 @@ div.store_header_btn {
 }
 
 .carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal:hover {
-    border-bottom: 2px solid var(--minimal_dark_color) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
 }
 
 .carousel_container.spotlight .carousel_items>* .store_capsule {
@@ -1012,11 +1012,11 @@ div.store_header_btn {
     background-color: var(--minimal_dark_night_alt1)!important;
     height: 390px!important;
     border-radius: var(--minimal_dark_corner5)!important;
-    border: 2px solid var(--minimal_dark_be_grey)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .home_area_spotlight.underlined_links:hover {
-    border-bottom: 2px solid var(--minimal_dark_color) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
 }
 
 .spotlight_weeklong_ctn {
@@ -1319,7 +1319,7 @@ img.member_tile {
 
 a.home_marketing_message {
     border-radius: var(--minimal_dark_corner5)!important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .carousel_container .carousel_thumbs>div {
@@ -1327,7 +1327,7 @@ a.home_marketing_message {
     width: 14px !important;
     height: 14px !important;
     margin: 12px 4px !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     background-color: #0000007a !important
 }
 
@@ -1336,7 +1336,7 @@ a.home_marketing_message {
     width: 14px !important;
     height: 14px !important;
     margin: 12px 4px !important;
-    border: 2px solid var(--minimal_dark_color) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;;
     background-color: var(--minimal_dark_blacker) !important;
 }
 
@@ -1351,7 +1351,7 @@ a.home_marketing_message {
 
 .home_content .item img, .home_content a.home_content_item img {
     border-radius: var(--minimal_dark_corner5)!important;
-    border: 2px solid var(--minimal_dark_be_grey)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .home_content .item img, .home_content a.home_content_item img:hover {
@@ -1368,7 +1368,7 @@ a.home_marketing_message {
 
 .home_content.single {
     border-radius: var(--minimal_dark_corner5)!important;
-	border: 2px solid var(--minimal_dark_be_grey)!important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .home_content.single_buttonbar {
@@ -2870,7 +2870,7 @@ body.v6 .wishlist_header h2 {
 
 #wishlist_search:hover {
     border: 0!important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     box-shadow: 0 0 12px rgb(0 0 0 / 50%) inset, 1px 1px 0 0 rgb(255 255 255 / 0%) !important;
 }
 
@@ -3850,7 +3850,7 @@ div.early_access_header {
 div.early_access_banner {
     border-radius: var(--minimal_dark_corner5)!important;
     background: var(--minimal_dark_blacker)!important;
-    border: 2px solid var(--minimal_dark_be_grey)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 h2 span.note {
@@ -5275,7 +5275,7 @@ body.v6.winter_sale_home h2.winter {
 .hover_box {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_less_white) !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
     box-shadow: 0 0 30px 18px black !important;
 }
@@ -5290,11 +5290,11 @@ body.v6.winter_sale_home h2.winter {
 
 .carousel_items.store_capsule_container > * > * {
     border-radius: var(--minimal_dark_corner5)!important;
-    border: 2px solid var(--minimal_dark_be_grey)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .carousel_items.store_capsule_container > * > *:hover {
-    border-bottom: 2px solid var(--minimal_dark_color) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
     color: white !important;
 }
 
@@ -7211,12 +7211,12 @@ div.ModalPosition_TopBar {
 .home_page_content.takeunder a {
     box-shadow: 0 0 10px rgba(0,0,0,1);
     border-radius: 5px !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .home_page_content.takeunder a:hover {
     border-radius: 5px !important;
-    border: 2px solid var(--minimal_dark_color) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;;
     box-shadow: none !important;
 }
 
@@ -7361,12 +7361,12 @@ div.ModalPosition_TopBar {
 }
 
 .carousel_container.maincap .carousel_items {
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 }
 
 .carousel_container.maincap .carousel_items:hover {
-    border-bottom: 2px solid var(--minimal_dark_color) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
 }
 
 .carousel_container.spotlight .carousel_items > * > div {
@@ -7375,7 +7375,7 @@ div.ModalPosition_TopBar {
 
 .carousel_container.spotlight .carousel_items>* .store_capsule {
     border-radius: var(--minimal_dark_corner5)!important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .carousel_container .carousel_thumbs {
@@ -7385,7 +7385,7 @@ div.ModalPosition_TopBar {
 
 .responsive_giant_curator_capsule .curator_giant_capsule {
     border-radius: 5px !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 body.v6 .deep_dive_tag {
@@ -7398,7 +7398,7 @@ body.v6 .deep_dive_tag {
 }
 
 .dq_item {
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 }
 
@@ -7424,7 +7424,7 @@ body.v6 .deep_dive_tag {
 
 .curator_giant_capsule {
     border-radius: 5px !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .game_purchase_discount:not(.no_discount) .bundle_base_discount {
@@ -8135,7 +8135,7 @@ div#foryou_tab:nth-of-type(1) {
 }
 
 a.home_marketing_message:hover {
-    border-bottom: 2px solid var(--minimal_dark_color) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
 }
 
 .home_marketing_message.small {
@@ -8156,18 +8156,18 @@ body.v6 .page_content_ctn.dark {
 
 .steamdeck_banner_desktop, .steamdeck_banner_mobile {
     border-radius: 5px !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 	box-shadow: none !important;
 }
 
 .steamdeck_banner_desktop:hover {
     box-shadow: none !important;
-    border: 2px solid var(--minimal_dark_color) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;;
 }
 
 .top_new_releases_banner_ctn a {
     border-radius: 5px !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .profile_customization_block {
@@ -8260,7 +8260,7 @@ label {
 
 ._29CGQrIvjYllKwVQKe8d8R._1aa4CwlUeZE1tRZGOsRPx9 img {
     border-radius: 5px !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 ._1UoAvYFtO-OEv3DMwZCL8A ._1vTT_zTYgCMac88oxQi3Ha {
@@ -9008,11 +9008,10 @@ img.communitylink_achievement {
 }
 
 ._3Dt__IV9HmQY4KgsvaOz1i {
-    background-color: #12121200 !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    backdrop-filter: blur(10px) !important;
-	box-shadow: 0px 0px 20px 10px #00000085, 2px 2px 16px 1px #0005 !important;
+    box-shadow: 0px 0px 20px 10px #00000085, 2px 2px 16px 1px #0005 !important;
 }
 
 .discussions_searchedForTerm, a.discussions_searchedForTerm {
@@ -9926,6 +9925,15 @@ html.responsive.touch div.nonresponsive_hidden {
     background-color: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
+}
+
+.related_items_ctn {
+    background: transparent !important;
+}
+
+._2BG1JKMgeqn_cr0rbRhRNA {
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
 /* end webkit */
