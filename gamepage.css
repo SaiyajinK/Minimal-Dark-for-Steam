@@ -1311,3 +1311,15 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
+
+._2dB1oJFsqNThak1cFya2-q:hover svg line {
+    stroke: var(--minimal_dark_red2) !important;
+}
+
+._3IIEUTw03Vm3Mk54jlnUaT:hover svg polyline {
+    stroke: var(--minimal_dark_color) !important;
+}
+
+._14b-hQsLwSwYcELtknxCUX:hover svg polyline {
+    stroke: var(--minimal_dark_color) !important;
+}
