@@ -262,13 +262,12 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote {
 }
 
 .ds_options > div {
-    background-color: rgb(18 18 18 / 10%) !important;
-	backdrop-filter: blur(10px) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
     box-shadow: 0 0 5px #000 !important;
     border: 1px solid #525252 !important;
     border-radius: var(--minimal_dark_corner5)!important;
-	color: #fff !important;
-	background-image: url(https://store.akamai.steamstatic.com/public/shared/images/v6/moremenu.png) !important;
+    color: #fff !important;
+    background-image: url(https://store.akamai.steamstatic.com/public/shared/images/v6/moremenu.png) !important;
 }
 
 .ds_options:hover > div {
@@ -1324,19 +1323,19 @@ a.home_marketing_message {
 
 .carousel_container .carousel_thumbs>div {
     border-radius: 5px !important;
-    width: 14px !important;
-    height: 14px !important;
+    width: 15px !important;
+    height: 15px !important;
     margin: 12px 4px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
     background-color: #0000007a !important
 }
 
 .carousel_container .carousel_thumbs>div:hover {
     border-radius: 5px !important;
-    width: 14px !important;
-    height: 14px !important;
+    width: 15px !important;
+    height: 15px !important;
     margin: 12px 4px !important;
-    border-bottom: 1px solid var(--minimal_dark_color) !important;;
+    border: 2px solid var(--minimal_dark_color) !important;
     background-color: var(--minimal_dark_blacker) !important;
 }
 
@@ -2973,8 +2972,9 @@ body.v6 .wishlist_header h2 {
 }
 
 #rightContents .box {
-	border-radius:var(--minimal_dark_corner0)!important;
-	background:rgba(0,0,0,.2)!important;
+    border-radius: 5px !important;
+    background: rgba(0,0,0,.2)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .review_list h1 {
@@ -2989,7 +2989,7 @@ body.v6 .wishlist_header h2 {
 }
 
 .review_box .leftcol img {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: 5px !important;
 }
 
 a.activetrigger,a.trigger {
@@ -5771,10 +5771,18 @@ body.v6 .game_page_background {
     border-radius: 5px !important;
 }
 
+.dselect_container a.trigger, .dselect_container .dropcontainer a.highlighted_selection {
+    color: var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_white) !important;
+}
+
 .dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {
     color: var(--minimal_dark_color) !important;
     background: var(--minimal_dark_be_grey) !important;
     color: var(--minimal_dark_color) !important;
+    border-right: 7px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
 }
 
 #security_code_cached, #security_code_cached:focus {
@@ -9422,6 +9430,7 @@ body.v6 .sale_capsule .discount_block_inline {
 
 .DialogCheckbox.Active {
     border: 1px solid transparent !important;
+    background: rgba(var(--minimal_dark_color_rgba),.25) !important;
 }
 
 .aCrGPGVeH6HvzyPW8PaAj ._22EnaYFQb5I0kYtH2UHEhV {
@@ -9492,7 +9501,7 @@ body.v6 .sale_capsule .discount_block_inline {
 
 .GreenEnvelopeMenu, .PP7LM0Ow1K5qkR8WElLpt {
     background: var(--minimal_dark_be_grey) !important;
-    border-radius: 5px !important;
+    border-radius: 0px !important;
     /* border: 1px solid var(--minimal_dark_blacker_alt) !important; */
 }
 
@@ -9934,6 +9943,33 @@ html.responsive.touch div.nonresponsive_hidden {
 ._2BG1JKMgeqn_cr0rbRhRNA {
     background: transparent !important;
     box-shadow: none !important;
+}
+
+._1KsYSVzmvIfRivBTcx-_GE {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+    background-image: none !important;
+}
+
+.store_nav .popup_menu .category_hr {
+    background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
+}
+
+a.trigger, a.activetrigger {
+    border-right: 7px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.review_box .vote_header {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.review_box .vote_header .thumb > a > img {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 5px 0px 0px 5px !important;
 }
 
 /* end webkit */
