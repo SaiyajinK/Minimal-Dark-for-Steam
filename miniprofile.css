@@ -35,9 +35,10 @@
 ._1s3b90MDEzWiXAzyEg4vu2 {
     background: none !important;
     backdrop-filter: blur(4px) !important;
-	padding-top: 7px !important;
-    /* padding-left: 16px !important; */
-	padding-bottom: 6px !important;
+    padding-top: 7px !important;
+    padding-left: 7px !important;
+    padding-bottom: 7px !important;
+    height: auto !important;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._2rDsqxyJxBWUKDmY1lZ1Vw img {
@@ -54,4 +55,30 @@
 
 ._2SW_Y5HHBZR-uC8LI36lQM, ._34Ni9zAsK_yM78mn3FUTIA {
     display: none !important;
+}
+
+/* mini profil background video/picture - remove this line to show statics and video background on miniprofiles */
+
+._3HzZhZyBuR0K4qXaQoHMxI {
+    background: rgb(18 18 18 / 60%) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+._3MrYvAGQ-g7bNccn6VJNpK {
+    background: rgb(18 18 18 / 60%) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+._2ZqfbNDeHFU_qaf3X3_Jjv {
+	display: none !important;
+}
+
+.xUosYQXZvivPCxe-KwpvT {
+    display: none !important;
+}
+
+/* end mini profil background video/picture */
+
+._1xTATKELHR-lRS_s3A4yzd._1NkB7RuIs66QCtsv4kxeCu ._26ga2HHZL2HlK6wwFImcgX {
+    padding-top: 16px !important;
 }
