@@ -360,7 +360,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 }
 
 ._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 button.bACIuqv-b_9TztCczFK19 {
-    background-color: var(--minimal_dark_invisblegrey);
+    background-color: var(--minimal_dark_invisblegrey) !important;
 }
 
 ._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 button.bACIuqv-b_9TztCczFK19:hover {
