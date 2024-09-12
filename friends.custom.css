@@ -1717,23 +1717,3 @@ html.client_chat_frame .popup_chat_frame {
     margin-top: 2px !important;
     padding: 4px 0px !important;
 }
-
-/* mini profil background video - remove this line to show statics and video background on miniprofiles */
-._3HzZhZyBuR0K4qXaQoHMxI {
-    background: rgb(18 18 18 / 60%) !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-._3MrYvAGQ-g7bNccn6VJNpK {
-    background: rgb(18 18 18 / 60%) !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-._2ZqfbNDeHFU_qaf3X3_Jjv {
-	display: none !important;
-}
-
-.xUosYQXZvivPCxe-KwpvT {
-    display: none !important;
-}
-/* end mini profil background video */
