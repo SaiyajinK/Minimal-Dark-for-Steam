@@ -9970,4 +9970,13 @@ a.trigger, a.activetrigger {
     color: #63de7d !important;
 }
 
+._1xLWmfPlWGV47FujycPN_c {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-top: none !important;
+    border-radius: 5px !important;
+    transform: translate(0px, 0px) !important;
+    height: 49px !important;
+}
+
 /* end webkit */
