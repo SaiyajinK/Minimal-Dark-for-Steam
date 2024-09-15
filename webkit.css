@@ -7706,21 +7706,15 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
     border-radius: 20px !important;
 }
 
-._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach._3H7Awq1oAhxrdDo3ANR4mu {
-    color: var(--minimal_dark_color) !important;
-}
-
 ._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach {
     border-radius: 5px !important;
 	background-image: linear-gradient(to left, transparent, transparent 50%, #1e1e1e 50%, #1e1e1e) !important;
-}
-
-._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach {
-    background-position: 100% 0 !important;
+	border: 1px solid var(--minimal_dark_blacker) !important;
+	background-position: 100% 0 !important;
     background-size: 200% 100%  !important;
     border-radius: 5px !important;
     transition-property: background-position,color,background-color !important;
-    transition-duration: .15s !important;
+    transition-duration: .30s !important;
     transition-timing-function: ease-out !important;
 }
 
@@ -7748,7 +7742,13 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 }
 
 ._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach._3H7Awq1oAhxrdDo3ANR4mu {
-    background-color: var(--minimal_dark_black) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+._2kqKZFxhF8XvzaoAekjV7m ._58Mghr8vhm_-IZP3Mkcb_ {
+    border-top: 0px solid rgba(228,228,228,.1) !important;
 }
 
 .profile_header .profile_summary {
@@ -9553,10 +9553,6 @@ body.v6 .sale_capsule .discount_block_inline {
     border: 1px solid #ffc82c !important;
     border-right: none !important;
 	box-shadow: none !important;
-}
-
-._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach {
-    border: 1px solid var(--minimal_dark_blacker) !important;
 }
 
 ._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach:not(.k9wPoKS3UeY-ju9JEoeZZ):hover {
