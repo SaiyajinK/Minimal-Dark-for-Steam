@@ -21,18 +21,8 @@
 }
 
 ._2sYIghGVXJr6tsQVvcryy8 {
-    box-sizing: border-box;
-    color: #707379;
-    border: 1px solid rgba(29,32,37,0);
-    border-right: none;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+    border-right: 160px solid var(--minimal_dark_blacker_alt) !important;
     background: linear-gradient(to right, #0e0e0eb8 40%, rgba(62, 78, 105, 0) 100%) !important;
-    display: flex;
-    flex-grow: 0;
-    user-select: none;
-    cursor: pointer;
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
 }
