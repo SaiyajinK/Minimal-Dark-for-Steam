@@ -158,16 +158,16 @@
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 ._3uk3F1BmAJQR6rl1TPcaif {
-    color: var(--minimal_dark_browser_overlay_close);
-    flex-shrink: 0;
-    margin-left: 4px;
-	text-transform: var(--minimal_dark_fontdown);
+    color: var(--minimal_dark_browser_overlay_close) !important;
+    text-transform: var(--minimal_dark_fontdown) !important;
+    font-style: italic !important;
 }
 
 /* steam cloud color*/
 ._3uk3F1BmAJQR6rl1TPcaif {
     color: #ffb800 !important;
     font-weight: 400 !important;
+	font-style: italic !important;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 svg:not(.SVGIcon_FriendIcon) polyline, ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 svg:not(.SVGIcon_FriendIcon) path {
@@ -341,4 +341,13 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
 ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 {
     padding: 3px 0px 2px 24px !important;
     font-weight: lighter !important;
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ._10GdoB3tQXXGFToQ3yY_SK {
+    color: #adff2f !important;
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ._10GdoB3tQXXGFToQ3yY_SK:hover {
+    color: #9aff00 !important;
+    border-left: 1px solid transparent !important;
 }
