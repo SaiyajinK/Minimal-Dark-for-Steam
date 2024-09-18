@@ -178,8 +178,7 @@
 /* end steam cloud color*/
 
 ._2-O4ZG0KrnSrzISHBKctFQ._1LVQp3h_vGOZ8TuDUEge0k {
-    color: var(--minimal_dark_status_green);
-    
+    color: var(--minimal_dark_status_green) !important;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 {
