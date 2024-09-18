@@ -1021,7 +1021,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 }
 
 ._1WsOngnf2RD4f5N-38rPLZ.QljE844uvSBWd7Qp0csZ7:hover {
-    transform: scale(1.5) !important;
+    transform: scale(1) !important;
 }
 
 ._1WsOngnf2RD4f5N-38rPLZ {
@@ -1322,4 +1322,20 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 
 ._14b-hQsLwSwYcELtknxCUX:hover svg polyline {
     stroke: var(--minimal_dark_color) !important;
+}
+
+._3dGOJTL8GRXpyosK3ooTdO .zpBMRpPhaI6jqMh9-UQAi {
+    color: var(--minimal_dark_color) !important;
+	font-size: 12px !important;
+}
+
+._1OIatPEED_bSmd_CNyMv7C ._3Rm36_oeAhvIg6ZYP9l1Jj {
+    background-color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._1OIatPEED_bSmd_CNyMv7C {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
 }
