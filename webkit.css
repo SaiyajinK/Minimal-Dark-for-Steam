@@ -2948,7 +2948,45 @@ body.v6 .wishlist_header h2 {
 	padding:3px!important;
 	text-decoration:none!important;
 	color: var(--minimal_dark_lime)!important;
-	background:rgba(121,153,5,1)!important;
+	background: transparent !important;
+}
+
+.btnv6_green_white_innerfade {
+    text-decoration: none !important;
+    color: #fff !important;
+    background: transparent !important;
+}
+
+.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+    background: transparent !important;
+    text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
+}
+
+.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+    background: var(--minimal_dark_progress_bar) !important;
+    text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
+}
+
+.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active > span {
+    background: linear-gradient( to bottom, #8ed629 5%, #6aa621 95%);
+    background: transparent !important;
+    text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
+	box-shadow: inset 0px 3px 10px #000000ab;
+}
+
+.btnv6_green_white_innerfade > span {
+    border-radius: 5px !important;
+    color: white !important;
+	background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_progress_bar) !important;
+}
+
+.btnv6_green_white_innerfade > span:hover {
+    border-radius: 5px !important;
+    color: white !important;
+	background: var(--minimal_dark_progress_bar) !important;
+    border: 1px solid var(--minimal_dark_progress_bar) !important;
+	transition: ease-in-out .25s !important;
 }
 
 .btnv6_blue_blue_innerfade {
@@ -2956,13 +2994,14 @@ body.v6 .wishlist_header h2 {
 	padding:3px!important;
 	text-decoration:none!important;
 	color:var(--minimal_dark_light_blue)!important;
-	background:rgba(47,137,188,1)!important;
+	background:transparent!important;
 }
 
 .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
 	border-radius:var(--minimal_dark_corner5)!important;
-	background:rgba(83,105,4,1)!important;
+	background: transparent !important;
 	color:var(--minimal_dark_white)!important;
+	transition: .25s ease-out !important;
 }
 
 .btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
@@ -5728,31 +5767,6 @@ body.v6 .game_page_background {
     color: white;
 }
 
-.btnv6_green_white_innerfade {
-    text-decoration: none !important;
-    color: #fff !important;
-    background: var(--minimal_dark_bgg) !important;
-}
-
-.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
-    background: linear-gradient( to bottom, #8ed629 5%, #6aa621 95%);
-    background: var(--minimal_dark_bgg) !important;
-    text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
-}
-
-.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
-    background: linear-gradient( to bottom, #8ed629 5%, #6aa621 95%);
-    background: var(--minimal_dark_bgg) !important;
-    text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
-}
-
-.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active > span {
-    background: linear-gradient( to bottom, #8ed629 5%, #6aa621 95%);
-    background: var(--minimal_dark_bgg) !important;
-    text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
-	box-shadow: inset 0px 3px 10px #000000ab;
-}
-
 .cart_notice_section {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -8244,6 +8258,7 @@ body.v6 .page_content_ctn.dark {
 
 .checkout_footer_notes {
     color: var(--minimal_dark_orange) !important;
+	transform: translate(24px, -44px) !important;
 }
 
 #payment_info_tab .checkout_content .payment_info_form_area {
@@ -10042,6 +10057,16 @@ a.trigger, a.activetrigger {
 
 .review_histogram {
     background: var(--minimal_dark_blacker) !important;
+}
+
+.checkout_steam_rewards_banner {
+    height: 88px !important;
+    border-radius: 5px !important;
+}
+
+.checkout_error, .checkout_form_error {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_orange) !important;
 }
 
 /* end webkit */
