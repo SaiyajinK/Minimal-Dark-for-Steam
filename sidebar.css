@@ -61,6 +61,7 @@
     background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),.1) 0%, rgb(30 30 30 / 0%) 50%, rgba(255,255,255,0) 100%) !important;
     box-shadow: inset 0 0px 6px 4px #0005, 0 0px 16px 0px #0004 !important;
     border-left: 2px solid var(--minimal_dark_color) !important;
+    margin-left: 2px !important;
 }
 
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ :hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ :hover {    
@@ -349,5 +350,6 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
 
 ._2-O4ZG0KrnSrzISHBKctFQ._10GdoB3tQXXGFToQ3yY_SK:hover {
     color: #9aff00 !important;
-    border-left: 1px solid transparent !important;
+    border-left: 2px solid rgba(var(--minimal_dark_color_rgba),0.4) !important;
+    margin-left: 2px !important;
 }
