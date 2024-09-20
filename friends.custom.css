@@ -1717,3 +1717,24 @@ html.client_chat_frame .popup_chat_frame {
     margin-top: 2px !important;
     padding: 4px 0px !important;
 }
+
+._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- {
+    background: var(--minimal_dark_blacker_alt) !important;
+    color: rgba(var(--minimal_dark_color_rgba),.75) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-top: 30px !important;
+	transition: .25s ease-out !important;
+}
+
+._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._3voPlg-2HzAUhuCyVhXm_D {
+    margin-right: 14px !important;
+	transition: .25s ease-out !important;
+}
+
+._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR-:hover {
+    color: var(--minimal_dark_color) !important;
+    transition: background .25s ease-out !important;
+    background: linear-gradient(0deg, rgba(var(--minimal_dark_color_rgba),.25) 0%, rgba(12,12,12,1) 100%) !important;
+    border-bottom: 1px solid rgba(var(--minimal_dark_color_rgba),.5) !important;
+    border-top: 1px solid rgba(var(--minimal_dark_color_rgba),.25) !important;
+}
