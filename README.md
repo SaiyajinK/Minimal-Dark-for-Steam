@@ -11,7 +11,7 @@ Be understanding if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-![minimal](https://github.com/user-attachments/assets/02eebc2e-fbd8-48fa-9c4e-f2f05b434d9b) <br>
+![steamwebhelper_GmV67jyCl1](https://github.com/user-attachments/assets/aeadcec5-83d4-43ac-b68d-6a90ae97766f) <br>
 
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
@@ -37,20 +37,20 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![minimal__](https://github.com/user-attachments/assets/a3328862-364b-4da2-aca0-d7dbc31e876a) <br>
+![steamwebhelper_ECgiwiGHxA](https://github.com/user-attachments/assets/edf8fa89-1d04-47c2-9c50-7d078ccf13f2) <br>
 
 ## `👤 Profil 👤` <br> 
 
 Some profiles have neon lights around the headers, I removed them by default.<br>
 If you want to remove this, open `webkit.css` and remove line `100`<br>
 
-![minimal_](https://github.com/user-attachments/assets/8569c004-6afe-4037-8fac-044480b631a4) <br>
+![steamwebhelper_XPp4KfFPKD](https://github.com/user-attachments/assets/12cf0e0d-b8d9-4c8a-957d-1be7e298057e) <br>
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
 All aspects were changed to match my theme. <br>
 
-![minimal___](https://github.com/user-attachments/assets/5c66213e-8a71-4a2d-94ad-8e0223509572) <br>
+![steamwebhelper_T5ibo9Xns1](https://github.com/user-attachments/assets/ee23bf0e-be95-4613-80fa-41497a3f7aa0) <br>
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
