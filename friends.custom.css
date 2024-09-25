@@ -952,7 +952,11 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .friendSearchClear .SVGIcon_X_Line line {
-    stroke: var(--minimal_dark_white) !important;
+    stroke: var(--minimal_dark_red2) !important;
+}
+
+.friendSearchClear .SVGIcon_X_Line:hover line {
+    stroke: var(--minimal_dark_red2) !important;
 }
 
 .socialInputContainer .friendSearchInput[type="text"] {
@@ -1401,7 +1405,7 @@ button.DialogButton.Primary {
 }
 
 .socialInputContainer .inputContainer {
-    padding-left: 85px !important;
+    padding-left: 87px !important;
 }
 
 .title-area-highlight {
@@ -1410,6 +1414,26 @@ button.DialogButton.Primary {
 
 .currentUserContainer .labelHolder {
     margin-top: 16px !important;
+}
+
+.friendlistListContainer .friend .avatarHolder {
+    padding-top: 3px !important;
+}
+
+.friendlistListContainer .friend.ingame .labelHolder {
+    padding-top: 6px !important;
+}
+
+.friendlistListContainer .friend.online .labelHolder {
+    padding-top: 0px !important;
+}
+
+.friendlistListContainer .friend.awayOrSnooze .labelHolder {
+    padding-top: 0px !important;
+}
+
+.friendlistListContainer .friend.offline .labelHolder {
+    padding-top: 0px !important;
 }
 
 .singlewindow .currentUserContainer .labelHolder {
@@ -1628,9 +1652,67 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .online ._3xUpb5DWXPFNcHHIcv-9pe {
-    border-radius: 5px !important;
-    width: 5px !important;
-    height: 5px !important;
+    border-radius: 0px !important;
+    width: 30px !important;
+    height: 30px !important;
+    transform: translate(1px, -1px) !important;
+    z-index: 1 !important;
+    background: transparent !important;
+    border: 1px solid #4c91ac !important;
+	transition: .25s ease-out !important;
+	display: contents !important;
+}
+
+.ingame ._3xUpb5DWXPFNcHHIcv-9pe {
+    border-radius: 0px !important;
+    width: 30px !important;
+    height: 30px !important;
+    transform: translate(1px, -1px) !important;
+    z-index: 1 !important;
+    background: transparent !important;
+    border: 1px solid #91c257 !important;
+	transition: .25s ease-out !important;
+	display: contents !important;
+}
+
+.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe {
+    border-radius: 0px !important;
+    width: 30px !important;
+    height: 30px !important;
+    transform: translate(1px, -1px) !important;
+    z-index: 1 !important;
+    background: transparent !important;
+    border: 1px solid #f7a24b !important;
+	-webkit-mask: none !important;
+	transition: .25s ease-out !important;
+	display: contents !important;
+}
+
+.offline ._3xUpb5DWXPFNcHHIcv-9pe {
+    border-radius: 0px !important;
+    width: 30px !important;
+    height: 30px !important;
+    transform: translate(1px, -1px) !important;
+    z-index: 1 !important;
+    background: transparent !important;
+    border: 1px solid grey !important;
+	transition: .25s ease-out !important;
+	display: contents !important;
+}
+
+.nibodjvvrm86uCfnnAn4g.Medium {
+    height: 32px !important;
+    width: 32px !important;
+}
+
+.nibodjvvrm86uCfnnAn4g {
+    height: 33px !important;
+    width: 33px !important;
+}
+
+.nibodjvvrm86uCfnnAn4g.X-Large {
+    height: 92px !important;
+    width: 92px !important;
 }
 
 ._3qYm9oxf8MdyvQDJgbfCrF:hover {
@@ -1666,7 +1748,7 @@ html.client_chat_frame .popup_chat_frame {
 
 ._3h-QRJGxnVOIExtHD1R0f2 {
     border-radius: 5px !important;
-    transform: translate(-1px, 0px) !important;
+    transform: translate(0px, 0px) !important;
 }
 
 .friend.quickAccessFriend {
@@ -1678,7 +1760,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right, .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-    display: none !important;
+    /* display: none !important; */
 }
 
 .currentUserContainer .nOdcT-MoOaXGePXLyPe0H {
@@ -1741,4 +1823,9 @@ html.client_chat_frame .popup_chat_frame {
     background: linear-gradient(0deg, rgba(var(--minimal_dark_color_rgba),.25) 0%, rgba(12,12,12,1) 100%) !important;
     border-bottom: 1px solid rgba(var(--minimal_dark_color_rgba),.5) !important;
     border-top: 1px solid rgba(var(--minimal_dark_color_rgba),.25) !important;
+}
+
+.currentUserAvatar .avatarHolder.Medium {
+    width: 48px !important;
+    height: 48px !important;
 }
