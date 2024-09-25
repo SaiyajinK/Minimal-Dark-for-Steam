@@ -670,6 +670,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     padding: 0px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 20px !important;
+	transition: .25s ease-out !important;
 }
 
 .bSKGlAJG2UVWTsntEJY2v .GG9wVQz6PLlhGHlJyZh4E:hover {
@@ -680,6 +681,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     padding: 0px !important;
     border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 20px !important;
+	transition: .25s ease-out !important;
 }
 
 .bSKGlAJG2UVWTsntEJY2v {
@@ -689,11 +691,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     gap: 4px;
     font-size: 0px !important;
 }
-
-/* .bSKGlAJG2UVWTsntEJY2v::after { */
-    /* content: 'Minimal Dark' !important; */
-    /* font-size: 12px !important; */
-/* } */
 
 ._2UyOBeiSdBayaFdRa39N2O {
     color: var(--minimal_dark_topgrey) !important;
@@ -797,18 +794,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     cursor: pointer;
     margin-top: 5px !important;
     transition: .25s ease-out !important;
-}
-
-._25lBLzuVeYAUG279up4xP8 {
-    min-width: 16px;
-    width: 16px;
-    min-height: 16px;
-    height: 16px;
-    color: #67707b;
-    padding: 0 4px 6px;
-    transition: color .15s ease-out;
-    -webkit-app-region: no-drag;
-    margin-top: 6px;
 }
 
 ._3Z3ohQ8-1NKnCZkbS6fvy {
@@ -1001,17 +986,13 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 
 ._25lBLzuVeYAUG279up4xP8 {
     margin-top: -.5px !important;
-    margin-right: 6px;
-    min-width: 16px;
-    width: 16px;
-    min-height: 16px;
-    height: 16px;
-    color: #e1e6ecd9;
-    padding: 3px;
-    transition: none;
+    margin-right: 6px !important;
+    color: #e1e6ecd9 !important;
+    padding: 3px !important;
     -webkit-app-region: no-drag;
-    border: 1px solid var(--minimal_dark_greyblack);
-    border-radius: 15px;
+    border: 1px solid var(--minimal_dark_greyblack) !important;
+    border-radius: 20px !important;
+    transition: .25s ease-out !important;
 }
 
 ._25lBLzuVeYAUG279up4xP8:first-child {
@@ -1062,6 +1043,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     -webkit-mask-repeat: no-repeat !important;
     -webkit-mask-size: contain !important;
     -webkit-mask-position: center !important;
+	transition: .25s ease-out !important;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2):hover {
@@ -1075,6 +1057,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     -webkit-mask-repeat: no-repeat !important;
     -webkit-mask-size: contain !important;
     -webkit-mask-position: center !important;
+	transition: .25s ease-out !important;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2):active {
@@ -1105,6 +1088,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     margin-bottom: -1px !important;
     margin-right: -4px !important;
     padding: 6px 10px !important;
+	transition: .25s ease-out !important;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(3):hover {
@@ -1121,6 +1105,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     margin-bottom: -1px !important;
     margin-right: -4px !important;
 	padding: 6px 10px !important;
+	transition: .25s ease-out !important;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(3):active {
@@ -1152,6 +1137,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     -webkit-mask-size: contain !important;
     -webkit-mask-position: center !important;
     margin-right: 20px !important;
+	transition: .25s ease-out !important;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(4):hover {
@@ -1166,6 +1152,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     -webkit-mask-size: contain !important;
     -webkit-mask-position: center !important;
     margin-right: 20px !important;
+	transition: .25s ease-out !important;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(4):active {
@@ -1195,6 +1182,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     -webkit-mask-size: contain !important;
     -webkit-mask-position: center !important;
     margin-right: 6px !important;
+	transition: .25s ease-out !important;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(5):hover {
@@ -1209,6 +1197,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     -webkit-mask-size: contain !important;
     -webkit-mask-position: center !important;
     margin-right: 6px !important;
+	transition: .25s ease-out !important;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(5):active {
