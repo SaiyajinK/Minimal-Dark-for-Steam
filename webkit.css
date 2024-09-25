@@ -8752,6 +8752,7 @@ img.communitylink_achievement {
 
 .pre_release_review {
     border-radius: 5px !important;
+    background-color: #8b734d66 !important
 }
 
 .search_results_filtered_warning > div {
@@ -9514,7 +9515,7 @@ body.v6 .sale_capsule .discount_block_inline {
 }
 
 .GreenEnvelopeMenu, .PP7LM0Ow1K5qkR8WElLpt {
-    background: var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     border-radius: 0px !important;
 }
 
@@ -10067,6 +10068,50 @@ a.trigger, a.activetrigger {
 .checkout_error, .checkout_form_error {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_orange) !important;
+}
+
+._2ilpH-HpvuSm6s5MWX5bA- ._164mmLkSJ91cXzABhIrlZq ._1hgRCff96-fQY4zKEKUkac {
+    align-items: inherit !important;
+}
+
+._2ilpH-HpvuSm6s5MWX5bA- .JYQgsMzgbFLgarphirEoQ ._3M92hj6aELzceURcKR7WFu {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._2ilpH-HpvuSm6s5MWX5bA- .JYQgsMzgbFLgarphirEoQ ._3M92hj6aELzceURcKR7WFu:hover, ._2ilpH-HpvuSm6s5MWX5bA- .JYQgsMzgbFLgarphirEoQ ._3M92hj6aELzceURcKR7WFu.Efo_8muMPNLjjSbObMuDq, ._2ilpH-HpvuSm6s5MWX5bA- .JYQgsMzgbFLgarphirEoQ ._3M92hj6aELzceURcKR7WFu.gpfocus {
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+._2ilpH-HpvuSm6s5MWX5bA- .JYQgsMzgbFLgarphirEoQ {
+    grid-template-columns: repeat(4, 1fr) !important;
+	gap: 6px !important;
+}
+
+._2ilpH-HpvuSm6s5MWX5bA- ._164mmLkSJ91cXzABhIrlZq ._1hgRCff96-fQY4zKEKUkac {
+    transform: translate(-7px, 0px) !important;
+}
+
+._2ilpH-HpvuSm6s5MWX5bA- ._2_vbZB-J_M1GH9js-PXnEj ._16dREqlIrGflPfbNtLGdJh {
+    color: var(--minimal_dark_color) !important;
+}
+
+._3rAoeyoUq23O8OYP09P1oz ._1uA9QkRBqGe3Xt5tlGGhlU ._25N0xPcslHWWCQovL3Ycpk {
+    color: var(--minimal_dark_color) !important;
+}
+
+._2ilpH-HpvuSm6s5MWX5bA- ._164mmLkSJ91cXzABhIrlZq ._1v0jLHAK-8P4IONBwuF4kv ._209Gyxysjz0vcGVVWuh_Xc ._2u9RZJXJSDg3e-J_EX1exE {
+    color: var(--minimal_dark_color) !important;
+}
+
+._2ilpH-HpvuSm6s5MWX5bA- ._164mmLkSJ91cXzABhIrlZq .KId8dCUFbYh_bz-jozERD {
+    color: rgba(var(--minimal_dark_color_rgba),.75) !important;
+}
+
+._2MfLNiVZp5dIGmdFChe4Dg {
+    border-radius: 5px !important;
+    border: 1px solid #cd0202 !important
 }
 
 /* end webkit */
