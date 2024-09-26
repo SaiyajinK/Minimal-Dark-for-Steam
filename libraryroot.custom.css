@@ -974,14 +974,15 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     background-color: var(--minimal_dark_transparent) !important;
     filter: opacity(1);
     color: var(--minimal_dark_color) !important;
-    border: 1px solid var(--minimal_dark_color);
+    border: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 ._25lBLzuVeYAUG279up4xP8._1LYTHQzcI1u6tcxbbcc5V3:active {
     background-color: var(--minimal_dark_transparent) !important;
     filter: opacity(1);
     color: var(--minimal_dark_white) !important;
-    border: 1px solid var(--minimal_dark_white);
+    border: 1px solid var(--minimal_dark_white) !important;
 }
 
 ._25lBLzuVeYAUG279up4xP8 {
