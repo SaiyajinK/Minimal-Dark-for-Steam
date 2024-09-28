@@ -1652,7 +1652,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .online ._3xUpb5DWXPFNcHHIcv-9pe {
-    border-radius: 0px !important;
+    border-radius: 5px !important;
     width: 30px !important;
     height: 30px !important;
     transform: translate(1px, -1px) !important;
@@ -1664,7 +1664,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .ingame ._3xUpb5DWXPFNcHHIcv-9pe {
-    border-radius: 0px !important;
+    border-radius: 5px !important;
     width: 30px !important;
     height: 30px !important;
     transform: translate(1px, -1px) !important;
@@ -1676,7 +1676,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe {
-    border-radius: 0px !important;
+    border-radius: 5px !important;
     width: 30px !important;
     height: 30px !important;
     transform: translate(1px, -1px) !important;
@@ -1689,15 +1689,15 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .offline ._3xUpb5DWXPFNcHHIcv-9pe {
-    border-radius: 0px !important;
+    border-radius: 5px !important;
     width: 30px !important;
     height: 30px !important;
     transform: translate(1px, -1px) !important;
     z-index: 1 !important;
     background: transparent !important;
     border: 1px solid grey !important;
-	transition: .25s ease-out !important;
-	display: contents !important;
+    transition: .25s ease-out !important;
+    display: contents !important;
 }
 
 .nibodjvvrm86uCfnnAn4g.Medium {
