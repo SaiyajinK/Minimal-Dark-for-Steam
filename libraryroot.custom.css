@@ -1320,8 +1320,9 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     border-radius: 0px !important;
     background-color: var(--minimal_dark_blacker_alt) !important;
     padding: 4px 0px 7px 0px !important;
-    transform: translate(-8px, 0px) !important;
-    border-right: 2px solid var(--minimal_dark_be_grey) !important;
+    transform: translate(-7px, 0px) !important;
+    border-right: 0px solid var(--minimal_dark_be_grey) !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
     border-top: 1px solid transparent !important;
 }
 
