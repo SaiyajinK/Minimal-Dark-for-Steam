@@ -2140,9 +2140,9 @@ a.recent_game_discussion.quasi_official_group:hover {
 }
 
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {
-	border-radius:var(--minimal_dark_corner5)!important;
-	background-color:var(--minimal_dark_lite_grey)!important;
-	border:0!important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 div#headerSearch.friend_activity_header_search {
@@ -5799,6 +5799,7 @@ body.v6 .game_page_background {
     color: var(--minimal_dark_color) !important;
     background: var(--minimal_dark_black) !important;
     color: var(--minimal_dark_white) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {
@@ -10111,7 +10112,99 @@ a.trigger, a.activetrigger {
 
 ._2MfLNiVZp5dIGmdFChe4Dg {
     border-radius: 5px !important;
-    border: 1px solid #cd0202 !important
+    border: 1px solid #cd0202 !important;
+}
+
+a.forum_comment_action {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+a.forum_comment_action:hover {
+    background-color: var(--minimal_dark_blacker) !important;
+	border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.forum_comment_action_menu {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+}
+
+.bluefade {
+    background-image: none !important;
+}
+
+.ratingBar {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_browser_overlay_close) !important;
+    border-top: 1px solid rgba(var(--minimal_dark_color_rgba), 0.6) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	line-height: 33px !important;
+}
+
+.ratingBar .review_award {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    margin-left: 4px !important;
+	padding: 0px 4px 0px 4px !important;
+}
+
+.ratingBar .review_award:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_blacker) !important;
+    margin-left: 4px !important;
+	padding: 0px 4px 0px 4px !important;
+}
+
+div#ReviewTitle {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+}
+
+.ratingSummaryHeader {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+}
+
+.recommendation_date {
+    padding: 10px !important;
+	margin-top: 10px !important;
+}
+
+.ratingSummaryBlock img {
+    border-radius: 5px !important;
+}
+
+#rightContents .panel.owner {
+    border-color: #df9a1a !important;
+}
+
+.panel.owner .title {
+    color: #df9a1a !important;
+}
+
+div#ReviewText {
+    padding: 20px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.general_btn.panel_btn {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.review_comments_disabled {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.playTime {
+    color: var(--minimal_dark_installed_games) !important;
 }
 
 /* end webkit */
