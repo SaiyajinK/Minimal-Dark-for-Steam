@@ -281,7 +281,7 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
     box-shadow: none !important;
     min-height: 36px !important;
     margin-bottom: 0px;
-    background: var(--minimal_dark_blacker) !important;
+    background: linear-gradient(90deg, rgba(25,25,25,1) 0%, rgba(25,25,25,1) 25%, rgba(var(--minimal_dark_color_rgba),.15) 100%) !important;
     border-radius: 0px !important;
     width: auto !important;
     border-right: 2px solid var(--minimal_dark_color) !important;
@@ -294,10 +294,10 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
 }
 
 ._3yD46y5pd3zOGR7CzKs0mC:active {
-    background-color: transparent !important;
-    box-shadow: inset 0px 1px 4px rgb(0 0 0) !important;
+    background: linear-gradient(90deg, rgba(25,25,25,1) 0%, rgba(25,25,25,1) 25%, rgba(var(--minimal_dark_color_rgba),.15) 100%) !important;
+    box-shadow: inset 0px 2px 8px 2px rgb(0 0 0) !important;
     min-height: 36px !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
 }
 
 .nibodjvvrm86uCfnnAn4g.X-Small {
