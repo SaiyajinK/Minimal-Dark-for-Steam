@@ -267,7 +267,7 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
     margin-top: 1px !important;
     padding-left: 3px !important;
-    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+    border-right: 1px solid transparent !important;
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
     background: var(--minimal_dark_blacker_alt) !important;
     font-size: 0px !important;
@@ -288,7 +288,7 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
     font-size: 12px !important;
     transition: .25s ease-out !important;
     color: #4cb4ff !important;
-    padding-left: 5px !important;
+    padding-left: 3px !important;
     padding-right: 10px !important;
     transform: translate(1px, 0px) !important;
 }
