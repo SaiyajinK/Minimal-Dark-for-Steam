@@ -166,7 +166,7 @@
 }
 
 .friendListHeaderContainer {
-    min-height: 84px;
+    min-height: 88px !important;
     background-color: var(--minimal_dark_blacker_alt);
     border-bottom: none;
     box-shadow: inset rgba(61,68,80,.75) 1px 1px 1px 0px, inset rgba(61,68,80,.25) -1px 0px 1px 0px;
@@ -174,13 +174,14 @@
     user-select: none;
     cursor: default;
     flex-shrink: 0;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .activeTab {
     background-color: transparent;
     box-shadow: none !important;
     color: var(--minimal_dark_less_white);
-    border-bottom: 1px solid var(--minimal_dark_be_grey);
+    border-bottom: 0px solid var(--minimal_dark_be_grey) !important;
 }
 
 .friendSearchInput[type="text"] {
@@ -1828,4 +1829,27 @@ html.client_chat_frame .popup_chat_frame {
 .currentUserAvatar .avatarHolder.Medium {
     width: 48px !important;
     height: 48px !important;
+}
+
+.CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend, .CompactFriendsList .friendGroup .SteamPlayerGroupFooter, .CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
+    padding: 2px 0px 2px 12px !important;
+    height: 26px !important;
+    margin-top: 4px !important;
+}
+
+.CompactFriendsList .friend .avatarHolder img.avatar {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    height: 70% !important;
+    width: 70% !important;
+    transform: translate(0px, -2px) !important;
+}
+
+.CompactFriendsList .friend .labelHolder {
+    height: 26px !important;
+    margin-top: 0px !important;
+    transform: translate(0px, -1px) !important;
+}
+
+.compactView .socialListTab {
+    transform: translate(-4px, 4px) !important;
 }
