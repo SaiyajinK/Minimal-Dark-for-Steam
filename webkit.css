@@ -6482,10 +6482,11 @@ body.v6 .deep_dive_key_tags {
 }
 
 .skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh:hover {
-    box-shadow: 0px 4px 0px 0px rgba(var(--minimal_dark_color_rgba),.6) !important;
+    box-shadow: none !important;
     border-top: 1px solid rgba(var(--minimal_dark_color_rgba),.6) !important;
     border-right: 1px solid rgba(var(--minimal_dark_color_rgba),.6) !important;
     border-left: 1px solid rgba(var(--minimal_dark_color_rgba),.6) !important;
+    border-bottom: 1px solid rgba(var(--minimal_dark_color_rgba),.6) !important;
 }
 
 .skI5tVFxF4zkY8z56LALc ._3xgzPpOhEZZ4X79DUyurfa:hover {
@@ -10205,6 +10206,14 @@ div#ReviewText {
 
 .playTime {
     color: var(--minimal_dark_installed_games) !important;
+}
+
+._3vKwrVjIyKAkovj545omby:hover path {
+    stroke: var(--minimal_dark_color) !important;
+}
+
+.qQJ_rXzdmKr_3e9d5I-bl:hover path {
+    stroke: var(--minimal_dark_color) !important;
 }
 
 /* end webkit */
