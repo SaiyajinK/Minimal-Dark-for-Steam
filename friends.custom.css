@@ -1898,6 +1898,8 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .timeDivision .preHorizDivider {
-    margin-right: -129px !important;
-	background-color: transparent !important;
+    width: 5% !important;
+    background-color: rgba(79,82,87,.5) !important;
+    margin-right: -32px !important;
+    transform: translate(-40px, 0px) !important;
 }
