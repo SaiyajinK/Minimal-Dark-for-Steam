@@ -1869,7 +1869,7 @@ html.client_chat_frame .popup_chat_frame {
 .speaker.online .speakerStatus {
     width: 30px !important;
     height: 30px !important;
-    background-color: transparent;
+    background-color: transparent !important;
     transform: translate(-33px, 0px) !important;
     border-radius: 5px !important;
     border: 1px solid #4c91ac !important;
