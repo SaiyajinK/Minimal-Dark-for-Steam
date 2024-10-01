@@ -780,7 +780,10 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .speakerTimeStamp {
-    color: var(--minimal_dark_less_white) !important;
+    align-self: auto !important;
+    color: rgb(169 169 169 / 40%) !important;
+    transform: translate(-34px, 4px) !important;
+    margin-top: 2px !important;
 }
 
 ._3EzTyjJx_tZUEIHygPwAeC.online ._1DArl3Gs9lXPcZdmCIlDJa {
@@ -813,7 +816,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .MultiUserChat .msg:not(.ChatMsgSlashEmote) {
-    padding-left: 36px;
+    padding-left: 46px !important;
 }
 
 ._3EzTyjJx_tZUEIHygPwAeC.in-game ._1DArl3Gs9lXPcZdmCIlDJa {
@@ -1852,4 +1855,49 @@ html.client_chat_frame .popup_chat_frame {
 
 .compactView .socialListTab {
     transform: translate(-4px, 4px) !important;
+}
+
+.speaker.ingame .speakerStatus {
+    width: 30px !important;
+    height: 30px !important;
+    background-color: transparent !important;
+    transform: translate(-33px, 0px) !important;
+    border-radius: 5px !important;
+    border: 1px solid #a6df3d !important;
+}
+
+.speaker.online .speakerStatus {
+    width: 30px !important;
+    height: 30px !important;
+    background-color: transparent;
+    transform: translate(-33px, 0px) !important;
+    border-radius: 5px !important;
+    border: 1px solid #4c91ac !important;
+}
+
+.speaker.awayOrSnooze .speakerStatus {
+    width: 30px !important;
+    height: 30px !important;
+    background-color: transparent !important;
+    transform: translate(-33px, 0px) !important;
+    border-radius: 5px !important;
+    border: 1px solid orange !important;
+}
+
+.speaker.offline .speakerStatus {
+    width: 30px !important;
+    height: 30px !important;
+    background-color: transparent !important;
+    transform: translate(-33px, 0px) !important;
+    border-radius: 5px !important;
+    border: 1px solid grey !important;
+}
+
+.ChatRoomSpeaker .speaker .speakerName {
+    transform: translate(-35px, 4px) !important;
+}
+
+.timeDivision .preHorizDivider {
+    margin-right: -129px !important;
+	background-color: transparent !important;
 }
