@@ -978,15 +978,21 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     padding-right: 12px !important;
 }
 
+.friend.quickAccessFriend .playerNameQuickAccessContainer .playerName {
+    padding-top: 17px !important;
+}
+
 .friendStatusHover.online:hover, .friendStatusHover.online.Friend_ContextMenuActive {
     border-radius: 5px !important;
-    border: 1px solid rgb(109 207 246 / 20%)  !important;
+    border: 1px solid rgb(109 207 246 / 40%)  !important;
+	transition: .25s ease-out !important;
 }
 
 .friendStatusHover.offline:hover, .friendStatusHover.offline.Friend_ContextMenuActive {
     background-color: rgb(64 64 64 / 20%) !important;
     border-radius: 5px !important;
-    border: 1px solid rgb(122 122 122 / 30%) !important;
+    border: 1px solid rgb(122 122 122 / 40%) !important;
+	transition: .25s ease-out !important;
 }
 
 .addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
@@ -994,14 +1000,16 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .friendStatusHover.ingame:hover, .friendStatusHover.ingame.Friend_ContextMenuActive {
-    border: 1px solid rgb(227 255 194 / 20%) !important;
+    border: 1px solid rgb(227 255 194 / 40%) !important;
     border-radius: 5px !important;
+	transition: .25s ease-out !important;
 }
 
 .friendStatusHover.awayOrSnooze:hover, .friendStatusHover.awayOrSnooze.Friend_ContextMenuActive {
-    border: 1px solid rgb(255 192 76 / 20%) !important;
+    border: 1px solid rgb(255 192 76 / 40%) !important;
     border-radius: 5px !important;
     background-color: rgb(255 192 76 / 2%) !important;
+	transition: .25s ease-out !important;
 }
 
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
@@ -1425,7 +1433,8 @@ button.DialogButton.Primary {
 }
 
 .friendlistListContainer .friend.ingame .labelHolder {
-    padding-top: 6px !important;
+    /* padding-top: 6px !important; */
+    padding-top: 3px !important;
 }
 
 .friendlistListContainer .friend.online .labelHolder {
@@ -1757,6 +1766,8 @@ html.client_chat_frame .popup_chat_frame {
 
 .friend.quickAccessFriend {
     border: 1px solid transparent !important;
+    transition: .25s ease-out !important;
+	border-radius: 5px !important;
 }
 
 .ChatTabContent .avatarHolder .avatarStatus, .friend.quickAccessFriend .avatarHolder .avatarStatus {
@@ -1902,4 +1913,57 @@ html.client_chat_frame .popup_chat_frame {
     background-color: rgba(79,82,87,.5) !important;
     margin-right: -32px !important;
     transform: translate(-40px, 0px) !important;
+}
+
+.friend.online .playerNameQuickAccessContainer {
+    opacity: .75 !important;
+	color: #6dcff6 !important;
+}
+
+.friend.ingame .playerNameQuickAccessContainer {
+    opacity: .75 !important;
+	color: #9aff23 !important;
+}
+
+.friend.awayOrSnooze .playerNameQuickAccessContainer {
+    opacity: .75 !important;
+	color: #f7a24b !important;
+}
+
+.friend.offline .playerNameQuickAccessContainer {
+    opacity: .75 !important;
+	color: grey !important;
+}
+
+.FavoriteFriend_GameIcon {
+    display: none !important;
+}
+
+.groupName .gameGroupContainer .groupIcon {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.quickAccessFriends .favoriteElement:hover .friend .playerName {
+    color: var(--minimal_dark_installed_games) !important;
+}
+
+.quickAccessFriends .favoriteElement:hover .online .playerName {
+    color: #6dcff6 !important;
+	filter: brightness(1.25) !important;
+}
+
+.quickAccessFriends .favoriteElement:hover .ingame .playerName {
+    color: #9aff23 !important;
+	filter: brightness(1.25) !important;
+}
+
+.quickAccessFriends .favoriteElement:hover .awayOrSnooze .playerName {
+    color: #f7a24b !important;
+	filter: brightness(1.25) !important;
+}
+
+.quickAccessFriends .favoriteElement:hover .offline .playerName {
+    color: white !important;
+	filter: brightness(1.25) !important;
 }
