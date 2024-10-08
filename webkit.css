@@ -10261,15 +10261,51 @@ div#ReviewText {
     right: 0px !important;
 }
 
-input[type=text], input[type=password], input[type=number], select {
+.search_invite_link_tip {
     color: var(--minimal_dark_color) !important;
-    box-shadow: inset 0 0 6px #000000b5 !important;
-    border-radius: 5px !important;
+}
+
+.C9tvuqqEXGcrkcAtHrQ_R ._3JV6-V6z0SKmNu6TlI1Bdr {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.approvetxn_lineitem_container_header {
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.approvetxn_lineitem_container {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
-.search_invite_link_tip {
-    color: var(--minimal_dark_color) !important;
+.approvetxn_lineitem_row {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.review_useravatar {
+    background: transparent !important;
+}
+
+.responsive_header {
+    background: var(--minimal_dark_blacker_alt) !important;
+    box-shadow: 0 0 20px 1px rgb(0 0 0 / 75%) !important;
+}
+
+.mainmenu_contents {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.responsive_menu_user_area {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.mainmenu_contents .menuitem {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+._3Kelh1-_v6xHfRjF68n7NB, ._3ctGqQID5-8adtd7HlZ3YM, ._16xC0mtOWoLbvSQbmo_ycv {
+    background-color: transparent !important;
 }
 
 /* end webkit */
