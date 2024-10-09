@@ -9425,11 +9425,21 @@ body.v6 .sale_capsule .discount_block_inline {
     background: var(--minimal_dark_blacker) !important;
 }
 
+._3zfQA8bEKpisPtsyT4SovP:hover {
+    background: var(--minimal_dark_blacker_alt) !important;
+	border-radius: 5px !important;
+}
+
 .QFW0BtI4l77AFmv1xLAkx, ._3B8wRA4H7e_oSksYNqpSPv, ._2NdiftmP-B3C4LPWnNGTCB, ._25gii5r23MmAqXvLZj24tK, ._3k90ug209sE23xAMqcM74s {
     border-radius: 5px !important;
-    border: 1px solid var(--minimal_dark_blacker_alt) !important;
     background: var(--minimal_dark_black) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_blacker) !important;
+}
+
+._3B8wRA4H7e_oSksYNqpSPv._1B1XTNsfuwOaDPAkkr8M42:hover {
+	border-radius: 5px !important;
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 ._25gii5r23MmAqXvLZj24tK:hover, ._3k90ug209sE23xAMqcM74s:hover {
