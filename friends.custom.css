@@ -1976,3 +1976,15 @@ html.client_chat_frame .popup_chat_frame {
 ._3mf9BBKxhIVdrt6nIWBt4x {
     background: var(--minimal_dark_blacker_alt) !important;
 }
+
+.chatRoomMembers {
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.MemberListOptionsContainer {
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.MemberListOption.ToggleMemberListView:hover polyline {
+    stroke: var(--minimal_dark_color) !important;
+}
