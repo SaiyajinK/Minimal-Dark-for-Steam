@@ -2015,3 +2015,8 @@ html.client_chat_frame .popup_chat_frame {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0) 100%);
     border-radius: 5px !important;
 }
+
+._2OoTJwlWvzvAysWOOEQaXS {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 5px !important;
+}
