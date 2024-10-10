@@ -578,9 +578,20 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .ScrollToBottomButton>span {
-    background: rgba(var(--minimal_dark_color_rgba),.25);
-    color: var(--minimal_dark_less_white) !important;
-    backdrop-filter: blur(15px);
+    background: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_color) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
+    border-right: 1px solid var(--minimal_dark_color) !important;
+    border-left: 1px solid var(--minimal_dark_color) !important;
+}
+
+.ScrollToBottomButton>span:hover {
+    background: rgba(var(--minimal_dark_color_rgba),1) !important;
+	color: white !important;
+    transition: .25s ease-out !important;
+	border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .chatRoomTextChannel.ActiveTextChannel {
@@ -1253,6 +1264,7 @@ button.DialogButton.Primary {
 .inviteAnotherFriendButton {
     background-color: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    transform: translate(-2px, 10px) !important;
 }
 
 .inviteAnotherFriendButton .SVGIcon_Button {
@@ -1987,4 +1999,19 @@ html.client_chat_frame .popup_chat_frame {
 
 .MemberListOption.ToggleMemberListView:hover polyline {
     stroke: var(--minimal_dark_color) !important;
+}
+
+.ChatRoomGroupDialog_history {
+    border-radius: 5px !important;
+    padding: 10px !important;
+}
+
+.ChatHistoryContainer {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+._1osHa9KHOmdCDNrA232z4N {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 5px !important;
 }
