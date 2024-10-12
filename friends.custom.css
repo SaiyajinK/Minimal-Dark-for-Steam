@@ -272,17 +272,9 @@
 }
 
 .chatWindow .chatEntry {
-    flex-shrink: 0;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    padding-top: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    background-color: var(--minimal_dark_blacker) !important;
-    transition: all .21s ease-in-out;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding-top: 0px !important;
+    padding-left: 10px !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
 .chatWindow .chatHeader {
@@ -1528,8 +1520,8 @@ button.DialogButton.Primary {
 
 ._3Ule3rolhZJiBN4yNNtk1s {
     background-color: var(--minimal_dark_blacker_alt) !important;
-    padding-right: 2px;
     border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
@@ -2004,6 +1996,7 @@ html.client_chat_frame .popup_chat_frame {
 .ChatRoomGroupDialog_history {
     border-radius: 5px !important;
     padding: 10px !important;
+    padding-top: 0px !important;
 }
 
 .ChatHistoryContainer {
