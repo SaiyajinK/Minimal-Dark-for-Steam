@@ -2022,3 +2022,7 @@ html.client_chat_frame .popup_chat_frame {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0) 100%);
     border-radius: 5px !important;
 }
+
+.currentUserContainer ._3sxE7F1LV2IcSX68YsH9dI {
+    margin-top: 6px !important;
+}
