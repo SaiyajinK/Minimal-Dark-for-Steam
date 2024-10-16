@@ -2842,10 +2842,6 @@ body.v6 .discount_block {
 	border-radius:var(--minimal_dark_corner0)!important;
 }
 
-.filter_section {
-	border-radius:var(--minimal_dark_corner0)!important;
-}
-
 .wishlist .controls div {
     border-radius: var(--minimal_dark_corner5)!important;
 }
@@ -5844,8 +5840,8 @@ body.v6 .game_page_background {
 }
 
 .filter_section {
-    background-color: var(--minimal_dark_black);
-    border: 1px solid var(--minimal_dark_greygrey);
+    background-color: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_greygrey) !important;
 }
 
 .wishlist .controls .filter_tab:hover {
