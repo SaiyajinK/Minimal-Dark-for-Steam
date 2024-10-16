@@ -5855,11 +5855,11 @@ body.v6 .game_page_background {
 }
 
 .dropdown_container {
-    background-color: var(--minimal_dark_black);
+    background-color: var(--minimal_dark_black) !important
 }
 
 .dropdown_container .item:hover {
-    background-color: var(--minimal_dark_be_grey);
+    background-color: var(--minimal_dark_be_grey) !important;
     color: var(--minimal_dark_color) !important;
 	border-radius: 5px !important;
 }
