@@ -10399,4 +10399,13 @@ div#ReviewText {
     margin-bottom: 10px !important;
 }
 
+body.v6 div#store_header {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    margin-bottom: -15px !important;
+}
+
+.page_content_ctn {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
 /* end webkit */
