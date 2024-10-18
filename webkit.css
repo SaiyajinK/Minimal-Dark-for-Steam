@@ -10404,4 +10404,13 @@ body.v6 div#store_header {
     background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
+.breadcrumbs {
+    color: var(--minimal_dark_color) !important;
+    transform: translate(0px, 22px) !important;
+}
+
+.page_title_area.game_title_area.page_content .apphub_HomeHeaderContent {
+    padding-top: 22px !important;
+}
+
 /* end webkit */
