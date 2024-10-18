@@ -50,7 +50,7 @@ If you want to remove this, open `webkit.css` and remove line `100`<br>
 `Thanks Shiina for the base of the webkit` <br>
 All aspects were changed to match my theme. <br>
 
- ![steamwebhelper_wHZRyIiywO](https://github.com/user-attachments/assets/4967de5a-c74e-4592-b270-f9e38d68a329) <br>
+![steamwebhelper_jCRvt3NLNE](https://github.com/user-attachments/assets/24b62753-f588-49bd-8704-a5a9a67a08f1) <br>
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
