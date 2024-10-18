@@ -37,7 +37,7 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![steamwebhelper_ECgiwiGHxA](https://github.com/user-attachments/assets/edf8fa89-1d04-47c2-9c50-7d078ccf13f2) <br>
+![steamwebhelper_fg4wOYs2Yr](https://github.com/user-attachments/assets/888d8ecf-07f6-4ca8-a7e9-3100f3ed012c) <br>
 
 ## `👤 Profil 👤` <br> 
 
