@@ -132,8 +132,9 @@
 
 ._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9._2ws8DONH9fxQjPXEmRpujE {
     color: var(--minimal_dark_color) !important;
-	margin-left: 2px !important;
-	font-weight: bold !important;
+    margin-left: 2px !important;
+    font-weight: bold !important;
+    transition: .25s ease-out !important;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph:hover {
