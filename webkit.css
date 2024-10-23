@@ -10413,4 +10413,8 @@ body.v6 div#store_header {
     padding-top: 22px !important;
 }
 
+a.whiteLink:hover, .whiteLink:hover, a.linkStandard:hover, a.linkTitle:hover, a.underlinedLink:hover, span.underlinedLink:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
 /* end webkit */
