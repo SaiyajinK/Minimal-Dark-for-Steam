@@ -2026,3 +2026,32 @@ html.client_chat_frame .popup_chat_frame {
 .currentUserContainer ._3sxE7F1LV2IcSX68YsH9dI {
     margin-top: 6px !important;
 }
+
+._18bmBH7zyngCgHtgY3IEL_ {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    transition: .25s ease-out !important;
+}
+
+._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY:hover {
+    background: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    box-shadow: 1px 2px 18px rgba(0,0,0,.3) !important;
+    transition: .25s ease-out !important;
+	color: white !important;
+}
+
+._3t-tVOpu2n074cjZsygYfm ._2MByvWz7Ec6CRwKDWFmHrS {
+    color: var(--minimal_dark_red2) !important;
+}
+
+._3t-tVOpu2n074cjZsygYfm .rORRrCcMO9z86bopxDvrH {
+    color: var(--minimal_dark_redsettings) !important;
+    text-align: center !important;
+}
