@@ -10417,4 +10417,9 @@ a.whiteLink:hover, .whiteLink:hover, a.linkStandard:hover, a.linkTitle:hover, a.
     color: var(--minimal_dark_color) !important;
 }
 
+._2Qnb-DOaU8BbFWOUBG3hs1 {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
 /* end webkit */
