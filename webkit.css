@@ -10618,4 +10618,9 @@ body.v6 .page_desc {
     border-top-left-radius: 5px !important;
 }
 
+.carousel_container.spotlight .carousel_items > * {
+    padding: 2px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
 /* end webkit */
