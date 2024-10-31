@@ -2587,8 +2587,10 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 }
 
 .friends_nav a.active {
-	background-color:var(--minimal_dark_night_alt)!important;
-	border-radius:var(--minimal_dark_corner5)!important;
+    background-color: var(--minimal_dark_night_alt)!important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .friends_nav a:hover {
@@ -3263,11 +3265,12 @@ span.invite_action_txt {
 }
 
 .community_search_text_box {
-	background: 0 0 !important;
-	background-color:var(--minimal_dark_blacker_alt) !important;
-	border: 0 !important;
-	border-radius:var(--minimal_dark_corner0) !important;
-	color:var(--minimal_dark_white) !important;
+    background: 0 0 !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    color: var(--minimal_dark_color) !important;
+    box-shadow: 0 0 15px var(--minimal_dark_color) !important;
 }
 
 input[type="number"], input[type="password"], input[type="text"], select {
@@ -3295,11 +3298,14 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer {
 }
 
 .search_match_info {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: 5px !important;
+    background: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .search_group_avatar_holder img {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .grouppage_content_area .community_search_container>h2 {
@@ -4328,7 +4334,9 @@ div.early_access_announcements .post .more:hover {
 }
 
 .calendarBox {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: 5px !important;
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .member_block {
@@ -10597,6 +10605,17 @@ body.v6 .page_desc {
 
 .follow_controls, .ignore_controls.ignored {
     border-radius: 5px !important;
+}
+
+.calendarBox .days a.isCurrent {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background-color: var(--minimal_dark_color) !important;
+    color: white !important;
+    border-radius: 5px !important;
+}
+
+._3sG-J5T8SrzM0Hjkda7sgL._1_z8vE2vYRzSyf1HQIcm5O._115ZF6m0XsEieocbL7zjo- {
+    border-top-left-radius: 5px !important;
 }
 
 /* end webkit */
