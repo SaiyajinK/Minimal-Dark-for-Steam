@@ -1187,7 +1187,7 @@ img.tab_item_cap_img {
 .carousel_items.store_capsule_container {
     border-radius: var(--minimal_dark_corner5)!important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    padding: 0px !important;
+    padding: 2px !important;
     background: #1212125e !important;
     backdrop-filter: blur(10px) !important;
 }
@@ -10423,7 +10423,7 @@ div#ReviewText {
 
 .W9_WAYXgEe-t-7aqqC4Jp {
     padding-bottom: 0px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
     border-radius: 5px !important;
     margin-bottom: 10px !important;
 }
