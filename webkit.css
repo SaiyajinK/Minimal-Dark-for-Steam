@@ -10623,4 +10623,22 @@ body.v6 .page_desc {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
+._22AcxR1RBDH6i-gjKRHYk0:hover {
+    box-shadow: 0 0 10px var(--minimal_dark_color) !important;
+}
+
+._1JM3A81UO1KoAFlVTA3a8O {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yLwL_rugP3YLf:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yLwL_rugP3YLf:hover .v9uRg57bwOaPsvAnkXESO .kW6m4Sjqacp5hykrj5LEo {
+    position: absolute !important;
+}
+
 /* end webkit */
