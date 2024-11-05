@@ -10448,8 +10448,6 @@ body.v6 div#store_header {
 }
 
 .wishlist_header img {
-    width: 67px;
-    height: 67px;
     transform: translate(0px, 10px) !important;
 }
 
