@@ -10429,8 +10429,8 @@ div#ReviewText {
 }
 
 body.v6 div#store_header {
-    background-color: var(--minimal_dark_blacker_alt) !important;
-    margin-bottom: -15px !important;
+    background-color: transparent !important;
+    margin-bottom: -44px !important;
 }
 
 .page_content_ctn {
@@ -10439,11 +10439,22 @@ body.v6 div#store_header {
 
 .breadcrumbs {
     color: var(--minimal_dark_color) !important;
-    transform: translate(0px, 22px) !important;
+    /* transform: translate(0px, 56px) !important; */
+	padding-top: 68px !important;
+}
+
+.apphub_HomeHeaderContent .apphub_HeaderStandardTop {
+    padding-top: 0px !important;
+}
+
+.wishlist_header img {
+    width: 67px;
+    height: 67px;
+    transform: translate(0px, 10px) !important;
 }
 
 .page_title_area.game_title_area.page_content .apphub_HomeHeaderContent {
-    padding-top: 22px !important;
+    padding-top: 0px !important;
 }
 
 a.whiteLink:hover, .whiteLink:hover, a.linkStandard:hover, a.linkTitle:hover, a.underlinedLink:hover, span.underlinedLink:hover {
