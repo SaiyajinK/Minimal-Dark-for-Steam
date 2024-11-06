@@ -10449,6 +10449,12 @@ body.v6 div#store_header {
 
 .wishlist_header img {
     transform: translate(0px, 10px) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.wishlist_header .profile_avatar_frame > img {
+    display: none !important;
 }
 
 .page_title_area.game_title_area.page_content .apphub_HomeHeaderContent {
