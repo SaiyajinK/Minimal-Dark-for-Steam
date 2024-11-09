@@ -584,6 +584,7 @@ body.v6.summer2018_home .home_page_body_ctn {
 
 .home_ctn {
 	background: var(--minimal_dark_blacker_alt) !important;
+	padding-top: 70px !important;
 }
 
 .home_ctn.apps_recommended_by_curators_ctn {
@@ -10658,6 +10659,10 @@ html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yL
 
 .gutter_header.gutter_top.steam_deck_ctn {
     display: none !important;
+}
+
+._2rArjHHk-sJxtm0AQK-ifY ._2uKyXTgmlwRhfDB9pAKD76 ._1kLTg9HHfMgVo8gDstT8uR._kbFJdSwEh7bc98Yq_gZ2 {
+    padding-top: 30px !important;
 }
 
 /* end webkit */
