@@ -10778,4 +10778,23 @@ html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yL
     border-radius: 5px !important;
 }
 
+.DialogLabel, .DialogLabelStrong {
+    color: var(--minimal_dark_color) !important;
+}
+
+.DialogSlider_Value {
+    background: var(--minimal_dark_color) !important;
+}
+
+.DialogSlider_Grabber {
+    top: -2px !important;
+    background: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.DialogSlider_Slider {
+    border: 4px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_black) !important;
+}
+
 /* end webkit */
