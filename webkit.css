@@ -10717,7 +10717,7 @@ html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yL
 }
 
 .gASJ2lL_xmVNuZkWGvrWg {
-    margin-bottom: 14px !important;
+    margin-bottom: 12px !important;
 }
 
 ._18byEIHFiivSklOwKqIx2b ._1edLKYpcJyTYC7ku9fYI1_ .Eh-ow8RpArn1HQyPR8RFY .KDLASaMCaASZ6LnF3kQY8.qYruXlm9Lip3i2lmnsxum {
@@ -10795,6 +10795,11 @@ html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yL
 .DialogSlider_Slider {
     border: 4px solid var(--minimal_dark_be_grey) !important;
     background: var(--minimal_dark_black) !important;
+}
+
+._18byEIHFiivSklOwKqIx2b ._1edLKYpcJyTYC7ku9fYI1_ .Eh-ow8RpArn1HQyPR8RFY ._1YWp1WOcTPesvO2Yp5SuOA .DialogInput {
+    padding: 4px !important;
+    color: orange !important;
 }
 
 /* end webkit */
