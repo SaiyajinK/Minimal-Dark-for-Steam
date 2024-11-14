@@ -10955,4 +10955,10 @@ body.v6 h2.pageheader {
     backdrop-filter: blur(8px) !important;
 }
 
+._3Y72HgnTA3W9eV4Z5OBvWt {
+    background: rgba(var(--minimal_dark_color_rgba),.25) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
 /* end webkit */
