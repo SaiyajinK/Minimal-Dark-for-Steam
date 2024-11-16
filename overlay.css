@@ -835,7 +835,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g ._1RUoX0kTOBfqpwCaBZGDLJ {
-    background-color: var(--minimal_dark_be_grey) !important;
+    background-color: var(--minimal_dark_black) !important;
     border-radius: 5px 5px 0px 0px !important;
 }
 
@@ -859,6 +859,10 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 	border-radius: 0px !important;
 }
 
+._7EGqd8bdiXJBd2fj5Hh8r:hover ._1RUoX0kTOBfqpwCaBZGDLJ {
+    background-color: var(--minimal_dark_black) !important;
+}
+
 ._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g._2TU8h_lVFNy15AfRR7tTIQ ._1RUoX0kTOBfqpwCaBZGDLJ {
     background-color: var(--minimal_dark_color) !important;
 	border-radius: 0px !important;
@@ -870,7 +874,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._7EGqd8bdiXJBd2fj5Hh8r ._1RUoX0kTOBfqpwCaBZGDLJ {
-    background-color: var(--minimal_dark_be_grey) !important;
+    background-color: var(--minimal_dark_black) !important;
 }
 
 ._1J8umaxlHnD4poewN6r8wp {
