@@ -370,9 +370,7 @@
 .B-vCdL38RiJlhfSRgZv78 ._3OSZu24hLN7YKjqGi7I2Xp {
     background-color: rgb(38 38 38 / 60%) !important;
     backdrop-filter: blur(8px) !important;
-    border-top-left-radius: 5px !important;
-    border-top: 1px solid var(--minimal_dark_invisblegrey) !important;
-    border-left: 1px solid var(--minimal_dark_invisblegrey) !important;
+    border: 1px solid var(--minimal_dark_invisblegrey) !important;
     padding: 1px 5px !important;
     bottom: 4px !important;
     right: 4px !important;
