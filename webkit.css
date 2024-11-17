@@ -319,7 +319,7 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote {
 }
 
 .btn_small_tall > span, input.btn_small_tall {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
     background: var(--minimal_dark_blacker_alt) !important;
 }
 
@@ -1322,6 +1322,7 @@ img.member_tile {
 
 .tab_see_more {
     border-radius: var(--minimal_dark_corner5)!important;
+	background: transparent !important;
 }
 
 .curator_page {
@@ -1403,7 +1404,7 @@ a.home_marketing_message {
 }
 
 .home_content.single_buttonbar {
-	border-radius:var(--minimal_dark_corner0)!important;
+    background: transparent !important;
 }
 
 .home_content.single .gamelink img {
@@ -2706,15 +2707,21 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 }
 
 .btnv6_blue_hoverfade {
-    text-decoration: none!important;
+    border-radius: 5px !important;
     color: white !important;
-    background: var(--minimal_dark_blacker_alt) !important;
-    border-radius: var(--minimal_dark_corner5)!important;
+    background: transparent !important;
+}
+
+.home_content.single_buttonbar > *:not(.single_buttonbar_group), .home_content.single_buttonbar .single_buttonbar_group > * {
+    border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
 
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
     color: var(--minimal_dark_color) !important;
+	border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .explore_rightcol_box {
@@ -3382,6 +3389,12 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
+.highlight_strip_item img:hover {
+    border-radius: var(--minimal_dark_corner5) !important;
+    background-color: transparent !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
 .highlight_strip_item {
 	background-color:transparent!important;
 }
@@ -3436,7 +3449,31 @@ img.game_header_image_full {
 }
 
 .highlight_selector {
-	background-image:none!important;
+    position: absolute;
+    background-image: none !important;
+    width: 116px !important;
+    height: 65px !important;
+    z-index: 50;
+    top: 2px !important;
+    pointer-events: none;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.highlight_movie_marker {
+    border-radius: 18px !important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
+	top: 15px !important;
+    left: 41px !important;
+}
+
+.queue_btn_menu > .queue_menu_arrow img {
+    filter: grayscale(1) !important;
+}
+
+.ico16.arrow_next {
+    background-position: -176px 0px;
+    filter: grayscale(1) !important;
 }
 
 #game_highlights {
@@ -5688,6 +5725,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {
 .queue_btn_menu:hover > .queue_menu_arrow, .queue_btn_menu > .queue_menu_arrow:hover {
     border-radius: 5px !important;
     background: var(--minimal_dark_blacker);
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .queue_btn_menu > .queue_menu_arrow.queue_btn_active {
@@ -6517,6 +6555,8 @@ body.v6 .deep_dive_key_tags {
 
 .queue_actions_ctn .btn_medium {
     color: var(--mininmal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    color: white !important;
 }
 
 .skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh {
@@ -8417,6 +8457,7 @@ body.v6 .broadcast_live_stream_icon {
     box-shadow: none !important;
     border-radius: 5px !important;
     border: 1px solid #a50000 !important;
+    color: white !important;
 }
 
 .broadcast_live_stream_icon:hover {
