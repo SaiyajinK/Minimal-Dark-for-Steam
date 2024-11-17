@@ -1144,7 +1144,8 @@ div.store_header_btn {
 }
 
 .curator_page .actions {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: 5px !important;
+    background: transparent !important;
 }
 
 a.follow_button.btn_green_white_innerfade.btn_medium {
@@ -11053,6 +11054,33 @@ body.v6.newonsteam .newonsteam_headercaps img {
 .community_recommendations_block > .review_box .avatar .playerAvatar img {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.block .block_content_inner #AwardsDefault img {
+    max-width: 270px !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.curator_cluster_expanded.carousel_container .carousel_items > .curator_page {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.curator_page {
+    box-shadow: inset 0 0 160px rgba(var(--minimal_dark_color_rgba),.1) !important;
+}
+
+.curator_page .avatar {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.tab_filter {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
 }
 
 /* end webkit */
