@@ -11189,4 +11189,44 @@ body.v6.newonsteam .newonsteam_headercaps img {
     font-size: 10px !important;
 }
 
+.highlighted_app_curator_image img {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.highlighted_app_curator_image:hover img {
+    box-shadow: none !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.features_ctn {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.section_ctn.img_left img {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.section_ctn.img_right img {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.all_devs_ctn {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.paged_items_paging {
+    background: transparent !important;
+}
+
+.paged_items_paging_controls #Recommendations_links span.active {
+    color: var(--minimal_dark_color) !important;
+}
+
+.steam_curator_header_grad {
+    background: linear-gradient( to bottom, rgba(40,43,49,0) 60%, rgba(18,18,18,0.9) 100%) !important;
+}
+
 /* end webkit */
