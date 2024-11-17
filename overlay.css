@@ -1518,3 +1518,17 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     background: #0e0e0e !important;
 	transition: .25s ease-out !important;
 }
+
+._11PBfip2UlKlY3vWSz8PA4 {
+    background: var(--minimal_dark_color) !important;
+}
+
+._2_vG6TwMW2XtyLlTEaODH9 {
+    background-color: black !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._11I0_AlsB40ak50752rsuy {
+    color: var(--minimal_dark_color) !important;
+	font-weight: 500 !important;
+}
