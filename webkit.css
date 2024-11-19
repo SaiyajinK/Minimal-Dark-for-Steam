@@ -1640,11 +1640,9 @@ body.v6.newonsteam .newonsteam_headercaps a:first-child:hover {
 }
 
 .tabarea .tab.active .tab_content {
-	background:var(--minimal_dark_night_alt1)!important;
-}
-
-.tabarea .tab .tab_content {
-	border-radius:var(--minimal_dark_corner0)!important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .contenthub_specials_ctn {
@@ -1669,7 +1667,11 @@ body.v6.newonsteam .newonsteam_headercaps a:first-child:hover {
 }
 
 .tabarea .tab.active {
-	background:var(--minimal_dark_night_alt1)!important;
+    background: var(--minimal_dark_night_alt1)!important;
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
+    border-radius: 5px !important;
+    /* color: var(--minimal_dark_color) !important; */
+	transition: .25s ease-out !important;
 }
 
 .tabarea .tab {
@@ -1677,11 +1679,19 @@ body.v6.newonsteam .newonsteam_headercaps a:first-child:hover {
 }
 
 .tabarea .tab .tab_content {
-	background:rgba(0,0,0,0)!important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    color: white !important;
+	transition: .25s ease-out !important;
 }
 
 .tabarea .tab .tab_content:hover {
-	background:rgba(0,0,0,0)!important;
+	background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    color: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 .page_header_ctn.search {
@@ -5284,7 +5294,10 @@ h2.pageheader {
 }
 
 .block .block_header {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
+    margin-top: 4px !important;
 }
 
 .block_content {
@@ -6377,9 +6390,10 @@ body.v6 .game_area_already_owned.page_content {
 .ds_flag.ds_owned_flag {
     background: var(--minimal_dark_blacker) !important;
     backdrop-filter: blur(30px);
-	border-radius: var(--minimal_dark_corner5)!important;
+    border-radius: var(--minimal_dark_corner5)!important;
     color: var(--minimal_dark_browser_overlay_close);
-	border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transform: translate(-29px, -4px) !important;
 }
 
 #home_gutter_recentlyviewed {
@@ -11490,6 +11504,195 @@ span.bb_removedlink {
 
 .queue_ctn.in_queue .queue_actions_ctn {
     padding-top: 28px !important;
+}
+
+.recommendation_highlight {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.recommendation_highlight .header_image {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.recommendation_highlight .header_image:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.recommendation_highlight .header_image img {
+    border-radius: 5px !important;
+}
+
+.friendactivity_tab_row {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-top: 5px !important;
+}
+
+.friendactivity_tab_row .game_capsule_area a.friendactivity_game_link {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.friendactivity_tab_header {
+    background-color: transparent !important;
+    border: 1px solid var(--minimal_dark_invisblegrey) !important;
+    border-radius: 5px !important;
+}
+
+.friendactivity_tab_row .time_bar_ctn .time_bar {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.friendactivity_tab_row .time_bar_ctn .time_bar_label {
+    color: var(--minimal_dark_color) !important;
+}
+
+.friendactivity_tab_row .game_capsule_area a.friendactivity_game_link img {
+    border-radius: 5px !important;
+}
+
+a.friendactivity_game_link.ds_flagged:not(.ds_wishlist) img {
+    opacity: 1 !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.view_active {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+	font-weight: 200 !important;
+	transition: .25s ease-out !important;
+}
+
+.view_active:hover {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+	font-weight: 200 !important;
+	transition: .25s ease-out !important;
+}
+
+a.view_inactive {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    color: var(--minimal_dark_white) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+	font-weight: 200 !important;
+	transition: .25s ease-out !important;
+}
+
+a.view_inactive:hover {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    border-radius: var(--minimal_dark_corner5)!important;
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+	font-weight: 200 !important;
+	transition: .25s ease-out !important;
+}
+
+.friendplaytime_plusmore.friend_status_offline .friend_block_avatar {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.friendplaytime_plusmore .friend_block_avatar a {
+    color: var(--minimal_dark_color) !important;
+}
+
+.pagebtn {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.pagebtn:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.paged_items_paging_pagelink, .paged_items_paging_controls .commentthread_pagelink {
+    color: white !important;
+}
+
+.paged_items_paging_pagelink.active, .paged_items_paging_controls .commentthread_pagelink.active {
+    color: var(--minimal_dark_color) !important;
+}
+
+.paged_items_paging_pagelink:hover, .paged_items_paging_controls .commentthread_pagelink:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+.recommendation_row {
+    background-image: none !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.commentCount {
+    padding-left: 16px !important;
+    padding-top: 10px !important;
+}
+
+.recommendation_row .recommendation_app {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.recommendation_row .recommendation_app img {
+    border-radius: 5px !important;
+}
+
+.recommendation_row .recommendation_app:hover {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.block_content_inner {
+    margin-top: 5px !important;
+}
+
+.home_friend_game_block .game_capsule a {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.home_friend_game_block .game_capsule a img {
+    border-radius: 5px !important;
+}
+
+.friend_game_block .friend_activity:hover {
+    border-radius: 5px !important;
+    background: var(--minimal_dark_invisblegrey) !important;
+}
+
+.btnv6_white_transparent {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+	transition: .25s ease-out !important;
 }
 
 /* end webkit */
