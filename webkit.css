@@ -628,7 +628,7 @@ body.v6 #footer {
 }
 
 .curator_buttons_ctn {
-	background: var(--minimal_dark_night_alt1)!important;
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 
 body.flat_page #footer {
@@ -1142,11 +1142,12 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 .carousel_items.curator_featured_tags {
-	border-radius:var(--minimal_dark_corner0)!important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .curator_page.focus {
-	border-radius:var(--minimal_dark_corner0)!important;
+	border-radius: 5px !important;
 }
 
 .curator_page .actions {
@@ -1309,8 +1310,17 @@ img.member_tile {
 }
 
 .most_recommended .steam_curator_recommendation {
-	border-radius:var(--minimal_dark_corner0)!important;
-	background:var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-left: 12px !important;
+}
+
+.most_recommended .steam_curator_recommendation:hover {
+    border-radius: 5px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    margin-left: 12px !important;
 }
 
 .tag_browse_tag.active {
@@ -10750,6 +10760,10 @@ body.v6 .page_desc {
     border: 1px solid var(--minimal_dark_color) !important;
 }
 
+.page_desc {
+    display: none !important;
+}
+
 .follow_controls, .ignore_controls.ignored {
     border-radius: 5px !important;
 }
@@ -11693,6 +11707,66 @@ a.view_inactive:hover {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 	transition: .25s ease-out !important;
+}
+
+.highlighted_app_capsule_image {
+    height: 268px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.highlighted_app_capsule_image:hover {
+    height: 268px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.curator_page_button {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.curator_page_button:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.curator_overlay {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+}
+
+.curator_tile_row img {
+    border-top-left-radius: 5px !important;
+}
+
+.steam_curator_recommendation.big .store_capsule {
+    width: 397px !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+
+.most_recommended .steam_curator_recommendation .store_capsule {
+    border-radius: 5px !important;
+}
+
+.store_capsule .capsule > img {
+    width: 98% !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.store_capsule .capsule > img:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.curator_spotlight_image > a > img {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.steam_curator_recommendation.big .discount_block {
+    bottom: 78px !important;
 }
 
 /* end webkit */
