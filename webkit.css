@@ -11404,7 +11404,7 @@ div.slider div.handle:hover {
 }
 
 div.slider {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
     border-radius: 5px !important;
     background: var(--minimal_dark_blacker_alt) !important;
 }
@@ -11486,6 +11486,10 @@ span.bb_removedlink {
 
 ._1e3WbBz7-mqMKmK8HnpzFF ._3yqpPRFLwr6ETVDgLGT37s .r3Dia2Yw2X-goqFn-_UPT ._398u23KF15gxmeH741ZSyL._3j2deAP85R6gftsIWiHe7n .bcTEUtZM5us_nPhh-83J9 {
     border-top: 1px solid var(--minimal_dark_color) !important;
+}
+
+.queue_ctn.in_queue .queue_actions_ctn {
+    padding-top: 28px !important;
 }
 
 /* end webkit */
