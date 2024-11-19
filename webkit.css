@@ -11819,4 +11819,44 @@ a.view_inactive:hover {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
+.error_ctn {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+h3 {
+    color: var(--minimal_dark_color) !important;
+}
+
+#BG_top {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.community_award {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.community_award {
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+}
+
+.community_award:hover {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.community_award_icon {
+    transform: translate(0px, -3px) !important;
+}
+
+.community_award_count {
+    color: var(--minimal_dark_color) !important;
+}
+
+.apphub_sectionTab.active {
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
 /* end webkit */
