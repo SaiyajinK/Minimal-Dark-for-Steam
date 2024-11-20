@@ -2056,3 +2056,7 @@ html.client_chat_frame .popup_chat_frame {
     color: var(--minimal_dark_redsettings) !important;
     text-align: center !important;
 }
+
+.groupHeaderContainer .SortByRecent:hover .SVGIcon_SortBy, .groupHeaderContainer .SortByRecent.gpfocus .SVGIcon_SortBy {
+    stroke: var(--minimal_dark_color) !important;
+}
