@@ -11859,4 +11859,16 @@ h3 {
     border: 1px solid var(--minimal_dark_color) !important;
 }
 
+.store_main_capsule .reason .main .tags > span, .tab_preview .tags > a {
+    background-color: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.store_main_capsule .reason .additional > div {
+    background-color: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
 /* end webkit */
