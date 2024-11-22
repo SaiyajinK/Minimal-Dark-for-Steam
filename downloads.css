@@ -52,7 +52,7 @@
     color: #fff !important;
     box-shadow: none;
     transition: .4s ease-out !important;
-    border-radius: 10px !important;
+    border-radius: 5px !important;
 }
 
 ._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI:active.DialogButton:enabled {
@@ -124,7 +124,8 @@ button.DialogButton::before {
     width: 220px !important;
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_invisblegrey) !important;
-	background-color: #12121259 !important;
+    background-color: #12121259 !important;
+    margin-bottom: 10px !important;
 }
 
 ._3KDkLoCR8OM8xfdQysKn9t {
@@ -136,11 +137,11 @@ button.DialogButton::before {
 }
 
 ._1KHOCigl8AaK2eHxQqPMlc ._2RX1dsh68v-P0H9Am9Ufy1 ._2HOH927_SBdi8J559aStH6 {
-    color: var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_progress_bar) !important;
 }
 
 ._1KHOCigl8AaK2eHxQqPMlc ._2RX1dsh68v-P0H9Am9Ufy1 ._3ddJwYxqm61xYwptGOh8Me {
-    color: var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_status_green) !important;
 }
 
 ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2XedpgsgZ3gMAUuPRtnfld div {
