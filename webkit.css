@@ -7839,6 +7839,7 @@ div.rightcol {
     background: rgba( 0, 0, 0, 0.4 );
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
 
 .package_totals_area {
@@ -11869,6 +11870,20 @@ h3 {
     background-color: var(--minimal_dark_black) !important;
     border-radius: 5px !important;
 	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.LoadingWrapper .LoadingThrobber .Bar {
+    background-color: var(--minimal_dark_color) !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.LoadingWrapper .LoadingText {
+    color: var(--minimal_dark_color) !important;
+}
+
+.loading_more_reviews_throbber {
+    display: none !important;
 }
 
 /* end webkit */
