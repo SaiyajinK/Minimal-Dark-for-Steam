@@ -274,8 +274,7 @@
 }
 
 .B-vCdL38RiJlhfSRgZv78 {
-    cursor: default;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 }
 
@@ -305,24 +304,24 @@
 
 .WYgDg9NyCcMIVuMyZ_NBC.biTV-8rS2M65imVHU15Nv, .WYgDg9NyCcMIVuMyZ_NBC.L3xTnr5TfAJU1EhvCDaWm, .WYgDg9NyCcMIVuMyZ_NBC._3ngZCi2zy0hiqzGzTdNg8 {
     transition-duration: .2s !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 }
 
 .WYgDg9NyCcMIVuMyZ_NBC._3VOR2AeYATx3qSE0I-Pm-5.L3xTnr5TfAJU1EhvCDaWm.xp7A-08Y404Of3FBHqX32.Panel:hover {
-	border: 1px solid rgba(var(--minimal_dark_color_rgba), .75) !important;
-    border: 1px solid #353535 !important;
+    border: 1px solid rgba(var(--minimal_dark_color_rgba), .75) !important;
+    border: 2px solid #353535 !important;
     border-bottom: 1px solid var(--minimal_dark_color) !important;
     filter: brightness(1) contrast(1.1) !important;
-	transition: ease-out .25s !important;
+    transition: ease-out .25s !important;
 }
 
 .WYgDg9NyCcMIVuMyZ_NBC._3VOR2AeYATx3qSE0I-Pm-5.biTV-8rS2M65imVHU15Nv.xp7A-08Y404Of3FBHqX32.Panel:hover {
     border: 1px solid rgba(var(--minimal_dark_color_rgba), .75) !important;
-    border: 1px solid #353535 !important;
-    border-bottom: 1px solid var(--minimal_dark_color) !important;
+    border: 2px solid #353535 !important;
+    border-bottom: 2px solid var(--minimal_dark_color) !important;
     filter: brightness(1) contrast(1.1) !important;
-	transition: ease-out .25s !important;
+    transition: ease-out .25s !important;
 }
 
 .WYgDg9NyCcMIVuMyZ_NBC._3VOR2AeYATx3qSE0I-Pm-5.biTV-8rS2M65imVHU15Nv.xp7A-08Y404Of3FBHqX32.Panel:active {
@@ -330,13 +329,14 @@
 }
 
 ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover:not(._3VOR2AeYATx3qSE0I-Pm-5), ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R:not(._3VOR2AeYATx3qSE0I-Pm-5) {
-    transform: rotateX(0deg) translateZ(6px) scale(.95) !important;
+    /* transform: rotateX(0deg) translateZ(6px) scale(.95) !important; */
+    transform: rotateX(-1deg) translateZ(17px) scale(.96) !important;
     filter: brightness(1.1) contrast(1.15) saturate(1) !important;
     box-shadow: 0px 14px 12px 0px rgba(0,0,0,.3) !important;
-    border: 1px solid #353535 !important;
+    border: 2px solid #353535 !important;
     border-radius: 5px !important;
     border-bottom: 1px solid var(--minimal_dark_color) !important;
-	transition: ease-out .25s !important;
+    transition: ease-out .25s !important;
 }
 
 ._1LJqx_qFOC8199RBQO5kU8 {
@@ -1056,4 +1056,47 @@ html._14wqdluDeDnnEcg3OSLEmd ._2EstNjFIIZm_WUSKm5Wt7n {
     transform: translate(-1px, 1px) !important;
     background-color: var(--minimal_dark_blacker_alt) !important;
     box-shadow: inset 0px 1px 0px #000000 !important;
+}
+
+._2rlKqvybYupc-uk64cdQ8D {
+    color: var(--minimal_dark_more_less_white) !important;
+    border: 1px solid var(--minimal_dark_invisblegrey) !important;
+    transform: translate(5px, 28px) !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 2px !important;
+    background: rgb(38 38 38 / 30%) !important;
+    backdrop-filter: blur(8px) !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    min-width: auto !important;
+    z-index: 1 !important;
+    position: relative !important;
+    display: table-cell !important;
+}
+
+._1esfEVxhqNfh8fzr_kEGKa ._33gR3fahL5J0_5r8o8YyOi {
+    height: 26px !important;
+}
+
+._2XftMcBO9aY7VXCivzuW7- {
+    margin-top: 0px !important;
+}
+
+._1ANYFgwMyPpwJjIndAdGSr {
+    color: var(--minimal_dark_more_less_white) !important;
+    border: 1px solid var(--minimal_dark_invisblegrey) !important;
+    transform: translate(6px, 32px) !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 5px !important;
+    background: rgb(38 38 38 / 30%) !important;
+    backdrop-filter: blur(8px) !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    min-width: auto !important;
+    z-index: 1 !important;
+    position: relative !important;
+    display: table-cell !important;
+    padding-bottom: 5px !important;
 }
