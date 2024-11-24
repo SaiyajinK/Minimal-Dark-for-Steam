@@ -11914,4 +11914,8 @@ h3 {
     color: var(--minimal_dark_color) !important;
 }
 
+.ErrorBoundary {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
 /* end webkit */
