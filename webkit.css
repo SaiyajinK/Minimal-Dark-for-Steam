@@ -10950,6 +10950,12 @@ html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yL
     color: var(--minimal_dark_color) !important;
 }
 
+._DialogInputContainer ._3Hf53stS1-9flruoPqwO0O, .DialogLabel._3Hf53stS1-9flruoPqwO0O {
+    color: #fff6 !important;
+}
+
+
+
 .DialogSlider_Value {
     background: var(--minimal_dark_color) !important;
 }
@@ -11809,6 +11815,7 @@ a.view_inactive:hover {
 
 ._DialogInputContainer {
     padding: 6px !important;
+    margin-bottom: 6px !important;
 }
 
 ._2oAiZidGyUxL-hfupFDQ2m:hover svg {
