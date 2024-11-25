@@ -10605,7 +10605,8 @@ body.v6 div#store_header {
 .breadcrumbs {
     color: var(--minimal_dark_color) !important;
     /* transform: translate(0px, 56px) !important; */
-	padding-top: 68px !important;
+    padding-top: 66px !important;
+    padding-bottom: 8px !important;
 }
 
 .apphub_HomeHeaderContent .apphub_HeaderStandardTop {
