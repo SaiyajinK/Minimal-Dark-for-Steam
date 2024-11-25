@@ -662,12 +662,14 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     background: var(--minimal_dark_black) !important;
     color: var(--minimal_dark_less_white);
     border-radius: 5px !important;
+	transition: .25s ease-out !important;
 }
 
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:hover {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_less_white);
-	border-radius: 5px !important;
+    border-radius: 5px !important;
+    transition: .25s ease-out !important;
 }
 
 .bSKGlAJG2UVWTsntEJY2v .GG9wVQz6PLlhGHlJyZh4E {
