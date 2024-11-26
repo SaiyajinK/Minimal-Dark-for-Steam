@@ -11,7 +11,7 @@ Be understanding if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-![steamwebhelper_vkiYIsV488](https://github.com/user-attachments/assets/7b763c8e-5a41-49d0-9e10-cbac626083cc) <br>
+![steamwebhelper_bkZ8DRsLXxR](https://github.com/user-attachments/assets/3719fded-8b9b-4da8-8c49-80ebd705519a) <br>
 
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
