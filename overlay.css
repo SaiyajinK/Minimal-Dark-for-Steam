@@ -220,11 +220,11 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW {
-    background: var(--minimal_dark_black);
+    background: var(--minimal_dark_blacker) !important;
 }
 
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW ._1SKB0Xc7OpWlOlr-wSi8ho {
-    background: var(--minimal_dark_be_grey);
+    background: var(--minimal_dark_blacker) !important;
 }
 
 .MmdBjSLHW3AVSShFBJVNt, ._2caCrhFIrYqRuguK-cB6be {
@@ -1531,4 +1531,54 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 ._11I0_AlsB40ak50752rsuy {
     color: var(--minimal_dark_color) !important;
 	font-weight: 500 !important;
+}
+
+._3e--AJv1pErMz7ete-Hprz {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+	border: 1px solid transparent !important;
+}
+
+._3e--AJv1pErMz7ete-Hprz:hover {
+    background: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+}
+
+._21Uc0N6TIRIw4LIZzQnsdE {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+}
+
+._1u5y7VbwvOwncjMsMqnFUz {
+    background-color: var(--minimal_dark_blacker) !important;
+	border-radius: 5px !important;
+	box-shadow: none !important;
+}
+
+.BRmrC-jnwpXqye4oYB21C button.DialogButton {
+    background-color: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd._2WvnwuFOagpMXn_aAuVaNJ:hover ._17z_pd5KtnIoB7X3ydiPR6 {
+    opacity: 1 !important;
+    stroke: var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd:hover {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3lj3-GDYOlcoIFB3fFo1ko {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
