@@ -11,10 +11,13 @@ Be understanding if you encounter any bugs. <br>
 
 ## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
 
-![steamwebhelper_bkZ8DRsLXxR](https://github.com/user-attachments/assets/3719fded-8b9b-4da8-8c49-80ebd705519a) <br>
-
 I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
 The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
+
+In Steam settings I recommend setting the library size to Medium. <br>
+`Steam Settings` > `Library` > `Display size for library interface elements` > `Medium`  <br>
+
+![steamwebhelper_bkZ8DRsLXxR](https://github.com/user-attachments/assets/3719fded-8b9b-4da8-8c49-80ebd705519a) <br>
 
 ## `🎨 Customize theme with the color of your choice 🎨` <br> 
 
