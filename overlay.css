@@ -1582,3 +1582,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
+
+._1ILFQY2sxyGFT_n-fifayy {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
