@@ -2723,9 +2723,8 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 }
 
 .friend_reviews .review_box {
-	border-left:1px solid var(--minimal_dark_blacker_alt) !important;
-	border-top:1px solid var(--minimal_dark_blacker_alt) !important;
-	background:var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .home_area_spotlight {
@@ -11457,7 +11456,11 @@ div.slider div.handle:hover {
 }
 
 .ico_hover:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover .ico16.thumb_up {
-    background-position: -112px -17px !important;
+    background-position: -113px -17px !important;
+}
+
+.ico16.thumb_up {
+    background-position: -80px 0px !important;
 }
 
 .ico_hover:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover .ico16.thumb_down {
@@ -12075,7 +12078,7 @@ h3 {
 }
 
 .home_title_ctn {
-    text-shadow: 2px 2px 4px var(--minimal_dark_color) !important;
+    text-shadow: 2px 1px 4px var(--minimal_dark_color) !important;
 }
 
 .cwQNGPoPuJS67rykUgZdU:after {
@@ -12246,6 +12249,125 @@ h3 {
 ._2weAmlMQriA2KjB8vK__PX ._2jNbLjBauxo4wvKu92sXNB {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
+}
+
+.blotter_recommendation_content img {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+a#RecommendationVoteUpBtn:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+a#RecommendationVoteDownBtn:hover {
+    color: var(--minimal_dark_redsettings) !important;
+	border: 1px solid var(--minimal_dark_redsettings) !important;
+}
+
+a#RecommendationVoteTagBtn:hover {
+    color: #bfb63d !important;
+    border: 1px solid #bfb63d !important;
+}
+
+a#RecommendationVoteUpBtnsummary {
+    color: white !important;
+}
+
+a#RecommendationVoteUpBtnsummary:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+.ico_hover:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover .ico16.thumb_upv6 {
+    background-position: -112px -16px !important;
+}
+
+.ico16.thumb_downv6 {
+    background-position: -80px -16px !important;
+}
+
+a#RecommendationVoteDownBtnsummary:hover {
+    color: var(--minimal_dark_redsettings) !important;
+    border: 1px solid var(--minimal_dark_redsettings) !important;
+}
+
+.ico_hover:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover .ico16.thumb_downv6 {
+    background-position: -96px -16px !important;
+}
+
+.ico16.thumb_upv6 {
+    background-position: -144px -16px !important;
+}
+
+a#RecommendationVoteTagBtnsummary {
+    color: white !important;
+}
+
+a#RecommendationVoteTagBtnsummary:hover {
+    color: #bfb63d !important;
+    border: 1px solid #bfb63d !important;
+}
+
+/* .btnv6_grey_black, a#RecommendationVoteUpBtnsummary { */
+    /* color: white !important; */
+/* } */
+
+.friend_reviews .review_box a.vote_header {
+    margin-left: -191px !important;
+}
+
+.btn_small_thin > span, input.btn_small_thin {
+    color: white !important;
+}
+
+.ico16.funny {
+    background-position: -239px -48px !important;
+    filter: invert(1) !important;
+}
+
+.ico_hover:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover .ico16.funny {
+    background-position: -223px -16px !important;
+    filter: none !important;
+}
+
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover:nth-of-type(1) {
+    border: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover:nth-of-type(2) {
+    border: 1px solid var(--minimal_dark_redsettings) !important;
+	transition: .25s ease-out !important;
+}
+
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover:nth-of-type(3) {
+    border: 1px solid #00ff14 !important;
+	transition: .25s ease-out !important;
+}
+
+.ico_hover:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover .ico16.funny {
+    background-position: -224px -16px;
+    filter: hue-rotate(45deg) !important;
+}
+
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover:nth-of-type(4) {
+    border: 1px solid #ffc800 !important;
+	transition: .25s ease-out !important;
+}
+
+.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover:nth-of-type(1) {
+    border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover:nth-of-type(2) {
+    border: 1px solid var(--minimal_dark_redsettings) !important;
+    transition: .25s ease-out !important;
+}
+
+.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover:nth-of-type(3) {
+    border: 1px solid #00ff14 !important;
+    transition: .25s ease-out !important;
 }
 
 /* end webkit */
