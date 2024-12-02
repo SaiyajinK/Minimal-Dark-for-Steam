@@ -1332,12 +1332,16 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 ._1OIatPEED_bSmd_CNyMv7C ._3Rm36_oeAhvIg6ZYP9l1Jj {
     background-color: var(--minimal_dark_color) !important;
     border-radius: 5px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
 }
 
 ._1OIatPEED_bSmd_CNyMv7C {
     background-color: var(--minimal_dark_blacker_alt) !important;
-    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 10px !important;
+    padding: 1px !important;
+    box-shadow: inset 0px 1px 6px #000000 !important;
+    height: 4px !important;
 }
 
 ._21FLO3Fh_B8HLXRvppx94G._1acKLVXC-XF5trxHCOjht9 {
