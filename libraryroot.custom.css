@@ -1441,6 +1441,5 @@ button.p9KmcbRBNrAiCVV-9x7FJ.DialogButton._DialogLayout.Secondary.Focusable {
 
 button.DialogButton:hover::before {
     border-radius: 5px !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    top: 1px !important;
+    border: 1px solid transparent !important;
 }
