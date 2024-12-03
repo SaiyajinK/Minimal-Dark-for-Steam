@@ -10674,6 +10674,14 @@ a.whiteLink:hover, .whiteLink:hover, a.linkStandard:hover, a.linkTitle:hover, a.
     border-radius: 5px !important;
 }
 
+img.sale_capsule_image.autosize:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+body.v6 .scale_capsule.with_microtrailer.microtrailer_active {
+	border-radius: 5px !important;
+]
+
 .zje61fgPER-HdQgXObOdD {
     background: var(--minimal_dark_blacker_alt) !important;
     border-top-left-radius: 5px !important;
