@@ -11267,16 +11267,21 @@ body.v6.newonsteam .newonsteam_headercaps img {
 
 ._2oAiZidGyUxL-hfupFDQ2m, ._2oAiZidGyUxL-hfupFDQ2m:focus {
     background: var(--minimal_dark_blacker_alt) !important;
-	border-radius: 5px !important;
-	color: var(--minimal_dark_white) !important;
-	border: 1px solid transparent !important;
+    border-radius: 5px !important;
+    color: var(--minimal_dark_white) !important;
+    border: 0px solid transparent !important;
+    height: 10px !important;
+    padding-top: 6px !important;
+    padding-bottom: 14px !important;
 }
 
 ._2oAiZidGyUxL-hfupFDQ2m:hover, ._2oAiZidGyUxL-hfupFDQ2m:focus:hover {
     background: var(--minimal_dark_blacker) !important;
     border-radius: 5px !important;
     color: var(--minimal_dark_color) !important;
-	border: 1px solid var(--minimal_dark_color) !important;
+	border: 0px solid transparent !important;
+	padding-top: 6px !important;
+    padding-bottom: 14px !important;
 }
 
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
