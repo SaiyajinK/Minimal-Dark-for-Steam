@@ -666,7 +666,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 }
 
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:hover {
-    background: var(--minimal_dark_blacker) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     color: var(--minimal_dark_less_white);
     border-radius: 5px !important;
     transition: .25s ease-out !important;
@@ -1306,7 +1306,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 }
 
 ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:hover.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:hover {
-    background: var(--minimal_dark_blacker) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     color: var(--minimal_dark_color) !important;
 }
 
