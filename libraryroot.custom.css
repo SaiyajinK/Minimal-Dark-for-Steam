@@ -919,7 +919,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     height: 4px !important;
     --color-progress-bar-background: var(--minimal_dark_greyblack2) !important;
     --color-progress-bar-foreground: var(--minimal_dark_status_green) !important;
-    transform: translate(-19px, 1px) !important;
+    transform: translate(-17px, 1px) !important;
     border-radius: 10px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     box-shadow: inset 0px 1px 4px #000000 !important;
@@ -931,7 +931,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 
 ._2_FomluqqgQ2Hx8ON3AVep ._1-TLiuTZBQNz2fvBGj6aq- {
     color: var(--minimal_dark_status_green) !important;
-    transform: translate(-29px, 0px) !important;
+    transform: translate(-28px, 0px) !important;
 }
 
 ._2kzMb_F7UTOEdecAFftN-l svg.f6-7-5CWFxNqF2BycKWlb circle {
@@ -1408,4 +1408,39 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt {
 
 .EDl_mzaY3WxkgmYVD8W4d ._2kvdTEDgtIT7T9wZIzanom {
     background-color: var(--minimal_dark_be_grey) !important;
+}
+
+._2Ae5emb7JLG4NvS2OmutTx {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+._2Ae5emb7JLG4NvS2OmutTx ._2K0aVYjPsk-WFUDacCkX8L {
+    background: transparent !important;
+}
+
+._2Ae5emb7JLG4NvS2OmutTx ._1moqKkq1K4nAp1XqDtnRdQ:before {
+    background: conic-gradient(from 90deg at 50% 50%, var(--minimal_dark_color), transparent, var(--minimal_dark_color), transparent, var(--minimal_dark_color), transparent, var(--minimal_dark_color), transparent, var(--minimal_dark_color), transparent, var(--minimal_dark_color), transparent, var(--minimal_dark_color), transparent, var(--minimal_dark_color), transparent, var(--minimal_dark_color), transparent, var(--minimal_dark_color), transparent, var(--minimal_dark_color)) !important;
+}
+
+._2Ae5emb7JLG4NvS2OmutTx ._37l5FTA5EO0ZytepF_hg2l._3An4TeUBnV020g-ME7nFtA {
+    opacity: 0 !important;
+}
+
+.LibraryDisplaySizeMedium ._2Ae5emb7JLG4NvS2OmutTx {
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._2Ae5emb7JLG4NvS2OmutTx ._1moqKkq1K4nAp1XqDtnRdQ .rglD9tOi-qd15GgYT2iJK ._2qOwIl4yej_1OQJ8ktG7sU {
+    color: var(--minimal_dark_color) !important;
+}
+
+button.p9KmcbRBNrAiCVV-9x7FJ.DialogButton._DialogLayout.Secondary.Focusable {
+    height: 35px !important;
+    transform: translate(0px, 6px) !important;
+}
+
+button.DialogButton:hover::before {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    top: 1px !important;
 }
