@@ -262,7 +262,10 @@
 }
 
 ._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW {
-    background-color: var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    color: white !important;
 }
 
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._2rILnoW6swWh4_9TDWWc31 {
@@ -354,4 +357,18 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
     color: #9aff00 !important;
     border-left: 2px solid rgba(var(--minimal_dark_color_rgba),0.4) !important;
     margin-left: 2px !important;
+}
+
+._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW svg {
+    opacity: 1 !important;
+}
+
+._3gzh_NvTKey56JeHY7Q1WW.Focusable svg line {
+    stroke: var(--minimal_dark_color) !important;
+    fill: var(--minimal_dark_color) !important;
+}
+
+._3gzh_NvTKey56JeHY7Q1WW.Focusable:hover svg line {
+    stroke: red !important;
+    fill: red !important;
 }
