@@ -1586,3 +1586,11 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 ._1ILFQY2sxyGFT_n-fifayy {
     background: var(--minimal_dark_blacker_alt) !important;
 }
+
+.__up-to-date-container svg path {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.__up-to-date-header {
+    color: var(--minimal_dark_color) !important;
+}
