@@ -269,10 +269,6 @@
     border-radius: 10px !important;
 }
 
-.WYgDg9NyCcMIVuMyZ_NBC {
-    cursor: default;
-}
-
 .B-vCdL38RiJlhfSRgZv78 {
     border: 2px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
@@ -767,6 +763,7 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
 .WYgDg9NyCcMIVuMyZ_NBC {
     border-radius: 5px !important;
 	border: 2px solid var(--minimal_dark_be_grey) !important;
+	width: auto !important;
 }
 
 ._3IWn-2rn7x98o5fDd0rAxb {
