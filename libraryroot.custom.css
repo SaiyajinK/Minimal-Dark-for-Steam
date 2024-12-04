@@ -631,7 +631,57 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play {
     background: var(--minimal_dark_greyblack) !important;
-    color: white !important;
+    color: var(--minimal_dark_status_green) !important;
+    transition: .25s ease-out !important;
+}
+
+.Play.Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem svg {
+    fill: var(--minimal_dark_status_green) !important;
+	transition: .25s ease-out !important;
+}
+
+.Play.Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg {
+    fill: white !important;
+	transition: .25s ease-out !important;
+}
+
+.Launch.Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem svg {
+    fill: var(--minimal_dark_status_green) !important;
+	transition: .25s ease-out !important;
+}
+
+.Launch.Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg {
+    fill: white !important;
+	transition: .25s ease-out !important;
+}
+
+.Stream.Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem svg {
+    fill: var(--minimal_dark_status_green) !important;
+	transition: .25s ease-out !important;
+}
+
+.Stream.Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg {
+    fill: white !important;
+	transition: .25s ease-out !important;
+}
+
+.Connect.Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem svg {
+    fill: var(--minimal_dark_status_green) !important;
+	transition: .25s ease-out !important;
+}
+
+.Connect.Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg {
+    fill: white !important;
+	transition: .25s ease-out !important;
+}
+
+.PlayMusic.Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem svg {
+    fill: var(--minimal_dark_status_green) !important;
+	transition: .25s ease-out !important;
+}
+
+.PlayMusic.Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg {
+    fill: white !important;
 	transition: .25s ease-out !important;
 }
 
@@ -644,8 +694,8 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp {
     background: var(--minimal_dark_greyblack) !important;
-	color: white !important;
-	transition: .25s ease-out !important;
+    color: #2699ff !important;
+    transition: .25s ease-out !important;
 }
 
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:focus {
@@ -1442,4 +1492,23 @@ button.p9KmcbRBNrAiCVV-9x7FJ.DialogButton._DialogLayout.Secondary.Focusable {
 button.DialogButton:hover::before {
     border-radius: 5px !important;
     border: 1px solid transparent !important;
+}
+
+.Utdt7JrpIm5JlpQmqyj1v {
+    padding: 4px 2px !important;
+    border-radius: 0px !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    transform: translate(9px, 0px) !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._2Szzh5sKyGgnLUR870zbDE.Utdt7JrpIm5JlpQmqyj1v:active {
+    box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+.Utdt7JrpIm5JlpQmqyj1v._1nKxf9MhTV5zdB5iUjAgYb ._34bQcTHo5QKzuujoEyU1tm {
+    color: var(--minimal_dark_topgrey) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 10px !important;
+	transition: .25s ease-out !important;
 }
