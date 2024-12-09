@@ -185,22 +185,7 @@
 }
 
 .friendSearchInput[type="text"] {
-    width: 100%;
-    height: 100%;
-    box-shadow: inset 2px 2px 8px #00000075;
-    border: 0px solid transparent;
-    background-color: var(--minimal_dark_black);
-    color: var(--minimal_dark_less_white);
-    font-size: 12px;
-    letter-spacing: .5px;
-    padding-left: 24px;
-    transition-property: background-position,box-shadow,background-color,color,padding;
-    transition-duration: .32s;
-    transition-timing-function: ease-in-out;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAkFBMVEX///9JW1tQU1ZPVFZPU1ZPU1ZPVFdPU1ZPT1hPUlZPU1ZPU1ZOU1ZPU1ZOUlVOU1ZPU1ZQVFdPU1ZPU1ZOU1WAgIBPU1ZQVFZPU1dQU1ZPU1ZQU1dPU1ZPU1VOU1VPVFZPVFhPU1ZOTllPU1VPU1ZOU1dPU1ZNVVVQU1YAAABPU1ZQUFBPUlZOUlZPU1VPU1borkgUAAAAL3RSTlMADly05Ple0x2b/vrQkU6pu0aO73ICcb2iU/WQrMJv6D39F7n83d4enQHuEJ5/zh5EjbMAAAAJcEhZcwAACxIAAAsSAdLdfvwAAADcSURBVDjL5ZPXDoJAEEVBwd5QEbBh73r+/+9cYzSwu+Dqk8Z5m5uT6WNZP2V2oei44DrFgp3Hlco8rVzKxCrVGtQbzVar2ahDrVrJ4NoiTse7O15HOG092YVe3394fr8HXW19Iu8gKQxEdk2ddgChn1T8EAK19wiGXlryhhAp4AjGsjaGkQJOYCprU5goYAwzWZtBrIBzWMjaAuafRzSu0bhr4zkab8Z418r1LFcZ1yPd41o4m62lJ9MXLmy315OpnznkkokvPJ5yyeR4/pjc794iz6+5G3kx4r7DrlHAK3/NAfF8AAAAAElFTkSuQmCC);
-    background-size: 16px 16px;
-    background-repeat: no-repeat;
-    background-position: 6px 4px;
+    color: orange !important;
 }
 
 .friendListFooter {
@@ -976,6 +961,9 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .socialInputContainer .friendSearchInput[type="text"] {
     border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    height: 20px !important;
+	
 }
 
 .TabSearchButton:hover {
@@ -1007,7 +995,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
-    color: var(--minimal_dark_browser_overlay_close) !important;
+    color: var(--minimal_dark_progress_bar) !important;
 }
 
 .friendStatusHover.ingame:hover, .friendStatusHover.ingame.Friend_ContextMenuActive {
@@ -2096,4 +2084,36 @@ html.client_chat_frame .popup_chat_frame {
     border: 1px solid var(--minimal_dark_color) !important;
 	color: var(--minimal_dark_color) !important;
 	transition: .25s ease-out !important;
+}
+
+.friendRequestButton .requestsNumber {
+    border: 1px solid white !important;
+}
+
+.addFriendButton {
+    width: 26px !important;
+    height: 26px !important;
+    margin-top: -2px !important;
+    margin-right: 11px !important;
+}
+
+.addFriendButton .SVGIcon_AddFriend .plusCircle {
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid white !important;
+    stroke: white !important;
+    stroke-width: 10px !important;
+}
+
+.friendsTabButtonsContainer .TabSearchButton .SVGIcon_MagnifyingGlass {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 2px !important;
+    transform: translate(4px, 0px) !important;
+}
+
+.friendsTabButtonsContainer .friendRequestButton {
+    width: 26px !important;
+    height: 26px !important;
+    margin-top: -2px !important;
+    padding-left: 3px !important;
 }
