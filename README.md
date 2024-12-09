@@ -1,5 +1,3 @@
-[![KoFi](https://i.imgur.com/uUuWZOm.png)](https://ko-fi.com/saiyajink)
-
 ## ⚡ Minimal Dark for Steam ⚡ <br> 
 
 Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
