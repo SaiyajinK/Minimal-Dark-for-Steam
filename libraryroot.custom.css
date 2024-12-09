@@ -515,8 +515,14 @@ button.DialogButton::before {
 }
 
 .ModalOverlayBackground {
-    background: hsl(0deg 0% 7% / 75%) !important;
+    background: rgb(0 0 0 / 90%) !important;
     backdrop-filter: blur(8px) !important;
+    transition: .25s ease-out !important;
+    margin-top: 35px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .DesktopUI .DialogHeader, .friendsui-container .DialogHeader {
