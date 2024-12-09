@@ -17,7 +17,7 @@ The home and collection button are now hidden to minimize the space taken up (th
 In Steam settings I recommend setting the library size to Medium. <br>
 `Steam Settings` > `Library` > `Display size for library interface elements` > `Medium`  <br>
 
-![steamwebhelper_KZNy7Bfpao](https://github.com/user-attachments/assets/1930751d-76b3-4911-97d0-80f1b4905b84) <br>
+![steamwebhelper_1m9vPYV0E8](https://github.com/user-attachments/assets/6eeeba13-eec5-4a74-990b-bff0522a9170) <br>
 
 ## `🎨 Customize theme with the color of your choice 🎨` <br> 
 
@@ -40,20 +40,20 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 
 ## `📸 Compact mode + friends 📸` <br> 
 
-![steamwebhelper_ECgiwiGHxA copie](https://github.com/user-attachments/assets/bafbd70d-daf2-44f3-86ea-e317cf0dac9c) <br>
+![steamwebhelper_1m9vPssYV0E8](https://github.com/user-attachments/assets/95bdf58f-4388-47c0-859d-6eba2aa6e1e4) <br>
 
 ## `👤 Profil 👤` <br> 
 
 Some profiles have neon lights around the headers, I removed them by default.<br>
 If you want to remove this, open `webkit.css` and remove line `100`<br>
 
-![steamwebhelper_3VPuJujBBR](https://github.com/user-attachments/assets/323cdb15-68aa-4a17-a662-6ded8cc5cd49) <br>
+![steamwebhelper_MMLpcYbpD1](https://github.com/user-attachments/assets/57fd1033-1892-4357-8204-89c166b06bfa) <br>
 
 ## `🌐 Dark webkit 🌐` <br> 
 `Thanks Shiina for the base of the webkit` <br>
 All aspects were changed to match my theme. <br>
 
-![steamwebhelper_o5wujdhNsRx](https://github.com/user-attachments/assets/6cf4cc9d-7007-49c7-931a-c0dbc6a84e86) <br>
+![steamwebhelper_MMLpdfgcYbpD1](https://github.com/user-attachments/assets/40567ab3-4050-4887-803d-fcc583586d6b) <br>
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
 1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
