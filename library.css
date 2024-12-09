@@ -482,8 +482,8 @@
 
 ._3BFcmjAaMyP6GTPwc0VyWi ._3PAPBHNnHiNjIQiBr7Ya3t {
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    background-color: #12121221 !important;
-    backdrop-filter: blur(10px) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    backdrop-filter: blur(0px) !important;
 }
 
 ._1rdB72srqUsfYI63F3UmGn {
