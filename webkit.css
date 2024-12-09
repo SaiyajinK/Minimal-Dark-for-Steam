@@ -6938,6 +6938,7 @@ input[type="search" i]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-s
     color: white !important;
     background-color: var(--minimal_dark_red) !important;
     border-radius: 5px !important;
+    border: 1px solid white !important;
 }
 
 ._3n-KUi74Nvym37yTD-ZsSx {
