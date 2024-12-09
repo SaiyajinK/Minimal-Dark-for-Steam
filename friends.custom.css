@@ -185,7 +185,7 @@
 }
 
 .friendSearchInput[type="text"] {
-    color: orange !important;
+    color: var(--minimal_dark_more_less_white) !important;
 }
 
 .friendListFooter {
