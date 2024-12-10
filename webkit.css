@@ -12425,4 +12425,10 @@ span#VoteDownBtn_4476110736154691403:hover {
     border: 1px solid grey !important;
 }
 
+.review_recent_events {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
 /* end webkit */
