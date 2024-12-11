@@ -529,6 +529,11 @@ button.DialogButton::before {
     color: var(--minimal_dark_color) !important;
 }
 
+._-8fRT1eDDVo6CU2ehlzmG {
+    background-color: var(--minimal_dark_black) !important;
+    border-radius: 5px !important;
+}
+
 button.DialogButton {
     background: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
