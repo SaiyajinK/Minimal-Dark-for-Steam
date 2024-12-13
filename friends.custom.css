@@ -14,7 +14,7 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.closeButton {
-    color: var(--minimal_dark_transparent);
+    color: transparent;
     background-color: var(--minimal_dark_topgrey);
     -webkit-mask-image: var(--minimal_dark_closebutton);
     -webkit-mask-repeat: no-repeat;
@@ -24,8 +24,8 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.closeButton:hover {
-    color: var(--minimal_dark_transparent);
-    background-color: var(--minimal_dark_red);
+    color: transparent;
+    background-color: var(--minimal_dark_red2);
     -webkit-mask-image: var(--minimal_dark_closebutton);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -34,8 +34,8 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.closeButton:active {
-    color: var(--minimal_dark_transparent);
-    background-color: var(--minimal_dark_red1);
+    color: transparent;
+    background-color: var(--minimal_dark_red2);
     -webkit-mask-image: var(--minimal_dark_closebutton);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -49,7 +49,7 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.maximizeButton {
-    color: var(--minimal_dark_transparent);
+    color: transparent;
     background-color: var(--minimal_dark_topgrey);
     -webkit-mask-image: var(--minimal_dark_maxbutton);
     -webkit-mask-repeat: no-repeat;
@@ -59,7 +59,7 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.maximizeButton:hover {
-    color: var(--minimal_dark_transparent);
+    color: transparent;
     background-color: var(--minimal_dark_color);
     -webkit-mask-image: var(--minimal_dark_maxbutton);
     -webkit-mask-repeat: no-repeat;
@@ -69,8 +69,8 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.maximizeButton:active {
-    color: var(--minimal_dark_transparent);
-    background-color: var(--minimal_dark_white);
+    color: transparent;
+    background-color: white;
     -webkit-mask-image: var(--minimal_dark_maxbutton);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -79,7 +79,7 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.minimizeButton {
-    color: var(--minimal_dark_transparent);
+    color: transparent;
     background-color: var(--minimal_dark_topgrey);
     -webkit-mask-image: var(--minimal_dark_minbutton);
     -webkit-mask-repeat: no-repeat;
@@ -90,7 +90,7 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.minimizeButton:hover {
-    color: var(--minimal_dark_transparent);
+    color: transparent;
     background-color: var(--minimal_dark_color);
     -webkit-mask-image: var(--minimal_dark_minbutton);
     -webkit-mask-repeat: no-repeat;
@@ -101,8 +101,8 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.minimizeButton:active {
-    color: var(--minimal_dark_transparent);
-    background-color: var(--minimal_dark_white);
+    color: transparent;
+    background-color: white;
     -webkit-mask-image: var(--minimal_dark_minbutton);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -112,7 +112,7 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.restoreButton {
-    color: var(--minimal_dark_transparent);
+    color: transparent;
     background-color: var(--minimal_dark_topgrey);
     -webkit-mask-image: var(--minimal_dark_restorebutton);
     -webkit-mask-repeat: no-repeat;
@@ -122,7 +122,7 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.restoreButton:hover {
-    color: var(--minimal_dark_transparent);
+    color: transparent;
     background-color: var(--minimal_dark_color);
     -webkit-mask-image: var(--minimal_dark_restorebutton);
     -webkit-mask-repeat: no-repeat;
@@ -132,8 +132,8 @@
 }
 
 .friendsui-container .title-bar-actions .title-area-icon.restoreButton:active {
-    color: var(--minimal_dark_transparent);
-    background-color: var(--minimal_dark_white);
+    color: transparent;
+    background-color: white;
     -webkit-mask-image: var(--minimal_dark_restorebutton);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -185,7 +185,7 @@
 }
 
 .friendSearchInput[type="text"] {
-    color: var(--minimal_dark_more_less_white) !important;
+    color: var(--minimal_dark_less_white) !important;
 }
 
 .friendListFooter {
@@ -407,7 +407,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .friendsui-container .contextMenuGameName {
-	color: var(--minimal_dark_white);
+	color: white;
 }
 
 .friendsui-container .recentName {
@@ -487,11 +487,11 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .chatRoomButton .SVGIcon_Button {
-    fill: var(--minimal_dark_lightgrey) !important;
+    fill: var(--minimal_dark_be_grey) !important;
 }
 
 .inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line {
-    stroke: var(--minimal_dark_greygrey) !important;
+    stroke: var(--minimal_dark_be_grey) !important;
 }
 
 .inviteAnotherFriendButton:hover .SVGIcon_Button line, .chatRoomButton:hover:not(.Disabled) .SVGIcon_Button line {
@@ -536,7 +536,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .chatRoomGroupHeaderName {
-    color: var(--minimal_dark_greygrey) !important;
+    color: var(--minimal_dark_be_grey) !important;
 }
 
 .ToggleGroupChatList {
@@ -604,7 +604,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     fill: var(--minimal_dark_red2) !important;
 }
 .friendsui-container .SVGIcon_Pin .head {
-    stroke: var(--minimal_dark_invisblegrey) !important;
+    stroke: var(--minimal_dark_invisiblegrey) !important;
 }
 
 .ChatRoomAddRoomBtn .SVGIcon_PlusCircle {
@@ -613,7 +613,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 
 .friendsui-container .SVGIcon_Pin .head {
     fill: var(--minimal_dark_red2) !important;
-    stroke: var(--minimal_dark_invisblegrey) !important;
+    stroke: var(--minimal_dark_invisiblegrey) !important;
 }
 
 .friendsui-container .SVGIcon_Pin .point {
@@ -824,7 +824,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .singleWindowDivider {
-    background-color: var(--minimal_dark_so_black) !important;
+    background-color: #1b1b1b !important;
 }
 
 .resizingSingleWindow .singleWindowDivider, .singleWindowDivider:hover {
@@ -838,7 +838,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .X2iywwN7fcdh9zXpXVsrk {
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
-    border-top: 1px solid var(--minimal_dark_greyblack1) !important;
+    border-top: 1px solid var(--minimal_dark_greyblack) !important;
     margin-left: 6px !important;
     border-radius: 5px !important;
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
@@ -1612,7 +1612,7 @@ button.DialogButton.Primary {
 /* } */
 
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze .drAAsgW-ufgBGjQ4mIfiJ, ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze ._2TAMH-SbRqivpq6WNRR-VH {
-    color: var(--minimal_dark_orange) !important;
+    color: orange !important;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze ._1oD1aSbwaTNwncgaVdaSv8 ._1nBxb6NZrm5NL86Cmgo4g2 {
@@ -1624,7 +1624,7 @@ button.DialogButton.Primary {
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game.awayOrSnooze .K3kJzGQ5wihTMCijNJlBv:not(._2lhxiWpu1TQo8jSZm2VHsN) ._1NqKJdLf1QCef95pyZZwmL, ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game .K3kJzGQ5wihTMCijNJlBv._1oOq4b51Mdj1pZboaWOvOL ._1NqKJdLf1QCef95pyZZwmL {
-    color: var(--minimal_dark_orange) !important;
+    color: orange !important;
 }
 
 .ingame.awayOrSnooze ._1k82NiWym4STegDGxRBHz2, .ingame ._1k82NiWym4STegDGxRBHz2, .ingame ._1k82NiWym4STegDGxRBHz2 a, .ingame ._1k82NiWym4STegDGxRBHz2 a:hover, .ingame ._1k82NiWym4STegDGxRBHz2 a:active, .ingame ._1k82NiWym4STegDGxRBHz2 a:visited {
@@ -1636,7 +1636,7 @@ button.DialogButton.Primary {
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online.awayOrSnooze ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq {
-    color: var(--minimal_dark_orange) !important;
+    color: orange !important;
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze .qiP8aEgNz331tt6X4NMNW:not(._2TAWSrfSd1CiZ9WSYsc69c) ._2VUw8xyYCaD1WduLCK3nlW, ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze .qiP8aEgNz331tt6X4NMNW.h_So5GaEfmXOgB9hCC0Is ._2VUw8xyYCaD1WduLCK3nlW {
@@ -1644,7 +1644,7 @@ button.DialogButton.Primary {
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq {
-    color: var(--minimal_dark_orange) !important;
+    color: orange !important;
 }
 
 .RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
