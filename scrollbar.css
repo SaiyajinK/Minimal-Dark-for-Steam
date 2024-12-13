@@ -1,25 +1,25 @@
 ::-webkit-scrollbar-thumb {
 	background: var(--minimal_dark_be_grey) !important;
-	border: 7px solid var(--minimal_dark_transparent) !important;
+	border: 7px solid transparent !important;
 	background-clip: padding-box !important;
 	border-radius: 10px !important;
 }
 
 .ReactVirtualized__List::-webkit-scrollbar-track {
-	background: var(--minimal_dark_transparent) !important;
+	background: transparent !important;
 }
 
 .ReactVirtualized__Grid::-webkit-scrollbar {
-	background-color: var(--minimal_dark_transparent) !important;
+	background-color: transparent !important;
 	-webkit-box-shadow: none !important;
 }
 
 ::-webkit-scrollbar-track {
-	background: var(--minimal_dark_transparent) !important;
+	background: transparent !important;
 }
 
 ::-webkit-scrollbar-corner{
-	background-color: var(--minimal_dark_transparent) !important;
+	background-color: transparent !important;
 	border-radius: 10px !important;
 }
 
@@ -49,11 +49,11 @@
 }
 
 .ReactVirtualized__List::-webkit-scrollbar-thumb {
-	background: var(--minimal_dark_transparent) !important;
+	background: transparent !important;
 	border-radius: 10px !important;
 }
 
 [class*="library_LeftListSizableContainer_"]::-webkit-scrollbar:horizontal {
-	background-color: var(--minimal_dark_transparent) !important;
+	background-color: transparent !important;
 	-webkit-box-shadow: none !important;
 }
