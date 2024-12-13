@@ -1602,3 +1602,9 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 .SettingsDialogSubHeader {
     color: var(--minimal_dark_color) !important;
 }
+
+._28eIRmQ229ntDIyQXTn3Ub._32Lfwcdolc3ByZWItfR3ni.QE3sHW9puNTAjiRDY71Xy:active {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    box-shadow: inset 0px 1px 4px 1px rgb(0 0 0 / 60%) !important;
+    transition: .25s ease-out !important;
+}
