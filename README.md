@@ -43,7 +43,7 @@ I passed the information on to the dev, I'm waiting for his return (the problem 
 ## `👤 Profil 👤` <br> 
 
 Some profiles have neon lights around the headers, I removed them by default.<br>
-If you want to remove this, open `webkit.css` and remove line `100`<br>
+If you want to remove this, open `webkit.css` and remove lines `58` to `63`<br>
 
 ![steamwebhelper_MMLpcYbpD1](https://github.com/user-attachments/assets/57fd1033-1892-4357-8204-89c166b06bfa) <br>
 
