@@ -1488,3 +1488,7 @@ button.TextButton:hover, button.TextButton.gpfocus {
 	border: 1px solid var(--minimal_dark_invisiblegrey) !important;
 	transition: .25s ease-out !important;
 }
+
+button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
+    font-size: 11px !important;
+}
