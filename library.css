@@ -319,11 +319,12 @@
     border: 2px solid #353535 !important;
     border-bottom: 2px solid var(--minimal_dark_color) !important;
     filter: brightness(1) contrast(1.1) !important;
-    transition: ease-out .25s !important;
+    transition: .25s ease-out !important;
 }
 
 .WYgDg9NyCcMIVuMyZ_NBC._3VOR2AeYATx3qSE0I-Pm-5.biTV-8rS2M65imVHU15Nv.xp7A-08Y404Of3FBHqX32.Panel:active {
     filter: brightness(1.1) !important;
+    transition: .25s ease-out !important;
 }
 
 ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover:not(._3VOR2AeYATx3qSE0I-Pm-5), ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R:not(._3VOR2AeYATx3qSE0I-Pm-5) {
