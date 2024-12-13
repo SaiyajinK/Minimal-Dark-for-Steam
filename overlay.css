@@ -30,7 +30,7 @@
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover {
     cursor: pointer;
-    background: var(--minimal_dark_grey) !important;
+    background: #1a1a1a !important;
     border-radius: 6px !important;
     margin-top: 2px !important;
 }
@@ -133,7 +133,7 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F:nth-of-type(1) {
 }
 
 button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, button.DialogButton:enabled:active.gpfocus {
-    background: var(--minimal_dark_dark);
+    background: #191919;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.6);
     transition-duration: .04s;
 }
@@ -169,7 +169,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._3jy873nqjNYyriykDzLA_ ._31oMFXwhAQkbEmbu8gWse9 {
-    color: var(--minimal_dark_fluogreen);
+    color: #00ff08;
 }
 
 ._1fuML-ekRbTEzgzC597yGP, ._1fuML-ekRbTEzgzC597yGP pre {
@@ -323,7 +323,7 @@ div.ModalPosition_TopBar {
 }
 
 .mediamanagerutils_ButtonBox_28eIR.mediamanagerutils_Secondary_QE3sH:hover {
-    background-color: var(--minimal_dark_greyblack1);
+    background-color: var(--minimal_dark_greyblack);
 }
 
 .mediamanagerutils_ButtonBox_28eIR.mediamanagerutils_Secondary_QE3sH:active {
@@ -369,7 +369,7 @@ button.DialogButton:disabled:hover, button.DialogButton.Disabled:hover {
 }
 
 ._20evaxvMeG8jMJ31t-5-L5 {
-    background: var(--minimal_dark_grey);
+    background: #1a1a1a;
 }
 
 ._3kjELHPFlI9SV9QYNi_TaH {
@@ -389,7 +389,7 @@ button.DialogButton:disabled:hover, button.DialogButton.Disabled:hover {
 }
 
 button.DialogButton {
-    background: var(--minimal_dark_invisblegrey);
+    background: var(--minimal_dark_invisiblegrey);
 }
 
 button.DialogButton:hover, button.DialogButton.gpfocus {
@@ -870,7 +870,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g._95iGSY-rAD5NiwS9dAelh ._1RUoX0kTOBfqpwCaBZGDLJ {
-    background-color: var(--minimal_dark_yellow) !important;
+    background-color: yellow !important;
 	border-radius: 0px !important;
 }
 
@@ -1458,9 +1458,9 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._3Cqjn4ZCF_ooB9QdEA-tKi._1aBr4F-yYtm9OnDrnaLTae {
-    border: 1px solid var(--minimal_dark_orange) !important;
+    border: 1px solid orange !important;
     background: var(--minimal_dark_blacker_alt) !important;
-    color: var(--minimal_dark_orange) !important;
+    color: orange !important;
     border-radius: 5px !important;
 }
 
@@ -1482,16 +1482,16 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._3Cqjn4ZCF_ooB9QdEA-tKi._1aBr4F-yYtm9OnDrnaLTae ._3uZxZMpdYwX9n7FfpbFttN ._28VIcjS3EY0OjoovbKmQmF {
-    color: var(--minimal_dark_orange) !important;
+    color: orange !important;
 }
 
 ._3Lw0_xiOn-_VGCOMi6NUVk ._3ecQ1hQjQoPVLsXOMrf0Ss {
-    color: var(--minimal_dark_orange) !important;
+    color: orange !important;
     font-weight: 500 !important;
 }
 
 ._3Lw0_xiOn-_VGCOMi6NUVk ._2jiG8w8sVwGu2jwOMfyI92 {
-    color: var(--minimal_dark_orange) !important;
+    color: orange !important;
     font-weight: 500 !important;
 }
 
