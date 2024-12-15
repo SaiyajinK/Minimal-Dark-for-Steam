@@ -990,8 +990,9 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 .friendStatusHover.offline:hover, .friendStatusHover.offline.Friend_ContextMenuActive {
     background-color: rgb(64 64 64 / 20%) !important;
     border-radius: 5px !important;
-    border: 1px solid rgb(122 122 122 / 40%) !important;
-	transition: .25s ease-out !important;
+    border: 1px solid #808080bf !important;
+    transition: .25s ease-out !important;
+    width: auto !important;
 }
 
 .addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
@@ -1767,7 +1768,9 @@ html.client_chat_frame .popup_chat_frame {
 .friend.quickAccessFriend {
     border: 1px solid transparent !important;
     transition: .25s ease-out !important;
-	border-radius: 5px !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    width: auto !important;
 }
 
 .ChatTabContent .avatarHolder .avatarStatus, .friend.quickAccessFriend .avatarHolder .avatarStatus {
