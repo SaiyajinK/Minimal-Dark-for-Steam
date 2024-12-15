@@ -985,6 +985,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     border-radius: 5px !important;
     border: 1px solid rgb(109 207 246 / 40%)  !important;
 	transition: .25s ease-out !important;
+	width: auto !important;
 }
 
 .friendStatusHover.offline:hover, .friendStatusHover.offline.Friend_ContextMenuActive {
@@ -1003,6 +1004,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     border: 1px solid rgb(227 255 194 / 40%) !important;
     border-radius: 5px !important;
 	transition: .25s ease-out !important;
+	width: auto !important;
 }
 
 .friendStatusHover.awayOrSnooze:hover, .friendStatusHover.awayOrSnooze.Friend_ContextMenuActive {
@@ -1010,6 +1012,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     border-radius: 5px !important;
     background-color: rgb(255 192 76 / 2%) !important;
 	transition: .25s ease-out !important;
+	width: auto !important;
 }
 
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
