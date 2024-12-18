@@ -288,34 +288,37 @@ button.DialogButton.Primary {
 }
 
 button.DialogButton.Primary:hover {
-    background: var(--minimal_dark_bgb) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     background-position: 25%;
     background-size: 330% 100%;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
     color: white !important;
     transition: all 0.2s ease-out !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .DesktopUI .Oo5JPcEk_erKEYAzYp2nY.gkgG-dWgjpwS_aqlcMNTM {
-    background: var(--minimal_dark_bgb) !important;
+    background: var(--minimal_dark_color) !important;
     color: #fff;
-	text-shadow: 1px 1px 0px rgba(0,0,0,0.3) !important;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.3) !important;
 }
 
 button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:active.gpfocus {
     background: transparent !important;
     box-shadow: inset 0px 0px 4px 4px #0000007a !important;
-    border: 1px solid var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 button.DialogButton.Primary:enabled:hover:active {
-    background: var(--minimal_dark_bgb) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     box-shadow: inset 0px 0px 4px 4px #0000007a !important;
-    border: 1px solid #42bad8 !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	color: white !important;
 }
 
 div.ModalPosition_TopBar {
-    background: radial-gradient(circle, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,159,255,0) 95%, rgba(26,159,255,0) 100%) !important;
+    background: radial-gradient(circle, var(--minimal_dark_color) 0%, rgba(26,159,255,0) 95%, rgba(26,159,255,0) 100%) !important;
 }
 
 .mediamanagerutils_ButtonBox_28eIR.mediamanagerutils_Secondary_QE3sH {
@@ -444,16 +447,16 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 ._2iJsgdTIX9Tj23rWnB7Q-c {
     background-color: var(--minimal_dark_color) !important;
     border-radius: 0px !important;
-    background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba).25) 0%, rgba(18,18,18,1) 75%, rgba(18,18,18,1) 100%) !important;
+    background: linear-gradient(90deg, rgba(26, 26, 26, .25) 0%, rgba(18,18,18,1) 75%, rgba(18,18,18,1) 100%) !important;
     border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
 ._1UEEmNDZ7Ta3enwTf5T0O0 {
-    background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
+    background: linear-gradient(90deg, var(--minimal_dark_color) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
 }
 
 ._1Hye7o1wYIfc9TE9QKRW4T {
-    background: linear-gradient(90deg, rgba(var(--minimal_dark_color_rgba),1) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
+    background: linear-gradient(90deg, var(--minimal_dark_color) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
 }
 
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
@@ -599,8 +602,8 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._1FPJYJrOP3sGOAaFkUKvsa._3RXwDIH9FKgDDHeFmbIraU:active {
-    background-color: rgba(var(--minimal_dark_color_rgba),.5) !important;
-    border: 1px solid rgba(var(--minimal_dark_color_rgba),1) !important;
+    background-color: rgba(26,26,26,.5) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
 }
 
@@ -1336,7 +1339,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._34dlBrUZP054ElsvOp5hQm ._1-ooPvEW2c6SHuhnz6SK3t .JffqXSW3actHr6hj8F9Sn {
-    background-color: rgba(var(--minimal_dark_color_rgba),.75) !important;
+    background-color: var(--minimal_dark_color) !important;
     filter: brightness(1) !important;
     height: 6px !important;
     top: 1px !important;
@@ -1344,7 +1347,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     box-shadow: none !important;
     backdrop-filter: blur(0px) !important;
     border-top: none !important;
-    border-bottom: 1px solid rgba(var(--minimal_dark_color_rgba),.75) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
     opacity: 1 !important;
 	transition: .25s ease-out !important;
 }
@@ -1440,7 +1443,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._2-7fqz03LhYHKEBI-HwIPq ._3yu2_I6JERouGkz0YLwnuX:hover {
-    background-color: rgba(var(--minimal_dark_color_rgba),.5) !important;
+    background-color: rgba(26,26,26,.5) !important;
     border-radius: 20px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     backdrop-filter: blur(8px) !important;
@@ -1450,7 +1453,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     stroke: var(--minimal_dark_color) !important;
 	border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 20px !important;
-    background: rrgba(var(--minimal_dark_color_rgba),.2) !important;
+    background: rgba(26,26,26,.2) !important;
 }
 
 ._2-7fqz03LhYHKEBI-HwIPq.Fr_79JIzXJtvETKwGQWVy {
@@ -1608,4 +1611,16 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     background-color: var(--minimal_dark_blacker_alt) !important;
     box-shadow: inset 0px 1px 4px 1px rgb(0 0 0 / 60%) !important;
     transition: .25s ease-out !important;
+}
+
+._2bl0iQ9xigbq4Zd1NI6NZl::before {
+    background: var(--minimal_dark_color) !important;
+}
+
+._2rjVTGz8aLvqOdz5v2gq5C {
+    color: var(--minimal_dark_color) !important;
+}
+
+._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B {
+    background: var(--minimal_dark_color) !important;
 }
