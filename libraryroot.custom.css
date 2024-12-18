@@ -5,7 +5,6 @@
 @import url('downloads.css');
 @import url('gamepage.css');
 @import url('library.css');
-@import url('miniprofile.css');
 @import url('properties.css');
 @import url('overlay.css');
 @import url('webkit.css');
@@ -285,7 +284,7 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
     box-shadow: none !important;
     min-height: 36px !important;
     margin-bottom: 0px;
-    background: linear-gradient(90deg, rgba(25,25,25,1) 0%, rgba(25,25,25,1) 25%, rgba(var(--minimal_dark_color_rgba),.15) 100%) !important;
+    background: var(--minimal_dark_blacker) !important;
     border-radius: 0px !important;
     width: auto !important;
     border-right: 2px solid var(--minimal_dark_color) !important;
@@ -298,7 +297,7 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
 }
 
 ._3yD46y5pd3zOGR7CzKs0mC:active {
-    background: linear-gradient(90deg, rgba(25,25,25,1) 0%, rgba(25,25,25,1) 25%, rgba(var(--minimal_dark_color_rgba),.15) 100%) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     box-shadow: inset 0px 2px 8px 2px rgb(0 0 0) !important;
     min-height: 36px !important;
     transition: .25s ease-out !important;
@@ -820,7 +819,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 
 ._2UyOBeiSdBayaFdRa39N2O:active:not(._2hcblpUHuN5CYOoq6eU2y0) {
     /* color: white !important; */
-    color: rgba(var(--minimal_dark_color_rgba),.75) !important;
+    color: var(--minimal_dark_color) !important;
     cursor: pointer;
 }
 
@@ -1334,7 +1333,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 
 ._1tsEfG-JyQFR7Un1HPOt98._2GC8qj5JitCjVasS9wQzax:active {
     background: var(--minimal_dark_blacker_alt) !important;
-    border: 1px solid rgba(var(--minimal_dark_color_rgba), .5) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
 	border-radius: 5px !important;
 }
 
