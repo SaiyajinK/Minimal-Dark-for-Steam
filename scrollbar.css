@@ -38,13 +38,13 @@
 }
 
 .ReactVirtualized__List:hover::-webkit-scrollbar-thumb:hover {
-	background: rgba(var(--minimal_dark_color_rgba),1) !important;
+	background: var(--minimal_dark_color) !important;
 	background-clip: padding-box!important;
 	border-radius: 10px !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background-color: rgba(var(--minimal_dark_color_rgba),1) !important;
+	background-color: var(--minimal_dark_color) !important;
 	border-radius: 10px !important;
 }
 
