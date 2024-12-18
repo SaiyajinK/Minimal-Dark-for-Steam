@@ -48,13 +48,11 @@ All aspects were changed to match my theme. <br>
 ![steamwebhelper_MMLpdfgcYbpD1](https://github.com/user-attachments/assets/40567ab3-4050-4887-803d-fcc583586d6b) <br>
 
 ## `✅ Quick installation with Millennium (recommanded) ✅` <br>
-1️⃣ - Download & execute latest release of Millennium [here](https://millennium.web.app/)<br>
-2️⃣ - Clic on  `Integrate` and wait for the end of integration (Steam will close)<br>
-3️⃣ - Restart Steam and go `Settings` > `Interface` > `Steam Skin` > `Open Millennium`<br>
-4️⃣ - In Millennium interface click on `Settings` and check that `JavaScript Execution` is checked.<br>
-5️⃣ - Always in Millennium interface click on `Community` (Steam browser will open).<br>
-6️⃣ - Select the Minimal Dark for Steam theme and drag `Drop onto Millennium button` in the Millennium and wait download & installation<br>
-7️⃣ - Return to the `Library tab` and refresh the list of downloaded skins and click on `Minimal Dark for Steam`.<br>
+1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
+2️⃣ - Open Steam browser and paste this url : [https://steambrew.app/themes](https://steambrew.app/themes) <br>
+3️⃣ - Select `Minimal Dark` in the theme list and clic on `Install` <br>
+4️⃣ - Open `Steam settings` go to `Themes` and select `Minimal Dark` in the list of themes.  <br>
+5️⃣ - Restart Steam <br>
 
 > Installation documentation : https://millennium.gitbook.io/steam-patcher/getting-started/installation <br>
 
