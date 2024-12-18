@@ -19,22 +19,16 @@ In Steam settings I recommend setting the library size to Medium. <br>
 
 ## `🎨 Customize theme with the color of your choice 🎨` <br> 
 
-I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the color code defined in the configuration file across the entire skin and webkit. <br>
+I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the selected color code on the entire skin. <br>
+
+> by default, whether you are on w10 or w11, the color of Steam will be the one you have chosen in Windows, but you can always use another color by clicking on the color selector.   <br>
 
 How change the skin color ? <br>
-1. Open `config.css` with notepad++ and modify lines `4` and `5`. <br> 
-2. Open `webkit.css` and modify lines `8` and `9` ; save and reload Steam. <br> 
+Open `Steam settings` go to `Themes` and select an `custom accent`.  <br>
 
-⚠️ note: color settings reset with each update (for now).<br>
+![steamwebhelper_E7oBaqbZF1](https://github.com/user-attachments/assets/7d66e238-e868-4def-81cb-78d4d5ce59e3) <br>
 
-More simply : If you use the base color (which is Steam's default color, light blue): no problem since it is the base of the skin.<br>
-
-On the other hand : If you use a custom color: you will have to redefine the custom color during EACH update (for the moment) whether manual (by opening millenium from Steam settings) or automatic (when launching or restarting Steam).<br>
-
-Why ? : This is because Millennium, during an update reloads the entire Github directory and not just the updated files.<br>
-I passed the information on to the dev, I'm waiting for his return (the problem does not occur with SFP).<br>
-
-🗣️ Dev response : Millennium will be updated soon to resolve this issue to only update files changed during a skin update.
+Note: the accent color does not apply on the webkit. So I set the store color with Steam's default color (the light blue `#1a9fff`).
 
 ## `📸 Compact mode + friends 📸` <br> 
 
