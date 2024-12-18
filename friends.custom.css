@@ -570,7 +570,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .ScrollToBottomButton>span:hover {
-    background: rgba(var(--minimal_dark_color_rgba),1) !important;
+    background: var(--minimal_dark_color) !important;
 	color: white !important;
     transition: .25s ease-out !important;
 	border-top: 1px solid var(--minimal_dark_be_grey) !important;
@@ -626,7 +626,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .chatRoomGroupNavCollapsed .chatRoomTextChannel.ActiveTextChannel:hover {
-    background: var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_blacker) !important;
 }
 
 .namedGroup .chatRoomGroupHeader {
@@ -853,7 +853,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     border-radius: 5px !important;
     height: 40px !important;
     margin: 2px 0px 2px 6px !important;
-    background: radial-gradient(circle, rgba(2,0,36,0) -147%, rgba(var(--minimal_dark_color_rgba),.1) 100%) !important;
+    background: radial-gradient(circle, rgba(2,0,36,0) -147%, rgba(26, 26, 26, .1) 100%) !important;
     background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
@@ -915,7 +915,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 ._1IEiKQnjHpIv-m601y6hvP:not(._2GM2kkVRqL-SdkG4oQjUzY) .SVGIcon_Button.SVGIcon_Submit path:hover {
-    fill: rgba(var(--minimal_dark_color_rgba), 1) !important;
+    fill: var(--minimal_dark_color) !important;
     filter: brightness(1.25) !important;
 }
 
@@ -1042,11 +1042,11 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR ._1BUWXzey55_H5QKdz6Olrn:hover {
-    background: rgba(var(--minimal_dark_color_rgba),.75) !important;
+    background: var(--minimal_dark_color) !important;
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR ._1BUWXzey55_H5QKdz6Olrn:active {
-    background: rgba(var(--minimal_dark_color_rgba),.25) !important;
+    background: rgba(26, 26, 26, .25) !important;
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR .nKXfubhpv_zmmMcEsbg0B {
@@ -1089,7 +1089,7 @@ html.web_chat_frame body {
 }
 
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7 {
-    background-color: rgba(var(--minimal_dark_color_rgba),.25) !important;
+    background-color: rgba(26, 26, 26, .25) !important;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
     padding-left: 9px !important;
@@ -1111,7 +1111,7 @@ html.web_chat_frame body {
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7:hover {
     color: white !important;
     text-shadow: 2px 1px 1px rgb(0 0 0 / 30%) !important;
-    background-color: rgba(var(--minimal_dark_color_rgba),1) !important;
+    background-color: var(--minimal_dark_color) !important;
 	border: 2px solid var(--minimal_dark_be_grey) !important;
 	border-radius: 5px !important;
     margin-left: 10px !important;
@@ -1309,7 +1309,7 @@ button.DialogButton.Primary {
 }
 
 ._2z-o5GLHkTjJrgQAgz2uqh {
-    background: radial-gradient(ellipse farthest-corner at 98% 90%, rgba(var(--minimal_dark_color_rgba), 0.8) 0%, rgba(var(--minimal_dark_color_rgba), 0.2) 40%, rgba(233, 154, 35, 0) 70%) !important;
+    background: radial-gradient(ellipse farthest-corner at 98% 90%, rgba(26,26,26,.8) 0%, rgba(26,26,26,.2) 40%, rgba(233, 154, 35, 0) 70%) !important;
 	border-radius: 5px !important
 }
 
@@ -1318,8 +1318,6 @@ button.DialogButton.Primary {
 }
 
 .ChatRoomListGroupItem .FriendMessageCount, .unreadFriend .FriendMessageCount {
-    /* background: rgba(var(--minimal_dark_color_rgba),.35) !important; */
-    /* box-shadow: 0 0 14px 1px rgba(var(--minimal_dark_color_rgba),.5) !important; */
     border-radius: 20px !important;
 }
 
@@ -1493,7 +1491,7 @@ button.DialogButton.Primary {
 }
 
 .timeDivision.time_passes .preHorizDivider, .timeDivision.time_passes .horizDivider {
-    border: 1px dashed rgba(var(--minimal_dark_color_rgba),0.5) !important;
+    border: 1px dashed rgba(26,26,26,.5) !important;
 	margin-right: -6px !important;
 }
 
@@ -1565,7 +1563,7 @@ button.DialogButton.Primary {
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
-    background: radial-gradient(circle, rgba(2,0,36,0) -147%, rgba(var(--minimal_dark_color_rgba),.1) 100%) !important;
+    background: radial-gradient(circle, rgba(2,0,36,0) -147%, rgba(26, 26, 26, .1) 100%) !important;
     border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
     border-bottom: 1px solid var(--minimal_dark_color) !important;
@@ -1827,8 +1825,8 @@ html.client_chat_frame .popup_chat_frame {
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- {
     background: var(--minimal_dark_blacker_alt) !important;
-    color: rgba(var(--minimal_dark_color_rgba),.75) !important;
-    border: 1px dotted rgba(var(--minimal_dark_color_rgba),.25) !important;
+    color: var(--minimal_dark_color) !important;
+    border: 1px dotted rgba(26, 26, 26, .25) !important;
     margin-top: 30px !important;
     transition: .25s ease-out !important;
     margin-left: 10px !important;
@@ -1850,9 +1848,9 @@ html.client_chat_frame .popup_chat_frame {
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR-:hover {
     color: var(--minimal_dark_color) !important;
     transition: background .25s ease-out !important;
-    background: linear-gradient(180deg, rgba(var(--minimal_dark_color_rgba), .25) -50%, rgba(12, 12, 12, 1) 100%) !important;
-    border-bottom: 1px solid rgba(var(--minimal_dark_color_rgba),.5) !important;
-    border: 1px solid rgba(var(--minimal_dark_color_rgba),.25) !important;
+    background: linear-gradient(180deg, rgba(26,26,26,.25) -50%, rgba(12, 12, 12, 1) 100%) !important;
+    border-bottom: 1px solid rgba(26,26,26,.5) !important;
+    border: 1px solid rgba(26, 26, 26, .25) !important;
     border-radius: 5px !important;
     transition: .25s ease-out !important;
 }
