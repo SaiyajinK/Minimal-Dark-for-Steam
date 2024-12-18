@@ -1,8 +1,6 @@
 :root { 
 
-/* chose your skin color */
---minimal_dark_color: #1a9fff !important; /* example for cyan : #20eabf !important; - default color is blue (#1a9fff) ; to apply your color, use https://htmlcolorcodes.com. */
---minimal_dark_color_rgba: 26,159,255 !important; /* example for cyan : 32,234,191 !important; - default color is blue (26,159,255) ; also change this value by converting your chosen hexadecimal color code to rgba (https://rgbacolorpicker.com/hex-to-rgba) */
+--minimal_dark_color: var(--SystemAccentColor) !important;
 
 /* global colors */
 --minimal_dark_be_grey: #262626;
