@@ -58,12 +58,6 @@ All aspects were changed to match my theme. <br>
 
 > Installation documentation : https://millennium.gitbook.io/steam-patcher/getting-started/installation <br>
 
-## `🔗 Manual installation with SFP 🔗` <br>
-1️⃣ - Download & extract latest release [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/releases)<br>
-2️⃣ - Copy `Minimal-Dark-for-Steam` folder to "C:\Program Files (x86)\Steam\steamui\skins\"<br>
-3️⃣ - Download the latest SFP version [here](https://github.com/PhantomGamers/SFP/releases) <br>
-4️⃣ - Launch SFP, in settings go to Steam, check "Inject JavaScript", and now select steam skin (steam will reload automatically). If you want dev Steam, type `-dev` on the end of launch arguments to get `-cef-enable-debugging -dev`.<br>
-
 ## `🛠️ Tools used 🛠️` <br>
 - Steam DevTools <br>
 - [Color picker](https://htmlcolorcodes.com/color-picker/) <br>
@@ -76,8 +70,6 @@ All aspects were changed to match my theme. <br>
 - [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit<br>
 - [Unofficial Patch for Metro for Steam](https://discord.gg/dMsSwufK7Q) for sharing reboot/reload script<br>
 - [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
-- [PhantomGamers](https://github.com/PhantomGamers) for SFP and the reboot/reload script <br>
-- [LaserFlash](https://github.com/LaserFlash) for WaitForElement module <br>
 - [Icon8](https://icons8.com) for Base64 icons
 
 ------
