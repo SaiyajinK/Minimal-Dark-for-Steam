@@ -1,16 +1,16 @@
+@import url('./elements/config.css');
+@import url('./elements/sidebar.css');
+@import url('./elements/scrollbar.css');
+@import url('./elements/downloads.css');
+@import url('./elements/gamepage.css');
+@import url('./elements/library.css');
+@import url('./elements/properties.css');
+@import url('./elements/overlay.css');
+@import url('./elements/profile.css');
+@import url('./elements/notifications.css');
+@import url('./elements/miniprofile.css');
 @import url('friends.custom.css');
-@import url('config.css');
-@import url('sidebar.css');
-@import url('scrollbar.css');
-@import url('downloads.css');
-@import url('gamepage.css');
-@import url('library.css');
-@import url('properties.css');
-@import url('overlay.css');
 @import url('webkit.css');
-@import url('profile.css');
-@import url('notifications.css');
-@import url('miniprofile.css');
 
 * {
 	cursor: default !important;
