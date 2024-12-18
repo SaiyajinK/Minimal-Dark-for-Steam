@@ -4,8 +4,7 @@
 
 :root { 
 
---minimal_dark_color: var(--SystemAccentColor) !important; /* example for cyan : #20eabf !important; - default color is blue (#1a9fff) ; to apply your color, use https://htmlcolorcodes.com. */
-
+--minimal_dark_color: var(--SystemAccentColor) !important;
 
 /* global colors */
 --minimal_dark_be_grey: #262626;
