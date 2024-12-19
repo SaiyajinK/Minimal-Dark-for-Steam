@@ -9584,14 +9584,22 @@ body.v6 .sale_capsule .discount_block_inline {
 }
 
 ._3B8wRA4H7e_oSksYNqpSPv._1B1XTNsfuwOaDPAkkr8M42:hover {
-	border-radius: 5px !important;
+    border-radius: 5px !important;
     background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--gpColor-Blue) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 ._25gii5r23MmAqXvLZj24tK:hover, ._3k90ug209sE23xAMqcM74s:hover {
     background: var(--minimal_dark_blacker_alt) !important;
-    border: 1px solid var(--gpColor-Blue) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+._3k90ug209sE23xAMqcM74s:hover .h-lNlCUnCRbIcn38-Oqaw {
+    color: var(--minimal_dark_color) !important;
+}
+
+._3k90ug209sE23xAMqcM74s:hover ._2auM-VHPU-KKomAWyuWrSV svg path {
+    fill: var(--minimal_dark_color) !important;
 }
 
 .QFW0BtI4l77AFmv1xLAkx:hover {
