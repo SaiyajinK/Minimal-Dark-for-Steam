@@ -11848,12 +11848,13 @@ h3 {
 }
 
 .community_award {
-    border: 1px solid var(--gpColor-Blue) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 }
 
 .community_award:hover {
     background-color: var(--minimal_dark_black) !important;
+    border: 1px solid var(--gpColor-Blue) !important;
 }
 
 .community_award_icon {
