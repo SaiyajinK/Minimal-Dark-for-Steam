@@ -1318,7 +1318,20 @@ button.DialogButton.Primary {
 }
 
 .ChatRoomListGroupItem .FriendMessageCount, .unreadFriend .FriendMessageCount {
-    border-radius: 20px !important;
+    border-radius: 3px !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+}
+
+.ChatRoomListGroupItem .FriendMessageCount, .unreadFriend .FriendMessageCount {
+    box-shadow: 0 0 0px 1px rgba(218,149,0,.5) !important;
+    right: 3px !important;
+    top: -8px !important;
+    backdrop-filter: blur(2px) !important;
+}
+
+.FriendMessageCount {
+    line-height: 32px !important;
+    height: 32px !important;
 }
 
 .friend .labelHolder {
