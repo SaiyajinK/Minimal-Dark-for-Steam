@@ -1016,7 +1016,7 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-    padding: 2px 0px 2px 20px !important;
+    padding: 2px 0px 2px 12px !important;
 }
 
 .ChatMessageEntryVoice {
@@ -1324,14 +1324,14 @@ button.DialogButton.Primary {
 
 .ChatRoomListGroupItem .FriendMessageCount, .unreadFriend .FriendMessageCount {
     box-shadow: 0 0 0px 1px rgba(218,149,0,.5) !important;
-    right: 3px !important;
-    top: -8px !important;
+    right: 8px !important;
+    top: -4px !important;
     backdrop-filter: blur(2px) !important;
 }
 
 .FriendMessageCount {
-    line-height: 32px !important;
-    height: 32px !important;
+    line-height: 25px !important;
+    height: 25px !important;
 }
 
 .friend .labelHolder {
