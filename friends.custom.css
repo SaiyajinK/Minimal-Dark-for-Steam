@@ -1327,6 +1327,10 @@ button.DialogButton.Primary {
     right: 8px !important;
     top: -4px !important;
     backdrop-filter: blur(2px) !important;
+    animation-name: UnreadLabelPulse;
+    animation-iteration-count: infinite !important;
+    animation-timing-function: linear !important;
+    animation-duration: 2.8s !important;
 }
 
 .FriendMessageCount {
