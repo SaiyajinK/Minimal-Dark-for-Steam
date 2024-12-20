@@ -1632,8 +1632,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 ._389dy3Ef8XXn1tSRL6VuUJ ._2PT6bYHtDfOFR4vyjivTCX:hover {
     border: 1px solid var(--minimal_dark_color) !important;
-    background: var(
-    --minimal_dark_blacker) !important;
+    background: var(--minimal_dark_blacker) !important;
     transition: .25s ease-out !important;
 }
 
