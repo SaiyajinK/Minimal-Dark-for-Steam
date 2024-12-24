@@ -12529,4 +12529,22 @@ span#VoteDownBtn_4476110736154691403:hover {
     color: var(--gpColor-Blue) !important;
 }
 
+.home_sticker_ctn {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.home_deck_banner img {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.home_newupcoming_ctn .home_tab_button {
+    color: var(--gpColor-Blue) !important;
+}
+
+.home_newupcoming_ctn .home_tab_button.active {
+    border-bottom: 2px solid var(--gpColor-Blue) !important;
+}
+
 /* end webkit */
