@@ -9895,7 +9895,7 @@ a.btnv6_blue_hoverfade.btn_medium:active {
 }
 
 ._1cOoCFwafBlSkwllIMf3XM {
-    border-color: var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
     background: var(--minimal_dark_blacker_alt2) !important;
 }
@@ -10782,7 +10782,7 @@ body.v6 .scale_capsule.with_microtrailer.microtrailer_active {
 }
 
 ._2DzJ9TSrYmyo1tY_R-1jym:hover .ZZgGaqlJvV83f4CYl3O3N {
-    transform: translate(-622px, 0px) !important;
+    transform: translate(-30px, 5px) !important;
 }
 
 body.v6 .page_desc {
@@ -12545,6 +12545,16 @@ span#VoteDownBtn_4476110736154691403:hover {
 
 .home_newupcoming_ctn .home_tab_button.active {
     border-bottom: 2px solid var(--gpColor-Blue) !important;
+}
+
+._12GNJZ-WL1uvtjwHORvJp0 {
+    top: 8px !important;
+    left: 8px !important;
+    color: #fff !important;
+    background-color: #1212127d !important;
+    backdrop-filter: blur(10px) !important;
+    padding: 6px 12px !important;
+    border-radius: 5px !important;
 }
 
 /* end webkit */
