@@ -1843,7 +1843,7 @@ html.client_chat_frame .popup_chat_frame {
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- {
     background: var(--minimal_dark_blacker_alt) !important;
     color: var(--minimal_dark_color) !important;
-    border: 1px dotted rgba(26, 26, 26, .25) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
     margin-top: 30px !important;
     transition: .25s ease-out !important;
     margin-left: 10px !important;
