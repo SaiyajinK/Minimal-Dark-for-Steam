@@ -2138,3 +2138,11 @@ html.client_chat_frame .popup_chat_frame {
     margin-top: -2px !important;
     padding-left: 3px !important;
 }
+
+.friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendBodyFull, .friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendHead, .friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendArm, .friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendBody {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.friendGroup .friendInviteContainer {
+    height: auto !important;
+}
