@@ -10167,6 +10167,8 @@ html.responsive.touch div.nonresponsive_hidden {
     background-color: var(--minimal_dark_blacker_alt) !important;
     border-radius: 5px !important;
     background-image: none !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    box-shadow: 0 1px 6px #000 !important;
 }
 
 .store_nav .popup_menu .category_hr {
