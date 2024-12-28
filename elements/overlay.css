@@ -1644,3 +1644,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     fill: var(--minimal_dark_color) !important;
 	transition: .25s ease-out !important;
 }
+
+button.QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable {
+    background: var(--minimal_dark_blacker) !important;
+}
