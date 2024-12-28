@@ -4,141 +4,128 @@
 	cursor: default !important;
 }
 
-.friendsui-container .title-area .title-bar-actions {
-    margin-right: 3px;
-    margin-top: 1px;
+.focused:not(.singlewindow) .title-area-highlight {
+    opacity: 0 !important;
 }
 
-.friendsui-container .title-area-icon .SVGIcon_X_Line {
-	display: none;
+.friendsui-container .title-area-icon {
+    width: 20px !important;
+    height: 20px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transform: translate(-9px, 2px) !important;
+    transition: .25s ease-out !important;
+    margin-left: 11px !important;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.closeButton {
-    color: transparent;
-    background-color: var(--minimal_dark_topgrey);
-    -webkit-mask-image: var(--minimal_dark_closebutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.4);
+.friendsui-container .title-area-icon .SVGIcon_X_Line line {
+    stroke: var(--minimal_dark_topgrey) !important;
+    transition: .25s ease-out !important;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.closeButton:hover {
-    color: transparent;
-    background-color: var(--minimal_dark_red2);
-    -webkit-mask-image: var(--minimal_dark_closebutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.4);
+.friendsui-container .title-area-icon:hover .SVGIcon_X_Line line {
+    stroke: white !important;
+    transition: .25s ease-out !important;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.closeButton:active {
-    color: transparent;
-    background-color: var(--minimal_dark_red2);
-    -webkit-mask-image: var(--minimal_dark_closebutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.3);
+.friendsui-container .title-area-icon:active .SVGIcon_X_Line line {
+    stroke: white !important;
+    transition: .25s ease-out !important;
 }
 
-.DesktopUI .title-area-icon:hover, .friendsui-container .title-area-icon:hover {
-    background: var(--minimal_dark_blacker);
-    transition: background .15s ease-out;
+.title-area-icon:hover .SVGIcon_Button rect, /*.title-area-icon:hover .SVGIcon_Button line*/, .title-area-icon:hover .SVGIcon_Button polyline {
+    stroke: var(--minimal_dark_color) !important;
+    transition: stroke .15s ease-out;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.maximizeButton {
-    color: transparent;
-    background-color: var(--minimal_dark_topgrey);
-    -webkit-mask-image: var(--minimal_dark_maxbutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.5);
+.title-area-icon:hover .SVGIcon_Button rect, .title-area-icon:hover .SVGIcon_Button line, .title-area-icon:hover .SVGIcon_Button polyline {
+    stroke: var(--minimal_dark_color) !important;
+    transition: stroke .15s ease-out;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.maximizeButton:hover {
-    color: transparent;
-    background-color: var(--minimal_dark_color);
-    -webkit-mask-image: var(--minimal_dark_maxbutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.5);
+.title-area-icon:active .SVGIcon_Button rect, .title-area-icon:active .SVGIcon_Button line, .title-area-icon:active .SVGIcon_Button polyline {
+    stroke: white !important;
+    transition: stroke .15s ease-out;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.maximizeButton:active {
-    color: transparent;
-    background-color: white;
-    -webkit-mask-image: var(--minimal_dark_maxbutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.4);
+.friendsui-container .title-area-icon.closeButton {
+    transition: .25s ease-out !important;
+    border-radius: 22px !important;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.minimizeButton {
-    color: transparent;
-    background-color: var(--minimal_dark_topgrey);
-    -webkit-mask-image: var(--minimal_dark_minbutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.35);
-	margin-bottom: -2px;
+.friendsui-container .title-area-icon.closeButton:hover {
+    background: #f1244669 !important;
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+    border-radius: 5px !important;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.minimizeButton:hover {
-    color: transparent;
-    background-color: var(--minimal_dark_color);
-    -webkit-mask-image: var(--minimal_dark_minbutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.35);
-	margin-bottom: -2px;
+.friendsui-container .title-area-icon.closeButton:active {
+    background: #f1244669 !important;
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+    box-shadow: inset 0 0 8px #000000c2 !important;
+    border-radius: 5px !important;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.minimizeButton:active {
-    color: transparent;
-    background-color: white;
-    -webkit-mask-image: var(--minimal_dark_minbutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.3);
-	margin-bottom: -2px;
+.title-area-icon.maximizeButton svg rect {
+    stroke: var(--minimal_dark_topgrey) !important;
+    transform: scale(0.85) !important;
+    x: 52px !important;
+    y: 63px !important;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.restoreButton {
-    color: transparent;
-    background-color: var(--minimal_dark_topgrey);
-    -webkit-mask-image: var(--minimal_dark_restorebutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.62);
+.friendsui-container .title-area-icon.maximizeButton {
+    transition: .25s ease-out !important;
+	border-radius: 5px !important;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.restoreButton:hover {
-    color: transparent;
-    background-color: var(--minimal_dark_color);
-    -webkit-mask-image: var(--minimal_dark_restorebutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.62);
+.friendsui-container .title-area-icon.maximizeButton:hover {
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	background: var(--minimal_dark_blacker_alt) !important;
 }
 
-.friendsui-container .title-bar-actions .title-area-icon.restoreButton:active {
-    color: transparent;
-    background-color: white;
-    -webkit-mask-image: var(--minimal_dark_restorebutton);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-    transform: scale(0.57);
+.friendsui-container .title-area-icon.maximizeButton:active {
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+    border-radius: 5px !important;
+}
+
+.friendsui-container .title-area-icon.minimizeButton {
+    transition: .25s ease-out !important;
+    border-radius: 5px !important;
+}
+
+.friendsui-container .title-area-icon.minimizeButton svg {
+    transform: translateY(-4px) scale(0.9) !important;
+}
+
+.friendsui-container .title-area-icon.minimizeButton:hover {
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.friendsui-container .title-area-icon.minimizeButton:active {
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+    border-radius: 5px !important;
+}
+
+.friendsui-container .title-area-icon.restoreButton {
+    transition: .25s ease-out !important;
+    border-radius: 5px !important;
+}
+
+.friendsui-container .title-area-icon.restoreButton:hover {
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .friendsui-container ::-webkit-scrollbar-button:vertical:increment,.friendsui-container ::-webkit-scrollbar-button:vertical:decrement {
