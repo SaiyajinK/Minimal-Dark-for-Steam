@@ -12746,4 +12746,11 @@ span#VoteDownBtn_4476110736154691403:hover {
     color: var(--minimal_dark_installed_games) !important;
 }
 
+._3wPcWGmcqJzbUXHRTPYsXa {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt2) !important;
+	color: orange !important;
+	border-radius: 5px !important;
+}
+
 /* end webkit */
