@@ -1350,3 +1350,23 @@ button._1iFnR7cGRa1kepep433pGx.h782PaUbu8xm3afLFh83E:hover svg path {
     background: var(--minimal_dark_blacker_alt) !important;
     transition: .25s ease-out !important;
 }
+
+._3VPnvw_CDKU-PQKK1pSDlN {
+    background-color: rgb(38 38 38 / 35%) !important;
+    backdrop-filter: blur(8px) !important;
+    border-radius: 5px !important;
+    transform: translate(-20px, -2px) !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+}
+
+svg._1dzQL1mVR8GTmmSi_kpDgr path {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.kEODDe6M5cuHWuPlcQexX {
+    color: var(--minimal_dark_status_green) !important;
+}
+
+._2LAaxz6RtHXrJJj9NzCNL4, .xBqU_GerRwzHIs8N9ratU {
+    color: var(--minimal_dark_red2) !important;
+}
