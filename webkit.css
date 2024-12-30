@@ -6749,6 +6749,8 @@ select.gray_bevel {
 .ds_collapse_flag.ds_flagged:hover .ds_flag {
     border-radius: 5px !important;
     max-width: 220px !important;
+    transform: translate(6px, -4px) !important;
+    z-index: 100 !important;
 }
 
 .game_area_dlc_name {
