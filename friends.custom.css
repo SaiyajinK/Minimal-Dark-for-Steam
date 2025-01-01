@@ -1190,7 +1190,7 @@ html.web_chat_frame body {
 }
 
 button.DialogButton.Primary {
-    background: var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     border-radius: 5px !important;
 }
 
