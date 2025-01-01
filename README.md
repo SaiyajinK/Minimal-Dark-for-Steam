@@ -33,7 +33,7 @@ Note: the accent color does not apply on the webkit. So I set the store color wi
 ## `📸 Compact mode + friends 📸` <br> 
 
 I also recommend grouping contacts by games. How to do this ? <br>
-Open `Steam settings` go to `Contacts and chat` and select an `Group contacts by games`. <br>
+Open `Steam settings` go to `Contacts and chat` and select `Group contacts by games`. <br>
 
 ![steamwebhelper_ArryRozGu](https://github.com/user-attachments/assets/ab26c875-a21a-4530-9519-43a0b74797c7) <br>
 
