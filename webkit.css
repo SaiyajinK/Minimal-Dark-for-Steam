@@ -12779,4 +12779,17 @@ span#VoteDownBtn_4476110736154691403:hover {
     background: var(--minimal_dark_blacker_alt) !important;
 }
 
+.winner_ctn {
+    box-shadow: none !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+    border: 1px solid #67629c !important;
+}
+
+.winner_ctn:hover .category_content .game_capsule img:nth-child(1), .winner_ctn.gpfocus .category_content .game_capsule img:nth-child(1) {
+    transform: scale(1.1) !important;
+    border-radius: 5px !important;
+    border: 1px solid #67629c !important;
+}
+
 /* end webkit */
