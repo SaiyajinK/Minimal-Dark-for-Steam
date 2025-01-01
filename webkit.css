@@ -1702,10 +1702,6 @@ body.v6.newonsteam .newonsteam_headercaps a:first-child:hover {
 	border:1px solid rgba(30,30,31,.52)!important;
 }
 
-body.v6 {
-	background:var(--minimal_dark_black)!important;
-}
-
 .steam_curator_recommended_game_names {
 	max-width:367px!important;
 }
@@ -7282,6 +7278,7 @@ body.v6 .store_nav #genre_flyout .popup_menu_subheader.reduced_vspace {
 
 body.v6 {
     color: var(--gpColor-Blue) !important;
+	background: var(--minimal_dark_blacker_alt) !important;
 }
 
 ._3Zc7j06ya2uuADW3FEf83Q .TOM8JA0NsOaZR2JyQpCix.EhtJ_Bmg_1_FxN0vYx03l {
@@ -12790,6 +12787,42 @@ span#VoteDownBtn_4476110736154691403:hover {
     transform: scale(1.1) !important;
     border-radius: 5px !important;
     border: 1px solid #67629c !important;
+}
+
+.parental_settings_box {
+    background-color: var(--minimal_dark_blacker_alt2) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.parental_app_row.light {
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+.parental_app_row {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    margin-top: 2px !important;
+}
+
+.parental_searchbox {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    color: orange !important;
+}
+
+.parental_searchbox input {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    color: orange !important;
+}
+
+.parental_settings_form input {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+	box-shadow: none !important;
 }
 
 /* end webkit */
