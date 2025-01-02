@@ -12853,4 +12853,9 @@ span#VoteDownBtn_4476110736154691403:hover {
     border-radius: 5px !important;
 }
 
+.panel .hr {
+    background-color: var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_blacker_alt2) !important;
+}
+
 /* end webkit */
