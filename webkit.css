@@ -6854,7 +6854,11 @@ div#sharedfiles_filterselect_app_filterable {
 }
 
 #modalContent.modal_frame {
-    border: none !important;
+    border-radius: 5px !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 #modalContentTitleBar {
@@ -12856,6 +12860,16 @@ span#VoteDownBtn_4476110736154691403:hover {
 .panel .hr {
     background-color: var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_blacker_alt2) !important;
+}
+
+#modalContentScrollbarHack {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.sharedFilePreviewImage.floatLeft {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
 
 /* end webkit */
