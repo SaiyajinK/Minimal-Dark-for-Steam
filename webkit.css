@@ -2674,7 +2674,9 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 }
 
 .guideTop .workshopItemControls {
-	background-color:var(--minimal_dark_black)!important;
+    background-color: var(--minimal_dark_black)!important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
 
 .guideTop {
