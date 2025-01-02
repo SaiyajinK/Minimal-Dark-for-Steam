@@ -12825,4 +12825,30 @@ span#VoteDownBtn_4476110736154691403:hover {
 	box-shadow: none !important;
 }
 
+.just_added_to_list {
+    background-color: #a0de6354 !important;
+    color: var(--minimal_dark_browser_overlay_close) !important;
+    margin: 5px 0px !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.guideTop .workshopItemControlsCtn.fixed_in_scroll {
+    position: static !important;
+}
+
+.just_added_favorite_icon {
+    filter: invert(1) !important;
+}
+
+.close_notification {
+    filter: invert(1) !important;
+}
+
+.review_award {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
 /* end webkit */
