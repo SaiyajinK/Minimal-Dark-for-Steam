@@ -6369,12 +6369,12 @@ body.v6 .game_area_already_owned.page_content {
 }
 
 .ds_flag.ds_owned_flag {
-    background: var(--minimal_dark_blacker) !important;
-    backdrop-filter: blur(30px);
+    background: #1919199c !important;
+    backdrop-filter: blur(8px);
     border-radius: 5px!important;
     color: var(--minimal_dark_browser_overlay_close);
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    transform: translate(-29px, -4px) !important;
+    transform: translate(10px, -4px) !important;
 }
 
 #home_gutter_recentlyviewed {
