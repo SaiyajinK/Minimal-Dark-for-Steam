@@ -786,7 +786,7 @@ div.store_header_btn {
 }
 
 a.store_header_btn_content {
-    color: var(--minimal_dark_color) !important
+    color: var(--minimal_dark_color) !important;
 	text-transform: inherit !important;
 	font-weight: bold !important;
 	transition: .25s ease-out !important;
@@ -1109,7 +1109,7 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
     background: var(--minimal_dark_black) !important;
     border-radius: 5px!important;
     border: 1px solid var(--minimal_dark_color) !important;
-    color: var(--minimal_dark_color) !important
+    color: var(--minimal_dark_color) !important;
 }
 
 .carousel_items.curator_featured_tags {
@@ -1612,12 +1612,12 @@ body.v6 .newonsteam_capsules > a {
 }
 
 body.v6 .newonsteam_capsules > a:hover {
-    border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
 }
 
 body.v6.newonsteam .newonsteam_headercaps a:first-child:hover {
-    border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
 }
 
@@ -1652,7 +1652,7 @@ body.v6.newonsteam .newonsteam_headercaps a:first-child:hover {
     background: var(--minimal_dark_black)!important;
     /* border: 1px solid var(--minimal_dark_be_grey) !important; */
     border-radius: 5px !important;
-    /* color: var(--minimal_dark_color) !important */
+    /* color: var(--minimal_dark_color) !important; */
 	transition: .25s ease-out !important;
 }
 
@@ -2169,7 +2169,7 @@ a.recent_game_discussion.quasi_official_group:hover {
     border-radius: 5px !important;
     color: var(--minimal_dark_color) !important;
     background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .blotter_appselect_options {
@@ -2200,7 +2200,7 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .profile_link_block_text_friends {
-    color: var(--minimal_dark_color) !important
+    color: var(--minimal_dark_color) !important;
 }
 
 .profileFriendSearchBox {
@@ -2740,13 +2740,13 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 
 .qexk-JocS7jjDM31IcGZn ._3WcW8PJCSEWwVA6qJ-RUOF {
     height: 30px;
-    border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
     background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .qexk-JocS7jjDM31IcGZn ._3WcW8PJCSEWwVA6qJ-RUOF:hover {
-    border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
     background: var(--minimal_dark_color) !important;
 	transition: .25s ease-out !important;
@@ -2883,7 +2883,7 @@ body.v6 .discount_block {
 .sectionTab:hover {
 	background:rgba(0,0,0,.2)!important;
 	border-radius:0px!important;
-	color: var(--minimal_dark_color) !important
+	color: var(--minimal_dark_color) !important;
 }
 
 .responsive_tab_baseline {
@@ -3133,7 +3133,7 @@ a.activetrigger,a.trigger {
 }
 
 .popup_menu .popup_menu_item:hover, .popup_menu .popup_menu_item.focus {
-    color: var(--minimal_dark_color) !important
+    color: var(--minimal_dark_color) !important;
     background: var(--minimal_dark_be_grey) !important;
 	border-radius:5px!important;
 }
@@ -3321,7 +3321,7 @@ span.invite_action_txt {
     background-color: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
-    color: var(--minimal_dark_color) !important
+    color: var(--minimal_dark_color) !important;
     box-shadow: 0 0 15px var(--minimal_dark_color) !important
 }
 
@@ -3534,7 +3534,7 @@ img.game_header_image_full {
 }
 
 .glance_details img:hover {
-    border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
 }
 
@@ -3881,12 +3881,12 @@ body.v6 #footer .rule {
 
 .slider_ctn .slider_left:hover {
     background: var(--minimal_dark_black) !important;
-	border-right: 1px solid var(--minimal_dark_color) !important
+	border-right: 1px solid var(--minimal_dark_color) !important;
 }
 
 .slider_ctn .slider_right:hover {
     background: var(--minimal_dark_black) !important;
-	border-left: 1px solid var(--minimal_dark_color) !important
+	border-left: 1px solid var(--minimal_dark_color) !important;
 }
 
 .highlight_ctn .slider .handle {
@@ -4117,7 +4117,7 @@ h2 span.note:hover {
 
 .review_box.partial .view_more a:hover {
     background: rgba(25, 175, 255, 0.15) !important;
-    color: var(--minimal_dark_color) !important
+    color: var(--minimal_dark_color) !important;
     padding: 4px !important;
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
@@ -4185,7 +4185,7 @@ div.early_access_announcements .post .more:hover {
     text-decoration: none!important;
     color: var(--minimal_dark_blacker)!important;
     border: 1px var(--minimal_dark_be_grey)!important;
-    background: var(--minimal_dark_color) !important
+    background: var(--minimal_dark_color) !important;
 }
 
 .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span {
@@ -4286,11 +4286,11 @@ div.early_access_announcements .post .more:hover {
 
 .forum_topic_overlay:hover {
     background: transparent !important;
-    border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .forum_topic_op {
-    color: var(--minimal_dark_color) !important
+    color: var(--minimal_dark_color) !important;
 }
 
 .forum_topic {
@@ -4309,7 +4309,7 @@ div.early_access_announcements .post .more:hover {
 .btn_blue_white_innerfade>span {
     border-radius: 5px !important;
     background: var(--minimal_dark_blacker_alt) !important;
-    color: var(--minimal_dark_color) !important
+    color: var(--minimal_dark_color) !important;
     border: 1px var(--minimal_dark_be_grey) !important;
     transition: .25s ease-out !important;
 }
@@ -4318,7 +4318,7 @@ div.early_access_announcements .post .more:hover {
     text-decoration: none!important;
     color: white!important;
     border-radius: 5px !important;
-    background: var(--minimal_dark_color) !important
+    background: var(--minimal_dark_color) !important;
     border: 1px var(--minimal_dark_be_grey) !important;
 }
 
@@ -4368,7 +4368,7 @@ div.early_access_announcements .post .more:hover {
     height: 35px!important;
     background: var(--minimal_dark_blacker) !important;
     border-radius: 5px!important;
-    border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .rightbox {
@@ -4417,7 +4417,7 @@ div.early_access_announcements .post .more:hover {
 .calendarBox {
     border-radius: 5px !important;
     background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .member_block {
@@ -4490,7 +4490,7 @@ a.readmore_link {
 }
 
 .subforum_radio_name {
-    color: var(--minimal_dark_color) !important
+    color: var(--minimal_dark_color) !important;
 }
 
 .subforum_select_area, .forum_newtopic_infomessage {
@@ -4578,7 +4578,7 @@ a.readmore_link {
 
 .btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span {
 	border-radius:5px!important;
-	color: var(--minimal_dark_color) !important
+	color: var(--minimal_dark_color) !important;
     border: 1px solid var(--minimal_dark_color) !important;
 }
 
@@ -5026,7 +5026,7 @@ span.bb_spoiler {
 .btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
     text-decoration: none !important;
     color: var(--minimal_dark_color) !important;
-    border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 img.gamecard {
