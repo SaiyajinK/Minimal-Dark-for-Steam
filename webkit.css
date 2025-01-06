@@ -8857,7 +8857,7 @@ input.searchText {
 
 .user_reviews_filter_display_as {
     color: var(--minimal_dark_color) !important;
-    border-left: 1px solid var(--minimal_dark_color) !important
+    border-left: 1px solid var(--minimal_dark_color) !important;
 }
 
 .user_reviews_filter_display_as select {
@@ -9670,12 +9670,12 @@ body.v6 .sale_capsule .discount_block_inline {
 
 .showcase_selection_pre {
     border-left: 1px solid var(--minimal_dark_color) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important
+    border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
 .showcase_selection_post {
     border-right: 1px solid var(--minimal_dark_color) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important
+    border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
 .ProfilePrivacyHeader {
@@ -9931,7 +9931,7 @@ a.btnv6_blue_hoverfade.btn_medium:active {
 
 .SaleBackground .SaleSectionTabs .SaleTab:hover {
     border-radius: 5px !important;
-    /* border-top: 2px solid var(--minimal_dark_color) !important */
+    /* border-top: 2px solid var(--minimal_dark_color) !important; */
     border-bottom: 1px solid var(--minimal_dark_color) !important;
     color: rgb(220, 222, 223) !important;
     background: var(--minimal_dark_black) !important;
@@ -10881,7 +10881,7 @@ html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yL
 ._2ESKkqmk68QMRArbxaUwm0 ._2cY4Vl4F1_9jlRxk7Su9uw:hover {
     background: var(--minimal_dark_black) !important;
     border: 1px solid var(--minimal_dark_color) !important;
-    color: var(--minimal_dark_color) !important
+    color: var(--minimal_dark_color) !important;
     border-radius: 5px !important;
 	transition: .25s ease-out !important;
 	box-shadow: none !important;
