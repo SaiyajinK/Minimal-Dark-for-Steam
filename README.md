@@ -28,8 +28,6 @@ Open `Steam settings` go to `Themes` and select an `custom accent`.  <br>
 
 ![steamwebhelper_VEQLq2SaF8](https://github.com/user-attachments/assets/45340ccc-dcd9-4051-b285-812a11b9d0fa) <br>
 
-Note: the accent color does not apply on the webkit. So I set the store color with Steam's default color (the light blue `#1a9fff`).
-
 ## `📸 Compact mode + friends 📸` <br> 
 
 I also recommend grouping contacts by games. How to do this ? <br>
