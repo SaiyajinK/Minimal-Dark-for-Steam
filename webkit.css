@@ -10361,8 +10361,15 @@ a.forum_comment_action:hover {
     color: var(--minimal_dark_browser_overlay_close) !important;
     border-top: 1px solid rgba(25, 175, 255, 0.6) !important;
     border-radius: 5px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-	line-height: 33px !important;
+    border: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+    line-height: 22px !important;
+    flex-direction: column !important;
+    padding: 6px 12px 6px 12px !important;
+}
+
+.ratingBar .review_award_ctn {
+    margin-left: -6px;
+    margin-top: 2px !important;
 }
 
 .ratingBar .review_award {
@@ -12870,6 +12877,25 @@ span#VoteDownBtn_4476110736154691403:hover {
     background: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
+}
+
+.review_developer_response_container.multiple_listing {
+    background-color: var(--minimal_dark_blacker) !important;
+    padding-bottom: 10px !important;
+    border-radius: 5px !important;
+    border: 1px solid #a0de63cc;
+    height: 20px !important;
+}
+
+.review_developer_response_exists_date {
+    color: var(--SystemAccentColor) !important;
+    width: 600px !important;
+    height: auto !important;
+}
+
+.review_developer_response {
+    border-radius: 5px !important;
+    border: 1px solid #b495ff !important;
 }
 
 /* end webkit */
