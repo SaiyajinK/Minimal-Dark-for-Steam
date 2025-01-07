@@ -1237,18 +1237,22 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 
 ._2kWWyBO7w_F76NB8sBw86c:hover svg polyline {
     stroke: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
 
 ._3uMa3icVa3JTCGQKPeUikO:hover svg polyline {
     stroke: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 ._1TMDJB6ciSNtEh04B3SmF8:hover svg polyline {
     stroke: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 ._2qGnLK2G3sqjtqVgYl6phc:hover svg polyline {
     stroke: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 .SfyYvxDpnz-oGXMDxtqEf {
@@ -1328,14 +1332,17 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 
 ._2dB1oJFsqNThak1cFya2-q:hover svg line {
     stroke: var(--minimal_dark_red2) !important;
+	transition: .25s ease-out !important;
 }
 
 ._3IIEUTw03Vm3Mk54jlnUaT:hover svg polyline {
     stroke: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
 
 ._14b-hQsLwSwYcELtknxCUX:hover svg polyline {
     stroke: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 ._3dGOJTL8GRXpyosK3ooTdO .zpBMRpPhaI6jqMh9-UQAi {
