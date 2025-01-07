@@ -742,7 +742,7 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 .searchbox:hover {
     background: rgb(70 70 70 / 0.50)!important;
     border-radius: 5px!important;
-    border: 1px solid #000000 !important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 a#store_search_link img {
