@@ -43,7 +43,7 @@ If you want to remove this, open `webkit.css` and remove lines `57` to `62`<br>
 ![steamwebhelper_RxgxSwg7Jw](https://github.com/user-attachments/assets/2c531a97-10fa-4f29-bd8a-9516509c0176) <br>
 
 ## `🌐 Dark webkit 🌐` <br> 
-`Thanks Shiina for the base of the webkit` <br>
+
 All aspects were changed to match my theme. <br>
 
 ![steamwebhelper_RmQs2jv4bp](https://github.com/user-attachments/assets/5d6be30a-6e16-41b6-95c6-b962b574e7ec) <br>
@@ -67,7 +67,6 @@ All aspects were changed to match my theme. <br>
 ## `🖱️ Open Source References 🖱️` <br>
 - Credits to [Rose's Metro for Steam](https://github.com/RoseTheFlower) for the initial base of the theme and the inspiration it gave me.
 - [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit<br>
-- [Unofficial Patch for Metro for Steam](https://discord.gg/dMsSwufK7Q) for sharing reboot/reload script<br>
 - [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
 - [Icon8](https://icons8.com) for Base64 icons
 
