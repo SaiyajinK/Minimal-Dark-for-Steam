@@ -12,7 +12,7 @@
     width: 18px !important;
     height: 18px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    transform: translate(-15px, 2px) !important;
+    transform: translate(-9px, 2px) !important;
     transition: .25s ease-out !important;
     margin-left: 8px !important;
 }
@@ -359,21 +359,38 @@
 }
 
 .DialogContent, .DialogContentTransition {
-    background: var(--minimal_dark_blacker_alt);
+    background: var(--minimal_dark_blacker_alt) !important;
     user-select: none;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 button.DialogButton {
-    background: var(--minimal_dark_black);
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
 
 button.DialogButton:hover, button.DialogButton.gpfocus {
-    background: var(--minimal_dark_be_grey);
-    color: #fff;
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	color: var(--minimal_dark_color) !important;
+}
+
+button.DialogButton:active, button.DialogButton.gpfocus {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	color: var(--minimal_dark_color) !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
 }
 
 .DialogTextInputBase:not(:disabled):hover {
-    background: var(--minimal_dark_be_grey);
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	color: var(--minimal_dark_color) !important;
 }
 
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
@@ -1192,6 +1209,23 @@ html.web_chat_frame body {
 button.DialogButton.Primary {
     background: var(--minimal_dark_blacker_alt) !important;
     border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    color: #dfe3e6 !important;
+}
+
+button.DialogButton.Primary:hover {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+button.DialogButton.Primary:active {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    color: white !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
 }
 
 .BBCodeAlreadyCollapsedText {
@@ -1834,8 +1868,8 @@ html.client_chat_frame .popup_chat_frame {
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- {
     background: var(--minimal_dark_blacker_alt) !important;
-    color: var(--minimal_dark_color) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_less_white) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     margin-top: 30px !important;
     transition: .25s ease-out !important;
     margin-left: 10px !important;
@@ -1858,8 +1892,7 @@ html.client_chat_frame .popup_chat_frame {
     color: var(--minimal_dark_color) !important;
     transition: background .25s ease-out !important;
     background: linear-gradient(180deg, rgba(26,26,26,.25) -50%, rgba(12, 12, 12, 1) 100%) !important;
-    border-bottom: 1px solid rgba(26,26,26,.5) !important;
-    border: 1px solid rgba(26, 26, 26, .25) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
     transition: .25s ease-out !important;
 }
@@ -2137,4 +2170,57 @@ html.client_chat_frame .popup_chat_frame {
 
 .friendGroup .friendInviteContainer {
     height: auto !important;
+}
+
+.Destructive .ModalPosition_TopBar {
+    background: linear-gradient(to right, #00000000, var(--minimal_dark_red2), #00000000) !important;
+}
+
+.friendsui-container .DialogHeader {
+    color: var(--minimal_dark_red2) !important;
+}
+
+button.DialogButton::before {
+    box-shadow: none !important;
+}
+
+.ModalPosition_Dismiss .closeButton {
+    padding: 0px !important;
+    border-radius: 20px !important;
+    width: 18px !important;
+    height: 18px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transform: translate(-5px, 6px) !important;
+    transition: .25s ease-out !important;
+    margin-left: 8px !important;
+}
+
+.ModalPosition_Dismiss .closeButton:hover {
+	background: #f1244669 !important;
+    padding: 0px !important;
+    border-radius: 5px !important;
+    width: 18px !important;
+    height: 18px !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+    transform: translate(-5px, 6px) !important;
+    transition: .25s ease-out !important;
+    margin-left: 8px !important;
+}
+
+.ModalPosition_Dismiss .closeButton:active {
+    background: #f1244669 !important;
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+    box-shadow: inset 0 0 8px #000000c2 !important;
+    border-radius: 5px !important;
+}
+
+.ModalPosition_Dismiss .closeButton .SVGIcon_X_Line line {
+    stroke: var(--minimal_dark_topgrey) !important;
+    stroke-width: 24px;
+    transform: translate(18px, 10px) scale(.9) !important;
+}
+
+.ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
+    stroke: #fff !important;
 }
