@@ -9751,7 +9751,7 @@ body.v6 .sale_capsule .discount_block_inline {
 }
 
 .ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
-    stroke: var(--minimal_dark_red2) !important;
+    stroke: white !important;
 }
 
 .DeckVerifiedModalDialog .DialogContent {
