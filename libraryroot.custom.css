@@ -38,7 +38,7 @@
     width: 18px !important;
     height: 18px !important;
     border: 1px solid var(--minimal_dark_greyblack) !important;
-    transform: translate(-15px, 2px) !important;
+    transform: translate(-14px, 2px) !important;
     transition: .25s ease-out !important;
     margin-left: 8px !important;
 }
