@@ -1581,7 +1581,7 @@ button.DialogButton:hover::before {
 .RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp, .RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt {
     background-color: transparent !important;
     border: 1px solid #8b929a59 !important;
-    border-radius: 20px !important;
+    border-radius: 5px !important;
     width: 16px !important;
     min-width: 16px !important;
     height: 16px !important;
@@ -1592,7 +1592,7 @@ button.DialogButton:hover::before {
 
 ._13vrqU6oOqmmxrsZSW5O39 ._34bQcTHo5QKzuujoEyU1tm {
     margin-right: 0px !important;
-    border-radius: 20px !important;
+    border-radius: 5px !important;
     width: 17px !important;
     min-width: 17px !important;
     height: 17px !important;
@@ -1606,7 +1606,7 @@ button.DialogButton:hover::before {
 
 ._13vrqU6oOqmmxrsZSW5O39 ._34bQcTHo5QKzuujoEyU1tm:hover {
     margin-right: 0px !important;
-    border-radius: 20px !important;
+    border-radius: 5px !important;
     width: 17px !important;
     min-width: 17px !important;
     height: 17px !important;
@@ -1620,7 +1620,7 @@ button.DialogButton:hover::before {
 
 ._13vrqU6oOqmmxrsZSW5O39 ._34bQcTHo5QKzuujoEyU1tm:active {
     margin-right: 0px !important;
-    border-radius: 20px !important;
+    border-radius: 5px !important;
     width: 17px !important;
     min-width: 17px !important;
     height: 17px !important;
@@ -1675,7 +1675,7 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
     min-height: 16px !important;
     padding: 3px !important;
     margin-top: 1px !important;
-    border-radius: 20px !important;
+    border-radius: 5px !important;
     animation-name: UnreadNotificationMinimal;
     animation-iteration-count: infinite !important;
     animation-timing-function: linear !important;
@@ -1710,12 +1710,12 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
 }
 
 .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:hover ._34bQcTHo5QKzuujoEyU1tm g, .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd._3HTKO4DG_GebIesiMSlG9a ._34bQcTHo5QKzuujoEyU1tm g {
-    animation: _1laPjpHIsrHsEg2pP6rBc8 5s ease-in;
+    animation: _1laPjpHIsrHsEg2pP6rBc8 4s ease-in !important;
     animation-iteration-count: infinite !important;
-    transform-origin: 50% 0%;
+    transform-origin: 50% 50% !important;
 }
 
-.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:not(._1QQWjaXmb1eTHZpeIhQA_5):hover ._34bQcTHo5QKzuujoEyU1tm g {
+.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:not(._1QQWjaXmb1eTHZpeIhQA_5) ._34bQcTHo5QKzuujoEyU1tm g, .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:not(._1QQWjaXmb1eTHZpeIhQA_5):hover ._34bQcTHo5QKzuujoEyU1tm g {
     animation-iteration-count: infinite !important;
 }
 
