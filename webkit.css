@@ -9158,15 +9158,20 @@ img.communitylink_achievement {
 
 .DialogDropDown._DialogInputContainer {
     border-radius: 5px !important;
-    background: var(--minimal_dark_invisiblegrey) !important;
-    backdrop-filter: blur(10px) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    /* backdrop-filter: blur(10px) !important; */
+    /* border: none !important; */
 }
 
 .DialogDropDown._DialogInputContainer:hover {
     /* background: var(--minimal_dark_black) !important; */
-    background: var(--minimal_dark_invisiblegrey) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker) !important;
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
     color: var(--minimal_dark_color) !important;
+}
+
+._2J170P0ckFcUIlsDU13MLS {
+    padding-bottom: 0px !important;
 }
 
 ._2J170P0ckFcUIlsDU13MLS ._DialogInputContainer .DialogDropDown_CurrentDisplay {
@@ -9297,7 +9302,11 @@ p.reason.info:before {
 }
 
 .DialogInput_Wrapper>input.DialogInput {
-    border-radius: 5px !important;
+    border-radius: 0px !important;
+}
+
+._20QAC4WMXm8qFE8waUT5oo .DialogInput_ClearAction, ._20QAC4WMXm8qFE8waUT5oo ._38tIMc-4Ug-Akpa1pYlN0R {
+    right: 12px !important;
 }
 
 ._2r_KSHMwd00BTU5-zhKPQA ._1ARlQegyaQ1xENYcvSXm10 {
@@ -11277,9 +11286,9 @@ body.v6.newonsteam .newonsteam_headercaps img {
     border-radius: 5px !important;
     color: white !important;
     border: 0px solid transparent !important;
-    height: 10px !important;
-    padding-top: 6px !important;
-    padding-bottom: 14px !important;
+    /* height: 10px !important; */
+    /* padding-top: 6px !important; */
+    /* padding-bottom: 14px !important; */
 }
 
 ._2oAiZidGyUxL-hfupFDQ2m:hover, ._2oAiZidGyUxL-hfupFDQ2m:focus:hover {
@@ -11287,8 +11296,8 @@ body.v6.newonsteam .newonsteam_headercaps img {
     border-radius: 5px !important;
     color: var(--minimal_dark_color) !important;
     border: 0px solid transparent !important;
-    padding-top: 6px !important;
-    padding-bottom: 14px !important;
+    /* padding-top: 6px !important; */
+    /* padding-bottom: 14px !important; */
 }
 
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
