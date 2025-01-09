@@ -390,7 +390,7 @@ button.DialogButton:active, button.DialogButton.gpfocus {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_color) !important;
     border-radius: 5px !important;
-	color: var(--minimal_dark_color) !important;
+    /* color: var(--minimal_dark_color) !important; */
 }
 
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
