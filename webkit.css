@@ -13115,4 +13115,8 @@ span#VoteDownBtn_4476110736154691403:hover {
     color: var(--gpColor-Blue) !important;
 }
 
+.checkout_error {
+    background: #e4a01a47 !important;
+}
+
 /* end webkit */
