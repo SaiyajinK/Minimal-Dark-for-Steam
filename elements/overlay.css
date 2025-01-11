@@ -408,7 +408,12 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3izqEKa-zuPIrUDSm1bRvf {
     height: 18px;
-    color: var(--minimal_dark_topgrey);
+    color: var(--minimal_dark_color) !important;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover ._3izqEKa-zuPIrUDSm1bRvf {
+    color: var(--minimal_dark_color) !important;
+    transition: color .15s ease-out;
 }
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09 {
