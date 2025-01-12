@@ -8498,7 +8498,8 @@ label {
     background: var(--minimal_dark_blacker_alt) !important;
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-	padding: 16px;
+    padding: 16px;
+    color: white !important;
 }
 
 .checkout_content .rule {
