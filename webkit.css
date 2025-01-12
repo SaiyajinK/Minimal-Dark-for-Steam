@@ -4131,8 +4131,12 @@ h2 span.note:hover {
 
 .user_reviews_active_filters .active_filter {
     border-radius: 5px !important;
-    background-image: none !important;
+    /* background-image: none !important; */
     background-color: rgb(12 12 12 / 78%) !important;
+}
+
+div#reviews_filter_region {
+    display: none !important;
 }
 
 .block.recommendation_reasons hr {
@@ -13221,6 +13225,18 @@ p {
 .help_app_header img {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.user_reviews_count {
+    color: var(--minimal_dark_color) !important;
+}
+
+.DialogDropDown._2GLDG_XIMaVS7hU2xEFzBo {
+    padding: 5px 24px 5px 7px !important;
+}
+
+._2FKdJT3nRLNX_ue4Zj-qdK ._3TtUDn-J9j6rkwHqjT-i4Y {
+    color: var(--minimal_dark_color) !important;
 }
 
 /* end webkit */
