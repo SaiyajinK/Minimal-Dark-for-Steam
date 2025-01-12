@@ -5283,6 +5283,7 @@ h2.pageheader {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
     margin-top: 4px !important;
+    padding: 4px 4px 4px 4px !important;
 }
 
 .block_content {
@@ -10545,15 +10546,22 @@ div#ReviewText {
 .approvetxn_lineitem_container_header {
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
     background-color: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_installed_games) !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
 }
 
 .approvetxn_lineitem_container {
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
 }
 
 .approvetxn_lineitem_row {
     background-color: var(--minimal_dark_blacker_alt) !important;
     border-bottom: 1px solid transparent !important;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+	padding: 10px !important;
 }
 
 .review_useravatar {
@@ -10671,7 +10679,7 @@ body.v6 div#store_header {
 }
 
 .breadcrumbs {
-    color: var(--minimal_dark_color) !important;
+    color: #8f98a0 !important;
     /* transform: translate(0px, 56px) !important; */
     /* padding-top: 66px !important; */
     padding-bottom: 8px !important;
@@ -13134,6 +13142,55 @@ span#VoteDownBtn_4476110736154691403:hover {
 
 .checkout_error {
     background: #e4a01a47 !important;
+}
+
+p {
+    color: white !important;
+}
+
+.checkout_review_tax_notice {
+    color: white !important;
+}
+
+.cancel_txn_ctn {
+    color: white !important;
+}
+
+.approvetxn_lineitem_qty {
+    color: var(--minimal_dark_installed_games) !important;
+}
+
+.checkout_content_box.checkout_main.txn {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    padding: 20px !important;
+}
+
+.checkout_content_box.method {
+    background: var(--minimal_dark_blacker_alt) !important;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+#col_right_review .block_content_inner {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.block {
+    background: transparent !important;
+}
+
+.cart_tab_off {
+    color: var(--gpColor-Blue) !important;
+}
+
+.accountInfoBlock .block_content {
+    border-radius: 5px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 /* end webkit */
