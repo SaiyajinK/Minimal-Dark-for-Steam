@@ -2566,7 +2566,13 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 }
 
 .help_purchase_detail_box {
-	background-color:var(--minimal_dark_blacker_alt) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+    border-radius: 5px !important;
+}
+
+.help_highlight_text {
+    color: var(--minimal_dark_color) !important;
 }
 
 .profile_small_header_bg {
@@ -13190,6 +13196,29 @@ p {
 .accountInfoBlock .block_content {
     border-radius: 5px !important;
     background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.help_app_header {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.purchase_detail_field {
+    color: var(--minimal_dark_color) !important;
+}
+
+.refund_value {
+    color: var(--minimal_dark_color) !important;
+}
+
+.help_app_header_divider {
+    background: linear-gradient(90deg, rgb(18 18 18 / 0%) 0%, rgb(18 18 18 / 0%) 15%, rgba(25, 175, 255, 1) 50%, rgb(18 18 18 / 0%) 85%, rgb(18 18 18 / 0%) 100%) !important;
+}
+
+.help_app_header img {
+    border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
