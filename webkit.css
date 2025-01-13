@@ -2767,7 +2767,9 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
     color: var(--minimal_dark_color) !important;
-	border: 1px solid var(--minimal_dark_color) !important
+    border: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--gpColor-Blue) !important;
+    color: var(--gpColor-Blue) !important;
 }
 
 .explore_rightcol_box {
@@ -8534,6 +8536,8 @@ body.v6 .page_content_ctn.dark {
     color: var(--minimal_dark_browser_overlay_close) !important;
     text-shadow: 1px 1px 1px rgba( 0, 0, 0, 0.3 ) !important;
     border: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
 }
 
 .cart_tab_left_on {
