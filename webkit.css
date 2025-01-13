@@ -5293,7 +5293,7 @@ h2.pageheader {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
     margin-top: 4px !important;
-    padding: 4px 4px 4px 4px !important;
+    padding: 4px 0px 4px 12px !important;
 }
 
 .block_content {
@@ -11163,7 +11163,7 @@ html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yL
 }
 
 body.v6 h2.pageheader {
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
     font-size: 18px !important;
 }
 
@@ -13237,6 +13237,50 @@ p {
 
 ._2FKdJT3nRLNX_ue4Zj-qdK ._3TtUDn-J9j6rkwHqjT-i4Y {
     color: var(--minimal_dark_color) !important;
+}
+
+.review_payment_method_details_ctn {
+    color: white !important;
+}
+
+.licenseLegend, .transactionLegend {
+    background: var(--minimal_dark_blacker) !important;
+    color: white !important;
+}
+
+.block_content {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.licenseRow.odd, .transactionRow.odd {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.licenseRow, .transactionRow {
+    border-bottom: none !important;
+    color: var(--minimal_dark_installed_games) !important;
+}
+
+.cancel_purchase_dialog {
+    border: 1px solid var(--minimal_dark_installed_games) !important;
+    color: 1px solid var(--minimal_dark_installed_games) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: 5px !important;
+}
+
+.subscription_header_info {
+    margin: 20px 0 20px 0 !important;
+	color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.transactions .transactionRow .transactionRowAmountDue {
+    color: var(--minimal_dark_progress_bar) !important;
+}
+
+.transactionRowName .itemSubtext {
+    color: var(--minimal_dark_red2) !important;
+    font-size: 12px !important;
 }
 
 /* end webkit */
