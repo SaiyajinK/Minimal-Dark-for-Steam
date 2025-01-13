@@ -7936,7 +7936,7 @@ a.account_manage_link.delete_link:active {
 }
 
 .account_manage_link:active {
-	color: var(--minimal_dark_color) !important;
+	color: white !important;
     border-radius: 5px !important;
     background-color: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_color) !important;
