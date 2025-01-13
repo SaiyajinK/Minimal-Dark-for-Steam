@@ -7895,6 +7895,7 @@ div.rightcol {
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
     border-right: 1px solid var(--minimal_dark_be_grey) !important;
+	background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .account_header_line {
@@ -13514,6 +13515,17 @@ body.v6 .help_refund_request_area h1 {
 .help_request_table {
     background: var(--minimal_dark_blacker_alt) !important;
     margin-top: 12px !important;
+}
+
+.help_request_message.from_steam .help_request_author_bar {
+    background: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.rule, .inner_rule {
+    border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
 /* end webkit */
