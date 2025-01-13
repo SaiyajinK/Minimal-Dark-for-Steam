@@ -13283,4 +13283,23 @@ p {
     font-size: 12px !important;
 }
 
+.market_listing_iteminfo {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.market_listing_iteminfo hr {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.group_list_option.badge_option {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-top: 2px !important;
+    border-radius: 5px !important;
+}
+
+.group_list_option.badge_option:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
 /* end webkit */
