@@ -10322,7 +10322,7 @@ html.responsive.touch div.nonresponsive_hidden {
 }
 
 .store_nav .popup_menu .category_hr {
-    background: linear-gradient(90deg, rgba(25, 175, 255, 1) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
+    background: linear-gradient(90deg, var(--minimal_dark_color) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
 }
 
 a.trigger, a.activetrigger {
