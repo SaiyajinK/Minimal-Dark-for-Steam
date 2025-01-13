@@ -7342,7 +7342,7 @@ body.v6 .store_nav #genre_flyout .popup_menu_subheader.reduced_vspace {
 }
 
 body.v6 {
-    color: var(--minimal_dark_color) !important;
+    /* color: var(--minimal_dark_color) !important; */
 	background: var(--minimal_dark_blacker_alt) !important;
 }
 
@@ -13400,6 +13400,116 @@ p {
     border-radius: 5px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     margin-bottom: 6px !important;
+}
+
+.help_refund_request_area {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.refund_info_box {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+}
+
+.refund_game_block {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: solid 1px var(--minimal_dark_red2) !important;
+    border-radius: 5px !important;
+}
+
+.refund_game_name {
+    color: var(--minimal_dark_red2) !important;
+}
+
+textarea {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    box-shadow: 1px 1px 0 var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+body.v6 .help_refund_request_area h1 {
+    color: var(--minimal_dark_color) !important;
+}
+
+.help_game_request_refund_button {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    color: white !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.help_game_request_refund_button:hover {
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	transition: .25s ease-out !important;
+}
+
+.help_game_request_refund_button:active {
+    color: white !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+	transition: .25s ease-out !important;
+}
+
+.help_request_recent_submit {
+    border-radius: 5px !important;
+}
+
+.help_request_message {
+    background: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_installed_games) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.help_request_footerbox {
+    background: transparent !important;
+}
+
+.help_request_header, .help_request_row {
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.help_request_header {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+	padding: 4px 10px 4px 10px !important;
+}
+
+.help_request_row {
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+    margin-top: 10px !important;
+}
+
+.help_request_row:hover {
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    margin-top: 10px !important;
+}
+
+.help_request_icon {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.help_request_headers .col {
+    color: var(--minimal_dark_color) !important;
+    font-size: 12px !important;
+}
+
+.help_request_table {
+    background: var(--minimal_dark_blacker_alt) !important;
+    margin-top: 12px !important;
 }
 
 /* end webkit */
