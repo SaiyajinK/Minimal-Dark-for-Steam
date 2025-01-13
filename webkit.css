@@ -7901,8 +7901,82 @@ div.rightcol {
     border-top-right-radius: 5px !important;
 }
 
+a.account_manage_link.delete_link {
+	background: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_red2) !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+}
+
+a.account_manage_link.delete_link:hover {
+	background: var(--minimal_dark_red2) !important;
+    color: white !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+	transition: .25s ease-out !important;
+}
+
+a.account_manage_link.delete_link:active {
+	background: var(--minimal_dark_red2) !important;
+    color: white !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+	transition: .25s ease-out !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
 .account_manage_link {
     border-radius: 5px !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.account_manage_link:hover {
+	color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.account_manage_link:active {
+	color: var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+.payment_method_box {
+    background-color: var(--minimal_dark_blacker) !important;
+    padding: 5px;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.accountRow.accountBalance {
+    color: var(--minimal_dark_color) !important;
+}
+
+.accountData.price a {
+    color: var(--minimal_dark_color) !important;
+}
+
+.youraccount_steamid {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.account_setting_block_short {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 5px !important;
+}
+
+.account_data_field {
+    color: var(--minimal_dark_color) !important;
+}
+
+.account_setting_sub_block .payment_method_box a {
+    color: var(--minimal_dark_installed_games) !important;
+}
+
+.account_setting_sub_block .payment_method_box a:hover {
+    color: var(--minimal_dark_color) !important;
 }
 
 .two_column .nav_item.active {
