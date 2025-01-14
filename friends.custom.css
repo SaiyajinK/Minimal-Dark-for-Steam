@@ -1200,10 +1200,13 @@ html.web_chat_frame body {
 }
 
 .chatFileUploadProgressContainer {
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: #12121280 !important;
     border-radius: 5px !important;
-	border: 1px solid var(--minimal_dark_be_grey) !important;
-	box-shadow: none !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    box-shadow: none !important;
+    backdrop-filter: blur(10px) !important;
+    bottom: 76px !important;
+	padding: 10px !important;
 }
 
 button.DialogButton.Primary {
@@ -2223,4 +2226,18 @@ button.DialogButton::before {
 
 .ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
     stroke: #fff !important;
+}
+
+.chatFileUploadProgressBarContainer {
+    width: 97% !important;
+}
+
+.DialogProgressBar_ProgressBarContainer {
+    border: 4px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 20px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.chatFileUploadProgressName {
+    color: var(--minimal_dark_color) !important;
 }
