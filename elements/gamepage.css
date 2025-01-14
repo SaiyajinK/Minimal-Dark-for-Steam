@@ -1384,17 +1384,14 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 ._1J21tLst5SEhBPkVRT53UV div {
     background: var(--minimal_dark_blacker_alt) !important;
     color: var(--minimal_dark_color) !important;
-    border-left: 1px solid var(--minimal_dark_color) !important;
-    border-right: 1px solid var(--minimal_dark_color) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
 }
 
 ._1J21tLst5SEhBPkVRT53UV div:hover {
     background: var(--minimal_dark_color) !important;
     color: white !important;
-    border-left: 1px solid var(--minimal_dark_be_grey) !important;
-    border-right: 1px solid var(--minimal_dark_be_grey) !important;
-    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 	transition: .25s ease-out !important;
 }
 
@@ -1558,4 +1555,8 @@ button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
 ._1V-tjeQQqrwAF4ufgABl_3 {
     margin-right: 9px !important;
     margin-top: -5px !important;
+}
+
+._1J21tLst5SEhBPkVRT53UV {
+    padding-bottom: 10px !important;
 }
