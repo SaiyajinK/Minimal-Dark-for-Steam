@@ -1683,25 +1683,30 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
     transition: .25s ease-out;
 }
 
+.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:not(._1QQWjaXmb1eTHZpeIhQA_5):hover {
+    background-color: var(--minimal_dark_blacker)  !important;
+    transition: background-color .15s ease-out;
+}
+
 @keyframes UnreadNotificationMinimal {
     0% {
-        background: rgba(25,175,255,.1);
+        background: rgba(255,255,255,.0);
     }
 	
 	25% {
-        background: rgba(25,175,255,.1);
+        background: rgba(255,255,255,.0);
     }
 
     50% {
-    background: rgb(26 159 255 / 40%);
+    background: var(--minimal_dark_color);
 	}
 	
 	75% {
-        background: rgba(25,175,255,.1);
+        background: rgba(255,255,255,.0);
     }
 
     100% {
-        background: rgba(25,175,255,.1);
+        background: rgba(255,255,255,.0);
     }
 }
 
