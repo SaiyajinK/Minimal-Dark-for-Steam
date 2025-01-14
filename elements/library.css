@@ -395,6 +395,7 @@
 	backdrop-filter: blur(15px);
 }
 
+/* NEW button library game */
 .N8aJrSpxQ6II4CY_aFdYI {
     background: #12121270 !important;
     border: 1px solid var(--minimal_dark_color) !important;
@@ -404,7 +405,9 @@
     line-height: 14px !important;
     padding: 2px 8px !important;
     transform: translate(0px, 172px) !important;
+	display: none !important
 }
+/* end NEW button library game */
 
 ._1pwP4eeP1zQD7PEgmsep0W._54PuCatl_tYG836TOs4Mv:not(._3Lu_5jVxDAvsdeGpBzaQAt):hover ._2jj5TjFhHD1lvxMlpJYek6 {
     transform: none;
