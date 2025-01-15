@@ -125,6 +125,7 @@
 
 ._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE {
     color: var(--minimal_dark_installed_games) !important;
+    transition: .25s ease-out !important;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE:hover {
