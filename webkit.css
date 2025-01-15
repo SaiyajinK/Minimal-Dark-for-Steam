@@ -13613,4 +13613,80 @@ hr.gift_rule {
     border: 1px solid var(--minimal_dark_color) !important;
 }
 
+.preference_row {
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
+}
+
+.not_interested_container {
+    border: 1px solid var(--minimal_dark_color) !important;
+    padding: 6px 10px !important;
+    border-radius: 5px !important;
+    width: 310px !important;
+    transform: scale(.8) translate(-41px, 10px) !important;
+}
+
+.not_interested_container .description {
+    color: var(--minimal_dark_color) !important;
+}
+
+.queue_customize, .preferences_link {
+    color: var(--minimal_dark_topgrey) !important;
+}
+
+.text_filter_action_link, .text_filter_action_link a {
+    color: var(--minimal_dark_topgrey) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.text_filter_action_link:hover, .text_filter_action_link:hover a {
+    color: var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+.text_filter_action_link:hover, .text_filter_action_link:hover a {
+    color: var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+.text_filter_action_link:active, .text_filter_action_link:active a {
+    color: white !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+div#text_filter_clear_clean_words, div#text_filter_clear_banned_words {
+    color: var(--minimal_dark_red2) !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+div#text_filter_clear_clean_words:hover, div#text_filter_clear_banned_words:hover {
+    color: white !important;
+    border: 1px solid var(--minimal_dark_redsettings) !important;
+    background: var(--minimal_dark_red2) !important;
+	transition: .25s ease-out !important;
+}
+
+div#text_filter_clear_clean_words:active, div#text_filter_clear_banned_words:active {
+    color: white !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+    background: var(--minimal_dark_red2) !important;
+	transition: .25s ease-out !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+.btnv6_blue_hoverfade.btn_medium {
+    color: var(--minimal_dark_topgrey) !important;
+}
+
+.account_settings_container .dselect_container {
+    border-radius: 5px !important;
+}
+
 /* end webkit */
