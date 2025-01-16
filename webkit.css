@@ -11771,7 +11771,8 @@ span.bb_removedlink {
 }
 
 .queue_ctn.in_queue .queue_actions_ctn {
-    padding-top: 28px !important;
+    padding-top: 8px !important;
+    padding-bottom: 16px !important;
 }
 
 .recommendation_highlight {
