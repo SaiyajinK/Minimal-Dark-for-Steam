@@ -3731,6 +3731,26 @@ body.v6 #footer .rule {
     transform: translate(88px, -14px) !important;
 }
 
+.btn_next_in_queue .next_in_queue_content:hover {
+    padding: 5px !important;
+    width: 130px !important;
+	color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    transform: translate(88px, -14px) !important;
+}
+
+.btn_next_in_queue .next_in_queue_content:active {
+    padding: 5px !important;
+    width: 130px !important;
+	color: white !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 5px !important;
+    transform: translate(88px, -14px) !important;
+	transition: .25s ease-out !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
 .btn_next_in_queue {
 	background:0 0!important;
 	background-color:#584d31!important;
@@ -8727,6 +8747,7 @@ body.v6 .broadcast_live_stream_icon {
     border-radius: 5px !important;
     color: var(--minimal_dark_color) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    top: 601.938px !important;
 }
 
 .commentthread_area {
