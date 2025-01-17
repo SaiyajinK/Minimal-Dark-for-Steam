@@ -34,6 +34,11 @@
     filter: opacity(0.25);
 }
 
+._39oUCO1OuizVPwcnnv88no .qP17eBPXkfezFfexZ4hC3 {
+    background: var(--minimal_dark_blacker_alt) !important;
+    padding-left: 8px !important;
+}
+
 .DesktopUI .title-area-icon, .friendsui-container .title-area-icon {
     width: 18px !important;
     height: 18px !important;
@@ -163,18 +168,17 @@
 
 ._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd {
     color: var(--minimal_dark_currency) !important;
-	display: none !important;
 }
 
 ._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC {
-    padding-right: 6px !important;
+    padding-right: 0px !important;
     min-height: 36px !important;
-    width: 35px !important;
+    width: 34px !important;
     border-top: 0px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
     margin-top: 1px !important;
     padding-left: 3px !important;
-    border-right: 1px solid transparent !important;
+    border-right: 0px solid transparent !important;
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
     background: var(--minimal_dark_blacker_alt) !important;
     font-size: 0px !important;
@@ -191,7 +195,7 @@
     background: var(--minimal_dark_blacker) !important;
     border-radius: 0px !important;
     width: auto !important;
-    border-right: 11px solid var(--minimal_dark_color) !important;
+    border-right: 3px solid var(--minimal_dark_color) !important;
     font-size: 12px !important;
     transition: .25s ease-out !important;
     color: #4cb4ff !important;
