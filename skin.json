@@ -1,32 +1,50 @@
-{
-  "Steam-WebKit": "webkit.css",
-  "UseDefaultPatches": true,
+{	
 
-  "author": "SaiyajinK",
-  "description": "Dark minimalist skin for Steam",
-  "name": "Minimal Dark",
-  "version": "3.3.4",
+    "Conditions": {
+        "Show wallet": {
+			"tab": "Global options",
+            "description": "Show wallet balance next to username",
+            "default": "no",
+            "values": {
+                "yes": {},
+                "no": {
+                    "TargetCss": {
+                        "affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
+                    }
+                }
+            }
+        }
+    },
 
-  "github": {
-    "owner": "SaiyajinK",
-    "repo_name": "Minimal-Dark-for-Steam"
-  },
+	"Steam-WebKit": "webkit.css",
+	"UseDefaultPatches": true,
+
+	"author": "SaiyajinK",
+	"description": "Dark minimalist skin for Steam",
+	"name": "Minimal Dark",
+	"version": "3.3.5",
+
+	"github": {
+		"owner": "SaiyajinK",
+		"repo_name": "Minimal-Dark-for-Steam"
+	},
   
-  "discord_support": {
-    "inviteCodeExcludingLink": "uwvCkSnvYY"
-  },
+	"discord_support": {
+		"inviteCodeExcludingLink": "uwvCkSnvYY"
+	},
   
-  "funding": { 
-    "kofi": "saiyajink"
-  },
+	"funding": { 
+		"kofi": "saiyajink"
+	},
   
-  "tags": [
-    "Minimal",
-    "Dark",
-    "Color",
-    "Customizable"
-  ],
+	"tags": [
+		"Minimal",
+		"Dark",
+		"Color",
+		"Customizable"
+	],
   
-  "header_image": "https://i.imgur.com/3mPRQUz.png",
-  "splash_image": "https://i.imgur.com/3mPRQUz.png"
+	"header_image": "https://i.imgur.com/3mPRQUz.png",
+	"splash_image": "https://i.imgur.com/3mPRQUz.png"
+
 }
