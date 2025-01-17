@@ -2,14 +2,14 @@
 
     "Conditions": {
         "Show wallet": {
-			"tab": "Global options",
-            "description": "Show wallet balance next to username",
-            "default": "no",
-            "values": {
-                "yes": {},
-                "no": {
-                    "TargetCss": {
-                        "affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
+	"tab": "Global options",
+        "description": "Show wallet balance next to username",
+        "default": "no",
+        "values": {
+        	"yes": {},
+        	"no": {
+        	"TargetCss": {
+        	"affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
                     }
                 }
             }
