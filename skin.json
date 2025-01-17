@@ -1,20 +1,20 @@
 {	
 
     "Conditions": {
-        "Show wallet": {
-	"tab": "Global options",
-        "description": "Show wallet balance next to username",
-        "default": "no",
-        "values": {
-        	"yes": {},
-        	"no": {
-        	"TargetCss": {
-        	"affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
-                    }
-                }
-            }
-        }
-    },
+		"Show wallet": {
+		"tab": "Global options",
+		"description": "Show wallet balance next to username",
+		"default": "no",
+		"values": {
+			"yes": {},
+			"no": {
+			"TargetCss": {
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
+					}
+				}
+			}
+		}
+	},
 
 	"Steam-WebKit": "webkit.css",
 	"UseDefaultPatches": true,
