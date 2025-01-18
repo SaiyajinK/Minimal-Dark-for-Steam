@@ -1090,8 +1090,9 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 .discovery_queue_ctn .begin_exploring {
-	background:0 0!important;
-	color:transparent!important;
+    background: 0 0!important;
+    color: transparent!important;
+    box-shadow: none !important;
 }
 
 .discovery_queue_ctn .begin_exploring::after {
