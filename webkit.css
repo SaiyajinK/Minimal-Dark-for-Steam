@@ -8748,7 +8748,7 @@ body.v6 .broadcast_live_stream_icon {
     border-radius: 5px !important;
     color: var(--minimal_dark_color) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    top: 601.938px !important;
+    /* top: 601.938px !important; */
 }
 
 .commentthread_area {
