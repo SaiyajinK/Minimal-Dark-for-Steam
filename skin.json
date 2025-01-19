@@ -13,6 +13,23 @@
 					}
 				}
 			}
+		},
+		"Rounded corners (non-functional / build in progress)": {
+		"tab": "Global options",
+		"description": "Sets the strength of corner rounding.",
+		"default": "recommended",
+		"values": {
+			"recommended": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/corners/default_.css"
+					}
+				},
+			"none": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/corners/none_.css"
+					}
+				}
+			}
 		}
 	},
 
