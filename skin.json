@@ -14,19 +14,24 @@
 				}
 			}
 		},
-		"Corners (non-functional / build in progress)": {
+		"Corners (beta / bugs possibility)": {
 		"tab": "Global options",
-		"description": "Sets the strength of corner rounding.",
-		"default": "minimal (5px)",
+		"description": "Sets the strength of corner rounding (does not apply on webkit).",
+		"default": "default (5px)",
 		"values": {
 			"square (0px)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/corners0.css"
+			"affects": [".*"], "src": "elements/options/corners/corner0.css"
 					}
 				},
-			"minimal (5px)": {
+			"default (5px)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/corners5.css"
+			"affects": [".*"], "src": "elements/options/corners/corner5.css"
+					}
+				},
+			"rounded (10px)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/corners/corner10.css"
 					}
 				}
 			}
