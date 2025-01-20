@@ -14,19 +14,19 @@
 				}
 			}
 		},
-		"Rounded corners (non-functional / build in progress)": {
+		"Corners (non-functional / build in progress)": {
 		"tab": "Global options",
 		"description": "Sets the strength of corner rounding.",
-		"default": "recommended",
+		"default": "minimal (5px)",
 		"values": {
-			"recommended": {
+			"square (0px)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/default_.css"
+			"affects": [".*"], "src": "elements/options/corners/corners0.css"
 					}
 				},
-			"none": {
+			"minimal (5px)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/none_.css"
+			"affects": [".*"], "src": "elements/options/corners/corners5.css"
 					}
 				}
 			}
