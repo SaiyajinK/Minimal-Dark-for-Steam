@@ -480,7 +480,7 @@ body.v6 .page_content.browse_reviews {
 }
 
 img {
-	border-radius:0px!important;
+	border-radius:0px;
 }
 
 .tab_item_discount .discount_pct,.tab_item_discount.no_discount .bundle_base_discount {
