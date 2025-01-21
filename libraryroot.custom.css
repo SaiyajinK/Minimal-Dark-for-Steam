@@ -1436,7 +1436,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
-	border-radius: 0px !important;
+	border-radius: var(--minimal_dark_corner5);
 	transition: .12s ease-in-out !important;
 }
 
