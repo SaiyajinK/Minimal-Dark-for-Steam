@@ -206,6 +206,7 @@
 
 ._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6 {
     background-color: var(--minimal_dark_progress_bar) !important;
+    border-radius: var(--minimal_dark_corner5);
 }
 
 a._1Z3B4iGT48X6pYKxjbVdBO:hover {
@@ -559,6 +560,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(0px, -1px) !important;
     box-shadow: inset 0px 1px 0px #000000 !important;
+    border-radius: var(--minimal_dark_corner5);
 }
 
 ._3-V8vjmrwuJM6Ws3tsjFJj ._25f0fX6qbgdB7O_lMrbhCN {
@@ -609,9 +611,9 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 }
 
 ._23HTprMKEMzlqooblsDngK.tLc3yNucBVuLCkXDIvOzj, ._1d0ijEIDvERoDLj_8CO6pH.tLc3yNucBVuLCkXDIvOzj {
-    border-top-right-radius: 5px !important;
+    border-top-right-radius: var(--minimal_dark_corner5);
     backdrop-filter: blur(10px) !important;
-    border-bottom-left-radius: 5px !important;
+    border-bottom-left-radius: var(--minimal_dark_corner5);
 }
 
 ._29bW1yCn25VTm4bFameBaV {
@@ -627,8 +629,8 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 
 .UVeN0kaD3zv1feMj_mMw5 ._1WdC0YUP8FT0dYWZ-QIVZL {
     background: var(--minimal_dark_invisiblegrey) !important;
-    border-top-left-radius: 5px !important;
-    border-top-right-radius: 5px !important;
+    border-top-left-radius: var(--minimal_dark_corner5);
+    border-top-right-radius: var(--minimal_dark_corner5);
     color: var(--minimal_dark_color) !important;
     font-weight: 500 !important;
 }
@@ -865,8 +867,8 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK {
 
 ._316Uo4SBrQ_beBdSYn2HNO .UWkKthLfz_5MM3NdASE2W ._2lgHVJbZwxb10Md7bZ6USU {
     background: var(--minimal_dark_blacker) !important;
-    border-top-right-radius: 5px !important;
-    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: var(--minimal_dark_corner5);
+    border-bottom-right-radius: var(--minimal_dark_corner5);
     height: 68px !important;
     border-right: 1px solid var(--minimal_dark_color) !important;
 }
@@ -1419,7 +1421,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
     color: var(--minimal_dark_color) !important;
     background-color: rgba(26, 26, 26, .2) !important;
 	text-shadow: 1px 1px 1px #000000 !important;
-	border-bottom-left-radius: 5px !important;
+	border-bottom-left-radius: var(--minimal_dark_corner5);
 	border-bottom-right-radius: 5px !important;
 }
 
