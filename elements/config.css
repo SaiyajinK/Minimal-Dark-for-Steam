@@ -29,18 +29,7 @@
 --minimal_dark_bgg: radial-gradient(circle, rgba(97,233,138,1) 0%, rgba(66,188,140,1) 80%);
 
 /* svg replacement : https://thenounproject.com/ */
---minimal_dark_game: url("./resources/game.svg");
---minimal_dark_contact: url("./resources/contact.svg");
---minimal_dark_help: url("./resources/help.svg");
---minimal_dark_home: url("./resources/home.svg");
---minimal_dark_download: url("./resources/download.svg");
---minimal_dark_display: url("./resources/display.svg");
 --minimal_dark_market: url("./resources/market_reduce_price.svg");
-
---minimal_dark_minbutton: url("./resources/minbutton.svg");
---minimal_dark_maxbutton: url("./resources/maxbutton.svg");
---minimal_dark_closebutton: url("./resources/closebutton.svg");
---minimal_dark_restorebutton: url("./resources/restorebutton.svg");
 --minimal_dark_searchbutton: url("./resources/search.svg");
 
 --minimal_dark_corner0: 0px;
