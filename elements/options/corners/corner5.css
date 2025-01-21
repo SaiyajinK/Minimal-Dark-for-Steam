@@ -5023,10 +5023,10 @@ button.QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable {
 	border-radius: var(--minimal_dark_corner5) !important;
 }
 
-::-webkit-scrollbar{
-	background-color: transparent !important;
-	width: 19px !important;
-	border-radius: var(--minimal_dark_corner5) !important;
+::-webkit-scrollbar {
+    background-color: transparent !important;
+    width: 14px !important;
+    border-radius: var(--minimal_dark_corner5) !important;
 }
 
 .ReactVirtualized__List:hover::-webkit-scrollbar-thumb,
