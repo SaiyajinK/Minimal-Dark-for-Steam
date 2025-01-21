@@ -958,7 +958,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     --color-progress-bar-background: var(--minimal_dark_greyblack) !important;
     --color-progress-bar-foreground: var(--minimal_dark_status_green) !important;
     transform: translate(-11px, 1px) !important;
-    border-radius: 3px !important;
+    border-radius: var(--minimal_dark_corner5);
     border: 1px solid var(--minimal_dark_be_grey) !important;
     box-shadow: inset 0px 1px 4px #000000 !important;
 }
