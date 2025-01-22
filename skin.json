@@ -78,6 +78,20 @@
 					}
 				}
 			}
+		},
+		
+		"Compact mod": {
+		"tab": "Global options",
+		"description": "Filters from the sidebar are removed to save even more space",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/compact_mod.css"
+					}
+				}
+			}
 		}
 		
 	},
