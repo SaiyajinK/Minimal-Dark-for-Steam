@@ -14,6 +14,7 @@
 				}
 			}
 		},
+		
 		"Corners (beta / bugs possibility)": {
 		"tab": "Global options",
 		"description": "Sets the strength of corner rounding (does not apply on webkit).",
@@ -35,7 +36,50 @@
 					}
 				}
 			}
+		},
+		
+		"Hide News container": {
+		"tab": "Global options",
+		"description": "Hide What's new block in the library",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/hide_news.css"
+					}
+				}
+			}
+		},
+		
+		"Hide Steam text": {
+		"tab": "Global options",
+		"description": "Hide steam text in top left of the root menu",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/hide_steam_text.css"
+					}
+				}
+			}
+		},
+		
+		"Steam alternative logo": {
+		"tab": "Global options",
+		"description": "Change the logo of the root menu",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/steam_alternative_logo.css"
+					}
+				}
+			}
 		}
+		
 	},
 
 	"Steam-WebKit": "webkit.css",
@@ -44,7 +88,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.3.6",
+	"version": "3.3.7",
 
 	"github": {
 		"owner": "SaiyajinK",
