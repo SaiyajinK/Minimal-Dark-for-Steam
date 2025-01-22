@@ -1,20 +1,6 @@
 {	
 
     "Conditions": {
-		"Show wallet": {
-		"tab": "Global options",
-		"description": "Show wallet balance next to username",
-		"default": "no",
-		"values": {
-			"yes": {},
-			"no": {
-			"TargetCss": {
-			"affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
-					}
-				}
-			}
-		},
-		
 		"Corners (beta / bugs possibility)": {
 		"tab": "Global options",
 		"description": "Sets the strength of corner rounding (does not apply on webkit).",
@@ -38,9 +24,23 @@
 			}
 		},
 		
+		"Show wallet": {
+		"tab": "Global options",
+		"description": "Show wallet balance next to username.",
+		"default": "no",
+		"values": {
+			"yes": {},
+			"no": {
+			"TargetCss": {
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
+					}
+				}
+			}
+		},
+		
 		"Hide News container": {
 		"tab": "Global options",
-		"description": "Hide What's new block in the library",
+		"description": "Hide What's new block in the library.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -54,7 +54,7 @@
 		
 		"Hide Steam text": {
 		"tab": "Global options",
-		"description": "Hide steam text in top left of the root menu",
+		"description": "Hide steam text in top left of the root menu.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -68,7 +68,7 @@
 		
 		"Steam alternative logo": {
 		"tab": "Global options",
-		"description": "Change the logo of the root menu",
+		"description": "Change the logo of the root menu.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -82,7 +82,7 @@
 		
 		"Compact mod": {
 		"tab": "Global options",
-		"description": "Filters from the sidebar are removed to save even more space",
+		"description": "Removes the filter from the sidebar to save even more space.",
 		"default": "no",
 		"values": {
 			"no": {},
