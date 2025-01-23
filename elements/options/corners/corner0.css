@@ -18571,7 +18571,8 @@ img.communitylink_achievement {
 }
 
 ._1BxZDLT8KveuJzn-1q4NTP .OS07NfYlp6v-Eh5oQ7dwn {
-    color: rgba(25, 175, 255, 0.6) !important;
+    color: var(--minimal_dark_color) !important;
+    opacity: .5 !important;
 }
 
 .profile_flag {
