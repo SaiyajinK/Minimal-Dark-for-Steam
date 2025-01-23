@@ -1,7 +1,7 @@
 {	
 
     "Conditions": {
-		"Corners (beta / bugs possibility)": {
+		"Corners radius (beta)": {
 		"tab": "Global options",
 		"description": "Sets the strength of corner rounding (does not apply on webkit).",
 		"default": "default (5px)",
@@ -25,7 +25,7 @@
 		},
 		
 		"Show wallet": {
-		"tab": "Global options",
+		"tab": "Topbar options",
 		"description": "Show wallet balance next to username.",
 		"default": "no",
 		"values": {
@@ -39,7 +39,7 @@
 		},
 		
 		"Hide News container": {
-		"tab": "Global options",
+		"tab": "Library options",
 		"description": "Hide What's new block in the library.",
 		"default": "no",
 		"values": {
@@ -53,7 +53,7 @@
 		},
 		
 		"Hide Steam text": {
-		"tab": "Global options",
+		"tab": "Topbar options",
 		"description": "Hide steam text in top left of the root menu.",
 		"default": "no",
 		"values": {
@@ -67,7 +67,7 @@
 		},
 		
 		"Steam alternative logo": {
-		"tab": "Global options",
+		"tab": "Topbar options",
 		"description": "Change the logo of the root menu.",
 		"default": "yes",
 		"values": {
@@ -81,7 +81,7 @@
 		},
 		
 		"Compact mod": {
-		"tab": "Global options",
+		"tab": "Library options",
 		"description": "Removes the filter from the sidebar to save even more space.",
 		"default": "no",
 		"values": {
@@ -89,6 +89,34 @@
 			"yes": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/compact_mod.css"
+					}
+				}
+			}
+		},
+		
+		"Text transform": {
+		"tab": "Topbar options",
+		"description": "Set capitalize text to topbar tabs.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/tabs_text_form.css"
+					}
+				}
+			}
+		},
+		
+		"Steam news button": {
+		"tab": "Topbar options",
+		"description": "Hide Steam news button in top bar.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/steam_actuality_button.css"
 					}
 				}
 			}
