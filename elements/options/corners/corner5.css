@@ -1802,6 +1802,7 @@ button.DialogButton::before {
 
 ._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6 {
     background-color: var(--minimal_dark_progress_bar) !important;
+	border-radius: var(--minimal_dark_corner5) !important;
 }
 
 a._1Z3B4iGT48X6pYKxjbVdBO:hover {
@@ -2155,6 +2156,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(0px, -1px) !important;
     box-shadow: inset 0px 1px 0px #000000 !important;
+	border-radius: var(--minimal_dark_corner5) !important;
 }
 
 ._3-V8vjmrwuJM6Ws3tsjFJj ._25f0fX6qbgdB7O_lMrbhCN {
@@ -2464,8 +2466,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK {
     border-top-right-radius: var(--minimal_dark_corner5) !important;
     border-bottom-right-radius: var(--minimal_dark_corner5) !important;
     height: 68px !important;
-    border-right: 1px solid var(
-    --minimal_dark_color) !important;
+    border-right: 1px solid var(--minimal_dark_color) !important;
 }
 
 button.DialogButton._3Cdin80d-hVsakHUZboheb {
@@ -5672,7 +5673,7 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
     padding-right: 6px !important;
     transition: .25s ease-out !important;
     /* border: 1px solid #8b929a59 !important; */
-	border-radius: var(--minimal_dark_corner5);
+	border-radius: var(--minimal_dark_corner5) !important;
 	transition: .25s ease-out !important;
 }
 
@@ -5688,6 +5689,7 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
     transition: .25s ease-out !important;
     border: 1px solid var(--minimal_dark_color) !important;
 	border-radius: var(--minimal_dark_corner5) !important;
+	transition: .25s ease-out !important;
 }
 
 ._5wILZhsLODVwGfcJ0hKmJ ._34bQcTHo5QKzuujoEyU1tm:active {
@@ -5702,6 +5704,7 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
     transition: .25s ease-out !important;
     border: 1px solid var(--minimal_dark_color) !important;
 	border-radius: var(--minimal_dark_corner5) !important;
+	transition: .25s ease-out !important;
 }
 
 ._3yD46y5pd3zOGR7CzKs0mC ._3x51wbt5DYyWC8JKwQ51ir {
