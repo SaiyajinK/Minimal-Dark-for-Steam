@@ -13735,4 +13735,9 @@ div#text_filter_clear_clean_words:active, div#text_filter_clear_banned_words:act
     font-weight: 400 !important;
 }
 
+._3CJsgSK-y815Zeoe6bz6dh {
+    background: var(--minimal_dark_blacker_alt) !important;
+    transition: .25s ease-out !important;
+}
+
 /* end webkit */
