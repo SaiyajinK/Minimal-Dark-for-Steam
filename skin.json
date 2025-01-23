@@ -66,7 +66,7 @@
 			}
 		},
 		
-		"Steam alternative logo": {
+		"Use Steam alternative logo": {
 		"tab": "Topbar options",
 		"description": "Change the logo of the root menu.",
 		"default": "yes",
@@ -94,7 +94,21 @@
 			}
 		},
 		
-		"Text transform": {
+		"Hide Steam news button": {
+		"tab": "Topbar options",
+		"description": "Hide Steam news button in top bar.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/steam_actuality_button.css"
+					}
+				}
+			}
+		},
+		
+		"Tabs text transform": {
 		"tab": "Topbar options",
 		"description": "Set capitalize text to topbar tabs.",
 		"default": "no",
@@ -108,15 +122,15 @@
 			}
 		},
 		
-		"Steam news button": {
-		"tab": "Topbar options",
-		"description": "Hide Steam news button in top bar.",
-		"default": "yes",
+		"Hide community content": {
+		"tab": "Gamepage options",
+		"description": "Hide the community content in gamepage (can improve performance if you have a bad pc).",
+		"default": "no",
 		"values": {
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/steam_actuality_button.css"
+			"affects": ["^Steam$"], "src": "elements/options/gp_community_content.css"
 					}
 				}
 			}
