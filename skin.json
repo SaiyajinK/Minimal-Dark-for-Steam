@@ -4,19 +4,19 @@
 		"Corners radius (beta)": {
 		"tab": "Global options",
 		"description": "Sets the strength of corner rounding (does not apply on webkit).",
-		"default": "default (5px)",
+		"default": "Default (5px)",
 		"values": {
-			"square (0px)": {
+			"Square (0px)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/corners/corner0.css"
 					}
 				},
-			"default (5px)": {
+			"Default (5px)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/corners/corner5.css"
 					}
 				},
-			"rounded (10px)": {
+			"Rounded (10px)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/corners/corner10.css"
 					}
@@ -24,13 +24,13 @@
 			}
 		},
 		
-		"Show wallet": {
+		"Account wallet": {
 		"tab": "Topbar options",
-		"description": "Show wallet balance next to username.",
-		"default": "no",
+		"description": "Hide or show wallet balance next to username.",
+		"default": "Hide",
 		"values": {
-			"yes": {},
-			"no": {
+			"Show": {},
+			"Hide": {
 			"TargetCss": {
 			"affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
 					}
@@ -38,13 +38,13 @@
 			}
 		},
 		
-		"Hide News container": {
+		"News container": {
 		"tab": "Library options",
-		"description": "Hide What's new block in the library.",
-		"default": "no",
+		"description": "Hide or show 'What's New' block in the library.",
+		"default": "Show",
 		"values": {
-			"no": {},
-			"yes": {
+			"Show": {},
+			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/hide_news.css"
 					}
@@ -52,13 +52,13 @@
 			}
 		},
 		
-		"Hide Steam text": {
+		"Root menu Steam text": {
 		"tab": "Topbar options",
-		"description": "Hide steam text in top left of the root menu.",
-		"default": "no",
+		"description": "Hide or show steam text in top left of the root menu.",
+		"default": "Show",
 		"values": {
-			"no": {},
-			"yes": {
+			"Show": {},
+			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/hide_steam_text.css"
 					}
@@ -83,10 +83,10 @@
 		"Compact mod": {
 		"tab": "Library options",
 		"description": "Removes the filter from the sidebar to save even more space.",
-		"default": "no",
+		"default": "Default",
 		"values": {
-			"no": {},
-			"yes": {
+			"Default": {},
+			"Compact": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/compact_mod.css"
 					}
@@ -94,13 +94,13 @@
 			}
 		},
 		
-		"Hide Steam news button": {
+		"Steam news button": {
 		"tab": "Topbar options",
-		"description": "Hide Steam news button in top bar.",
-		"default": "yes",
+		"description": "Hide or show Steam news button in top bar.",
+		"default": "Hide",
 		"values": {
-			"no": {},
-			"yes": {
+			"Show": {},
+			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/steam_actuality_button.css"
 					}
@@ -122,13 +122,13 @@
 			}
 		},
 		
-		"Hide community content": {
+		"Community content": {
 		"tab": "Gamepage options",
-		"description": "Hide the community content in gamepage (can improve performance if you have a bad pc).",
-		"default": "no",
+		"description": "Hide or show the community content in gamepage (can improve performance if you have a bad pc).",
+		"default": "Show",
 		"values": {
-			"no": {},
-			"yes": {
+			"Show": {},
+			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/gp_community_content.css"
 					}
