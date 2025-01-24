@@ -4,7 +4,7 @@
 		"Corners radius (beta)": {
 		"tab": "Global options",
 		"description": "Sets the strength of corner rounding (does not apply on webkit).",
-		"default": "Default (5px)",
+		"default": "Square (0px)",
 		"values": {
 			"Square (0px)": {
 			"TargetCss": {
@@ -82,13 +82,18 @@
 		
 		"Compact mod": {
 		"tab": "Library options",
-		"description": "Removes the filter from the sidebar to save even more space.",
+		"description": "Removes the filter & search from the sidebar to save even more space.",
 		"default": "Default",
 		"values": {
 			"Default": {},
-			"Compact": {
+			"Compact (filter only)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/compact_mod.css"
+					}
+				},
+			"Ultra compact (filter & search)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/ultra_compact_mod.css"
 					}
 				}
 			}
@@ -131,6 +136,20 @@
 			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/gp_community_content.css"
+					}
+				}
+			}
+		},
+		
+		"Header (compact mod)": {
+		"tab": "Gamepage options",
+		"description": "Hide or show the header image at the top of the game page to save more space.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"No header": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gp_compact.css"
 					}
 				}
 			}
