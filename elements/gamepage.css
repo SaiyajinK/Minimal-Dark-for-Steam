@@ -89,7 +89,7 @@
 ._2AzIX5kl9k6JnxLfR5H4kX {
     background: transparent !important;
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
-    border-radius: 10px;
+    border-radius: var(--minimal_dark_corner5);
     box-shadow: 0px 1px 30px 1px rgba(0,0,0,.2);
 }
 
@@ -97,7 +97,7 @@
     background-image: radial-gradient(circle, rgba(2,0,36,0) 10%, #06e39d40 100%) !important;
     border: 1px solid #06e39d !important;
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
-    border-radius: 10px;
+    border-radius: var(--minimal_dark_corner5);
     box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 40%) !important;
 	transition: .25s ease-out !important;
 }
@@ -106,7 +106,7 @@
     background-image: none !important;
     border: 1px solid #8b929a29 !important;
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
-    border-radius: 10px;
+    border-radius: var(--minimal_dark_corner5);
     box-shadow: inset 0px 2px 2px #06e39d !important;
 	transition: .25s ease-out !important;
 }
@@ -122,7 +122,7 @@
     border: 1px solid #1a9fff !important;
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
     box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 40%) !important;
-    border-radius: 10px;
+    border-radius: var(--minimal_dark_corner5);
     transition: .25s ease-out !important;
 }
 
@@ -130,19 +130,19 @@
     background-image: none !important;
     border: 1px solid #8b929a29 !important;
     transform: scale(0.75, 0.75) translate(0px, 3px) !important;
-    border-radius: 10px;
+    border-radius: var(--minimal_dark_corner5);
     box-shadow: inset 0px 2px 2px #1a9fff !important;
     transition: .25s ease-out !important;
 }
 
 ._1hhB2Wf7iExA15zh_lDQ_y ._3ydigb6zZAjJ0JCDgHwSYA {
-    border-radius: 50px !important;
+    border-radius: var(--minimal_dark_corner5);
     margin-top: -4px;
-	border: 2px solid #8b929a29 !important;
+    border: 2px solid #8b929a29 !important;
 }
 
 ._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX {
-    border-radius: 10px;
+    border-radius: var(--minimal_dark_corner5);
     border: 1px solid #8b929a29 !important;
     margin-top: -2px !important;
     box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 40%) !important;
