@@ -23476,4 +23476,26 @@ input[type=text], input[type=password], input[type=number], select {
     background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
+.collectionEditCancel {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
+}
+
+.collectionEditCancel .general_btn {
+    color: white !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.collectionEditCancel .general_btn:hover {
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	background: var(--minimal_dark_blacker) !important;
+}
+
+.collectionEditCancel .general_btn:active {
+    color: white !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
 /* end webkit */
