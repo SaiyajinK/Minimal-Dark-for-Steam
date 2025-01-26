@@ -13740,4 +13740,80 @@ div#text_filter_clear_clean_words:active, div#text_filter_clear_banned_words:act
     transition: .25s ease-out !important;
 }
 
+.workshop_apps_paging_pagelink.active, .workshop_apps_paging_controls .commentthread_pagelink.active {
+    color: var(--minimal_dark_color) !important;
+}
+
+.collectionControls .workshopItemControls {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
+}
+
+.collectionTop {
+    height: auto !important;
+    min-height: 290px !important;
+}
+
+.collectionImageOrVideoEditTitle {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.collectionBackgroundImageEditContents .general_btn {
+    color: white !important;
+    border-radius: var(--minimal_dark_corner5);
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+a.general_btn:hover {
+    text-decoration: none;
+    color: #AAAAAA;
+    color: var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner5);
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.collectionBackgroundImageEdit {
+    border: 1px solid var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+	border-top-left-radius: var(--minimal_dark_corner5);
+	border-top-right-radius: var(--minimal_dark_corner5);
+}
+
+.workshopItemCollection {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner5);
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.workshopItemCollection:hover {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.collectionItem {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner5);
+}
+
+.collectionItem:hover {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner5);
+}
+
+.detailBox .headline, .detailBox .headline a {
+    color: var(--minimal_dark_color) !important;
+	margin-bottom: 10px !important;
+}
+
+.current_player_workshop_title a {
+    padding-left: 23px !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.rightSectionTopTitle {
+    padding-top: 50px !important;
+}
+
 /* end webkit */
