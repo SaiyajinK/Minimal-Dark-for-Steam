@@ -11478,16 +11478,26 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
+.sectionTab, a.sectionTab {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-radius: var(--minimal_dark_corner10) !important;
+}
+
 .sectionTab.active>span {
-    background: var(--minimal_dark_black)!important;
-    border-top: 1px solid var(--minimal_dark_color) !important;
-    border-bottom: none !important;
-    border-right: 1px solid var(--minimal_dark_be_grey) !important;
-    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker) !important;
+    border: 0px solid transparent !important;
+    height: 0px !important;
+    color: var(--minimal_dark_color) !important;
+    transform: translate(0px, -5px) !important;
 }
 
 .sectionTab.active {
-	background:0 0!important;
+    background: transparent !important;
+    border-radius: var(--minimal_dark_corner10) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    height: 27px !important;
+    transform: translate(0px, 7px) !important;
 }
 
 .sectionTab,a.sectionTab {
@@ -11495,7 +11505,11 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
 }
 
 .sectionTab:hover {
-	background-color:rgba(0,0,0,0)!important;
+    background: var(--minimal_dark_black) !important;
+    border-radius: var(--minimal_dark_corner10) !important;
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 .friendBlock {
@@ -12406,17 +12420,6 @@ body.v6 .discount_block {
 	border-radius:0px!important;
 }
 
-.sectionTab.active {
-	background:rgba(0,0,0,.2)!important;
-	border-radius:0px!important;
-}
-
-.sectionTab:hover {
-	background:rgba(0,0,0,.2)!important;
-	border-radius:0px!important;
-	color: var(--minimal_dark_color) !important;
-}
-
 .responsive_tab_baseline {
 	background-color:rgba(0,0,0,0)!important;
 	max-width:0!important;
@@ -12609,9 +12612,9 @@ body.v6 .wishlist_header h2 {
 }
 
 .btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
-	border-radius: var(--minimal_dark_corner10) !important;
-	background:#23678e!important;
-	color:white!important;
+	border-radius: var(--minimal_dark_corner5);
+	background: transparent !important;
+	color: white !important;
 }
 
 #rightContents .box {
@@ -14458,6 +14461,8 @@ span.bb_spoiler {
 
 #mainContents {
     padding-top: 0px !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-radius: var(--minimal_dark_corner10) !important;
 }
 
 .games_list_tabs_ctn {
@@ -16610,6 +16615,7 @@ input[type="search" i]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-s
 .subscribe.general_btn:hover {
     background-color: var(--minimal_dark_progress_bar) !important;
     text-shadow: 0px 0px 4px black !important;
+    color: white !important;
 }
 
 .general_btn.subscribe.toggled:hover .subscribeOptionUnsubscribe:hover {
@@ -16702,6 +16708,7 @@ div.visibilityselect {
 
 .general_btn.panel_btn:hover {
     color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 div.visibilityselect #visibilityselect_activevisibility:hover {
@@ -23289,7 +23296,7 @@ div#text_filter_clear_clean_words:active, div#text_filter_clear_banned_words:act
 a.general_btn:hover {
     color: var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner10) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+    border: 0px solid var(--minimal_dark_color) !important;
 }
 
 .collectionBackgroundImageEdit {
@@ -23320,6 +23327,153 @@ a.general_btn:hover {
     background-color: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner10) !important;
+}
+
+#BG_top_new_collection {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+#BG_top_new_collection .general_btn {
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+#BG_top_new_collection .general_btn:hover {
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.newCollectionTab.selected {
+    border: 0px solid var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner10) !important;
+}
+
+.collectionItemAuthor {
+    /* border-radius: 3px; */
+    -moz-border-radius: var(--minimal_dark_corner10) !important;
+    height: 24px !important;
+}
+
+.collectionItemAuthor a {
+    color: var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    line-height: 25px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.managedCollectionItem {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.managedCollectionItem:hover {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.collectionItemDetails {
+    margin-left: 15px !important;
+}
+
+.collectionAddItemsSection {
+    border: 1px solid var(--minimal_dark_black) !important;
+    border-radius: var(--minimal_dark_corner10) !important;
+}
+
+.manageItemsTitle {
+    color: var(--minimal_dark_color) !important;
+}
+
+.collectionTabsBar {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.collectionChoiceTab.active {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.collectionChoiceTab, a.collectionChoiceTab {
+    color: white !important;
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.collectionAddItemsTitle {
+    color: var(--minimal_dark_color) !important;
+    font-weight: 500 !important;
+}
+
+.collectionChoiceTab, a.collectionChoiceTab:hover {
+    background: var(--minimal_dark_color) !important;
+}
+
+.itemChoice.inCollection {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.itemChoice {
+    background-color: var(--minimal_dark_black) !important;
+}
+
+.ui-resizable-s {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.btn_darkred_white_innerfade {
+    border-radius: var(--minimal_dark_corner10) !important;
+    background: none !important;
+}
+
+.btn_darkred_white_innerfade > span {
+    border-radius: var(--minimal_dark_corner10) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+	border: 1px solid var(--minimal_dark_red2) !important;
+	color: var(--minimal_dark_red2) !important;
+}
+
+.btn_darkred_white_innerfade > span:hover {
+    border-radius: var(--minimal_dark_corner10) !important;
+    background: var(--minimal_dark_red2) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
+	color: white !important;
+}
+
+.btn_darkred_white_innerfade > span:active {
+    border-radius: var(--minimal_dark_corner10) !important;
+    background: var(--minimal_dark_red2) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+.workshopItemDescriptionHR {
+    background: none !important;
+}
+
+input[type=text], input[type=password], input[type=number], select {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.manageItemsSort .sort_button i {
+    visibility: visible !important;
+}
+
+.ico_hover:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover .ico16.arrow_up {
+    background-position: -49px -17px !important;
+}
+
+.collectionHeader {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.collectionHighlightVideoEdit .general_btn {
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.createCollectionSection input[type=text] {
+    background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
 /* end webkit */
