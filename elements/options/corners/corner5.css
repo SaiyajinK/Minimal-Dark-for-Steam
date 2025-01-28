@@ -23295,15 +23295,23 @@ div#text_filter_clear_clean_words:active, div#text_filter_clear_banned_words:act
 
 a.general_btn:hover {
     color: var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner10) !important;
+    border-radius: var(--minimal_dark_corner5) !important;
     border: 1px solid var(--minimal_dark_color) !important;
     padding: 5px 8px 5px 8px !important;
 }
 
+.general_btn.delete:hover {
+    background-position: -120px -30px;
+    color: var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner5) !important;
+    border: 0px solid var(--minimal_dark_color) !important;
+    padding: 0px !important;
+}
+
 .collectionBackgroundImageEdit {
     border: 1px solid var(--minimal_dark_color) !important;
-    border-top-left-radius: var(--minimal_dark_corner10) !important;
-    border-top-right-radius: var(--minimal_dark_corner10) !important;
+    border-top-left-radius: var(--minimal_dark_corner5) !important;
+    border-top-right-radius: var(--minimal_dark_corner5) !important;
     background-color: #1212125e !important;
     backdrop-filter: blur(12px) !important;
 }
@@ -23326,7 +23334,7 @@ a.general_btn:hover {
 .collectionItem {
     background-color: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner5);
+    border-radius: var(--minimal_dark_corner5) !important;
 	margin-top: 10px !important;
 }
 
@@ -23526,6 +23534,47 @@ h3 {
     border: 1px solid var(--minimal_dark_color) !important;
     background-color: #1212125e !important;
     backdrop-filter: blur(12px) !important;
+}
+
+.toolsRightSectionFooter {
+    background-image: none !important;
+}
+
+.toolsRightSectionHolder {
+    background-image: none !important;
+    transform: translate(40px, 20px) !important;
+}
+
+.toolsRightSectionHeader {
+    background-image: none !important;
+}
+
+.workshopLink a {
+    padding: 8px 8px 8px 8px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    width: 230px !important;
+	border-radius: var(--minimal_dark_corner5) !important;
+}
+
+.workshopLink a:hover {
+    padding: 8px 8px 8px 8px !important;
+	background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    width: 230px !important;
+	color: var(--minimal_dark_color) !important;
+	border-radius: var(--minimal_dark_corner5) !important;
+	transition: .25s ease-out !important;
+}
+
+.workshopLink a:active {
+    padding: 8px 8px 8px 8px !important;
+	background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    width: 230px !important;
+	color: white !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+	border-radius: var(--minimal_dark_corner5) !important;
+	transition: .25s ease-out !important;
 }
 
 /* end webkit */
