@@ -8973,9 +8973,9 @@ button.DialogButton.Primary:active {
     opacity: 1 !important;
 }
 
-/* .ingame .awayOrSnooze .nOdcT-MoOaXGePXLyPe0H { */
-    /* color: #f7a24b !important; */
-/* } */
+.ingame .awayOrSnooze .nOdcT-MoOaXGePXLyPe0H {
+    color: #f7a24b !important;
+}
 
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze .drAAsgW-ufgBGjQ4mIfiJ, ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze ._2TAMH-SbRqivpq6WNRR-VH {
     color: orange !important;
@@ -9122,7 +9122,8 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-	display: none !important;
+	display: flex !important;
+	border-radius: var(--minimal_dark_corner10) !important;
 }
 
 ._3h-QRJGxnVOIExtHD1R0f2 {
