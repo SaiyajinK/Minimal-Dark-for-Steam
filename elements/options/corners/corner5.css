@@ -9122,7 +9122,8 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-	display: none !important;
+	display: flex !important;
+	border-radius: var(--minimal_dark_corner5) !important;
 }
 
 ._3h-QRJGxnVOIExtHD1R0f2 {
