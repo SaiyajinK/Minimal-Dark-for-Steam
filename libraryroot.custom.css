@@ -533,7 +533,7 @@ button.DialogButton::before {
     background: rgb(0 0 0 / 90%) !important;
     backdrop-filter: blur(8px) !important;
     transition: .25s ease-out !important;
-    margin-top: 35px !important;
+    margin-top: -1px !important;
     margin-right: 0px !important;
     margin-left: 0px !important;
     margin-bottom: 0px !important;
