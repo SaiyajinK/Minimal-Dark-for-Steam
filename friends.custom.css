@@ -1803,11 +1803,6 @@ html.client_chat_frame .popup_chat_frame {
     height: auto !important;
 }
 
-.X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-	display: flex !important;
-	border-radius: var(--minimal_dark_corner5);
-}
-
 ._3h-QRJGxnVOIExtHD1R0f2 {
     border-radius: var(--minimal_dark_corner5);
     transform: translate(0px, 0px) !important;
@@ -2240,5 +2235,43 @@ button.DialogButton::before {
 }
 
 .chatFileUploadProgressName {
+    color: var(--minimal_dark_color) !important;
+}
+
+.friend.quickAccessFriend .avatarHolder {
+    width: 50px !important;
+	border-radius: var(--minimal_dark_corner5);
+}
+
+.nibodjvvrm86uCfnnAn4g .X_mJE4BYV5StDPwZhSiAu {
+    transform: scale(1.2) !important;
+	border-radius: var(--minimal_dark_corner5);
+}
+
+.QuickAccessChat.quickAccessFriend {
+    transition: .25s ease-out !important;
+    border-radius: var(--minimal_dark_corner5);
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    width: auto !important;
+    height: 65px !important;
+    transform: translate(0px, 2px) !important;
+    margin-right: 2px !important;
+}
+
+.QuickAccessChat.quickAccessFriend:hover {
+    transition: .25s ease-out !important;
+    border-radius: var(--minimal_dark_corner5);
+    border: 1px solid var(--minimal_dark_color) !important;
+    width: auto !important;
+    height: 65px !important;
+    transform: translate(0px, 2px) !important;
+    margin-right: 2px !important;
+}
+
+.favoriteElement .ChatRoomGroupAvatar {
+    margin-bottom: -1px !important;
+}
+
+.favoriteElement:hover .quickAccessFriend .clanName {
     color: var(--minimal_dark_color) !important;
 }
