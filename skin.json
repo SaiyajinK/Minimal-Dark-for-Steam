@@ -141,6 +141,20 @@
 			}
 		},
 		
+		"Compact avatar": {
+		"tab": "Topbar options",
+		"description": "Make the avatar block compact.",
+		"default": "Compact",
+		"values": {
+			"Default": {},
+			"Compact": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/compact_avatar.css"
+					}
+				}
+			}
+		},
+		
 		"Community content": {
 		"tab": "Gamepage options",
 		"description": "Hide or show the community content in gamepage (can improve performance if you have a bad pc).",
@@ -177,7 +191,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.3.9",
+	"version": "3.4.0",
 
 	"github": {
 		"owner": "SaiyajinK",
@@ -199,7 +213,7 @@
 		"Customizable"
 	],
   
-	"header_image": "https://i.imgur.com/3mPRQUz.png",
-	"splash_image": "https://i.imgur.com/3mPRQUz.png"
+	"header_image": "https://i.imgur.com/h75s8C4.jpeg",
+	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
