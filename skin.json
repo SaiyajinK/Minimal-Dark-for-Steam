@@ -4,21 +4,35 @@
 		"Corners radius (beta)": {
 		"tab": "Global options",
 		"description": "Sets the strength of corner rounding (does not apply on webkit).",
-		"default": "Square (0px)",
+		"default": "Square (0px) - full compatibility (recommended)",
 		"values": {
-			"Square (0px)": {
+			"Square (0px) - full compatibility (recommended)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/corners/corner0.css"
 					}
 				},
-			"Default (5px)": {
+			"Default (5px) - half compatibility (ui only)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/corners/corner5.css"
 					}
 				},
-			"Rounded (10px)": {
+			"Rounded (10px) - half compatibility (ui only)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/corners/corner10.css"
+					}
+				}
+			}
+		},
+		
+		"Avatar frame": {
+		"tab": "Global options",
+		"description": "Hide or show avatar frame on all avatars.",
+		"default": "Hide",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/avatar_frame.css"
 					}
 				}
 			}
