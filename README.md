@@ -1,75 +1,51 @@
-## ⚡ Minimal Dark for Steam ⚡ <br> 
+<p align="left"><img src="https://github.com/user-attachments/assets/3675a0a9-74bc-4d52-a3b1-6813bc19e770" width="400" height="58">     <img src="https://github.com/user-attachments/assets/7b746a21-c6d1-42e8-8ea5-39ba8b6f8b33" width="166" height="75"></p>
+<p align="left">for Steam.</p>
+<hr>
 
-Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
-I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
-All the sources and tools I used are at the bottom of the description. <br>
+### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
+I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the selected color code on the entire skin (by default, whether you are on w10 or w11, the color of Steam will be the one you have chosen in Windows, but you can always use another color by clicking on the color selector).<br>
+### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
+You can arrange the skin however you want with the available customization options in Minimal Dark settings in Millennium. <br>
+### 📸 <ins>Screenchots</ins> : <br>
+<p align="left"><img src="https://github.com/user-attachments/assets/563e9551-f7ca-49f1-adfa-cdcdc5df7cda" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/1833a782-3042-4775-a359-095982857257" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/93e31132-4120-4eac-ad51-aafc558e52b6" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/ea669b10-3ef0-45e1-b6ea-637ca22df318" width="150" height="95"></p>
 
-I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. <br>
-Be understanding if you encounter any bugs. <br>
-
-## `🧪 Restylised vanilla skin topbar + UI enhancements 🧪` <br> 
-
-I created a minimal topbar to best optimize the space compared to the vanilla base. <br>
-The home and collection button are now hidden to minimize the space taken up (they are accessible from the top bar). <br>
-
-In Steam settings I recommend setting the library size to Medium. <br>
-`Steam Settings` > `Library` > `Display size for library interface elements` > `Medium`  <br>
-
-![steamwebhelper_BLdnz4rwIZ](https://github.com/user-attachments/assets/a3b90432-9445-4dd5-991a-f289b365e7e2) <br>
-
-## `🎨 Customize theme with the color of your choice 🎨` <br> 
-
-I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the selected color code on the entire skin. <br>
-
-> by default, whether you are on w10 or w11, the color of Steam will be the one you have chosen in Windows, but you can always use another color by clicking on the color selector.   <br>
-
-How change the skin color ? <br>
-Open `Steam settings` go to `Themes` and select an `custom accent`.  <br>
-
-![steamwebhelper_VEQLq2SaF8](https://github.com/user-attachments/assets/45340ccc-dcd9-4051-b285-812a11b9d0fa) <br>
-
-## `📸 Compact mode + friends 📸` <br> 
-
-I also recommend grouping contacts by games. How to do this ? <br>
-Open `Steam settings` go to `Contacts and chat` and select `Group contacts by games`. <br>
-
-![steamwebhelper_ArryRozGu](https://github.com/user-attachments/assets/ab26c875-a21a-4530-9519-43a0b74797c7) <br>
-
-## `👤 Profil 👤` <br> 
-
-Some profiles have neon lights around the headers, I removed them by default.<br>
-If you want to remove this, open `webkit.css` and remove lines `57` to `62`<br>
-
-![steamwebhelper_RxgxSwg7Jw](https://github.com/user-attachments/assets/2c531a97-10fa-4f29-bd8a-9516509c0176) <br>
-
-## `🌐 Dark webkit 🌐` <br> 
-
-All aspects were changed to match my theme. <br>
-
-![steamwebhelper_RmQs2jv4bp](https://github.com/user-attachments/assets/5d6be30a-6e16-41b6-95c6-b962b574e7ec) <br>
-
-## `✅ Quick installation with Millennium (recommanded) ✅` <br>
+### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
 1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
 2️⃣ - Open Steam browser and paste this url : [https://steambrew.app/themes](https://steambrew.app/themes) <br>
 3️⃣ - Select `Minimal Dark` in the theme list and clic on `Install` <br>
 4️⃣ - Open `Steam settings` go to `Themes` and select `Minimal Dark` in the list of themes.  <br>
 5️⃣ - Restart Steam <br>
 
-> Installation documentation : https://millennium.gitbook.io/steam-patcher/getting-started/installation <br>
+→ [Installation documentation](https://millennium.gitbook.io/steam-patcher/getting-started/installation) <br>
 
-## `🛠️ Tools used 🛠️` <br>
-- Steam DevTools <br>
-- [Color picker](https://htmlcolorcodes.com/color-picker/) <br>
-- [ColorSpace](https://mycolor.space) <br>
-- [CSS Gradient](https://cssgradient.io/) <br>
-- [Free SVG collection](https://thenounproject.com/) <br>
+<hr>
 
-## `🖱️ Open Source References 🖱️` <br>
-- Credits to [Rose's Metro for Steam](https://github.com/RoseTheFlower) for the initial base of the theme and the inspiration it gave me.
-- [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit<br>
-- [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium<br>
-- [Icon8](https://icons8.com) for Base64 icons
+### 🛠️ <ins>Tools used</ins> : <br>
+▪ [Color picker](https://htmlcolorcodes.com/color-picker/) <br>
+▪ [ColorSpace](https://mycolor.space) <br>
+▪ [CSS Gradient](https://cssgradient.io/) <br>
+▪ [Free SVG collection](https://thenounproject.com/) <br>
 
-------
+### 🖱️ <ins>Open Source References</ins> : <br>
+▪ Credits to [Rose's Metro for Steam](https://github.com/RoseTheFlower) for the initial base of the theme and the inspiration it gave me. <br>
+▪ [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium <br>
+▪ [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit <br>
+▪ [Icon8](https://icons8.com) for Base64 icons <br>
 
-[![KoFi](https://i.imgur.com/uUuWZOm.png)](https://ko-fi.com/saiyajink)
+<hr>
+
+### 👤 <ins>About</ins> : <br>
+Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
+I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
+All the sources and tools I used are at the bottom of the description. <br>
+
+I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. <br>
+Be understanding if you encounter any bugs. <br>
+<br> ➖ <br><br>
+⚠️ Minimal Dark is a completely <ins>free skin</ins>.  <br>
+💲 If someone pretends to be me and asks you for money to get the skin, it is a fraud. <br>
+
+<hr>
+
+### ☕ Do you like my work ? <br>
+[Support me on Ko-fi](https://ko-fi.com/saiyajink) <br>
