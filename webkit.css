@@ -13491,7 +13491,7 @@ p {
 
 textarea {
     background-color: var(--minimal_dark_blacker_alt) !important;
-    box-shadow: 1px 1px 0 var(--minimal_dark_be_grey) !important;
+    box-shadow: inset 0px 0px 6px #000000 !important;
     border-radius: var(--minimal_dark_corner5);
 }
 
