@@ -1562,13 +1562,13 @@ button.DialogButton.Primary:active {
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s {
-    background-color: var(--minimal_dark_blacker_alt) !important;
+    background-color: var(--minimal_dark_blacker) !important;
     border-radius: var(--minimal_dark_corner5);
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
-    background: transparent !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     border-radius: var(--minimal_dark_corner5);
     border: transparent !important;
 }
