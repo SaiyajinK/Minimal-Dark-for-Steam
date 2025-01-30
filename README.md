@@ -1,5 +1,6 @@
 <p align="left"><img src="https://github.com/user-attachments/assets/3675a0a9-74bc-4d52-a3b1-6813bc19e770" width="400" height="58">     <img src="https://github.com/user-attachments/assets/7b746a21-c6d1-42e8-8ea5-39ba8b6f8b33" width="166" height="75"></p>
 <p align="left">for Steam.</p>
+
 <hr>
 
 ### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
@@ -7,7 +8,7 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 You can arrange the skin however you want with the available customization options in Minimal Dark settings in Millennium. <br>
 ### 📸 <ins>Screenchots</ins> : <br>
-<p align="left"><img src="https://github.com/user-attachments/assets/563e9551-f7ca-49f1-adfa-cdcdc5df7cda" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/1833a782-3042-4775-a359-095982857257" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/93e31132-4120-4eac-ad51-aafc558e52b6" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/ea669b10-3ef0-45e1-b6ea-637ca22df318" width="150" height="95"></p>
+<p align="left"><img src="https://github.com/user-attachments/assets/563e9551-f7ca-49f1-adfa-cdcdc5df7cda" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/e5e8696a-27d4-4d3e-931c-a33cf0cda933" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/93e31132-4120-4eac-ad51-aafc558e52b6" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/e294d097-d33e-4d22-ae9d-6aedd7adb745" width="150" height="95"></p>
 
 ### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
 1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
@@ -39,8 +40,7 @@ Minimal Dark is a personalized and customizable minimal theme for the new Steam 
 I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
 All the sources and tools I used are at the bottom of the description. <br>
 
-I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. <br>
-Be understanding if you encounter any bugs. <br>
+I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. Be understanding if you encounter any bugs. <br>
 <br> ➖ <br><br>
 ⚠️ Minimal Dark is a completely <ins>free skin</ins>.  <br>
 💲 If someone pretends to be me and asks you for money to get the skin, it is a fraud. <br>
