@@ -29,10 +29,14 @@
 		"description": "Hide or show avatar frame on all avatars.",
 		"default": "Hide",
 		"values": {
-			"Show": {},
+			"Show": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/avatar_frame/show.css"
+					}
+				},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/avatar_frame.css"
+			"affects": [".*"], "src": "elements/options/avatar_frame/hide.css"
 					}
 				}
 			}
