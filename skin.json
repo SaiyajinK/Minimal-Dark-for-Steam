@@ -185,6 +185,20 @@
 					}
 				}
 			}
+		},
+		
+		"No button labels in list mod": {
+		"tab": "Overlay options",
+		"description": "hide button names to only have the icon when the overlay is in list mode only",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"No label": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay_no_label_list.css"
+					}
+				}
+			}
 		}
 		
 	},
@@ -195,7 +209,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.4.1",
+	"version": "3.4.2",
 
 	"github": {
 		"owner": "SaiyajinK",
