@@ -1921,7 +1921,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .compactView .socialListTab {
-    transform: translate(-4px, 4px) !important;
+    transform: translate(-4px, -7px) !important;
 }
 
 .speaker.ingame .speakerStatus {
@@ -2274,4 +2274,41 @@ button.DialogButton::before {
 
 .favoriteElement:hover .quickAccessFriend .clanName {
     color: var(--minimal_dark_color) !important;
+}
+
+.friendlist.compactView .friendListHeaderContainer {
+    height: auto !important;
+}
+
+.compactQuickAccess .friend.quickAccessFriend {
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatar, .compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
+    border-radius: var(--minimal_dark_corner5);
+}
+
+.compactQuickAccess .friend.ingame.quickAccessFriend {
+    border: 1px solid rgb(227 255 194 / 80%) !important;
+	border-radius: var(--minimal_dark_corner5);	
+}
+
+.compactQuickAccess .friend.online.quickAccessFriend {
+    border: 1px solid rgb(109 207 246 / 80%) !important;
+	border-radius: var(--minimal_dark_corner5);
+}
+
+.compactQuickAccess .friend.offline.quickAccessFriend {
+    border: 1px solid rgb(128 128 128 / 80%) !important;
+	border-radius: var(--minimal_dark_corner5);
+}
+
+.compactQuickAccess .friend.awayOrSnooze.quickAccessFriend {
+    border: 1px solid rgb(255 165 0 / 80%) !important;
+	border-radius: var(--minimal_dark_corner5);
+}
+
+.quickAccessFriends .favoriteElement:hover .friend .avatarHolder img.avatar, .friend.offline:hover .avatarHolder img.avatar, .friend.offline.Friend_ContextMenuActive .avatarHolder img.avatar {
+    transform: scale(0.9) translate(1px, 0px) !important;
 }
