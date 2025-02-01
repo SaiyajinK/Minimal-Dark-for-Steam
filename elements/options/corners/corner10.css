@@ -9281,7 +9281,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .compactView .socialListTab {
-    transform: translate(-4px, 4px) !important;
+    transform: translate(-4px, -7px) !important;
 }
 
 .speaker.ingame .speakerStatus {
@@ -9634,6 +9634,43 @@ button.DialogButton::before {
 
 .favoriteElement:hover .quickAccessFriend .clanName {
     color: var(--minimal_dark_color) !important;
+}
+
+.friendlist.compactView .friendListHeaderContainer {
+    height: auto !important;
+}
+
+.compactQuickAccess .friend.quickAccessFriend {
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatar, .compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
+    border-radius: var(--minimal_dark_corner10) !important;
+}
+
+.compactQuickAccess .friend.ingame.quickAccessFriend {
+    border: 1px solid rgb(227 255 194 / 80%) !important;
+	border-radius: var(--minimal_dark_corner10) !important;
+}
+
+.compactQuickAccess .friend.online.quickAccessFriend {
+    border: 1px solid rgb(109 207 246 / 80%) !important;
+	border-radius: var(--minimal_dark_corner10) !important;
+}
+
+.compactQuickAccess .friend.offline.quickAccessFriend {
+    border: 1px solid rgb(128 128 128 / 80%) !important;
+	border-radius: var(--minimal_dark_corner10) !important;
+}
+
+.compactQuickAccess .friend.awayOrSnooze.quickAccessFriend {
+    border: 1px solid rgb(255 165 0 / 80%) !important;
+	border-radius: var(--minimal_dark_corner10) !important;
+}
+
+.quickAccessFriends .favoriteElement:hover .friend .avatarHolder img.avatar, .friend.offline:hover .avatarHolder img.avatar, .friend.offline.Friend_ContextMenuActive .avatarHolder img.avatar {
+    transform: scale(0.9) translate(1px, 0px) !important;
 }
 
 /* webkit.css */
@@ -22007,9 +22044,9 @@ a.view_inactive:hover {
 }
 
 .SaleSectionCtn .ContentHubTitle {
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: #12121200 !important;
     border-radius: var(--minimal_dark_corner10) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+    border: 0px solid var(--minimal_dark_color) !important;
 }
 
 .CarouselBtnLeft polygon, .CarouselBtnRight polygon {
@@ -23665,8 +23702,14 @@ h3 {
 
 .dlc_highlight_reason {
     background-color: var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner10) !important;
+    border-radius: var(--minimal_dark_corner5);
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._3ed1Al-hFnjq4HQeLo6cIT ._2R187sMx7MTX5XQ2KN3Xnx {
+    border-radius: var(--minimal_dark_corner10) !important;
+    background-color: var(--minimal_dark_color) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 /* end webkit */
