@@ -12409,9 +12409,9 @@ a.view_inactive:hover {
 }
 
 .SaleSectionCtn .ContentHubTitle {
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: #12121200 !important;
     border-radius: var(--minimal_dark_corner5);
-    border: 1px solid var(--minimal_dark_color) !important;
+    border: 0px solid var(--minimal_dark_color) !important;
 }
 
 .CarouselBtnLeft polygon, .CarouselBtnRight polygon {
@@ -14101,6 +14101,12 @@ h3 {
     background-color: var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner5);
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._3ed1Al-hFnjq4HQeLo6cIT ._2R187sMx7MTX5XQ2KN3Xnx {
+    border-radius: var(--minimal_dark_corner5);
+    background-color: var(--minimal_dark_color) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 /* end webkit */
