@@ -17,24 +17,24 @@ You can arrange the skin however you want with the available customization optio
 4️⃣ - Open `Steam settings` go to `Themes` and select `Minimal Dark` in the list of themes.  <br>
 5️⃣ - Restart Steam <br>
 
-### ⚙️ <ins>Recommended Steam settings</ins> : <br>
+### 🛠️ <ins>Recommended Steam settings</ins> : <br>
 ▪ Steam ➡️ `Stable branch`.  <br>
 ▪ Steam Settings ➡️ `Library` ➡️ `Display size for library interface elements` ➡️ `Medium`.  <br>
 ▪ Steam settings ➡️ `Contacts and chat` ➡️ `Group contacts by games`. <br>
 
 <hr>
 
-### 🛠️ <ins>Tools used</ins> : <br>
+### 🪛 <ins>Tools used</ins> : <br>
 ▪ [Color picker](https://htmlcolorcodes.com/color-picker/) <br>
 ▪ [ColorSpace](https://mycolor.space) <br>
 ▪ [CSS Gradient](https://cssgradient.io/) <br>
 ▪ [Free SVG collection](https://thenounproject.com/) <br>
 
-### 🖱️ <ins>Open Source References</ins> : <br>
+### 📃 <ins>Open Source References</ins> : <br>
 ▪ Credits to [Rose's Metro for Steam](https://github.com/RoseTheFlower) for the initial base of the theme and the inspiration it gave me. <br>
-▪ [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium <br>
-▪ [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit <br>
-▪ [Icon8](https://icons8.com) for Base64 icons <br>
+▪ [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium. <br>
+▪ [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit. <br>
+▪ [Icon8](https://icons8.com) for Base64 icons. <br>
 
 <hr>
 
