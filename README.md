@@ -17,7 +17,10 @@ You can arrange the skin however you want with the available customization optio
 4️⃣ - Open `Steam settings` go to `Themes` and select `Minimal Dark` in the list of themes.  <br>
 5️⃣ - Restart Steam <br>
 
-→ [Installation documentation](https://millennium.gitbook.io/steam-patcher/getting-started/installation) <br>
+### ⚙️ <ins>Recommended Steam settings</ins> : <br>
+▪ Steam ➡️ `Stable branch`.  <br>
+▪ Steam Settings ➡️ `Library` ➡️ `Display size for library interface elements` ➡️ `Medium`.  <br>
+▪ Steam settings ➡️ `Contacts and chat` ➡️ `Group contacts by games`. <br>
 
 <hr>
 
