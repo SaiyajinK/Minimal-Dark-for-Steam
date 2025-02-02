@@ -1,4 +1,4 @@
-<p align="left"><img src="https://github.com/user-attachments/assets/3675a0a9-74bc-4d52-a3b1-6813bc19e770" width="400" height="58"> <img src="https://github.com/user-attachments/assets/7b746a21-c6d1-42e8-8ea5-39ba8b6f8b33" width="166" height="75"></p>
+<p align="left"><img src="https://github.com/user-attachments/assets/3675a0a9-74bc-4d52-a3b1-6813bc19e770" width="400" height="58"> <img src="https://github.com/user-attachments/assets/2046df08-2913-4ea0-a0f0-af598e9a7faa" width="166" height="75"></p>
 <p align="left">for Steam.</p>
 
 <hr>
