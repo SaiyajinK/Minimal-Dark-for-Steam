@@ -26,7 +26,7 @@
 		
 		"Avatar frame": {
 		"tab": "Global options",
-		"description": "Hide or show avatar frame on all avatars.",
+		"description": "Hide or show avatar frame on all avatars (known bugs).",
 		"default": "Hide",
 		"values": {
 			"Show": {
@@ -196,6 +196,20 @@
 			"No label": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/overlay_no_label_list.css"
+					}
+				}
+			}
+		},
+		
+		"Miniprofile background": {
+		"tab": "Miniprofile options",
+		"description": "Show or hide image/video on background by default on mini profiles.",
+		"default": "Hide",
+		"values": {
+			"Hide": {},
+			"Show": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/bg_miniprofile.css"
 					}
 				}
 			}
