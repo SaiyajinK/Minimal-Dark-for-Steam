@@ -4,19 +4,19 @@
 		"Corners radius (beta)": {
 		"tab": "Global options",
 		"description": "Sets the strength of corner rounding (does not apply on webkit).",
-		"default": "Square (0px) - full compatibility (recommended)",
+		"default": "Square (0px | ui+webkit | recommended)",
 		"values": {
-			"Square (0px) - full compatibility (recommended)": {
+			"Square (0px | ui+webkit | recommended)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/corners/corner0.css"
 					}
 				},
-			"Default (5px) - half compatibility (ui only)": {
+			"Rounded (5px | ui only)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/corners/corner5.css"
 					}
 				},
-			"Rounded (10px) - half compatibility (ui only)": {
+			"More rounded (10px | ui only)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/corners/corner10.css"
 					}
