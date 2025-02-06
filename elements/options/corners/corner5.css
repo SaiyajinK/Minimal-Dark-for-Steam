@@ -6389,11 +6389,14 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     cursor: pointer;
     stroke: var(--minimal_dark_color) !important;
     stroke-width: 30px !important;
+    background: var(--minimal_dark_blacker) !important;
+    transition: .25s ease-out !important;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:active:not(._2hcblpUHuN5CYOoq6eU2y0) {
     color: white !important;
     box-shadow: inset 0 0 8px #000000c2 !important;
+	transition: .25s ease-out !important;
 }
 
 ._39oUCO1OuizVPwcnnv88no ._3s0lkohH8wU2do0K1il28Y {
