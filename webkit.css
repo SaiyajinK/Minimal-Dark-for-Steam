@@ -2436,8 +2436,8 @@ div#headerSearch.friend_activity_header_search {
 
 .profile_content.has_profile_background {
     z-index: 0!important;
-    margin-top: 0px!important;
-    /* padding-top: 0px!important; */
+    margin-top: 0px !important;
+    padding-top: 9px !important;
     backdrop-filter: none !important;
     border-radius: 0px;
     background: transparent !important;
