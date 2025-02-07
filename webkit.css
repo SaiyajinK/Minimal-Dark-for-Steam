@@ -14109,4 +14109,8 @@ h3 {
 	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
+.faq_question {
+    color: var(--minimal_dark_color) !important;
+}
+
 /* end webkit */
