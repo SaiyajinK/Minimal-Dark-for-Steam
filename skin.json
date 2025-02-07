@@ -159,6 +159,20 @@
 			}
 		},
 		
+		"Alternative hover effect for icons menu": {
+		"tab": "Topbar options",
+		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
+		"default": "Filling",
+		"values": {
+			"Filling": {},
+			"Outline": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/alternative_menus_hover_effect.css"
+					}
+				}
+			}
+		},
+		
 		"Community content": {
 		"tab": "Gamepage options",
 		"description": "Hide or show the community content in gamepage (can improve performance if you have a bad pc).",
