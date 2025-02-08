@@ -162,9 +162,9 @@
 		"Alternative hover effect for icons menu": {
 		"tab": "Topbar options",
 		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
-		"default": "Filling",
+		"default": "Fill",
 		"values": {
-			"Filling": {},
+			"Fill": {},
 			"Outline": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/alternative_menus_hover_effect.css"
