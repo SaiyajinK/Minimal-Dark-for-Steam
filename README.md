@@ -54,6 +54,6 @@ I am neither a coder nor a developer, I have some knowledge after several years 
 
 ⭐ Add a star to my directory ! <br>
 💯 It's <ins>free</ins> and it gives me strength because I see that other people like my work. 🫡<br>
-![firefox_zkLiqn1vT8](https://github.com/user-attachments/assets/1e19a4d0-85a1-47c1-a135-fcaa103e2096) <br>
+![firefox_zkLiqn1vT8](https://github.com/user-attachments/assets/bfd45d2b-f5a3-40bf-9e9f-0e656be0b7c8) <br>
 ☕ [Support me on Ko-fi](https://ko-fi.com/saiyajink) <br>
 
