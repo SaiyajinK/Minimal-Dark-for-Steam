@@ -19,6 +19,7 @@ You can arrange the skin however you want with the available customization optio
 
 ### 🛠️ <ins>Recommended Steam settings</ins> : <br>
 ▪ Steam ➡️ `Stable branch`.  <br>
+▪ Steam UI ➡️ `Desktop mode` (Big Picture mode is not supported with this skin).  <br>
 ▪ Steam Settings ➡️ `Library` ➡️ `Display size for library interface elements` ➡️ `Medium`.  <br>
 ▪ Steam settings ➡️ `Contacts and chat` ➡️ `Group contacts by games`. <br>
 
