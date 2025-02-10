@@ -9680,6 +9680,21 @@ button.DialogButton::before {
     transform: scale(0.9) translate(1px, 0px) !important;
 }
 
+.BBCodeYouTubeComponent {
+    background: var(--minimal_dark_blacker_alt2) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner10) !important;
+}
+
+.BBCodeTitle {
+    color: var(--minimal_dark_color) !important;
+}
+
+.html5-video-player:not(.ytp-transparent), .html5-video-player.unstarted-mode, .html5-video-player.ad-showing, .html5-video-player.ended-mode {
+    background-color: var(--minimal_dark_blacker_alt2) !important;
+	border-radius: var(--minimal_dark_corner10) !important;
+}
+
 /* webkit.css */
 * {
 	-webkit-millennium: 1;
@@ -11396,7 +11411,7 @@ body.v6 div#global_header .content {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner10) !important;
     box-shadow: 1px 1px 0 var(--minimal_dark_color) !important;
-	background-color: var(--minimal_dark_blacker) !important;
+	background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
 .community_home_search_players {
@@ -11518,11 +11533,11 @@ div#game_select_suggestions_ctn {
 }
 
 .apphub_CardContentGuideTitle {
-	background-color:var(--minimal_dark_blacker_alt) !important;
+	background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
 input.community_home_search_app_input {
-	background-color:var(--minimal_dark_blacker_alt) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
 .community_home_search_apps_image {
@@ -23600,7 +23615,7 @@ a.general_btn:hover {
 }
 
 input[type=text], input[type=password], input[type=number], select {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid transparent !important;
 }
 
 .manageItemsSort .sort_button i {
@@ -23720,6 +23735,28 @@ h3 {
 }
 
 .faq_question {
+    color: var(--minimal_dark_color) !important;
+}
+
+._3HELOo0qFfDrRZ9Sa1GXeF._2cpBClyttSkWAsgMArc0BM {
+    top: 6px !important;
+}
+
+._3HELOo0qFfDrRZ9Sa1GXeF {
+    left: 6px !important;
+    padding: 6px 6px !important;
+    background-color: rgb(18 18 18 / 40%) !important;
+	backdrop-filter: blur(8px) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-radius: var(--minimal_dark_corner10) !important;
+}
+
+#package_savings_bar {
+    background-color: transparent !important;
+	color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.package_totals_row.highlight, .package_totals_row.highlight .price {
     color: var(--minimal_dark_color) !important;
 }
 
