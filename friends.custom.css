@@ -2312,3 +2312,18 @@ button.DialogButton::before {
 .quickAccessFriends .favoriteElement:hover .friend .avatarHolder img.avatar, .friend.offline:hover .avatarHolder img.avatar, .friend.offline.Friend_ContextMenuActive .avatarHolder img.avatar {
     transform: scale(0.9) translate(1px, 0px) !important;
 }
+
+.BBCodeYouTubeComponent {
+    background: var(--minimal_dark_blacker_alt2) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner5);
+}
+
+.BBCodeTitle {
+    color: var(--minimal_dark_color) !important;
+}
+
+.html5-video-player:not(.ytp-transparent), .html5-video-player.unstarted-mode, .html5-video-player.ad-showing, .html5-video-player.ended-mode {
+    background-color: var(--minimal_dark_blacker_alt2) !important;
+	border-radius: var(--minimal_dark_corner5);
+}
