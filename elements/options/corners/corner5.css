@@ -17706,6 +17706,7 @@ a.account_manage_link.delete_link:active {
 
 body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.DialogTextInputBase:not(:disabled):hover, body.profile_edit_page input.DialogTextInputBase:disabled:hover, body.profile_edit_page input.DialogTextInputBase:focus {
     border-radius: var(--minimal_dark_corner5) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 ._1R-DVEa2yqX0no8BYLtn9N:hover {
