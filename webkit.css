@@ -14145,4 +14145,9 @@ h3 {
     color: var(--minimal_dark_color) !important;
 }
 
+.search_suggest {
+    top: 39px !important;
+    right: 0px !important;
+}
+
 /* end webkit */
