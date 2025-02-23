@@ -1,1 +1,666 @@
+@import url('./elements/config.css');
+@import url('./elements/sidebar.css');
+@import url('./elements/scrollbar.css');
+@import url('./elements/downloads.css');
+@import url('./elements/gamepage.css');
+@import url('./elements/library.css');
+@import url('./elements/overlay.css');
+@import url('./elements/notifications.css');
+@import url('./elements/miniprofile.css');
+@import url('friends.custom.css');
+@import url('webkit.css');
 
+._3IBLc81yyL08OJ7rfKtF00._18zGL1e9n34BrE_eFXryjc:not(._31ZleDJpmmVr6YwR5VLHiu) {
+    background: #121212 !important;
+}
+
+._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._1X4dtbZ_AMX_DXT-SGiK01 {
+    background: #121212 !important;
+}
+
+._3Mp8R2wnoCl6ko0HAX8IHE._3dydsnWmvqlpzBU8cUO3kf:not(.Yk-I2az42lZgbInNlu06r) {
+    opacity: 0 !important;
+}
+
+._30D-80Lg-Luy-KxOumBlaY ._1SRoxsfD-XkekIXfr0ofs3 {
+    background: #121212 !important;
+}
+
+.QNkOtW3xS-yj6LviWHvnd, ._30D-80Lg-Luy-KxOumBlaY {
+    -webkit-mask-image: none !important;
+}
+
+.BasicUI .WYgDg9NyCcMIVuMyZ_NBC.Focusable:focus {
+    outline: 2px solid var(--SystemAccentColor) !important;	
+}
+
+._3eEbSktrstBdLk0dVpnKVI.gpfocus {
+	background-color: #121212 !important;
+    border: 1px solid var(--SystemAccentColor) !important;
+    color: var(--SystemAccentColor) !important;
+}
+
+._3eEbSktrstBdLk0dVpnKVI.gpfocus ._1ui4IlLDo2hf32UFCezr1t {
+    color: var(--SystemAccentColor) !important;
+}
+
+.P_AlEAb9tP0lcq1K5lA_z {
+    background: #121212 !important;
+}
+
+.BasicUI ._1LJqx_qFOC8199RBQO5kU8 {
+    margin-top: -60px !important;
+    border-radius: 0px !important;
+}
+
+._3F4YRi5x8CjExTV0rOdSL-._1l8jsSJRozEnzlhm5Q2m7U {
+    background-color: #191919 !important;
+}
+
+._17M8gvakqjyaw_cLo6ntdl ._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U {
+    color: var(--SystemAccentColor) !important;
+}
+
+._3YYQ98HSj-wh5uljwl12bW ._3bvCHoWj4rDdZr3mnKlXaf {
+    background: #191919 !important;
+    border: 1px solid #262626 !important;
+}
+
+._3bvCHoWj4rDdZr3mnKlXaf._1HIFNGSxh4-jOhPiDynR4C.Panel.Focusable.gpfocus.gpfocuswithin {
+    color: var(--SystemAccentColor) !important;
+}
+
+._2a1-sPpExCp24Q8dfImB0a.gpfocus, ._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F ._2a1-sPpExCp24Q8dfImB0a {
+    color: var(--SystemAccentColor) !important;
+    caret-color: var(--SystemAccentColor) !important;
+}
+
+._2KhPXikozxMpbIRo_6jPxW {
+    background-color: #191919 !important;
+}
+
+._1whNsra3e-PuFW0jR1OI-l._3UFQq1GinEyksceos-TETi, ._1whNsra3e-PuFW0jR1OI-l:hover, .B40DvkTvaDfC6yoDIOGa7._3UFQq1GinEyksceos-TETi, .B40DvkTvaDfC6yoDIOGa7:hover, ._2KhPXikozxMpbIRo_6jPxW._3UFQq1GinEyksceos-TETi, ._2KhPXikozxMpbIRo_6jPxW:hover {
+    color: var(--SystemAccentColor) !important;
+}
+
+._2KhPXikozxMpbIRo_6jPxW {
+    background-color: #191919 !important;
+    border: 1px solid #262626 !important;
+}
+
+._2KhPXikozxMpbIRo_6jPxW:hover {
+    background-color: #262626 !important;
+    border: 1px solid var(--SystemAccentColor) !important;
+}
+
+._2KhPXikozxMpbIRo_6jPxW._21EoN2ZlmHNY3fjho_HMae {
+    background-color: #262626 !important;
+    color: var(--SystemAccentColor) !important;
+	border: 1px solid var(--SystemAccentColor) !important;
+}
+
+._2KhPXikozxMpbIRo_6jPxW._21EoN2ZlmHNY3fjho_HMae ._3FZukK3yuHnaZ_X3yujMNS {
+    color: var(--SystemAccentColor) !important;
+}
+
+._2KhPXikozxMpbIRo_6jPxW._21EoN2ZlmHNY3fjho_HMae img {
+    filter: invert(0) !important;
+}
+
+.Oel3OSshpNqQ5hIOrC1Z5 {
+    background: #121212 !important;
+}
+
+._45rH7-kY4P2uVEb3TxZhm {
+    background: #121212 !important;
+}
+
+._2HnVd7wV6yVaTiXfrBe3gq.gpfocus, ._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin {
+    background: #191919 !important;
+    color: var(--SystemAccentColor) !important;
+}
+
+._2FqpD91Xarb7f0uIOuXFOR._2msTK3-o4cp9CtotjGbijT {
+    background: #121212 !important;
+}
+
+.eKmEXJCm_lgme24Fp_HWt._2HFrmMgB38Ike5w4rVxzEX.gpfocus, .eKmEXJCm_lgme24Fp_HWt._2HFrmMgB38Ike5w4rVxzEX.gpfocuswithin, .eKmEXJCm_lgme24Fp_HWt._2HuzvKQ2QMUJ-JJOeApaF1:not(.aIeh3X5T2M074RLW1qn6_):hover {
+    background: #191919 !important;
+    color: var(--SystemAccentColor) !important;
+}
+
+.gpfocus ._3g-QHB82IGz91Hsk1Hw4lh {
+    color: var(--SystemAccentColor) !important;
+}
+
+.eKmEXJCm_lgme24Fp_HWt button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, .eKmEXJCm_lgme24Fp_HWt button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.gpfocus, .eKmEXJCm_lgme24Fp_HWt button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.gpfocus, .eKmEXJCm_lgme24Fp_HWt button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.gpfocus {
+    box-shadow: none !important;
+    border: 1px solid var(--SystemAccentColor) !important;
+    background: #191919 !important;
+}
+
+.eKmEXJCm_lgme24Fp_HWt.gpfocuswithin ._2bl0iQ9xigbq4Zd1NI6NZl {
+    background: #191919 !important;
+    box-shadow: inset 0px 0px 8px black !important;
+}
+
+._9Ql-oVe_j8E-vsDdyVdWo.gpfocus:after {
+    background-color: var(--SystemAccentColor) !important;
+}
+
+._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS ._2bl0iQ9xigbq4Zd1NI6NZl::before {
+    transform: translateX(-11px);
+    background: var(--SystemAccentColor) !important;
+}
+
+button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq svg {
+    color: var(--SystemAccentColor) !important;
+}
+
+button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3wadwgMy2-9k8uOKh3iSdT {
+    color: var(--SystemAccentColor) !important;
+}
+
+button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3Wb9yDmYPUJksCr7HmaT9H {
+    color: var(--SystemAccentColor) !important;
+}
+
+button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._35ztZulp_gETT1gOElpfvK {
+    color: var(--SystemAccentColor) !important;
+}
+
+button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.Primary {
+    border: 1px solid #262626 !important;
+}
+
+._34o03-8cUc3fQX1u650c0L {
+    background: #121212 !important;
+}
+
+._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL {
+    background: #121212 !important;
+}
+
+._34o03-8cUc3fQX1u650c0L._3fVa8M_7D9Vjz28uYnahhd {
+    background: #121212 !important;
+}
+
+._34o03-8cUc3fQX1u650c0L.contextMenuItem.Panel.Focusable._2XVTVAadkIvrBujZYN5jbL.gpfocus.gpfocuswithin {
+    background: #191919 !important;
+	color: var(--SystemAccentColor) !important;
+}
+
+.BasicUI ._1E_SL1bTibeQ3PQRBZoS_- {
+    background: #121212 !important;
+}
+
+.BasicUI .DialogTextInputBase {
+    border: 1px solid #262626 !important;
+}
+
+input._3ZR32BdxJUNwAA6Fu6n00p.DialogInput.DialogInputPlaceholder.DialogTextInputBase.k7KsbBRLD0Sihk1sWUmV9.Focusable.gpfocus.gpfocuswithin {
+    border: 1px solid var(--SystemAccentColor) !important;
+}
+
+._3ZR32BdxJUNwAA6Fu6n00p.gpfocus, ._3ZR32BdxJUNwAA6Fu6n00p.gpfocus:hover {
+    color: var(--SystemAccentColor) !important;
+}
+
+._1_dNU-dTc7OThSdcgh65Sv {
+    background-color: #121212 !important;
+}
+
+button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover:active {
+    box-shadow: none !important;
+    border: 1px solid var(--SystemAccentColor) !important;
+    color: var(--SystemAccentColor) !important;
+    background: #191919 !important;
+}
+
+._2mL2HfT5AkDXRi1YBnRWKa {
+    background: #121212 !important;
+}
+
+._2mL2HfT5AkDXRi1YBnRWKa:focus {
+    background: #191919 !important;
+    color: var(--SystemAccentColor) !important;
+}
+
+._1wPplsegQqCoe06wXPhzKT {
+    outline: 2px solid var(--SystemAccentColor) !important;
+}
+
+._3eEbSktrstBdLk0dVpnKVI.KFGEkx9yKpW3Mu7w_6vzn.Panel {
+    border: 1px solid #262626 !important;
+    background: #121212 !important;
+}
+
+._3eEbSktrstBdLk0dVpnKVI._3Gp1bACHx__POxmy6Gd3kG.KFGEkx9yKpW3Mu7w_6vzn.Panel.Focusable.gpfocus.gpfocuswithin {
+    border: 1px solid var(--SystemAccentColor) !important;
+}
+
+._6TGe7-X6PrRRyqOPxNwRd {
+    background-color: #191919 !important;
+}
+
+._1ltOYJptYZnLaTp-eGyMdq {
+    border: 1px solid #262626 !important;
+}
+
+.BasicUI ._3OC7iN2ubQiHWLB7r6Bugz {
+    background: #191919 !important;
+    border: 1px solid #262626 !important;
+}
+
+.fXdhjvKWFQqnjxUzju3jk ._3-GyQfKnKaWozIRLOw4BjY {
+    background-color: #191919 !important;
+}
+
+.fXdhjvKWFQqnjxUzju3jk {
+    border: 1px solid #262626 !important;
+}
+
+._28UlEb2LlG5AHd2ifU3SX {
+    border: 1px solid #262626 !important;
+}
+
+.BasicUI ._2E7G8grj_-tgxXbTXs1t2E {
+    background-color: #121212 !important;
+    border: 1px solid #262626 !important;
+}
+
+._3eEbSktrstBdLk0dVpnKVI._3Gp1bACHx__POxmy6Gd3kG {
+    color: var(--SystemAccentColor) !important;
+}
+
+._3sUwukdeKdKRTojXu4I3ga {
+    background: linear-gradient(90deg, var(--SystemAccentColor) 0%, rgba(12,12,12,0) 75%, rgba(12,12,12,0) 100%) !important;
+    margin: 0px !important;
+    background-color: #121212 !important;
+}
+
+._3LYP1SIxyoky-yW9Ug_1fq.b084mAvY8rgVMr3H04g9g {
+    background: #121212 !important;
+}
+
+._2ssr3-L3TQNdrX6NI1-Gzn ._1PbL3TgQGIsmPs2HZkpCkb .vo3Tt3EsYkcybM5oKH4Lq .AK_Ax_siTCH1_LT3APMlx {
+    background-color: var(--SystemAccentColor) !important;
+}
+
+.lqhIkQ_wpSeJd6Y8bYFCo ._2neyMP841w6Hpbx1y_-nOs {
+    padding-top: 0px !important;
+    transform: scale(1) !important;
+}
+
+.GamepadMode ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus.right {
+    transform: translate(-2px, 0px) !important;
+    width: 33px !important;
+    height: 32px !important;
+}
+
+._1-SwyZw8fv8r23--767UPK.gpfocuswithin {
+    background-color: #191919 !important;
+}
+
+.fyHnacqM-lF0eryq8p9s9 {
+	left: 12px !important;
+    background-color: #1212128c !important;
+	backdrop-filter: blur(8px) !important;
+    color: white !important;
+    border: 1px solid var(--SystemAccentColor) !important;
+}
+
+.fyHnacqM-lF0eryq8p9s9 ._2PVquZ90GYZB4EY1g3HQMN {
+    fill: white !important;
+}
+
+.GamepadMode ._3gKVIcKUF9yFcIcbYk7IWt ._3H_re9kkvjuVv6RCWrSxf {
+    transform: scale(.8) translate(-3px, -6px) !important;
+    height: 20px !important;
+    width: 20px !important;
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+}
+
+.GamepadMode ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
+    height: 100% !important;
+    width: 100% !important;
+    left: -1px !important;
+    top: 1px !important;
+}
+
+._1-U1GFF2TSG-3rvKnKM74M ._1MrDS_niy0eiKsFLXIt6Pg {
+    background-color: #191919 !important;
+    border: 1px solid #262626 !important;
+}
+
+._3SLpz33ty60g8fHC45oizM, .MVc_6PBifixTWvYe6d-sS {
+    background-color: #191919 !important;
+    border: 1px solid #262626 !important;
+}
+
+.MVc_6PBifixTWvYe6d-sS.Panel.Focusable.gpfocus.gpfocuswithin {
+    color: var(--SystemAccentColor) !important;
+}
+
+.BasicUI .UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl {
+    background: #121212 !important;
+}
+
+._3jFOApJSzNL-_p65_jlmX6 {
+    background: #121212 !important;
+}
+
+.BasicUI .yJLy7HDLJT44C1fcm6lPI {
+    background: #121212 !important;
+}
+
+.BasicUI ._1OYOtnizQRw4vaYm_q8Oul {
+    background: #121212 !important;
+}
+
+.BasicUI ._1pdQdoLxwmuMZpXXNHI2Uo {
+    background: #121212 !important;
+}
+
+.rRIYiTtpDYzW3EQ2BH-Kw {
+    border: 1px solid #262626 !important;
+}
+
+.friendListHeaderContainer.GamepadMode, .GamepadMode .friendListHeaderContainer {
+    background-color: #121212 !important;
+    box-shadow: none !important;
+}
+
+.GamepadMode.friendlist .FriendsListSteamDeckTopSection {
+    background-color: #121212 !important;
+}
+
+.GamepadMode.friendlist .FriendsListTabPanelContainer {
+    background: #121212 !important;
+}
+
+.chatDialogs .emptyChatDialogs.GamepadMode, .GamepadMode .chatDialogs .emptyChatDialogs {
+    color: var(--SystemAccentColor) !important;
+    background: #121212 !important;
+}
+
+.friend.quickAccessFriend.GamepadMode, .GamepadMode .friend.quickAccessFriend {
+    min-width: auto !important;
+    width: 260px !important;
+	padding-left: 7px !important;
+}
+
+.favoriteElement.Panel.Focusable.gpfocus.gpfocuswithin {
+    background: #262626 !important;
+}
+
+.friend .labelHolder.GamepadMode, .GamepadMode .friend .labelHolder {
+    margin-left: 0px !important;
+}
+
+.GamepadMode.friendlist .FriendsListTab.Active svg path {
+    stroke: var(--SystemAccentColor) !important;
+    fill: var(--SystemAccentColor) !important;
+}
+
+.GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton.gpfocus {
+    background-color: #262626 !important;
+    color: var(--SystemAccentColor) !important;
+}
+
+.GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton.gpfocus, .GamepadMode.friendlist .TabPanelHeader .AddFriendButton.gpfocus, .GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton.gpfocus {
+    background-color: #262626 !important;
+    color: var(--SystemAccentColor) !important;
+}
+
+.GamepadMode.friendlist .FriendsListTab.gpfocus svg path {
+    stroke: var(--SystemAccentColor) !important;
+    fill: var(--SystemAccentColor) !important;
+}
+
+.FriendsListAndChatsSteamDeck .SteamDeckChats {
+    background: #121212 !important;
+}
+
+.multiChatDialog.GamepadMode.gpfocuswithin, .GamepadMode .multiChatDialog.gpfocuswithin {
+    background: #121212 !important;
+}
+
+.multiChatDialog.GamepadMode, .GamepadMode .multiChatDialog {
+    background: #121212 !important;
+}
+
+.ChatHistorySelector {
+    background: #191919 !important;
+}
+
+.msg._3qYm9oxf8MdyvQDJgbfCrF.Panel.Focusable.gpfocus.gpfocuswithin {
+    background: #191919 !important;
+    border: 1px solid #262626 !important;
+}
+
+._3-PbkfKv5iI-_arCCwDSNK ._356i2cRNfZnSGd79JSqaRr .labelHolder.GamepadMode, .GamepadMode ._3-PbkfKv5iI-_arCCwDSNK ._356i2cRNfZnSGd79JSqaRr .labelHolder {
+    margin-left: 11px !important;
+}
+
+.FriendPicker .FriendPickerFriendList.GamepadMode.gpfocus, .GamepadMode .FriendPicker .FriendPickerFriendList.gpfocus {
+    background: #191919 !important;
+}
+
+.FriendPicker_SuggestedFriend.gpfocus .friend {
+    background: #191919 !important;
+}
+
+._113iuw_HlE_qSgt9cGWCSv.GamepadMode.gpfocus, .GamepadMode ._113iuw_HlE_qSgt9cGWCSv.gpfocus {
+    border: 1px solid var(--SystemAccentColor) !important;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends.GamepadMode, .GamepadMode .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
+    border-top: 1px solid #262626 !important;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends.GamepadMode, .GamepadMode .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
+    border-top: 1px solid #262626 !important;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.ingameFriends.GamepadMode, .GamepadMode .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
+    border-top: 1px solid #262626 !important;
+}
+
+html.tablet .profile_small_header_bg {
+    background-color: #121212 !important;
+}
+
+html.tablet #main_content .two_column.left {
+    background-color: #121212 !important;
+}
+
+html.tablet .account_manage_link.gpfocus, html.tablet .account_manage_checkbox.gpfocus {
+    color: var(--SystemAccentColor) !important;
+}
+
+html.tablet .account_manage_link {
+    color: white !important;
+}
+
+html.tablet .delete_link.gpfocus {
+    background: #f12446 !important;
+    color: white !important;
+}
+
+html.tablet .two_column .nav_item.gpfocus {
+    background-color: #191919 !important;
+    color: var(--minimal_dark_color) !important;
+    border-left: 6px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+.gpfocus ._2yuwUNFQ2ww14fydp8mCYB {
+    outline: 2px solid var(--SystemAccentColor) !important;
+    background: #121212 !important;
+}
+
+.mKmrOjr9bGjKAolgp9NoD {
+    background: #121212 !important;
+}
+
+._32mHvRSmD7AVK9OIOPlaFu.GamepadMode, .GamepadMode ._32mHvRSmD7AVK9OIOPlaFu {
+    background: #121212 !important;
+}
+
+._3_SEiDNs-lzwV7cTF6gcgt ._3z2NYCkFizMu4fMvWTIBUG {
+    background: #121212 !important;
+}
+
+._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c.rHz7G5xZ3qXUYUcBW2bzX {
+    border: 1px solid #262626 !important;
+}
+
+._394j7ePdMBWfyCIZbfS0Ju._21EoN2ZlmHNY3fjho_HMae {
+    background-color: var(--SystemAccentColor) !important;
+    color: white !important;
+}
+
+._394j7ePdMBWfyCIZbfS0Ju {
+    background-color: #191919 !important;
+    color: white !important;
+	transition: .25s ease-out !important;
+}
+
+._21EW_imp2Bl3g32V1Fycsp._202u02y5al37j4r_m-FjyF {
+    border: 2px solid #262626 !important;
+}
+
+.BasicUI .QsZdWtHTlIK9KIKbscNTt {
+    background: transparent !important;
+}
+
+.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX {
+    min-width: auto !important;
+}
+
+.BasicUI ._3ydigb6zZAjJ0JCDgHwSYA {
+    min-width: auto !important;
+}
+
+._5uvIN6jXDXzzck59F-nhv {
+    background: #121212 !important;
+}
+
+._3Ag1wVkrYOaZyOUNWGLf3Y {
+    background: #121212 !important;
+}
+
+._32AONYfEkmb0E6cwY31wPP.oIVg-eNHeYCNPq0blN3Dk {
+    background: #121212 !important;
+}
+
+.V0cr-SAnDhzAWmPZdrJQJ {
+    background: #121212 !important;
+}
+
+._3Ag1wVkrYOaZyOUNWGLf3Y::after {
+    background: #262626 !important;
+}
+
+._34nl5vUoFCDYYnmHNL7axB {
+    background: #121212 !important;
+    box-shadow: 0 0 7px 12px #121212 !important;
+	color: var(--virtualmenu-accent) !important;
+}
+
+._1S76C3gQf4oOTbLdTMVH0m._2QHMua1-KysYKpszTPAW_O.Panel.Focusable.gpfocus.gpfocuswithin {
+    background-color: #191919 !important;
+    color: var(--virtualmenu-accent) !important;
+}
+
+.gpfocus ._1S76C3gQf4oOTbLdTMVH0m, ._1S76C3gQf4oOTbLdTMVH0m.gpfocus {
+    background: #262626 !important;
+    color: var(--virtualmenu-accent) !important;
+}
+
+._1S76C3gQf4oOTbLdTMVH0m._2QHMua1-KysYKpszTPAW_O {
+    background-color: #191919 !important;
+    color: var(--virtualmenu-accent) !important;
+}
+
+#QuickAccess-Menu .GamepadMode.friendlist .FriendsListSteamDeckTopSection {
+    background: #121212 !important;
+}
+
+.GamepadMode.friendlist .FriendsListTabPanelContainer.QuickAccess {
+    background: #121212 !important;
+}
+
+.GamepadMode.friendlist .FriendsListTab.gpfocus {
+    color: var(--virtualmenu-accent) !important;
+}
+
+.GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton.gpfocus {
+    background-color: #262626 !important;
+    color: var(--virtualmenu-accent) !important;
+}
+
+.GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton.gpfocus, .GamepadMode.friendlist .TabPanelHeader .AddFriendButton.gpfocus, .GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton.gpfocus {
+    background-color: #262626 !important;
+    color: var(--virtualmenu-accent) !important;
+}
+
+button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.Primary {
+    background: #191919 !important;
+    border: 1px solid #262626 !important;
+}
+
+button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover:active {
+    background: #191919 !important;
+    color: var(--virtualmenu-accent) !important;
+    border: 1px solid var(--virtualmenu-accent) !important;
+}
+
+.eKmEXJCm_lgme24Fp_HWt._2HFrmMgB38Ike5w4rVxzEX.gpfocus, .eKmEXJCm_lgme24Fp_HWt._2HFrmMgB38Ike5w4rVxzEX.gpfocuswithin, .eKmEXJCm_lgme24Fp_HWt._2HuzvKQ2QMUJ-JJOeApaF1:not(.aIeh3X5T2M074RLW1qn6_):hover {
+    background: transparent !important;
+}
+
+._9Ql-oVe_j8E-vsDdyVdWo.gpfocus:after {
+    background-color: var(--virtualmenu-accent) !important;
+}
+
+.KLo2nZeTMZykCUGVlKsab {
+    background-color: #191919 !important;
+    border: 1px solid #262626 !important;
+}
+
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus {
+    background-image: radial-gradient(circle, rgba(2, 0, 36, 0) 10%, rgba(26, 159, 255, 0.25) 100%) !important;
+    border: 1px solid #1a9fff !important;
+    transform: scale(0.75, 0.75) translate(0px, 3px) !important;
+    box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 40%) !important;
+    border-radius: var(--minimal_dark_corner0) !important;
+    transition: .25s ease-out !important;
+}
+
+.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus {
+    background: #59bf40;
+    position: relative;
+    color: #fff;
+    background-image: radial-gradient(circle, rgba(2, 0, 36, 0) 10%, #06e39d40 100%) !important;
+    border: 1px solid #06e39d !important;
+    transform: scale(0.75, 0.75) translate(0px, 3px) !important;
+    border-radius: var(--minimal_dark_corner0) !important;
+    box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 40%) !important;
+    transition: .25s ease-out !important;
+}
+
+.BasicUI ._3qDWQGB0rtwM3qpXTb11Q-:focus svg {
+    color: var(--SystemAccentColor) !important;
+}
+
+.UAhWiMg9Q2VPsQQBj_ikT ._16quGbk-i_9yE-tFyyOK8G ._25YVDTaClw6Y2COPsU0UaV {
+    background: #121212 !important;
+    border: 1px solid #262626 !important;
+}
+
+.BasicUI ._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6 {
+    background-color: var(--SystemAccentColor) !important;
+}
