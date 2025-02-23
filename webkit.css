@@ -7318,6 +7318,15 @@ a:hover {
     border-bottom-right-radius: var(--minimal_dark_corner5);
 	border-top-left-radius: var(--minimal_dark_corner5);
 	border-top-right-radius: var(--minimal_dark_corner5);
+	top: -9px !important;
+}
+
+#NamePopup #NamePopupAliases {
+    padding: 12px 12px !important;
+}
+
+#NamePopup #NamePopupAliases p {
+    display: table-header-group !important;
 }
 
 body.v6 .store_nav #genre_flyout .popup_menu_subheader.reduced_vspace {
