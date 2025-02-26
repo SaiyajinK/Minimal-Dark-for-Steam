@@ -52,7 +52,7 @@ I am neither a coder nor a developer, I have some knowledge after several years 
 
 <hr>
 
-### 🌌 Do you like my work ? <br>
+### 🌌 <ins>Do you like my work</ins> ? <br>
 
 ⭐ Add a star to my directory ! <br>
 💯 It's <ins>free</ins> and it gives me strength because I see that other people like my work. 🫡<br>
