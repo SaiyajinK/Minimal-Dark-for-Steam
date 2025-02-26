@@ -1567,3 +1567,9 @@ button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
 ._1J21tLst5SEhBPkVRT53UV {
     padding-bottom: 10px !important;
 }
+
+._3qDWQGB0rtwM3qpXTb11Q-._21hXW2oDD7zvNsoOaW7Yob svg path:hover {
+    stroke: var(--minimal_dark_red2) !important;
+    stroke-width: 16px;
+    fill: var(--minimal_dark_red2) !important;
+}
