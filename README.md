@@ -8,7 +8,7 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 You can arrange the skin however you want with the available customization options in Minimal Dark settings in Millennium. <br>
 ### 📸 <ins>Screenchots</ins> : <br>
-<p align="left"><img src="https://github.com/user-attachments/assets/563e9551-f7ca-49f1-adfa-cdcdc5df7cda" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/e5e8696a-27d4-4d3e-931c-a33cf0cda933" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/93e31132-4120-4eac-ad51-aafc558e52b6" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/e294d097-d33e-4d22-ae9d-6aedd7adb745" width="150" height="95"></p>
+<p align="left"><img src="https://github.com/user-attachments/assets/320476d4-e530-4877-ac43-988cbddd12f1" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/720d1a71-7c28-403a-a234-67cc7b29d548" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/004e4f04-8ef6-422f-a70e-4876a6f64afa" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/8ea95d1e-fa95-4bd5-a724-074d7ce600fa" width="150" height="95"></p>
 
 ### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
 1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
@@ -24,6 +24,7 @@ You can arrange the skin however you want with the available customization optio
 ▪ Steam settings ➡️ `Contacts and chat` ➡️ `Group contacts by games`. <br>
 
 <hr>
+
 
 ### 🪛 <ins>Tools used</ins> : <br>
 ▪ [Color picker](https://htmlcolorcodes.com/color-picker/) <br>
