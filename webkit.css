@@ -7318,7 +7318,7 @@ a:hover {
     border-bottom-right-radius: var(--minimal_dark_corner5);
 	border-top-left-radius: var(--minimal_dark_corner5);
 	border-top-right-radius: var(--minimal_dark_corner5);
-	top: -9px !important;
+	/* top: -9px !important; */
 }
 
 #NamePopup #NamePopupAliases {
@@ -14148,6 +14148,11 @@ h3 {
 .search_suggest {
     top: 39px !important;
     right: 0px !important;
+}
+
+._1cOoCFwafBlSkwllIMf3XM, ._1FPIVJTLsw1nvAN24BGGKg {
+    border: none !important;
+    background: transparent !important;
 }
 
 /* end webkit */
