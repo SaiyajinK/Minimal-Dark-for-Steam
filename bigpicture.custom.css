@@ -780,3 +780,11 @@ html.tablet .community_recommendation_app {
 html.tablet .carousel_container.maincap .info {
     background: #121212 !important;
 }
+
+.focusring_FocusRing_1qc7- {
+    position: absolute;
+    pointer-events: none;
+    outline-offset: 2px;
+    outline: 2px solid var(--SystemAccentColor) !important;
+    animation: focusring_flash_3Povi .5s ease,focusring_growOutline_19VEv .4s ease,focusring_fadeOutline_1P7qV .4s ease,focusring_blinker_1IQZn 1.2s ease-in-out .4s 20;
+}
