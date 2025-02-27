@@ -10417,6 +10417,71 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.
     background: #121212 !important;
 }
 
+.Oo5JPcEk_erKEYAzYp2nY.gkgG-dWgjpwS_aqlcMNTM {
+    background: var(--SystemAccentColor) !important;
+}
+
+.Oo5JPcEk_erKEYAzYp2nY {
+    background: #191919 !important;
+}
+
+._34o03-8cUc3fQX1u650c0L._3-IFyrv9R_fZqALBsjlUS5.OQmT6NKuekm5HuXQnkl2a {
+    color: var(--SystemAccentColor) !important;
+}
+
+.Oo5JPcEk_erKEYAzYp2nY._2-svusNL8L22pzjYeV4GMS {
+    color: var(--SystemAccentColor) !important;
+}
+
+.Oo5JPcEk_erKEYAzYp2nY.gkgG-dWgjpwS_aqlcMNTM.Panel.Focusable._2-svusNL8L22pzjYeV4GMS.gpfocus.gpfocuswithin {
+    color: white !important;
+}
+
+.gNwozyl1BAcDyyhUKvx1Y._3UfINfoarLdX2Cbx22cWNf {
+    background: #121212 !important;
+}
+
+._1d6VIquCc410kNE7rDAje6 {
+    background: #121212 !important;
+}
+
+.BasicUI ._373v1eWNyaPKhgnea9FZSt ._3Mbhnlk1Go2j8yCdjthzc7 {
+    background-color: #121212 !important;
+}
+
+._21P7c4MWmsU2QSZeL-uyZo.gpfocus ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled svg {
+    color: var(--SystemAccentColor) !important;
+}
+
+._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR {
+    background-color: #121212 !important;
+    border: 1px solid #262626 !important;
+}
+
+html.tablet .pill_tab_menu_item:hover, html.tablet .pill_tab_menu_item:active, html.tablet .pill_tab_menu_item.active {
+    background-color: #191919 !important;
+    color: var(--SystemAccentColor) !important;
+    border: 1px solid #262626 !important;
+}
+
+html.tablet .pill_tab_menu_item:focus, html.tablet .pill_tab_menu_item.gpfocus {
+    background-color: #262626 !important;
+    color: var(--SystemAccentColor) !important;
+    border: 1px solid var(--SystemAccentColor) !important;
+}
+
+html.tablet .big_button.gpfocus {
+    color: var(--SystemAccentColor) !important;
+}
+
+html.tablet .community_recommendation_app {
+    background-color: #121212 !important;
+}
+
+html.tablet .carousel_container.maincap .info {
+    background: #121212 !important;
+}
+
 /* webkit.css */
 * {
 	-webkit-millennium: 1;
