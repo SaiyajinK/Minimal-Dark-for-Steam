@@ -19,18 +19,21 @@ You can arrange the skin however you want with the available customization optio
 
 ### 🛠️ <ins>Recommended Steam settings</ins> : <br>
 ▪ Steam ➡️ `Stable branch`.  <br>
-▪ Steam UI ➡️ `Desktop mode` (Big Picture mode is partially supported with this skin for the moment, look [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/issues/71)).  <br>
 ▪ Steam settings ➡️ `Library` ➡️ `Display size for library interface elements` ➡️ `Medium`.  <br>
 ▪ Steam settings ➡️ `Contacts and chat` ➡️ `Group contacts by games`. <br>
+▪ Steam UI ➡️ : <br>
+- `Desktop mode` (fully functional)  <br>
+- `Big Picture mode` (the skin is largely created for the big picture mode, but there is persistants problems, look [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/issues/71)).  <br>
 
 <hr>
-
 
 ### 🪛 <ins>Tools used</ins> : <br>
 ▪ [Color picker](https://htmlcolorcodes.com/color-picker/) <br>
 ▪ [ColorSpace](https://mycolor.space) <br>
 ▪ [CSS Gradient](https://cssgradient.io/) <br>
 ▪ [Free SVG collection](https://thenounproject.com/) <br>
+
+<hr>
 
 ### 📃 <ins>Open Source References</ins> : <br>
 ▪ Credits to [Rose's Metro for Steam](https://github.com/RoseTheFlower) for the initial base of the theme and the inspiration it gave me. <br>
@@ -45,8 +48,7 @@ Minimal Dark is a personalized and customizable minimal theme for the new Steam 
 I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
 All the sources and tools I used are at the bottom of the description. <br>
 
-I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. Be understanding if you encounter any bugs. <br>
-<br> ➖ <br><br>
+I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. Be understanding if you encounter any bugs. <br><br>
 ⚠️ Minimal Dark is a completely <ins>free skin</ins>.  <br>
 💲 If someone pretends to be me and asks you for money to get the skin, it is a fraud. <br>
 
