@@ -23,7 +23,7 @@ You can arrange the skin however you want with the available customization optio
 ▪ Steam settings ➡️ `Contacts and chat` ➡️ `Group contacts by games`. <br>
 ▪ Steam UI ➡️ : <br>
 - `Desktop mode` (fully functional)  <br>
-- `Big Picture mode` (the skin is largely created for the big picture mode, but there is persistants problems, look [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/issues/71)).  <br>
+- `Big Picture mode` (the skin is largely created for the bp mode, but there is persistants problems, look [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/issues/71)).  <br>
 
 <hr>
 
