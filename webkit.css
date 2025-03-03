@@ -14155,4 +14155,22 @@ h3 {
     background: transparent !important;
 }
 
+._1MwNf8slOG9lOvAeOshmuu._1ruRSreC31IK4kUGUcSRDK {
+    background: radial-gradient(156.1% 79.95% at 10.31% 0%, #191919 0%, #121212 100%) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner5);
+}
+
+.apphub_ProgressBarBG {
+    background-color: #000000;
+    border: 2px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+    box-shadow: inset 0 0 8px #000000c2 !important;
+    border-radius: var(--minimal_dark_corner5);
+}
+
+.apphub_ProgressBar {
+    background-color: var(--minimal_dark_color) !important;
+}
+
 /* end webkit */
