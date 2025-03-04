@@ -1473,11 +1473,13 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 
 ._6f_B5nDywKxTeX2mN82H {
     border: 1px solid var(--minimal_dark_be_grey) !important;
-	margin: 2px 1px !important;
+    margin: 2px 1px !important;
+    border-radius: var(--minimal_dark_corner5);
 }
 
 ._6f_B5nDywKxTeX2mN82H:hover {
     border: 1px solid var(--minimal_dark_color) !important;
+	border-radius: var(--minimal_dark_corner5);
 }
 
 ._2cI0LExX5UtjoTq7F6CTwY {
