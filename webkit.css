@@ -14173,4 +14173,25 @@ h3 {
     background-color: var(--minimal_dark_color) !important;
 }
 
+.profile_award {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner5);
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
+}
+
+.profile_award:hover {
+    background-color: var(--minimal_dark_blacker) !important;
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner5);
+    border: 1px solid var(--minimal_dark_black) !important;
+	border-bottom: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+.profile_awards_header_title, .profile_awards_header_subtitle {
+    color: var(--minimal_dark_color) !important;
+}
+
 /* end webkit */
