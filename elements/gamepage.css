@@ -256,11 +256,6 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe:hover {
     cursor: pointer;
 }
 
-.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:active {
-    background-color: transparent;
-    cursor: pointer;
-}
-
 button.DialogButton._3Cdin80d-hVsakHUZboheb.Q7tULXy1gQNG1eU--hN27:hover {
     background-color: var(--minimal_dark_blacker);
     color: #fff;
@@ -418,7 +413,17 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 
 ._1EC1xjjUGqI7fqX6PVzJA3:hover {
     background-color: var(--minimal_dark_invisiblegrey);
-    color: #fff;
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+._1EC1xjjUGqI7fqX6PVzJA3:active {
+    background-color: var(--minimal_dark_invisiblegrey);
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
 }
 
 ._2ECxA7DssltvN31qKFJTTn:active {
@@ -475,6 +480,8 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
     color: white;
     border-radius: var(--minimal_dark_corner5);
     transform: scale(0.9);
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
 }
 
 ._2Jkk-4RGWzhce22lSnA9Em._32G01cdyGED_NiCadEgWAL {
@@ -1312,19 +1319,23 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
     padding: 2px 12px 2px 12px !important;
     border-radius: var(--minimal_dark_corner5);
     border: 1px solid var(--minimal_dark_invisiblegrey) !important;
-	transition: .3s ease-out !important;
+	transition: .25s ease-out !important;
 }
 
 .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover {
     padding: 2px 12px 2px 12px !important;
     border-radius: var(--minimal_dark_corner5);
     border: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:active {
     padding: 2px 12px 2px 12px !important;
     border-radius: var(--minimal_dark_corner5);
     border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+    box-shadow: inset 0 0 8px #000000c2 !important;
+	background-color: transparent;
+	transition: .25s ease-out !important;
 }
 
 ._31ptFGGMZrSQc5BCX1e5lm._2G5B7o_YoI__u11--EFjal {
@@ -1574,4 +1585,13 @@ button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
     stroke: var(--minimal_dark_red2) !important;
     stroke-width: 16px;
     fill: var(--minimal_dark_red2) !important;
+}
+
+._316Uo4SBrQ_beBdSYn2HNO:hover ._3P6m0b3rS21-CubUCoaptG .g5fuBl7jK6RfEOEeVv3Dy, ._316Uo4SBrQ_beBdSYn2HNO.gpfocus ._3P6m0b3rS21-CubUCoaptG .g5fuBl7jK6RfEOEeVv3Dy {
+    color: var(--minimal_dark_color) !important;
+    background: transparent !important;
+    backdrop-filter: blur(8px) !important;
+    height: 68px !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+    transform: translate(0px, -15px) !important;
 }
