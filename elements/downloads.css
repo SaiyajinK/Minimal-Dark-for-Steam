@@ -182,11 +182,18 @@ button.DialogButton::before {
 }
 
 .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T.d9VKGABvFZQGmdqtaicMo, .IbePLaw-vSvhG1GTenYFg .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T.d9VKGABvFZQGmdqtaicMo:has(._3-SbBb63lDnu6LzKV-q3Cg) {
-    border: none !important;
-    background: var(--minimal_dark_color) !important;
-	opacity: .25 !important;
+    border: 2px solid var(--minimal_dark_color) !important;
+    background: var(--minimal_dark_blacker) !important;
+	opacity: 1 !important;
+	color: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 ._373v1eWNyaPKhgnea9FZSt {
     height: 250px !important;
+}
+
+.OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T, .IbePLaw-vSvhG1GTenYFg .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T:has(._3-SbBb63lDnu6LzKV-q3Cg) {
+    border: 2px dashed var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
