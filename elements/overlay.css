@@ -25,14 +25,22 @@
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt {
     margin-top: 2px;
-	margin-left: 5px !important;
+    margin-left: 5px !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+    border-radius: var(--minimal_dark_corner5);
 }
-
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover {
     cursor: pointer;
     background: #1a1a1a !important;
-    border-radius: 6px !important;
     margin-top: 2px !important;
+	border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner5);
+	color: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover .MZPxEZcxAGtPDf1NYtouS {
+    color: var(--minimal_dark_color) !important;
 }
 
 .zhaKeChn9HPNSMtk0ami_ ._3m0MnUo45wjLOfNLpZ-3KH {
@@ -408,7 +416,19 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3izqEKa-zuPIrUDSm1bRvf {
     height: 18px;
+    color: var(--minimal_dark_topgrey) !important;
+	transition: .25s ease-out !important;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K:hover ._3izqEKa-zuPIrUDSm1bRvf {
+    height: 18px;
     color: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt ._3izqEKa-zuPIrUDSm1bRvf {
+    color: var(--minimal_dark_topgrey) !important;
+    transition: color .15s ease-out;
 }
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover ._3izqEKa-zuPIrUDSm1bRvf {
@@ -418,10 +438,16 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09 {
     margin-top: 1px;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+    border-radius: var(--minimal_dark_corner5);
 }
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09:hover {
     margin-top: 1px;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner5);
+	background: var(--minimal_dark_blacker) !important;
+	transition: .25s ease-out !important;
 }
 
 .achieveBarProgress {
@@ -526,10 +552,6 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 .oQafBNf0Aso9mt7Tt5wQi {
     background-color: var(--minimal_dark_black) !important;
     border-radius: var(--minimal_dark_corner5);
-}
-
-._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09:hover {
-    background: var(--minimal_dark_be_grey) !important;
 }
 
 .steamdesktop_URLBarCopied_3ZGpa {
