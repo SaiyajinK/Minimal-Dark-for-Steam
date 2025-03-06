@@ -120,7 +120,7 @@
     z-index: 20;
     position: absolute;
     left: 42px;
-    border-radius: 4px;
+    border-radius: var(--minimal_dark_corner10) !important;
     box-shadow: 0px 2px 8px 1px #000;
     opacity: 0;
     transform: scale(0.1);
@@ -130,10 +130,15 @@
 
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU._31r1_h2SmzwQtP9ZLLyA0I, ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU:not(._1Gjk27xaRIzt2zOSwOSP0N):hover {
     background-color: var(--minimal_dark_be_grey);
+    border-radius: var(--minimal_dark_corner10) !important;
 }
 
 ._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc .DialogInput_Wrapper .DialogTextInputBase:hover {
     background: var(--minimal_dark_greyblack);
+    background-repeat: no-repeat !important;
+    background-position: 8px center !important;
+    background-image: url('data:image/svg+xml,<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.1778 10.1661L10.9249 10.5061L11.2188 10.8113L15.2715 15.0195L14.7441 15.5274L10.7075 11.3361L10.4001 11.0168L10.0463 11.2837C9.06851 12.0213 7.83309 12.4265 6.52044 12.4265C4.86181 12.4265 3.37036 11.7935 2.2721 10.6904L2.27215 10.6904L2.26607 10.6845C-0.0833187 8.40347 -0.0940419 4.61907 2.26603 2.24222C3.45879 1.12685 4.95601 0.5 6.52044 0.5C8.08742 0.5 9.5773 1.12825 10.6775 2.23003C11.7881 3.42808 12.413 4.93284 12.413 6.50606C12.413 7.86867 11.982 9.08467 11.1778 10.1661ZM6.52943 11.831C9.4963 11.831 11.9014 9.42583 11.9014 6.45896C11.9014 3.49209 9.4963 1.08696 6.52943 1.08696C3.56256 1.08696 1.15744 3.49209 1.15744 6.45896C1.15744 9.42583 3.56256 11.831 6.52943 11.831Z" fill="%23808080" stroke="%23808080"/></svg>') !important;
+    padding-left: 32px !important;
 }
 
 ._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc .DialogInput_Wrapper .DialogTextInputBase.Focusable:focus {
@@ -3474,14 +3479,23 @@ button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt {
     margin-top: 2px;
-	margin-left: 5px !important;
+    margin-left: 5px !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+    border-radius: var(--minimal_dark_corner10) !important;
 }
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover {
     cursor: pointer;
     background: #1a1a1a !important;
-    border-radius: 6px !important;
     margin-top: 2px !important;
+	border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner10) !important;
+	color: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover .MZPxEZcxAGtPDf1NYtouS {
+    color: var(--minimal_dark_color) !important;
 }
 
 .zhaKeChn9HPNSMtk0ami_ ._3m0MnUo45wjLOfNLpZ-3KH {
@@ -3857,7 +3871,19 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3izqEKa-zuPIrUDSm1bRvf {
     height: 18px;
+    color: var(--minimal_dark_topgrey) !important;
+	transition: .25s ease-out !important;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K:hover ._3izqEKa-zuPIrUDSm1bRvf {
+    height: 18px;
     color: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt ._3izqEKa-zuPIrUDSm1bRvf {
+    color: var(--minimal_dark_topgrey) !important;
+    transition: color .15s ease-out;
 }
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover ._3izqEKa-zuPIrUDSm1bRvf {
@@ -3867,10 +3893,16 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09 {
     margin-top: 1px;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+    border-radius: var(--minimal_dark_corner10) !important;
 }
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09:hover {
     margin-top: 1px;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner10) !important;
+	background: var(--minimal_dark_blacker) !important;
+	transition: .25s ease-out !important;
 }
 
 .achieveBarProgress {
@@ -3975,10 +4007,6 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 .oQafBNf0Aso9mt7Tt5wQi {
     background-color: var(--minimal_dark_black) !important;
     border-radius: var(--minimal_dark_corner10) !important;
-}
-
-._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09:hover {
-    background: var(--minimal_dark_be_grey) !important;
 }
 
 .steamdesktop_URLBarCopied_3ZGpa {
@@ -6146,7 +6174,12 @@ button.DialogButton::before {
 
 .DialogTextInputBase:not(:disabled):hover {
     background: var(--minimal_dark_greyblack);
-	transition: color .15s ease-out,text-shadow .15s ease-out;
+    transition: color .15s ease-out,text-shadow .15s ease-out;
+    background: var(--minimal_dark_greyblack);
+    background-repeat: no-repeat !important;
+    background-position: 8px center !important;
+    background-image: url('data:image/svg+xml,<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.1778 10.1661L10.9249 10.5061L11.2188 10.8113L15.2715 15.0195L14.7441 15.5274L10.7075 11.3361L10.4001 11.0168L10.0463 11.2837C9.06851 12.0213 7.83309 12.4265 6.52044 12.4265C4.86181 12.4265 3.37036 11.7935 2.2721 10.6904L2.27215 10.6904L2.26607 10.6845C-0.0833187 8.40347 -0.0940419 4.61907 2.26603 2.24222C3.45879 1.12685 4.95601 0.5 6.52044 0.5C8.08742 0.5 9.5773 1.12825 10.6775 2.23003C11.7881 3.42808 12.413 4.93284 12.413 6.50606C12.413 7.86867 11.982 9.08467 11.1778 10.1661ZM6.52943 11.831C9.4963 11.831 11.9014 9.42583 11.9014 6.45896C11.9014 3.49209 9.4963 1.08696 6.52943 1.08696C3.56256 1.08696 1.15744 3.49209 1.15744 6.45896C1.15744 9.42583 3.56256 11.831 6.52943 11.831Z" fill="%23808080" stroke="%23808080"/></svg>') !important;
+    padding-left: 32px !important;
 }
 
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
@@ -20045,8 +20078,9 @@ p.reason.info:before {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(-1px, 0px) !important;
     background-repeat: no-repeat !important;
-    background-position: 188px center !important;
+    background-position: 8px center !important;
     background-image: url('data:image/svg+xml,<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.1778 10.1661L10.9249 10.5061L11.2188 10.8113L15.2715 15.0195L14.7441 15.5274L10.7075 11.3361L10.4001 11.0168L10.0463 11.2837C9.06851 12.0213 7.83309 12.4265 6.52044 12.4265C4.86181 12.4265 3.37036 11.7935 2.2721 10.6904L2.27215 10.6904L2.26607 10.6845C-0.0833187 8.40347 -0.0940419 4.61907 2.26603 2.24222C3.45879 1.12685 4.95601 0.5 6.52044 0.5C8.08742 0.5 9.5773 1.12825 10.6775 2.23003C11.7881 3.42808 12.413 4.93284 12.413 6.50606C12.413 7.86867 11.982 9.08467 11.1778 10.1661ZM6.52943 11.831C9.4963 11.831 11.9014 9.42583 11.9014 6.45896C11.9014 3.49209 9.4963 1.08696 6.52943 1.08696C3.56256 1.08696 1.15744 3.49209 1.15744 6.45896C1.15744 9.42583 3.56256 11.831 6.52943 11.831Z" fill="%23808080" stroke="%23808080"/></svg>') !important;
+    padding-left: 32px !important;
 }
 
 ._20QAC4WMXm8qFE8waUT5oo .DialogInput_ClearAction, ._20QAC4WMXm8qFE8waUT5oo ._38tIMc-4Ug-Akpa1pYlN0R {
