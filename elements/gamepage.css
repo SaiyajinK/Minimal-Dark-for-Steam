@@ -498,6 +498,13 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
     box-shadow: 0px 0px 1px 1px var(--minimal_dark_color) !important;
 }
 
+._1kCN0pAntrcGCSmcc-vYdk:not(.Z3L6KGVxi4ZjGUzbYUjBC):active {
+    background: var(--minimal_dark_invisiblegrey);
+    box-shadow: inset 0 0 8px #000000c2 !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
 ._2SAb6geDpe6toA1GaP0GjH ._2aeAnRfwltWfd9Hb9M_1uE .qX4kNo6O0M-mYntdErKSJ {
     color: var(--minimal_dark_color);
     font-weight: 500;
