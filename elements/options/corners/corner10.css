@@ -9768,6 +9768,29 @@ button.DialogButton::before {
 	border-radius: var(--minimal_dark_corner10) !important;
 }
 
+.ChatMessageInvite.GroupAlreadyJoined, .ChatMessageInvite.Inviter {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-radius: var(--minimal_dark_corner10) !important;
+}
+
+.ChatMessageInvite .inviteButton.inviteButtonJoinChat {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner10) !important;
+}
+
+.ChatMessageInvite .inviteButton.inviteButtonJoinChat:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.ChatMessageInvite .inviteButton.inviteButtonJoinChat:active {
+    border: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
 /* bigpicture */
 ._3IBLc81yyL08OJ7rfKtF00._18zGL1e9n34BrE_eFXryjc:not(._31ZleDJpmmVr6YwR5VLHiu) {
     background: #121212 !important;
