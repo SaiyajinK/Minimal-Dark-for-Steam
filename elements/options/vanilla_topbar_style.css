@@ -26,7 +26,9 @@
 }
 
 ._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC {
-    min-height: 34px !important;
+    min-height: 36px !important;
+	border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+	border-left: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 ._3vCzSrrXZzZjVJFZNg9SGu {
