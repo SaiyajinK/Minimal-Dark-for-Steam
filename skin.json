@@ -42,6 +42,20 @@
 			}
 		},
 		
+		"Vanilla topbar style": {
+		"tab": "Topbar options",
+		"description": "Set the topbar in the vanilla style of steam skin.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"Vanilla topbar": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/vanilla_topbar_style.css"
+					}
+				}
+			}
+		},
+		
 		"Account wallet": {
 		"tab": "Topbar options",
 		"description": "Hide or show wallet balance next to username.",
@@ -251,7 +265,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.4.7",
+	"version": "3.4.8",
 
 	"github": {
 		"owner": "SaiyajinK",
