@@ -3285,6 +3285,27 @@ button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
     border: 2px solid var(--minimal_dark_color) !important;
 }
 
+._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs:hover:not(._1aml4h4CSJbtrNbX4brUYs) .SVGIcon_Play {
+    fill: white;
+	transition: .25s ease-out !important;
+}
+
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover svg {
+    fill: white;
+	transition: .25s ease-out !important;
+}
+
+._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC ._3AjoLnMNKxYmNTGTJCLfgs:hover:not(._1aml4h4CSJbtrNbX4brUYs):not(._1_Bo2Ied5s2Od4YKYTOsau) svg path {
+    fill: white;
+	transition: .25s ease-out !important;
+}
+
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX:hover svg {
+    color: white;
+    fill: white;
+	transition: .25s ease-out !important;
+}
+
 /* ------- miniprofile.css ------- */
 
 ._1AMAp6cciTbpuVe8FTH3rK {
@@ -10660,6 +10681,11 @@ html.tablet .review_box {
 
 html.tablet .review_developer_response_container.multiple_listing {
     margin-top: -7px !important;
+}
+
+.GamepadMode.friendlist .friend.quickAccessFriend .nibodjvvrm86uCfnnAn4g .X_mJE4BYV5StDPwZhSiAu {
+    transform: scale(0.88) translate(-8px, -8px) !important;
+    border-radius: var(--minimal_dark_corner5) !important;
 }
 
 /* webkit.css */
