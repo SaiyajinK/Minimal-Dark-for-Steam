@@ -875,3 +875,8 @@ html.tablet .review_box {
 html.tablet .review_developer_response_container.multiple_listing {
     margin-top: -7px !important;
 }
+
+.GamepadMode.friendlist .friend.quickAccessFriend .nibodjvvrm86uCfnnAn4g .X_mJE4BYV5StDPwZhSiAu {
+    transform: scale(0.88) translate(-8px, -8px) !important;
+    border-radius: var(--minimal_dark_corner5);
+}
