@@ -229,6 +229,20 @@
 			}
 		},
 		
+		"Gamepage/library buttons svg color (Play/Install)": {
+		"tab": "Gamepage options",
+		"description": "Set the svg color of the library buttons.",
+		"default": "White",
+		"values": {
+			"White": {},
+			"Same as the outline": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_library_svg_color.css"
+					}
+				}
+			}
+		},
+		
 		"No button labels in list mod": {
 		"tab": "Overlay options",
 		"description": "hide button names to only have the icon when the overlay is in list mode only",
@@ -265,7 +279,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.4.8",
+	"version": "3.4.9",
 
 	"github": {
 		"owner": "SaiyajinK",
