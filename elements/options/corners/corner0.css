@@ -9816,6 +9816,10 @@ button.DialogButton::before {
 	box-shadow: inset 0 0 8px #000000c2 !important;
 }
 
+.socialSearchContainer {
+    background-color: transparent !important;
+}
+
 /* bigpicture */
 ._3IBLc81yyL08OJ7rfKtF00._18zGL1e9n34BrE_eFXryjc:not(._31ZleDJpmmVr6YwR5VLHiu) {
     background: #121212 !important;
@@ -10474,6 +10478,7 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.
 
 .kX-tIJx4a9vKVuUkKJARv._1wAArO4jx5Kth5YdKAQ_Sd._3BNwjsy5WltxayFptkx3KF {
     background: #121212 !important;
+    border-radius: var(--minimal_dark_corner0) !important;
 }
 
 .BasicUI .nzl41-vv5mljUyuT2yuYY ._25YVDTaClw6Y2COPsU0UaV {
