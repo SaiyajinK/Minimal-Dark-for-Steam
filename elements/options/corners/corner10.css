@@ -14658,7 +14658,7 @@ body.v6 #footer .rule {
 }
 
 .ds_flag.ds_wishlist_flag {
-    border-radius: 0px!important;
+    border-radius: var(--minimal_dark_corner10) !important;
     color: white !important;
     background: #ffffff00 !important;
     border-left: 2px solid white !important;
@@ -14666,11 +14666,20 @@ body.v6 #footer .rule {
 }
 
 .ds_flag.ds_incart_flag {
-	border-radius:0px!important;
+    border-radius: var(--minimal_dark_corner10) !important;
+    color: #ffffff !important;
+    background: #21d083 !important;
+    border-left: 2px solid white !important;
+    backdrop-filter: blur(20px) !important;
+    border-left: 2px solid white !important;
 }
 
 .ds_flag.ds_ignored_flag {
-	border-radius:0px!important;
+	border-radius: var(--minimal_dark_corner10) !important;
+    color: white !important;
+    background: #ffffff00 !important;
+    border-left: 2px solid white !important;
+    backdrop-filter: blur(20px) !important;
 }
 
 div.early_access_header {
