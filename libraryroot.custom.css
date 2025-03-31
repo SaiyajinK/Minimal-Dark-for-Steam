@@ -1837,3 +1837,9 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
 .update-item-type {
     background: var(--minimal_dark_color) !important;
 }
+
+.millenniumPluginField {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner5);
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
