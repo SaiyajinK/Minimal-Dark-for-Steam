@@ -269,6 +269,20 @@
 					}
 				}
 			}
+		},	
+
+		"Mouseover animation of settings menu tabs": {
+		"tab": "Various options",
+		"description": "Enable or disable the category hover effect in settings section.",
+		"default": "Animated",
+		"values": {
+			"Animated": {},
+			"Non-animated": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/no_hover_effect_settings_tabs.css"
+					}
+				}
+			}
 		}
 		
 	},
@@ -279,7 +293,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.5.0",
+	"version": "3.5.1",
 
 	"github": {
 		"owner": "SaiyajinK",
