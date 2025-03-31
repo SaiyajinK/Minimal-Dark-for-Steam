@@ -585,7 +585,8 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._2n6FNLKyb6al_YPk13xS7S ._2qURXDJ4ZtfSVOesDk7A73 .DialogCheckbox {
-    background: var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 ._1EubJAK9z7JtdGks5M2f8t {
@@ -1685,4 +1686,15 @@ button.QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable {
 ._3OzkVrQFFPv0aV41N4MrHV._1xInQb2gVGxBqTwFBdXoFW .ZTbww2QfIllvCwVHmpixE {
     font-size: 13px;
     padding-right: 15px;
+}
+
+.eKmEXJCm_lgme24Fp_HWt.aIeh3X5T2M074RLW1qn6_ ._3jMlJm4PQCA8SfNlUR99Fo {
+    color: var(--minimal_dark_redsettings) !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+._2DM37juowId1V_DScp3l4 svg {
+    height: 26px !important;
+    transform: translate(0px, -2px) !important;
 }
