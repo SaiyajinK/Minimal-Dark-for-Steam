@@ -956,7 +956,7 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
 }
 
 ._1-vlriAtKYDViAEunue4VO {
-    height: 6px !important;
+    height: 6px;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     margin: 6px !important;
     transition: .25s ease-out !important;
@@ -967,7 +967,7 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
 ._1-vlriAtKYDViAEunue4VO:not(._2DpXjzK3WWsOtUWUrcuOG7):hover {
     background-color: var(--minimal_dark_blacker_alt) !important;
     color: var(--minimal_dark_color) !important;
-    height: 10px !important;
+    height: 10px;
     border: 1px solid var(--minimal_dark_color) !important;
     margin: 6px !important;
 	transition: .25s ease-out !important;
