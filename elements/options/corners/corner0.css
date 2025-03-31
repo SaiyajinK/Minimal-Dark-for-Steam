@@ -7461,6 +7461,20 @@ svg._34bQcTHo5QKzuujoEyU1tm:active {
     background-image: none !important;
 }
 
+._1W1to_azoBRG95oNAFpf9Q {
+    margin-top: 8px !important;
+}
+
+.update-item-type {
+    background: var(--minimal_dark_color) !important;
+}
+
+.millenniumPluginField {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner0) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
 /* ------- friends.custom.css ------- */
 
 @import url('./elements/config.css');
