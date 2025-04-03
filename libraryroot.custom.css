@@ -890,6 +890,8 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     margin-top: 0px;
     border: unset !important;
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
     border-top: none;
     border-bottom: none !important;
     transform: translate(1px, 0px) !important;
