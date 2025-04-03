@@ -888,7 +888,8 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     font-size: 13px !important;
     height: 36px !important;
     margin-top: 0px;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: unset !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
     border-top: none;
     border-bottom: none !important;
     transform: translate(1px, 0px) !important;
@@ -900,6 +901,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 
 ._7AlhCx3XGzBeIrQaCneUD:last-child {
     padding-right: 10px !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD:hover {
