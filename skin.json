@@ -1,180 +1,8 @@
 {	
 
     "Conditions": {
-		"Corners radius (beta)": {
-		"tab": "Global options",
-		"description": "Sets the strength of corner rounding (does not apply on webkit).",
-		"default": "Square (0px | ui+webkit | recommended)",
-		"values": {
-			"Square (0px | ui+webkit | recommended)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/corner0.css"
-					}
-				},
-			"Rounded (5px | ui only)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/corner5.css"
-					}
-				},
-			"More rounded (10px | ui only)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/corner10.css"
-					}
-				}
-			}
-		},
-		
-		"Avatar frame": {
-		"tab": "Global options",
-		"description": "Hide or show avatar frame on all avatars (known bugs).",
-		"default": "Hide",
-		"values": {
-			"Show": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/avatar_frame/show.css"
-					}
-				},
-			"Hide": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/avatar_frame/hide.css"
-					}
-				}
-			}
-		},
-		
-		"Vanilla topbar style": {
-		"tab": "Topbar options",
-		"description": "Set the topbar in the vanilla style of steam skin.",
-		"default": "Default",
-		"values": {
-			"Default": {},
-			"Vanilla topbar": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/vanilla_topbar_style.css"
-					}
-				}
-			}
-		},
-		
-		"Account wallet": {
-		"tab": "Topbar options",
-		"description": "Hide or show wallet balance next to username.",
-		"default": "Hide",
-		"values": {
-			"Show": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
-					}
-				}
-			}
-		},
-		
-		"News container": {
-		"tab": "Library options",
-		"description": "Hide or show 'What's New' block in the library.",
-		"default": "Show",
-		"values": {
-			"Show": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/hide_news.css"
-					}
-				}
-			}
-		},
-		
-		"Root menu Steam text": {
-		"tab": "Topbar options",
-		"description": "Hide or show steam text in top left of the root menu.",
-		"default": "Show",
-		"values": {
-			"Show": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/hide_steam_text.css"
-					}
-				}
-			}
-		},
-		
-		"Use Steam alternative logo": {
-		"tab": "Topbar options",
-		"description": "Change the logo of the root menu.",
-		"default": "yes",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/steam_alternative_logo.css"
-					}
-				}
-			}
-		},
-		
-		"Compact mod": {
-		"tab": "Library options",
-		"description": "Removes the filter & search from the sidebar to save even more space.",
-		"default": "Default",
-		"values": {
-			"Default": {},
-			"Compact (filter only)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/compact_mod.css"
-					}
-				},
-			"Ultra compact (filter & search)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/ultra_compact_mod.css"
-					}
-				}
-			}
-		},
-		
-		"Steam news button": {
-		"tab": "Topbar options",
-		"description": "Hide or show Steam news button in top bar.",
-		"default": "Hide",
-		"values": {
-			"Show": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/steam_actuality_button.css"
-					}
-				}
-			}
-		},
-		
-		"Right Sidebar": {
-		"tab": "Library options",
-		"description": "Place the left bar on the right of the Steam client (to enlarge the sidebar you will always have to slide to the right and not to the left).",
-		"default": "Default",
-		"values": {
-			"Default (left)": {},
-			"Right (not recommended)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/sidebar_to_the_right.css"
-					}
-				}
-			}
-		},
-		
-		"Tabs text transform": {
-		"tab": "Topbar options",
-		"description": "Set capitalize text to topbar tabs.",
-		"default": "no",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/tabs_text_form.css"
-					}
-				}
-			}
-		},
-		
 		"Compact avatar": {
-		"tab": "Topbar options",
+		"tab": "Account options",
 		"description": "Make the avatar block compact.",
 		"default": "Compact",
 		"values": {
@@ -187,15 +15,15 @@
 			}
 		},
 		
-		"Alternative hover effect for icons menu": {
-		"tab": "Topbar options",
-		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
-		"default": "Fill",
+		"Account wallet": {
+		"tab": "Account options",
+		"description": "Hide or show wallet balance next to username.",
+		"default": "Hide",
 		"values": {
-			"Fill": {},
-			"Outline": {
+			"Show": {},
+			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/alternative_menus_hover_effect.css"
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
 					}
 				}
 			}
@@ -243,15 +71,99 @@
 			}
 		},
 		
-		"No button labels in list mod": {
-		"tab": "Overlay options",
-		"description": "hide button names to only have the icon when the overlay is in list mode only",
+		"Blurred background": {
+		"tab": "Gamepage options",
+		"description": "Blur the background of the game page (not recommanded with gamepage compact mod)",
+		"default": "Full dark (default)",
+		"values": {
+			"Full dark (default)": {},
+			"Blurred": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/blurred_bg_gamepage.css"
+					}
+				}
+			}
+		},
+		
+		"Corners radius": {
+		"tab": "Global options",
+		"description": "Sets the strength of corner rounding.",
+		"default": "Square (0px | default)",
+		"values": {
+			"Square (0px | default)": {},
+			"Rounded (5px)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/corners/corner5.css"
+					}
+				},
+			"More rounded (10px)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/corners/corner10.css"
+					}
+				}
+			}
+		},
+		
+		"Avatar frame": {
+		"tab": "Global options",
+		"description": "Hide or show avatar frame on all avatars (known bugs).",
+		"default": "Hide",
+		"values": {
+			"Show": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/avatar_frame/show.css"
+					}
+				},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/avatar_frame/hide.css"
+					}
+				}
+			}
+		},
+		
+		"Right Sidebar": {
+		"tab": "Library options",
+		"description": "Place the left bar on the right of the Steam client (to enlarge the sidebar you will always have to slide to the right and not to the left).",
+		"default": "Default",
+		"values": {
+			"Default (left)": {},
+			"Right (not recommended)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/sidebar_to_the_right.css"
+					}
+				}
+			}
+		},
+		
+		"Compact mod": {
+		"tab": "Library options",
+		"description": "Removes the filter & search from the sidebar to save even more space.",
 		"default": "Default",
 		"values": {
 			"Default": {},
-			"No label": {
+			"Compact (filter only)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay_no_label_list.css"
+			"affects": ["^Steam$"], "src": "elements/options/compact_mod.css"
+					}
+				},
+			"Ultra compact (filter & search)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/ultra_compact_mod.css"
+					}
+				}
+			}
+		},
+		
+		"News container": {
+		"tab": "Library options",
+		"description": "Hide or show 'What's New' block in the library.",
+		"default": "Show",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/hide_news.css"
 					}
 				}
 			}
@@ -270,6 +182,104 @@
 				}
 			}
 		},	
+		
+		"No button labels in list mod": {
+		"tab": "Overlay options",
+		"description": "hide button names to only have the icon when the overlay is in list mode only",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"No label": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay_no_label_list.css"
+					}
+				}
+			}
+		},
+		
+		"Vanilla topbar style": {
+		"tab": "Topbar options",
+		"description": "Set the topbar in the vanilla style of steam skin.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"Vanilla topbar": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/vanilla_topbar_style.css"
+					}
+				}
+			}
+		},
+		
+		"Root menu Steam text": {
+		"tab": "Topbar options",
+		"description": "Hide or show steam text in top left of the root menu.",
+		"default": "Show",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/hide_steam_text.css"
+					}
+				}
+			}
+		},
+		
+		"Use Steam alternative logo": {
+		"tab": "Topbar options",
+		"description": "Change the logo of the root menu.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/steam_alternative_logo.css"
+					}
+				}
+			}
+		},
+		
+		"Steam news button": {
+		"tab": "Topbar options",
+		"description": "Hide or show Steam news button in top bar.",
+		"default": "Hide",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/steam_actuality_button.css"
+					}
+				}
+			}
+		},
+		
+		"Tabs text transform": {
+		"tab": "Topbar options",
+		"description": "Set capitalize text to topbar tabs.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/tabs_text_form.css"
+					}
+				}
+			}
+		},
+		
+		"Alternative hover effect for icons menu": {
+		"tab": "Topbar options",
+		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
+		"default": "Fill",
+		"values": {
+			"Fill": {},
+			"Outline": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/alternative_menus_hover_effect.css"
+					}
+				}
+			}
+		},
 
 		"Mouseover animation of settings menu tabs": {
 		"tab": "Various options",
@@ -277,9 +287,37 @@
 		"default": "Animated",
 		"values": {
 			"Animated": {},
-			"Non-animated": {
+			"Static": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/no_hover_effect_settings_tabs.css"
+					}
+				}
+			}
+		},
+		
+		"Compact Webkit": {
+		"tab": "Webkit",
+		"description": "Hide the left sidebar on the webkit homepage.",
+		"default": "Hide",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/compact_webkit.css"
+					}
+				}
+			}
+		},
+		
+		"Blurred profiles": {
+		"tab": "Webkit",
+		"description": "Enabling this option makes the profile page blocks full and removes the blur effect.",
+		"default": "Blurred (default)",
+		"values": {
+			"Blurred (default)": {},
+			"No blur": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/no_blurred_profiles.css"
 					}
 				}
 			}
@@ -293,7 +331,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.5.1",
+	"version": "3.5.2",
 
 	"github": {
 		"owner": "SaiyajinK",
