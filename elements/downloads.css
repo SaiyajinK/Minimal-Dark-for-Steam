@@ -11,7 +11,7 @@
 
 ._1VNuYHM6BPBOJspC6zPf5r {
     border: 1px dashed var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner5);
+    border-radius: var(--minimal_dark_corner) !important;
     padding: 8px 19px 8px 25px !important;
     margin-top: 10px !important;
 }
@@ -19,7 +19,7 @@
 ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg {
     background-color: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-	border-radius: var(--minimal_dark_corner5);
+	border-radius: var(--minimal_dark_corner) !important;
 }
 
 ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:active, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled:active:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
@@ -30,19 +30,19 @@
 ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:hover {
 	background: var(--minimal_dark_black) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-	border-radius: var(--minimal_dark_corner5);
+	border-radius: var(--minimal_dark_corner) !important;
 }
 
 ._1VNuYHM6BPBOJspC6zPf5r:hover, ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
     background-color: var(--minimal_dark_blacker) !important;
-    border-radius: var(--minimal_dark_corner5);
+    border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_color) !important;
 }
 
 ._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI.DialogButton:enabled {
     background: var(--minimal_dark_blacker) !important;
-    border-radius: var(--minimal_dark_corner5);
+    border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 	padding: 5px 10px !important;
 }
@@ -52,7 +52,7 @@
     color: #fff !important;
     box-shadow: none;
     transition: .4s ease-out !important;
-    border-radius: var(--minimal_dark_corner5);
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 ._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI:active.DialogButton:enabled {
@@ -127,7 +127,7 @@ button.DialogButton::before {
 
 ._1KHOCigl8AaK2eHxQqPMlc {
     width: 220px !important;
-    border-radius: var(--minimal_dark_corner5);
+    border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_invisiblegrey) !important;
     background-color: #12121259 !important;
     margin-bottom: 10px !important;
