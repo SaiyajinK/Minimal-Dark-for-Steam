@@ -667,7 +667,7 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.
 
 .kX-tIJx4a9vKVuUkKJARv._1wAArO4jx5Kth5YdKAQ_Sd._3BNwjsy5WltxayFptkx3KF {
     background: #121212 !important;
-    border-radius: var(--minimal_dark_corner5);
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 .BasicUI .nzl41-vv5mljUyuT2yuYY ._25YVDTaClw6Y2COPsU0UaV {
@@ -866,7 +866,7 @@ a._1uwcZwdwT2vRgumGDlZbtk.Focusable.gpfocus.gpfocuswithin {
 }
 
 ._27RcNu8aXKBpYkHcNNrt-X {
-    background: #121212 !important;
+    background: #121212;
 }
 
 html.tablet .review_box {
@@ -879,5 +879,5 @@ html.tablet .review_developer_response_container.multiple_listing {
 
 .GamepadMode.friendlist .friend.quickAccessFriend .nibodjvvrm86uCfnnAn4g .X_mJE4BYV5StDPwZhSiAu {
     transform: scale(0.88) translate(-8px, -8px) !important;
-    border-radius: var(--minimal_dark_corner5);
+    border-radius: var(--minimal_dark_corner) !important;
 }
