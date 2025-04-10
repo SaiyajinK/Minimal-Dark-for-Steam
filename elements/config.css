@@ -32,8 +32,6 @@
 --minimal_dark_market: url("./resources/market_reduce_price.svg");
 --minimal_dark_searchbutton: url("./resources/search.svg");
 
---minimal_dark_corner0: 0px;
---minimal_dark_corner5: 5px;
---minimal_dark_corner10: 10px;
+--minimal_dark_corner: 0px;
 
 }
