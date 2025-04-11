@@ -996,7 +996,7 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 }
 
 .carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal:hover {
-    border-bottom: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color);
 }
 
 .carousel_container.spotlight .carousel_items>* .store_capsule {
@@ -2723,7 +2723,7 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
     background-image: none !important;
     height: 390px;
     box-shadow: 0 0 5px #000000;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
     border-radius: var(--minimal_dark_corner) !important;
 }
 
@@ -2731,8 +2731,8 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
     background-image: none !important;
     height: 390px;
     box-shadow: 0 0 5px #000000;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-	border-bottom: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color);
+	border-bottom: 1px solid var(--minimal_dark_color);
     border-radius: var(--minimal_dark_corner) !important;
 }
 
@@ -5543,11 +5543,12 @@ body.v6.winter_sale_home h2.winter {
 
 .carousel_items.store_capsule_container > * > * {
     border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 }
 
 .carousel_items.store_capsule_container > * > *:hover {
-    border-bottom: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color);
+	border-bottom: 1px solid var(--minimal_dark_color);
     color: white !important;
 }
 
@@ -7535,12 +7536,13 @@ div.ModalPosition_TopBar {
 .home_page_content.takeunder a {
     box-shadow: 0 0 10px rgba(0,0,0,1);
     border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 }
 
 .home_page_content.takeunder a:hover {
     border-radius: var(--minimal_dark_corner) !important;
-    border-bottom: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color);
+	border-bottom: 1px solid var(--minimal_dark_color);
     box-shadow: none !important;
 }
 
@@ -7554,7 +7556,7 @@ div.ModalPosition_TopBar {
 }
 
 .home_hardware_banner > a:hover {
-    box-shadow: 0 0 12px var(--minimal_dark_color) !important;
+    box-shadow: none !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
@@ -7668,10 +7670,6 @@ div.ModalPosition_TopBar {
     transform: scale(1.01) !important;
 }
 
-.carousel_container.maincap .carousel_items {
-    box-shadow: none !important;
-}
-
 .carousel_container .carousel_items:not(.no_paging) > * {
     border-radius: var(--minimal_dark_corner) !important;
 }
@@ -7686,12 +7684,14 @@ div.ModalPosition_TopBar {
 }
 
 .carousel_container.maincap .carousel_items {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
     border-radius: var(--minimal_dark_corner) !important;
+	box-shadow: none !important;
 }
 
 .carousel_container.maincap .carousel_items:hover {
-    border-bottom: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color);
+	border-bottom: 1px solid var(--minimal_dark_color);
 }
 
 .carousel_container.spotlight .carousel_items > * > div {
@@ -7700,7 +7700,7 @@ div.ModalPosition_TopBar {
 
 .carousel_container.spotlight .carousel_items>* .store_capsule {
     border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 }
 
 .carousel_container .carousel_thumbs {
@@ -8570,13 +8570,14 @@ body.v6 .page_content_ctn.dark {
 
 .steamdeck_banner_desktop, .steamdeck_banner_mobile {
     border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 	box-shadow: none !important;
 }
 
 .steamdeck_banner_desktop:hover {
     box-shadow: none !important;
-    border-bottom: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color);
+	border-bottom: 1px solid var(--minimal_dark_color);
 }
 
 .top_new_releases_banner_ctn a {
