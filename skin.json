@@ -1,20 +1,6 @@
 {	
 
     "Conditions": {
-		"Compact avatar": {
-		"tab": "Account options",
-		"description": "Make the avatar block compact.",
-		"default": "Compact",
-		"values": {
-			"Default": {},
-			"Compact": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/compact_avatar.css"
-					}
-				}
-			}
-		},
-		
 		"Account wallet": {
 		"tab": "Account options",
 		"description": "Hide or show wallet balance next to username.",
@@ -29,43 +15,15 @@
 			}
 		},
 		
-		"Community content": {
-		"tab": "Gamepage options",
-		"description": "Hide or show the community content in gamepage (can improve performance if you have a bad pc).",
-		"default": "Show",
-		"values": {
-			"Show": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gp_community_content.css"
-					}
-				}
-			}
-		},
-		
-		"Header (compact mod)": {
-		"tab": "Gamepage options",
-		"description": "Hide or show the header image at the top of the game page to save more space.",
-		"default": "Default",
+		"Compact avatar": {
+		"tab": "Account options",
+		"description": "Make the avatar block compact.",
+		"default": "Compact",
 		"values": {
 			"Default": {},
-			"No header": {
+			"Compact": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gp_compact.css"
-					}
-				}
-			}
-		},
-		
-		"Gamepage/library buttons svg color (Play/Install)": {
-		"tab": "Gamepage options",
-		"description": "Set the svg color of the library buttons.",
-		"default": "White",
-		"values": {
-			"White": {},
-			"Same as the outline": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_library_svg_color.css"
+			"affects": ["^Steam$"], "src": "elements/options/compact_avatar.css"
 					}
 				}
 			}
@@ -85,20 +43,43 @@
 			}
 		},
 		
-		"Corners radius": {
-		"tab": "Global options",
-		"description": "Sets the strength of corner rounding.",
-		"default": "Square (0px | default)",
+		"Community content": {
+		"tab": "Gamepage options",
+		"description": "Hide or show the community content in gamepage (can improve performance if you have a bad pc).",
+		"default": "Show",
 		"values": {
-			"Square (0px | default)": {},
-			"Rounded (5px)": {
+			"Show": {},
+			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/corner5.css"
+			"affects": ["^Steam$"], "src": "elements/options/gp_community_content.css"
 					}
-				},
-			"More rounded (10px)": {
+				}
+			}
+		},
+				
+		"Gamepage/library buttons svg color (Play/Install)": {
+		"tab": "Gamepage options",
+		"description": "Set the svg color of the library buttons.",
+		"default": "White",
+		"values": {
+			"White": {},
+			"Same as the outline": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/corner10.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_library_svg_color.css"
+					}
+				}
+			}
+		},
+		
+		"Header (compact mod)": {
+		"tab": "Gamepage options",
+		"description": "Hide or show the header image at the top of the game page to save more space.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"No header": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gp_compact.css"
 					}
 				}
 			}
@@ -106,7 +87,7 @@
 		
 		"Avatar frame": {
 		"tab": "Global options",
-		"description": "Hide or show avatar frame on all avatars (known bugs).",
+		"description": "Hide or show avatar frame on all avatars.",
 		"default": "Hide",
 		"values": {
 			"Show": {
@@ -122,15 +103,20 @@
 			}
 		},
 		
-		"Right Sidebar": {
-		"tab": "Library options",
-		"description": "Place the left bar on the right of the Steam client (to enlarge the sidebar you will always have to slide to the right and not to the left).",
-		"default": "Default",
+		"Corners radius": {
+		"tab": "Global options",
+		"description": "Sets the strength of corner rounding.",
+		"default": "Square (0px | default)",
 		"values": {
-			"Default (left)": {},
-			"Right (not recommended)": {
+			"Square (0px | default)": {},
+			"Rounded (5px)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/sidebar_to_the_right.css"
+			"affects": [".*"], "src": "elements/options/corners/corner5.css"
+					}
+				},
+			"More rounded (10px)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/corners/corner10.css"
 					}
 				}
 			}
@@ -169,6 +155,20 @@
 			}
 		},
 		
+		"Right Sidebar": {
+		"tab": "Library options",
+		"description": "Place the left bar on the right of the Steam client (to enlarge the sidebar you will always have to slide to the right and not to the left).",
+		"default": "Default",
+		"values": {
+			"Default (left)": {},
+			"Right (not recommended)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/sidebar_to_the_right.css"
+					}
+				}
+			}
+		},
+		
 		"Miniprofile background": {
 		"tab": "Miniprofile options",
 		"description": "Show or hide image/video on background by default on mini profiles.",
@@ -197,15 +197,15 @@
 			}
 		},
 		
-		"Vanilla topbar style": {
+		"Alternative hover effect for icons menu": {
 		"tab": "Topbar options",
-		"description": "Set the topbar in the vanilla style of steam skin.",
-		"default": "Default",
+		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
+		"default": "Fill",
 		"values": {
-			"Default": {},
-			"Vanilla topbar": {
+			"Fill": {},
+			"Outline": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/vanilla_topbar_style.css"
+			"affects": ["^Steam$"], "src": "elements/options/alternative_menus_hover_effect.css"
 					}
 				}
 			}
@@ -220,20 +220,6 @@
 			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/hide_steam_text.css"
-					}
-				}
-			}
-		},
-		
-		"Use Steam alternative logo": {
-		"tab": "Topbar options",
-		"description": "Change the logo of the root menu.",
-		"default": "yes",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/steam_alternative_logo.css"
 					}
 				}
 			}
@@ -267,15 +253,29 @@
 			}
 		},
 		
-		"Alternative hover effect for icons menu": {
+		"Use Steam alternative logo": {
 		"tab": "Topbar options",
-		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
-		"default": "Fill",
+		"description": "Change the logo of the root menu.",
+		"default": "yes",
 		"values": {
-			"Fill": {},
-			"Outline": {
+			"no": {},
+			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/alternative_menus_hover_effect.css"
+			"affects": ["^Steam$"], "src": "elements/options/steam_alternative_logo.css"
+					}
+				}
+			}
+		},
+		
+		"Vanilla topbar style": {
+		"tab": "Topbar options",
+		"description": "Set the topbar in the vanilla style of steam skin.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"Vanilla topbar": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/vanilla_topbar_style.css"
 					}
 				}
 			}
@@ -295,20 +295,6 @@
 			}
 		},
 		
-		"Compact Webkit": {
-		"tab": "Webkit",
-		"description": "Hide the left sidebar on the webkit homepage.",
-		"default": "Hide",
-		"values": {
-			"Show": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/compact_webkit.css"
-					}
-				}
-			}
-		},
-		
 		"Blurred profiles": {
 		"tab": "Webkit",
 		"description": "Enabling this option makes the profile page blocks full and removes the blur effect.",
@@ -318,6 +304,20 @@
 			"No blur": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/no_blurred_profiles.css"
+					}
+				}
+			}
+		},
+		
+		"Compact Webkit": {
+		"tab": "Webkit",
+		"description": "Hide the left sidebar on the webkit homepage.",
+		"default": "Hide",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/compact_webkit.css"
 					}
 				}
 			}
