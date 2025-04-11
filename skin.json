@@ -141,6 +141,20 @@
 			}
 		},
 		
+		"Hover borders on library blocks": {
+		"tab": "Library options",
+		"description": "Make the hover borders of library items full and no longer just on the bottom.",
+		"default": "Full borders",
+		"values": {
+			"Full borders": {},
+			"Bottom only": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/bottom_library_hover_effect.css"
+					}
+				}
+			}
+		},
+		
 		"News container": {
 		"tab": "Library options",
 		"description": "Hide or show 'What's New' block in the library.",
