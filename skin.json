@@ -122,6 +122,20 @@
 			}
 		},
 		
+		"Hover borders on library and webkit blocks": {
+		"tab": "Global options",
+		"description": "Make the hover borders of library/webkit items full and no longer just on the bottom.",
+		"default": "Full borders",
+		"values": {
+			"Full borders": {},
+			"Bottom only": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/bottom_library_hover_effect.css"
+					}
+				}
+			}
+		},
+		
 		"Compact mod": {
 		"tab": "Library options",
 		"description": "Removes the filter & search from the sidebar to save even more space.",
@@ -136,20 +150,6 @@
 			"Ultra compact (filter & search)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/ultra_compact_mod.css"
-					}
-				}
-			}
-		},
-		
-		"Hover borders on library blocks": {
-		"tab": "Library options",
-		"description": "Make the hover borders of library items full and no longer just on the bottom.",
-		"default": "Full borders",
-		"values": {
-			"Full borders": {},
-			"Bottom only": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/bottom_library_hover_effect.css"
 					}
 				}
 			}
