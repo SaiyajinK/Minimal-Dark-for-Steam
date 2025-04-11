@@ -1,3 +1,4 @@
+/* library */
 ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover:not(._3VOR2AeYATx3qSE0I-Pm-5), ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R:not(._3VOR2AeYATx3qSE0I-Pm-5) {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_color) !important;
@@ -29,6 +30,37 @@
 }
 
 .WYgDg9NyCcMIVuMyZ_NBC._3VOR2AeYATx3qSE0I-Pm-5.biTV-8rS2M65imVHU15Nv.xp7A-08Y404Of3FBHqX32.Panel:focus {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
+}
+
+/* webkit */
+.carousel_container.maincap .carousel_items:hover {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-bottom: 1px solid var(--minimal_dark_color) !important;
+}
+
+.home_page_content.takeunder a:hover {
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
+}
+
+.home_area_spotlight:hover {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
+}
+
+.carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal:hover {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-bottom: 1px solid var(--minimal_dark_color) !important;
+}
+
+.carousel_items.store_capsule_container > * > *:hover {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
+}
+
+.steamdeck_banner_desktop:hover {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_color) !important;
 }
