@@ -1786,6 +1786,7 @@ body.v6 div#global_header .content {
 .apphub_sectionTab, a.apphub_sectionTab, .apphub_responsive_tab .responsive_tab_control {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    line-height: 28px !important;
 }
 
 .apphub_sectionTabsHR {
@@ -1793,10 +1794,11 @@ body.v6 div#global_header .content {
 }
 
 .apphub_sectionTab:hover {
-    background: var(--minimal_dark_be_grey) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
     border-bottom: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .btn_darkblue_white_innerfade>span {
