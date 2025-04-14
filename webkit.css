@@ -1808,28 +1808,32 @@ body.v6 div#global_header .content {
 }
 
 .btn_darkblue_white_innerfade {
-	background:0 0!important;
-	padding:0!important;
-	border-radius: var(--minimal_dark_corner) !important;
+    background: 0 0!important;
+    padding: 0!important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid transparent !important;
 }
 
 .btn_darkblue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
-	border-radius: var(--minimal_dark_corner) !important;
-	background:var(--minimal_dark_greyblack)!important;
-	color:white!important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_greyblack)!important;
+    color: white!important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span {
 	border-radius: var(--minimal_dark_corner) !important;
-	background:var(--minimal_dark_greyblack)!important;
+	background: var(--minimal_dark_blacker_alt) !important;
 	color:white!important;
+	border: 1px solid transparent !important;
 }
 
 .btn_grey_grey_outer_bevel {
-	border-radius: var(--minimal_dark_corner) !important;
-	background:var(--minimal_dark_greyblack)!important;
-	color:white!important;
-	padding:0!important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    color: white !important;
+    padding: 0 !important;
+    border: 1px solid transparent !important;
 }
 
 .btn_grey_grey_outer_bevel>span {
@@ -1838,9 +1842,10 @@ body.v6 div#global_header .content {
 }
 
 .btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
-	border-radius: var(--minimal_dark_corner) !important;
-	background:var(--minimal_dark_greyblack)!important;
-	color:white!important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    color: white!important;
+    border: 1px solid var(--minimal_dark_color) !important;
 }
 
 .apphub_background {
@@ -14282,6 +14287,10 @@ h3 {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
     font-weight: bold !important;
+}
+
+.btn_grey_grey_outer_bevel:not(:hover) > span {
+    box-shadow: none !important;
 }
 
 /* end webkit */
