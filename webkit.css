@@ -4366,6 +4366,24 @@ div.early_access_announcements .post .more:hover {
 	margin-bottom: 5px !important;
 }
 
+.forum_topic.locked {
+    background-image: none !important;
+    border-left: 1px solid var(--minimal_dark_red2) !important;
+}
+
+.forum_topic.locked.sticky {
+    background-image: none !important;
+    border-left: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.forum_topic.locked.sticky .forum_topic_label {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.forum_topic.locked .forum_topic_label {
+    color: var(--minimal_dark_red2) !important;
+}
+
 .btn_blue_white_innerfade {
 	border-radius: var(--minimal_dark_corner) !important;
 	border: 1px var(--minimal_dark_be_grey)!important;
@@ -14254,6 +14272,14 @@ h3 {
 
 .franchise_notice {
     border-radius: var(--minimal_dark_corner) !important;
+}
+
+#error_box {
+    background-color: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_red2) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    font-weight: bold !important;
 }
 
 /* end webkit */
