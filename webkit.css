@@ -498,7 +498,8 @@ body.recommendgame #review_create {
 }
 
 #footerText {
-	padding-bottom:26px!important;
+    padding-bottom: 26px!important;
+    display: none !important;
 }
 
 .recommended_creators_ctn .recommended_creators_container {
@@ -4443,8 +4444,13 @@ div.early_access_announcements .post .more:hover {
 }
 
 .rightbox {
-	border-radius:0px!important;
-	background:var(--minimal_dark_black)!important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.forum_list .rightbox_list_option.selected {
+    color: var(--minimal_dark_color) !important;
 }
 
 .joinchat_bg {
