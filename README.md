@@ -46,7 +46,7 @@ You can arrange the skin however you like with over 22 customization options ava
 ### 👤 <ins>About</ins> : <br>
 Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
 I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
-All the sources and tools I used are at the bottom of the description. <br>
+All the sources and tools I used used are listed above. <br>
 
 I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. Be understanding if you encounter any bugs. <br><br>
 ⚠️ Minimal Dark is a completely <ins>free skin</ins>.  <br>
