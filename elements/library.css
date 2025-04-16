@@ -462,7 +462,9 @@
 }
 
 ._2-p7shAZYrRijpaTU9bAFR:hover > div {
-    background-color: var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
 
 ._1yIzy56YfJIliF6ykwhP2r.bottom {
