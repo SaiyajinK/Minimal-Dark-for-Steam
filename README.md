@@ -6,7 +6,7 @@
 ### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the selected color code on the entire skin (by default, whether you are on w10 or w11, the color of Steam will be the one you have chosen in Windows, but you can always use another color by clicking on the color selector).<br>
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
-You can arrange the skin however you like with over 22 customization options available in Minimal Dark settings.<br>
+You can arrange the skin however you like with over 23 customization options available in Minimal Dark settings.<br>
 ### 📸 <ins>Screenchots</ins> : <br>
 <p align="left"><img src="https://github.com/user-attachments/assets/320476d4-e530-4877-ac43-988cbddd12f1" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/720d1a71-7c28-403a-a234-67cc7b29d548" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/004e4f04-8ef6-422f-a70e-4876a6f64afa" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/8ea95d1e-fa95-4bd5-a724-074d7ce600fa" width="150" height="95"></p>
 
