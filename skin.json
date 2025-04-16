@@ -211,20 +211,6 @@
 			}
 		},
 		
-		"Alternative hover effect for icons menu": {
-		"tab": "Topbar options",
-		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
-		"default": "Fill",
-		"values": {
-			"Fill": {},
-			"Outline": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/alternative_menus_hover_effect.css"
-					}
-				}
-			}
-		},
-		
 		"Root menu Steam text": {
 		"tab": "Topbar options",
 		"description": "Hide or show steam text in top left of the root menu.",
@@ -248,6 +234,39 @@
 			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/steam_actuality_button.css"
+					}
+				}
+			}
+		},
+		
+		"Topbar icons menu hover effect": {
+		"tab": "Topbar options",
+		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
+		"default": "Fill",
+		"values": {
+			"Fill": {},
+			"Outline": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/alternative_menus_hover_effect.css"
+					}
+				}
+			}
+		},
+		
+		"Topbar tabs left icons (hover effect included)": {
+		"tab": "Topbar options",
+		"description": "Adds an icon to the left of the top bar tabs text.",
+		"default": "Icons (fill)",
+		"values": {
+			"No icons (text only)": {},
+			"Icons (fill + text)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs_icons.css"
+					}
+				},
+			"Icons (outline + text)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs_outline_icons.css"
 					}
 				}
 			}
@@ -345,7 +364,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.6.0",
+	"version": "3.6.1",
 
 	"github": {
 		"owner": "SaiyajinK",
