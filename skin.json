@@ -253,20 +253,58 @@
 			}
 		},
 		
+		"Topbar Market tabs left icon (currency icon)": {
+		"tab": "Topbar options",
+		"description": "Adds an icon to the left of the top bar tabs text.",
+		"default": "Fill icon (euro)",
+		"values": {
+			"Fill icon (euro)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_euro.css"
+					}
+				},
+			"Outline icon (euro)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_outline_euro.css"
+					}
+				},
+			"Fill icon (dollar)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_dollar.css"
+					}
+				},
+			"Outline icon (dollar)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_outline_dollar.css"
+					}
+				},
+			"Fill icon (pound sterling)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_ps.css"
+					}
+				},
+			"Outline icon (pound sterling)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_outline_ps.css"
+					}
+				}
+			}
+		},
+		
 		"Topbar tabs left icons (hover effect included)": {
 		"tab": "Topbar options",
 		"description": "Adds an icon to the left of the top bar tabs text.",
-		"default": "Icons (fill)",
+		"default": "Icons (fill + text)",
 		"values": {
 			"No icons (text only)": {},
 			"Icons (fill + text)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs_icons.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_icons.css"
 					}
 				},
 			"Icons (outline + text)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs_outline_icons.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_outline_icons.css"
 					}
 				}
 			}
@@ -281,20 +319,6 @@
 			"yes": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/tabs_text_form.css"
-					}
-				}
-			}
-		},
-		
-		"Use Steam alternative logo": {
-		"tab": "Topbar options",
-		"description": "Change the logo of the root menu.",
-		"default": "yes",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/steam_alternative_logo.css"
 					}
 				}
 			}
