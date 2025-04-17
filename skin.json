@@ -263,6 +263,7 @@
 			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_euro.css"
 					}
 				},
+			"No icon": {},
 			"Outline icon (euro)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_euro.css"
