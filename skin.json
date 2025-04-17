@@ -253,39 +253,39 @@
 			}
 		},
 		
-		"Topbar Market tabs left icon (currency icon)": {
+		"Topbar Store tab left icon (currency icon)": {
 		"tab": "Topbar options",
 		"description": "Adds an icon to the left of the top bar tabs text.",
 		"default": "Fill icon (euro)",
 		"values": {
 			"Fill icon (euro)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_euro.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_euro.css"
 					}
 				},
 			"Outline icon (euro)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_outline_euro.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_euro.css"
 					}
 				},
 			"Fill icon (dollar)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_dollar.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_dollar.css"
 					}
 				},
 			"Outline icon (dollar)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_outline_dollar.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_dollar.css"
 					}
 				},
 			"Fill icon (pound sterling)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_ps.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_ps.css"
 					}
 				},
 			"Outline icon (pound sterling)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/market_icon/market_icon_outline_ps.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_ps.css"
 					}
 				}
 			}
