@@ -1921,7 +1921,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .compactView .socialListTab {
-    transform: translate(-4px, -7px) !important;
+    transform: translate(0px, 1px) !important;
 }
 
 .speaker.ingame .speakerStatus {
@@ -2353,4 +2353,36 @@ button.DialogButton::before {
 
 .socialSearchContainer {
     background-color: transparent !important;
+}
+
+.CompactFriendsList .X_mJE4BYV5StDPwZhSiAu.avatarFrame {
+    height: 70% !important;
+    width: 70% !important;
+}
+
+.compactView .currentUserAvatar .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
+    transform: scale(1.18) translate(3px, 3px) !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
+    height: 18px !important;
+}
+
+.CompactFriendsList .friend.ingame, .CompactFriendsList .friendGroup .friend.ingame {
+    height: 29px !important;
+}
+
+.CompactFriendsList ._4ZTzGZ5TTgFyfw1DcXLXS._1oYSXGjBe7QctQ1ikLpCMm {
+    margin-top: -3px;
+}
+
+.CompactFriendsList ._3bbRZyUiK-bfc5Qov6xukI ._2Ri005Wg_uXDTa71kdRbcN {
+    font-size: 10px !important;
+    line-height: 10px !important;
+}
+
+.ExpandPlusMinus {
+    opacity: 1 !important;
 }
