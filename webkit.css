@@ -11706,18 +11706,32 @@ img#ss_gallery_6286925449103314 {
 }
 
 .ss_thumb_spoiler_cover {
-    top: 3% !important;
-    left: 2px !important;
+    top: 1% !important;
+    left: 1px !important;
     background-color: #00000096 !important;
     backdrop-filter: blur(10px) !important;
-    width: 97% !important;
-    height: 95% !important;
+    width: 99% !important;
+    height: 97% !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
 .ss_spoiler_text {
     color: var(--minimal_dark_color) !important;
     font-size: 16px !important;
+}
+
+.image_wall_spoiler_cover {
+    top: 0% !important;
+    background-color: #00000096 !important;
+    backdrop-filter: blur(10px) !important;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.image_wall_spoiler_text {
+    top: 28% !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .blotter_screenshot_gallery_image {
