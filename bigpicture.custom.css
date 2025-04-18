@@ -365,6 +365,7 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.
 
 .rRIYiTtpDYzW3EQ2BH-Kw {
     border: 1px solid #262626 !important;
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 .friendListHeaderContainer.GamepadMode, .GamepadMode .friendListHeaderContainer {
