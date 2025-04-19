@@ -14687,13 +14687,13 @@ div.quicklistselect #quicklistselect_arrow {
     border-radius: var(--minimal_dark_corner) !important;
 }
 
-.item_market_action_button_edit .item_market_action_button_contents {
+.market_listing_cancel_button span .item_market_action_button_edit .item_market_action_button_contents {
     border: 1px solid var(--minimal_dark_red2) !important;
     border-radius: var(--minimal_dark_corner) !important;
     color: var(--minimal_dark_red2) !important;
 }
 
-span.item_market_action_button_contents:hover {
+.market_listing_cancel_button span.item_market_action_button_contents:hover {
     border: 1px solid var(--minimal_dark_blacker_alt) !important;
     border-radius: var(--minimal_dark_corner) !important;
     color: white !important;
