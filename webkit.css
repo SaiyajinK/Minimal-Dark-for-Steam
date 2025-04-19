@@ -421,11 +421,6 @@ body.v6 .page_content.browse_reviews {
     color: var(--minimal_dark_color) !important;
 }
 
-.forum_topic_icon {
-    padding: 12px 12px 11px 6px !important;
-    filter: grayscale(1) !important;
-}
-
 .forum_paging_pagelink.active, .forum_paging_controls .commentthread_pagelink.active {
     color: var(--minimal_dark_color) !important;
     font-size: 18px !important;
@@ -1458,8 +1453,8 @@ a.home_marketing_message {
 .btn_grey_white_innerfade>span {
     border-radius: var(--minimal_dark_corner) !important;
     color: white!important;
-    background: var(--minimal_dark_greyblack)!important;
-	border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .btn_grey_white_innerfade:hover {
@@ -2118,7 +2113,7 @@ a.recent_game_discussion:hover {
     color: #e1e1e1;
     text-align: right;
     border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
 }
 
 .discussions_forum_row {
@@ -2126,7 +2121,8 @@ a.recent_game_discussion:hover {
     background-color: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
-	margin-bottom: 5px !important;
+    margin-bottom: 5px !important;
+    height: 60px !important;
 }
 
 .discussions_forum_row:hover {
@@ -2157,13 +2153,10 @@ a.recent_game_discussion.quasi_official_group:hover {
 }
 
 .forum_paging {
-	background:var(--minimal_dark_black)!important;
-	border-radius:0px!important;
-	color: var(--minimal_dark_installed_games)!important;
-}
-
-.forum_topic_award_count img {
-    filter: sepia(1) contrast(1.25) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 0px!important;
+    color: var(--minimal_dark_installed_games)!important;
+	padding-bottom: 10px !important;
 }
 
 .forum_topic {
@@ -2237,12 +2230,6 @@ div#headerSearch.friend_activity_header_search {
 	padding-right:7px!important;
 	border-radius: var(--minimal_dark_corner) !important;
 	cursor:pointer!important;
-}
-
-#findItemsSearchBox {
-	border-radius:0px!important;
-	background-color:var(--minimal_dark_blacker_alt)!important;
-	border:1px solid var(--minimal_dark_blacker)!important;
 }
 
 .blotter_daily_rollup {
@@ -4332,6 +4319,9 @@ div.early_access_announcements .post .more:hover {
     border-radius: var(--minimal_dark_corner) !important;
     padding-left: 7px!important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    padding-bottom: 0px !important;
+    min-height: auto !important;
+    height: auto !important;
 }
 
 .commentthread_entry {
@@ -4461,21 +4451,25 @@ div.early_access_announcements .post .more:hover {
 }
 
 .group_tab.active {
-	height:35px!important;
-	background:0 0!important;
-	border-radius:0px!important;
+    height: 35px!important;
+    background: 0 0!important;
+    border-radius: 0px!important;
+    border: none !important;
 }
 
 .group_tab.active>span {
-    height: 35px!important;
+    height: 29px!important;
     background: var(--minimal_dark_blacker) !important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_color) !important;
+    transform: translate(0px, 6px) !important;
+    line-height: 29px !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .rightbox {
     border-radius: var(--minimal_dark_corner) !important;
-    background: var(--minimal_dark_black) !important;
+    background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
@@ -4624,9 +4618,11 @@ a.readmore_link {
 }
 
 .btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
-	text-decoration:none!important;
-	color:white!important;
-	border-radius: var(--minimal_dark_corner) !important;
+    text-decoration: none!important;
+    color: white!important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 .btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span {
@@ -4728,9 +4724,11 @@ a.readmore_link {
 }
 
 .rightbox_list_selection_background {
-	left:-10px!important;
-	background:var(--minimal_dark_blacker_alt) !important;
-	border-radius:0px!important;
+    left: -8px!important;
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    width: 293px !important;
 }
 
 .bundle_contents_preview {
@@ -5185,8 +5183,9 @@ img.gamecard {
 }
 
 .searchApps {
-	border-radius:0px!important;
+	border-radius: var(--minimal_dark_corner) !important;
 	background:var(--minimal_dark_blacker_alt) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .workshopAppsRow {
@@ -8036,6 +8035,7 @@ a.account_manage_link.delete_link:active {
     border-radius: var(--minimal_dark_corner) !important;
     background-color: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
 }
 
 .account_manage_link:hover {
@@ -9127,7 +9127,7 @@ img.communitylink_achievement {
 }
 
 .discussions_forumlist_linkoverlay img {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 0px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
@@ -12172,10 +12172,10 @@ a.view_inactive:hover {
 }
 
 #BG_top {
-    background: var(--minimal_dark_blacker) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
-	margin-top: 10px !important;
+    margin-top: 10px !important;
 }
 
 #BG_top > .user_info {
@@ -14314,6 +14314,356 @@ h3 {
 
 .forum_list_ctn .forum_list_right {
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.forum_topic_reply_count img {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkElEQVR4nN2SwQnDMAxFnY6QGTJbrx2ipoMFpAWkW0CCrFAK8UnFPRTjhFZOL6EfdJE/30/wQziEgOQGpAlZ7dtkH7DEKkAT8tx7Pss+JF2qpVoL8cqPxeITvivgDwlCa4BHKz/82gNgiVtNBJYHkFzM7FQ2EVmvTtRpQNLxNY1nvmVmHbCckfS+K6Ck2Xp4Ajkf9mN8o9aKAAAAAElFTkSuQmCC") !important;
+}
+
+.forum_topic_award_count img {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABVklEQVR4nI2RsU4CQRRFsdHaSIMmWGiMkZ0xoq2JfoTyE6wfoIXGxDVawifIjmR3hkJRSv0HQq+lsTABooTZcM0MCMwuC77kNnffPW/fm0QipsCoDZe+azFqx/UZBbazDJdU4ZJvMApD2iOPuNtNxQNcUo0EIyIP8QBG2oNp6BTTaF0l0XKS6BTS2hsA2jFhevI3RQWal4uGNGT0J9GboH8s3aAmhwEtZ2l8jbfpAGcSIDkDwKg9dYXi6tiLWPnZRyyk9dR/H1FV9z5bm/WMXZZ9SsRVjtfPXst5/LC9XjiovJeyjSO/fjo5DcwRIRtEBFC69kr4YvtNJccraa8v2VC9kXyGy8NRU1+WHxxneJAL+xlfHkQAFg98I8zl5/ozFrY8zFtcfhgQHnhGeFMgZQnZNQBC3gzhQt6G4HLbw8oQQIS8MCfIHq1gY7heBWvKMyHBufr4C6IWxxX+T4shAAAAAElFTkSuQmCC") !important;
+}
+
+.forum_topic_award_count {
+	color: #fbbf32 !important;
+}
+
+a.btn_darkblue_white_innerfade.btn_medium.responsive_OnClickDismissMenu {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
+}
+
+a.btn_darkblue_white_innerfade.btn_medium.responsive_OnClickDismissMenu:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+	color: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+.btn_grey_black.btn_medium {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
+}
+
+.forum_list .rightbox_list_option.selected .forum_list_name a.whiteLink {
+    color: var(--minimal_dark_color) !important;
+    font-weight: bold;
+}
+
+.grouppage_content_area h2, a.large_title, h2.large_title {
+    color: var(--minimal_dark_color) !important;
+}
+
+div.quicklistselect {
+    border-radius: var(--minimal_dark_corner) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+div#quicklistselect:hover {
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.discussions_game_browseoption {
+    background-color: transparent !important;
+}
+
+div.quicklistselect_options {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transform: translate(-12px, 14px) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+div.quicklistselect_options div.option:hover {
+    background-color: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+div.quicklistselect #quicklistselect_arrow {
+    right: -1px !important;
+}
+
+.community_home_search_divider {
+    border-top: 1px solid var(--minimal_dark_blacker_alt) !important;
+    background-color: var(--minimal_dark_be_grey) !important;
+    margin: 12px 0 !important;
+}
+
+.community_home_search_ctn.left {
+    padding-top: 22px !important;
+}
+
+.forum_topics .forum_topic.sticky .forum_topic_icon, .forum_topics .forum_topic.locked.sticky .forum_topic_icon, .forum_topics .forum_topic.unread.sticky .forum_topic_icon {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nKWRPUvDUBRAs4izi6irurh2rcS+j7xQFBQpgULonHRIwJ/RoYP4A2wQuqiLtpOTzVeTQVHEIrS1IlUQESzY1rZPnzhYQZrGs73hHO69j+MCYgGwZgGQ9yORCS4MNgDPNoTUAmA/VMSC8IwFQkUcAJYcCFt+PD74ETkqiOLkSLkUi807gnBfkeV+U9OoNxzJD++J0GKZEM9GqOOJomkDsOUg9FqR5d6DrtMrSeraCL2YEPoWAE8mhKu/A+aFJPVamQytp9N9VxDoTSpFmXyZSLRdjM9LCM39Oa6J8bRLSLWmKJ23bJbe6frAJWRwnUxSG6HmaTQ6NXJnl+dnHIxvq4ryziINTRuwSUyEZC4ohzu5dWtjs1dT1a9IXVX7ZUJKgWSj6C8bBe/xYHsv4WLcqKlql93EQag9Ut4t+FEm5459wN4+IbMswg7rEFIeS+a+YRH2OxbPL4wtB+JfMsMoeidG0VsJJX9KHzGQ4XNbc/yQAAAAAElFTkSuQmCC") !important;
+}
+
+.forum_topics .forum_topic.unread .forum_topic_icon {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0UlEQVR4nGNgoBf47+39H4ZpY0Bo/Soev+qtZ3wrt/zzq9r6Hx2DNMLYgTU73gfV7OwPrV/FBjfAv3r7aXRNWdMv/u/e/gGMQQbA2K0bXv2P7TryNaB2Rx/cAN8qTJtDGnaDNbxMyv3/39cXbgAIt2x4BXYJAwzANJ1aF/v/7Y3u///fLQbzQYpfJOX+f5Gch2IACIPkGdANeHa+6f+RFWH/T2+IgxuAC2M14P+7xf//vV0ENohsA/5DMX0M8MMS56RgBmLAoWnB/0GYKMVDzwAAtEaMVsgmMyoAAAAASUVORK5CYII=") !important;
+}
+
+.forum_topics .forum_topic .forum_topic_icon {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlElEQVR4nGNgGD4gtH4Vj1/11jO+lVv++VVt/Y8PB9bseB9Us7M/tH4VG9wA/+rtp9EVZk2/+L97+wcM3Lrh1f/YriNfA2p39MEN8K3CtDmkYTdYw8u3P/7///XrPzoAuYQBBnA5F2TAizffwRjmAhgAyTMQYwA6ptiAbigeJAb4EYhzQpiBGHBoWvB/ECYzjQ52AwDB03t98CJq4QAAAABJRU5ErkJggg==") !important;
+}
+
+.forum_topics .forum_topic.locked .forum_topic_icon {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAs0lEQVR4nGNgwALevn0r++HDhzUfPnz4BMXrP378qI5NLVbN79+/f/7+/fuy169fS4Hwhw8fyt+/f/8CJMdACHyA2FyORbziw4cPq4gx4BPIVnRxqEs+EmPAf3LkKDNgWo2bz8xat3fTqlz+E4Nn1bq/nV7j4gU3YFat+9v7u8v+fz3XShS+t7vs/6xatzcIF1S5/P//bjFJGKQHxYCvRNoOwxgG/B91wX9i0wAyxpXgSAIAM9PU7ane2lsAAAAASUVORK5CYII=") !important;
+}
+
+.forum_topic_answer {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABL0lEQVR4nGNgQAdbs3UZtmZOZNiScYVhS8YXKAaxJzBsztBhwAm25bIzbMmcxrA14y/D1sz/OPAfhi2ZUxhWhbJhat6asQ+PRlS8JXMvqiFbMqYTrRlhyGQkP2fgczYcO52Y8J9jex7CO9uztBnAAUaE5vBzc/7//vf3//ZXV/+zbMuGimf0MTBsybxKSHPoudlgzSBQf2sLstxlkP8/Iytuv7MDbBu6zSDQgKoZhD+BvPAJJuB6chJYIUgDSCMBzf8ZtmR8xPACSCHMELyakbwwAV2i/MZ6sEYsfkZ3QS8DOHmCogRNEmQrHpsh0bgtXQuakDKnkJyQQNEPB6BkuSVjDwmadzOcSWNFzQ9gQzInY/MOirNBNmNoRgag5AlKYaAQBqURSDoBsXsRfkYAAOcx7FqgqLUDAAAAAElFTkSuQmCC") !important;
+    transform: scale(1.3) translate(3px, 1px) !important;
+    padding-right: 8px !important;
+}
+
+.discussions_forumlist_icon {
+    filter: none !important;
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0UlEQVR4nGNgoBf47+39H4ZpY0Bo/Soev+qtZ3wrt/zzq9r6Hx2DNMLYgTU73gfV7OwPrV/FBjfAv3r7aXRNWdMv/u/e/gGMQQbA2K0bXv2P7TryNaB2Rx/cAN8qTJtDGnaDNbxMyv3/39cXbgAIt2x4BXYJAwzANJ1aF/v/7Y3u///fLQbzQYpfJOX+f5Gch2IACIPkGdANeHa+6f+RFWH/T2+IgxuAC2M14P+7xf//vV0ENohsA/5DMX0M8MMS56RgBmLAoWnB/0GYKMVDzwAAtEaMVsgmMyoAAAAASUVORK5CYII=") !important;
+    transform: scale(0.35) translate(0px, 21px) !important;
+}
+
+.recent_game_discussion .recent_game_discussions_unread_indicator {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0UlEQVR4nGNgoBf47+39H4ZpY0Bo/Soev+qtZ3wrt/zzq9r6Hx2DNMLYgTU73gfV7OwPrV/FBjfAv3r7aXRNWdMv/u/e/gGMQQbA2K0bXv2P7TryNaB2Rx/cAN8qTJtDGnaDNbxMyv3/39cXbgAIt2x4BXYJAwzANJ1aF/v/7Y3u///fLQbzQYpfJOX+f5Gch2IACIPkGdANeHa+6f+RFWH/T2+IgxuAC2M14P+7xf//vV0ENohsA/5DMX0M8MMS56RgBmLAoWnB/0GYKMVDzwAAtEaMVsgmMyoAAAAASUVORK5CYII=") !important;
+    transform: scale(.39) translate(0px, -5px) !important;
+}
+
+.discussions_game_topics .forum_topic_icon {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0UlEQVR4nGNgoBf47+39H4ZpY0Bo/Soev+qtZ3wrt/zzq9r6Hx2DNMLYgTU73gfV7OwPrV/FBjfAv3r7aXRNWdMv/u/e/gGMQQbA2K0bXv2P7TryNaB2Rx/cAN8qTJtDGnaDNbxMyv3/39cXbgAIt2x4BXYJAwzANJ1aF/v/7Y3u///fLQbzQYpfJOX+f5Gch2IACIPkGdANeHa+6f+RFWH/T2+IgxuAC2M14P+7xf//vV0ENohsA/5DMX0M8MMS56RgBmLAoWnB/0GYKMVDzwAAtEaMVsgmMyoAAAAASUVORK5CYII=") !important;
+}
+
+.discussions_recentlyplayed.unread img {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0UlEQVR4nGNgoBf47+39H4ZpY0Bo/Soev+qtZ3wrt/zzq9r6Hx2DNMLYgTU73gfV7OwPrV/FBjfAv3r7aXRNWdMv/u/e/gGMQQbA2K0bXv2P7TryNaB2Rx/cAN8qTJtDGnaDNbxMyv3/39cXbgAIt2x4BXYJAwzANJ1aF/v/7Y3u///fLQbzQYpfJOX+f5Gch2IACIPkGdANeHa+6f+RFWH/T2+IgxuAC2M14P+7xf//vV0ENohsA/5DMX0M8MMS56RgBmLAoWnB/0GYKMVDzwAAtEaMVsgmMyoAAAAASUVORK5CYII=") !important;
+}
+
+.forum_list_name a {
+    color: #ebebeb !important;
+}
+
+.rightbox_list_option.selected .forum_list_name a {
+    color: var(--minimal_dark_color) !important;
+}
+
+.forum_list_name a:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+.appCover {
+    width: 175px !important;
+    height: 82px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background-color: #191919 !important;
+    background-repeat: no-repeat;
+}
+
+.app:hover .appCoverHover {
+    border-top: 2px solid var(--minimal_dark_color) !important;
+}
+
+.appCoverHover {
+    width: 175px !important;
+    height: 92px !important;
+	border-top: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	background-image: none !important;
+    background-color: #191919 !important;
+    background-repeat: no-repeat;
+}
+
+.appInfo {
+    position: absolute;
+    top: 10px !important;
+    margin-left: 50%;
+    left: -60px;
+    width: 120px;
+    text-align: center;
+    color: var(--minimal_dark_color) !important;
+}
+
+.market_page_left {
+    padding-left: 20px !important;
+    padding-right: 6px;
+}
+
+.market_listing_table_message {
+    margin: 10px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+#myMarketTabs {
+    margin: 10px !important;
+    margin-top: 30px !important;
+}
+
+.market_tab_well_tabs {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 0px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.market_tab_well_tab_active > span {
+    background: var(--minimal_dark_greensettings) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.market_tab_well_tab_inactive:hover > span {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_greensettings) !important;
+    height: 40px !important;
+    transform: translate(0px, 0px) !important;
+    color: var(--minimal_dark_greensettings) !important;
+    transition: .25s ease-out !important;
+}
+
+.market_tab_well_tab_contents {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    height: 40px !important;
+}
+
+.my_market_header {
+    padding-left: 10px !important;
+}
+
+.market_search_sidebar_contents {
+    background: transparent !important;
+}
+
+.market_listing_table_header {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    width: 630px !important;
+}
+
+.market_listing_row {
+    border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.market_listing_row:hover {
+    border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	color: var(--minimal_dark_color) !important;
+}
+
+.market_listing_item_img {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+.my_listing_section {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.my_listing_section .market_listing_row {
+    transition-duration: .25s !important;
+}
+
+.market_search_sidebar_section_tip_small {
+    color: var(--minimal_dark_color) !important;
+}
+
+#findItemsSearchBox {
+    border-radius: var(--minimal_dark_corner) !important;
+    background-color: var(--minimal_dark_blacker_alt)!important;
+    border: 1px solid var(--minimal_dark_blacker)!important;
+}
+
+.game_button > span {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.game_button > span:hover {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.game_button_game_icon img {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.game_button_game_icon > img {
+    top: 2px !important;
+}
+
+.market_search_advanced_button {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-image: none !important;
+	border-radius: var(--minimal_dark_corner) !important;
+}
+
+.market_search_advanced_button:hover {
+    background: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-image: none !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.item_market_action_button_green {
+    background-image: none !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_progress_bar) !important;
+    color: var(--minimal_dark_progress_bar) !important;
+    transition: .25s ease-out !important;
+}
+
+.item_market_action_button_green:hover {
+    background-image: none !important;
+    background: var(--minimal_dark_progress_bar) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
+    color: white !important;
+    transition: .25s ease-out !important;
+}
+
+.item_market_action_button_green > span {
+    background-image: none !important;
+}
+
+.user_info_text a:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+.market_subtitle_text {
+    color: var(--minimal_dark_greensettings) !important;
+}
+
+.market_advancedsearch_filters {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+#market_advancedsearch_appselect {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+#market_advancedsearch_dialog .market_search_sidebar_search_box {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+#market_advancedsearch_appselect_options {
+    max-height: 349px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+#market_advancedsearch_appselect_options_apps .popup_menu_item img {
+    border: 2px solid var(--minimal_dark_blacker_alt) !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
