@@ -14699,4 +14699,62 @@ div.quicklistselect #quicklistselect_arrow {
     background: var(--minimal_dark_red2) !important;
 }
 
+.ico16.arrow_down {
+    background-position: -46px -18px !important;
+}
+
+.ico_hover:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover .ico16.arrow_down {
+    background-position: -46px -18px !important;
+}
+
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+    color: var(--minimal_dark_color) !important;
+}
+
+.wallet_history_table tr:hover {
+    background-color: var(--minimal_dark_black) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+.wallet_history_table {
+    border: solid 1px var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.wallet_history_table th {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-bottom: 1px solid var(--minimal_dark_color) !important;
+    border-right: 1px solid var(--minimal_dark_color) !important;
+}
+
+.wallet_history_table tr:nth-child(odd) {
+    background-color: transparent !important;
+}
+
+.wallet_history_table tr:nth-child(odd):hover {
+    background-color: var(--minimal_dark_black) !important
+}
+
+th.wht_date {
+    border-top-left-radius: var(--minimal_dark_corner) !important;
+}
+
+th.wht_wallet {
+    border-top-right-radius: var(--minimal_dark_corner) !important;
+}
+
+td.wht_wallet_change {
+    color: var(--minimal_dark_red2) !important;
+    border-left: solid 1px var(--minimal_dark_color) !important;
+}
+
+td.wht_wallet_balance {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.wallet_history_click_hint {
+    color: var(--minimal_dark_color) !important;
+}
+
 /* end webkit */
