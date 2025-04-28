@@ -2333,7 +2333,7 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .responsive .profile_header .playerAvatar.profile_header_size {
-    max-width: 40%!important;
+    max-width: 100% !important;
     float: left!important;
     margin-right: 18px!important;
     position: relative!important;
@@ -14755,6 +14755,61 @@ td.wht_wallet_balance {
 
 .wallet_history_click_hint {
     color: var(--minimal_dark_color) !important;
+}
+
+.forumtopic_answer.answer_ctn {
+    border: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.forumtopic_answer {
+    background: var(--minimal_dark_greensettings) !important;
+}
+
+.forumtopic_answer .answer_quote {
+    border: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+    color: white !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.forumtopic_answer.answer_ctn {
+    border: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.forumtopic_answer.answer_header a {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.forumtopic_answer.answer_header img {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABL0lEQVR4nGNgQAdbs3UZtmZOZNiScYVhS8YXKAaxJzBsztBhwAm25bIzbMmcxrA14y/D1sz/OPAfhi2ZUxhWhbJhat6asQ+PRlS8JXMvqiFbMqYTrRlhyGQkP2fgczYcO52Y8J9jex7CO9uztBnAAUaE5vBzc/7//vf3//ZXV/+zbMuGimf0MTBsybxKSHPoudlgzSBQf2sLstxlkP8/Iytuv7MDbBu6zSDQgKoZhD+BvPAJJuB6chJYIUgDSCMBzf8ZtmR8xPACSCHMELyakbwwAV2i/MZ6sEYsfkZ3QS8DOHmCogRNEmQrHpsh0bgtXQuakDKnkJyQQNEPB6BkuSVjDwmadzOcSWNFzQ9gQzInY/MOirNBNmNoRgag5AlKYaAQBqURSDoBsXsRfkYAAOcx7FqgqLUDAAAAAElFTkSuQmCC") !important;
+    transform: scale(1) !important;
+    border: 2px solid var(--minimal_dark_browser_overlay_close) !important;
+    border-radius: 20px !important;
+}
+
+.forumtopic_answer .answer_quote a {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.forumtopic_comments .commentthread_answer_bar {
+    background: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.commentthread_answer_bar img {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABL0lEQVR4nGNgQAdbs3UZtmZOZNiScYVhS8YXKAaxJzBsztBhwAm25bIzbMmcxrA14y/D1sz/OPAfhi2ZUxhWhbJhat6asQ+PRlS8JXMvqiFbMqYTrRlhyGQkP2fgczYcO52Y8J9jex7CO9uztBnAAUaE5vBzc/7//vf3//ZXV/+zbMuGimf0MTBsybxKSHPoudlgzSBQf2sLstxlkP8/Iytuv7MDbBu6zSDQgKoZhD+BvPAJJuB6chJYIUgDSCMBzf8ZtmR8xPACSCHMELyakbwwAV2i/MZ6sEYsfkZ3QS8DOHmCogRNEmQrHpsh0bgtXQuakDKnkJyQQNEPB6BkuSVjDwmadzOcSWNFzQ9gQzInY/MOirNBNmNoRgag5AlKYaAQBqURSDoBsXsRfkYAAOcx7FqgqLUDAAAAAElFTkSuQmCC") !important;
+    transform: scale(1) translate(2px, 2px) !important;
+    border: 2px solid var(--minimal_dark_browser_overlay_close) !important;
+    border-radius: 20px !important;
+}
+
+.forumtopic_comments .commentthread_answer_bar {
+    border: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+    background: var(--minimal_dark_greensettings) !important;
+}
+
+.forumtopic_comments .commentthread_answer_bar span {
+    color: white !important;
 }
 
 /* end webkit */
