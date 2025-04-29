@@ -122,6 +122,25 @@
 			}
 		},
 		
+		"Enlarged buttons (title area)": {
+		"tab": "Global options",
+		"description": "Make the title bar bigger (close/maximize/minimize buttons).",
+		"default": "Minimal (default)",
+		"values": {
+			"Minimal (default)": {},
+			"Enlarged (w11 users)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/alternative_title_area_buttons/alternative_title_area_buttons_w11.css"
+					}
+				},
+			"Enlarged (w10 users)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/alternative_title_area_buttons/alternative_title_area_buttons_w10.css"
+					}
+				}
+			}
+		},
+		
 		"Hover borders on library and webkit blocks": {
 		"tab": "Global options",
 		"description": "Make the hover borders of library/webkit items full and no longer just on the bottom.",
