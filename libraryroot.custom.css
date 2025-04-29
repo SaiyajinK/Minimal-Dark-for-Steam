@@ -40,12 +40,12 @@
 }
 
 .DesktopUI .title-area-icon, .friendsui-container .title-area-icon {
-    width: 18px !important;
-    height: 18px !important;
+    width: 18px;
+    height: 18px;
     border: 1px solid var(--minimal_dark_greyblack) !important;
-    transform: translate(-14px, 2px) !important;
+    transform: translate(-14px, 2px);
     transition: .25s ease-out !important;
-    margin-left: 8px !important;
+    margin-left: 8px;
 }
 
 .DesktopUI .title-area-icon .SVGIcon_X_Line line {
@@ -82,7 +82,7 @@
     background: #f1244669 !important;
     transition: .25s ease-out !important;
     border: 1px solid var(--minimal_dark_red2) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal_dark_corner);
 }
 
 .DesktopUI .title-area-icon.closeButton:active {
@@ -90,7 +90,7 @@
     transition: .25s ease-out !important;
     border: 1px solid var(--minimal_dark_red2) !important;
     box-shadow: inset 0 0 8px #000000c2 !important;
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal_dark_corner);
 }
 
 .title-area-icon.maximizeButton svg rect {
