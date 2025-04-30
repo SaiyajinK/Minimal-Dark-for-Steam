@@ -576,6 +576,8 @@ button.DialogButton:active, button.DialogButton.gpfocus {
     border-top: 1px solid var(--minimal_dark_color) !important;
     border-right: 1px solid var(--minimal_dark_color) !important;
     border-left: 1px solid var(--minimal_dark_color) !important;
+	border-top-left-radius: var(--minimal_dark_corner) !important;
+    border-top-right-radius: var(--minimal_dark_corner) !important;
 }
 
 .ScrollToBottomButton>span:hover {
@@ -2385,4 +2387,43 @@ button.DialogButton::before {
 
 .ExpandPlusMinus {
     opacity: 1 !important;
+}
+
+.msg .filteredURL.bb_removedlink {
+    color: var(--minimal_dark_red2) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    padding: 0px 8px 0px 8px !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+}
+
+.msg .filteredURL.bb_removedlink .threatURL {
+    color: var(--minimal_dark_red2) !important;
+}
+
+.msg .filteredURL.bb_removedlink .SVGIcon_Caution .triangle path {
+    fill: transparent !important;
+}
+
+.msg .filteredURL.bb_removedlink .SVGIcon_Caution path, .msg .filteredURL.bb_removedlink .SVGIcon_Caution line {
+    stroke: var(--minimal_dark_red2) !important;
+    stroke-width: 18px !important;
+}
+
+.OpenGraphMessageURL_full {
+    color: var(--minimal_dark_color) !important;
+}
+
+.OpenGraphMessageURL_short, .OpenGraphMessageURL_full {
+    color: var(--minimal_dark_color) !important;
+}
+
+.msg div.ChatMessageOpenGraph, .msg div.SteamPublishedFile {
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.OpenGraphImgBackground .ChatMessageOpenGraph_Image {
+    filter: blur(92px) saturate(1) brightness(1) !important;
 }
