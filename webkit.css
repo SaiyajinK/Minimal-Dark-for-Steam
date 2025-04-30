@@ -14893,4 +14893,8 @@ svg._2RGTq9bdS1l3hxmnhogr0V path {
     border-radius: var(--minimal_dark_corner) !important;
 }
 
+.game_purchase_options_editions_header {
+    background-image: none !important;
+}
+
 /* end webkit */
