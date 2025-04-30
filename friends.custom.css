@@ -2427,3 +2427,7 @@ button.DialogButton::before {
 .OpenGraphImgBackground .ChatMessageOpenGraph_Image {
     filter: blur(92px) saturate(1) brightness(1) !important;
 }
+
+.friendSearchInput[type=text] {
+    background-color: var(--minimal_dark_blacker) !important;
+}
