@@ -475,6 +475,12 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
     backdrop-filter: blur(25px) !important;
 }
 
+._1kCN0pAntrcGCSmcc-vYdk.Z3L6KGVxi4ZjGUzbYUjBC {
+    background: var(--minimal_dark_invisiblegrey) !important;
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
 ._1kCN0pAntrcGCSmcc-vYdk {
     background: var(--minimal_dark_invisiblegrey);
     color: white;
