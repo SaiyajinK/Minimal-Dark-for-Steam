@@ -892,15 +892,16 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     font-size: 13px !important;
     height: 36px !important;
     margin-top: 0px;
-	border: unset !important;
+    border: unset !important;
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
-	border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(1px, 0px) !important;
     text-transform: none !important;
     font-weight: 400 !important;
     border-top: 1px solid transparent;
     transition: .1s ease-out !important;
+    white-space: nowrap !important;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD:last-child {
