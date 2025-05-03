@@ -1,6 +1,8 @@
 <p align="left"><img src="https://github.com/user-attachments/assets/3675a0a9-74bc-4d52-a3b1-6813bc19e770" width="400" height="58"> <img src="https://github.com/user-attachments/assets/2046df08-2913-4ea0-a0f0-af598e9a7faa" width="166" height="75"></p>
 <p align="left">for Steam.</p>
 
+[![Discord](https://i.imgur.com/ISD4343.png")](https://discord.gg/2qnAq8B69u)
+
 <hr>
 
 ### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
@@ -60,3 +62,5 @@ I am neither a coder nor a developer, I have some knowledge after several years 
 💯 It's <ins>free</ins> and it gives me strength because I see that other people like my work. 🫡<br>
 ![firefox_zkLiqn1vT8](https://github.com/user-attachments/assets/bfd45d2b-f5a3-40bf-9e9f-0e656be0b7c8) <br>
 ☕ [Support me on Ko-fi](https://ko-fi.com/saiyajink) <br>
+
+
