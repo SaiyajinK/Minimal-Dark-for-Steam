@@ -375,7 +375,7 @@
 		"Profiles": {
 		"tab": "Webkit",
 		"description": "Enabling this option makes the profile page blocks full and removes the blur effect.",
-		"default": "Blurred blocs (default)",
+		"default": "Blurred blocs (Minimal default)",
 		"values": {
 			"Blurred blocs (Minimal default)": {},
 			"No blur blocs": {
