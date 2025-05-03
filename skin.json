@@ -125,9 +125,9 @@
 		"Enlarged buttons (title area)": {
 		"tab": "Global options",
 		"description": "Make the title bar bigger (close/maximize/minimize buttons).",
-		"default": "Minimal (default)",
+		"default": "Enlarged (w11 users)",
 		"values": {
-			"Minimal (default)": {},
+			"Minimal": {},
 			"Enlarged (w11 users)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/alternative_title_area_buttons/alternative_title_area_buttons_w11.css"
@@ -372,13 +372,13 @@
 			}
 		},
 		
-		"Blurred profiles": {
+		"Profiles": {
 		"tab": "Webkit",
 		"description": "Enabling this option makes the profile page blocks full and removes the blur effect.",
-		"default": "Blurred (default)",
+		"default": "Blurred blocs (default)",
 		"values": {
-			"Blurred (default)": {},
-			"No blur": {
+			"Blurred blocs (Minimal default)": {},
+			"No blur blocs": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/no_blurred_profiles.css"
 					}
