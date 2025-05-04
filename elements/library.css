@@ -328,6 +328,8 @@
     transition-duration: .2s !important;
     border: 1px solid var(--minimal_dark_be_grey);
     border-radius: var(--minimal_dark_corner) !important;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5) !important; */
+    box-shadow: none !important;
 }
 
 .WYgDg9NyCcMIVuMyZ_NBC._3VOR2AeYATx3qSE0I-Pm-5.L3xTnr5TfAJU1EhvCDaWm.xp7A-08Y404Of3FBHqX32.Panel:hover {
@@ -354,7 +356,8 @@
 ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover:not(._3VOR2AeYATx3qSE0I-Pm-5), ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R:not(._3VOR2AeYATx3qSE0I-Pm-5) {
     transform: rotateX(-1deg) translateZ(17px) scale(.96) !important;
     filter: brightness(1.1) contrast(1.15) saturate(1) !important;
-    box-shadow: 0px 14px 12px 0px rgba(0,0,0,.3) !important;
+    /* box-shadow: 0px 14px 12px 0px rgba(0,0,0,.3) !important; */
+    box-shadow: none !important;
     border: 1px solid var(--minimal_dark_color);
     border-radius: var(--minimal_dark_corner) !important;
     transition: ease-out .25s !important;
