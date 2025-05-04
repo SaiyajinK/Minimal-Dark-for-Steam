@@ -1,0 +1,4 @@
+.profile_customization_header {
+    background: var(--color-showcase-header) !important;
+    background: linear-gradient(90deg, var(--gradient-showcase-header-left) 0%, var(--color-showcase-header) 90%) !important;
+}
