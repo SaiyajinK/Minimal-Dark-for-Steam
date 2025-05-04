@@ -122,9 +122,9 @@
 			}
 		},
 		
-		"Enlarged buttons (title area)": {
+		"Title area buttons": {
 		"tab": "Global options",
-		"description": "Make the title bar bigger (close/maximize/minimize buttons).",
+		"description": "Make the title bar buttons bigger (close/maximize/minimize buttons).",
 		"default": "Enlarged (w11 users)",
 		"values": {
 			"Minimal": {},
@@ -386,6 +386,20 @@
 			}
 		},
 		
+		"Profiles headers": {
+		"tab": "Webkit",
+		"description": "If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view).",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/default_profiles_header.css"
+					}
+				}
+			}
+		},
+		
 		"Compact Webkit": {
 		"tab": "Webkit",
 		"description": "Hide the left sidebar on the webkit homepage.",
@@ -408,7 +422,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.6.5",
+	"version": "3.6.6",
 
 	"github": {
 		"owner": "SaiyajinK",
