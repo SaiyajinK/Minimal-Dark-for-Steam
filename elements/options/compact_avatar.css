@@ -1,7 +1,7 @@
 ._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC {
-    padding-right: 0px !important;
+    padding-right: 2px !important;
     min-height: 36px !important;
-    width: 34px !important;
+    width: 32px !important;
     border-top: 0px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
     margin-top: 1px !important;
@@ -30,6 +30,7 @@
     padding-left: 3px !important;
     padding-right: 10px !important;
     transform: translate(1px, 0px) !important;
+    border-right: 3px solid var(--minimal_dark_color) !important;
 }
 
 ._3yD46y5pd3zOGR7CzKs0mC:active {
