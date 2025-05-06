@@ -277,7 +277,7 @@
     transition-property: width;
     transition-duration: .8s;
     transition-timing-function: ease-in-out;
-    border-radius: 10px;
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 .B-vCdL38RiJlhfSRgZv78 ._3Rb_j3lgHaVVIud4Gla7_m {
