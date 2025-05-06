@@ -122,6 +122,34 @@
 			}
 		},
 		
+		"Hover borders on library and webkit blocks": {
+		"tab": "Global options",
+		"description": "Make the hover borders of library/webkit items full and no longer just on the bottom.",
+		"default": "Full borders",
+		"values": {
+			"Full borders": {},
+			"Bottom only": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/bottom_library_hover_effect.css"
+					}
+				}
+			}
+		},
+		
+		"Steam news button": {
+		"tab": "Global options",
+		"description": "Hide or show Steam news button in top bar.",
+		"default": "Hide",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/steam_actuality_button.css"
+					}
+				}
+			}
+		},
+		
 		"Title area buttons": {
 		"tab": "Global options",
 		"description": "Make the title bar buttons bigger (close/maximize/minimize buttons).",
@@ -141,15 +169,15 @@
 			}
 		},
 		
-		"Hover borders on library and webkit blocks": {
+		"Vanilla topbar style": {
 		"tab": "Global options",
-		"description": "Make the hover borders of library/webkit items full and no longer just on the bottom.",
-		"default": "Full borders",
+		"description": "Set the topbar in the vanilla style of steam skin.",
+		"default": "Default",
 		"values": {
-			"Full borders": {},
-			"Bottom only": {
+			"Default": {},
+			"Vanilla topbar": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/bottom_library_hover_effect.css"
+			"affects": ["^Steam$"], "src": "elements/options/vanilla_topbar_style.css"
 					}
 				}
 			}
@@ -230,6 +258,44 @@
 			}
 		},
 		
+		"Alternative contacts icon": {
+		"tab": "Topbar options",
+		"description": "Use alternative icon for contacts bloc.",
+		"default": "Minimal (fill)",
+		"values": {
+			"Minimal (fill)": {},
+			"Minimal (outline)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/contacts_icon/minimal_contacts_icon_outline.css"
+					}
+				},
+			"Alternative (fill)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/contacts_icon/alternative_contacts_icon_fill.css"
+					}
+				},
+			"Alternative (outline)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/contacts_icon/alternative_contacts_icon_outline.css"
+					}
+				}
+			}
+		},
+		
+		"Alternative downloads UI": {
+		"tab": "Topbar options",
+		"description": "change the appearance of the download block.",
+		"default": "New",
+		"values": {
+			"New UI": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/alternative_dl_ui.css"
+					}
+				},
+			"Minimal": {}
+			}
+		},
+		
 		"Root menu Steam text": {
 		"tab": "Topbar options",
 		"description": "Hide or show steam text in top left of the root menu.",
@@ -239,20 +305,6 @@
 			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/hide_steam_text.css"
-					}
-				}
-			}
-		},
-		
-		"Steam news button": {
-		"tab": "Topbar options",
-		"description": "Hide or show Steam news button in top bar.",
-		"default": "Hide",
-		"values": {
-			"Show": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/steam_actuality_button.css"
 					}
 				}
 			}
@@ -343,20 +395,6 @@
 				}
 			}
 		},
-		
-		"Vanilla topbar style": {
-		"tab": "Topbar options",
-		"description": "Set the topbar in the vanilla style of steam skin.",
-		"default": "Default",
-		"values": {
-			"Default": {},
-			"Vanilla topbar": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/vanilla_topbar_style.css"
-					}
-				}
-			}
-		},
 
 		"Mouseover animation of settings menu tabs": {
 		"tab": "Various options",
@@ -422,7 +460,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.6.6",
+	"version": "3.7.0",
 
 	"github": {
 		"owner": "SaiyajinK",
