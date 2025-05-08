@@ -8,9 +8,9 @@
 ### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the selected color code on the entire skin (by default, whether you are on w10 or w11, the color of Steam will be the one you have chosen in Windows, but you can always use another color by clicking on the color selector).<br>
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
-You can arrange the skin however you like with over 28 customization options available in Minimal Dark settings.<br>
+You can arrange the skin however you like with over 29 customization options available in Minimal Dark settings.<br>
 ### 📸 <ins>Screenchots</ins> : <br>
-<p align="left"><img src="https://github.com/user-attachments/assets/bb028b3c-3a6d-454e-93b8-411624db9789" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/f1cb0d93-5a27-47d8-95a8-9b493a4ffeb8" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/d223881a-9b7e-4c2d-b971-94cfa9e9342a" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/6f333c5a-9f88-464b-8577-c4110b9b870d" width="150" height="95"><br><img src="https://github.com/user-attachments/assets/aada3ff2-4ce6-44db-b555-567915f8fbf4" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/ad648cb1-f517-467a-96f3-cf77230ec15e" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/adff29b8-6098-494f-a141-0c20e761eed5" width="150" height="95">➖<img src="https://github.com/user-attachments/assets/ffe3aa0b-3932-41c6-8dc1-0e6f31c12b8f" width="150" height="95"></p>
+<p align="left"><img src="https://github.com/user-attachments/assets/58efa3a5-6d1c-4e90-8b15-a3e8614ee0da" width="150" height="95"></p>
 
 ### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
 1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
