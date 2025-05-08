@@ -1009,7 +1009,9 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     font-weight: 400;
     text-transform: uppercase;
     padding-right: 0px !important;
-    transform: translate(-12px, 2px);
+    /* transform: translate(-25px, 2px); */
+    /* width: 21px !important; */
+    /* text-align: center !important; */
 }
 
 ._1sCy-pm412Smb0wJx0W-4 {
@@ -1018,6 +1020,9 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 
 ._1sCy-pm412Smb0wJx0W-4._1-TLiuTZBQNz2fvBGj6aq- {
     font-size: 12px !important;
+    text-align: center !important;
+    width: 21px !important;
+    transform: translate(-14px, 2px);
 }
 
 ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F {
@@ -1193,7 +1198,10 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     border-radius: 10px;
     transform: translate(-9px, 0px);
     width: 29px;
-    border-radius: var(--minimal_dark_corner);
+    border-top-left-radius: var(--minimal_dark_corner);
+    border-top-right-radius: var(--minimal_dark_corner);
+	border-bottom-left-radius: var(--minimal_dark_corner);
+	border-bottom-right-radius: var(--minimal_dark_corner);
 }
 
 ._3szjUMH5QeRwtXAsLRcWt9::after {
@@ -2163,7 +2171,11 @@ textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 }
 
 .ModalDialogPopup .ModalDialogBody.friendsui-container .PopupFullWindow .TitleBar, .ModalDialogPopup .ModalDialogBody.DesktopUI .PopupFullWindow .TitleBar {
-    height: calc(1rem + 48px);
+    height: 32px !important;
     padding: 2px !important;
     transform: translate(4px, 0px) !important;
+}
+
+.C9tvuqqEXGcrkcAtHrQ_R .title-area-children {
+    padding-left: 10px !important;
 }
