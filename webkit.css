@@ -3721,9 +3721,10 @@ body.v6 #footer .rule {
 }
 
 .queue_controls_description {
-	color:var(--gold)!important;
-	background:0 0!important;
-	margin-top:-28px!important;
+    color: var(--gold)!important;
+    background: 0 0!important;
+    margin-top: -28px!important;
+    padding-bottom: 40px !important;
 }
 
 .btn_next_in_queue .next_in_queue_content {
@@ -12290,7 +12291,7 @@ a.view_inactive:hover {
 
 ._3szjUMH5QeRwtXAsLRcWt9 {
     background-color: var(--minimal_dark_blacker_alt) !important;
-    border-radius: 10px !important;
+    border-radius: var(--minimal_dark_corner);
     border: 1px solid var(--minimal_dark_be_grey) !important;
     box-shadow: inset 0px 1px 0px #000000 !important;
 }
