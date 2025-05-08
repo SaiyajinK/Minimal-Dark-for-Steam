@@ -85,6 +85,25 @@
 			}
 		},
 		
+		"Alternative topbar color": {
+		"tab": "Global options",
+		"description": "Make the topbar color less blacker",
+		"default": "Dark",
+		"values": {
+			"Dark": {},
+			"Grey": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_color/alternative_topbar_color.css"
+					}
+				},
+			"Grey with dark button": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_color/alternative_topbar_color_bb.css"
+					}
+				}
+			}
+		},		
+		
 		"Avatar frame": {
 		"tab": "Global options",
 		"description": "Hide or show avatar frame on all avatars.",
@@ -460,7 +479,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.7.0",
+	"version": "3.7.5",
 
 	"github": {
 		"owner": "SaiyajinK",
