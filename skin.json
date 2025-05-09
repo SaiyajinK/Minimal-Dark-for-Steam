@@ -414,6 +414,20 @@
 				}
 			}
 		},
+		
+		"Context menus hover effect": {
+		"tab": "Various options",
+		"description": "Added a border to the left of the block with the user-defined color on the context menus when hover.",
+		"default": "No hover effect",
+		"values": {
+			"No hover effect": {},
+			"With hover effect": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/menus_hover_effect.css"
+					}
+				}
+			}
+		},
 
 		"Mouseover animation of settings menu tabs": {
 		"tab": "Various options",
@@ -479,7 +493,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.7.6",
+	"version": "3.7.7",
 
 	"github": {
 		"owner": "SaiyajinK",
