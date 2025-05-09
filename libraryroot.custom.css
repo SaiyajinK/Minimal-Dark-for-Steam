@@ -280,14 +280,14 @@
 }
 
 ._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC {
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: var(--minimal_dark_blacker_alt);
     font-size: 12px;
     transition: .25s ease-out !important;
     min-height: 30px;
     padding-right: 7px;
     border-right: 2px solid transparent;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    margin-right: 61px;
+    margin-right: 62px;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
@@ -297,7 +297,7 @@
     transition: .25s ease-out !important;
     padding-right: 7px;
     border-right: 2px solid var(--minimal_dark_color);
-    margin-right: 61px;
+    margin-right: 62px;
     border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
@@ -993,6 +993,19 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     height: 30px !important;
     padding: 0px !important;
     border-radius: var(--minimal_dark_corner) !important;
+    transition: .25s ease-out !important;
+}
+
+._1TdaAqMFadi0UTqilrkelR:hover {
+    background: var(--minimal_dark_blacker) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+._1TdaAqMFadi0UTqilrkelR:active {
+   transition: .25s ease-out !important;
+   box-shadow: inset 0 0 8px #000000c2 !important;
+   transition: .25s ease-out !important;
 }
 
 ._2foCkpRXhqq0UGVE50BWqj {
@@ -1076,18 +1089,8 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     height: 26px !important;
 }
 
-._1TdaAqMFadi0UTqilrkelR:active {
-   transition: .25s ease-out !important;
-   box-shadow: inset 0 0 8px #000000c2 !important;
-}
-
 ._1KrJ3sFAqPBN9mfpaNTU5F svg path {
     display: none;
-}
-
-._1TdaAqMFadi0UTqilrkelR:hover {
-    background: var(--minimal_dark_blacker) !important;
-	border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
 .ip-YZhijAMZcuRoXBGiye:active ._1KrJ3sFAqPBN9mfpaNTU5F {
@@ -1364,7 +1367,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(4px, 0px) !important;
     border-radius: var(--minimal_dark_corner) !important;
@@ -1375,7 +1377,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(4px, 0px) !important;
 	border-top: 1px solid var(--minimal_dark_color) !important;
@@ -1387,7 +1388,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(4px, 0px) !important;
 	border-top: 1px solid var(--minimal_dark_color) !important;
@@ -1438,7 +1438,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(8px, 0px) !important;
 	border-radius: var(--minimal_dark_corner) !important;
@@ -1449,7 +1448,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(8px, 0px) !important;
 	border-top: 1px solid var(--minimal_dark_color) !important;
@@ -1461,7 +1459,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(8px, 0px) !important;
 	border-top: 1px solid var(--minimal_dark_color) !important;
@@ -1512,7 +1509,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(12px, 0px) !important;
 	border-radius: var(--minimal_dark_corner) !important;
@@ -1523,7 +1519,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(12px, 0px) !important;
 	border-top: 1px solid var(--minimal_dark_color) !important;
@@ -1535,7 +1530,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .25s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(12px, 0px) !important;
 	border-top: 1px solid var(--minimal_dark_color) !important;
@@ -1586,7 +1580,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(16px, 0px) !important;
 	border-radius: var(--minimal_dark_corner) !important;
@@ -1597,7 +1590,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(16px, 0px) !important;
 	border-top: 1px solid var(--minimal_dark_color) !important;
@@ -1609,7 +1601,6 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    transition: .10s ease-out !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(16px, 0px) !important;
 	border-top: 1px solid var(--minimal_dark_color) !important;
@@ -1754,38 +1745,45 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 /* vr headset icon topbar */
 ._3lRfTo8Wo3phXfE1DvK6QW {
     color: var(--minimal_dark_topgrey) !important;
-    width: 32px !important;
-    height: 24px !important;
-    border-radius: 0px !important;
-    background-color: var(--minimal_dark_blacker_alt) !important;
-    padding: 4px 0px 7px 0px !important;
-    transform: translate(-17px, 0px) !important;
-    border-right: 0px solid var(--minimal_dark_be_grey) !important;
-    border-left: 1px solid var(--minimal_dark_be_grey) !important;
-    border-top: 1px solid transparent !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background-color: var(--minimal_dark_blacker_alt);
+    transform: translate(-62px, 0px) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin-left: 3px !important;
+	transition: .25s ease-out !important;
+}
+
+._3lRfTo8Wo3phXfE1DvK6QW:hover svg._34bQcTHo5QKzuujoEyU1tm {
+    color: var(--minimal_dark_color) !important;
 }
 
 ._3lRfTo8Wo3phXfE1DvK6QW:hover {
     background: var(--minimal_dark_blacker) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 ._3lRfTo8Wo3phXfE1DvK6QW:active {
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: var(--minimal_dark_blacker) !important;
 	box-shadow: inset 0 0 8px #000000c2 !important;
+	border-top: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 ._3lRfTo8Wo3phXfE1DvK6QW ._34bQcTHo5QKzuujoEyU1tm {
-    padding-top: 4px !important;
+    padding-top: 0px !important;
 }
 
 ._3lRfTo8Wo3phXfE1DvK6QW._1oMrxBB04U_-xwAqI3k6Pq ._34bQcTHo5QKzuujoEyU1tm {
     color: var(--minimal_dark_color) !important;
-	background: var(--minimal_dark_blacker) !important;
+    /* background: var(--minimal_dark_blacker_alt) !important; */
 }
 
 ._3lRfTo8Wo3phXfE1DvK6QW._1oMrxBB04U_-xwAqI3k6Pq ._34bQcTHo5QKzuujoEyU1tm:hover {
     color: var(--minimal_dark_red2) !important;
-	background: var(--minimal_dark_blacker) !important;
+    /* background: var(--minimal_dark_blacker) !important; */
 }
 /* end vr headset icon topbar */
 
