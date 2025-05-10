@@ -67,6 +67,10 @@
     fill: var(--minimal_dark_color) !important;
 }
 
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS {
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase {
     border-left: 4px solid var(--minimal_dark_be_grey) !important;
     transform: translate(-1px, 0px) !important;
