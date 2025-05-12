@@ -1279,7 +1279,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 ._25lBLzuVeYAUG279up4xP8 {
     margin-top: -.5px;
     margin-right: 3px !important;
-    color: #e1e6ecd9 !important;
+    color: var(--minimal_dark_topgrey) !important;
     padding: 7px !important;
     -webkit-app-region: no-drag;
     border: 1px solid var(--minimal_dark_greyblack) !important;
