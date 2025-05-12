@@ -1,0 +1,20 @@
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
+    padding: 0px 14px 0px 14px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    box-shadow: none !important;
+	border-top: none !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+    height: 0px !important;
+    transition: .5s ease-out !important;
+    transform: translate(0px, 0px) !important;
+    content-visibility: hidden !important;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K:hover {
+    border-top: none !important;
+    height: auto !important;
+    transition: .5s ease-out !important;
+    padding: 4px 14px 4px 14px !important;
+    content-visibility: visible !important;
+	border-bottom: 1px solid var(--minimal_dark_color) !important;
+}
