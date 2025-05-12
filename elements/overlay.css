@@ -1,8 +1,8 @@
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
     padding: 0px 14px 2px 14px !important;
-	background: var(--minimal_dark_blacker_alt) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     box-shadow: none !important;
-    border-top: 1px solid var(--minimal_dark_be_grey);
+    border-top: none;
     border-bottom: 1px solid var(--minimal_dark_be_grey);
 }
 
