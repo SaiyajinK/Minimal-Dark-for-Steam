@@ -457,6 +457,25 @@
 			}
 		},
 		
+		"URL bar": {
+		"tab": "Webkit",
+		"description": "This option allows you to permanently hide the URL bar or display it only on hover.",
+		"default": "Visible",
+		"values": {
+			"Visible": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/url_bar/url_bar_hide.css"
+					}
+				},
+			"Only shows on hover": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/url_bar/url_bar_hide_show_hover.css"
+					}
+				}
+			}
+		},
+		
 		"Profiles headers": {
 		"tab": "Webkit",
 		"description": "If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view).",
@@ -493,7 +512,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.7.7",
+	"version": "3.7.8",
 
 	"github": {
 		"owner": "SaiyajinK",
