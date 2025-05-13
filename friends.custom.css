@@ -1,7 +1,7 @@
 @import url('./elements/config.css');
 
 * {
-	cursor: default !important;
+	/* cursor: default !important; */
 }
 
 .focused:not(.singlewindow) .title-area-highlight {
@@ -164,7 +164,6 @@
     box-shadow: inset rgba(61,68,80,.75) 1px 1px 1px 0px, inset rgba(61,68,80,.25) -1px 0px 1px 0px;
     position: relative;
     user-select: none;
-    cursor: default;
     flex-shrink: 0;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
 }
@@ -204,7 +203,6 @@
     justify-content: space-between;
     height: 30px;
     user-select: none;
-    cursor: default;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 12px;
@@ -551,7 +549,6 @@ button.DialogButton:active, button.DialogButton.gpfocus {
 .ToggleGroupChatList {
     padding-left: 10px;
     padding-right: 10px;
-    cursor: pointer !important;
 	width: 15px !important;
 }
 
@@ -567,7 +564,6 @@ button.DialogButton:active, button.DialogButton.gpfocus {
 .FriendsListChatSection.ChatRoomListContainerParent .ToggleGroupChatList .SVGIcon_DoubleArrow {
     transition: all .2s ease-in-out;
     transform: rotate(-90deg) !important;
-    cursor: pointer !important;
 }
 
 .ScrollToBottomButton>span {
@@ -2430,4 +2426,18 @@ button.DialogButton::before {
 
 .friendSearchInput[type=text] {
     background-color: var(--minimal_dark_blacker) !important;
+}
+
+.UA15KlVbtDSJkqSpIAMIN {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-radius: var(--minimal_dark_corner) !important;
+}
+
+svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
+    fill: #ffe600 !important;
+}
+
+._2FJUPOjT7afeB0125mqdQt {
+    stroke: transparent !important;
 }
