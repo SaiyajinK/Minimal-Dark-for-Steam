@@ -248,18 +248,15 @@ a._1Z3B4iGT48X6pYKxjbVdBO:hover {
 
 button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe:hover {
     background-color: var(--minimal_dark_invisiblegrey);
-    cursor: pointer;
 }
 
 .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover {
     background-color: transparent;
-    cursor: pointer;
 }
 
 button.DialogButton._3Cdin80d-hVsakHUZboheb.Q7tULXy1gQNG1eU--hN27:hover {
     background-color: var(--minimal_dark_blacker);
     color: #fff;
-    cursor: pointer;
 }
 
 ._1HZy7BvOZuPT8feUwadL4W {
@@ -277,7 +274,6 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.Q7tULXy1gQNG1eU--hN27:hover {
 
 ._3QRf-tp5VddAF00vWY5Gn8:hover {
     background: rgb(45 45 45 / 35%);
-    cursor: pointer;
 }
 
 .LclHwcOfHFpwObYMD1HLa {
@@ -325,7 +321,6 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.Q7tULXy1gQNG1eU--hN27:hover {
 button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
     background-color: var(--minimal_dark_invisiblegrey);
     color: #fff;
-    cursor: pointer;
 }
 
 ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X {
@@ -430,7 +425,6 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
     background-image: var(--minimal_dark_bgg) !important;
     color: #fff;
     box-shadow: inset 2px 2px 15px rgba(0,0,0,.5);
-    cursor: pointer;
     box-shadow: inset 0px 3px 10px #000000ab !important;
 }
 
@@ -1661,4 +1655,8 @@ button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
     border-radius: var(--minimal_dark_corner) !important;
     color: var(--minimal_dark_color) !important;
     left: 1px !important;
+}
+
+._3ooxUb30k7736aTVnO179S {
+    color: var(--minimal_dark_color) !important;
 }
