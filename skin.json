@@ -221,6 +221,20 @@
 			}
 		},
 		
+		"Compact news container": {
+		"tab": "Library options",
+		"description": "Make the news container compact.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/compact_news.css"
+					}
+				}
+			}
+		},
+		
 		"News container": {
 		"tab": "Library options",
 		"description": "Hide or show 'What's New' block in the library.",
@@ -329,6 +343,20 @@
 			}
 		},
 		
+		"Tabs text transform": {
+		"tab": "Topbar options",
+		"description": "Set capitalize text to topbar tabs.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/tabs_text_form.css"
+					}
+				}
+			}
+		},
+		
 		"Topbar icons menu hover effect": {
 		"tab": "Topbar options",
 		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
@@ -401,15 +429,74 @@
 			}
 		},
 		
-		"Tabs text transform": {
-		"tab": "Topbar options",
-		"description": "Set capitalize text to topbar tabs.",
-		"default": "no",
+		"Alternative root menu icon": {
+		"tab": "Various options",
+		"description": "Change the root menu icon with a alternative icon",
+		"default": "Minimal default icon",
 		"values": {
-			"no": {},
-			"yes": {
+			"Minimal default icon": {},
+			"Minimal dark complete logo": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/tabs_text_form.css"
+			"affects": [".*"], "src": "elements/options/root_menu_icon/minimal_dark_complete_steam_logo.css"
+					}
+				},
+			"Alternative rounded icon (fill)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/root_menu_icon/alternative_rounded_root_menu_icon_fill.css"
+					}
+				},
+			"Alternative rounded icon (outline)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/root_menu_icon/alternative_rounded_root_menu_icon_outline.css"
+					}
+				},
+			"Alternative squared icon (fill)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/root_menu_icon/alternative_squared_root_menu_icon_fill.css"
+					}
+				},
+			"Alternative squared icon (outline)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/root_menu_icon/alternative_squared_root_menu_icon_outline.css"
+					}
+				}
+			}
+		},
+		
+		"Change UI font": {
+		"tab": "Various options",
+		"description": "Change the font of the interface.",
+		"default": "Share Tech",
+		"values": {
+			"Default": {},
+			"Roboto": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/fonts/roboto_font.css"
+					}
+				},
+			"Monaco": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/fonts/monaco_font.css"
+					}
+				},
+			"Share Tech": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/fonts/share_tech_font.css"
+					}
+				},
+			"Maria": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/fonts/maria_font.css"
+					}
+				},
+			"Sudo Var": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/fonts/sudo_var_font.css"
+					}
+				},
+			"JetBrains": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/fonts/jetbrains_font.css"
 					}
 				}
 			}
@@ -418,12 +505,40 @@
 		"Context menus hover effect": {
 		"tab": "Various options",
 		"description": "Added a border to the left of the block with the user-defined color on the context menus when hover.",
-		"default": "No hover effect",
+		"default": "With hover effect",
 		"values": {
 			"No hover effect": {},
 			"With hover effect": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/menus_hover_effect.css"
+					}
+				}
+			}
+		},
+		
+		"Default pointers": {
+		"tab": "Various options",
+		"description": "Display or hide pointers by default on the entire skin.",
+		"default": "Minimal dark default",
+		"values": {
+			"Steam default": {},
+			"Minimal dark default": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/default_pointers.css"
+					}
+				}
+			}
+		},
+
+		"Hide scrollbars": {
+		"tab": "Various options",
+		"description": "Hide or show scrollbars on the entirety of the skin.",
+		"default": "Show",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/hide_scrollbars.css"
 					}
 				}
 			}
@@ -443,8 +558,36 @@
 			}
 		},
 		
+		"Compact Webkit": {
+		"tab": "Webkit options",
+		"description": "Hide the left sidebar on the webkit homepage.",
+		"default": "Hide",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/compact_webkit.css"
+					}
+				}
+			}
+		},
+		
+		"Hide footers": {
+		"tab": "Webkit options",
+		"description": "Hide Steam information on webkit footers.",
+		"default": "Hide",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/no_footer_webkit.css"
+					}
+				}
+			}
+		},
+		
 		"Profiles": {
-		"tab": "Webkit",
+		"tab": "Webkit options",
 		"description": "Enabling this option makes the profile page blocks full and removes the blur effect.",
 		"default": "Blurred blocs (Minimal default)",
 		"values": {
@@ -457,8 +600,22 @@
 			}
 		},
 		
+		"Profiles headers": {
+		"tab": "Webkit options",
+		"description": "If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view).",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/default_profiles_header.css"
+					}
+				}
+			}
+		},
+		
 		"URL bar": {
-		"tab": "Webkit",
+		"tab": "Webkit options",
 		"description": "This option allows you to permanently hide the URL bar or display it only on hover.",
 		"default": "Visible",
 		"values": {
@@ -474,34 +631,6 @@
 					}
 				}
 			}
-		},
-		
-		"Profiles headers": {
-		"tab": "Webkit",
-		"description": "If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view).",
-		"default": "no",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/default_profiles_header.css"
-					}
-				}
-			}
-		},
-		
-		"Compact Webkit": {
-		"tab": "Webkit",
-		"description": "Hide the left sidebar on the webkit homepage.",
-		"default": "Hide",
-		"values": {
-			"Show": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/compact_webkit.css"
-					}
-				}
-			}
 		}
 		
 	},
@@ -512,7 +641,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.7.8",
+	"version": "3.8.2",
 
 	"github": {
 		"owner": "SaiyajinK",
