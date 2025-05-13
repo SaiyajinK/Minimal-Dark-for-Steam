@@ -70,7 +70,6 @@
     border-right: 1px solid transparent;
     user-select: none;
     outline: none;
-    cursor: default;
 }
 
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ, ._1UBpAXP408Ez_L_mXhW5Q9 {
@@ -294,10 +293,6 @@
     border-bottom-left-radius: 0px !important;
 }
 
-._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 {
-    padding: 3px 0px 2px 24px !important;
-}
-
 .cNZ3wORgnf1KSNhI2eE2M svg circle, .cNZ3wORgnf1KSNhI2eE2M svg path {
     fill: transparent !important;
 }
@@ -364,7 +359,7 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 {
-    padding: 3px 0px 2px 24px !important;
+    padding: 3px 0px 2px 24px;
     font-weight: lighter !important;
 }
 
