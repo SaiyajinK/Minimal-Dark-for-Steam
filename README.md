@@ -10,7 +10,7 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 You can arrange the skin however you like with over 37 customization options available in Minimal Dark settings.<br>
 ### 📸 <ins>Screenchots</ins> : <br>
-<p align="left"><img src="https://github.com/user-attachments/assets/41e7395e-bea4-470b-b5de-0a5153978628" width="150" height="95"></p>
+<p align="left"><img src="https://github.com/user-attachments/assets/b13e79d9-d716-4068-8098-c9963d488318" width="150" height="95"></p>
 
 ### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
 1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
