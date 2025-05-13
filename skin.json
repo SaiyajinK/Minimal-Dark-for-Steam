@@ -466,7 +466,7 @@
 		"Change UI font": {
 		"tab": "Various options",
 		"description": "Change the font of the interface.",
-		"default": "JetBrains",
+		"default": "Share Tech",
 		"values": {
 			"Default": {},
 			"Roboto": {
