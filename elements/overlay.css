@@ -30,7 +30,6 @@
     border-radius: var(--minimal_dark_corner) !important;
 }
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover {
-    cursor: pointer;
     background: #1a1a1a !important;
     margin-top: 2px !important;
 	border: 1px solid var(--minimal_dark_color) !important;
@@ -217,7 +216,6 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 ._26Gmfe09NRsnF7eprTZYdY ._1oXr_GpvIgjHasLyU3tBn:hover {
-    cursor: pointer;
     background: var(--minimal_dark_black);
     border-radius: 2px;
     color: #fff;
@@ -1697,4 +1695,17 @@ button.QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable {
 ._2DM37juowId1V_DScp3l4 svg {
     height: 26px !important;
     transform: translate(0px, -2px) !important;
+}
+
+.eKmEXJCm_lgme24Fp_HWt {
+    background: none !important;
+    border: none !important;
+    padding: 10px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    margin-bottom: 10px;
+}
+
+.eKmEXJCm_lgme24Fp_HWt.GxgIyq8R5xTOeu4ftGrgX::after {
+    height: 1px !important;
+    background: linear-gradient(90deg, var(--minimal_dark_be_grey) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
 }
