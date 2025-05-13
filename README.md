@@ -8,7 +8,7 @@
 ### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the selected color code on the entire skin (by default, whether you are on w10 or w11, the color of Steam will be the one you have chosen in Windows, but you can always use another color by clicking on the color selector).<br>
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
-You can arrange the skin however you like with over 31 customization options available in Minimal Dark settings.<br>
+You can arrange the skin however you like with over 37 customization options available in Minimal Dark settings.<br>
 ### 📸 <ins>Screenchots</ins> : <br>
 <p align="left"><img src="https://github.com/user-attachments/assets/58efa3a5-6d1c-4e90-8b15-a3e8614ee0da" width="150" height="95"></p>
 
@@ -42,6 +42,7 @@ You can arrange the skin however you like with over 31 customization options ava
 ▪ [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium. <br>
 ▪ [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit. <br>
 ▪ [Icon8](https://icons8.com) for Base64 icons. <br>
+▪ [CDNFonts](https://www.cdnfonts.com/) for alternative fonts. <br>
 
 <hr>
 
@@ -62,5 +63,3 @@ I am neither a coder nor a developer, I have some knowledge after several years 
 💯 It's <ins>free</ins> and it gives me strength because I see that other people like my work. 🫡<br>
 ![firefox_zkLiqn1vT8](https://github.com/user-attachments/assets/bfd45d2b-f5a3-40bf-9e9f-0e656be0b7c8) <br>
 ☕ [Support me on Ko-fi](https://ko-fi.com/saiyajink) <br>
-
-
