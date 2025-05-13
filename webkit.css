@@ -41,7 +41,6 @@
 }
 
 * {
-	cursor: default !important;
 	outline: none !important;
 }
 
@@ -734,19 +733,16 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 
 a#store_search_link img {
 	filter: grayscale(1) invert(1); 
-	cursor: default;
 	border-radius: var(--minimal_dark_corner) !important;
 }
 
 a#store_search_link img:hover {
 	filter: grayscale(1) invert(1);
 	border-radius: var(--minimal_dark_corner) !important;
-	cursor: pointer !important;
 }
 
 a#store_search_link img:active {
 	filter: grayscale(1) invert(1);
-	cursor: default;
 	border-radius: var(--minimal_dark_corner) !important;
 }
 
@@ -2229,7 +2225,6 @@ div#headerSearch.friend_activity_header_search {
 .blotter_appselect div.option,.blotter_appselect_options div.option {
 	padding-right:7px!important;
 	border-radius: var(--minimal_dark_corner) !important;
-	cursor:pointer!important;
 }
 
 .blotter_daily_rollup {
@@ -5839,7 +5834,6 @@ body.v6.winter_sale_home h2.winter {
 
 .controllersupportinfo_LocSection_38m8D:hover {
     color: #fff;
-    cursor: pointer;
     text-decoration: none;
     background: #67c1f5;
     background: var(--minimal_dark_blacker_alt);
@@ -6153,7 +6147,6 @@ body.v6 .game_page_background {
     background-image: var(--minimal_dark_bgg);
     color: #fff;
     box-shadow: 2px 2px 15px rgba(0,0,0,.5);
-    cursor: pointer;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
 }
 
@@ -6161,7 +6154,6 @@ body.v6 .game_page_background {
     background-image: var(--minimal_dark_bgg);
     color: #fff;
     box-shadow: 2px 2px 15px rgba(0,0,0,.5);
-    cursor: pointer;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
 	box-shadow: inset 0px 4px 6px #000000ab;
 }
@@ -6256,7 +6248,6 @@ body.v6 .game_page_background {
     background-image: var(--minimal_dark_bgg) !important;
     color: white !important;
     box-shadow: 2px 2px 15px rgba(0,0,0,.5);
-    cursor: pointer;
 	border: 1px solid var(--minimal_dark_progress_bar);
 }
 
@@ -6264,7 +6255,6 @@ body.v6 .game_page_background {
     background-image: var(--minimal_dark_bgg) !important;
     color: white !important;
     box-shadow: inset 2px 2px 15px rgba(0,0,0,.5) !important;
-    cursor: pointer;
     border: 1px solid var(--minimal_dark_progress_bar);
 }
 
@@ -12242,7 +12232,7 @@ a.view_inactive:hover {
 
 .LoadingWrapper .LoadingThrobber .Bar {
     background-color: var(--minimal_dark_color) !important;
-    border-radius: 10px !important;
+    border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
@@ -14918,6 +14908,22 @@ svg._2RGTq9bdS1l3hxmnhogr0V path {
 
 ._21nVi2jNuF_prxLY1mAaKK, ._2wAKy-0ZkO_vhbiQCP9MgE ._21nVi2jNuF_prxLY1mAaKK {
     color: var(--minimal_dark_color) !important;
+}
+
+#content_callout .more_content_title {
+    color: var(--minimal_dark_color) !important;
+}
+
+body.v6 h2 a {
+    color: var(--minimal_dark_color) !important;
+}
+
+.DialogCheckbox_Container.ZZgGaqlJvV83f4CYl3O3N {
+    padding: 6px 6px !important;
+    background-color: rgb(18 18 18 / 40%) !important;
+    backdrop-filter: blur(8px) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 /* end webkit */
