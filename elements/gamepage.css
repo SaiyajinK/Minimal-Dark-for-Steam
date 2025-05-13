@@ -200,7 +200,7 @@
 
 ._3ns9185LizH61StaAXuAp6 ._3Rm36_oeAhvIg6ZYP9l1Jj {
     background: var(--minimal_dark_color);
-    border-radius: 10px;
+    border-radius: var(--minimal_dark_corner) !important;
     height: 100%;
 }
 
@@ -563,7 +563,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 ._3ns9185LizH61StaAXuAp6 {
     background-color: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: 10px;
+    border-radius: var(--minimal_dark_corner) !important;
     padding: 1px !important;
     box-shadow: inset 0px 1px 6px #000000 !important;
     height: 4px !important;
