@@ -8,7 +8,7 @@
 ### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the selected color code on the entire skin (by default, whether you are on w10 or w11, the color of Steam will be the one you have chosen in Windows, but you can always use another color by clicking on the color selector).<br>
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
-You can arrange the skin however you like with over 37 customization options available in Minimal Dark settings.<br>
+You can arrange the skin however you like with over 40 customization options available in Minimal Dark settings.<br>
 ### 📸 <ins>Screenchots</ins> : <br>
 <p align="left"><img src="https://github.com/user-attachments/assets/33844455-56e3-4877-a0e4-afa8223520f9" width="150" height="95"></p>
 
@@ -47,7 +47,7 @@ You can arrange the skin however you like with over 37 customization options ava
 <hr>
 
 ### 👤 <ins>About</ins> : <br>
-Minimal Dark is a personalized and customizable minimal theme for the new Steam interface (New UI). <br>
+Minimal Dark is a personalized and customizable minimal theme for the Steam interface. <br>
 I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
 All the sources and tools I used used are listed above. <br>
 
