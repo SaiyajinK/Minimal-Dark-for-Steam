@@ -699,12 +699,27 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     transition: .25s ease-in-out !important;
 }
 
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:hover svg path, DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:hover svg path {
+    fill: white !important;
+	transition: .25s ease-out !important;
+}
+
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp, /*.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel,*/ .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp {
     background: var(--minimal_dark_greyblack) !important;
     color: #2699ff !important;
     transition: .25s ease-out !important;
 	border-bottom-left-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
+}
+
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp svg path {
+    fill: #2699ff !important;
+	transition: .25s ease-out !important;
+}
+
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:hover svg path {
+    fill: white !important;
+	transition: .25s ease-out !important;
 }
 
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:focus, /*.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:focus,*/ .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:focus {
@@ -717,6 +732,11 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     border-radius: var(--minimal_dark_corner) !important;
 }
 
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:first-child:hover {
+    border-top-left-radius: var(--minimal_dark_corner) !important;
+    border-bottom-left-radius: 0px !important;
+}
+
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer {
     background: var(--minimal_dark_black) !important;
     color: var(--minimal_dark_less_white);
@@ -727,11 +747,21 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:hover {
     background: var(--minimal_dark_blacker_alt) !important;
     color: var(--minimal_dark_less_white);
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: 0px !important;
     padding-top: 4px !important;
     /* padding-bottom: 24px !important; */
 	transition: .25s ease-out !important;
 	border-left: 1px solid transparent;
+}
+
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:last-child:hover {
+    border-bottom-left-radius: var(--minimal_dark_corner) !important;
+    border-top-left-radius: 0px !important;
+	border-top: 1px solid transparent !important;
+}
+
+button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth-of-type(3):hover {
+    border-top: 1px solid transparent !important;
 }
 
 .bSKGlAJG2UVWTsntEJY2v .GG9wVQz6PLlhGHlJyZh4E {
@@ -1709,8 +1739,25 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     /* padding-bottom: 15px !important; */
 }
 
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu {
+    border-left: 1px solid transparent !important;
+}
+
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:first-child:hover {
+    border-top-left-radius: var(--minimal_dark_corner) !important;
+    border-bottom-left-radius: 0px !important;
+    border-left: 1px solid var(--minimal_dark_color) !important;
+}
+
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:last-child:hover {
+    border-bottom-left-radius: var(--minimal_dark_corner) !important;
+    border-top-left-radius: 0px !important;
+    border-left: 1px solid var(--minimal_dark_color) !important;
+}
+
 .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:hover {
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: 0px !important;
+    border-left: 1px solid var(--minimal_dark_color) !important;
 }
 
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC {
@@ -2175,4 +2222,28 @@ textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 
 .C9tvuqqEXGcrkcAtHrQ_R .title-area-children {
     padding-left: 10px !important;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem svg path {
+    fill: var(--minimal_dark_status_green) !important;
+}
+
+._32b_aVF7OElQOPG70LjdrJ svg path {
+    fill: var(--minimal_dark_status_green) !important;
+}
+
+.QoydG3cy0VecZ1qgKRn8F._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem svg path {
+    fill: #dcdedf !important;
+}
+
+.QoydG3cy0VecZ1qgKRn8F._1n7Wloe5jZ6fSuvV18NNWI:hover svg path {
+    fill: var(--minimal_dark_color) !important;
+}
+
+._21ckpGxToF7rFhJLW3pJcB._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem svg path {
+    fill: #dcdedf !important;
+}
+
+._21ckpGxToF7rFhJLW3pJcB._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg path {
+    fill: var(--minimal_dark_color) !important;
 }
