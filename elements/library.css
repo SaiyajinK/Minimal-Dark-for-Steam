@@ -842,12 +842,12 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
     background-color: rgb(18 18 18 / 10%) !important;
     backdrop-filter: blur(10px) !important;
     background-size: 12px !important;
-    border-radius: 10px;
+    border-radius: var(--minimal_dark_corner) !important;
     box-shadow: 0 0 5px #000 !important;
     padding: 1px !important;
     border: 1px solid #525252 !important;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABXklEQVR4nO2X0UrDQBBFU/Gf+5hUq8ZqW1uRqlSFPvQ3rxS3UEKyO5Od2V1hDuRxd85NINypKsMwDEMTAA2A9l/Oxd8lZx7F7MJzZxdzWwn5Mwtx2w4Abnrm8kMAmKKfZ/Zl9JnzgZn12AuHQiwV5O9E5QkhVoLy9yryhBA7AJOIeycA1qryhBDvY0I4+U0SeUKIDwBXTPltUnlCiE9KCCf/mkWeEGLvC+Hk37LKE0J89YUoSp4Q4vsyhJPfZZFHoFR5QhwBXJ+CAPjhykOhzLXM3nTi4J4+mti5HPlgI/V8Ce6bn2mXuUVkiJrZRFXK3NgQ6eQJQk8V74xP/lZFPmY36Jypk+0AwiGawN9mnkReY8FRW2BShMgmL7GlqW9fAiHWnjMPRchTQnS3tOLkqaume16KlCeUuY1n7x38vWZBqsxlJbbMFcHYMlcU3DJXJNQyVzShMmcYhmFUufkFfPw8p1yGUWkAAAAASUVORK5CYII=) !important;
-    background-position: center !important;
+    background-position: center;
 }
 
 ._2ZP8eOoQ1-pME4-pF91qSt ._276E6ijBpjMA2_iTxNhhjc {
