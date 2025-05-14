@@ -1660,3 +1660,47 @@ button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
 ._3ooxUb30k7736aTVnO179S {
     color: var(--minimal_dark_color) !important;
 }
+
+._2dB1oJFsqNThak1cFya2-q._3qlJ0L41KQFqUTzVQKFERC {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    padding: 3px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+._2dB1oJFsqNThak1cFya2-q:hover {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+._2dB1oJFsqNThak1cFya2-q:active {
+    background: var(--minimal_dark_blacker) !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+._3JNo1hUKCpMJiJSM2dD5Kq .gOv9M_tdWa0CEJbaLhOKY svg path {
+    fill: var(--minimal_dark_topgrey) !important;
+	transition: .25s ease-out !important;
+}
+
+._3JNo1hUKCpMJiJSM2dD5Kq:hover .gOv9M_tdWa0CEJbaLhOKY svg path {
+    fill: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+.gOv9M_tdWa0CEJbaLhOKY {
+    filter: none !important;
+    padding: 2px !important;
+    background-color: rgb(18 18 18 / 10%) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+	transition: .25s ease-out !important;
+}
+
+.gOv9M_tdWa0CEJbaLhOKY:hover {
+    filter: none !important;
+    padding: 2px !important;
+    background-color: rgb(18 18 18 / 10%) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
