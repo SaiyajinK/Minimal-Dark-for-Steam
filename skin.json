@@ -85,6 +85,20 @@
 			}
 		},
 		
+		"Inverted gamepage (known bugs)": {
+		"tab": "Gamepage options",
+		"description": "Invert gamepage blocks (community content option set to 'Show' not work with this option).",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"Inverted": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/inverted_gamepage.css"
+					}
+				}
+			}
+		},
+		
 		"Alternative topbar color": {
 		"tab": "Global options",
 		"description": "Make the topbar color less blacker",
@@ -202,6 +216,20 @@
 			}
 		},
 		
+		"Alternative library navigation button": {
+		"tab": "Library options",
+		"description": "Changes the appearance of the navigation arrows on the library shelves.",
+		"default": "Alternative",
+		"values": {
+			"Default": {},
+			"Alternative": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/alternative_library_nav_buttons.css"
+					}
+				}
+			}
+		},
+		
 		"Compact mod": {
 		"tab": "Library options",
 		"description": "Removes the filter & search from the sidebar to save even more space.",
@@ -230,6 +258,20 @@
 			"yes": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/compact_news.css"
+					}
+				}
+			}
+		},
+		
+		"Library games hover glow color": {
+		"tab": "Library options",
+		"description": "Change the color of the glow when you hover over a game image in your library.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"User color": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/hover_games_glow_color.css"
 					}
 				}
 			}
@@ -641,7 +683,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.8.2",
+	"version": "3.8.4",
 
 	"github": {
 		"owner": "SaiyajinK",
