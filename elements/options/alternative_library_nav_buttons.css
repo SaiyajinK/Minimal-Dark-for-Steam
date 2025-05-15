@@ -53,13 +53,11 @@
 
 .bsNegRKT1Hbv4tqHrOk9- ._14b-hQsLwSwYcELtknxCUX:hover, .bsNegRKT1Hbv4tqHrOk9- ._3IIEUTw03Vm3Mk54jlnUaT:hover {
     background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
 
 ._23SnllqT_AqZ1C_QHcNQ4Z ._29NTOneobxPjUfxHUk9N8Y ._3uMa3icVa3JTCGQKPeUikO:hover, ._23SnllqT_AqZ1C_QHcNQ4Z ._29NTOneobxPjUfxHUk9N8Y ._2kWWyBO7w_F76NB8sBw86c:hover {
-    background: var(--minimal_dark_blacker) !important;
-}
-
-.bsNegRKT1Hbv4tqHrOk9- ._14b-hQsLwSwYcELtknxCUX:hover, .bsNegRKT1Hbv4tqHrOk9- ._3IIEUTw03Vm3Mk54jlnUaT:hover {
     background: var(--minimal_dark_blacker) !important;
 }
 
