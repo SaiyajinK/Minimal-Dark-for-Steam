@@ -985,7 +985,8 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
 ._7AlhCx3XGzBeIrQaCneUD ._19axKcqYRuaJ8vdYKYmtTQ {
     color: var(--minimal_dark_topgrey) !important;
     margin-top: 5px;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
+    padding-bottom: 6px !important;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
