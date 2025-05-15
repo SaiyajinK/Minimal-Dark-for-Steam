@@ -508,7 +508,7 @@
 		"Change UI font": {
 		"tab": "Various options",
 		"description": "Change the font of the interface.",
-		"default": "Share Tech",
+		"default": "Default",
 		"values": {
 			"Default": {},
 			"Roboto": {
