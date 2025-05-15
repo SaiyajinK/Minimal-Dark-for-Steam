@@ -263,6 +263,25 @@
 			}
 		},
 		
+		"Library labels": {
+		"tab": "Library options",
+		"description": "Hide 'Today, Yesterday, Last Week' from library",
+		"default": "Show",
+		"values": {
+			"Show": {},
+			"Hide (library only)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_labels/no_library_labels.css"
+					}
+				},
+			"Hide all (library + news bloc)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_labels/no_library_labels_full.css"
+					}
+				}
+			}
+		},
+		
 		"Library games hover glow color": {
 		"tab": "Library options",
 		"description": "Change the color of the glow when you hover over a game image in your library.",
@@ -416,37 +435,67 @@
 		"Topbar Store tab left icon (currency icon)": {
 		"tab": "Topbar options",
 		"description": "Changes the currency logo on the store icon.",
-		"default": "Fill icon (euro)",
+		"default": "Fill active icon (euro)",
 		"values": {
 			"No icon": {},
-			"Fill icon (euro)": {
+			"Fill active icon (euro)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_euro.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_euro_active.css"
 					}
 				},
-			"Outline icon (euro)": {
+			"Fill unactive icon (euro)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_euro.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_euro_unactive.css"
 					}
 				},
-			"Fill icon (dollar)": {
+			"Outline active icon (euro)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_dollar.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_euro_active.css"
 					}
 				},
-			"Outline icon (dollar)": {
+			"Outline unactive icon (euro)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_dollar.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_euro_unactive.css"
 					}
 				},
-			"Fill icon (pound sterling)": {
+			"Fill active icon (dollar)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_ps.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_dollar_active.css"
 					}
 				},
-			"Outline icon (pound sterling)": {
+			"Fill unactive icon (dollar)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_ps.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_dollar_unactive.css"
+					}
+				},
+			"Outline active icon (dollar)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_dollar_active.css"
+					}
+				},
+			"Outline unactive icon (dollar)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_dollar_unactive.css"
+					}
+				},
+			"Fill active icon (pound sterling)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_ps_active.css"
+					}
+				},
+			"Fill unactive icon (pound sterling)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_ps_unactive.css"
+					}
+				},
+			"Outline active icon (pound sterling)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_ps_active.css"
+					}
+				},
+			"Outline unactive icon (pound sterling)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_ps_unactive.css"
 					}
 				}
 			}
@@ -455,17 +504,27 @@
 		"Topbar tabs left icons (hover effect included)": {
 		"tab": "Topbar options",
 		"description": "Adds an icon to the left of the top bar tabs text.",
-		"default": "Icons (fill + text)",
+		"default": "Icons active (fill + text)",
 		"values": {
 			"No icons (text only)": {},
-			"Icons (fill + text)": {
+			"Icons active (fill + text)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_icons.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_active_icons.css"
 					}
 				},
-			"Icons (outline + text)": {
+			"Icons unactive (fill + text)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_outline_icons.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_unactive_icons.css"
+					}
+				},
+			"Icons active (outline + text)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_active_outline_icons.css"
+					}
+				},
+			"Icons unactive (outline + text)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_unactive_outline_icons.css"
 					}
 				}
 			}
@@ -561,10 +620,10 @@
 		"Default pointers": {
 		"tab": "Various options",
 		"description": "Display or hide pointers by default on the entire skin.",
-		"default": "Minimal dark default",
+		"default": "Minimal Dark default",
 		"values": {
 			"Steam default": {},
-			"Minimal dark default": {
+			"Minimal Dark default": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/default_pointers.css"
 					}
@@ -683,7 +742,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.8.4",
+	"version": "3.8.5",
 
 	"github": {
 		"owner": "SaiyajinK",
