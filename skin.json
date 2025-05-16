@@ -15,6 +15,20 @@
 			}
 		},
 		
+		"Bigger notification button": {
+		"tab": "Account options",
+		"description": "Make the notification icon bigger.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/alternative_notification_icon.css"
+					}
+				}
+			}
+		},
+		
 		"Compact avatar": {
 		"tab": "Account options",
 		"description": "Make the avatar block compact.",
@@ -438,64 +452,34 @@
 		"default": "Fill active icon (euro)",
 		"values": {
 			"No icon": {},
-			"Fill active icon (euro)": {
+			"Fill icon (euro)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_euro_active.css"
 					}
 				},
-			"Fill unactive icon (euro)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_euro_unactive.css"
-					}
-				},
-			"Outline active icon (euro)": {
+			"Outline icon (euro)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_euro_active.css"
 					}
 				},
-			"Outline unactive icon (euro)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_euro_unactive.css"
-					}
-				},
-			"Fill active icon (dollar)": {
+			"Fill icon (dollar)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_dollar_active.css"
 					}
 				},
-			"Fill unactive icon (dollar)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_dollar_unactive.css"
-					}
-				},
-			"Outline active icon (dollar)": {
+			"Outline icon (dollar)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_dollar_active.css"
 					}
 				},
-			"Outline unactive icon (dollar)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_dollar_unactive.css"
-					}
-				},
-			"Fill active icon (pound sterling)": {
+			"Fill icon (pound sterling)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_ps_active.css"
 					}
 				},
-			"Fill unactive icon (pound sterling)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_ps_unactive.css"
-					}
-				},
-			"Outline active icon (pound sterling)": {
+			"Outline icon (pound sterling)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_ps_active.css"
-					}
-				},
-			"Outline unactive icon (pound sterling)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_ps_unactive.css"
 					}
 				}
 			}
@@ -512,19 +496,9 @@
 			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_active_icons.css"
 					}
 				},
-			"Icons unactive (fill + text)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_unactive_icons.css"
-					}
-				},
 			"Icons active (outline + text)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_active_outline_icons.css"
-					}
-				},
-			"Icons unactive (outline + text)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_unactive_outline_icons.css"
 					}
 				}
 			}
@@ -742,7 +716,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.8.5",
+	"version": "3.8.6",
 
 	"github": {
 		"owner": "SaiyajinK",
