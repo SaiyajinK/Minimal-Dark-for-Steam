@@ -23,7 +23,6 @@
     transition: .25s ease-out !important;
     margin-left: 1px !important;
     -webkit-mask-size: contain !important;
-    transform: scale(1.47) !important;
     -webkit-mask-position-x: .4px !important;
     -webkit-mask-position-y: 8px !important;
 }
