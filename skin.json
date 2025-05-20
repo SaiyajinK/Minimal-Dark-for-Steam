@@ -202,7 +202,7 @@
 		"description": "Make the title bar buttons bigger (close/maximize/minimize buttons).",
 		"default": "Enlarged (w11 users)",
 		"values": {
-			"Minimal": {},
+			"Minimal Dark default": {},
 			"Enlarged (w11 users)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/alternative_title_area_buttons/alternative_title_area_buttons_w11.css"
@@ -366,6 +366,58 @@
 			}
 		},
 		
+		"Alternative ingame friends indicator": {
+		"tab": "Sidebar options",
+		"description": "Changes the indicator of ingame friends.",
+		"default": "Minimal Dark default (vertical)",
+		"values": {
+			"Minimal Dark default (vertical)": {},
+			"Minimal Dark alternative (horizontal)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/minimal_horizontal_indicator.css"
+					}
+				},
+			"Round": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/round_indicator.css"
+					}
+				},
+			"Square": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/square_indicator.css"
+					}
+				}
+			}
+		},
+		
+		"Installed games color": {
+		"tab": "Sidebar options",
+		"description": "Changes the color of a installed game.",
+		"default": "Minimal Dark default (user color/red",
+		"values": {
+			"Minimal Dark default": {},
+			"White": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/minimal_installed_white.css"
+					}
+				}
+			}
+		},
+		
+		"Uninstalled games color": {
+		"tab": "Sidebar options",
+		"description": "Changes the color of a uninstalled game.",
+		"default": "Minimal Dark default (user color/red",
+		"values": {
+			"Minimal Dark default": {},
+			"White": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/minimal_uninstalled_white.css"
+					}
+				}
+			}
+		},
+		
 		"Alternative contacts icon": {
 		"tab": "Topbar options",
 		"description": "Use alternative icon for contacts bloc.",
@@ -400,7 +452,7 @@
 			"affects": [".*"], "src": "elements/options/alternative_dl_ui.css"
 					}
 				},
-			"Minimal": {}
+			"Minimal Dark default": {}
 			}
 		},
 		
@@ -507,10 +559,10 @@
 		"Alternative root menu icon": {
 		"tab": "Various options",
 		"description": "Change the root menu icon with a alternative icon",
-		"default": "Minimal default icon",
+		"default": "Minimal Dark default icon",
 		"values": {
-			"Minimal default icon": {},
-			"Minimal dark complete logo": {
+			"Minimal Dark default icon": {},
+			"Minimal Dark complete logo": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/root_menu_icon/minimal_dark_complete_steam_logo.css"
 					}
@@ -664,9 +716,9 @@
 		"Profiles": {
 		"tab": "Webkit options",
 		"description": "Enabling this option makes the profile page blocks full and removes the blur effect.",
-		"default": "Blurred blocs (Minimal default)",
+		"default": "Minimal Dark default",
 		"values": {
-			"Blurred blocs (Minimal default)": {},
+			"Minimal Dark default": {},
 			"No blur blocs": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/no_blurred_profiles.css"
@@ -716,7 +768,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.8.6",
+	"version": "3.8.8",
 
 	"github": {
 		"owner": "SaiyajinK",
