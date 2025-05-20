@@ -407,12 +407,17 @@
 		"Uninstalled selected games color": {
 		"tab": "Sidebar options",
 		"description": "Changes the color of selected uninstalled games.",
-		"default": "Minimal Dark default",
+		"default": "Minimal Dark default (red)",
 		"values": {
-			"Minimal Dark default": {},
+			"Minimal Dark default (red)": {},
 			"White": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/minimal_uninstalled_white.css"
+					}
+				},
+			"User color": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/minimal_uninstalled_user_color.css"
 					}
 				}
 			}
