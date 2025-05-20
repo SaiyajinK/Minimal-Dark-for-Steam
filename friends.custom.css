@@ -2242,8 +2242,12 @@ button.DialogButton::before {
 }
 
 .nibodjvvrm86uCfnnAn4g .X_mJE4BYV5StDPwZhSiAu {
-    transform: scale(1.2) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+    transform: scale(1.1) translate(0px, 2px) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.currentUserAvatar img._3fM0F85j3aWVzr4RJM9-eu {
+    transform: scale(1.07) translate(0px, -2px) !important;
 }
 
 .QuickAccessChat.quickAccessFriend {
