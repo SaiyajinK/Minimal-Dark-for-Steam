@@ -369,20 +369,25 @@
 		"Alternative ingame friends indicator": {
 		"tab": "Sidebar options",
 		"description": "Changes the indicator of ingame friends.",
-		"default": "Minimal Dark default (vertical)",
+		"default": "Minimal Dark default (vertical bar)",
 		"values": {
-			"Minimal Dark default (vertical)": {},
-			"Minimal Dark alternative (horizontal)": {
+			"Minimal Dark default (vertical bar)": {},
+			"Minimal Dark alternative (vertical bar)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/minimal_vertical_indicator.css"
+					}
+				},
+			"Minimal Dark alternative (horizontal bar)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/minimal_horizontal_indicator.css"
 					}
 				},
-			"Round": {
+			"Dot (round)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/round_indicator.css"
 					}
 				},
-			"Square": {
+			"Dot (square)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/square_indicator.css"
 					}
