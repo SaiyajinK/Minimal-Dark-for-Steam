@@ -390,9 +390,9 @@
 			}
 		},
 		
-		"Installed games color": {
+		"Installed/selected games color": {
 		"tab": "Sidebar options",
-		"description": "Changes the color of installed games/selected games.",
+		"description": "Changes the color of installed/selected games.",
 		"default": "Minimal Dark default",
 		"values": {
 			"Minimal Dark default": {},
@@ -404,9 +404,9 @@
 			}
 		},
 		
-		"Uninstalled games color": {
+		"Uninstalled selected games color": {
 		"tab": "Sidebar options",
-		"description": "Changes the color of the selection of selected uninstalled games.",
+		"description": "Changes the color of selected uninstalled games.",
 		"default": "Minimal Dark default",
 		"values": {
 			"Minimal Dark default": {},
