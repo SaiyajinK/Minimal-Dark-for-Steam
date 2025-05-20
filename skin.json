@@ -393,9 +393,9 @@
 		"Installed/selected games color": {
 		"tab": "Sidebar options",
 		"description": "Changes the color of installed/selected games.",
-		"default": "Minimal Dark default (cream names / user color selected)",
+		"default": "Minimal default (cream names / user color selected)",
 		"values": {
-			"Minimal Dark default (cream names / user color selected)": {},
+			"Minimal default (cream names / user color selected)": {},
 			"Minimal alternative (white names / user color selected)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/minimal_installed_user_color.css"
@@ -412,9 +412,9 @@
 		"Uninstalled selected games color": {
 		"tab": "Sidebar options",
 		"description": "Changes the color of selected uninstalled games.",
-		"default": "Minimal Dark default (red)",
+		"default": "Minimal default (red)",
 		"values": {
-			"Minimal Dark default (red)": {},
+			"Minimal default (red)": {},
 			"White": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/minimal_uninstalled_white.css"
