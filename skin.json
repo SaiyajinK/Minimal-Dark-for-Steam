@@ -393,12 +393,17 @@
 		"Installed/selected games color": {
 		"tab": "Sidebar options",
 		"description": "Changes the color of installed/selected games.",
-		"default": "Minimal Dark default",
+		"default": "Minimal Dark default (user color)",
 		"values": {
-			"Minimal Dark default": {},
+			"Minimal Dark default (user color)": {},
 			"White": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/minimal_installed_white.css"
+					}
+				},
+			"White name / user color selected": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/minimal_installed_user_color.css"
 					}
 				}
 			}
