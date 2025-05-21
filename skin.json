@@ -116,7 +116,7 @@
 		"Alternative topbar color": {
 		"tab": "Global options",
 		"description": "Make the topbar color less blacker",
-		"default": "Grey with dark button",
+		"default": "Grey with dark buttons",
 		"values": {
 			"Minimal Dark default": {},
 			"Grey": {
@@ -124,7 +124,7 @@
 			"affects": [".*"], "src": "elements/options/topbar_color/alternative_topbar_color.css"
 					}
 				},
-			"Grey with dark button": {
+			"Grey with dark buttons": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/topbar_color/alternative_topbar_color_bb.css"
 					}
