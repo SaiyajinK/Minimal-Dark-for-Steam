@@ -398,9 +398,9 @@
 		"Installed/selected games color": {
 		"tab": "Sidebar options",
 		"description": "Changes the color of installed/selected games.",
-		"default": "Minimal default (cream names / user color selected)",
+		"default": "Minimal default (beige names / user color selected)",
 		"values": {
-			"Minimal default (cream names / user color selected)": {},
+			"Minimal default (beige names / user color selected)": {},
 			"Minimal alternative (white names / user color selected)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/minimal_installed_user_color.css"
