@@ -14,7 +14,7 @@ You can configure it however you like with the 45 customization options availabl
 How to access to skin settings ? <br>
 ▪ Steam menu ➡️ `Millennium` ➡️ `Themes` ➡️ `Client Theme` ➡️ `⚙️ Settings skin icon`.
 ### 📸 <ins>Screenchots</ins> : <br>
-<p align="left"><img src="https://github.com/user-attachments/assets/33844455-56e3-4877-a0e4-afa8223520f9" width="150" height="95"></p>
+<p align="left"><img src="https://github.com/user-attachments/assets/3bde2908-deb0-473b-ada1-be21fce30bc3" width="150" height="95"></p>
 
 ### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
 1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
