@@ -428,7 +428,7 @@ _Minimal Dark default_ :<br>
 <img src="https://github.com/user-attachments/assets/6304fa9c-4d85-4eeb-b9f2-55bb4773c70f"></p>
 
 _No blur blocs_ :<br> 
-<img src="https://github.com/user-attachments/assets/a5afc196-d208-4f0c-88bf-f08cc0dd6856"></p></details>
+<img src="https://github.com/user-attachments/assets/847097ee-051e-4ea7-80bb-3debfd6d9857"></p></details>
 
 <details><summary>Profiles headers :</summary><br>  
 
