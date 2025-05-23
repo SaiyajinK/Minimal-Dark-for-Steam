@@ -75,7 +75,7 @@ _Default_ :<br>
 _No header_ :<br>
 <img src="https://github.com/user-attachments/assets/03e1affb-5ada-4544-a5fc-54cb3ec38859"></p></details>
 
-<details><summary>Inverted gamepage (know bugs)` :</summary><br>  
+<details><summary>Inverted gamepage (know bugs) :</summary><br>  
 
 _Inverted_ :<br>
 <img src="https://github.com/user-attachments/assets/0ac0b4f9-90c7-4763-882a-efc419c6d6a6"></p></details>
