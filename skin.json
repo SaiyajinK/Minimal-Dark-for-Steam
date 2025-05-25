@@ -387,9 +387,19 @@
 			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/round_indicator.css"
 					}
 				},
+			"Small dot (round)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/min_round_indicator.css"
+					}
+				},
 			"Dot (square)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/square_indicator.css"
+					}
+				},
+			"Small dot (square)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/min_square_indicator.css"
 					}
 				}
 			}
