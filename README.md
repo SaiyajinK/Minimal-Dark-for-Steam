@@ -157,6 +157,14 @@ _Default_ :<br>
 _Alternative_ :<br>  
 <img src="https://github.com/user-attachments/assets/6fb52106-262f-4a86-a5db-a1b7a23a3a2e"></p></details>
 
+<details><summary>Compact library :</summary><br>  
+
+_no_ :<br>
+<img src="https://github.com/user-attachments/assets/82ada2d6-9676-4df0-82dd-407da48c51f1"></p>
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/dcdb2071-9d67-4d70-baad-0123f96b4301"></p></details>
+
 <details><summary>Compact mod :</summary><br>  
 
 _Default_ :<br> 
@@ -443,6 +451,14 @@ _Show_ :<br>
 
 _Hide_ :<br> 
 <img src="https://github.com/user-attachments/assets/8e605924-65d6-4dbe-886c-c8a92ef8992d"></p></details>
+
+<details><summary>Events header :</summary><br>  
+
+_Show_ :<br> 
+<img src="https://github.com/user-attachments/assets/de7938c8-dc6e-42fe-8d4b-fbcaefc68495"></p>
+
+_Hide_ :<br> 
+<img src="https://github.com/user-attachments/assets/5f36ce61-ab8c-468e-ba8d-32c866ee7849"></p></details>
 
 <details><summary>Hide footers :</summary><br>  
 
