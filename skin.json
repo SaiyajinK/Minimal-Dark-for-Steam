@@ -244,6 +244,20 @@
 			}
 		},
 		
+		"Compact library": {
+		"tab": "Library options",
+		"description": "Make library display compact.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/compact_library.css"
+					}
+				}
+			}
+		},
+		
 		"Compact mod": {
 		"tab": "Library options",
 		"description": "Removes the filter & search from the sidebar to save even more space.",
@@ -366,6 +380,20 @@
 			}
 		},
 		
+		"Alternative hover effect": {
+		"tab": "Sidebar options",
+		"description": "Set user color gradient to the left on hover.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"User color gradient": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/alternative_sidebar_hover_effect.css"
+					}
+				}
+			}
+		},
+		
 		"Alternative ingame friends indicator": {
 		"tab": "Sidebar options",
 		"description": "Changes the indicator of ingame friends.",
@@ -405,6 +433,20 @@
 			}
 		},
 		
+		"Bolder names": {
+		"tab": "Sidebar options",
+		"description": "Make the game names in the sidebar bolder.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/bolder_names.css"
+					}
+				}
+			}
+		},
+		
 		"Installed/selected games color": {
 		"tab": "Sidebar options",
 		"description": "Changes the color of installed/selected games.",
@@ -419,6 +461,20 @@
 			"White (white names / white selected)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/minimal_installed_white.css"
+					}
+				}
+			}
+		},
+		
+		"No left images": {
+		"tab": "Sidebar options",
+		"description": "Hide game images to the left of the names in the left bar.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/no_left_images.css"
 					}
 				}
 			}
@@ -738,6 +794,20 @@
 			}
 		},
 		
+		"Events header": {
+		"tab": "Webkit options",
+		"description": "Show or remove the events wallpaper on the webkit homepage.",
+		"default": "Minimal Dark default",
+		"values": {
+			"Minimal Dark default": {},
+			"Hide events header": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_no_header_promo.css"
+					}
+				}
+			}
+		},
+		
 		"Profiles": {
 		"tab": "Webkit options",
 		"description": "Enabling this option makes the profile page blocks full and removes the blur effect.",
@@ -793,7 +863,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.8.8",
+	"version": "3.9.0",
 
 	"github": {
 		"owner": "SaiyajinK",
