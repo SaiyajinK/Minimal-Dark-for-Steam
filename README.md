@@ -294,7 +294,7 @@ _no_ :<br>
 <img src="https://github.com/user-attachments/assets/58eea5d8-83d4-4b1d-982b-2d1afb1f0390"></p>
 
 _yes_ :<br> 
-<img src="https://github.com/user-attachments/assets/f2944256-1aca-4587-b4a0-0257094df6df"></p></details>
+<img src="https://github.com/user-attachments/assets/835c5887-769b-4d39-9103-d620124c5c62"></p></details>
 
 <details><summary>Uninstalled selected games color :</summary><br>  
 
