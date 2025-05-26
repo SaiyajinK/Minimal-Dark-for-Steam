@@ -9,7 +9,7 @@
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the selected color code on the entire skin (by default, whether you are on w10 or w11, the color of Steam will be the one you have chosen in Windows, but you can always use another color by clicking on the color selector).<br>
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 52 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 49 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
