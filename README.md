@@ -9,7 +9,7 @@
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the selected color code on the entire skin (by default, whether you are on w10 or w11, the color of Steam will be the one you have chosen in Windows, but you can always use another color by clicking on the color selector).<br>
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 47 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 52 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -230,6 +230,14 @@ _No label_ :<br>
 
 ## Sidebar options : 
 
+<details><summary>Alternative hover effect :</summary><br> 
+
+_Default_ :<br> 
+<img src="https://github.com/user-attachments/assets/5a81d9b2-f9af-4a50-aa10-ac3340893783"></p>
+
+_User color gradient_ :<br> 
+<img src="https://github.com/user-attachments/assets/b46cf81b-a906-4d1a-a662-b819955c21f1"></p></details>
+
 <details><summary>Alternative ingame friends indicator :</summary><br> 
 
 _Minimal Dark default (vertical bar)_ :<br> 
@@ -253,6 +261,14 @@ _Dot (square)_ :<br>
 _Small dot (square)_ :<br> 
 <img src="https://github.com/user-attachments/assets/e7768950-0c49-4d46-ad18-20ba645702ac"></p></details>
 
+<details><summary>Bolder names :</summary><br> 
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/d490b9a9-d12b-46fc-bf3d-7e5e3db1adc7"></p>
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/0056e48b-28a6-4191-8130-888b1f93bfe6"></p></details>
+
 <details><summary>Installed/selected games color :</summary><br> 
 
 _Minimal default (beige names / user color selected)_ :<br> 
@@ -263,6 +279,14 @@ _Minimal alternative (white names / user color selected)_ :<br>
 
 _White (white names / white selected)_ :<br> 
 <img src="https://github.com/user-attachments/assets/1c67ceda-112d-430f-bee3-9a82793ae270"></p></details>
+
+<details><summary>No left image :</summary><br> 
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/58eea5d8-83d4-4b1d-982b-2d1afb1f0390"></p>
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/f2944256-1aca-4587-b4a0-0257094df6df"></p></details>
 
 <details><summary>Uninstalled selected games color :</summary><br>  
 
@@ -459,7 +483,8 @@ _Only show on hover_ :<br>
 How to access to skin settings ? <br>
 ▪ Steam menu ➡️ `Millennium` ➡️ `Themes` ➡️ `Client Theme` ➡️ `⚙️ Settings skin icon`.
 ### 📸 <ins>Screenchots</ins> : <br>
-<p align="left"><img src="https://github.com/user-attachments/assets/43bbb07b-2031-4ffc-bad8-ee6817c031c1" width="150" height="95"></p> <p align="left"><img src="https://github.com/user-attachments/assets/98f23e29-b7a6-4934-9aa5-ccb8fa7c94f0" width="150" height="95"></p>
+<p align="left"><img src="https://github.com/user-attachments/assets/43bbb07b-2031-4ffc-bad8-ee6817c031c1" width="150" height="95"></p> <p align="left"><img src="
+https://github.com/user-attachments/assets/0d33377e-1569-46b4-a55e-5b4e8e6b94f3" width="150" height="95"></p>
 
 ### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
 1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
