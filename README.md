@@ -453,7 +453,7 @@ _Only show on hover_ :<br>
 How to access to skin settings ? <br>
 ▪ Steam menu ➡️ `Millennium` ➡️ `Themes` ➡️ `Client Theme` ➡️ `⚙️ Settings skin icon`.
 ### 📸 <ins>Screenchots</ins> : <br>
-<p align="left"><img src="https://github.com/user-attachments/assets/c2fddad4-3361-462d-ae58-881078f0acce" width="150" height="95"></p> <p align="left"><img src="https://github.com/user-attachments/assets/98f23e29-b7a6-4934-9aa5-ccb8fa7c94f0" width="150" height="95"></p>
+<p align="left"><img src="https://github.com/user-attachments/assets/43bbb07b-2031-4ffc-bad8-ee6817c031c1" width="150" height="95"></p> <p align="left"><img src="https://github.com/user-attachments/assets/98f23e29-b7a6-4934-9aa5-ccb8fa7c94f0" width="150" height="95"></p>
 
 ### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
 1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
