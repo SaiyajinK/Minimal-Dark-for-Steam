@@ -52,6 +52,7 @@
     transform: translate(-14px, 2px);
     transition: .25s ease-out !important;
     margin-left: 8px;
+	background: var(--minimal_dark_blacker_alt);
 }
 
 .DesktopUI .title-area-icon .SVGIcon_X_Line line {
