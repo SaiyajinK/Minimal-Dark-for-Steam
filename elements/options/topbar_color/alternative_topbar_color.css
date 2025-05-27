@@ -29,3 +29,7 @@
 ._3cykd-VfN_xBxf3Qxriccm ._5wILZhsLODVwGfcJ0hKmJ {
     background: var(--minimal_dark_blacker) !important;
 }
+
+.DesktopUI .title-area-icon, .friendsui-container .title-area-icon {
+	background: var(--minimal_dark_blacker) !important;
+}
