@@ -542,6 +542,8 @@ How to access to skin settings ? <br>
 ### 📸 <ins>Screenchots</ins> : <br>
 <p align="left"><img src="https://github.com/user-attachments/assets/43bbb07b-2031-4ffc-bad8-ee6817c031c1" width="150" height="95"></p> <p align="left"><img src="https://github.com/user-attachments/assets/42f5ed28-5384-4a06-aa0f-35170f0e2697" width="150" height="95"></p>
 
+<hr>
+
 ### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
 1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
 2️⃣ - Open Steam browser and paste this url : [https://steambrew.app/themes](https://steambrew.app/themes) <br>
