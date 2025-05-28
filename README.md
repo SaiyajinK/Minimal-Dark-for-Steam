@@ -41,6 +41,37 @@ _Compact_ :<br>
 
 <hr>
 
+## Friends options : 
+
+<details><summary>Animated hovering :</summary><br>  
+
+_Yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/18b1857a-bb48-4a95-80e4-366d8c560d59"></p></details>
+
+<details><summary>Font size :</summary><br>  
+
+_Default_ :<br>  
+<img src="https://github.com/user-attachments/assets/9bac319c-c0ed-40ab-8791-b3fae4792557"></p>
+
+_Smaller_ :<br>  
+<img src="https://github.com/user-attachments/assets/e5db7f8d-b139-494c-a4fd-168972433cfd"></p></details>
+
+<details><summary>Offline friends :</summary><br>  
+
+_Show_ :<br>  
+<img src="https://github.com/user-attachments/assets/f379f243-ce12-4f84-8c3c-f90083d11b78"></p>
+
+_Hide_ :<br>  
+<img src="https://github.com/user-attachments/assets/608f6e42-f7e6-496c-bdaf-a63ec97d733c"></p></details>
+
+<details><summary>Group chats position :</summary><br>  
+
+_Default (bottom)_ :<br>  
+<img src="https://github.com/user-attachments/assets/e8b54476-8213-4387-8654-12b568ad8d18"></p>
+
+_Top_ :<br>  
+<img src="https://github.com/user-attachments/assets/c82149a2-d8e2-4b95-b9a2-d91042e19676"></p></details>
+
 ## Gamepage options : 
 
 <details><summary>Blurred background :</summary><br>  
