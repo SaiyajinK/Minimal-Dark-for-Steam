@@ -1,5 +1,3 @@
-<hr>
-
 <p align="left"><img src="https://github.com/user-attachments/assets/3675a0a9-74bc-4d52-a3b1-6813bc19e770" width="400" height="58"> <img src="https://github.com/user-attachments/assets/2046df08-2913-4ea0-a0f0-af598e9a7faa" width="166" height="75"></p>
 <p align="left">for Steam.</p>
 
@@ -9,8 +7,6 @@
 
 ### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
 I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best to have a theme with matching colorimetry. In building the skin, I defined a function on many elements that injects the selected color code on the entire skin (by default, whether you are on w10 or w11, the color of Steam will be the one you have chosen in Windows, but you can always use another color by clicking on the color selector).<br>
-
-<hr>
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
@@ -537,8 +533,6 @@ _Only show on hover_ :<br>
 How to access to skin settings ? <br>
 ▪ Steam menu ➡️ `Millennium` ➡️ `Themes` ➡️ `Client Theme` ➡️ `⚙️ Settings skin icon`.
 
-<hr>
-
 ### 📸 <ins>Screenchots</ins> : <br>
 <p align="left"><img src="https://github.com/user-attachments/assets/43bbb07b-2031-4ffc-bad8-ee6817c031c1" width="150" height="95"></p> <p align="left"><img src="https://github.com/user-attachments/assets/42f5ed28-5384-4a06-aa0f-35170f0e2697" width="150" height="95"></p>
 
@@ -567,8 +561,6 @@ How to access to skin settings ? <br>
 ▪ [CSS Gradient](https://cssgradient.io/) <br>
 ▪ [Free SVG collection](https://thenounproject.com/) <br>
 
-<hr>
-
 ### 📃 <ins>Open Source References</ins> : <br>
 ▪ Credits to [Rose's Metro for Steam](https://github.com/RoseTheFlower) for the initial base of the theme and the inspiration it gave me. <br>
 ▪ [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium. <br>
@@ -587,13 +579,9 @@ I am neither a coder nor a developer, I have some knowledge after several years 
 ⚠️ Minimal Dark is a completely <ins>free skin</ins>.  <br>
 💲 If someone pretends to be me and asks you for money to get the skin, it is a fraud. <br>
 
-<hr>
-
 ### 🌌 <ins>Do you like my work</ins> ? <br>
 
 ⭐ Add a star to my directory ! <br>
 💯 It's <ins>free</ins> and it gives me strength because I see that other people like my work. 🫡<br>
 ![firefox_zkLiqn1vT8](https://github.com/user-attachments/assets/bfd45d2b-f5a3-40bf-9e9f-0e656be0b7c8) <br>
 ☕ [Support me on Ko-fi](https://ko-fi.com/saiyajink) <br>
-
-<hr>
