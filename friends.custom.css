@@ -558,13 +558,13 @@ button.DialogButton:active, button.DialogButton.gpfocus {
 }
 
 .FriendsListChatSection.ChatRoomListContainerParent.Collapsed .ToggleGroupChatList .SVGIcon_DoubleArrow {
-    transform: rotateZ(90deg) !important;
+    transform: rotateZ(90deg);
     transition: all .2s ease-in-out;
 }
 
 .FriendsListChatSection.ChatRoomListContainerParent .ToggleGroupChatList .SVGIcon_DoubleArrow {
     transition: all .2s ease-in-out;
-    transform: rotate(-90deg) !important;
+    transform: rotate(-90deg);
 }
 
 .ScrollToBottomButton>span {
@@ -983,6 +983,7 @@ button.DialogButton:active, button.DialogButton.gpfocus {
     border: 1px solid #262626c9 !important;
     border-radius: var(--minimal_dark_corner) !important;
     padding-right: 12px !important;
+    transition: .25s ease-out !important;
 }
 
 .friend.quickAccessFriend .playerNameQuickAccessContainer .playerName {
@@ -1104,7 +1105,7 @@ html.web_chat_frame body {
     color: var(--minimal_dark_color) !important;
     font-weight: 400 !important;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%) !important;
-    font-size: 11px !important;
+    font-size: 11px;
     border-radius: var(--minimal_dark_corner) !important;
     margin-left: 10px !important;
     margin-right: 10px !important;
@@ -1112,7 +1113,7 @@ html.web_chat_frame body {
 }
 
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7 .o_39qE2DKxFG3q0A-UZCM {
-    font-size: 11px !important;
+    font-size: 11px;
     letter-spacing: 1px !important;
 }
 
@@ -1442,12 +1443,12 @@ button.DialogButton.Primary:active {
 }
 
 .currentUserContainer .r62qzcdJQ0qezZglOtiUX {
-    font-size: 14px !important;
+    font-size: 14px;
     font-weight: 500 !important;
 }
 
 .titleBarContainer .currentUserContainer ._1k82NiWym4STegDGxRBHz2 {
-    font-size: 14px !important;
+    font-size: 14px;
 }
 
 .currentUserAvatar {
@@ -1482,23 +1483,33 @@ button.DialogButton.Primary:active {
 
 .friendlistListContainer .friend.ingame .labelHolder {
     /* padding-top: 6px !important; */
-    padding-top: 3px !important;
+    padding-top: 4px !important;
 }
 
 .friendlistListContainer .friend.online .labelHolder {
     padding-top: 0px !important;
+    transform: translate(0px, -1px) !important;
+    transition: .25s ease-out !important;
+}
+
+.friendlistListContainer .friend.ingame.awayOrSnooze .labelHolder {
+    padding-top: 8px !important;
+    transform: translate(0px, -1px) !important;
 }
 
 .friendlistListContainer .friend.awayOrSnooze .labelHolder {
     padding-top: 0px !important;
+    transform: translate(0px, -1px) !important;
 }
 
 .friendlistListContainer .friend.offline .labelHolder {
     padding-top: 0px !important;
+    transform: translate(0px, -1px) !important;
 }
 
 .singlewindow .currentUserContainer .labelHolder {
-    margin-left: 20px !important;
+    padding-top: 0px !important;
+    transform: translate(0px, -1px) !important;
 }
 
 :not(.friendInviteContainer) .awayOrSnooze .ContextMenuButton .SVGIcon_DownArrowContextMenu {
@@ -1825,7 +1836,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .currentUserContainer .nOdcT-MoOaXGePXLyPe0H {
-    font-size: 14px !important;
+    font-size: 14px;
 }
 
 .FriendInGameIcon img {
@@ -1879,7 +1890,7 @@ html.client_chat_frame .popup_chat_frame {
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._2sIHGS_555xUrHvjOwV0Y2 {
     letter-spacing: 0px !important;
-	font-size: 11px !important;
+	font-size: 11px;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._3voPlg-2HzAUhuCyVhXm_D {
@@ -2275,6 +2286,12 @@ button.DialogButton::before {
 
 .favoriteElement .ChatRoomGroupAvatar {
     margin-bottom: -1px !important;
+	border-radius: var(--minimal_dark_corner) !important;
+}
+
+.ChatRoomGroupAvatar {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .favoriteElement:hover .quickAccessFriend .clanName {
@@ -2314,7 +2331,7 @@ button.DialogButton::before {
 	border-radius: var(--minimal_dark_corner) !important;
 }
 
-.quickAccessFriends .favoriteElement:hover .friend .avatarHolder img.avatar, .friend.offline:hover .avatarHolder img.avatar, .friend.offline.Friend_ContextMenuActive .avatarHolder img.avatar {
+.quickAccessFriends .favoriteElement:hover .friend .avatarHolder img.avatar /* .friend.offline:hover .avatarHolder img.avatar, .friend.offline.Friend_ContextMenuActive .avatarHolder img.avatar */ {
     transform: scale(0.9) translate(1px, 0px) !important;
 }
 
@@ -2384,7 +2401,7 @@ button.DialogButton::before {
 }
 
 .CompactFriendsList ._3bbRZyUiK-bfc5Qov6xukI ._2Ri005Wg_uXDTa71kdRbcN {
-    font-size: 10px !important;
+    font-size: 10px;
     line-height: 10px !important;
 }
 
@@ -2451,4 +2468,41 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 
 .DialogHighlight {
     color: var(--minimal_dark_color) !important;
+}
+
+.friendlistListContainer .friend.online .labelHolder:hover {
+    transform: scale(1) translate(0px, -1px) !important;
+}
+
+.nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.online.awayOrSnooze .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
+    transform: scale(.92) translate(-1px, 2px) !important;
+	transition: .25s ease-out !important;
+}
+
+.friend.online.friendStatusHover.Panel.Focusable .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
+    transform: scale(.92) translate(-1px, 2px) !important;
+	transition: .25s ease-out !important;
+}
+
+.friend.online.friendStatusHover.Panel.Focusable:hover .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
+    transform: scale(1) translate(0px, 0px);
+	transition: .25s ease-out !important;
+}
+
+.friend.offline:hover .avatarHolder img.avatar, .friend.online:hover .avatarHolder img.avatar, .friend.ingame:hover .avatarHolder img.avatar, .friend.ingame.awayOrSnooze:hover .avatarHolder img.avatar, .friend.online.awayOrSnooze:hover .avatarHolder img.avatar, .friend.awayOrSnooze:hover .avatarHolder img.avatar {
+    transform: scale(1) translate(0px, 0px);
+    transition: .25s ease-out !important;
+}
+
+.nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame {
+    transform: scale(1.09) translate(-1px, 2px) !important;
+}
+
+.friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
+    padding-top: 5px;
+    font-size: 12px !important;
+}
+
+.friend.ingame.quickAccessFriend.friendStatusHover.Panel.Focusable .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame img._3fM0F85j3aWVzr4RJM9-eu {
+    transform: translate(0px, -2px) !important;
 }
