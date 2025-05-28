@@ -72,6 +72,8 @@ _Default (bottom)_ :<br>
 _Top_ :<br>  
 <img src="https://github.com/user-attachments/assets/c82149a2-d8e2-4b95-b9a2-d91042e19676"></p></details>
 
+<hr>
+
 ## Gamepage options : 
 
 <details><summary>Blurred background :</summary><br>  
