@@ -43,6 +43,66 @@
 			}
 		},
 		
+		"Animated hovering": {
+		"tab": "Friends options",
+		"description": "Trigger an animation when hovering over contacts in the friends list.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/animated_hovering.css"
+					}
+				}
+			}
+		},
+		
+		"Font size": {
+		"tab": "Friends options",
+		"description": "Change the size of the font of the friends list (not applied on compact mod).",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"Smaller": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/smaller_font_size.css"
+					}
+				}
+			}
+		},
+		
+		"Offline friends": {
+		"tab": "Friends options",
+		"description": "Hide offline friends in friends list (they can be found using search).",
+		"default": "Show",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/offline_friends.css"
+					}
+				}
+			}
+		},
+		
+		"Group chats position": {
+		"tab": "Friends options",
+		"description": "Modify the position of the groups chats.",
+		"default": "Default (bottom)",
+		"values": {
+			"Default (bottom)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/bottom_group_chats.css"
+					}
+				},
+			"Top": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/top_group_chats.css"
+					}
+				}
+			}
+		},
+		
 		"Blurred background": {
 		"tab": "Gamepage options",
 		"description": "Blur the background of the game page (not recommanded with gamepage compact mod)",
@@ -863,7 +923,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.9.0",
+	"version": "3.9.2",
 
 	"github": {
 		"owner": "SaiyajinK",
