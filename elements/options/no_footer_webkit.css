@@ -1,3 +1,7 @@
 body.v6.infinite_scrolling #footer.small_footer {
     display: none !important;
 }
+
+body.v6 div#footer {
+    display: none !important;
+}
