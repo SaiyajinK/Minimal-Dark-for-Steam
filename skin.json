@@ -340,10 +340,15 @@
 		"Compact news container": {
 		"tab": "Library options",
 		"description": "Make the news container compact.",
-		"default": "yes",
+		"default": "Compact (small font)",
 		"values": {
-			"no": {},
-			"yes": {
+			"Steam default": {},
+			"Compact (small font)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/compact_news_alt.css"
+					}
+				},
+			"Compact (normal font)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/compact_news.css"
 					}
@@ -429,12 +434,40 @@
 		"No button labels in list mod": {
 		"tab": "Overlay options",
 		"description": "hide button names to only have the icon when the overlay is in list mode only",
-		"default": "Default",
+		"default": "yes",
 		"values": {
-			"Default": {},
-			"No label": {
+			"no": {},
+			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay_no_label_list.css"
+			"affects": [".*"], "src": "elements/options/overlay/overlay_no_label_list.css"
+					}
+				}
+			}
+		},
+		
+		"No button labels in normal mod": {
+		"tab": "Overlay options",
+		"description": "hide button names to only have the icon when the overlay is in normal mode only",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay/overlay_no_label_normal.css"
+					}
+				}
+			}
+		},
+		
+		"Bigger buttons": {
+		"tab": "Overlay options",
+		"description": "Make the overlay buttons bigger.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay/overlay_bigger_buttons.css"
 					}
 				}
 			}
@@ -488,6 +521,20 @@
 			"Small dot (square)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/min_square_indicator.css"
+					}
+				}
+			}
+		},
+		
+		"Bigger font size": {
+		"tab": "Sidebar options",
+		"description": "Make games names bigger.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar/bigger_names.css"
 					}
 				}
 			}
@@ -923,7 +970,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.9.2",
+	"version": "3.9.5",
 
 	"github": {
 		"owner": "SaiyajinK",
