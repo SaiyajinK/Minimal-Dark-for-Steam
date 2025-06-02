@@ -689,7 +689,7 @@
 		"Topbar Store tab left icon (currency icon)": {
 		"tab": "Topbar options",
 		"description": "Changes the currency logo on the store icon.",
-		"default": "Fill active icon (euro)",
+		"default": "Fill icon (euro)",
 		"values": {
 			"No icon": {},
 			"Fill icon (euro)": {
