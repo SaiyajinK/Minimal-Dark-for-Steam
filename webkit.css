@@ -3111,10 +3111,14 @@ body.v6 .wishlist_header h2 {
 }
 
 .review_box .header {
-    border-top-left-radius: 10px!important;
-    border-top-right-radius: 10px!important;
+    border-top-left-radius: var(--minimal_dark_corner) !important;
+    border-top-right-radius: var(--minimal_dark_corner) !important;
     border-bottom: 0!important;
-    background: rgba(0,0,0,.2)!important;
+    background: transparent !important;
+	color: var(--minimal_dark_currency) !important;
+}
+
+.review_posted_ctn {
     padding: 10px !important;
 }
 
@@ -3472,7 +3476,16 @@ img.game_header_image_full {
 }
 
 #recommendation_success .review_box .thumb {
-	border-radius:0px!important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+#recommendation_success .review_box .thumb img {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+#review_create h1, .reviewDate {
+    color: var(--minimal_dark_color) !important;
 }
 
 #review_create h1,.reviewDate {
@@ -3654,6 +3667,7 @@ img.game_header_image_full {
     background-image: none!important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    padding: 10px !important;
 }
 
 .sysreq_tabs {
@@ -6480,6 +6494,19 @@ body.v6 .game_area_already_owned.page_content {
     border-radius: var(--minimal_dark_corner) !important;
     color: var(--minimal_dark_browser_overlay_close);
     border: 1px solid var(--minimal_dark_be_grey) !important;
+	top: 7px !important;
+}
+
+.package_in_library_flag.in_own_library {
+    background: #1919199c !important;
+    backdrop-filter: blur(8px);
+    border-radius: var(--minimal_dark_corner) !important;
+    color: var(--minimal_dark_browser_overlay_close);
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.package_in_library_flag.in_own_library span {
+    color: var(--minimal_dark_browser_overlay_close) !important;
 }
 
 #home_gutter_recentlyviewed {
@@ -7813,10 +7840,22 @@ body.v6 .deep_dive_tag {
 
 .game_review_summary.positive {
     color: var(--minimal_dark_browser_overlay_close) !important;
+    transition: .25s ease-out !important;
+}
+
+.game_review_summary.positive:hover {
+    transition: .25s ease-out !important;
+    color: #31ee53 !important;
 }
 
 .game_review_summary.mixed {
     color: orange !important;
+	transition: .25s ease-out !important;
+}
+
+.game_review_summary.mixed:hover {
+    color: #ff6000 !important;
+    transition: .25s ease-out !important;
 }
 
 .glance_ctn .more_btn {
@@ -7832,6 +7871,14 @@ body.v6 .deep_dive_tag {
 
 #game_highlights a {
     color: white !important;
+}
+
+#game_highlights a:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+div#developers_list a:hover {
+    color: var(--minimal_dark_color) !important;
 }
 
 .glance_ctn .user_reviews_summary_row .column, .glance_ctn .dev_row .column, .glance_ctn .release_date .column {
@@ -7853,6 +7900,12 @@ body.v6 .deep_dive_tag {
 
 .game_review_summary {
     color: var(--minimal_dark_red2) !important;
+	transition: .25s ease-out !important;
+}
+
+.game_review_summary:hover {
+    color: #ff0000 !important;
+    transition: .25s ease-out !important;
 }
 
 body.v6 .game_area_description h2.bb_tag {
@@ -14924,6 +14977,117 @@ body.v6 h2 a {
     backdrop-filter: blur(8px) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
+}
+
+/* steamdb plugin */
+.btn_black > span {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    transform: translate(-10px, 0px) !important;
+	transition: .25s ease-out !important;
+}
+
+.btn_black > span:hover {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    transform: translate(-10px, 0px) !important;
+	color: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+a.btnv6_blue_hoverfade.btn_medium.btn_steamdb {
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.block.responsive_apppage_details_right.steamdb_stats .steamdb_stats_grid span.steamdb_stats_number {
+    color: var(--minimal_dark_color) !important;
+}
+
+.steamdb_prices {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.steamdb_prices_top b {
+    color: var(--minimal_dark_status_green) !important;
+}
+
+.steamdb_prices:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.steamdb_prices:hover .steamdb_prices_bottom {
+    color: var(--minimal_dark_color) !important;
+}
+
+.steamdb_prices:hover .steamdb_prices_top b {
+    color: var(--minimal_dark_color) !important;
+}
+
+/* end steamdb plugin */
+
+.glance_ctn .release_date .date {
+    color: white !important;
+}
+
+.glance_ctn .release_date .date:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+.details_block a {
+    color: white !important;
+}
+
+.details_block a:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+._26Gmfe09NRsnF7eprTZYdY ._1oXr_GpvIgjHasLyU3tBn.WIb1FyHC1Tm7gOvbbiI2k {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+._26Gmfe09NRsnF7eprTZYdY ._1oXr_GpvIgjHasLyU3tBn.WIb1FyHC1Tm7gOvbbiI2k svg path {
+    fill: white !important;
+}
+
+._2q7nbQP9JNdtqFAxP5RHNZ ._3Cdh-BVkfxPJQNz_etZjUd:hover {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._2q7nbQP9JNdtqFAxP5RHNZ ._3Cdh-BVkfxPJQNz_etZjUd {
+    border: 1px solid transparent;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.L3eUgb {
+    background: var(--minimal_dark_blacker) !important;
+}
+
+.RNNXgb {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+textarea.gLFyf, .YacQv {
+    border-bottom: 0px solid transparent !important;
+}
+
+.aajZCb {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+    border-right: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._2q7nbQP9JNdtqFAxP5RHNZ ._3Cdh-BVkfxPJQNz_etZjUd._181cYsjHaaMo4th6NXPkPR {
+    background-color: var(--minimal_dark_blacker) !important;
+	border: 1px solid var(--minimal_dark_color) !important;
 }
 
 /* end webkit */
