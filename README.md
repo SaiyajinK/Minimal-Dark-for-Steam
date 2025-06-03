@@ -20,26 +20,26 @@ You can configure it however you like with the 56 customization options availabl
 <details><summary>Account wallet :</summary><br>  
 
 _Show_ :<br>
-<img src="https://github.com/user-attachments/assets/069309c9-a8c5-4037-8bd6-d882a66f4f43"></p>
+<img src="https://github.com/user-attachments/assets/0e2915f8-628e-475c-a10c-ef7a780653bc"></p>
 
 _Hide_ :<br>
-<img src="https://github.com/user-attachments/assets/fddd6491-af7c-42a6-9d41-97c10af8f3dd"></p></details>
+<img src="https://github.com/user-attachments/assets/4784eb68-ef01-458d-89fe-292f13db6081"></p></details>
 
 <details><summary>Bigger notification button :</summary><br>  
 
 _off_ :<br>  
-<img src="https://github.com/user-attachments/assets/fbd3444a-f4f3-48a9-a5fb-67d9ea1091ff"></p>
+<img src="https://github.com/user-attachments/assets/d1e4135d-4cd5-4293-be4b-e981abb713d0"></p>
 
 _on_ :<br>
-<img src="https://github.com/user-attachments/assets/7d73e0f2-825a-46e2-8633-19eb1aacb96c"></p></details>
+<img src="https://github.com/user-attachments/assets/91b961bb-4524-471f-ab3d-2b651af58c33"></p></details>
 
 <details><summary>Compact avatar :</summary><br>    
 
 _Default_ :<br>
-<img src="https://github.com/user-attachments/assets/fddd6491-af7c-42a6-9d41-97c10af8f3dd"></p>
+<img src="https://github.com/user-attachments/assets/54448a37-6db6-4fcf-8207-0e3f44383195"></p>
 
 _Compact_ :<br>
-<img src="https://github.com/user-attachments/assets/f51fc324-2328-456e-a80d-92b51ba6721e"></p></details>
+<img src="https://github.com/user-attachments/assets/984f19e6-f190-42e1-997f-74624bc39e3a"></p></details>
 
 <hr>
 
@@ -48,31 +48,31 @@ _Compact_ :<br>
 <details><summary>Animated hovering :</summary><br>  
 
 _Yes_ :<br>  
-<img src="https://github.com/user-attachments/assets/18b1857a-bb48-4a95-80e4-366d8c560d59"></p></details>
+<img src="https://github.com/user-attachments/assets/035af425-1c4d-4ac2-8e83-f2e729e562ae"></p></details>
 
 <details><summary>Font size :</summary><br>  
 
 _Default_ :<br>  
-<img src="https://github.com/user-attachments/assets/9bac319c-c0ed-40ab-8791-b3fae4792557"></p>
+<img src="https://github.com/user-attachments/assets/2a24555f-1445-4f97-a5c1-3573afcf6156"></p>
 
 _Smaller_ :<br>  
-<img src="https://github.com/user-attachments/assets/e5db7f8d-b139-494c-a4fd-168972433cfd"></p></details>
+<img src="https://github.com/user-attachments/assets/2c2a6f9f-0c2e-439c-918e-a3a2e12e49bd"></p></details>
 
 <details><summary>Offline friends :</summary><br>  
 
 _Show_ :<br>  
-<img src="https://github.com/user-attachments/assets/f379f243-ce12-4f84-8c3c-f90083d11b78"></p>
+<img src="https://github.com/user-attachments/assets/23a799e8-7283-4853-812e-1aed7aee6831"></p>
 
 _Hide_ :<br>  
-<img src="https://github.com/user-attachments/assets/608f6e42-f7e6-496c-bdaf-a63ec97d733c"></p></details>
+<img src="https://github.com/user-attachments/assets/984a3468-fb6f-478d-a47f-aff9912f4ccf"></p></details>
 
 <details><summary>Group chats position :</summary><br>  
 
 _Default (bottom)_ :<br>  
-<img src="https://github.com/user-attachments/assets/e8b54476-8213-4387-8654-12b568ad8d18"></p>
+<img src="https://github.com/user-attachments/assets/c683571f-c0fa-4aaa-b95b-c716f71f8185"></p>
 
 _Top_ :<br>  
-<img src="https://github.com/user-attachments/assets/c82149a2-d8e2-4b95-b9a2-d91042e19676"></p></details>
+<img src="https://github.com/user-attachments/assets/2236c179-cb9e-43f2-9358-e069e41b3637"></p></details>
 
 <hr>
 
