@@ -557,11 +557,11 @@ _Only show on hover_ :<br>
 <img src="https://github.com/user-attachments/assets/fe080b22-75ca-43b3-9472-586b50db4c85"></p></details><br>
 </details>
 
-How to access to skin settings ? <br>
+How to access to skin settings ? <br><br>
 ▪ Steam menu ➡️ `Millennium` ➡️ `Themes` ➡️ `Client Theme` ➡️ `⚙️ Settings skin icon`.
 
 ### 📸 <ins>Screenchots</ins> : <br>
-<p align="left"><img src="https://github.com/user-attachments/assets/43bbb07b-2031-4ffc-bad8-ee6817c031c1" width="150" height="95"></p> <p align="left"><img src="https://github.com/user-attachments/assets/42f5ed28-5384-4a06-aa0f-35170f0e2697" width="150" height="95"></p>
+<p align="left"><img src="https://github.com/user-attachments/assets/43bbb07b-2031-4ffc-bad8-ee6817c031c1" width="150" height="95"></p>
 
 <hr>
 
