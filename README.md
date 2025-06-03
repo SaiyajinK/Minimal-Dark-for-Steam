@@ -425,54 +425,54 @@ _Default_ :<br>
 <img src="https://github.com/user-attachments/assets/ee037e5f-d307-4838-bc8c-a02e090fe573"></p>
 
 _Roboto_ :<br> 
-<img src=""></p>
+<img src="!https://github.com/user-attachments/assets/9ff596e6-80bf-40ef-bbf2-08cc5a5ee0f1"></p>
 
 _Monaco_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/4ed531d7-3c0e-484d-9d8c-6daa6ee01ed9"></p>
 
 _Share Tech_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/ea11ffb2-9fee-4aa3-b5a7-73d6b615bed2"></p>
 
 _Maria_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/83c20be4-6769-4451-8979-71e89d02f4d5"></p>
 
 _Sudo Var_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/f1024d8a-2392-42f6-887e-3707e8dbc1d8"></p>
 
 _JetBrains_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/f406eff8-12d8-4870-b8db-b3604b8c8411"></p></details>
 
 <details><summary>Context menus hover effect :</summary><br>  
 
 _No hover effect_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/db25354a-7eda-4c0f-82ce-9193374f8eef"></p>
 
 _With hover effect_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/3ae4cfcb-13b6-4429-8359-72899a442664"></p></details>
 
 <details><summary>Default pointers :</summary><br>  
 
 _Minimal Dark default_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/1ce84de7-671f-4a1f-be29-de96da3ef04b"></p>
 
 _Steam default_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/5f4f3e1c-7eea-4e5f-b83b-8dc468ea9f0c"></p></details>
 
 <details><summary>Hide scrollbars :</summary><br>  
 
 _Show_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/69b21b5e-85d9-47e3-a82e-f3e7ac780a0c"></p>
 
 _Hide_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/a363ad86-d602-4ea9-b81a-7a1cf5498e8d"></p></details>
 
 <details><summary>Mouseover animation of settings menu tabs :</summary><br>  
 
 _Animated_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/64db8aaf-85b8-40ee-8dcb-36db513e7469"></p>
 
 _Static_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/32d26a60-92eb-42e2-a20c-efd86b383306"></p></details>
 
 <hr>
 
@@ -481,53 +481,53 @@ _Static_ :<br>
 <details><summary>Compact Webkit :</summary><br>  
 
 _Show_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/a644826f-1158-4292-9b2d-833e6bc78e38"></p>
 
 _Hide_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/b130fe75-0662-47f9-85e1-cd1b0bbde5e3"></p></details>
 
 <details><summary>Events header :</summary><br>  
 
 _Show_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/065b66b3-1a33-432f-9247-79a2a6886a0f"></p>
 
 _Hide_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/3375f939-6c76-4e3a-8f11-250b137402cd"></p></details>
 
 <details><summary>Hide footers :</summary><br>  
 
 _Show_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/9657eabd-7084-4455-9941-8e9b6e7c420f"></p>
 
 _Hide_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/e372c7f9-40da-49cf-a2e5-ec801eed9fba"></p></details>
 
 <details><summary>Profiles :</summary><br>  
 
 _Minimal Dark default_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/048af3f5-e5bb-4143-a2b8-3f7051d70308"></p>
 
 _No blur blocs_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/98728b31-5d71-418a-978f-32b80a82ecd3"></p></details>
 
 <details><summary>Profiles headers :</summary><br>  
 
 _yes_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/c7a6b8cc-0809-4e3b-aff7-9e6dcd95cc93"></p>
 
 _no_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/cbf9cc62-dc97-4597-917f-b4d5972f11ad"></p></details>
 
 <details><summary>URL bar :</summary><br>  
 
 _Visible_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/676157b8-31f3-4530-95d5-0a501f6900ca"></p>
 
 _Hide_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/89f849b3-9885-4b11-b54c-d1bdb3c011a7"></p>
 
 _Only show on hover_ :<br> 
-<img src=""></p></details><br>
+<img src="https://github.com/user-attachments/assets/fe080b22-75ca-43b3-9472-586b50db4c85"></p></details><br>
 </details>
 
 How to access to skin settings ? <br>
