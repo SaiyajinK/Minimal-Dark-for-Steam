@@ -212,11 +212,14 @@ _Ultra compact (filter & search)_ :<br>
 
 <details><summary>Compact news container :</summary><br>  
 
-_no_ :<br> 
+_Steam default_ :<br> 
 <img src="https://github.com/user-attachments/assets/ea1d1251-fcfe-4477-a73f-3cb92780057b"></p>
 
-_yes_ :<br> 
-<img src="https://github.com/user-attachments/assets/eac9e237-e3de-4288-8f52-d829c707930e"></p></details>
+_Compact (small font)_ :<br> 
+<img src="https://github.com/user-attachments/assets/24ac50d5-39b8-4ef8-9d74-de5981ac30e6"></p>
+
+_Compact (normal font)_ :<br> 
+<img src="https://github.com/user-attachments/assets/b2b8643a-b110-4b89-ac5a-afe741009cf8"></p></details>
 
 <details><summary>Library labels :</summary><br>  
 
@@ -262,11 +265,24 @@ _Hide_ :<br>
 
 <details><summary>No button labels in list mod :</summary><br>  
 
-_Default_ :<br> 
+_no_ :<br> 
 <img src="https://github.com/user-attachments/assets/707c3a21-13ae-4029-adcf-bd0294a31298"></p>
 
-_No label_ :<br> 
+_yes_ :<br> 
 <img src="https://github.com/user-attachments/assets/afd97486-e2d0-45ba-b0b9-0eec9a87c4f1"></p></details>
+
+<details><summary>No button labels in normal mode :</summary><br>  
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/7bb2f389-d12b-4acb-b062-f3d9d4e1202f"></p>
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/0540b034-6946-4310-9f32-df64632f7e97"></p></details>
+
+<details><summary>Bigger buttons :</summary><br>  
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/93c21eaa-a2a3-4128-8460-082dc48c7458"></p></details>
 
 <hr>
 
@@ -280,7 +296,7 @@ _Default_ :<br>
 _User color gradient_ :<br> 
 <img src="https://github.com/user-attachments/assets/d5706fd0-06e1-492b-a80f-7faca76b741a"></p></details>
 
-<details><summary>Alternative ingame friends indicator :</summary><br> 
+<details><summary>Alternative ingame friends indicator :</summary><br>
 
 _Minimal Dark default (vertical bar)_ :<br> 
 <img src="https://github.com/user-attachments/assets/c281bcbb-7e51-48a7-85a7-6e127e9d1e47"></p>
@@ -302,6 +318,14 @@ _Dot (square)_ :<br>
 
 _Small dot (square)_ :<br> 
 <img src="https://github.com/user-attachments/assets/d258e195-54a4-44a3-a057-d7ea47ae8b3c"></p></details>
+
+<details><summary>Bigger font size :</summary><br> 
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/d5d0ab60-d266-4585-9cec-df322cebf457"></p>
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/770a3fa0-cdf7-468d-8eb4-e471e3bfe4fa"></p></details>
 
 <details><summary>Bolder names :</summary><br> 
 
