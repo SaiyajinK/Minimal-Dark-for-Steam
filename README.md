@@ -194,55 +194,55 @@ _Alternative_ :<br>
 <details><summary>Compact library :</summary><br>  
 
 _no_ :<br>
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/02f7fe02-3111-42fb-b12e-1b1843c4365c"></p>
 
 _yes_ :<br>  
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/c1c6e036-9a9e-411a-af37-3c511468fcd0"></p></details>
 
 <details><summary>Compact mod :</summary><br>  
 
 _Default_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/072cd444-8cce-4d26-b7d6-3df406f9def1"></p>
 
 _Compact (filter only)_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/d1e6f580-9cb0-41b0-a271-0008b07e0ab6"></p>
 
 _Ultra compact (filter & search)_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/cc6ed3a7-ddfd-491d-bdff-fb3440f180b7"></p></details>
 
 <details><summary>Compact news container :</summary><br>  
 
 _no_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/ea1d1251-fcfe-4477-a73f-3cb92780057b"></p>
 
 _yes_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/eac9e237-e3de-4288-8f52-d829c707930e"></p></details>
 
 <details><summary>Library labels :</summary><br>  
 
 _show_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/bf5361d7-ac15-4c3b-810c-fd548145be7b"></p>
 
 _hide_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/4136c033-ea93-4cec-8600-888e8a8e8c17"></p></details>
 
 <details><summary>Library games hover glow color :</summary><br> 
 
 _Default_ :<br> 
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/1860cac1-8001-4288-9b5f-919927adac52"></p>
 
 _User color_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/eb7aabfa-a66d-40b4-b36d-6fccf7dacfa0"></p></details>
 
 <details><summary>News container :</summary><br>   
 
 _Hide_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/3b49f2b8-599d-41e6-a836-89037db1e920"></p></details>
 
 <details><summary>Right Sidebar :</summary><br>   
 
 _Right (not recommanded)_ :<br> 
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/0cf2018a-818a-4192-a53a-163bd38a4437"></p></details>
 
 <hr>
 
@@ -251,10 +251,10 @@ _Right (not recommanded)_ :<br>
 <details><summary>Miniprofile background :</summary><br>
 
 _Show_ :<br> 
-<img src="https://github.com/user-attachments/assets/b114f9d8-74bd-4d66-b136-172aa10961aa"></p>
+<img src="https://github.com/user-attachments/assets/5e0c9ca2-125c-4f2d-9a7f-5f26cbeb5e24"></p>
 
 _Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/af7e14d3-01ce-404e-bd03-05caa5e907b4"></p></details>
+<img src="https://github.com/user-attachments/assets/e3fc01ce-fcd9-4dbf-adce-26d2b8d29721"></p></details>
 
 <hr>
 
@@ -263,10 +263,10 @@ _Hide_ :<br>
 <details><summary>No button labels in list mod :</summary><br>  
 
 _Default_ :<br> 
-<img src="https://github.com/user-attachments/assets/f4f7dfb8-bd60-4d8c-a9c2-696885dd4d9e"></p>
+<img src="https://github.com/user-attachments/assets/707c3a21-13ae-4029-adcf-bd0294a31298"></p>
 
 _No label_ :<br> 
-<img src="https://github.com/user-attachments/assets/59822164-3882-438f-abd5-547d87e6fb11"></p></details>
+<img src="https://github.com/user-attachments/assets/afd97486-e2d0-45ba-b0b9-0eec9a87c4f1"></p></details>
 
 <hr>
 
