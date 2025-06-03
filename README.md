@@ -408,71 +408,71 @@ _with icons_ :<br>
 <details><summary>Alternative root menu icon :</summary><br>  
 
 _Minimal Dark default icon_ :<br> 
-<img src="https://github.com/user-attachments/assets/cc00be9e-e40e-46a4-b0ac-08f9eecf2583"></p>
+<img src="https://github.com/user-attachments/assets/a00be773-e2c5-4304-8154-d5a0a75c95b7"></p>
 
 _Minimal Dark complete logo_ :<br> 
-<img src="https://github.com/user-attachments/assets/7a432402-8bc9-4c56-a9d0-f95145511097"></p>
+<img src="https://github.com/user-attachments/assets/c9c3e7b8-21d1-497f-8de1-e38d788a8206"></p>
 
 _Minimal Dark rounded icon_ :<br> 
-<img src="https://github.com/user-attachments/assets/f8f4354f-d8ca-4b39-b38b-9aa6d8e4d892"></p>
+<img src="https://github.com/user-attachments/assets/e091d736-a158-4b19-aef8-4d7c766f3eee"></p>
 
 _Minimal Dark squared icon_ :<br> 
-<img src="https://github.com/user-attachments/assets/d72ce446-c309-4913-949f-34d2ef0bd76f"></p></details>
+<img src="https://github.com/user-attachments/assets/555a0dc8-859c-44c9-8ba9-c561026ecec0"></p></details>
 
 <details><summary>Change UI font :</summary><br>  
 
 _Default_ :<br> 
-<img src="https://github.com/user-attachments/assets/a5379c74-1eeb-4ce8-9a5a-a99a479f1bc5"></p>
+<img src="https://github.com/user-attachments/assets/ee037e5f-d307-4838-bc8c-a02e090fe573"></p>
 
 _Roboto_ :<br> 
-<img src="https://github.com/user-attachments/assets/f6a6d216-2418-4873-b7b1-92269cde847b"></p>
+<img src=""></p>
 
 _Monaco_ :<br> 
-<img src="https://github.com/user-attachments/assets/2ff95f16-56cb-472d-b54e-fc9114ae30bc"></p>
+<img src=""></p>
 
 _Share Tech_ :<br> 
-<img src="https://github.com/user-attachments/assets/14d35c17-96e8-440b-8377-7042b54f3da9"></p>
+<img src=""></p>
 
 _Maria_ :<br> 
-<img src="https://github.com/user-attachments/assets/63b9ea3f-c55e-4030-b31e-584ffe8df14e"></p>
+<img src=""></p>
 
 _Sudo Var_ :<br> 
-<img src="https://github.com/user-attachments/assets/9b536a65-b7d1-4f94-8d65-4af90ca544ac"></p>
+<img src=""></p>
 
 _JetBrains_ :<br> 
-<img src="https://github.com/user-attachments/assets/56b4a168-500f-4349-8faa-7780f838f066"></p></details>
+<img src=""></p></details>
 
 <details><summary>Context menus hover effect :</summary><br>  
 
 _No hover effect_ :<br> 
-<img src="https://github.com/user-attachments/assets/939e8b1e-5425-48df-998e-47065a99bc02"></p>
+<img src=""></p>
 
 _With hover effect_ :<br> 
-<img src="https://github.com/user-attachments/assets/5f67b8b6-2f38-4ee8-ba8d-245e287654d0"></p></details>
+<img src=""></p></details>
 
 <details><summary>Default pointers :</summary><br>  
 
 _Minimal Dark default_ :<br> 
-<img src="https://github.com/user-attachments/assets/c81ab14b-7831-4848-9cac-3fbda52e971d"></p>
+<img src=""></p>
 
 _Steam default_ :<br> 
-<img src="https://github.com/user-attachments/assets/4bd38fd6-c35a-459a-ac6c-436822c7ed95"></p></details>
+<img src=""></p></details>
 
 <details><summary>Hide scrollbars :</summary><br>  
 
 _Show_ :<br> 
-<img src="https://github.com/user-attachments/assets/d8266ebc-2b9b-4397-94e7-9fe93d31c147"></p>
+<img src=""></p>
 
 _Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/7470ef65-d086-4b43-88fb-16e51503accc"></p></details>
+<img src=""></p></details>
 
 <details><summary>Mouseover animation of settings menu tabs :</summary><br>  
 
 _Animated_ :<br> 
-<img src="https://github.com/user-attachments/assets/a3a345e7-f814-48d2-b20c-e70ba740757c"></p>
+<img src=""></p>
 
 _Static_ :<br> 
-<img src="https://github.com/user-attachments/assets/c68ee899-5a75-4880-a7e1-92b00491db9e"></p></details>
+<img src=""></p></details>
 
 <hr>
 
@@ -481,53 +481,53 @@ _Static_ :<br>
 <details><summary>Compact Webkit :</summary><br>  
 
 _Show_ :<br> 
-<img src="https://github.com/user-attachments/assets/363d3868-f6dd-4860-829a-a82efe2f65a1"></p>
+<img src=""></p>
 
 _Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/8e605924-65d6-4dbe-886c-c8a92ef8992d"></p></details>
+<img src=""></p></details>
 
 <details><summary>Events header :</summary><br>  
 
 _Show_ :<br> 
-<img src="https://github.com/user-attachments/assets/de7938c8-dc6e-42fe-8d4b-fbcaefc68495"></p>
+<img src=""></p>
 
 _Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/5f36ce61-ab8c-468e-ba8d-32c866ee7849"></p></details>
+<img src=""></p></details>
 
 <details><summary>Hide footers :</summary><br>  
 
 _Show_ :<br> 
-<img src="https://github.com/user-attachments/assets/339e1f96-6efe-4ae2-8fc2-f6fae6094727"></p>
+<img src=""></p>
 
 _Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/43f93cb9-a37a-4d50-aa40-0895d391decf"></p></details>
+<img src=""></p></details>
 
 <details><summary>Profiles :</summary><br>  
 
 _Minimal Dark default_ :<br> 
-<img src="https://github.com/user-attachments/assets/6304fa9c-4d85-4eeb-b9f2-55bb4773c70f"></p>
+<img src=""></p>
 
 _No blur blocs_ :<br> 
-<img src="https://github.com/user-attachments/assets/847097ee-051e-4ea7-80bb-3debfd6d9857"></p></details>
+<img src=""></p></details>
 
 <details><summary>Profiles headers :</summary><br>  
 
 _yes_ :<br> 
-<img src="https://github.com/user-attachments/assets/e2ba7b24-3a01-4b8a-af8f-6ce30836fa03"></p>
+<img src=""></p>
 
 _no_ :<br> 
-<img src="https://github.com/user-attachments/assets/8525109e-0d44-46b4-9fc9-f252f0b6e722"></p></details>
+<img src=""></p></details>
 
 <details><summary>URL bar :</summary><br>  
 
 _Visible_ :<br> 
-<img src="https://github.com/user-attachments/assets/c899aaef-55de-4725-a104-4e6a1160645f"></p>
+<img src=""></p>
 
 _Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/1ccfa6f0-681d-4a5d-afa4-c0b6fab2c09c"></p>
+<img src=""></p>
 
 _Only show on hover_ :<br> 
-<img src="https://github.com/user-attachments/assets/60e18acb-96ca-4c55-bf1d-f74634e6b6b5"></p></details><br>
+<img src=""></p></details><br>
 </details>
 
 How to access to skin settings ? <br>
