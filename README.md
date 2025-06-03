@@ -81,39 +81,39 @@ _Top_ :<br>
 <details><summary>Blurred background :</summary><br>  
 
 _Full dark (default)_ :<br>  
-<img src="https://github.com/user-attachments/assets/ce609a2b-1aca-49b5-ae24-a6e3f2a2c71b"></p>
+<img src="https://github.com/user-attachments/assets/54efb2cf-5974-4f33-98df-2c75ec5f6fc9"></p>
 
 _Blurred_ :<br>  
-<img src="https://github.com/user-attachments/assets/6355b966-51bb-4c23-a11f-888b86e799f5"></p></details>
+<img src="https://github.com/user-attachments/assets/6cb34b45-ae41-4bed-ba49-744c413f1480"></p></details>
 
 <details><summary>Community content :</summary><br>  
 
 _Show_ :<br>  
-<img src="https://github.com/user-attachments/assets/a551d349-e8ec-498a-b9ba-dfaa204ef379"></p>
+<img src="https://github.com/user-attachments/assets/971b5bd3-169f-401e-8148-abe8e7488e50"></p>
 
 _Hide_ :<br>
-<img src="https://github.com/user-attachments/assets/3cb9867f-0d33-4a55-ac63-3f73e1e51a89"></p></details>
+<img src="https://github.com/user-attachments/assets/87504166-6e7e-409b-a2ec-8f2f04dcef51"></p></details>
 
 <details><summary>Gamepage/library buttons svg color (Play/Install) :</summary><br>    
 
 _White_ :<br>
-<img src="https://github.com/user-attachments/assets/5ede2219-2093-4731-a973-fa0c4d60f54b"></p>
+<img src="https://github.com/user-attachments/assets/e5c25c9f-222a-49d7-8fa2-ab2dbea13dfc"></p>
 
 _Same as the outline_ :<br>
-<img src="https://github.com/user-attachments/assets/55bbcb59-5478-44f4-8dc0-4c1906587af4"></p></details>
+<img src="https://github.com/user-attachments/assets/58437118-2dde-4187-9cf4-a869b14b1a02"></p></details>
 
 <details><summary>Header (compact mod) :</summary><br>      
 
 _Default_ :<br>
-<img src="https://github.com/user-attachments/assets/c4d4faa4-5a76-4953-8cec-84cb1f19b04b"></p>
+<img src="https://github.com/user-attachments/assets/c56e74ef-fdba-46b5-b814-e3f94e635955"></p>
 
 _No header_ :<br>
-<img src="https://github.com/user-attachments/assets/03e1affb-5ada-4544-a5fc-54cb3ec38859"></p></details>
+<img src="https://github.com/user-attachments/assets/32541c32-f17b-4f35-a9b7-43eaaf6399c1"></p></details>
 
 <details><summary>Inverted gamepage (know bugs) :</summary><br>  
 
 _Inverted_ :<br>
-<img src="https://github.com/user-attachments/assets/0ac0b4f9-90c7-4763-882a-efc419c6d6a6"></p></details>
+<img src="https://github.com/user-attachments/assets/f5f9493e-556a-40ce-966e-6c2d48174454"></p></details>
 
 <hr>
 
