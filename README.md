@@ -275,71 +275,71 @@ _No label_ :<br>
 <details><summary>Alternative hover effect :</summary><br> 
 
 _Default_ :<br> 
-<img src="https://github.com/user-attachments/assets/5a81d9b2-f9af-4a50-aa10-ac3340893783"></p>
+<img src="https://github.com/user-attachments/assets/b6b3dbee-d243-4302-aae1-5ab3ef13d62c"></p>
 
 _User color gradient_ :<br> 
-<img src="https://github.com/user-attachments/assets/b46cf81b-a906-4d1a-a662-b819955c21f1"></p></details>
+<img src="https://github.com/user-attachments/assets/d5706fd0-06e1-492b-a80f-7faca76b741a"></p></details>
 
 <details><summary>Alternative ingame friends indicator :</summary><br> 
 
 _Minimal Dark default (vertical bar)_ :<br> 
-<img src="https://github.com/user-attachments/assets/75a1b1ca-c4c3-4a59-ba52-f56bebb9d0ae"></p>
+<img src="https://github.com/user-attachments/assets/c281bcbb-7e51-48a7-85a7-6e127e9d1e47"></p>
 
 _Minimal Dark alternative (vertical bar)_ :<br> 
-<img src="https://github.com/user-attachments/assets/c9f82528-d5ee-4566-aab7-f55331e8a2fd"></p>
+<img src="https://github.com/user-attachments/assets/0ea0cae5-542a-44ed-a56f-1646398313a8"></p>
 
 _Minimal Dark alternative (horizontal bar)_ :<br> 
-<img src="https://github.com/user-attachments/assets/6b854094-950d-41aa-83a4-c6c1d76ffd7d"></p>
+<img src="https://github.com/user-attachments/assets/50159ffc-ce2d-4e8a-89b4-285be616499e"></p>
 
 _Dot (round)_ :<br> 
-<img src="https://github.com/user-attachments/assets/e309a63e-3971-477e-9c96-95362a15bb83"></p>
+<img src="https://github.com/user-attachments/assets/3e581a2a-af49-42e0-88fe-0ca151c10b66"></p>
 
 _Small dot (round)_ :<br> 
-<img src="https://github.com/user-attachments/assets/158f9f4b-a9c9-42b5-95d6-91466213aa82"></p>
+<img src="https://github.com/user-attachments/assets/ab7960da-1766-4625-bc7a-e23c4b9f58ed"></p>
 
 _Dot (square)_ :<br> 
-<img src="https://github.com/user-attachments/assets/09c8e988-61dd-4696-bf7c-70835ee55547"></p>
+<img src="https://github.com/user-attachments/assets/42176c06-6dac-4c9a-a10b-64e099ad1bda"></p>
 
 _Small dot (square)_ :<br> 
-<img src="https://github.com/user-attachments/assets/e7768950-0c49-4d46-ad18-20ba645702ac"></p></details>
+<img src="https://github.com/user-attachments/assets/d258e195-54a4-44a3-a057-d7ea47ae8b3c"></p></details>
 
 <details><summary>Bolder names :</summary><br> 
 
 _no_ :<br> 
-<img src="https://github.com/user-attachments/assets/d490b9a9-d12b-46fc-bf3d-7e5e3db1adc7"></p>
+<img src="https://github.com/user-attachments/assets/d9f4564e-07e0-4833-b33a-3b75c624841f"></p>
 
 _yes_ :<br> 
-<img src="https://github.com/user-attachments/assets/0056e48b-28a6-4191-8130-888b1f93bfe6"></p></details>
+<img src="https://github.com/user-attachments/assets/011d6ad2-9c14-41aa-81e9-b2e44db7c335"></p></details>
 
 <details><summary>Installed/selected games color :</summary><br> 
 
 _Minimal default (beige names / user color selected)_ :<br> 
-<img src="https://github.com/user-attachments/assets/cffff685-a638-4d42-ac3e-8f4cd78a8e56"></p>
+<img src="https://github.com/user-attachments/assets/a97263d2-41d5-4616-aa9c-4cb66d6d49fe"></p>
 
 _Minimal alternative (white names / user color selected)_ :<br> 
-<img src="https://github.com/user-attachments/assets/fd24c53b-4566-41ad-b74f-ccc0f6236229"></p>
+<img src="https://github.com/user-attachments/assets/ed302f55-9c73-4a3f-befa-0dfc6e2edf07"></p>
 
 _White (white names / white selected)_ :<br> 
-<img src="https://github.com/user-attachments/assets/1c67ceda-112d-430f-bee3-9a82793ae270"></p></details>
+<img src="https://github.com/user-attachments/assets/2669e225-452e-426a-9c81-8f992d3a0785"></p></details>
 
 <details><summary>No left image :</summary><br> 
 
 _no_ :<br> 
-<img src="https://github.com/user-attachments/assets/58eea5d8-83d4-4b1d-982b-2d1afb1f0390"></p>
+<img src="https://github.com/user-attachments/assets/8681a838-771f-4ab5-93f6-fa6e0d4f82c2"></p>
 
 _yes_ :<br> 
-<img src="https://github.com/user-attachments/assets/835c5887-769b-4d39-9103-d620124c5c62"></p></details>
+<img src="https://github.com/user-attachments/assets/c8e64082-00b1-4ad3-bb22-4eeedc8ff3a8"></p></details>
 
 <details><summary>Uninstalled selected games color :</summary><br>  
 
 _Minimal default (red)_ :<br> 
-<img src="https://github.com/user-attachments/assets/c63b4b9d-3c25-4847-84fe-49e9a56c07a1"></p>
+<img src="https://github.com/user-attachments/assets/72c5f6b2-5503-462e-a5d7-dbd1124ccec5"></p>
 
 _White_ :<br> 
-<img src="https://github.com/user-attachments/assets/06f8eede-3219-4241-ac06-46e9cc269f3f"></p>
+<img src="https://github.com/user-attachments/assets/39d8a1d7-fcd9-47d2-a1f7-5a439eee2e9e"></p>
 
 _User color_ :<br> 
-<img src="https://github.com/user-attachments/assets/f273cdcb-9539-4d83-a27f-83d17b8452ac"></p></details>
+<img src="https://github.com/user-attachments/assets/e1db6985-a973-4f21-980d-0394c3f5652b"></p></details>
 
 <hr>
 
@@ -348,58 +348,58 @@ _User color_ :<br>
 <details><summary>Alternative contacts icon :</summary><br> 
 
 _Default_ :<br> 
-<img src="https://github.com/user-attachments/assets/a22139f9-d25f-45b8-94d6-30eed51aa44c"></p>
+<img src="https://github.com/user-attachments/assets/a98dd4f5-4ec0-4caa-80a5-0d577e384c3d"></p>
 
 _Alternative_ :<br> 
-<img src="https://github.com/user-attachments/assets/29bb59f1-b289-4a4b-b6bc-701117682892"></p></details>
+<img src="https://github.com/user-attachments/assets/c195d68a-107e-48f3-bdd3-77e7a57c6fcb"></p></details>
 
 <details><summary>Alternative downloads UI :</summary><br> 
 
 _Default_ :<br> 
-<img src="https://github.com/user-attachments/assets/97ffd664-14ba-49c7-9424-12ea20c66f12"></p>
+<img src="https://github.com/user-attachments/assets/cdf6a216-25b3-4602-bdaf-69d85e58a822"></p>
 
 _New UI_ :<br> 
-<img src="https://github.com/user-attachments/assets/1f9fb9b6-3c54-47a9-bd86-31b394defe88"></p></details>
+<img src="https://github.com/user-attachments/assets/be09aad6-fad9-4639-a13e-731915ae0987"></p></details>
 
 <details><summary>Root menu Steam text :</summary><br>
 
 _Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/92406dc9-864d-4805-a7cc-f3f2572cb27e"></p></details>
+<img src="https://github.com/user-attachments/assets/617c121e-1c45-4e16-a796-ccdfcde72a0e"></p></details>
 
 <details><summary>Tabs text transform :</summary><br> 
 
 _yes_ :<br> 
-<img src="https://github.com/user-attachments/assets/93094afc-252d-4e99-8d17-2b772a9abd26"></p>
+<img src="https://github.com/user-attachments/assets/47917977-acf6-4f21-8c4e-fe3031d0d7b0"></p>
 
 _no_ :<br> 
-<img src="https://github.com/user-attachments/assets/605738fb-5958-47b4-bfa5-2e4592893f49"></p></details>
+<img src="https://github.com/user-attachments/assets/1963bb50-2e4d-425d-89dc-9a08c2a0d991"></p></details>
 
 <details><summary>Topbar icons menu hover effect :</summary><br> 
 
 _Fill_ :<br> 
-<img src="https://github.com/user-attachments/assets/75037175-16a8-431e-a9ee-36d4880f05ca"></p>
+<img src="https://github.com/user-attachments/assets/256a9ddc-37e4-4c86-9131-5ef1cc4b37cf"></p>
 
 _Outline_ :<br> 
-<img src="https://github.com/user-attachments/assets/0d0d483d-dc60-413a-9e46-1b2d890fc31e"></p></details>
+<img src="https://github.com/user-attachments/assets/b058e074-9c7c-4f95-830f-0ff757b70ee1"></p></details>
 
 <details><summary>Topbar Store tabs left icon (currency icon) :</summary><br> 
 
 _Euro_ :<br> 
-<img src="https://github.com/user-attachments/assets/ad3a4a54-b56c-4adb-8af3-bc9f5e77d3be"></p>
+<img src="https://github.com/user-attachments/assets/7589efdb-c835-4bc6-b6f1-3a98acc6704f"></p>
 
 _Dollar_ :<br> 
-<img src="https://github.com/user-attachments/assets/7391163a-ffa2-41c7-924b-1081826f7355"></p>
+<img src="https://github.com/user-attachments/assets/457a1d9a-83c9-4226-9cf8-b58857fe05d4"></p>
 
 _Pound sterling_ :<br> 
-<img src="https://github.com/user-attachments/assets/8aa89d1c-4b71-4d24-bba9-2c006b85d922"></p></details>
+<img src="https://github.com/user-attachments/assets/4e466388-6526-4e8e-b855-6c42e98d3a05"></p></details>
 
 <details><summary>Topbar tabs left icons (hover effect included) :</summary><br> 
 
 _no icons_ :<br> 
-<img src="https://github.com/user-attachments/assets/34da1e3e-8edf-49e2-8b27-6176e601c821"></p>
+<img src="https://github.com/user-attachments/assets/a96f73ff-6bef-46d5-aec1-d01f5b92872e"></p>
 
 _with icons_ :<br> 
-<img src="https://github.com/user-attachments/assets/3d5d3419-6854-404c-90a3-755c7a0b69f5"></p></details>
+<img src="https://github.com/user-attachments/assets/7de7b11b-dbea-46fa-a501-63b07e79faa3"></p></details>
 
 <hr>
 
