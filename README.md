@@ -281,8 +281,11 @@ _no_ :<br>
 
 <details><summary>Bigger buttons :</summary><br>  
 
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/c5b88964-ebd1-4422-ac47-7e52b6afbf6d"></p>
+
 _yes_ :<br> 
-<img src="https://github.com/user-attachments/assets/93c21eaa-a2a3-4128-8460-082dc48c7458"></p></details>
+<img src="https://github.com/user-attachments/assets/9689347c-2299-4478-b10c-225e27d21969"></p></details>
 
 <hr>
 
