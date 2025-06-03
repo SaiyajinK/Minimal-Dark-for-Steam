@@ -452,7 +452,7 @@ _Default_ :<br>
 <img src="https://github.com/user-attachments/assets/ee037e5f-d307-4838-bc8c-a02e090fe573"></p>
 
 _Roboto_ :<br> 
-<img src="!https://github.com/user-attachments/assets/9ff596e6-80bf-40ef-bbf2-08cc5a5ee0f1"></p>
+<img src="https://github.com/user-attachments/assets/9ff596e6-80bf-40ef-bbf2-08cc5a5ee0f1"></p>
 
 _Monaco_ :<br> 
 <img src="https://github.com/user-attachments/assets/4ed531d7-3c0e-484d-9d8c-6daa6ee01ed9"></p>
