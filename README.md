@@ -122,63 +122,62 @@ _Inverted_ :<br>
 <details><summary>Alternative topbar color :</summary><br>  
 
 _Minimal Dark default_ :<br>
-<img src="https://github.com/user-attachments/assets/35b4853f-a429-4bd9-b50b-55efed1dc013"></p>
+<img src="https://github.com/user-attachments/assets/f61ad121-bb0e-45dd-99d0-e18ecc6c2500"></p>
 
 _Grey_ :<br> 
-<img src="https://github.com/user-attachments/assets/5a5dfcbc-d8bb-4ab7-9af3-3f36c3ba1875"></p>
+<img src="https://github.com/user-attachments/assets/07158fed-ca91-4207-b4cc-a22f4af29c68"></p>
 
 _Grey with dark buttons_ :<br>
-<img src="https://github.com/user-attachments/assets/00ca3739-b8ad-4e5b-adbb-d1168df96af2"></p></details>
-
+<img src="https://github.com/user-attachments/assets/feccd1d6-ba14-44f8-95ca-34c579b3952e"></p></details>
 
 <details><summary>Avatar frame :</summary><br>  
 
 _Show_ :<br>
-<img src="https://github.com/user-attachments/assets/ddcf71c8-0027-4b20-98cd-72effd854d4e"></p>
+<img src="https://github.com/user-attachments/assets/ec49e285-bb80-4bd3-9e24-fdcace1a17f8"></p>
 
 _Hide_ :<br>
-<img src="https://github.com/user-attachments/assets/f53eafb8-3b64-4157-b64f-353daf0e357c"></p></details>
+<img src="https://github.com/user-attachments/assets/9ff0f363-df70-43fc-8956-1ea7db4afbc1"></p></details>
 
 <details><summary>Corners radius :</summary><br>  
 
 _0px_ :<br>
-<img src="https://github.com/user-attachments/assets/dd1caf02-1c33-457e-854b-b839f2f2cf4c"></p>
+<img src="https://github.com/user-attachments/assets/d467d76e-1657-4fac-a5ec-80ed2acb8d0a"></p>
 
 _5px_ :<br>
-<img src="https://github.com/user-attachments/assets/01124983-e2d3-45f3-bc0e-4eaf1255f668"></p>
+<img src="https://github.com/user-attachments/assets/efbfcb51-3be3-4afe-a240-844058476d7c"></p>
 
 _10px_ :<br>
-<img src="https://github.com/user-attachments/assets/e6431ce4-7fec-44d1-8715-872d75f7375a"></p></details>
+<img src="https://github.com/user-attachments/assets/41ad8e69-3243-406d-a2f3-5aa78ee0c494"></p></details>
 
 <details><summary>Hover borders on library and webkit blocks :</summary><br> 
 
 _Full borders_ :<br> 
-<img src="https://github.com/user-attachments/assets/8310d7bc-2f37-424a-8341-4fd04ac41767"></p>
+<img src="https://github.com/user-attachments/assets/9848f752-5a3c-4721-a5d7-b6eee2c9e786"></p>
 
 _Bottom only_ :<br> 
-<img src="https://github.com/user-attachments/assets/998e5abe-aeef-4899-ae52-bd8ad9accac7"></p></details>
+<img src="https://github.com/user-attachments/assets/1021ecac-9b0f-4df4-998d-5fd7dc3eacba"></p></details>
 
 <details><summary>Steam news button :</summary><br> 
 
 _Show_ :<br>
-<img src="https://github.com/user-attachments/assets/f10bd29c-cc51-4687-a884-46ff6e9d0787"></p>
+<img src="https://github.com/user-attachments/assets/c48abb6f-89ac-4106-8b4a-dfa6f22ad941"></p>
 
 _Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/2b5bfda8-902a-47b1-babf-18c97df9075a"></p></details>
+<img src="https://github.com/user-attachments/assets/8ee42608-09f1-4e20-8264-c41f06503a84"></p></details>
 
 <details><summary>Title area buttons :</summary><br> 
 
 _Minimal Dark default_ :<br>
-<img src="https://github.com/user-attachments/assets/dc868bee-58d0-444d-89a8-9398b0a58efa"></p>
+<img src="https://github.com/user-attachments/assets/22c4f6ca-71f2-4650-9784-bd93fc31a399"></p>
 
 _Enlarged (w11 users)_ :<br> 
-<img src="https://github.com/user-attachments/assets/05b0ba03-7696-4b64-aad2-3a6537ac39d7"></p>
+<img src="https://github.com/user-attachments/assets/4ac00c32-f749-46a9-9a99-46f8eec181be"></p>
 
 _Enlarged (w10 users)_ :<br> 
-<img src="https://github.com/user-attachments/assets/7a30eaa8-2028-48eb-afcc-eaa00f5d74d6"></p></details>
+<img src="https://github.com/user-attachments/assets/ee8f188c-9f7d-4dfc-89fe-b7369a958b64"></p></details>
 
 <details><summary>Vanilla topbar style :</summary><br>
-<img src="https://github.com/user-attachments/assets/728cd26b-581a-4323-b076-04f50478310c"></p></details>
+<img src="https://github.com/user-attachments/assets/b787d868-bbca-4955-9a02-2d275d92b068"></p></details>
 
 <hr>
 
@@ -187,63 +186,63 @@ _Enlarged (w10 users)_ :<br>
 <details><summary>Alternative library navigation button :</summary><br>  
 
 _Default_ :<br>
-<img src="https://github.com/user-attachments/assets/14a64957-ad19-46ae-8280-c734e99d1c25"></p>
+<img src="https://github.com/user-attachments/assets/2c42f955-ae3b-4097-92e5-4af560809e50"></p>
 
 _Alternative_ :<br>  
-<img src="https://github.com/user-attachments/assets/6fb52106-262f-4a86-a5db-a1b7a23a3a2e"></p></details>
+<img src="https://github.com/user-attachments/assets/72597203-d36d-44be-86ce-99000d17db19"></p></details>
 
 <details><summary>Compact library :</summary><br>  
 
 _no_ :<br>
-<img src="https://github.com/user-attachments/assets/82ada2d6-9676-4df0-82dd-407da48c51f1"></p>
+<img src=""></p>
 
 _yes_ :<br>  
-<img src="https://github.com/user-attachments/assets/dcdb2071-9d67-4d70-baad-0123f96b4301"></p></details>
+<img src=""></p></details>
 
 <details><summary>Compact mod :</summary><br>  
 
 _Default_ :<br> 
-<img src="https://github.com/user-attachments/assets/84d06891-a0bd-4b45-8d9f-a809baddbb11"></p>
+<img src=""></p>
 
 _Compact (filter only)_ :<br> 
-<img src="https://github.com/user-attachments/assets/9995f519-dcd3-4003-af3a-5d98f9339b02"></p>
+<img src=""></p>
 
 _Ultra compact (filter & search)_ :<br> 
-<img src="https://github.com/user-attachments/assets/1884d9b7-f560-472f-b983-458a3de66848"></p></details>
+<img src=""></p></details>
 
 <details><summary>Compact news container :</summary><br>  
 
 _no_ :<br> 
-<img src="https://github.com/user-attachments/assets/22d8aa95-bbd4-41b9-9a12-313b516ceef7"></p>
+<img src=""></p>
 
 _yes_ :<br> 
-<img src="https://github.com/user-attachments/assets/f345ae72-0ac8-4575-9bcd-9505caffd4d1"></p></details>
+<img src=""></p></details>
 
 <details><summary>Library labels :</summary><br>  
 
 _show_ :<br> 
-<img src="https://github.com/user-attachments/assets/bd9578a8-96a4-488e-9788-19336d6c38c6"></p>
+<img src=""></p>
 
 _hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/82df1d83-96e7-4989-986c-dcdce9e476a9"></p></details>
+<img src=""></p></details>
 
 <details><summary>Library games hover glow color :</summary><br> 
 
 _Default_ :<br> 
-<img src="https://github.com/user-attachments/assets/32149aad-4538-4a07-9313-9140532337a3"></p>
+<img src=""></p>
 
 _User color_ :<br> 
-<img src="https://github.com/user-attachments/assets/3326fb1a-a6dc-4047-b1a4-0c9d29599b92"></p></details>
+<img src=""></p></details>
 
 <details><summary>News container :</summary><br>   
 
 _Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/49b6f51b-16e1-48fd-b388-d9701673adf3"></p></details>
+<img src=""></p></details>
 
 <details><summary>Right Sidebar :</summary><br>   
 
 _Right (not recommanded)_ :<br> 
-<img src="https://github.com/user-attachments/assets/b54737eb-5d84-410b-9a6a-61e6681cd6f8"></p></details>
+<img src=""></p></details>
 
 <hr>
 
