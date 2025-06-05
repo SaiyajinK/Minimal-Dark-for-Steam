@@ -431,6 +431,20 @@
 			}
 		},	
 		
+		"Hours played": {
+		"tab": "Miniprofile options",
+		"description": "Hide the block of hours played on the miniprofiles.",
+		"default": "Show",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/no_hours_played_mp.css"
+					}
+				}
+			}
+		},	
+		
 		"No button labels in list mod": {
 		"tab": "Overlay options",
 		"description": "hide button names to only have the icon when the overlay is in list mode only",
@@ -970,7 +984,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.9.5",
+	"version": "3.9.6",
 
 	"github": {
 		"owner": "SaiyajinK",
