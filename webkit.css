@@ -3667,7 +3667,7 @@ img.game_header_image_full {
     background-image: none!important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    padding: 10px !important;
+    /* padding: 10px !important; */
 }
 
 .sysreq_tabs {
@@ -15088,6 +15088,16 @@ textarea.gLFyf, .YacQv {
 ._2q7nbQP9JNdtqFAxP5RHNZ ._3Cdh-BVkfxPJQNz_etZjUd._181cYsjHaaMo4th6NXPkPR {
     background-color: var(--minimal_dark_blacker) !important;
 	border: 1px solid var(--minimal_dark_color) !important;
+}
+
+.parentCollection {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.parentCollection:hover {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 /* end webkit */
