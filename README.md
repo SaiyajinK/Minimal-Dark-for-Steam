@@ -259,6 +259,14 @@ _Show_ :<br>
 _Hide_ :<br> 
 <img src="https://github.com/user-attachments/assets/e3fc01ce-fcd9-4dbf-adce-26d2b8d29721"></p></details>
 
+<details><summary>Hours played :</summary><br>
+
+_Show_ :<br> 
+<img src="https://github.com/user-attachments/assets/2307ac66-db96-41d6-b602-cab135f8444c"></p>
+
+_Hide_ :<br> 
+<img src="https://github.com/user-attachments/assets/3dd489bc-317c-44dc-a895-1a2a84d1d23c"></p></details>
+
 <hr>
 
 ## Overlay options : 
