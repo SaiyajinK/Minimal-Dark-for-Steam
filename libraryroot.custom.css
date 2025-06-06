@@ -977,7 +977,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
 }
 
 ._7AlhCx3XGzBeIrQaCneUD {
-    font-size: 13px !important;
+    font-size: 13px;
     height: 30px !important;
     margin-top: 0px;
     border: unset !important;
@@ -990,6 +990,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
     border-top: 1px solid transparent;
     transition: .1s ease-out !important;
     white-space: nowrap !important;
+	 padding-right: 0px !important;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD:last-child {
@@ -997,7 +998,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
 }
 
 ._7AlhCx3XGzBeIrQaCneUD:hover {
-    font-size: 13px !important;
+    font-size: 13px;
     font-weight: 400 !important;
     height: inherit;
     text-transform: none;
@@ -1025,10 +1026,6 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
     transition: .25s ease-out !important;
     margin-top: 3px;
     padding-right: 10px !important;
-}
-
-._7AlhCx3XGzBeIrQaCneUD {
-    padding-right: 0px !important;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD:active:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
