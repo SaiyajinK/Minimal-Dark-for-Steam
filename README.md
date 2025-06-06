@@ -11,11 +11,11 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 59 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 60 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
-## Account options : 
+## Account options (3) : 
 
 <details><summary>Account wallet :</summary><br>  
 
@@ -43,7 +43,7 @@ _Compact_ :<br>
 
 <hr>
 
-## Friends options : 
+## Friends options (4) : 
 
 <details><summary>Animated hovering :</summary><br>  
 
@@ -76,7 +76,7 @@ _Top_ :<br>
 
 <hr>
 
-## Gamepage options : 
+## Gamepage options (5) : 
 
 <details><summary>Blurred background :</summary><br>  
 
@@ -117,7 +117,7 @@ _Inverted_ :<br>
 
 <hr>
 
-## Global options : 
+## Global options (7) : 
 
 <details><summary>Alternative topbar color :</summary><br>  
 
@@ -181,7 +181,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options : 
+## Library options (9) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -260,7 +260,7 @@ _Right (not recommanded)_ :<br>
 
 <hr>
 
-## Miniprofile options : 
+## Miniprofile options (2) : 
 
 <details><summary>Miniprofile background :</summary><br>
 
@@ -280,7 +280,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Overlay options : 
+## Overlay options (3) : 
 
 <details><summary>No button labels in list mod :</summary><br>  
 
@@ -308,7 +308,7 @@ _yes_ :<br>
 
 <hr>
 
-## Sidebar options : 
+## Sidebar options (7) : 
 
 <details><summary>Alternative hover effect :</summary><br> 
 
@@ -389,7 +389,7 @@ _User color_ :<br>
 
 <hr>
 
-## Topbar options : 
+## Topbar options (8) : 
 
 <details><summary>Alternative contacts icon :</summary><br> 
 
@@ -454,7 +454,7 @@ _yes_ :<br>
 
 <hr>
 
-## Various options : 
+## Various options (6) : 
 
 <details><summary>Alternative root menu icon :</summary><br>  
 
@@ -527,7 +527,7 @@ _Static_ :<br>
 
 <hr>
 
-## Webkit options : 
+## Webkit options (6) : 
 
 <details><summary>Compact Webkit :</summary><br>  
 
