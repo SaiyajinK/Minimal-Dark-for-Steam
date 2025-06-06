@@ -11623,6 +11623,7 @@ body.v6.newonsteam .newonsteam_headercaps img {
 }
 
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+	padding-top: 1px !important;
     fill: var(--minimal_dark_color) !important;
 }
 
