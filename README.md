@@ -227,7 +227,7 @@ _Steam default_ :<br>
 <img src="https://github.com/user-attachments/assets/ea1d1251-fcfe-4477-a73f-3cb92780057b"></p>
 
 _Compact (small font)_ :<br> 
-<img src="https://github.com/user-attachments/assets/24ac50d5-39b8-4ef8-9d74-de5981ac30e6"></p>
+<img src="https://github.com/user-attachments/assets/3b8c7565-ce07-467a-b8df-0580768b862e"></p>
 
 _Compact (normal font)_ :<br> 
 <img src="https://github.com/user-attachments/assets/b2b8643a-b110-4b89-ac5a-afe741009cf8"></p></details>
