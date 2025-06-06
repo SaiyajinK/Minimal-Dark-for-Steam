@@ -304,6 +304,29 @@
 			}
 		},
 		
+		"Alternative games names hover effect": {
+		"tab": "Library options",
+		"description": "Change the appearance of the game name hover in the What's New block.",
+		"default": "Default",
+		"values": {
+			"Default": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library/alternative_news_hover_effect_default.css"
+					}
+				},
+			"Alt #1": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library/alternative_news_hover_effect_alt1.css"
+					}
+				},
+			"Alt #2": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library/alternative_news_hover_effect_alt2.css"
+					}
+				}
+			}
+		},
+		
 		"Compact library": {
 		"tab": "Library options",
 		"description": "Make library display compact.",
@@ -758,6 +781,20 @@
 			}
 		},
 		
+		"Topbar tabs left icons, no text": {
+		"tab": "Topbar options",
+		"description": "Enable this option if you want to have just icons and no text.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_just_icons.css"
+					}
+				}
+			}
+		},
+		
 		"Alternative root menu icon": {
 		"tab": "Various options",
 		"description": "Change the root menu icon with a alternative icon",
@@ -984,7 +1021,7 @@
 	"author": "SaiyajinK",
 	"description": "Dark minimalist skin for Steam",
 	"name": "Minimal Dark",
-	"version": "3.9.6",
+	"version": "3.9.7",
 
 	"github": {
 		"owner": "SaiyajinK",
