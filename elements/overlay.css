@@ -495,6 +495,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+	padding-top: 1px !important;
     fill: var(--minimal_dark_color) !important;
 }
 
