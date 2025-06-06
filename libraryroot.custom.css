@@ -1925,6 +1925,11 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
 	transition: .25s ease-out !important;
 }
 
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
+    fill: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
 html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt {
     min-width: auto !important;
 }
