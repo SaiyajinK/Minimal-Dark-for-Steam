@@ -2296,6 +2296,11 @@ textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
     border-bottom-right-radius: var(--minimal_dark_corner) !important;
 }
 
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover svg.SVGIcon_Button.SVGIcon_PlusCircle .horizontalLine, .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover svg.SVGIcon_Button.SVGIcon_PlusCircle .verticalLine {
+    stroke: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
 .ModalDialogPopup .ModalDialogBody.friendsui-container .PopupFullWindow .TitleBar, .ModalDialogPopup .ModalDialogBody.DesktopUI .PopupFullWindow .TitleBar {
     height: 32px !important;
     padding: 2px !important;
