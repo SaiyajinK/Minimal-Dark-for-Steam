@@ -11,7 +11,7 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 57 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 58 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -190,6 +190,17 @@ _Default_ :<br>
 
 _Alternative_ :<br>  
 <img src="https://github.com/user-attachments/assets/72597203-d36d-44be-86ce-99000d17db19"></p></details>
+
+<details><summary>Alternative games names hover effect :</summary><br>
+
+_Default_ :<br>
+<img src="https://github.com/user-attachments/assets/351b4376-bc10-4d1d-b385-65e96850da56"></p>
+
+_Alt #1_ :<br>
+<img src="https://github.com/user-attachments/assets/0fd46aaa-fdb6-4882-a909-16abaac2008c"></p>
+
+_Alt #2_ :<br>  
+<img src="https://github.com/user-attachments/assets/6b52dbad-6fa2-4724-ba91-79fbf4e0d109"></p></details>
 
 <details><summary>Compact library :</summary><br>  
 
@@ -435,6 +446,11 @@ _no icons_ :<br>
 
 _with icons_ :<br> 
 <img src="https://github.com/user-attachments/assets/7de7b11b-dbea-46fa-a501-63b07e79faa3"></p></details>
+
+<details><summary>Topbar tabs left icons, no text :</summary><br> 
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/65b21042-df88-4220-9245-deb63cee881f"></p></details>
 
 <hr>
 
