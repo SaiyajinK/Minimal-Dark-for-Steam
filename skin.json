@@ -809,20 +809,6 @@
 			}
 		},
 		
-		"Animated menu hovering": {
-		"tab": "Various options",
-		"description": "Enable this option if you want to have an animation on menus hover.",
-		"default": "no",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/animated_menu_hovering.css"
-					}
-				}
-			}
-		},
-		
 		"Alternative root menu icon": {
 		"tab": "Various options",
 		"description": "Change the root menu icon with a alternative icon",
@@ -852,6 +838,20 @@
 			"Alternative squared icon (outline)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/root_menu_icon/alternative_squared_root_menu_icon_outline.css"
+					}
+				}
+			}
+		},
+
+		"Animated menu hovering": {
+		"tab": "Various options",
+		"description": "Enable this option if you want to have an animation on menus hover.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/animated_menu_hovering.css"
 					}
 				}
 			}
