@@ -181,7 +181,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options (9) : 
+## Library options (10) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -462,7 +462,8 @@ _yes_ :<br>
 
 <hr>
 
-## Various options (6) : 
+## Various options (7) : 
+
 
 <details><summary>Alternative root menu icon :</summary><br>  
 
@@ -477,6 +478,14 @@ _Minimal Dark rounded icon_ :<br>
 
 _Minimal Dark squared icon_ :<br> 
 <img src="https://github.com/user-attachments/assets/555a0dc8-859c-44c9-8ba9-c561026ecec0"></p></details>
+
+<details><summary>Animated menu hovering :</summary><br>  
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/3b7262f1-7b76-477c-8e2b-cc02c94dc86a"></p>
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/3dd209d1-b164-47d3-8705-85cdede210e5"></p></details>
 
 <details><summary>Change UI font :</summary><br>  
 
