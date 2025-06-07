@@ -327,10 +327,24 @@
 			}
 		},
 		
+		"Compact collections": {
+		"tab": "Library options",
+		"description": "Make collections display compact.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/compact_collections.css"
+					}
+				}
+			}
+		},
+		
 		"Compact library": {
 		"tab": "Library options",
 		"description": "Make library display compact.",
-		"default": "no",
+		"default": "yes",
 		"values": {
 			"no": {},
 			"yes": {
@@ -795,6 +809,20 @@
 			}
 		},
 		
+		"Animated menu hovering": {
+		"tab": "Various options",
+		"description": "Enable this option if you want to have an animation on menus hover.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/animated_menu_hovering.css"
+					}
+				}
+			}
+		},
+		
 		"Alternative root menu icon": {
 		"tab": "Various options",
 		"description": "Change the root menu icon with a alternative icon",
@@ -1021,7 +1049,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "3.9.8",
+	"version": "4.0.0",
 
 	"github": {
 		"owner": "SaiyajinK",
