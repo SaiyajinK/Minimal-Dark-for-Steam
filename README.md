@@ -11,7 +11,7 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 60 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 62 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -201,6 +201,14 @@ _Alt #1_ :<br>
 
 _Alt #2_ :<br>  
 <img src="https://github.com/user-attachments/assets/6b52dbad-6fa2-4724-ba91-79fbf4e0d109"></p></details>
+
+<details><summary>Compact collections :</summary><br>  
+
+_no_ :<br>
+<img src="https://github.com/user-attachments/assets/264ac512-0a8c-416f-abca-8c0604808fd0"></p>
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/fbb83223-3751-4365-9aad-37aa15aa6275"></p></details>
 
 <details><summary>Compact library :</summary><br>  
 
