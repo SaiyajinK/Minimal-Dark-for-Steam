@@ -382,12 +382,12 @@
 			"Steam default": {},
 			"Compact (small font)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/compact_news_alt.css"
+			"affects": [".*"], "src": "elements/options/compact_news_alt.css"
 					}
 				},
 			"Compact (normal font)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/compact_news.css"
+			"affects": [".*"], "src": "elements/options/compact_news.css"
 					}
 				}
 			}
@@ -952,6 +952,20 @@
 			}
 		},
 		
+		"Windows 10 fix for root menu corner": {
+		"tab": "Various options",
+		"description": "Fix the top left corner for Windows 10 users",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/w10_root_fix.css"
+					}
+				}
+			}
+		},
+		
 		"Compact Webkit": {
 		"tab": "Webkit options",
 		"description": "Hide the left sidebar on the webkit homepage.",
@@ -1049,7 +1063,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.0.0",
+	"version": "4.0.1",
 
 	"github": {
 		"owner": "SaiyajinK",
