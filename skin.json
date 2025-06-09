@@ -2,7 +2,7 @@
 
     "Conditions": {
 		"Account wallet": {
-		"tab": "Account options",
+		"tab": "Account options (3)",
 		"description": "Hide or show wallet balance next to username.",
 		"default": "Hide",
 		"values": {
@@ -16,7 +16,7 @@
 		},
 		
 		"Bigger notification button": {
-		"tab": "Account options",
+		"tab": "Account options (3)",
 		"description": "Make the notification icon bigger.",
 		"default": "no",
 		"values": {
@@ -30,7 +30,7 @@
 		},
 		
 		"Compact avatar": {
-		"tab": "Account options",
+		"tab": "Account options (3)",
 		"description": "Make the avatar block compact.",
 		"default": "Compact",
 		"values": {
@@ -44,7 +44,7 @@
 		},
 		
 		"Animated hovering": {
-		"tab": "Friends options",
+		"tab": "Friends options (4)",
 		"description": "Trigger an animation when hovering over contacts in the friends list.",
 		"default": "yes",
 		"values": {
@@ -58,7 +58,7 @@
 		},
 		
 		"Font size": {
-		"tab": "Friends options",
+		"tab": "Friends options (4)",
 		"description": "Change the size of the font of the friends list (not applied on compact mod).",
 		"default": "Default",
 		"values": {
@@ -72,7 +72,7 @@
 		},
 		
 		"Offline friends": {
-		"tab": "Friends options",
+		"tab": "Friends options (4)",
 		"description": "Hide offline friends in friends list (they can be found using search).",
 		"default": "Show",
 		"values": {
@@ -86,7 +86,7 @@
 		},
 		
 		"Group chats position": {
-		"tab": "Friends options",
+		"tab": "Friends options (4)",
 		"description": "Modify the position of the groups chats.",
 		"default": "Default (bottom)",
 		"values": {
@@ -104,7 +104,7 @@
 		},
 		
 		"Blurred background": {
-		"tab": "Gamepage options",
+		"tab": "Gamepage options (5)",
 		"description": "Blur the background of the game page (not recommanded with gamepage compact mod)",
 		"default": "Full dark (default)",
 		"values": {
@@ -118,7 +118,7 @@
 		},
 		
 		"Community content": {
-		"tab": "Gamepage options",
+		"tab": "Gamepage options (5)",
 		"description": "Hide or show the community content in gamepage (can improve performance if you have a bad pc).",
 		"default": "Show",
 		"values": {
@@ -132,7 +132,7 @@
 		},
 				
 		"Gamepage/library buttons svg color (Play/Install)": {
-		"tab": "Gamepage options",
+		"tab": "Gamepage options (5)",
 		"description": "Set the svg color of the library buttons.",
 		"default": "White",
 		"values": {
@@ -146,7 +146,7 @@
 		},
 		
 		"Header (compact mod)": {
-		"tab": "Gamepage options",
+		"tab": "Gamepage options (5)",
 		"description": "Hide or show the header image at the top of the game page to save more space.",
 		"default": "Default",
 		"values": {
@@ -160,7 +160,7 @@
 		},
 		
 		"Inverted gamepage (known bugs)": {
-		"tab": "Gamepage options",
+		"tab": "Gamepage options (5)",
 		"description": "Invert gamepage blocks (community content option set to 'Show' not work with this option).",
 		"default": "Default",
 		"values": {
@@ -174,7 +174,7 @@
 		},
 		
 		"Alternative topbar color": {
-		"tab": "Global options",
+		"tab": "Global options (7)",
 		"description": "Make the topbar color less blacker",
 		"default": "Grey with dark buttons",
 		"values": {
@@ -193,7 +193,7 @@
 		},		
 		
 		"Avatar frame": {
-		"tab": "Global options",
+		"tab": "Global options (7)",
 		"description": "Hide or show avatar frame on all avatars.",
 		"default": "Hide",
 		"values": {
@@ -211,7 +211,7 @@
 		},
 		
 		"Corners radius": {
-		"tab": "Global options",
+		"tab": "Global options (7)",
 		"description": "Sets the strength of corner rounding.",
 		"default": "Square (0px | default)",
 		"values": {
@@ -230,7 +230,7 @@
 		},
 		
 		"Hover borders on library and webkit blocks": {
-		"tab": "Global options",
+		"tab": "Global options (7)",
 		"description": "Make the hover borders of library/webkit items full and no longer just on the bottom.",
 		"default": "Full borders",
 		"values": {
@@ -244,7 +244,7 @@
 		},
 		
 		"Steam news button": {
-		"tab": "Global options",
+		"tab": "Global options (7)",
 		"description": "Hide or show Steam news button in top bar.",
 		"default": "Hide",
 		"values": {
@@ -258,7 +258,7 @@
 		},
 		
 		"Title area buttons": {
-		"tab": "Global options",
+		"tab": "Global options (7)",
 		"description": "Make the title bar buttons bigger (close/maximize/minimize buttons).",
 		"default": "Enlarged (w11 users)",
 		"values": {
@@ -277,7 +277,7 @@
 		},
 		
 		"Vanilla topbar style": {
-		"tab": "Global options",
+		"tab": "Global options (7)",
 		"description": "Set the topbar in the vanilla style of steam skin.",
 		"default": "Default",
 		"values": {
@@ -291,7 +291,7 @@
 		},
 		
 		"Alternative library navigation button": {
-		"tab": "Library options",
+		"tab": "Library options (10)",
 		"description": "Changes the appearance of the navigation arrows on the library shelves.",
 		"default": "Alternative",
 		"values": {
@@ -305,7 +305,7 @@
 		},
 		
 		"Alternative games names hover effect": {
-		"tab": "Library options",
+		"tab": "Library options (10)",
 		"description": "Change the appearance of the game name hover in the What's New block.",
 		"default": "Default",
 		"values": {
@@ -328,7 +328,7 @@
 		},
 		
 		"Compact collections": {
-		"tab": "Library options",
+		"tab": "Library options (10)",
 		"description": "Make collections display compact.",
 		"default": "yes",
 		"values": {
@@ -342,7 +342,7 @@
 		},
 		
 		"Compact library": {
-		"tab": "Library options",
+		"tab": "Library options (10)",
 		"description": "Make library display compact.",
 		"default": "yes",
 		"values": {
@@ -356,7 +356,7 @@
 		},
 		
 		"Compact mod": {
-		"tab": "Library options",
+		"tab": "Library options (10)",
 		"description": "Removes the filter & search from the sidebar to save even more space.",
 		"default": "Default",
 		"values": {
@@ -375,7 +375,7 @@
 		},
 		
 		"Compact news container": {
-		"tab": "Library options",
+		"tab": "Library options (10)",
 		"description": "Make the news container compact.",
 		"default": "Compact (small font)",
 		"values": {
@@ -394,7 +394,7 @@
 		},
 		
 		"Library labels": {
-		"tab": "Library options",
+		"tab": "Library options (10)",
 		"description": "Hide 'Today, Yesterday, Last Week' from library",
 		"default": "Show",
 		"values": {
@@ -413,7 +413,7 @@
 		},
 		
 		"Library games hover glow color": {
-		"tab": "Library options",
+		"tab": "Library options (10)",
 		"description": "Change the color of the glow when you hover over a game image in your library.",
 		"default": "Default",
 		"values": {
@@ -427,7 +427,7 @@
 		},
 		
 		"News container": {
-		"tab": "Library options",
+		"tab": "Library options (10)",
 		"description": "Hide or show 'What's New' block in the library.",
 		"default": "Show",
 		"values": {
@@ -441,7 +441,7 @@
 		},
 		
 		"Right Sidebar": {
-		"tab": "Library options",
+		"tab": "Library options (10)",
 		"description": "Place the left bar on the right of the Steam client (to enlarge the sidebar you will always have to slide to the right and not to the left).",
 		"default": "Default",
 		"values": {
@@ -455,7 +455,7 @@
 		},
 		
 		"Miniprofile background": {
-		"tab": "Miniprofile options",
+		"tab": "Miniprofile options (2)",
 		"description": "Show or hide image/video on background by default on mini profiles.",
 		"default": "Hide",
 		"values": {
@@ -469,7 +469,7 @@
 		},	
 		
 		"Hours played": {
-		"tab": "Miniprofile options",
+		"tab": "Miniprofile options (2)",
 		"description": "Hide the block of hours played on the miniprofiles.",
 		"default": "Show",
 		"values": {
@@ -483,7 +483,7 @@
 		},	
 		
 		"No button labels in list mod": {
-		"tab": "Overlay options",
+		"tab": "Overlay options (3)",
 		"description": "hide button names to only have the icon when the overlay is in list mode only",
 		"default": "yes",
 		"values": {
@@ -497,7 +497,7 @@
 		},
 		
 		"No button labels in normal mod": {
-		"tab": "Overlay options",
+		"tab": "Overlay options (3)",
 		"description": "hide button names to only have the icon when the overlay is in normal mode only",
 		"default": "no",
 		"values": {
@@ -511,7 +511,7 @@
 		},
 		
 		"Bigger buttons": {
-		"tab": "Overlay options",
+		"tab": "Overlay options (3)",
 		"description": "Make the overlay buttons bigger.",
 		"default": "no",
 		"values": {
@@ -525,7 +525,7 @@
 		},
 		
 		"Alternative hover effect": {
-		"tab": "Sidebar options",
+		"tab": "Sidebar options (7)",
 		"description": "Set user color gradient to the left on hover.",
 		"default": "Default",
 		"values": {
@@ -539,7 +539,7 @@
 		},
 		
 		"Alternative ingame friends indicator": {
-		"tab": "Sidebar options",
+		"tab": "Sidebar options (7)",
 		"description": "Changes the indicator of ingame friends.",
 		"default": "Minimal Dark default (vertical bar)",
 		"values": {
@@ -578,7 +578,7 @@
 		},
 		
 		"Bigger font size": {
-		"tab": "Sidebar options",
+		"tab": "Sidebar options (7)",
 		"description": "Make games names bigger.",
 		"default": "no",
 		"values": {
@@ -592,7 +592,7 @@
 		},
 		
 		"Bolder names": {
-		"tab": "Sidebar options",
+		"tab": "Sidebar options (7)",
 		"description": "Make the game names in the sidebar bolder.",
 		"default": "no",
 		"values": {
@@ -606,7 +606,7 @@
 		},
 		
 		"Installed/selected games color": {
-		"tab": "Sidebar options",
+		"tab": "Sidebar options (7)",
 		"description": "Changes the color of installed/selected games.",
 		"default": "Minimal default (beige names / user color selected)",
 		"values": {
@@ -625,7 +625,7 @@
 		},
 		
 		"No left images": {
-		"tab": "Sidebar options",
+		"tab": "Sidebar options (7)",
 		"description": "Hide game images to the left of the names in the left bar.",
 		"default": "no",
 		"values": {
@@ -639,7 +639,7 @@
 		},
 		
 		"Uninstalled selected games color": {
-		"tab": "Sidebar options",
+		"tab": "Sidebar options (7)",
 		"description": "Changes the color of selected uninstalled games.",
 		"default": "Minimal default (red)",
 		"values": {
@@ -658,7 +658,7 @@
 		},
 		
 		"Alternative contacts icon": {
-		"tab": "Topbar options",
+		"tab": "Topbar options (8)",
 		"description": "Use alternative icon for contacts bloc.",
 		"default": "Minimal (fill)",
 		"values": {
@@ -682,7 +682,7 @@
 		},
 		
 		"Alternative downloads UI": {
-		"tab": "Topbar options",
+		"tab": "Topbar options (8)",
 		"description": "change the appearance of the download block.",
 		"default": "New",
 		"values": {
@@ -696,7 +696,7 @@
 		},
 		
 		"Root menu Steam text": {
-		"tab": "Topbar options",
+		"tab": "Topbar options (8)",
 		"description": "Hide or show steam text in top left of the root menu.",
 		"default": "Show",
 		"values": {
@@ -710,7 +710,7 @@
 		},
 		
 		"Tabs text transform": {
-		"tab": "Topbar options",
+		"tab": "Topbar options (8)",
 		"description": "Set capitalize text to topbar tabs.",
 		"default": "no",
 		"values": {
@@ -724,7 +724,7 @@
 		},
 		
 		"Topbar icons menu hover effect": {
-		"tab": "Topbar options",
+		"tab": "Topbar options (8)",
 		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
 		"default": "Fill",
 		"values": {
@@ -738,7 +738,7 @@
 		},
 		
 		"Topbar Store tab left icon (currency icon)": {
-		"tab": "Topbar options",
+		"tab": "Topbar options (8)",
 		"description": "Changes the currency logo on the store icon.",
 		"default": "Fill icon (euro)",
 		"values": {
@@ -777,7 +777,7 @@
 		},
 		
 		"Topbar tabs left icons (hover effect included)": {
-		"tab": "Topbar options",
+		"tab": "Topbar options (8)",
 		"description": "Adds an icon to the left of the top bar tabs text.",
 		"default": "Icons active (fill + text)",
 		"values": {
@@ -796,7 +796,7 @@
 		},
 		
 		"Topbar tabs left icons, no text": {
-		"tab": "Topbar options",
+		"tab": "Topbar options (8)",
 		"description": "Enable this option if you want to have just icons and no text.",
 		"default": "no",
 		"values": {
@@ -810,7 +810,7 @@
 		},
 		
 		"Alternative root menu icon": {
-		"tab": "Various options",
+		"tab": "Various options (8)",
 		"description": "Change the root menu icon with a alternative icon",
 		"default": "Minimal Dark default icon",
 		"values": {
@@ -844,7 +844,7 @@
 		},
 
 		"Animated menu hovering": {
-		"tab": "Various options",
+		"tab": "Various options (8)",
 		"description": "Enable this option if you want to have an animation on menus hover.",
 		"default": "no",
 		"values": {
@@ -858,7 +858,7 @@
 		},
 		
 		"Change UI font": {
-		"tab": "Various options",
+		"tab": "Various options (8)",
 		"description": "Change the font of the interface.",
 		"default": "Default",
 		"values": {
@@ -897,7 +897,7 @@
 		},
 		
 		"Context menus hover effect": {
-		"tab": "Various options",
+		"tab": "Various options (8)",
 		"description": "Added a border to the left of the block with the user-defined color on the context menus when hover.",
 		"default": "With hover effect",
 		"values": {
@@ -911,7 +911,7 @@
 		},
 		
 		"Default pointers": {
-		"tab": "Various options",
+		"tab": "Various options (8)",
 		"description": "Display or hide pointers by default on the entire skin.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -925,7 +925,7 @@
 		},
 
 		"Hide scrollbars": {
-		"tab": "Various options",
+		"tab": "Various options (8)",
 		"description": "Hide or show scrollbars on the entirety of the skin.",
 		"default": "Show",
 		"values": {
@@ -939,7 +939,7 @@
 		},
 
 		"Mouseover animation of settings menu tabs": {
-		"tab": "Various options",
+		"tab": "Various options (8)",
 		"description": "Enable or disable the category hover effect in settings section.",
 		"default": "Animated",
 		"values": {
@@ -953,7 +953,7 @@
 		},
 		
 		"Windows 10 fix for root menu corner": {
-		"tab": "Various options",
+		"tab": "Various options (8)",
 		"description": "Fix the top left corner for Windows 10 users",
 		"default": "no",
 		"values": {
@@ -967,7 +967,7 @@
 		},
 		
 		"Compact Webkit": {
-		"tab": "Webkit options",
+		"tab": "Webkit options (6)",
 		"description": "Hide the left sidebar on the webkit homepage.",
 		"default": "Hide",
 		"values": {
@@ -981,7 +981,7 @@
 		},
 		
 		"Hide footers": {
-		"tab": "Webkit options",
+		"tab": "Webkit options (6)",
 		"description": "Hide Steam information on webkit footers.",
 		"default": "Hide",
 		"values": {
@@ -995,7 +995,7 @@
 		},
 		
 		"Events header": {
-		"tab": "Webkit options",
+		"tab": "Webkit options (6)",
 		"description": "Show or remove the events wallpaper on the webkit homepage.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -1009,7 +1009,7 @@
 		},
 		
 		"Profiles": {
-		"tab": "Webkit options",
+		"tab": "Webkit options (6)",
 		"description": "Enabling this option makes the profile page blocks full and removes the blur effect.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -1023,7 +1023,7 @@
 		},
 		
 		"Profiles headers": {
-		"tab": "Webkit options",
+		"tab": "Webkit options (6)",
 		"description": "If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view).",
 		"default": "no",
 		"values": {
@@ -1037,7 +1037,7 @@
 		},
 		
 		"URL bar": {
-		"tab": "Webkit options",
+		"tab": "Webkit options (6)",
 		"description": "This option allows you to permanently hide the URL bar or display it only on hover.",
 		"default": "Visible",
 		"values": {
