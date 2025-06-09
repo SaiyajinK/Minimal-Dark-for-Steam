@@ -11,7 +11,7 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 62 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 63 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -462,7 +462,7 @@ _yes_ :<br>
 
 <hr>
 
-## Various options (7) : 
+## Various options (8) : 
 
 
 <details><summary>Alternative root menu icon :</summary><br>  
@@ -541,6 +541,14 @@ _Animated_ :<br>
 
 _Static_ :<br> 
 <img src="https://github.com/user-attachments/assets/32d26a60-92eb-42e2-a20c-efd86b383306"></p></details>
+
+<details><summary>Windows 10 fix for root menu corner :</summary><br>  
+
+_no (no fix)_ :<br> 
+<img src="https://github.com/user-attachments/assets/ecf4042d-d0ce-4192-abf1-bd00c464d35e"></p>
+
+_yes (fixed)_ :<br> 
+<img src="https://github.com/user-attachments/assets/98223110-34e4-49ac-8ce2-44b3affe0a59"></p></details>
 
 <hr>
 
