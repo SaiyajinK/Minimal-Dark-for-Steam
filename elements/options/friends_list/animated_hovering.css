@@ -9,6 +9,6 @@
 }
 
 .friend.ingame.awayOrSnooze.friendStatusHover.Panel.Focusable:hover .labelHolder {
-    transform: scale(1) translate(5px, -1px) !important;
+    transform: scale(1) translate(5px, -3px) !important;
     transition: .25s ease-out !important;
 }
