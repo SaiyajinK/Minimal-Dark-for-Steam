@@ -1494,7 +1494,7 @@ button.DialogButton.Primary:active {
 
 .friendlistListContainer .friend.ingame.awayOrSnooze .labelHolder {
     padding-top: 8px !important;
-    transform: translate(0px, -1px) !important;
+    transform: translate(0px, -3px) !important;
 }
 
 .friendlistListContainer .friend.awayOrSnooze .labelHolder {
