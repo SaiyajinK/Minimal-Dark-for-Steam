@@ -226,6 +226,16 @@ blockquote.bb_blockquote, .bb_wysiwyg blockquote {
     border-radius: var(--minimal_dark_corner) !important;
     color: #fff !important;
     background-image: url(https://store.akamai.steamstatic.com/public/shared/images/v6/moremenu.png) !important;
+    height: 18px !important;
+    right: 1px !important;
+    bottom: -16px !important;
+    background-position: 6px 5px !important;
+	transition: .25s ease-out !important;
+}
+
+.ds_options > div:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 .ds_options:hover > div {
@@ -703,10 +713,6 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 .hero_data {
 	border-radius:0px!important;
 	background:var(--minimal_dark_black)!important;
-}
-
-.hero_capsule .ds_flag {
-	left:2px!important;
 }
 
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
@@ -2888,16 +2894,6 @@ body.v6 .discount_block {
 	height:0px!important;
 }
 
-.gameListRowLogo.ds_flagged img {
-	border-radius:0px!important;
-}
-
-.gameListRowLogo.ds_flagged .ds_flag {
-	border-top-right-radius:10px!important;
-	border-bottom-right-radius:10px!important;
-	background:rgba(0,0,0,.2) no-repeat 4px 4px!important;
-}
-
 .sectionTab {
 	background-color:var(--minimal_dark_be_grey)!important;
 	border-radius:0px!important;
@@ -3612,11 +3608,6 @@ img.game_header_image_full {
 	border-radius:0px!important;
 }
 
-.game_area_already_owned .ds_flag {
-	border-radius:0px!important;
-	background:0 0!important;
-}
-
 #review_create .avatar>img {
     border-radius: var(--minimal_dark_corner) !important;
 }
@@ -4022,53 +4013,7 @@ body.v6 #footer .rule {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
-.broadcast_capsule .ds_flag {
-    top: 28px !important;
-    left: 10px !important;
-}
-
-.ds_flag.ds_wishlist_flag {
-    border-radius: var(--minimal_dark_corner) !important;
-    color: white !important;
-    background: #ffffff00 !important;
-    border-left: 2px solid white !important;
-    backdrop-filter: blur(20px) !important;
-}
-
-.ds_flag.ds_incart_flag {
-    border-radius: var(--minimal_dark_corner) !important;
-    color: #ffffff !important;
-    background: #21d083 !important;
-    border-left: 2px solid white !important;
-    backdrop-filter: blur(20px) !important;
-    border-left: 2px solid white !important;
-}
-
-.ds_flag.ds_ignored_flag {
-	border-radius: var(--minimal_dark_corner) !important;
-    color: white !important;
-    background: #ffffff00 !important;
-    border-left: 2px solid white !important;
-    backdrop-filter: blur(20px) !important;
-}
-
 div.early_access_header {
-    border-radius: var(--minimal_dark_corner) !important;
-}
-
-.game_area_dlc_row.odd {
-    border-radius: 0px!important;
-    background: var(--minimal_dark_black) !important;
-    border-left: 2px solid var(--minimal_dark_be_grey) !important;
-    height: auto !important;
-    border-radius: var(--minimal_dark_corner) !important;
-}
-
-.game_area_dlc_row.even {
-    border-radius: 0px!important;
-    background: var(--minimal_dark_be_grey) !important;
-    border-left: 2px solid var(--minimal_dark_be_grey) !important;
-    height: auto !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
@@ -5754,22 +5699,15 @@ body.v6.winter_sale_home h2.winter {
 }
 
 .game_area_purchase_game_dropdown_menu_container {
-    font-family: "Motiva Sans", Sans-serif;
-    font-weight: 300;
-    z-index: 100;
-    top: 0px;
-    position: absolute;
-    background-color: var(--minimal_dark_blacker_alt);
-    border-radius: 8px;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: 3px;
-    box-shadow: 0 0 10px #000;
-    box-sizing: border-box;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+	transition: .25s ease-out !important;
 }
 
 .game_area_purchase_game_dropdown_menu_items_container tr:hover {
-    background-color: var(--minimal_dark_be_grey);
+    background-color: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
 }
 
 .game_area_purchase_game_dropdown_menu_items_container_background {
@@ -5876,13 +5814,6 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {
     color: var(--minimal_dark_color) !important;
     text-decoration: none;
     background: var(--minimal_dark_be_grey) !important;
-}
-
-.game_area_dlc_row.even:hover, .game_area_dlc_row.odd:hover {
-    background-color: rgba(25, 175, 255, 0.15) !important;
-    text-decoration: none;
-    color: #ffffff;
-    height: auto !important;
 }
 
 .queue_btn_menu > .queue_menu_arrow {
@@ -6053,7 +5984,8 @@ body.v6 .game_page_background {
     color: var(--minimal_dark_color) !important;
     background: var(--minimal_dark_be_grey) !important;
     color: var(--minimal_dark_color) !important;
-    border-right: 7px solid var(--minimal_dark_color) !important;
+    border: none !important;
+    border-left: 1px solid var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
@@ -6488,15 +6420,6 @@ body.v6 .game_area_already_owned.page_content {
     transform: translate(12px, -4px) !important;
 }
 
-.ds_flag.ds_owned_flag {
-    background: #1919199c !important;
-    backdrop-filter: blur(8px);
-    border-radius: var(--minimal_dark_corner) !important;
-    color: var(--minimal_dark_browser_overlay_close);
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-	top: 7px !important;
-}
-
 .package_in_library_flag.in_own_library {
     background: #1919199c !important;
     backdrop-filter: blur(8px);
@@ -6877,59 +6800,9 @@ select.gray_bevel {
     background-color: transparent !important;
 }
 
-.ds_collapse_flag_tiny.ds_flagged:hover .ds_flag {
-    padding-left: 10px !important;
-    padding-right: 340px !important;
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-    background: transparent !important;
-    top: 3px !important;
-    left: -6px !important;
-    height: 21px !important;
-    width: 110px !important;
-}
-
-.game_area_dlc_row.even:hover, .game_area_dlc_row.odd:hover {
-    background-color: var(--minimal_dark_blacker_alt) !important;
-}
-
-.game_area_dlc_row.ds_flagged:hover .ds_flag {
-    box-shadow: 0 0 2px 0 #000000;
-}
-
-.ds_flag {
-    padding-left: 8px !important;
-    border-right: 0px solid var(--minimal_dark_browser_overlay_close) !important;
-    transform: translate(-2px, 0px) !important;
-}
-
-.ds_collapse_flag.ds_collapse_flag_tiny.ds_flagged .ds_flag {
-    box-shadow: none !important;
-    height: 20px !important;
-    border-radius: var(--minimal_dark_corner) !important;
-}
-
-.ds_collapse_flag.ds_flagged:hover .ds_flag {
-    border-radius: var(--minimal_dark_corner) !important;
-    max-width: 220px !important;
-    transform: translate(6px, -3px) !important;
-    z-index: 100 !important;
-    border-top: none !important;
-    border-right: none !important;
-    border-bottom: none !important;
-}
-
 .game_area_dlc_name {
     padding-right: 5px !important;
     padding-left: 13px !important;
-}
-
-.game_area_dlc_row.ds_flagged .ds_flag {
-    border-left: 2px solid !important;
-}
-
-.ds_flag.ds_wishlist_flag:hover {
-    border-left: 2px solid white !important;
 }
 
 body {
@@ -7301,14 +7174,18 @@ select.languageField {
 }
 
 #dlc_footer #dlc_show_all_link {
-    background: var(--minimal_dark_black) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
 }
 
 #dlc_footer #dlc_show_all_link:hover {
-    background: var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker) !important;
     border-radius: var(--minimal_dark_corner) !important;
 	color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
 
 #dlc_footer div.dlc_footer_element {
@@ -11997,11 +11874,6 @@ span.bb_removedlink {
     border-radius: var(--minimal_dark_corner) !important;
 }
 
-a.friendactivity_game_link.ds_flagged:not(.ds_wishlist) img {
-    opacity: 1 !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-}
-
 .view_active {
     padding-left: 10px !important;
     padding-right: 10px !important;
@@ -15101,4 +14973,166 @@ textarea.gLFyf, .YacQv {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
+.game_area_dlc_row {
+    margin-bottom: 2px !important;
+}
+
+.game_area_dlc_row.even, .game_area_dlc_row.odd {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
+}
+
+.game_area_dlc_row.odd {
+    height: 14px !important;
+}
+
+.game_area_dlc_row.even {
+    height: 14px !important;
+}
+
+.game_area_dlc_row.even:hover, .game_area_dlc_row.odd:hover {
+    background: var(--minimal_dark_black) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+	color: var(--minimal_dark_color) !important;
+}
+
+.ds_flag {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.ds_owned_flag.ds_flag::before {
+    content: "☰" !important;
+    margin-right: 5px !important;
+}
+
+.ds_wishlist_flag.ds_flag::before {
+    content: "★" !important;
+    margin-right: 5px !important;
+}
+
+.ds_owned_flag.ds_flag {
+    background: #1919199c !important;
+    backdrop-filter: blur(8px);
+    border-radius: var(--minimal_dark_corner) !important;
+    padding: 0 0 0 4px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transform: translate(0px, -3px) !important;
+}
+
+.ds_collapse_flag.ds_collapse_flag_tiny.ds_flagged .ds_flag.ds_owned_flag {
+    top: 4px !important;
+    margin-left: 2px !important;
+    height: 18px !important;
+}
+
+.ds_collapse_flag.ds_collapse_flag_tiny.ds_flagged .ds_flag.ds_wishlist_flag {
+    top: 1px !important;
+    margin-left: 2px !important;
+    height: 18px !important;
+}
+
+.ds_collapse_flag.ds_collapse_flag_tiny .ds_flag.ds_owned_flag {
+    border-left: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+    background: #1919199c !important;
+    backdrop-filter: blur(8px);
+    border-radius: var(--minimal_dark_corner) !important;
+	color: var(--minimal_dark_browser_overlay_close) !important;
+}
+
+.ds_collapse_flag.ds_collapse_flag_tiny .ds_flag.ds_wishlist_flag {
+    border-left: 1px solid #d3deea !important;
+    background: #1919199c !important;
+    backdrop-filter: blur(8px);
+    border-radius: var(--minimal_dark_corner) !important;
+	color: #d3deea !important;
+}
+
+.ds_collapse_flag_tiny.ds_flagged:hover .ds_flag {
+    padding-left: 5px !important;
+}
+
+.ds_flag.ds_wishlist_flag {
+	background: #1919199c !important;
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-left: 1px solid #d3deea !important;
+	color:  #d3deea !important;
+}
+
+.search_suggest .match .ds_flag.ds_wishlist_flag {
+    width: 10px !important;
+    padding-left: 5px !important;
+    padding-right: 13px !important;
+	transition: .25s ease-out !important;
+}
+
+.search_area .popup_body .match:hover .ds_flag.ds_wishlist_flag {
+    width: auto !important;
+	transition: .25s ease-out !important;
+}
+
+.game_area_purchase_game_dropdown_menu_items_container tr:first-child td {
+    border-top: 1px solid rgb(38,38,38) !important;
+}
+
+.game_area_purchase_game_dropdown_menu_item_text {
+    border-top: 1px solid rgb(38,38,38) !important;
+    border-bottom: 1px solid rgb(38,38,38) !important;
+    border-left: 1px solid rgb(38,38,38) !important;
+}
+
+.game_area_purchase_game_dropdown_menu_item_savings {
+    border-right: 1px solid rgb(38,38,38) !important;
+    color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.game_area_dlc_row.dlc_highlight {
+    height: auto !important;
+}
+
+.curator .store_capsule.price_inline .discount_block {
+    right: 6px !important;
+    bottom: 2px !important;
+}
+
+.carousel_items.curator_featured_tags .discount_prices {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.store_capsule .discount_block:not(.discount_block_large) .discount_pct {
+    border-radius: var(--minimal_dark_corner) !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.store_capsule.price_inline .discount_block .discount_prices {
+    border-radius: var(--minimal_dark_corner) !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.dselect_container button.trigger, .dselect_container button.activetrigger {
+    color: white !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.dselect_container button.trigger {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.dselect_container button.trigger:hover {
+    color: var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+}
+
+ .dselect_container .dropcontainer a.highlighted_selection {
+	color: var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+ }
+ 
 /* end webkit */
