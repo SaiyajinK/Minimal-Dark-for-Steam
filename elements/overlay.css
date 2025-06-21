@@ -1659,6 +1659,12 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 ._2rjVTGz8aLvqOdz5v2gq5C {
     color: var(--minimal_dark_color) !important;
+    text-transform: capitalize !important;
+    font-size: smaller !important;
+}
+
+._2sssIwe0duyIrFvat2oXzH._3few7361SOf4k_YuKCmM62.MzjwfxXSiSauz8kyEuhYO.Panel .DialogContent._DialogLayout.CFTLX2wIKOK3hNV-fS7_V .DialogHeader {
+    font-size: smaller !important;
 }
 
 ._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B {
@@ -1725,4 +1731,8 @@ button.QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable {
 .eKmEXJCm_lgme24Fp_HWt.GxgIyq8R5xTOeu4ftGrgX::after {
     height: 1px !important;
     background: linear-gradient(90deg, var(--minimal_dark_be_grey) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
+}
+
+html.responsive div#footer.compact .footer_content {
+    background: transparent !important;
 }
