@@ -395,7 +395,7 @@
 		
 		"Hide shelf": {
 		"tab": "Library options (11)",
-		"description": "Make the news container compact.",
+		"description": "Hide the add shelf button in the library.",
 		"default": "no",
 		"values": {
 			"no": {},
