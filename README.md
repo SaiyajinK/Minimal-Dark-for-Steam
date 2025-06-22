@@ -11,7 +11,7 @@ I'm not a fan of heavy interfaces with "uncoordinated" colors. So I did my best 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 63 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 64 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -181,7 +181,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options (10) : 
+## Library options (11) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -239,6 +239,15 @@ _Compact (small font)_ :<br>
 
 _Compact (normal font)_ :<br> 
 <img src="https://github.com/user-attachments/assets/b2b8643a-b110-4b89-ac5a-afe741009cf8"></p></details>
+
+
+<details><summary>Hide shelf :</summary><br>  
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/7eb20b19-3f7f-4a18-b4a8-30cb59ef71ad"></p>
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/b70bec84-390d-4ad4-89b8-630dae142f48"></p></details>
 
 <details><summary>Library labels :</summary><br>  
 
