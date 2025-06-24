@@ -121,6 +121,7 @@
     transition: .25s ease-out !important;
     border: 1px solid var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
+	background: var(--minimal_dark_blacker) !important;
 }
 
 .DesktopUI .title-area-icon.maximizeButton:active {
@@ -143,6 +144,7 @@
     transition: .25s ease-out !important;
     border: 1px solid var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_blacker) !important;
 }
 
 .DesktopUI .title-area-icon.minimizeButton:active {
@@ -161,6 +163,7 @@
     transition: .25s ease-out !important;
     border: 1px solid var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
+	background: var(--minimal_dark_blacker) !important;
 }
 
 ._5wILZhsLODVwGfcJ0hKmJ {
@@ -583,9 +586,9 @@ button.DialogButton::before {
     font-weight: 300;
     margin: 0;
     border: none;
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal_dark_corner);
     box-shadow: inset 0px 0px 0px #0000;
-	transition: color .15s ease-out,text-shadow .15s ease-out;
+    transition: color .15s ease-out,text-shadow .15s ease-out;
 }
 
 .DialogTextInputBase:not(:disabled):hover {
@@ -600,14 +603,14 @@ button.DialogButton::before {
 
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
     background-color: var(--minimal_dark_blacker) !important;
-    border-left: 4px solid var(--minimal_dark_color) !important;
+    border-left: 1px solid var(--minimal_dark_color) !important;
     background-repeat: no-repeat;
     background-position: 8px center;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     border-top-right-radius: 0px;
     border-top-right-radius: 0px;
-    transition: color .15s ease-out,text-shadow .15s ease-out;
+    transition: .25s ease-out !important;
     box-shadow: inset 0px 0px 10px #0000006b !important;
 }
 
