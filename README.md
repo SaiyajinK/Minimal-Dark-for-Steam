@@ -215,7 +215,7 @@ _yes_ :<br>
 _no_ :<br>
 <img src="https://github.com/user-attachments/assets/8b761aff-7bfe-43e2-9ce8-058853442956"></p>
 
-_yes_ :<br>  
+_yes_ :<br>
 <img src="https://github.com/user-attachments/assets/c30c4ee9-53bf-4c5d-b011-5870aa9a37b3"></p></details>
 
 <details><summary>Compact library :</summary><br>  
