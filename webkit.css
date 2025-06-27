@@ -15008,6 +15008,7 @@ textarea.gLFyf, .YacQv {
     color: var(--minimal_dark_status_green) !important;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nI2QPQrCQBCFI+zM4hXsVLDwpxcsBMFTWFkoYmdlZyl6hc1MtBD0Cl7BU2Rn4jkiiIEkiuTB18x8zXsBJq4DSgsbu2bwL3VPDevDKSrdgipB5SsqbcuA0KwoCjuMuWs9tzLAux4qUVncWX9u529G3dAIrQsiCM9B6QjKywxUvoBQvyAa4fH7kRPNMxx9t0nTGijfUfkEwgdUepiEVj+bg9AeJBp8VthYjSaVJsvnBft7Wb8WFcRNAAAAAElFTkSuQmCC") no-repeat 4px 4px #12121285 !important;
     backdrop-filter: blur(10px) !important;
+    border-left: 1px solid var(--minimal_dark_status_green) !important;
 }
 
 .ds_incart_flag.ds_flag::before {
@@ -15020,7 +15021,6 @@ textarea.gLFyf, .YacQv {
 }
 
 .ds_wishlist_flag.ds_flag::before {
-    content: "★" !important;
     margin-right: 5px !important;
 }
 
@@ -15031,6 +15031,7 @@ textarea.gLFyf, .YacQv {
     padding: 0 0 0 4px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(0px, -3px) !important;
+    border-left: 1px solid var(--minimal_dark_browser_overlay_close) !important;
 }
 
 .ds_collapse_flag.ds_collapse_flag_tiny.ds_flagged .ds_flag.ds_owned_flag {
@@ -15066,7 +15067,7 @@ textarea.gLFyf, .YacQv {
 }
 
 .ds_flag.ds_wishlist_flag {
-	background: #1919199c !important;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkUlEQVR4nI2OsQkCURBELxIRMRYxEG3DKq4Ar4Grw0JswcBEE0PBTg5M5v0NVxa+4P07xIWBZeYxTFUV5+7TUOkPTlIj6fAP+ACeg8DdJ2a2SSntgRbwrDa8yIIJcA5cv4CeJN27rlt8WmfAZQS8RVFvgpltS9DMdoOtQJ2BV1b89Rh4BM7AWtISOIU3Bq5+eW+QbLpxgzr0LQAAAABJRU5ErkJggg==') no-repeat 4px 4px #1919199c !important;
     backdrop-filter: blur(8px);
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-left: 1px solid #d3deea !important;
@@ -15075,9 +15076,7 @@ textarea.gLFyf, .YacQv {
 
 .search_suggest .match .ds_flag.ds_wishlist_flag {
     width: 10px !important;
-    padding-left: 5px !important;
-    padding-right: 13px !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
 }
 
 .search_suggest .match .ds_flag.ds_incart_flag {
