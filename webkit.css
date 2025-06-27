@@ -15002,6 +15002,18 @@ textarea.gLFyf, .YacQv {
     color: var(--minimal_dark_browser_overlay_close) !important;
 }
 
+.ds_flag.ds_incart_flag {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    color: var(--minimal_dark_status_green) !important;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nI2QPQrCQBCFI+zM4hXsVLDwpxcsBMFTWFkoYmdlZyl6hc1MtBD0Cl7BU2Rn4jkiiIEkiuTB18x8zXsBJq4DSgsbu2bwL3VPDevDKSrdgipB5SsqbcuA0KwoCjuMuWs9tzLAux4qUVncWX9u529G3dAIrQsiCM9B6QjKywxUvoBQvyAa4fH7kRPNMxx9t0nTGijfUfkEwgdUepiEVj+bg9AeJBp8VthYjSaVJsvnBft7Wb8WFcRNAAAAAElFTkSuQmCC") no-repeat 4px 4px #12121285 !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.ds_incart_flag.ds_flag::before {
+    margin-right: 5px !important;
+}
+
 .ds_owned_flag.ds_flag::before {
     content: "☰" !important;
     margin-right: 5px !important;
@@ -15066,6 +15078,10 @@ textarea.gLFyf, .YacQv {
     padding-left: 5px !important;
     padding-right: 13px !important;
 	transition: .25s ease-out !important;
+}
+
+.search_suggest .match .ds_flag.ds_incart_flag {
+    border-left: 1px solid var(--minimal_dark_status_green) !important;
 }
 
 .search_area .popup_body .match:hover .ds_flag.ds_wishlist_flag {
