@@ -5924,6 +5924,7 @@ body.v6 .game_page_background {
 
 .discount_final_price {
     color: var(--minimal_dark_progress_bar);
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.85);
     line-height: 16px;
     font-size: 15px;
 }
@@ -7213,6 +7214,7 @@ body.v6 .discount_prices > div {
 
 body.v6 .discount_prices .discount_original_price {
     color: #848e94 !important;
+    text-shadow: 0 0 1px #000000 !important;
 }
 
 ._2m9JUBWfx2mQPWn_3xDhsF:hover {
