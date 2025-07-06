@@ -3024,9 +3024,14 @@ body.v6 .wishlist_header h2 {
 }
 
 .discount_block .discount_prices {
-	background:0 0!important;
-	border-radius:0px!important;
-	vertical-align:0px!important;
+    background: rgb(18 18 18 / 80%) !important;
+    backdrop-filter: blur(8px) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    vertical-align: 0px!important;
+    margin-left: 0px !important;
+    margin-right: 2px !important;
+    margin-bottom: 2px !important;
 }
 
 .btnv6_green_white_innerfade {
@@ -5926,6 +5931,7 @@ body.v6 .game_page_background {
     color: var(--minimal_dark_progress_bar);
     line-height: 16px;
     font-size: 15px;
+    text-shadow: 0px 0px 3px rgba(0,0,0,1) !important;
 }
 
 #review_histogram_recent_section {
@@ -7203,12 +7209,23 @@ select.languageField {
 
 body.v6 .discount_pct {
     color: var(--minimal_dark_browser_overlay_close) !important;
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: rgb(18 18 18 / 80%) !important;
+    backdrop-filter: blur(8px) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
+    vertical-align: 0px!important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+    margin-bottom: 2px !important;
 }
 
 body.v6 .discount_prices > div {
     color: #63de7d !important;
+    text-shadow: 0 0 3px #000000 !important;
+}
+
+.discount_original_price:before {
+    border-bottom: 1.5px solid var(--minimal_dark_red2) !important;
 }
 
 body.v6 .discount_prices .discount_original_price {
