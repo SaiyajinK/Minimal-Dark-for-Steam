@@ -711,8 +711,9 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 }
 
 .hero_data {
-	border-radius:0px!important;
-	background:var(--minimal_dark_black)!important;
+    border-radius: 0px!important;
+    background: rgb(18 18 18 / 80%) !important;
+    backdrop-filter: blur(8px) !important;
 }
 
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
@@ -3391,11 +3392,15 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer {
 }
 
 .game_purchase_action_bg {
-    height: 35px!important;
+    height: 32px!important;
     background-color: var(--minimal_dark_blacker_alt) !important;
     padding: 1px 1px 3px 0!important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey);
+}
+
+.gameDlcBlocks #dlc_purchase_action {
+    height: 31px !important;
 }
 
 .game_purchase_action_bg>* {
@@ -3404,7 +3409,7 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer {
 
 .game_purchase_discount .discount_prices {
     background: var(--minimal_dark_blacker_alt)!important;
-    vertical-align: 12px!important;
+    vertical-align: 16px!important;
 }
 
 .game_purchase_discount {
@@ -3435,6 +3440,13 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer {
 .game_purchase_action .game_purchase_price {
     background-color: transparent !important;
     color: #63de7d !important;
+    border: 1px solid #63de7d !important;
+    height: 22px !important;
+    transform: translate(0px, -1px) !important;
+}
+
+.gameDlcBlocks a#dlc_row_1143853 .discount_pct {
+    font-size: 12px !important;
 }
 
 .highlight_movie {
@@ -7217,6 +7229,13 @@ body.v6 .discount_pct {
     margin-left: 2px !important;
     margin-right: 2px !important;
     margin-bottom: 2px !important;
+    font-size: 16px !important;
+}
+
+.game_purchase_action_bg .discount_block.game_purchase_discount .discount_pct {
+    height: 40px !important;
+    max-height: 32px !important;
+    transform: translate(0px, -7px) !important;
 }
 
 body.v6 .discount_prices > div {
@@ -7706,6 +7725,16 @@ body.v6 .deep_dive_tag {
 
 .game_purchase_discount:not(.no_discount) .bundle_base_discount {
     border-radius: var(--minimal_dark_corner) !important;
+    color: var(--minimal_dark_browser_overlay_close) !important;
+    background: rgb(18 18 18 / 80%) !important;
+    backdrop-filter: blur(8px) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.game_purchase_action .game_purchase_action_bg .discount_block.game_purchase_discount .bundle_base_discount {
+    height: 41px !important;
+    max-height: 32px !important;
+    transform: translate(0px, -9px) !important;
 }
 
 ._3F6YMCF6Zs8AuGfzk0Ir85 {
@@ -9645,7 +9674,8 @@ div.sharedfiles_filterselect:hover {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_progress_bar) !important;
     color: var(--minimal_dark_status_green) !important;
-	transition: 0.2s ease-out !important;
+    transition: 0.2s ease-out !important;
+    transform: translate(0px, -1px) !important;
 }
 
 .btn_green_steamui > span:hover {
@@ -12346,7 +12376,7 @@ a.view_inactive:hover {
 }
 
 .featured_special_deals .home_section_title {
-    color: var(--minimao_dark_color) !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .hero_stat {
@@ -12361,7 +12391,8 @@ a.view_inactive:hover {
 }
 
 .home_title_ctn {
-    text-shadow: 2px 1px 4px var(--minimal_dark_color) !important;
+    text-shadow: none !important;
+    color: var(--minimal_dark_color) !important;
 }
 
 .cwQNGPoPuJS67rykUgZdU:after {
@@ -14997,7 +15028,8 @@ textarea.gLFyf, .YacQv {
 .game_area_dlc_row.even, .game_area_dlc_row.odd {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 .game_area_dlc_row.odd {
@@ -15089,6 +15121,7 @@ textarea.gLFyf, .YacQv {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-left: 1px solid #d3deea !important;
 	color:  #d3deea !important;
+	border-radius: var(--minimal_dark_corner) !important;
 }
 
 .search_suggest .match .ds_flag.ds_wishlist_flag {
