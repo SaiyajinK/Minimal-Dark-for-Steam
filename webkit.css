@@ -3020,6 +3020,19 @@ body.v6 .wishlist_header h2 {
 	background:0 0!important;
 }
 
+a.search_result_row.ds_collapse_flag .responsive_search_name_combined .col.search_price_discount_combined.responsive_secondrow .discount_prices {
+    border-radius: var(--minimal_dark_corner) !important;
+    width: auto !important;
+    max-width: fit-content;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .discount_block_large .discount_prices {
 	border-radius:0px!important;
 }
