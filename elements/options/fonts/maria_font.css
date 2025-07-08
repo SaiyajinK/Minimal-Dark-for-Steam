@@ -55,3 +55,11 @@
 div#store_search {
 	float: right !important;
 }
+
+.responsive_search_name_combined {
+    display: inline-flex !important;
+}
+
+.search_result_row .col.search_released {
+    width: 92px !important;
+}
