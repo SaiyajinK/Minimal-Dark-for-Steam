@@ -76,3 +76,11 @@ div#store_search {
 .game_area_purchase_game h1, .game_area_offsite_purchase h1 {
     font-size: 20px !important;
 }
+
+.responsive_search_name_combined {
+    display: inline-flex !important;
+}
+
+.search_result_row .col.search_released {
+    width: 92px !important;
+}
