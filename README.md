@@ -627,7 +627,7 @@ How to access to skin settings ? <br><br>
 ▪ Steam menu ➡️ `Millennium` ➡️ `Themes` ➡️ `Client Theme` ➡️ `⚙️ Settings skin icon`.
 
 ### 📸 <ins>Screenchots</ins> : <br>
-<img width="300" height="190" alt="image" src="https://github.com/user-attachments/assets/a79b61f6-afd1-461c-8009-c8d48fc50b1c" />
+<img width="782" height="496" alt="steamwebhelper_SPOh3TZOfi" src="https://github.com/user-attachments/assets/31a72019-5e93-487f-811b-e1198cc0a167" />
 
 <hr>
 
