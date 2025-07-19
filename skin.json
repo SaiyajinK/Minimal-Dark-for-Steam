@@ -60,7 +60,7 @@
 		"Font size": {
 		"tab": "Friends options (4)",
 		"description": "Change the size of the font of the friends list (not applied on compact mod).",
-		"default": "Default",
+		"default": "Smaller",
 		"values": {
 			"Default": {},
 			"Smaller": {
@@ -874,7 +874,7 @@
 		"Animated menu hovering": {
 		"tab": "Various options (8)",
 		"description": "Enable this option if you want to have an animation on menus hover.",
-		"default": "no",
+		"default": "yes",
 		"values": {
 			"no": {},
 			"yes": {
