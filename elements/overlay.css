@@ -1736,3 +1736,11 @@ button.QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable {
 html.responsive div#footer.compact .footer_content {
     background: transparent !important;
 }
+
+.MillenniumDesktopSidebar_Content {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.DesktopUI .CFTLX2wIKOK3hNV-fS7_V {
+    border: none !important;
+}
