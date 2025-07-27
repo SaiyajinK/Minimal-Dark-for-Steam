@@ -743,6 +743,8 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     background: var(--minimal_dark_red2) !important;
     transition: .25s ease-out !important;
     color: white !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:focus {
@@ -750,6 +752,8 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     color: white !important;
     opacity: 1 !important;
     transition: .25s ease-in-out !important;
+	border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:hover svg path, DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:hover svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:hover svg path {
@@ -2292,6 +2296,8 @@ textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:first-child {
     border-top-left-radius: var(--minimal_dark_corner) !important;
     border-top-right-radius: var(--minimal_dark_corner) !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:last-child {
