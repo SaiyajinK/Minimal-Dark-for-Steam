@@ -626,7 +626,7 @@ _Only show on hover_ :<br>
 </details>
 
 How to access to skin settings ? <br><br>
-▪ Steam menu ➡️ `Millennium` ➡️ `Themes` ➡️ `3 horizontal dots (…)` ➡️ `Configure` .
+▪ Steam menu ➡️ `Millennium` ➡️ `Themes` ➡️ `Minimal Dark 3 horizontal dots (…)` ➡️ `Configure` .
 
 ### 📸 <ins>Screenchots</ins> : <br>
 <img width="782" height="496" alt="steamwebhelper_SPOh3TZOfi" src="https://github.com/user-attachments/assets/31a72019-5e93-487f-811b-e1198cc0a167" />
