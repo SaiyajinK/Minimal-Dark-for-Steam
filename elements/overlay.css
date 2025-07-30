@@ -1744,3 +1744,7 @@ html.responsive div#footer.compact .footer_content {
 .DesktopUI .CFTLX2wIKOK3hNV-fS7_V {
     border: none !important;
 }
+
+._2DM37juowId1V_DScp3l4._2sj0iYB2llhya3q15q0xiX svg path {
+    fill: var(--minimal_dark_progress_bar) !important;
+}
