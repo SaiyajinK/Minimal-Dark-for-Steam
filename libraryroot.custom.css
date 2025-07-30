@@ -634,6 +634,7 @@ button.DialogButton::before {
 .ModalDialogPopup .DialogContent {
     overflow: visible;
     background: var(--minimal_dark_blacker_alt) !important;
+	padding: 24px !important;
 }
 
 .contextMenuItem:hover ._2QcdrheE9WasLLyJYHymUv._33a4zs_vxXCtw7vFTwb3XG, .contextMenuItem:hover ._2QcdrheE9WasLLyJYHymUv._54dy2uxVcadf_1e6Poifs {
@@ -803,12 +804,12 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:hover {
     background: var(--minimal_dark_blacker_alt) !important;
-    color: var(--minimal_dark_less_white);
+    color: var(--minimal_dark_color) !important;
     border-radius: 0px !important;
     padding-top: 4px !important;
     /* padding-bottom: 24px !important; */
-	transition: .25s ease-out !important;
-	border-left: 1px solid transparent;
+    transition: .25s ease-out !important;
+    border-left: 1px solid transparent;
 }
 
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:last-child:hover {
