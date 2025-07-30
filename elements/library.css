@@ -889,10 +889,20 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
     max-width: 351px !important;
 }
 
+.DesktopUI .DialogToggle_Label:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
 ._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY .DialogCheckbox {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 	width: 14px !important;
     height: 14px !important;
+    transition: .25s ease-out !important;
+}
+
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY:hover .DialogCheckbox {
+    border: 1px solid var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
 
 ._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY .DialogCheckbox:hover {
@@ -1593,4 +1603,8 @@ svg._1dzQL1mVR8GTmmSi_kpDgr path {
 ._172OFJhtx4Jt2ydY6-9IUm ._2zPn_rFC5ZJw3NvUu3Jt5Y {
     margin-left: 5px !important;
     color: var(--minimal_dark_color) !important;
+}
+
+.mzPGHdgk9pc3JvhdUg0cl .UOfJ-NXoaml5lmTtRdkSo {
+    position: relative !important;
 }
