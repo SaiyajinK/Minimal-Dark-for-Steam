@@ -330,7 +330,7 @@
 		"Compact collections": {
 		"tab": "Library options (12)",
 		"description": "Make collections display compact.",
-		"default": "yes",
+		"default": "no",
 		"values": {
 			"no": {},
 			"yes": {
@@ -1117,3 +1117,4 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
+
