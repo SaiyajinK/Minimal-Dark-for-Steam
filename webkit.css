@@ -9432,13 +9432,6 @@ img.communitylink_achievement {
     /* border: none !important; */
 }
 
-.DialogDropDown._DialogInputContainer:hover {
-    /* background: var(--minimal_dark_black) !important; */
-    background: var(--minimal_dark_blacker) !important;
-    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
-    color: var(--minimal_dark_color) !important;
-}
-
 ._2J170P0ckFcUIlsDU13MLS {
     padding-bottom: 0px !important;
 }
@@ -9889,25 +9882,6 @@ body.v6 .sale_capsule .discount_block_inline {
     border: 1px solid var(--minimal_dark_blacker) !important;
 }
 
-._3B8wRA4H7e_oSksYNqpSPv._1B1XTNsfuwOaDPAkkr8M42:hover {
-    border-radius: var(--minimal_dark_corner) !important;
-    background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_color1) !important;
-}
-
-._25gii5r23MmAqXvLZj24tK:hover, ._3k90ug209sE23xAMqcM74s:hover {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border: 1px solid var(--minimal_dark_color1) !important;
-}
-
-._3k90ug209sE23xAMqcM74s:hover .h-lNlCUnCRbIcn38-Oqaw {
-    color: var(--minimal_dark_color1) !important;
-}
-
-._3k90ug209sE23xAMqcM74s:hover ._2auM-VHPU-KKomAWyuWrSV svg path {
-    fill: var(--minimal_dark_color1) !important;
-}
-
 .QFW0BtI4l77AFmv1xLAkx:hover {
     background: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_color1) !important;
@@ -9921,17 +9895,6 @@ body.v6 .sale_capsule .discount_block_inline {
 .DialogCheckbox_Container .DialogCheckbox {
     border-radius: 20px;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-}
-
-.DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), .DialogCheckbox:hover:not(.Disabled), .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled), .DialogCheckbox:focus:not(.Disabled) {
-    background-color: #090909;
-    border: 1px solid var(--minimal_dark_color) !important;
-}
-
-.DialogCheckbox.Active {
-    /* border: 1px solid transparent !important; */
-    border: 1px solid var(--minimal_dark_color) !important;
-    background: transparent !important;
 }
 
 .aCrGPGVeH6HvzyPW8PaAj ._22EnaYFQb5I0kYtH2UHEhV {
@@ -11582,15 +11545,6 @@ body.v6.newonsteam .newonsteam_headercaps img {
     color: white !important;
     border: 0px solid transparent !important;
     /* height: 10px !important; */
-    /* padding-top: 6px !important; */
-    /* padding-bottom: 14px !important; */
-}
-
-._2oAiZidGyUxL-hfupFDQ2m:hover, ._2oAiZidGyUxL-hfupFDQ2m:focus:hover {
-    background: var(--minimal_dark_blacker) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    color: var(--minimal_dark_color) !important;
-    border: 0px solid transparent !important;
     /* padding-top: 6px !important; */
     /* padding-bottom: 14px !important; */
 }
