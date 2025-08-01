@@ -536,7 +536,7 @@ button.DialogButton:active, button.DialogButton.gpfocus {
 
 .inviteAnotherFriendButton:hover, .chatRoomButton:hover:not(.Disabled) .SVGIcon_Button:hover {
     fill: var(--minimal_dark_color) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+    /* border: 1px solid var(--minimal_dark_color) !important; */
 }
 
 .chatRoomGroupHeaderName {
