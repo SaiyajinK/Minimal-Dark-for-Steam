@@ -13,7 +13,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 65 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 66 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -416,7 +416,7 @@ _User color_ :<br>
 
 <hr>
 
-## Topbar options (8) : 
+## Topbar options (9) : 
 
 <details><summary>Alternative contacts icon :</summary><br> 
 
@@ -433,6 +433,17 @@ _Default_ :<br>
 
 _New UI_ :<br> 
 <img src="https://github.com/user-attachments/assets/be09aad6-fad9-4639-a13e-731915ae0987"></p></details>
+
+<details><summary>Hide topbar elements :</summary><br> 
+
+_Hide menus only_ :<br> 
+<img src="https://github.com/user-attachments/assets/8cef3457-02dc-49ce-b5af-9a29d2bcb463"></p>
+
+_Hide arrows only_ :<br> 
+<img src="https://github.com/user-attachments/assets/3cacf23b-5c4b-4f18-a262-e82c4ae7bbb0"></p>
+
+_Hide all_ :<br> 
+<img src="https://github.com/user-attachments/assets/a2069f0b-adba-4504-a890-5582ff09a1c5"></p></details>
 
 <details><summary>Root menu Steam text :</summary><br>
 
