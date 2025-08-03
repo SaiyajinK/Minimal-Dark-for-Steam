@@ -686,7 +686,7 @@
 		},
 		
 		"Alternative contacts icon": {
-		"tab": "Topbar options (8)",
+		"tab": "Topbar options (9)",
 		"description": "Use alternative icon for contacts bloc.",
 		"default": "Minimal (fill)",
 		"values": {
@@ -710,7 +710,7 @@
 		},
 		
 		"Alternative downloads UI": {
-		"tab": "Topbar options (8)",
+		"tab": "Topbar options (9)",
 		"description": "change the appearance of the download block.",
 		"default": "New",
 		"values": {
@@ -723,8 +723,32 @@
 			}
 		},
 		
+		"Hide topbar elements": {
+		"tab": "Topbar options (9)",
+		"description": "Hide topbar menus or arrows.",
+		"default": "Show all",
+		"values": {
+			"Show all": {},
+			"Hide menus only": {	
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_elements/hide_menus_only.css"
+					}
+				},
+			"Hide arrows only": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_elements/hide_arrows_only.css"
+					}
+				},
+			"Hide all": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_elements/hide_all.css"
+					}
+				}
+			}
+		},
+		
 		"Root menu Steam text": {
-		"tab": "Topbar options (8)",
+		"tab": "Topbar options (9)",
 		"description": "Hide or show steam text in top left of the root menu.",
 		"default": "Show",
 		"values": {
@@ -738,7 +762,7 @@
 		},
 		
 		"Tabs text transform": {
-		"tab": "Topbar options (8)",
+		"tab": "Topbar options (9)",
 		"description": "Set capitalize text to topbar tabs.",
 		"default": "no",
 		"values": {
@@ -752,7 +776,7 @@
 		},
 		
 		"Topbar icons menu hover effect": {
-		"tab": "Topbar options (8)",
+		"tab": "Topbar options (9)",
 		"description": "Use alternative hover effect for icons menu (display, contacts, games, support).",
 		"default": "Fill",
 		"values": {
@@ -766,7 +790,7 @@
 		},
 		
 		"Topbar Store tab left icon (currency icon)": {
-		"tab": "Topbar options (8)",
+		"tab": "Topbar options (9)",
 		"description": "Changes the currency logo on the store icon.",
 		"default": "Fill icon (euro)",
 		"values": {
@@ -805,7 +829,7 @@
 		},
 		
 		"Topbar tabs left icons (hover effect included)": {
-		"tab": "Topbar options (8)",
+		"tab": "Topbar options (9)",
 		"description": "Adds an icon to the left of the top bar tabs text.",
 		"default": "Icons active (fill + text)",
 		"values": {
@@ -824,7 +848,7 @@
 		},
 		
 		"Topbar tabs left icons, no text": {
-		"tab": "Topbar options (8)",
+		"tab": "Topbar options (9)",
 		"description": "Enable this option if you want to have just icons and no text.",
 		"default": "no",
 		"values": {
@@ -1091,7 +1115,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.1.3",
+	"version": "4.1.4",
 
 	"github": {
 		"owner": "SaiyajinK",
@@ -1117,4 +1141,3 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
-
