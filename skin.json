@@ -99,6 +99,11 @@
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/friends_list/top_group_chats.css"
 					}
+				},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/hide_group_chats.css"
+					}
 				}
 			}
 		},
