@@ -44,7 +44,7 @@
 		},
 		
 		"Animated hovering": {
-		"tab": "Friends options (4)",
+		"tab": "Friends options (6)",
 		"description": "Trigger an animation when hovering over contacts in the friends list.",
 		"default": "yes",
 		"values": {
@@ -58,7 +58,7 @@
 		},
 		
 		"Font size": {
-		"tab": "Friends options (4)",
+		"tab": "Friends options (6)",
 		"description": "Change the size of the font of the friends list (not applied on compact mod).",
 		"default": "Smaller",
 		"values": {
@@ -71,22 +71,8 @@
 			}
 		},
 		
-		"Offline friends": {
-		"tab": "Friends options (4)",
-		"description": "Hide offline friends in friends list (they can be found using search).",
-		"default": "Show",
-		"values": {
-			"Show": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/offline_friends.css"
-					}
-				}
-			}
-		},
-		
 		"Group chats position": {
-		"tab": "Friends options (4)",
+		"tab": "Friends options (6)",
 		"description": "Modify the position of the groups chats.",
 		"default": "Default (bottom)",
 		"values": {
@@ -98,6 +84,53 @@
 			"Top": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/friends_list/top_group_chats.css"
+					}
+				},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/hide_group_chats.css"
+					}
+				}
+			}
+		},
+		
+		"Hide footer": {
+		"tab": "Friends options (6)",
+		"description": "Hide footer on friends list.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/hide_footer.css"
+					}
+				}
+			}
+		},
+		
+		"Hide footer (fix)": {
+		"tab": "Friends options (6)",
+		"description": "Enable this option if you have chosen to hide the footer to fix the icon for creating a chat group.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/fix_footer.css"
+					}
+				}
+			}
+		},
+			
+		"Offline friends": {
+		"tab": "Friends options (6)",
+		"description": "Hide offline friends in friends list (they can be found using search).",
+		"default": "Show",
+		"values": {
+			"Show": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/offline_friends.css"
 					}
 				}
 			}
@@ -1115,7 +1148,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.1.5",
+	"version": "4.1.6",
 
 	"github": {
 		"owner": "SaiyajinK",
