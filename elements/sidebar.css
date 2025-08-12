@@ -231,7 +231,7 @@
 }
 
 .uE7Pj4tb2n3_Bx4vjEX0a .SVGIcon_Arrow {
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: 0px;
     border: 0px solid var(--minimal_dark_be_grey);
     background-color: var(--minimal_dark_blacker_alt) !important;
     border-right: 1px solid var(--minimal_dark_be_grey);
