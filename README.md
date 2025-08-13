@@ -45,7 +45,7 @@ _Compact_ :<br>
 
 <hr>
 
-## Friends options (4) : 
+## Friends options (6) : 
 
 <details><summary>Animated hovering :</summary><br>  
 
@@ -60,6 +60,33 @@ _Default_ :<br>
 _Smaller_ :<br>  
 <img src="https://github.com/user-attachments/assets/2c2a6f9f-0c2e-439c-918e-a3a2e12e49bd"></p></details>
 
+<details><summary>Group chats position :</summary><br>  
+
+_Default (bottom)_ :<br>  
+<img src="https://github.com/user-attachments/assets/c683571f-c0fa-4aaa-b95b-c716f71f8185"></p>
+
+_Top_ :<br>  
+<img src="https://github.com/user-attachments/assets/2236c179-cb9e-43f2-9358-e069e41b3637"></p>
+
+_Hide_ :<br>  
+<img src="https://github.com/user-attachments/assets/941d5286-0d73-4be5-bbdb-d7fd4b961616"></p></details>
+
+<details><summary>Hide footer :</summary><br>  
+
+_no_ :<br>  
+<img src="https://github.com/user-attachments/assets/87df4005-301e-42bb-bf4e-c96c6290cb81"></p>
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/bab77cd1-6216-4697-94a0-786c2f21340f"></p></details>
+
+<details><summary>Hide footer (fix) :</summary><br>  
+
+_no_ :<br>  
+<img src="https://github.com/user-attachments/assets/fae2b063-1f36-4b6a-ab1d-c636fc2a570f"></p>
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/dedbceb5-0ae4-4512-ae49-c091b796e3e5"></p></details>
+
 <details><summary>Offline friends :</summary><br>  
 
 _Show_ :<br>  
@@ -67,14 +94,6 @@ _Show_ :<br>
 
 _Hide_ :<br>  
 <img src="https://github.com/user-attachments/assets/984a3468-fb6f-478d-a47f-aff9912f4ccf"></p></details>
-
-<details><summary>Group chats position :</summary><br>  
-
-_Default (bottom)_ :<br>  
-<img src="https://github.com/user-attachments/assets/c683571f-c0fa-4aaa-b95b-c716f71f8185"></p>
-
-_Top_ :<br>  
-<img src="https://github.com/user-attachments/assets/2236c179-cb9e-43f2-9358-e069e41b3637"></p></details>
 
 <hr>
 
