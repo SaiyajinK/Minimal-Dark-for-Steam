@@ -44,7 +44,7 @@
 		},
 		
 		"Animated hovering": {
-		"tab": "Friends options (6)",
+		"tab": "Friends options (7)",
 		"description": "Trigger an animation when hovering over contacts in the friends list.",
 		"default": "yes",
 		"values": {
@@ -58,7 +58,7 @@
 		},
 		
 		"Font size": {
-		"tab": "Friends options (6)",
+		"tab": "Friends options (7)",
 		"description": "Change the size of the font of the friends list (not applied on compact mod).",
 		"default": "Smaller",
 		"values": {
@@ -72,7 +72,7 @@
 		},
 		
 		"Group chats position": {
-		"tab": "Friends options (6)",
+		"tab": "Friends options (7)",
 		"description": "Modify the position of the groups chats.",
 		"default": "Default (bottom)",
 		"values": {
@@ -94,8 +94,38 @@
 			}
 		},
 		
+		
+		"Hide footer (fix)": {
+		"tab": "Friends options (7)",
+		"description": "Enable this option if you have chosen to hide the footer to fix the icon for creating a chat group.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_list/fix_footer.css"
+					}
+				}
+			}
+		},
+		
+		
+		"Hide voicechat/call button in chat": {
+		"tab": "Friends options (7)",
+		"description": "Enable this option to hide the voicechat button in chats. Literally no one is using steam to voicechat anyways.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/chat/hide_voicechat.css"
+					}
+				}
+			}
+		},
+		
 		"Hide footer": {
-		"tab": "Friends options (6)",
+		"tab": "Friends options (7)",
 		"description": "Hide footer on friends list.",
 		"default": "yes",
 		"values": {
@@ -109,7 +139,7 @@
 		},
 		
 		"Hide footer (fix)": {
-		"tab": "Friends options (6)",
+		"tab": "Friends options (7)",
 		"description": "Enable this option if you have chosen to hide the footer to fix the icon for creating a chat group.",
 		"default": "yes",
 		"values": {
@@ -123,7 +153,7 @@
 		},
 			
 		"Offline friends": {
-		"tab": "Friends options (6)",
+		"tab": "Friends options (7)",
 		"description": "Hide offline friends in friends list (they can be found using search).",
 		"default": "Show",
 		"values": {
