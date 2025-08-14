@@ -95,21 +95,6 @@
 		},
 		
 		
-		"Hide footer (fix)": {
-		"tab": "Friends options (7)",
-		"description": "Enable this option if you have chosen to hide the footer to fix the icon for creating a chat group.",
-		"default": "yes",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/fix_footer.css"
-					}
-				}
-			}
-		},
-		
-		
 		"Hide voicechat/call button in chat": {
 		"tab": "Friends options (7)",
 		"description": "Enable this option to hide the voicechat button in chats. Literally no one is using steam to voicechat anyways.",
