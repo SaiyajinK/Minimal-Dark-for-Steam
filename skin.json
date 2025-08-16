@@ -150,8 +150,22 @@
 			}
 		},
 		
+		"Bigger gamepage/library buttons": {
+		"tab": "Gamepage options (7)",
+		"description": "Enlarge the play/download buttons on the library and gamepage.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/bigger_task_buttons.css"
+					}
+				}
+			}
+		},
+		
 		"Blurred background": {
-		"tab": "Gamepage options (5)",
+		"tab": "Gamepage options (7)",
 		"description": "Blur the background of the game page (not recommanded with gamepage compact mod)",
 		"default": "Full dark (default)",
 		"values": {
@@ -165,7 +179,7 @@
 		},
 		
 		"Community content": {
-		"tab": "Gamepage options (5)",
+		"tab": "Gamepage options (7)",
 		"description": "Hide or show the community content in gamepage (can improve performance if you have a bad pc).",
 		"default": "Show",
 		"values": {
@@ -179,7 +193,7 @@
 		},
 				
 		"Gamepage/library buttons svg color (Play/Install)": {
-		"tab": "Gamepage options (5)",
+		"tab": "Gamepage options (7)",
 		"description": "Set the svg color of the library buttons.",
 		"default": "White",
 		"values": {
@@ -193,7 +207,7 @@
 		},
 		
 		"Header (compact mod)": {
-		"tab": "Gamepage options (5)",
+		"tab": "Gamepage options (7)",
 		"description": "Hide or show the header image at the top of the game page to save more space.",
 		"default": "Default",
 		"values": {
@@ -207,7 +221,7 @@
 		},
 		
 		"Inverted gamepage (known bugs)": {
-		"tab": "Gamepage options (5)",
+		"tab": "Gamepage options (7)",
 		"description": "Invert gamepage blocks (community content option set to 'Show' not work with this option).",
 		"default": "Default",
 		"values": {
@@ -215,6 +229,20 @@
 			"Inverted": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/inverted_gamepage.css"
+					}
+				}
+			}
+		},
+		
+		"Text on play/download button": {
+		"tab": "Gamepage options (7)",
+		"description": "Show or hide the text of the play/download buttons.",
+		"default": "no",
+		"values": {
+			"yes": {},
+			"no": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/library_buttons_text.css"
 					}
 				}
 			}
@@ -1162,7 +1190,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.1.7",
+	"version": "4.2.0",
 
 	"github": {
 		"owner": "SaiyajinK",
