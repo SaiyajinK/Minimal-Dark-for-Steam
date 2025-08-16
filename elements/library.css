@@ -202,14 +202,14 @@
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) {
     background: transparent;
     border: 2px solid #8b929a29 !important;
-    transform: scale(0.70, 0.70) translate(0px, 3px) !important;
+    transform: scale(0.70, 0.70) translate(0px, 3px);
     border-radius: var(--minimal_dark_corner) !important;
     transition: .25s ease-out !important;
 }
 
 ._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs):hover {
     background-image: radial-gradient(circle, rgba(2,0,36,0) 10%, rgba(6,227,157,0.25) 100%) !important;
-    transform: scale(0.70, 0.70) translate(0px, 3px) !important;
+    transform: scale(0.70, 0.70) translate(0px, 3px);
     border-radius: var(--minimal_dark_corner) !important;
     transition: .25s ease-out !important;
     border: 2px solid #06e39d !important;
@@ -218,7 +218,7 @@
 ._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs):active {
     background-image: none !important;
     box-shadow: inset 0px 2px 4px #06e39d;
-    transform: scale(0.68, 0.68) translate(0px, 3px) !important;
+    transform: scale(0.68, 0.68) translate(0px, 3px);
     border-radius: var(--minimal_dark_corner) !important;
     border: 2px solid transparent !important;
     transition: .25s ease-out !important;
