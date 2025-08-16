@@ -152,7 +152,7 @@ _Inverted_ :<br>
 
 <details><summary>Text on play/download button :</summary><br>  
 
-_no_ :<br>
+_yes_ :<br>
 <img src="https://github.com/user-attachments/assets/23598d1d-b4fa-4e84-af8d-0f43a013b9ff"></p></details>
 
 <hr>
