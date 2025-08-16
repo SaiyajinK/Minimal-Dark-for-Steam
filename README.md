@@ -13,7 +13,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 69 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 71 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -105,7 +105,13 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (5) : 
+## Gamepage options (7) : 
+
+<details><summary>Bigger gamepage/library buttons :</summary><br>  
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/2cf350dc-b40f-4061-98b9-aea852eefacd"></p>
+<img src="https://github.com/user-attachments/assets/ae20f12e-e8cb-4162-89ed-db17c0d4cf40"></p></details>
 
 <details><summary>Blurred background :</summary><br>  
 
@@ -143,6 +149,11 @@ _No header_ :<br>
 
 _Inverted_ :<br>
 <img src="https://github.com/user-attachments/assets/f5f9493e-556a-40ce-966e-6c2d48174454"></p></details>
+
+<details><summary>Text on play/download button :</summary><br>  
+
+_no_ :<br>
+<img src="https://github.com/user-attachments/assets/23598d1d-b4fa-4e84-af8d-0f43a013b9ff"></p></details>
 
 <hr>
 
