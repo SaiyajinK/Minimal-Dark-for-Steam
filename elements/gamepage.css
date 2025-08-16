@@ -88,7 +88,7 @@
 
 ._2AzIX5kl9k6JnxLfR5H4kX {
     background: transparent !important;
-    transform: scale(0.75, 0.75) translate(0px, 3px) !important;
+    transform: scale(0.75, 0.75) translate(0px, 3px);
     border-radius: var(--minimal_dark_corner) !important;
     box-shadow: 0px 1px 30px 1px rgba(0,0,0,.2);
 }
@@ -96,7 +96,7 @@
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9) > ._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX:hover {
     background-image: radial-gradient(circle, rgba(2,0,36,0) 10%, #06e39d40 100%) !important;
     border: 1px solid #06e39d !important;
-    transform: scale(0.75, 0.75) translate(0px, 3px) !important;
+    transform: scale(0.75, 0.75) translate(0px, 3px);
     border-radius: var(--minimal_dark_corner) !important;
     box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 40%) !important;
 	transition: .25s ease-out !important;
@@ -105,7 +105,7 @@
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9) > ._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX:active {
     background-image: none !important;
     border: 1px solid #8b929a29 !important;
-    transform: scale(0.75, 0.75) translate(0px, 3px) !important;
+    transform: scale(0.75, 0.75) translate(0px, 3px);
     border-radius: var(--minimal_dark_corner) !important;
     box-shadow: inset 0px 2px 2px #06e39d !important;
 	transition: .25s ease-out !important;
@@ -735,7 +735,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA ._33cnXIqTRgRr49_FNXIHj6 {
-    display: none;
+    margin-left: 10px !important;
 }
 
 ._1FnJ6dPuknQFQ2RTpKTI16 {
