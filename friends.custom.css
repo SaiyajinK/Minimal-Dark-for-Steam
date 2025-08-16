@@ -2539,3 +2539,163 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 .DropTarget.quickAccessFriends.compactQuickAccess.Panel.Focusable .X_mJE4BYV5StDPwZhSiAu.avatarFrame {
     transform: scale(.7) translate(-17px, -15px) !important;
 }
+
+.OneOnOneVoiceRoomControls {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.OneOnOneVoiceRoomControls .VoiceToggleIconCtn:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
+.inviteButton.inviteButtonJoinVoice {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_progress_bar) !important;
+    transition: .25s ease-out !important;
+    color: var(--minimal_dark_progress_bar) !important;
+}
+
+.inviteButton.inviteButtonJoinVoice:hover {
+    background: var(--minimal_dark_progress_bar) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	color: white !important;
+	transition: .25s ease-out !important;
+}
+
+.OneOnOneVoiceClose:hover, .OneOnOneVoiceClose.gpfocus {
+    background-color: var(--minimal_dark_red2) !important;
+	transition: .25s ease-out !important;
+}
+
+.OneOnOneVoiceClose {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.inviteButton.inviteButtonDeclineVoice {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+    transition: .25s ease-out !important;
+	color: var(--minimal_dark_red2) !important;
+}
+
+.inviteButton.inviteButtonDeclineVoice:hover, .inviteButton.inviteButtonDeclineVoice.gpfocus {
+    background: var(--minimal_dark_red2) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+	color: white !important;
+}
+
+.friendListHeaderContainer .activeVoiceControls {
+    margin-top: 30px !important;
+    margin-bottom: 8px !important;
+}
+
+.activeVoiceButtons button {
+    margin-top: 1px !important;
+}
+
+.VoiceControlPanelButton:focus, .VoiceControlPanelButton:hover {
+    background-color: rgba(97,253,151,.3);
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid #78db86 !important;
+    transition: .25s ease-out !important;
+}
+
+.chatRoomVoiceChannel .chatRoomTextChannel {
+    transition: .25s ease-out !important;
+    height: auto !important;
+}
+
+.chatRoomVoiceChannel .chatRoomTextChannel:hover {
+    background-color: rgba(97,253,151,.3);
+    background-color: rgba(97,253,151,.3);
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid #78db86 !important;
+    transition: .25s ease-out !important;
+    height: auto !important;
+}
+
+.friendListHeaderContainer .activeVoiceControls:before {
+    background: transparent !important;
+}
+
+.chatRoomVoiceChannel.ActiveVoiceChannel {
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.emptyChannelNotice.Visible {
+    height: auto !important;
+}
+
+.chatRoomVoiceChannel.ActiveVoiceChannel {
+    width: auto !important;
+}
+
+.VoiceRoomChatWindow {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background-color: #12121294 !important;
+    backdrop-filter: blur(8px) !important;
+    box-shadow: 1px 2px 18px #000;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.VoiceRoomChatTitle {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.chatRoomVoiceChannel {
+    background-color: transparent !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.chatRoomVoiceChannel:not(.ActiveVoiceChannel):hover {
+    background-color: transparent !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.no_mic_for_session .voicestatusIcon.voiceStatusMic, .output_muted_self .voicestatusIcon.voiceStatusOutput, .output_muted_remotely .voicestatusIcon.voiceStatusOutput, .mic_muted_self .voicestatusIcon.voiceStatusMic, .mic_muted_remotely .voicestatusIcon.voiceStatusMic {
+    opacity: 1 !important;
+    color: var(--minimal_dark_red2) !important;
+}
+
+.chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomTextChannel {
+    cursor: pointer;
+    opacity: 1;
+    height: auto !important;
+    border: 1px solid transparent !important;
+}
+
+.chatRoomTextChannel:hover, .chatRoomVoiceChannel:hover .chatRoomVoiceChannelName, .chatRoomTextChannel:hover .chatRoomTextChannel {
+    color: var(--minimal_dark_color) !important;
+}
+
+.chatRoomVoiceChannel:not(.ActiveVoiceChannel):hover .chatRoomVoiceChannelNameContainer .chatRoomVoiceChannelIcon svg.SVGIcon_Button.SVGIcon_VoiceRoom path {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.OneOnOneVoiceRoomControls .inviteButton.inviteButtonDeclineVoice {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_red2) !important;
+    transition: .25s ease-out !important;
+    color: var(--minimal_dark_red2) !important;
+}
+
+.OneOnOneVoiceRoomControls .inviteButton.inviteButtonDeclineVoice:hover {
+    background: var(--minimal_dark_red2) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+    color: white !important;
+}
