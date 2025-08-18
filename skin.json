@@ -1190,7 +1190,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.2.1",
+	"version": "4.2.2",
 
 	"github": {
 		"owner": "SaiyajinK",
@@ -1216,4 +1216,5 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
+
 
