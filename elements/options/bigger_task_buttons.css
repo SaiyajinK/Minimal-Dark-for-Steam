@@ -21,3 +21,11 @@
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9) > ._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX:active {
     transform: scale(1) translate(0px, 5px) !important;
 }
+
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9) > ._2AzIX5kl9k6JnxLfR5H4kX:hover {
+    transform: scale(1) translate(0px, 5px) !important;
+}
+
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9) > ._2AzIX5kl9k6JnxLfR5H4kX:hover {
+    transform: scale(1) translate(0px, 5px) !important;
+}
