@@ -120,7 +120,7 @@
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9) > ._2AzIX5kl9k6JnxLfR5H4kX:hover {
     background-image: radial-gradient(circle, rgba(2,0,36,0) 10%, rgba(26,159,255,0.25) 100%) !important;
     border: 1px solid #1a9fff !important;
-    transform: scale(0.75, 0.75) translate(0px, 3px) !important;
+    transform: scale(0.75, 0.75) translate(0px, 3px);
     box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 40%) !important;
     border-radius: var(--minimal_dark_corner) !important;
     transition: .25s ease-out !important;
@@ -129,7 +129,7 @@
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9) > ._2AzIX5kl9k6JnxLfR5H4kX:active {
     background-image: none !important;
     border: 1px solid #8b929a29 !important;
-    transform: scale(0.75, 0.75) translate(0px, 3px) !important;
+    transform: scale(0.75, 0.75) translate(0px, 3px);
     border-radius: var(--minimal_dark_corner) !important;
     box-shadow: inset 0px 2px 2px #1a9fff !important;
     transition: .25s ease-out !important;
