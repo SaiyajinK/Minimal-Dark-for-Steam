@@ -5984,12 +5984,12 @@ body.v6 .game_page_background {
 }
 
 .user_reviews_filter_menu:nth-of-type(1):hover {
-    background-color: var(--minimal_dark_black) !important;
+    background-color: var(--minimal_dark_blacker) !important;
     border-bottom-left-radius: var(--minimal_dark_corner);
 }
 
 .user_reviews_filter_menu:hover {
-    background-color: var(--minimal_dark_black) !important;
+    background-color: var(--minimal_dark_blacker) !important;
 }
 
 .user_reviews_filter_menu_flyout {
@@ -7775,7 +7775,10 @@ body.v6 .deep_dive_tag {
 }
 
 .user_reviews_filter_menu:hover .user_reviews_filter_menu_flyout, .user_reviews_filter_menu_flyout:hover {
-    background-color: var(--minimal_dark_black) !important;
+    background-color: #1212127a !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .store_main_capsule .reason .additional > div {
