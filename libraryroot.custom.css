@@ -330,9 +330,9 @@
 
 ._3cykd-VfN_xBxf3Qxriccm ._1n8t0vHFud57AoJ_IDgA9C, ._3cykd-VfN_xBxf3Qxriccm ._32TmRVFkc8HMIUZ-KnnKby, ._3cykd-VfN_xBxf3Qxriccm ._1AcQ7PwcnBGsbAmuKOZHvd, ._3cykd-VfN_xBxf3Qxriccm ._13vrqU6oOqmmxrsZSW5O39, ._3cykd-VfN_xBxf3Qxriccm ._3arz-hc3FJ0QKXLPRUSaah, ._3cykd-VfN_xBxf3Qxriccm ._5wILZhsLODVwGfcJ0hKmJ, ._3cykd-VfN_xBxf3Qxriccm ._3mGEzzp18imtSzGPkduedi, ._3cykd-VfN_xBxf3Qxriccm .Utdt7JrpIm5JlpQmqyj1v {
     transition: .25s ease-out !important;
-	margin-right: 6px !important;
-    min-height: 26px;
-	border-radius: var(--minimal_dark_corner) !important;
+    margin-right: 6px !important;
+    min-height: 22px;
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 ._32TmRVFkc8HMIUZ-KnnKby._3E5iVG630BkOHTaJJaMEMw {
@@ -2009,8 +2009,17 @@ button.DialogButton:hover::before {
     padding: 4px 2px !important;
     border-radius: 0px !important;
     background-color: var(--minimal_dark_blacker_alt) !important;
-    transform: translate(9px, 0px) !important;
-    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+    transform: translate(6px, 0px) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.Utdt7JrpIm5JlpQmqyj1v:hover {
+    padding: 4px 2px !important;
+    border-radius: 0px !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    transform: translate(6px, 0px) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
 ._2Szzh5sKyGgnLUR870zbDE.Utdt7JrpIm5JlpQmqyj1v:active {
@@ -2140,11 +2149,11 @@ svg._34bQcTHo5QKzuujoEyU1tm {
     color: var(--minimal_dark_topgrey) !important;
 }
 
-svg._34bQcTHo5QKzuujoEyU1tm:hover {
+.Utdt7JrpIm5JlpQmqyj1v:hover svg._34bQcTHo5QKzuujoEyU1tm {
     color: var(--minimal_dark_color) !important;
 }
 
-svg._34bQcTHo5QKzuujoEyU1tm:active {
+.Utdt7JrpIm5JlpQmqyj1v:active svg._34bQcTHo5QKzuujoEyU1tm {
     color: white !important;
 }
 
