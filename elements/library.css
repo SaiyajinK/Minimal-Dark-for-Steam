@@ -1622,3 +1622,8 @@ svg._1dzQL1mVR8GTmmSi_kpDgr path {
 ._3BPFqWN5T-x8njyrRYM1CX ._8YrRmy_c6O0FCxFT8gjqo._1pvlnhvtB1Th8xS9GzDjvt.Focusable svg path.topLock {
     fill: #efc464 !important;
 }
+
+._2_vG6TwMW2XtyLlTEaODH9::before {
+    background-color: var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
