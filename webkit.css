@@ -784,6 +784,7 @@ div.store_header_btn {
     backdrop-filter: blur(10px) !important;
     border: 1px solid var(--minimal_dark_greyblack) !important;
     transition: .25s ease-out !important;
+	box-shadow: none !important;
 }
 
 a.store_header_btn_content {
@@ -8285,10 +8286,10 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
     color: var(--minimal_dark_status_green) !important;
     background: rgb(18 18 18 / 45%) !important;
     border-radius: var(--minimal_dark_corner) !important;
-    box-shadow: 0 0 3px #000 !important;
+    box-shadow: none !important;
     backdrop-filter: blur(15px) !important;
     border: 1px solid var(--minimal_dark_greyblack) !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
 }
 
 ._2Fm-3XmbFRXR6yOZiRB0-d:hover {
