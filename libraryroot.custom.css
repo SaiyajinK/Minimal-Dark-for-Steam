@@ -87,15 +87,21 @@
 
 .DesktopUI .title-area-icon.closeButton:hover {
     background: #f1244669 !important;
+    /* background: var(--minimal_dark_blacker) !important; */
     transition: .25s ease-out !important;
     border: 1px solid var(--minimal_dark_red2) !important;
+    /* border-left: 1px solid var(--minimal_dark_be_grey) !important; */
+    /* border-bottom: 1px solid var(--minimal_dark_be_grey) !important; */
     border-radius: var(--minimal_dark_corner);
 }
 
 .DesktopUI .title-area-icon.closeButton:active {
     background: #f1244669 !important;
+    /* background: var(--minimal_dark_blacker) !important; */
     transition: .25s ease-out !important;
     border: 1px solid var(--minimal_dark_red2) !important;
+	/* border-left: 1px solid var(--minimal_dark_be_grey) !important; */
+	/* border-bottom: 1px solid var(--minimal_dark_be_grey) !important; */
     box-shadow: inset 0 0 8px #000000c2 !important;
     border-radius: var(--minimal_dark_corner);
 }
@@ -119,14 +125,16 @@
 
 .DesktopUI .title-area-icon.maximizeButton:hover {
     transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
 	background: var(--minimal_dark_blacker) !important;
 }
 
 .DesktopUI .title-area-icon.maximizeButton:active {
     transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
 	box-shadow: inset 0 0 8px #000000c2 !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
@@ -142,14 +150,16 @@
 
 .DesktopUI .title-area-icon.minimizeButton:hover {
     transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker) !important;
 }
 
 .DesktopUI .title-area-icon.minimizeButton:active {
     transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
 	box-shadow: inset 0 0 8px #000000c2 !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
@@ -161,7 +171,8 @@
 
 .DesktopUI .title-area-icon.restoreButton:hover {
     transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
 	background: var(--minimal_dark_blacker) !important;
 }
@@ -928,7 +939,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
     margin-left: -9px !important;
     margin-right: 2px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-top-left-radius: 7px !important;
+    border-top-left-radius: 7px;
     transform: translate(0px, 0px) !important;
 }
 
