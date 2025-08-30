@@ -2714,3 +2714,11 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
     transition: .25s ease-out !important;
     color: white !important;
 }
+
+.mutualFriendNumber {
+    color: var(--minimal_dark_color) !important;
+}
+
+.friendInviteButtons {
+    padding-right: 16px !important;
+}
