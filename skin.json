@@ -366,7 +366,7 @@
 		},
 		
 		"Alternative library navigation button": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Changes the appearance of the navigation arrows on the library shelves.",
 		"default": "Alternative",
 		"values": {
@@ -380,7 +380,7 @@
 		},
 		
 		"Alternative games names hover effect": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Change the appearance of the game name hover in the What's New block.",
 		"default": "Default",
 		"values": {
@@ -403,7 +403,7 @@
 		},
 		
 		"Compact collections": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Make collections display compact.",
 		"default": "no",
 		"values": {
@@ -417,7 +417,7 @@
 		},
 		
 		"Compact filters": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Make the library filters block compact.",
 		"default": "yes",
 		"values": {
@@ -430,8 +430,22 @@
 			}
 		},
 		
+		"Compact labels (library + whats news)": {
+		"tab": "Library options (13)",
+		"description": "Make Hide Today, Yesterday, Last Week blocs from library and what's new compact",
+		"default": "Compact",
+		"values": {
+			"Default": {},
+			"Compact": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_labels/compact_library_labels.css"
+					}
+				}
+			}
+		},
+		
 		"Compact library": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Make library display compact.",
 		"default": "yes",
 		"values": {
@@ -445,7 +459,7 @@
 		},
 		
 		"Compact mod": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Removes the filter & search from the sidebar to save even more space.",
 		"default": "Default",
 		"values": {
@@ -464,7 +478,7 @@
 		},
 		
 		"Compact news container": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Make the news container compact.",
 		"default": "Compact (small font)",
 		"values": {
@@ -483,7 +497,7 @@
 		},
 		
 		"Hide shelf": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Hide the add shelf button in the library.",
 		"default": "no",
 		"values": {
@@ -497,7 +511,7 @@
 		},
 		
 		"Library labels": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Hide 'Today, Yesterday, Last Week' from library",
 		"default": "Show",
 		"values": {
@@ -516,7 +530,7 @@
 		},
 		
 		"Library games hover glow color": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Change the color of the glow when you hover over a game image in your library.",
 		"default": "Default",
 		"values": {
@@ -530,7 +544,7 @@
 		},
 		
 		"News container": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Hide or show 'What's New' block in the library.",
 		"default": "Show",
 		"values": {
@@ -544,7 +558,7 @@
 		},
 		
 		"Right Sidebar": {
-		"tab": "Library options (12)",
+		"tab": "Library options (13)",
 		"description": "Place the left bar on the right of the Steam client (to enlarge the sidebar you will always have to slide to the right and not to the left).",
 		"default": "Default",
 		"values": {
@@ -1190,7 +1204,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.2.6",
+	"version": "4.2.7",
 
 	"github": {
 		"owner": "SaiyajinK",
@@ -1216,4 +1230,3 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
-
