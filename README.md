@@ -8,12 +8,12 @@
 
 ### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
 I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have a theme with consistent colorimetry. When creating the skin, I defined a function on many elements that injects the selected color code throughout the skin (by default, whether you're on Windows 10 or Windows 11, the Steam color will be the one you chose in Windows, but you can always use a different color by clicking on the color picker).<br><br>
-ℹ️ Following the latest Millennium update (v2.28.0), the theme color selection will have to be done from the Millennium settings for full compatibility.<br><br>
+ℹ️ Following the latest Millennium update (v2.29.1), the theme color selection will have to be done from the Millennium settings for full compatibility.<br><br>
 ▪ `Steam menu` ➡️ `Millennium settings` ➡️ `General` ➡️ `Themes` ➡️ `Custom accent color`
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 71 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 72 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -221,7 +221,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options (12) : 
+## Library options (13) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -258,6 +258,14 @@ _no_ :<br>
 _yes_ :<br>
 <img src="https://github.com/user-attachments/assets/c30c4ee9-53bf-4c5d-b011-5870aa9a37b3"></p></details>
 
+<details><summary>Compact labels (library + whats news) :</summary><br>  
+
+_no_ :<br>
+<img src="https://github.com/user-attachments/assets/dd69b368-e401-479c-b568-d4f4bbc25dbb"></p>
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/ec1e1190-fa66-4057-9836-21e5808aae79"></p></details>
+
 <details><summary>Compact library :</summary><br>  
 
 _no_ :<br>
@@ -280,14 +288,13 @@ _Ultra compact (filter & search)_ :<br>
 <details><summary>Compact news container :</summary><br>  
 
 _Steam default_ :<br> 
-<img src="https://github.com/user-attachments/assets/ea1d1251-fcfe-4477-a73f-3cb92780057b"></p>
+<img src="https://github.com/user-attachments/assets/adb094c3-5342-433d-bca0-9b36573aaa69"></p>
 
 _Compact (small font)_ :<br> 
-<img src="https://github.com/user-attachments/assets/3b8c7565-ce07-467a-b8df-0580768b862e"></p>
+<img src="https://github.com/user-attachments/assets/db22570e-a6c3-48d8-8e8c-9f2e3b9150ad"></p>
 
 _Compact (normal font)_ :<br> 
-<img src="https://github.com/user-attachments/assets/b2b8643a-b110-4b89-ac5a-afe741009cf8"></p></details>
-
+<img src="https://github.com/user-attachments/assets/bb010af6-c1ca-4076-85ce-052064093fad"></p></details>
 
 <details><summary>Hide shelf :</summary><br>  
 
