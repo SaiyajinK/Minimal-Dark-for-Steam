@@ -1,7 +1,7 @@
 <p align="left"><img src="https://github.com/user-attachments/assets/3675a0a9-74bc-4d52-a3b1-6813bc19e770" width="400" height="58"> <img src="https://github.com/user-attachments/assets/2046df08-2913-4ea0-a0f0-af598e9a7faa" width="166" height="75"></p>
 <p align="left">for Steam.</p>
 
-[![minimal](https://github.com/user-attachments/assets/e523fbe7-194e-4046-a2c6-b0ed1c479c4a)](https://steambrew.app/theme?id=F4XgbtTW4x5CJmi5DUK3)
+[![minimal](https://github.com/user-attachments/assets/0b0ebd1d-9774-48af-9a03-3bdc16bed2e8)](https://steambrew.app/theme?id=F4XgbtTW4x5CJmi5DUK3)
 [![discord](https://github.com/user-attachments/assets/a08d5dfd-28f0-4d99-afb1-93dfbec25d4d)](https://discord.gg/2qnAq8B69u)
 
 <hr>
