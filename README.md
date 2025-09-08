@@ -13,7 +13,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 72 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 74 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -221,7 +221,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options (13) : 
+## Library options (15) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -329,6 +329,22 @@ _Hide_ :<br>
 
 _Right (not recommanded)_ :<br> 
 <img src="https://github.com/user-attachments/assets/0cf2018a-818a-4192-a53a-163bd38a4437"></p></details>
+
+<details><summary>Static hovering (paysage games of Recent Games | Play Next) :</summary><br> 
+
+_Default (with animation)_ :<br> 
+<img src="https://github.com/user-attachments/assets/e7009e4b-d06d-4d52-b60c-c12742e57abd"></p>
+
+_Static (without animation)_ :<br> 
+<img src="https://github.com/user-attachments/assets/d0df47c7-49c0-47bd-a118-567662147675"></p></details>
+
+<details><summary>Static hovering (portrait games of Library | Collections) :</summary><br> 
+
+_Default (with animation)_ :<br> 
+<img src="https://github.com/user-attachments/assets/c3b11f28-c356-4e08-9bd3-27e9053f1ec0"></p>
+
+_Static (without animation)_ :<br> 
+<img src="https://github.com/user-attachments/assets/5a7d873e-449a-4290-8f92-a8232e096dc1"></p></details>
 
 <hr>
 
