@@ -1469,14 +1469,14 @@ button.DialogButton.Primary:active {
 .currentUserAvatar {
     width: 58px !important;
     height: 0px !important;
-    transform: scale(1.5) !important;
+    transform: scale(1.24) translate(-5px, 5px);
     filter: brightness(1.1) !important;
 }
 
 .currentUserAvatar:hover {
     width: 58px !important;
     height: 0px !important;
-    transform: scale(1.48) !important;
+    transform: scale(1.34) translate(-4px, 4px);
     filter: brightness(1.2);
 }
 
@@ -1490,6 +1490,7 @@ button.DialogButton.Primary:active {
 
 .currentUserContainer .labelHolder {
     margin-top: 16px !important;
+    margin-left: 0px !important;
 }
 
 .friendlistListContainer .friend .avatarHolder {
@@ -1925,6 +1926,7 @@ html.client_chat_frame .popup_chat_frame {
 .currentUserAvatar .avatarHolder.Medium {
     width: 48px !important;
     height: 48px !important;
+    margin-right: 6px !important;
 }
 
 .CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend, .CompactFriendsList .friendGroup .SteamPlayerGroupFooter, .CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
@@ -2093,6 +2095,7 @@ html.client_chat_frame .popup_chat_frame {
 
 .currentUserContainer ._3sxE7F1LV2IcSX68YsH9dI {
     margin-top: 6px !important;
+    white-space: nowrap !important;
 }
 
 ._18bmBH7zyngCgHtgY3IEL_ {
