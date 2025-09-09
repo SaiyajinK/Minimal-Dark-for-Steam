@@ -13,7 +13,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 74 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 75 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -45,12 +45,23 @@ _Compact_ :<br>
 
 <hr>
 
-## Friends options (7) : 
+## Friends options (8) : 
 
 <details><summary>Animated hovering :</summary><br>  
 
 _Yes_ :<br>  
 <img src="https://github.com/user-attachments/assets/035af425-1c4d-4ac2-8e83-f2e729e562ae"></p></details>
+
+<details><summary>Avatar size :</summary><br>  
+
+_Default_ :<br>  
+<img src="https://github.com/user-attachments/assets/e94f9cc0-a23a-46a4-ab9c-c451e950c966"></p>
+
+_Small_ :<br>  
+<img src="https://github.com/user-attachments/assets/b5dbe66a-eeec-44eb-a59f-9175e58bf87c"></p>
+
+_Large (known bugs)_ :<br>  
+<img src="https://github.com/user-attachments/assets/1a6fa459-f2ee-4f08-b104-0b28d5efd8f1"></p></details>
 
 <details><summary>Font size :</summary><br>  
 
