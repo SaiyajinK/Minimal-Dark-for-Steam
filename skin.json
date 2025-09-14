@@ -634,7 +634,7 @@
 		"default": "Static",
 		"values": {
 			"Animated": {},
-			"Static)": {
+			"Static": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/static_hover_pg.css"
 					}
