@@ -492,6 +492,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 
 ._1Hye7o1wYIfc9TE9QKRW4T {
     background: linear-gradient(90deg, var(--minimal_dark_color) 0%, rgba(26,26,26,0) 75%, rgba(33,33,33,0) 100%) !important;
+    margin: 4px 12px !important;
 }
 
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
@@ -1725,7 +1726,7 @@ button.QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable {
     border: none !important;
     padding: 10px !important;
     border-radius: var(--minimal_dark_corner) !important;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .eKmEXJCm_lgme24Fp_HWt.GxgIyq8R5xTOeu4ftGrgX::after {
@@ -1751,4 +1752,15 @@ html.responsive div#footer.compact .footer_content {
 
 .eKmEXJCm_lgme24Fp_HWt.aIeh3X5T2M074RLW1qn6_._2bDqk4Jeoyk1wZd7ttBNAR._16vVnDqpbNs-zIH-EdV6Vz.GxgIyq8R5xTOeu4ftGrgX._3nLNLFMUMSt4jvxIayuPV3.xIITXDcM70faUNqssgUyx._2HFrmMgB38Ike5w4rVxzEX.Panel ._2DM37juowId1V_DScp3l4._2sj0iYB2llhya3q15q0xiX svg path {
     fill: var(--minimal_dark_redsettings) !important;
+}
+
+._2sssIwe0duyIrFvat2oXzH._3few7361SOf4k_YuKCmM62.MillenniumSettings.Panel .DialogContentTransition.OX7USkJ5dDP_icD00Gal6.Panel div#\:r4m\:undefined_Content .DialogContent_InnerWidth .DialogBody.aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.GxgIyq8R5xTOeu4ftGrgX::after {
+    /* content: "" !important; */
+    height: 1px !important;
+    background: linear-gradient(90deg, var(--minimal_dark_color) 0%, rgba(26, 26, 26, 0) 75%, rgba(33, 33, 33, 0) 100%) !important;
+}
+
+._2sssIwe0duyIrFvat2oXzH._3few7361SOf4k_YuKCmM62.MillenniumSettings.Panel ._1W1to_azoBRG95oNAFpf9Q {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
 }
