@@ -1024,7 +1024,7 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
 ._1-vlriAtKYDViAEunue4VO {
     height: 6px;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    margin: 6px !important;
+    margin: 0px;
     transition: .25s ease-out !important;
     border-radius: var(--minimal_dark_corner) !important;
     padding: 10px 8px 10px 8px !important;
@@ -1035,9 +1035,9 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
     color: var(--minimal_dark_color) !important;
     height: 10px;
     border: 1px solid var(--minimal_dark_color) !important;
-    margin: 6px !important;
-	transition: .25s ease-out !important;
-	border-radius: var(--minimal_dark_corner) !important;
+    margin: 2px;
+    transition: .25s ease-out !important;
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 ._1-vlriAtKYDViAEunue4VO:not(._2DpXjzK3WWsOtUWUrcuOG7):active {
