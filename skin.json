@@ -177,7 +177,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/bigger_task_buttons.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage/bigger_task_buttons.css"
 					}
 				}
 			}
@@ -191,7 +191,7 @@
 			"Full dark": {},
 			"Blurred": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/blurred_bg_gamepage.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage/blurred_bg_gamepage.css"
 					}
 				}
 			}
@@ -205,7 +205,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gp_community_content.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage/gp_community_content.css"
 					}
 				}
 			}
@@ -219,7 +219,7 @@
 			"White": {},
 			"Same as the outline": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_library_svg_color.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage/gamepage_library_svg_color.css"
 					}
 				}
 			}
@@ -233,7 +233,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gp_compact.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage/gp_compact.css"
 					}
 				}
 			}
@@ -271,7 +271,7 @@
 			"Default": {},
 			"Inverted": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/inverted_gamepage.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage/inverted_gamepage.css"
 					}
 				}
 			}
@@ -285,7 +285,7 @@
 			"yes": {},
 			"no": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/library_buttons_text.css"
+			"affects": [".*"], "src": "elements/options/gamepage/library_buttons_text.css"
 					}
 				}
 			}
