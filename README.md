@@ -13,7 +13,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 75 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 76 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -116,7 +116,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (7) : 
+## Gamepage options (8) : 
 
 <details><summary>Bigger gamepage/library buttons :</summary><br>  
 
@@ -155,6 +155,20 @@ _Default_ :<br>
 
 _No header_ :<br>
 <img src="https://github.com/user-attachments/assets/32541c32-f17b-4f35-a9b7-43eaaf6399c1"></p></details>
+
+<details><summary>Hide 'post-party summary' / 'Would you recommend this game ?' :</summary><br>      
+
+_Show all_ :<br>
+<img src="https://github.com/user-attachments/assets/202b9a98-99ec-4213-9e76-48961ad20387"></p>
+
+_Hide all_ :<br>
+<img src="https://github.com/user-attachments/assets/a1f6237d-1214-482c-abb6-93e58bdd86e2"></p>
+
+_Show post-party summary only_ :<br>
+<img src="https://github.com/user-attachments/assets/9ac638a4-fca6-45fe-8d96-b3c420a6ab01"></p>
+
+_Show 'Would you recommend this game?' only_ :<br>
+<img src="https://github.com/user-attachments/assets/35009178-5c83-4a88-a0cd-2fd9c1288087"></p></details>
 
 <details><summary>Inverted gamepage (know bugs) :</summary><br>  
 
