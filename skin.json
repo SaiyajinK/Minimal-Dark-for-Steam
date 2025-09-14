@@ -352,7 +352,11 @@
 		"description": "> Make the hover borders of library/webkit items full and no longer just on the bottom. \n\n - Full borders : Applies the user's color to all borders on mouseover. \n - Bottom only : Applies the user's color only to the bottom border on mouseover.",
 		"default": "Full borders",
 		"values": {
-			"Full borders": {},
+			"Full borders": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/full_library_hover_effect.css"
+					}
+				},
 			"Bottom only": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/bottom_library_hover_effect.css"
