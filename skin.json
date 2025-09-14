@@ -170,7 +170,7 @@
 		},
 		
 		"Bigger gamepage/library buttons": {
-		"tab": "Gamepage options (7)",
+		"tab": "Gamepage options (8)",
 		"description": "Enlarge the play/download buttons on the library and gamepage.",
 		"default": "no",
 		"values": {
@@ -184,7 +184,7 @@
 		},
 		
 		"Blurred background": {
-		"tab": "Gamepage options (7)",
+		"tab": "Gamepage options (8)",
 		"description": "Blur the background of the game page (not recommanded with gamepage compact mod)",
 		"default": "Full dark (default)",
 		"values": {
@@ -198,7 +198,7 @@
 		},
 		
 		"Community content": {
-		"tab": "Gamepage options (7)",
+		"tab": "Gamepage options (8)",
 		"description": "Hide or show the community content in gamepage (can improve performance if you have a bad pc).",
 		"default": "Show",
 		"values": {
@@ -212,7 +212,7 @@
 		},
 				
 		"Gamepage/library buttons svg color (Play/Install)": {
-		"tab": "Gamepage options (7)",
+		"tab": "Gamepage options (8)",
 		"description": "Set the svg color of the library buttons.",
 		"default": "White",
 		"values": {
@@ -226,7 +226,7 @@
 		},
 		
 		"Header (compact mod)": {
-		"tab": "Gamepage options (7)",
+		"tab": "Gamepage options (8)",
 		"description": "Hide or show the header image at the top of the game page to save more space.",
 		"default": "Default",
 		"values": {
@@ -239,8 +239,22 @@
 			}
 		},
 		
+		"Hide review & summary": {
+		"tab": "Gamepage options (8)",
+		"description": "Hide 'Would you recommend this game to other players?'' & 'POST-GAME SUMMARY' from game page",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gp_review_nagging_summary.css"
+					}
+				}
+			}
+		},
+		
 		"Inverted gamepage (known bugs)": {
-		"tab": "Gamepage options (7)",
+		"tab": "Gamepage options (8)",
 		"description": "Invert gamepage blocks (community content option set to 'Show' not work with this option).",
 		"default": "Default",
 		"values": {
@@ -254,7 +268,7 @@
 		},
 		
 		"Text on play/download button": {
-		"tab": "Gamepage options (7)",
+		"tab": "Gamepage options (8)",
 		"description": "Show or hide the text of the play/download buttons.",
 		"default": "no",
 		"values": {
