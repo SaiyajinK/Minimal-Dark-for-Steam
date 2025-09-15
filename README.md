@@ -13,7 +13,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 76 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 77 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -668,7 +668,7 @@ _yes (fixed)_ :<br>
 
 <hr>
 
-## Webkit options (6) : 
+## Webkit options (7) : 
 
 <details><summary>Compact Webkit :</summary><br>  
 
@@ -693,6 +693,14 @@ _Show_ :<br>
 
 _Hide_ :<br> 
 <img src="https://github.com/user-attachments/assets/e372c7f9-40da-49cf-a2e5-ec801eed9fba"></p></details>
+
+<details><summary>Hide '+ Add a Showcase' :</summary><br>  
+
+_Show_ :<br> 
+<img src="https://github.com/user-attachments/assets/29274bd7-c31c-4234-8d2d-fd9914a89e87"></p>
+
+_Hide_ :<br> 
+<img src="https://github.com/user-attachments/assets/a0bed942-bc33-4384-89fa-460872ac6b71"></p></details>
 
 <details><summary>Profiles :</summary><br>  
 
