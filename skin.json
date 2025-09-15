@@ -1183,7 +1183,7 @@
 		},
 		
 		"Compact Webkit :": {
-		"tab": "Webkit options (6)",
+		"tab": "Webkit options (7)",
 		"description": "> Hide the left sidebar on the webkit homepage. \n\n - Hide : Hide left sidebar on homepage. \n - Show : Show left sidebar webkit.",
 		"default": "Hide",
 		"values": {
@@ -1197,7 +1197,7 @@
 		},
 		
 		"Hide footers :": {
-		"tab": "Webkit options (6)",
+		"tab": "Webkit options (7)",
 		"description": "> Hide Steam information on webkit footers. \n\n - Hide : Hide legal informations at the bottom page of browser. \n - Show : Show legal informations at the bottom page of browser.",
 		"default": "Hide",
 		"values": {
@@ -1210,22 +1210,22 @@
 			}
 		},
 		
-		"Events header :": {
-		"tab": "Webkit options (6)",
-		"description": "> Show or remove the events wallpaper on the webkit homepage. \n\n - Minimal Dark : Event wallpaper are displayed. \n - Hide : Events header are hidden.",
-		"default": "Minimal Dark default",
+		"Hide '+ Add a Showcase' :": {
+		"tab": "Webkit options (7)",
+		"description": "> Hide '+ Add a Showcase' on your Steam profile. \n\n - No : Show '+ Add a showcase' on your Steam profile. \n - Yes : Hide '+ Add a showcase' on your Steam profile. \n\n > If you enable this option, you will no longer be able to add a new showcase to your Steam profile (unless you disable the option).",
+		"default": "no",
 		"values": {
-			"Minimal Dark default": {},
-			"Hide": {
+			"no": {},
+			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_no_header_promo.css"
+			"affects": [".*"], "src": "elements/options/hide_showcase.css"
 					}
 				}
 			}
 		},
 		
 		"Profiles :": {
-		"tab": "Webkit options (6)",
+		"tab": "Webkit options (7)",
 		"description": "> Enabling this option makes the profile page blocks full and removes the blur effect. \n\n - Minimal Dark : Blurred blocs. \n - No blur blocs : Solid black color blocs.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1239,7 +1239,7 @@
 		},
 		
 		"Profiles headers :": {
-		"tab": "Webkit options (6)",
+		"tab": "Webkit options (7)",
 		"description": "> If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view).",
 		"default": "no",
 		"values": {
@@ -1253,7 +1253,7 @@
 		},
 		
 		"URL bar :": {
-		"tab": "Webkit options (6)",
+		"tab": "Webkit options (7)",
 		"description": "> This option allows you to permanently hide the URL bar or display it only on hover. \n\n - Visible : Steam default. \n - Hide : Hide the url bar. \n - Only show on hover : Show the url bar only on mouseover.",
 		"default": "Visible",
 		"values": {
@@ -1279,7 +1279,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.3.8",
+	"version": "4.3.9",
 
 	"github": {
 		"owner": "SaiyajinK",
