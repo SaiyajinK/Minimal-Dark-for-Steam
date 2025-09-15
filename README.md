@@ -686,14 +686,6 @@ _Show_ :<br>
 _Hide_ :<br> 
 <img src="https://github.com/user-attachments/assets/3375f939-6c76-4e3a-8f11-250b137402cd"></p></details>
 
-<details><summary>Hide footers :</summary><br>  
-
-_Show_ :<br> 
-<img src="https://github.com/user-attachments/assets/9657eabd-7084-4455-9941-8e9b6e7c420f"></p>
-
-_Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/e372c7f9-40da-49cf-a2e5-ec801eed9fba"></p></details>
-
 <details><summary>Hide '+ Add a Showcase' :</summary><br>  
 
 _Show_ :<br> 
@@ -701,6 +693,14 @@ _Show_ :<br>
 
 _Hide_ :<br> 
 <img src="https://github.com/user-attachments/assets/a0bed942-bc33-4384-89fa-460872ac6b71"></p></details>
+
+<details><summary>Hide footers :</summary><br>  
+
+_Show_ :<br> 
+<img src="https://github.com/user-attachments/assets/9657eabd-7084-4455-9941-8e9b6e7c420f"></p>
+
+_Hide_ :<br> 
+<img src="https://github.com/user-attachments/assets/e372c7f9-40da-49cf-a2e5-ec801eed9fba"></p></details>
 
 <details><summary>Profiles :</summary><br>  
 
