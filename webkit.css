@@ -3784,15 +3784,15 @@ body.v6 #footer .rule {
 
 .short_header {
 	background-color: var(--minimal_dark_blacker) !important;
-	border-top-left-radius:5px !important;
-	border-top-right-radius:5px !important;
+	/* border-top-left-radius:5px !important; */
+	/* border-top-right-radius:5px !important; */
 	margin-bottom: 0px !important;
 }
 
 .short_header:hover {
-    background-color: rgba(25, 175, 255, 0.25) !important;
-    border-top-left-radius: 5px!important;
-    border-top-right-radius: 5px!important;
+    background-color: var(--minimal_dark_black) !important;
+    /* border-top-left-radius: 5px!important; */
+    /* border-top-right-radius: 5px!important; */
 }
 
 .discount_block.no_discount .bundle_base_discount {
