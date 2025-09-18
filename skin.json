@@ -485,7 +485,7 @@
 			"Default": {},
 			"Compact": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_labels/compact_library_labels.css"
+			"affects": ["^Steam$"], "src": "elements/options/library/library_labels/compact_library_labels.css"
 					}
 				}
 			}
@@ -565,12 +565,12 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_labels/no_library_labels.css"
+			"affects": ["^Steam$"], "src": "elements/options/library/library_labels/no_library_labels.css"
 					}
 				},
 			"Hide all": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_labels/no_library_labels_full.css"
+			"affects": ["^Steam$"], "src": "elements/options/library/library_labels/no_library_labels_full.css"
 					}
 				}
 			}
