@@ -17,3 +17,11 @@ body:not(.no_home_gutter) .home_page_body_ctn .page_background_holder {
 .home_page_takeover_link {
     display: none !important;
 }
+
+.menu_takeover_background {
+    display: none !important;
+}
+
+.home_page_body_ctn.has_takeover .page_background_holder {
+    background-image: none !important;
+}
