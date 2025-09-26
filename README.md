@@ -13,7 +13,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 77 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 78 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -668,7 +668,24 @@ _yes (fixed)_ :<br>
 
 <hr>
 
-## Webkit options (7) : 
+## Webkit options (8) : 
+
+<details><summary>Alternative UI for new Steam menu :</summary><br>  
+
+_Minimal new UI_ :<br> 
+<img src="https://github.com/user-attachments/assets/6a2d669d-a0c0-4c79-8481-e00cf1657233"></p>
+
+_Minimal new UI (buttons)_ :<br> 
+<img src="https://github.com/user-attachments/assets/fad62ca4-f8b9-4190-bcdb-c0353fba6fe6"></p>
+
+_Compact_ :<br> 
+<img src="https://github.com/user-attachments/assets/601775b7-f4e5-495c-9ab8-6d8034edcde7"></p>
+
+_Ultra compact_ :<br> 
+<img src="https://github.com/user-attachments/assets/f083aed1-457a-44f8-9e82-775e8ff3aaef"></p>
+
+_Ultra compact #1_ :<br> 
+<img src="https://github.com/user-attachments/assets/3b980f08-5caf-44c0-baed-bfd6ed36f4f8"></p></details>
 
 <details><summary>Compact Webkit :</summary><br>  
 
@@ -740,10 +757,8 @@ How to access to skin settings ? <br><br>
 
 ### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
 1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
-2️⃣ - Open Steam browser and paste this url : [https://steambrew.app/themes](https://steambrew.app/themes) <br>
-3️⃣ - Select `Minimal Dark` in the theme list and clic on `Install` <br>
-4️⃣ - Open `Steam settings` go to `Themes` and select `Minimal Dark` in the list of themes.  <br>
-5️⃣ - Restart Steam <br>
+2️⃣ - Go to `Steam menu` ➡️ `Millennium` ➡️ `Install a theme` and paste Minimal ID : `F4XgbtTW4x5CJmi5DUK3` <br>
+3️⃣ - Restart Steam <br>
 
 ### 🛠️ <ins>Recommended Steam settings</ins> : <br>
 ▪ Steam ➡️ `Stable branch`.  <br>
