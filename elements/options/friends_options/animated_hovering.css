@@ -1,0 +1,14 @@
+.friend.online.friendStatusHover.Panel.Focusable:hover .labelHolder, .friend.offline.friendStatusHover.Panel.Focusable:hover .labelHolder, .friend.online.awayOrSnooze.friendStatusHover.Panel.Focusable:hover .labelHolder, .friend.awayOrSnooze.friendStatusHover.Panel.Focusable:hover .labelHolder, .friend.online.friendStatusHover.Panel.Focusable:hover .labelHolder {
+    transform: scale(1) translate(5px, -1px) !important;
+    transition: .25s ease-out !important;
+}
+
+.friend.ingame.friendStatusHover.Panel.Focusable:hover .labelHolder {
+    transform: scale(1) translate(5px, 0px) !important;
+    transition: .25s ease-out !important;
+}
+
+.friend.ingame.awayOrSnooze.friendStatusHover.Panel.Focusable:hover .labelHolder {
+    transform: scale(1) translate(5px, -3px) !important;
+    transition: .25s ease-out !important;
+}
