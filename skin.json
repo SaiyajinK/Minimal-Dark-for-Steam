@@ -1303,12 +1303,12 @@
 			"Visible": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/url_bar/url_bar_hide.css"
+			"affects": [".*"], "src": "elements/options/webkit/url_bar/url_bar_hide.css"
 					}
 				},
 			"Only shows on hover": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/url_bar/url_bar_hide_show_hover.css"
+			"affects": [".*"], "src": "elements/options/webkit/url_bar/url_bar_hide_show_hover.css"
 					}
 				}
 			}
@@ -1348,3 +1348,4 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
+
