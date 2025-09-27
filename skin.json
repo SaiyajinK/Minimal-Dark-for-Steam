@@ -9,7 +9,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Account", "^Steam$"], "src": "elements/options/hide_wallet.css"
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/hide_wallet.css"
 					}
 				}
 			}
@@ -23,7 +23,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Account", "^Steam$"], "src": "elements/options/alternative_notification_icon.css"
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/alternative_notification_icon.css"
 					}
 				}
 			}
@@ -37,7 +37,7 @@
 			"Default": {},
 			"Compact": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/compact_avatar.css"
+			"affects": ["^Steam$"], "src": "elements/options/account_options/compact_avatar.css"
 					}
 				}
 			}
@@ -51,7 +51,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/animated_hovering.css"
+			"affects": [".*"], "src": "elements/options/friends_options/animated_hovering.css"
 					}
 				}
 			}
@@ -65,12 +65,12 @@
 			"Default": {},
 			"Small": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/friends_avatar/small.css"
+			"affects": [".*"], "src": "elements/options/friends_options/friends_avatar/small.css"
 					}
 				},
 			"Large (known bugs)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/friends_avatar/large.css"
+			"affects": [".*"], "src": "elements/options/friends_options/friends_avatar/large.css"
 					}
 				}
 			}
@@ -84,7 +84,7 @@
 			"Default": {},
 			"Smaller": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/smaller_font_size.css"
+			"affects": [".*"], "src": "elements/options/friends_options/smaller_font_size.css"
 					}
 				}
 			}
@@ -97,17 +97,17 @@
 		"values": {
 			"Default (bottom)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/bottom_group_chats.css"
+			"affects": [".*"], "src": "elements/options/friends_options/bottom_group_chats.css"
 					}
 				},
 			"Top": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/top_group_chats.css"
+			"affects": [".*"], "src": "elements/options/friends_options/top_group_chats.css"
 					}
 				},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/hide_group_chats.css"
+			"affects": [".*"], "src": "elements/options/friends_options/hide_group_chats.css"
 					}
 				}
 			}
@@ -121,7 +121,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/hide_footer.css"
+			"affects": [".*"], "src": "elements/options/friends_options/hide_footer.css"
 					}
 				}
 			}
@@ -135,7 +135,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/fix_footer.css"
+			"affects": [".*"], "src": "elements/options/friends_options/fix_footer.css"
 					}
 				}
 			}
@@ -149,7 +149,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/hide_vocal_chat.css"
+			"affects": [".*"], "src": "elements/options/friends_options/hide_vocal_chat.css"
 					}
 				}
 			}
@@ -163,7 +163,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_list/offline_friends.css"
+			"affects": [".*"], "src": "elements/options/friends_options/offline_friends.css"
 					}
 				}
 			}
@@ -177,7 +177,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage/bigger_task_buttons.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_task_buttons.css"
 					}
 				}
 			}
@@ -191,7 +191,7 @@
 			"Full dark": {},
 			"Blurred": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage/blurred_bg_gamepage.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/blurred_bg_gamepage.css"
 					}
 				}
 			}
@@ -205,7 +205,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage/gp_community_content.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/gp_community_content.css"
 					}
 				}
 			}
@@ -219,7 +219,7 @@
 			"White": {},
 			"Same as the outline": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage/gamepage_library_svg_color.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/gamepage_library_svg_color.css"
 					}
 				}
 			}
@@ -233,7 +233,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage/gp_compact.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/gp_compact.css"
 					}
 				}
 			}
@@ -247,17 +247,17 @@
 			"Show all": {},
 			"Hide all": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage/post_party_elements/hide_all.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/post_party_elements/hide_all.css"
 					}
 				},
 			"Show post-party summary only": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage/post_party_elements/show_only_summary.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/post_party_elements/show_only_summary.css"
 					}
 				},
 			"Show 'WYRTG ?' only": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage/post_party_elements/show_only_recommend.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/post_party_elements/show_only_recommend.css"
 					}
 				}
 			}
@@ -271,7 +271,7 @@
 			"Default": {},
 			"Inverted": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage/inverted_gamepage.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/inverted_gamepage.css"
 					}
 				}
 			}
@@ -285,7 +285,7 @@
 			"yes": {},
 			"no": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/gamepage/library_buttons_text.css"
+			"affects": [".*"], "src": "elements/options/gamepage_options/library_buttons_text.css"
 					}
 				}
 			}
@@ -299,12 +299,12 @@
 			"Dark": {},
 			"Grey": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_color/alternative_topbar_color.css"
+			"affects": [".*"], "src": "elements/options/global_options/topbar_color/alternative_topbar_color.css"
 					}
 				},
 			"Grey/dark": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_color/alternative_topbar_color_bb.css"
+			"affects": [".*"], "src": "elements/options/global_options/topbar_color/alternative_topbar_color_bb.css"
 					}
 				}
 			}
@@ -317,12 +317,12 @@
 		"values": {
 			"Show": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/avatar_frame/show.css"
+			"affects": [".*"], "src": "elements/options/global_options/avatar_frame/show.css"
 					}
 				},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/avatar_frame/hide.css"
+			"affects": [".*"], "src": "elements/options/global_options/avatar_frame/hide.css"
 					}
 				}
 			}
@@ -336,12 +336,12 @@
 			"Square": {},
 			"Rounded": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/corner5.css"
+			"affects": [".*"], "src": "elements/options/global_options/corners/corner5.css"
 					}
 				},
 			"More rounded": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/corners/corner10.css"
+			"affects": [".*"], "src": "elements/options/global_options/corners/corner10.css"
 					}
 				}
 			}
@@ -354,12 +354,12 @@
 		"values": {
 			"Full borders": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/full_library_hover_effect.css"
+			"affects": [".*"], "src": "elements/options/global_options/full_library_hover_effect.css"
 					}
 				},
 			"Bottom only": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/bottom_library_hover_effect.css"
+			"affects": [".*"], "src": "elements/options/global_options/bottom_library_hover_effect.css"
 					}
 				}
 			}
@@ -373,7 +373,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/steam_actuality_button.css"
+			"affects": ["^Steam$"], "src": "elements/options/global_options/steam_actuality_button.css"
 					}
 				}
 			}
@@ -387,12 +387,12 @@
 			"Small": {},
 			"Enlarged (w11 users)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/alternative_title_area_buttons/alternative_title_area_buttons_w11.css"
+			"affects": [".*"], "src": "elements/options/global_options/alternative_title_area_buttons/alternative_title_area_buttons_w11.css"
 					}
 				},
 			"Enlarged (w10 users)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/alternative_title_area_buttons/alternative_title_area_buttons_w10.css"
+			"affects": [".*"], "src": "elements/options/global_options/alternative_title_area_buttons/alternative_title_area_buttons_w10.css"
 					}
 				}
 			}
@@ -406,7 +406,7 @@
 			"Minimal Dark": {},
 			"Vanilla topbar": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/vanilla_topbar_style.css"
+			"affects": ["^Steam$"], "src": "elements/options/global_options/vanilla_topbar_style.css"
 					}
 				}
 			}
@@ -420,7 +420,7 @@
 			"Default": {},
 			"Alternative": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/alternative_library_nav_buttons.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/alternative_library_nav_buttons.css"
 					}
 				}
 			}
@@ -433,17 +433,17 @@
 		"values": {
 			"Default": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library/alternative_news_hover_effect_default.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/alternative_news_hover_effect_default.css"
 					}
 				},
 			"Alt #1": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library/alternative_news_hover_effect_alt1.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/alternative_news_hover_effect_alt1.css"
 					}
 				},
 			"Alt #2": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library/alternative_news_hover_effect_alt2.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/alternative_news_hover_effect_alt2.css"
 					}
 				}
 			}
@@ -457,7 +457,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/compact_collections.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_collections.css"
 					}
 				}
 			}
@@ -471,7 +471,7 @@
 			"yes": {},
 			"no": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/filters_default.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/filters_default.css"
 					}
 				}
 			}
@@ -485,7 +485,7 @@
 			"Default": {},
 			"Compact": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library/library_labels/compact_library_labels.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_library_labels.css"
 					}
 				}
 			}
@@ -499,7 +499,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/compact_library.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_library.css"
 					}
 				}
 			}
@@ -513,12 +513,12 @@
 			"Default": {},
 			"Compact": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/compact_mod.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_mod.css"
 					}
 				},
 			"Ultra compact": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/ultra_compact_mod.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/ultra_compact_mod.css"
 					}
 				}
 			}
@@ -532,12 +532,12 @@
 			"Steam default": {},
 			"Compact #1": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/compact_news_alt.css"
+			"affects": [".*"], "src": "elements/options/library_options/compact_news_alt.css"
 					}
 				},
 			"Compact #2": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/compact_news.css"
+			"affects": [".*"], "src": "elements/options/library_options/compact_news.css"
 					}
 				}
 			}
@@ -551,7 +551,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/library/hide_shelf.css"
+			"affects": [".*"], "src": "elements/options/library_options/hide_shelf.css"
 					}
 				}
 			}
@@ -565,12 +565,12 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library/library_labels/no_library_labels.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/no_library_labels.css"
 					}
 				},
 			"Hide all": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library/library_labels/no_library_labels_full.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/no_library_labels_full.css"
 					}
 				}
 			}
@@ -584,7 +584,7 @@
 			"Default": {},
 			"User color": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/hover_games_glow_color.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/hover_games_glow_color.css"
 					}
 				}
 			}
@@ -598,7 +598,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/hide_news.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/hide_news.css"
 					}
 				}
 			}
@@ -612,7 +612,7 @@
 			"Left": {},
 			"Right": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/sidebar_to_the_right.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/sidebar_to_the_right.css"
 					}
 				}
 			}
@@ -626,7 +626,7 @@
 			"Animated": {},
 			"Static": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/static_hover_lg.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/static_hover_lg.css"
 					}
 				}
 			}
@@ -640,7 +640,7 @@
 			"Animated": {},
 			"Static": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/static_hover_pg.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/static_hover_pg.css"
 					}
 				}
 			}
@@ -654,7 +654,7 @@
 			"Hide": {},
 			"Show": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/bg_miniprofile.css"
+			"affects": [".*"], "src": "elements/options/miniprofile_options/bg_miniprofile.css"
 					}
 				}
 			}
@@ -668,7 +668,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/no_hours_played_mp.css"
+			"affects": [".*"], "src": "elements/options/miniprofile_options/no_hours_played_mp.css"
 					}
 				}
 			}
@@ -682,7 +682,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay/overlay_no_label_list.css"
+			"affects": [".*"], "src": "elements/options/overlay_options/overlay_no_label_list.css"
 					}
 				}
 			}
@@ -696,7 +696,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay/overlay_no_label_normal.css"
+			"affects": [".*"], "src": "elements/options/overlay_options/overlay_no_label_normal.css"
 					}
 				}
 			}
@@ -710,7 +710,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay/overlay_bigger_buttons.css"
+			"affects": [".*"], "src": "elements/options/overlay_options/overlay_bigger_buttons.css"
 					}
 				}
 			}
@@ -724,7 +724,7 @@
 			"Default": {},
 			"User color gradient": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/alternative_sidebar_hover_effect.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/alternative_sidebar_hover_effect.css"
 					}
 				}
 			}
@@ -738,32 +738,32 @@
 			"Minimal Dark default": {},
 			"Minimal Dark alternative #1": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/minimal_vertical_indicator.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/minimal_vertical_indicator.css"
 					}
 				},
 			"Minimal Dark alternative #2": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/minimal_horizontal_indicator.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/minimal_horizontal_indicator.css"
 					}
 				},
 			"Dot #1": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/round_indicator.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/round_indicator.css"
 					}
 				},
 			"Dot #2": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/min_round_indicator.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/min_round_indicator.css"
 					}
 				},
 			"Dot #3": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/square_indicator.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/square_indicator.css"
 					}
 				},
 			"Dot #4": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/ingame_indicator/min_square_indicator.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/min_square_indicator.css"
 					}
 				}
 			}
@@ -777,7 +777,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/bigger_names.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/bigger_names.css"
 					}
 				}
 			}
@@ -791,7 +791,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/bolder_names.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/bolder_names.css"
 					}
 				}
 			}
@@ -805,12 +805,12 @@
 			"Minimal Dark": {},
 			"Minimal Dark alternative": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/minimal_installed_user_color.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/minimal_installed_user_color.css"
 					}
 				},
 			"White": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/minimal_installed_white.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/minimal_installed_white.css"
 					}
 				}
 			}
@@ -824,7 +824,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/no_left_images.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/no_left_images.css"
 					}
 				}
 			}
@@ -838,12 +838,12 @@
 			"Minimal Dark": {},
 			"White": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/minimal_uninstalled_white.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/minimal_uninstalled_white.css"
 					}
 				},
 			"User": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar/minimal_uninstalled_user_color.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/minimal_uninstalled_user_color.css"
 					}
 				}
 			}
@@ -857,17 +857,17 @@
 			"Minimal Dark #1 (fill)": {},
 			"Minimal Dark #1 (outline)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/contacts_icon/minimal_contacts_icon_outline.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/contacts_icon/minimal_contacts_icon_outline.css"
 					}
 				},
 			"Minimal Dark #2 (fill)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/contacts_icon/alternative_contacts_icon_fill.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/contacts_icon/alternative_contacts_icon_fill.css"
 					}
 				},
 			"Minimal Dark #2 (outline)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/contacts_icon/alternative_contacts_icon_outline.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/contacts_icon/alternative_contacts_icon_outline.css"
 					}
 				}
 			}
@@ -880,7 +880,7 @@
 		"values": {
 			"New UI": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/alternative_dl_ui.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/alternative_dl_ui.css"
 					}
 				},
 			"Minimal Dark": {}
@@ -895,17 +895,17 @@
 			"Show all": {},
 			"Hide menus only": {	
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_elements/hide_menus_only.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_menus_only.css"
 					}
 				},
 			"Hide arrows only": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_elements/hide_arrows_only.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_arrows_only.css"
 					}
 				},
 			"Hide all": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_elements/hide_all.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_all.css"
 					}
 				}
 			}
@@ -919,7 +919,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/hide_steam_text.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/hide_steam_text.css"
 					}
 				}
 			}
@@ -933,7 +933,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/tabs_text_form.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/tabs_text_form.css"
 					}
 				}
 			}
@@ -947,7 +947,7 @@
 			"Fill": {},
 			"Outline": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/alternative_menus_hover_effect.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alternative_menus_hover_effect.css"
 					}
 				}
 			}
@@ -961,32 +961,32 @@
 			"No icon": {},
 			"Fill icon (euro)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_euro_active.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_euro_active.css"
 					}
 				},
 			"Outline icon (euro)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_euro_active.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_outline_euro_active.css"
 					}
 				},
 			"Fill icon (dollar)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_dollar_active.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_dollar_active.css"
 					}
 				},
 			"Outline icon (dollar)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_dollar_active.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_outline_dollar_active.css"
 					}
 				},
 			"Fill icon (pound sterling)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_ps_active.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_ps_active.css"
 					}
 				},
 			"Outline icon (pound sterling)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/store_icon/store_icon_outline_ps_active.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_outline_ps_active.css"
 					}
 				}
 			}
@@ -1000,12 +1000,12 @@
 			"No icons (text only)": {},
 			"Icons active (fill + text)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_active_icons.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/topbar_tabs_active_icons.css"
 					}
 				},
 			"Icons active (outline + text)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_active_outline_icons.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/topbar_tabs_active_outline_icons.css"
 					}
 				}
 			}
@@ -1019,7 +1019,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_tabs/topbar_tabs_just_icons.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/topbar_tabs_just_icons.css"
 					}
 				}
 			}
@@ -1033,27 +1033,27 @@
 			"Minimal Dark": {},
 			"Minimal Dark #1": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/root_menu_icon/minimal_dark_complete_steam_logo.css"
+			"affects": [".*"], "src": "elements/options/various_options/root_menu_icon/minimal_dark_complete_steam_logo.css"
 					}
 				},
 			"Minimal Dark #2": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/root_menu_icon/alternative_rounded_root_menu_icon_fill.css"
+			"affects": [".*"], "src": "elements/options/various_options/root_menu_icon/alternative_rounded_root_menu_icon_fill.css"
 					}
 				},
 			"Minimal Dark #3": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/root_menu_icon/alternative_rounded_root_menu_icon_outline.css"
+			"affects": [".*"], "src": "elements/options/various_options/root_menu_icon/alternative_rounded_root_menu_icon_outline.css"
 					}
 				},
 			"Minimal Dark #4": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/root_menu_icon/alternative_squared_root_menu_icon_fill.css"
+			"affects": [".*"], "src": "elements/options/various_options/root_menu_icon/alternative_squared_root_menu_icon_fill.css"
 					}
 				},
 			"Minimal Dark #5": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/root_menu_icon/alternative_squared_root_menu_icon_outline.css"
+			"affects": [".*"], "src": "elements/options/various_options/root_menu_icon/alternative_squared_root_menu_icon_outline.css"
 					}
 				}
 			}
@@ -1067,7 +1067,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/animated_menu_hovering.css"
+			"affects": [".*"], "src": "elements/options/various_options/animated_menu_hovering.css"
 					}
 				}
 			}
@@ -1081,32 +1081,32 @@
 			"Default": {},
 			"Roboto": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/fonts/roboto_font.css"
+			"affects": [".*"], "src": "elements/options/various_options/fonts/roboto_font.css"
 					}
 				},
 			"Monaco": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/fonts/monaco_font.css"
+			"affects": [".*"], "src": "elements/options/various_options/fonts/monaco_font.css"
 					}
 				},
 			"Share Tech": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/fonts/share_tech_font.css"
+			"affects": [".*"], "src": "elements/options/various_options/fonts/share_tech_font.css"
 					}
 				},
 			"Maria": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/fonts/maria_font.css"
+			"affects": [".*"], "src": "elements/options/various_options/fonts/maria_font.css"
 					}
 				},
 			"Sudo Var": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/fonts/sudo_var_font.css"
+			"affects": [".*"], "src": "elements/options/various_options/fonts/sudo_var_font.css"
 					}
 				},
 			"JetBrains": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/fonts/jetbrains_font.css"
+			"affects": [".*"], "src": "elements/options/various_options/fonts/jetbrains_font.css"
 					}
 				}
 			}
@@ -1120,7 +1120,7 @@
 			"No hover effect": {},
 			"With hover effect": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/menus_hover_effect.css"
+			"affects": [".*"], "src": "elements/options/various_options/menus_hover_effect.css"
 					}
 				}
 			}
@@ -1134,7 +1134,7 @@
 			"Steam": {},
 			"Minimal Dark": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/default_pointers.css"
+			"affects": [".*"], "src": "elements/options/various_options/default_pointers.css"
 					}
 				}
 			}
@@ -1148,7 +1148,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/hide_scrollbars.css"
+			"affects": [".*"], "src": "elements/options/various_options/hide_scrollbars.css"
 					}
 				}
 			}
@@ -1162,7 +1162,7 @@
 			"Animated": {},
 			"Static": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/no_hover_effect_settings_tabs.css"
+			"affects": [".*"], "src": "elements/options/various_options/no_hover_effect_settings_tabs.css"
 					}
 				}
 			}
@@ -1176,7 +1176,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/w10_root_fix.css"
+			"affects": [".*"], "src": "elements/various_options/options/w10_root_fix.css"
 					}
 				}
 			}
@@ -1190,22 +1190,22 @@
 			"Minimal new UI": {},
 			"Minimal new UI (buttons)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit/webkit_buttons_new_ui.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_buttons_new_ui.css"
 					}
 				},
 			"Compact": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit/webkit_compact_ui_new_menu.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_compact_ui_new_menu.css"
 					}
 				},
 			"Ultra compact": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit/webkit_ultra_compact_ui_new_menu.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_ultra_compact_ui_new_menu.css"
 					}
 				},
 			"Ultra compact #1": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit/webkit_ultra_compact_ui_new_menu_alt.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_ultra_compact_ui_new_menu_alt.css"
 					}
 				}
 			}
@@ -1219,7 +1219,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/compact_webkit.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/compact_webkit.css"
 					}
 				}
 			}
@@ -1233,7 +1233,7 @@
 			"Minimal Dark default": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_no_header_promo.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_no_header_promo.css"
 					}
 				}
 			}
@@ -1247,7 +1247,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/hide_showcase.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/hide_showcase.css"
 					}
 				}
 			}
@@ -1261,7 +1261,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/no_footer_webkit.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/no_footer_webkit.css"
 					}
 				}
 			}
@@ -1275,7 +1275,7 @@
 			"Minimal Dark": {},
 			"No blur blocs": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/no_blurred_profiles.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/no_blurred_profiles.css"
 					}
 				}
 			}
@@ -1289,7 +1289,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/default_profiles_header.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/default_profiles_header.css"
 					}
 				}
 			}
@@ -1303,12 +1303,12 @@
 			"Visible": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit/url_bar/url_bar_hide.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/url_bar/url_bar_hide.css"
 					}
 				},
 			"Only shows on hover": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit/url_bar/url_bar_hide_show_hover.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/url_bar/url_bar_hide_show_hover.css"
 					}
 				}
 			}
@@ -1322,7 +1322,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.4.5",
+	"version": "4.4.8",
 
 	"github": {
 		"owner": "SaiyajinK",
@@ -1348,4 +1348,3 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
-
