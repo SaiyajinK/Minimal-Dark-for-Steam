@@ -1,7 +1,0 @@
-.FriendsListChatSection.ChatRoomListContainerParent .ToggleGroupChatList .SVGIcon_DoubleArrow {
-    transform: rotate(-90deg) !important;
-}
-
-.FriendsListChatSection.ChatRoomListContainerParent.Collapsed .ToggleGroupChatList .SVGIcon_DoubleArrow {
-    transform: rotate(90deg) !important;
-}
