@@ -1316,7 +1316,7 @@
 		
 		"Wishlist new Steam menu :": {
 		"tab": "Webkit options (9)",
-		"description": "> The new Steam webkit menu is hidden by default on the wishlist. Enable this option to show it again. \n\n - Show default menu : Show menu in wishlist. \n - Hide default menu : Hide menu in wishlist. \n - Revisited menu : Shows only the search and cart/wishlist buttons.",
+		"description": "> The new Steam webkit menu is hidden by default on the wishlist. Enable this option to show it again. \n\n - Hide default menu : Hide menu in wishlist. \n - Revisited menu : Shows only the search and cart/wishlist buttons.",
 		"default": "Revisited menu",
 		"values": {
 			"Hide default menu": {
@@ -1365,3 +1365,4 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
+
