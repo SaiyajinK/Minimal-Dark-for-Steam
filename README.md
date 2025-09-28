@@ -13,7 +13,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 78 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 79 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -668,7 +668,7 @@ _yes (fixed)_ :<br>
 
 <hr>
 
-## Webkit options (8) : 
+## Webkit options (9) : 
 
 <details><summary>Alternative UI for new Steam menu :</summary><br>  
 
@@ -744,7 +744,16 @@ _Hide_ :<br>
 <img src="https://github.com/user-attachments/assets/89f849b3-9885-4b11-b54c-d1bdb3c011a7"></p>
 
 _Only show on hover_ :<br> 
-<img src="https://github.com/user-attachments/assets/fe080b22-75ca-43b3-9472-586b50db4c85"></p></details><br>
+<img src="https://github.com/user-attachments/assets/fe080b22-75ca-43b3-9472-586b50db4c85"></p></details>
+
+
+<details><summary>Wishlist new Steam menu :</summary><br>  
+
+_Hide_ :<br> 
+<img src="https://github.com/user-attachments/assets/04bf6c15-c134-48ed-b437-242f939b1dd0"></p>
+
+_Revisited_ :<br> 
+<img src="https://github.com/user-attachments/assets/456e6b3c-c5be-4fdc-a3c9-338e6d10fbd4"></p></details><br>
 </details>
 
 How to access to skin settings ? <br><br>
