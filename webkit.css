@@ -15969,6 +15969,33 @@ a._175B12uOwmeGBNcSaQFe-Z .vj9hwW9u0MpjH7MVjjNw0 ._1-hPfsxjynE3demuqGmqf0 ._3gaa
     transition: .25s ease-out !important;
 }
 
+._1KU9eASfov1GnFQRbyLIdR:hover, button._1Yo-ZsBr-KbVMyAMXEYszd svg {
+    fill: var(--minimal_dark_color1) !important;
+    color: var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
+}
+
+._1KU9eASfov1GnFQRbyLIdR:hover, .B6Smo5P5blM-:hover {
+    border: 1px solid var(--minimal_dark_color1) !important;
+    /* border-top: 1px solid var(--minimal_dark_color1) !important; */
+    transition: .25s ease-out !important;
+}
+
+button._1Yo-ZsBr-KbVMyAMXEYszd svg {
+    color: white !important;
+    transition: .25s ease-out !important;
+}
+
+div#StoreTemplate .v2uRRqcZpzM-.Panel form.B6Smo5P5blM-:hover button._5f3k46d-01g- svg {
+    color: var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+}
+
+._1KU9eASfov1GnFQRbyLIdR:hover button._1Yo-ZsBr-KbVMyAMXEYszd svg {
+    color: var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+}
+
 ._2tlUAG6WNyYFlk9caIiLj5:focus-visible {
     border: 1px solid var(--minimal_dark_invisiblegrey) !important;
     background: transparent !important;
