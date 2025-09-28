@@ -1183,7 +1183,7 @@
 		},
 		
 		"Alternative UI for new Steam menu :": {
-		"tab": "Webkit options (8)",
+		"tab": "Webkit options (9)",
 		"description": "> The new Steam store menu has arrived, enabling this option will offer an alternative UI. \n\n - Minimal new UI : Minimal new Steam menu without modifications. \n - Minimal new UI (buttons) : Minimal new UI (buttons). \n - Compact : Minimal new Steam menu compact. \n - Ultra compact : Minimal new Steam menu ultra compact (just an icon & default size). \n - Ultra compact #1 : Minimal new Steam menu ultra compact (just an icon & compact size).",
 		"default": "Compact",
 		"values": {
@@ -1212,7 +1212,7 @@
 		},
 
 		"Compact Webkit :": {
-		"tab": "Webkit options (8)",
+		"tab": "Webkit options (9)",
 		"description": "> Hide the left sidebar on the webkit homepage. \n\n - Hide : Hide left sidebar on homepage. \n - Show : Show left sidebar webkit.",
 		"default": "Hide",
 		"values": {
@@ -1226,7 +1226,7 @@
 		},
 		
 		"Events header :": {
-		"tab": "Webkit options (8)",
+		"tab": "Webkit options (9)",
 		"description": "> Show or remove the events wallpaper on the webkit homepage. \n\n - Minimal Dark : Event wallpaper are displayed. \n - Hide : Events header are hidden.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -1240,7 +1240,7 @@
 		},
 		
 		"Hide '+ Add a Showcase' :": {
-		"tab": "Webkit options (8)",
+		"tab": "Webkit options (9)",
 		"description": "> Hide '+ Add a Showcase' on your Steam profile. \n\n - No : Show '+ Add a showcase' on your Steam profile. \n - Yes : Hide '+ Add a showcase' on your Steam profile. \n\n > If you enable this option, you will no longer be able to add a new showcase to your Steam profile (unless you disable the option).",
 		"default": "no",
 		"values": {
@@ -1254,7 +1254,7 @@
 		},
 		
 		"Hide footers :": {
-		"tab": "Webkit options (8)",
+		"tab": "Webkit options (9)",
 		"description": "> Hide Steam information on webkit footers. \n\n - Hide : Hide legal informations at the bottom page of browser. \n - Show : Show legal informations at the bottom page of browser.",
 		"default": "Hide",
 		"values": {
@@ -1268,7 +1268,7 @@
 		},
 		
 		"Profiles :": {
-		"tab": "Webkit options (8)",
+		"tab": "Webkit options (9)",
 		"description": "> Enabling this option makes the profile page blocks full and removes the blur effect. \n\n - Minimal Dark : Blurred blocs. \n - No blur blocs : Solid black color blocs.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1282,7 +1282,7 @@
 		},
 		
 		"Profiles headers :": {
-		"tab": "Webkit options (8)",
+		"tab": "Webkit options (9)",
 		"description": "> If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view).",
 		"default": "no",
 		"values": {
@@ -1296,7 +1296,7 @@
 		},
 		
 		"URL bar :": {
-		"tab": "Webkit options (8)",
+		"tab": "Webkit options (9)",
 		"description": "> This option allows you to permanently hide the URL bar or display it only on hover. \n\n - Visible : Steam default. \n - Hide : Hide the url bar. \n - Only show on hover : Show the url bar only on mouseover.",
 		"default": "Visible",
 		"values": {
@@ -1312,9 +1312,26 @@
 					}
 				}
 			}
-		}
+		},
 		
-	},
+		"Wishlist new Steam menu :": {
+		"tab": "Webkit options (9)",
+		"description": "> The new Steam webkit menu is hidden by default on the wishlist. Enable this option to show it again. \n\n - Show default menu : Show menu in wishlist. \n - Hide default menu : Hide menu in wishlist. \n - Revisited menu : Shows only the search and cart/wishlist buttons.",
+		"default": "Revisited menu",
+		"values": {
+			"Hide default menu": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/hide_webkit_wl_menu_bar.css"
+					}
+				},
+			"Revisited menu": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_revisited_menu_bar.css"	
+					}
+				}
+			}
+		}
+},
 
 	"Steam-WebKit": "webkit.css",
 	"UseDefaultPatches": true,
@@ -1322,7 +1339,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.4.8",
+	"version": "4.5.0",
 
 	"github": {
 		"owner": "SaiyajinK",
