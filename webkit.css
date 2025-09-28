@@ -15957,13 +15957,13 @@ a._175B12uOwmeGBNcSaQFe-Z .vj9hwW9u0MpjH7MVjjNw0 ._1-hPfsxjynE3demuqGmqf0 ._3gaa
     background: transparent !important;
 }
 
-._1KU9eASfov1GnFQRbyLIdR {
+._1KU9eASfov1GnFQRbyLIdR, .B6Smo5P5blM- {
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_invisiblegrey) !important;
     border: 1px solid var(--minimal_dark_invisiblegrey);
 }
 
-._1KU9eASfov1GnFQRbyLIdR:hover {
+._1KU9eASfov1GnFQRbyLIdR:hover, .B6Smo5P5blM-:hover {
     border: 1px solid var(--minimal_dark_color1) !important;
     /* border-top: 1px solid var(--minimal_dark_color1) !important; */
     transition: .25s ease-out !important;
