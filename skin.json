@@ -1317,7 +1317,7 @@
 		"Wishlist new Steam menu :": {
 		"tab": "Webkit options (9)",
 		"description": "> The new Steam webkit menu is hidden by default on the wishlist. Enable this option to show it again. \n\n - Hide default menu : Hide menu in wishlist. \n - Revisited menu : Shows only the search and cart/wishlist buttons.",
-		"default": "Revisited menu",
+		"default": "Compact revisited menu",
 		"values": {
 			"Hide default menu": {
 			"TargetCss": {
@@ -1327,6 +1327,11 @@
 			"Revisited menu": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/webkit_revisited_menu_bar.css"	
+					}
+				},
+			"Compact revisited menu": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_compact_revisited_menu_bar.css"	
 					}
 				}
 			}
@@ -1339,7 +1344,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.5.0",
+	"version": "4.5.1",
 
 	"github": {
 		"owner": "SaiyajinK",
@@ -1365,4 +1370,3 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
-
