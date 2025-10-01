@@ -16613,4 +16613,14 @@ a._175B12uOwmeGBNcSaQFe-Z._1tJxbjNzcWSdG2hBsklCTN:active {
     backdrop-filter: blur(10px) !important;
 }
 
+a.sale_capsule.with_microtrailer.app_impression_tracked {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+}
+
+a.sale_capsule.with_microtrailer.app_impression_tracked:hover {
+    border: 1px solid var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+}
+
 /* end webkit */
