@@ -28,10 +28,6 @@
 --minimal_dark_bgb: radial-gradient(circle, rgba(66,186,216,1) 0%, rgba(66,143,216,1) 100%);
 --minimal_dark_bgg: radial-gradient(circle, rgba(97,233,138,1) 0%, rgba(66,188,140,1) 80%);
 
-/* svg replacement : https://thenounproject.com/ */
---minimal_dark_market: url("./resources/market_reduce_price.svg");
---minimal_dark_searchbutton: url("./resources/search.svg");
-
 --minimal_dark_corner: 0px;
 
 }
