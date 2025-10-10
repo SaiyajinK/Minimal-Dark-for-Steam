@@ -1632,3 +1632,12 @@ svg._1dzQL1mVR8GTmmSi_kpDgr path {
     background-color: var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
+
+._3dncOt2dhpnFYQn-WYQ3Mb ._2JYwpg3-WbCSXH-w5h-zL_ {
+    color: var(--minimal_dark_browser_overlay_close) !important;
+    background: #1212128f !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    padding: 0px !important;
+}
