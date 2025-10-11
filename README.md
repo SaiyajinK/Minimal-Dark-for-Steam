@@ -761,7 +761,8 @@ How to access to skin settings ? <br><br>
 ▪ `Steam menu` ➡️ `Millennium` ➡️ `Themes` ➡️ `Minimal Dark 3 horizontal dots (…)` ➡️ `Configure` .
 
 ### 📸 <ins>Screenchots</ins> : <br>
-<img width="800" height="505" alt="image" src="https://github.com/user-attachments/assets/a68340f1-de41-403b-841c-a836b5d62156" />
+<img width="832" height="497" alt="steamwebhelper_ZiAEy1cH3U" src="https://github.com/user-attachments/assets/07ee6c3c-b93e-47fe-9378-256cdb43b63a" />
+
 
 <hr>
 
