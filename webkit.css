@@ -16729,4 +16729,35 @@ div#recommended_creators_carousel .carousel_items.store_capsule_container.respon
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
+div.autocomplete {
+    background: rgb(25 25 25 / 70%) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    color: white !important;
+}
+
+div.autocomplete ul li.selected {
+    color: var(--minimal_dark_color1) !important;
+    background-color: transparent !important;
+    transition: .25s ease-out !important;
+}
+
+.page_content_ctn .searchbar .searchbar_left input#term {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    box-shadow: none !important;
+}
+
+form#advsearchform .page_content_ctn .searchbar button.btnv6_blue_hoverfade.btn_small span {
+    border: none !important;
+    color: white !important;
+    transition: .25s ease-out !important;
+}
+
+form#advsearchform .page_content_ctn .searchbar button.btnv6_blue_hoverfade.btn_small:hover span {
+	color: var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+}
+
 /* end webkit */
