@@ -16184,14 +16184,14 @@ a._15eaL848WovXjJ0POHaD9D.Focusable:hover span._3W0fAmrZB7mfUJZ8QRpquy {
 }
 
 a._2Cp17yynz2h_StEQZcNnqB, a.S4kluVkVsFI- {
-    background: var(--minimal_dark_blacker) !important;
+    background: rgb(25 25 25 / 40%) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
 }
 
 a._2Cp17yynz2h_StEQZcNnqB:hover, a.S4kluVkVsFI-:hover {
-    background: var(--minimal_dark_blacker) !important;
+    background: rgb(25 25 25 / 40%) !important;
     border: 1px solid var(--minimal_dark_color1) !important;
     border-radius: var(--minimal_dark_corner) !important;
     color: var(--minimal_dark_color1) !important;
