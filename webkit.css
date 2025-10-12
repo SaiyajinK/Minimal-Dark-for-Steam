@@ -12251,7 +12251,7 @@ a.view_inactive:hover {
 }
 
 ._1UHcyIKxLXAv4x6mGw4EW3 .IZLKpdf1TW21itUMICab8 {
-    background-color: var(--minimal_dark_blacker_alt) !important;
+    background-color: var(--minimal_dark_black) !important;
 }
 
 .eix8uUJGUHI0JLnjSEQe- ._3McijuNU4rzhT_J0BnrLBR {
@@ -12676,7 +12676,7 @@ a#RecommendationVoteTagBtnsummary:hover {
 }
 
 .friend_reviews .review_box a.vote_header {
-    margin-left: -191px !important;
+    /* margin-left: -191px !important; */
 }
 
 .btn_small_thin > span, input.btn_small_thin {
@@ -13001,6 +13001,10 @@ span#VoteDownBtn_4476110736154691403:hover {
     font-size: 14px !important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_browser_overlay_close) !important;
+}
+
+._3VYLj7Kf9u3FCG4cI1gnM7, ._1JFlDaoGEUJH6J-nks7h-3 {
+    background-color: var(--minimal_dark_blacker_alt1) !important;
 }
 
 ._3lJb_YN8uykqLcm4eG1jRF._8XjrTFzaSA8ubHvHCu44L, ._3lJb_YN8uykqLcm4eG1jRF:hover {
@@ -15892,15 +15896,15 @@ button.QcCmjdiZ0nI-:hover svg path {
 /* end wishlist */
 
 ._3Z1skIYVoqLbYiP2wy46Ce, .qRybCqH-jtw- {
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: rgb(18 18 18 / 40%) !important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
 }
 
 ._3Z1skIYVoqLbYiP2wy46Ce.tHXw2oCZIXQZPrZvcoSPB, ._3Z1skIYVoqLbYiP2wy46Ce.sEmReCdwylgRBuJtn0A1G:hover, ._3Z1skIYVoqLbYiP2wy46Ce.gpfocus, .qRybCqH-jtw-:hover {
     background: linear-gradient(90deg, rgba(14, 20, 27, 0.6) 0%, rgba(163, 186, 211, 0.6) 100%);
-    background: var(--minimal_dark_blacker) !important;
+    background: rgb(18 18 18 / 40%) !important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_color1) !important;
     transition: .25s ease-out !important;
@@ -15908,7 +15912,7 @@ button.QcCmjdiZ0nI-:hover svg path {
 
 ._2GxMhpm7OC2WWXN_wjgA78, .ZaHNigq8DMs- {
     border-radius: var(--minimal_dark_corner) !important;
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: rgb(18 18 18 / 40%) !important;
     box-shadow: 8px 8px 10px 0px rgba(0,0,0,.25);
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
