@@ -1143,7 +1143,7 @@
 		"Hide scrollbars :": {
 		"tab": "Various options (8)",
 		"description": "> Hide or show scrollbars. \n\n - Hide : Hide all scrollbars on the entirety of the skin. \n - Show : Show all scrollbars on the entirety of the skin.",
-		"default": "Show",
+		"default": "Hide",
 		"values": {
 			"Show": {},
 			"Hide": {
@@ -1370,3 +1370,4 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
+
