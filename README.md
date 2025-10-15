@@ -9,12 +9,12 @@
 
 ### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
 I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have a theme with consistent colorimetry. When creating the skin, I defined a function on many elements that injects the selected color code throughout the skin (by default, whether you're on Windows 10 or Windows 11, the Steam color will be the one you chose in Windows, but you can always use a different color by clicking on the color picker).<br><br>
-ℹ️ Following the latest Millennium update (v2.29.1), the theme color selection will have to be done from the Millennium settings for full compatibility.<br><br>
+ℹ️ Following the latest Millennium update the theme color selection will have to be done from the Millennium settings for full compatibility.<br><br>
 ▪ `Steam menu` ➡️ `Millennium settings` ➡️ `General` ➡️ `Themes` ➡️ `Custom accent color`
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 79 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 80 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -247,7 +247,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options (15) : 
+## Library options (16) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -267,6 +267,14 @@ _Alt #1_ :<br>
 
 _Alt #2_ :<br>  
 <img src="https://github.com/user-attachments/assets/6b52dbad-6fa2-4724-ba91-79fbf4e0d109"></p></details>
+
+<details><summary>Alternate view of in-game friends :</summary><br>  
+
+_Default_ :<br>
+<img src="https://github.com/user-attachments/assets/04e76ac7-3f66-4d5a-8c77-b73a5d270fd9"></p>
+
+_Alternative_ :<br>  
+<img src="https://github.com/user-attachments/assets/80867f74-9e2a-4178-8757-965584b95e9b"></p></details>
 
 <details><summary>Compact collections :</summary><br>  
 
@@ -761,7 +769,7 @@ How to access to skin settings ? <br><br>
 ▪ `Steam menu` ➡️ `Millennium` ➡️ `Themes` ➡️ `Minimal Dark 3 horizontal dots (…)` ➡️ `Configure` .
 
 ### 📸 <ins>Screenchots</ins> : <br>
-<img width="832" height="497" alt="steamwebhelper_ZiAEy1cH3U" src="https://github.com/user-attachments/assets/06073800-aaac-434b-8b5c-f193f7535853" />
+<img width="832" height="497" alt="steamwebhelper_ZiAEy1cH3U" src="https://github.com/user-attachments/assets/fe89e805-b851-4706-8053-5e363d4f5ee7" />
 
 <hr>
 
