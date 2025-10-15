@@ -2045,7 +2045,7 @@ button.DialogButton:hover::before {
 }
 
 ._3cykd-VfN_xBxf3Qxriccm ._13vrqU6oOqmmxrsZSW5O39 {
-    margin-right: 9px !important;
+    margin-right: 3px !important;
     min-height: 24px !important;
     border-radius: 20px !important;
     width: 19px !important;
@@ -2059,7 +2059,7 @@ button.DialogButton:hover::before {
 }
 
 ._3cykd-VfN_xBxf3Qxriccm ._13vrqU6oOqmmxrsZSW5O39:hover {
-    margin-right: 9px !important;
+    margin-right: 3px !important;
     min-height: 24px !important;
     border-radius: 20px !important;
     width: 19px !important;
@@ -2073,7 +2073,7 @@ button.DialogButton:hover::before {
 }
 
 ._3cykd-VfN_xBxf3Qxriccm ._13vrqU6oOqmmxrsZSW5O39:active {
-    margin-right: 9px !important;
+    margin-right: 3px !important;
     min-height: 24px !important;
     border-radius: 20px !important;
     width: 19px !important;
@@ -2085,6 +2085,45 @@ button.DialogButton:hover::before {
     border: 1px solid transparent !important;
     background: transparent !important;
 	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39._2lStU4uLIW5pByb98vQdpO:hover svg._34bQcTHo5QKzuujoEyU1tm path {
+    fill: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39._2lStU4uLIW5pByb98vQdpO:active svg._34bQcTHo5QKzuujoEyU1tm path {
+    fill: white !important;
+    transition: .25s ease-out !important;
+}
+
+._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39._2lStU4uLIW5pByb98vQdpO svg._34bQcTHo5QKzuujoEyU1tm path {
+    transform: scale(.8) translate(4px, 6px) !important;
+}
+
+._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39 svg._34bQcTHo5QKzuujoEyU1tm path {
+    transform: scale(.8) translate(4px, 6px) !important;
+}
+
+._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39:hover svg._34bQcTHo5QKzuujoEyU1tm path {
+    transform: scale(.8) translate(4px, 6px) !important;
+    fill: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39:active svg._34bQcTHo5QKzuujoEyU1tm path {
+    transform: scale(.8) translate(4px, 6px) !important;
+    fill: white !important;
+    transition: .25s ease-out !important;
+}
+
+._2Szzh5sKyGgnLUR870zbDE.Utdt7JrpIm5JlpQmqyj1v._1nKxf9MhTV5zdB5iUjAgYb {
+    margin-right: 11px !important;
+}
+
+._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u ._2Szzh5sKyGgnLUR870zbDE.Utdt7JrpIm5JlpQmqyj1v {
+    margin-right: 11px !important;
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 ._13vrqU6oOqmmxrsZSW5O39._2lStU4uLIW5pByb98vQdpO, ._3arz-hc3FJ0QKXLPRUSaah._2lStU4uLIW5pByb98vQdpO {
@@ -2116,27 +2155,28 @@ button.DialogButton:hover::before {
 ._13vrqU6oOqmmxrsZSW5O39 ._34bQcTHo5QKzuujoEyU1tm {
     margin-right: 0px !important;
     border-radius: var(--minimal_dark_corner) !important;
-    width: 17px !important;
-    min-width: 17px !important;
-    height: 17px !important;
-    min-height: 17px !important;
+    width: 24px !important;
+    min-width: 24px !important;
+    height: 24px !important;
+    min-height: 24px !important;
     padding: 3px !important;
     margin-top: 1px !important;
-    border: 1px solid #8b929a59 !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     background: var(--minimal_dark_blacker_alt) !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
 }
 
 ._13vrqU6oOqmmxrsZSW5O39 ._34bQcTHo5QKzuujoEyU1tm:hover {
     margin-right: 0px !important;
     border-radius: var(--minimal_dark_corner) !important;
-    width: 17px !important;
-    min-width: 17px !important;
-    height: 17px !important;
-    min-height: 17px !important;
+    width: 24px !important;
+    min-width: 24px !important;
+    height: 24px !important;
+    min-height: 24px !important;
     padding: 3px !important;
     margin-top: 1px !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
     background: var(--minimal_dark_blacker_alt) !important;
     transition: .25s ease-out !important;
 }
@@ -2144,28 +2184,32 @@ button.DialogButton:hover::before {
 ._13vrqU6oOqmmxrsZSW5O39 ._34bQcTHo5QKzuujoEyU1tm:active {
     margin-right: 0px !important;
     border-radius: var(--minimal_dark_corner) !important;
-    width: 17px !important;
-    min-width: 17px !important;
-    height: 17px !important;
-    min-height: 17px !important;
+    width: 24px !important;
+    min-width: 24px !important;
+    height: 24px !important;
+    min-height: 24px !important;
     padding: 3px !important;
     margin-top: 1px !important;
-    border: 1px solid white !important;
     background: var(--minimal_dark_blacker_alt) !important;
-	box-shadow: inset 0 0 8px #000000c2 !important;
-	transition: .25s ease-out !important;
+    box-shadow: inset 0 0 8px #000000c2 !important;
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
 svg._34bQcTHo5QKzuujoEyU1tm {
     color: var(--minimal_dark_topgrey) !important;
+    transition: .25s ease-out !important;
 }
 
 .Utdt7JrpIm5JlpQmqyj1v:hover svg._34bQcTHo5QKzuujoEyU1tm {
     color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
 
 .Utdt7JrpIm5JlpQmqyj1v:active svg._34bQcTHo5QKzuujoEyU1tm {
     color: white !important;
+    transition: .25s ease-out !important;
 }
 
 .RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp:not(._1QQWjaXmb1eTHZpeIhQA_5):hover, .RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt:not(._1QQWjaXmb1eTHZpeIhQA_5):hover {
@@ -2415,4 +2459,9 @@ textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 ._3n8vALReUk851YHiEiWEfQ {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT.d8GPmAyQdRQwoHiPbc8Js._7AlhCx3XGzBeIrQaCneUD._2cO0HdvLEGAdhosLekWsmo:last-child {
+    padding-right: 0px !important;
+    font-size: 0px !important;
 }
