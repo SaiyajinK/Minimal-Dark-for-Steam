@@ -413,7 +413,7 @@
 		},
 		
 		"Alternative library navigation button :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Changes the appearance of the navigation arrows on the library shelves. \n\n - Default : Just arrows displayed. \n - Alternative : Arrows and grey borders.",
 		"default": "Alternative",
 		"values": {
@@ -427,7 +427,7 @@
 		},
 		
 		"Alternative games names hover effect :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Change the appearance of the game name hover in the What's New block. \n\n - Default : Left user color border on mouseover. \n - Alt #1 : Bottom user color border on mouseover. \n - Alt #2 : Full user color border on mouseover.",
 		"default": "Default",
 		"values": {
@@ -449,8 +449,22 @@
 			}
 		},
 		
+		"Alternate view of in-game friends :": {
+		"tab": "Library options (16)",
+		"description": "> Changes the appearance and layout of in-game friend icons in library. \n\n - Default : Defaut appearence. \n - Alternative : Under the game block.",
+		"default": "Alternative",
+		"values": {
+			"Default": {},
+			"Alternative": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/alt_view_igf.css"
+					}
+				}
+			}
+		},
+		
 		"Compact collections :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Make collections display compact. \n\n - No : Spacing between Steam games covers by default. \n - Yes : Smaller spacing between games covers.",
 		"default": "no",
 		"values": {
@@ -464,7 +478,7 @@
 		},
 		
 		"Compact filters :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Make the library filters block compact. \n\n - No : Default Steam filters spacing. \n - Yes : Compact filters spacing.",
 		"default": "yes",
 		"values": {
@@ -478,7 +492,7 @@
 		},
 		
 		"Compact labels (library + whats news) :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Make Hide Today, Yesterday, Last Week blocs from library and what's new compact. \n\n - Default : The labels are not glued to the border. \n - Compact : The labels are glued to the border.",
 		"default": "Compact",
 		"values": {
@@ -492,7 +506,7 @@
 		},
 		
 		"Compact library :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Make library display compact. \n\n - No : Spacing between Steam games covers by default. \n - Yes : Smaller spacing between games covers.",
 		"default": "yes",
 		"values": {
@@ -506,7 +520,7 @@
 		},
 		
 		"Compact mod :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "Removes the filter & search from the sidebar to save even more space. \n\n - Default : Display filter and search. \n - Compact : Hide filter only. \n - Ultra compact : Hide filter and search.",
 		"default": "Default",
 		"values": {
@@ -525,7 +539,7 @@
 		},
 		
 		"Compact news container :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Make the news container compact. \n\n - Steam default : Vanilla Steam size. \n - Compact #1 : Small size with small fonts. \n - Compact #2 : Small size with normal font.",
 		"default": "Compact #2",
 		"values": {
@@ -544,7 +558,7 @@
 		},
 		
 		"Hide shelf :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Hide the add shelf button in the library. \n\n - No : Show the add shelf button in the library \n - Yes : Hide the add shelf button in the library.",
 		"default": "no",
 		"values": {
@@ -558,7 +572,7 @@
 		},
 		
 		"Library labels :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Hide 'Today, Yesterday, Last Week' from library. \n\n - Show : Show labels on library and news bloc. \n - Hide : Hide labels on library only. \n - Hide all : Hide labels on library and news bloc.",
 		"default": "Show",
 		"values": {
@@ -577,7 +591,7 @@
 		},
 		
 		"Library games hover glow color :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Change the color of the glow when you hover over a game image in your library. \n\n - Default : White glow. \n - User color : User color glow.",
 		"default": "Default",
 		"values": {
@@ -591,7 +605,7 @@
 		},
 		
 		"News container :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Hide or show 'What's New' bloc in the library. \n\n - Hide : Hide 'What's New' bloc. \n - Show : Show 'What's New' bloc.",
 		"default": "Show",
 		"values": {
@@ -605,7 +619,7 @@
 		},
 		
 		"Right Sidebar :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Place the left bar on the right of the Steam client. \n\n - Left : Left sidebar. \n - Right sidebar (to enlarge the sidebar you will always have to slide to the right and not to the left).",
 		"default": "Left",
 		"values": {
@@ -619,7 +633,7 @@
 		},
 		
 		"Static hovering (paysage games of Recent Games | Play Next) :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Make paysage games mouse hover static. \n\n - Animated : Animated on mouse hover. \n - Static : Static on mouse hover.",
 		"default": "Animated",
 		"values": {
@@ -633,7 +647,7 @@
 		},
 		
 		"Static hovering (portrait games of Library | Collections) :": {
-		"tab": "Library options (15)",
+		"tab": "Library options (16)",
 		"description": "> Make portrait games mouse hover static. \n\n - Animated : Animated on mouse hover. \n - Static : Static on mouse hover.",
 		"default": "Static",
 		"values": {
@@ -1143,7 +1157,7 @@
 		"Hide scrollbars :": {
 		"tab": "Various options (8)",
 		"description": "> Hide or show scrollbars. \n\n - Hide : Hide all scrollbars on the entirety of the skin. \n - Show : Show all scrollbars on the entirety of the skin.",
-		"default": "Hide",
+		"default": "Show",
 		"values": {
 			"Show": {},
 			"Hide": {
@@ -1185,7 +1199,7 @@
 		"Alternative UI for new Steam menu :": {
 		"tab": "Webkit options (9)",
 		"description": "> The new Steam store menu has arrived, enabling this option will offer an alternative UI. \n\n - Minimal new UI : Minimal new Steam menu without modifications. \n - Minimal new UI (buttons) : Minimal new UI (buttons). \n - Compact : Minimal new Steam menu compact. \n - Ultra compact : Minimal new Steam menu ultra compact (just an icon & default size). \n - Ultra compact #1 : Minimal new Steam menu ultra compact (just an icon & compact size).",
-		"default": "Compact",
+		"default": "Ultra compact #1",
 		"values": {
 			"Minimal new UI": {},
 			"Minimal new UI (buttons)": {
@@ -1344,7 +1358,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.5.4",
+	"version": "4.5.5",
 
 	"github": {
 		"owner": "SaiyajinK",
@@ -1370,4 +1384,3 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
-
