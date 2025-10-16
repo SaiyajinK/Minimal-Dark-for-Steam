@@ -211,6 +211,18 @@
     transition: all .2s ease-in-out;
 }
 
+.FriendsListChatSection.ChatRoomListContainerParent .chatRoomListContainer {
+    height: auto !important;
+    max-height: 250px !important;
+    transition: all .25s ease-in-out !important;
+}
+
+.FriendsListChatSection.ChatRoomListContainerParent.Collapsed .chatRoomListContainer {
+    height: auto !important;
+    max-height: 0px !important;
+    transition: all .25s ease-in-out !important;
+}
+
 .friendsListSectionTitle {
     background-color: var(--minimal_dark_blacker_alt);
     display: flex;
