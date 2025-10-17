@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 80 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 81 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -117,7 +117,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (8) : 
+## Gamepage options (9) : 
 
 <details><summary>Bigger gamepage/library buttons :</summary><br>  
 
@@ -156,6 +156,14 @@ _Default_ :<br>
 
 _No header_ :<br>
 <img src="https://github.com/user-attachments/assets/32541c32-f17b-4f35-a9b7-43eaaf6399c1"></p></details>
+
+<details><summary>Header size adjustment :</summary><br>      
+
+_No_ :<br>
+<img src="https://github.com/user-attachments/assets/dfcaa548-a60b-4eae-a5ce-e5bcf9bbeeef"></p>
+
+_Yes_ :<br>
+<img src="https://github.com/user-attachments/assets/28c42b68-04d0-4c5c-b12f-89169598d596"></p></details>
 
 <details><summary>Hide 'post-party summary' / 'Would you recommend this game ?' :</summary><br>      
 
@@ -769,7 +777,7 @@ How to access to skin settings ? <br><br>
 ▪ `Steam menu` ➡️ `Millennium` ➡️ `Themes` ➡️ `Minimal Dark 3 horizontal dots (…)` ➡️ `Configure` .
 
 ### 📸 <ins>Screenchots</ins> : <br>
-<img width="832" height="497" alt="steamwebhelper_ZiAEy1cH3U" src="https://github.com/user-attachments/assets/fe89e805-b851-4706-8053-5e363d4f5ee7" />
+<img width="831,5" height="497,5" alt="steamwebhelper_IWLbbTkni5" src="https://github.com/user-attachments/assets/06746dff-ae7a-42c0-934e-e28aab2ba036" />
 
 <hr>
 
