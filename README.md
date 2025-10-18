@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 81 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 82 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -685,7 +685,7 @@ _yes (fixed)_ :<br>
 
 <hr>
 
-## Webkit options (9) : 
+## Webkit options (10) : 
 
 <details><summary>Alternative UI for new Steam menu :</summary><br>  
 
@@ -703,6 +703,14 @@ _Ultra compact_ :<br>
 
 _Ultra compact #1_ :<br> 
 <img src="https://github.com/user-attachments/assets/3b980f08-5caf-44c0-baed-bfd6ed36f4f8"></p></details>
+
+<details><summary>Blocs backgrounds :</summary><br>  
+
+_Full dark_ :<br> 
+<img src="https://github.com/user-attachments/assets/4c3f9732-7e2f-4f52-939c-c0e06c74f5ce"></p>
+
+_Blurred_ :<br> 
+<img src="https://github.com/user-attachments/assets/d2b1fe1b-cec0-463c-96b5-4e6ed7a0897a"></p></details>
 
 <details><summary>Compact Webkit :</summary><br>  
 
