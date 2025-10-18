@@ -1171,8 +1171,8 @@ html._14wqdluDeDnnEcg3OSLEmd ._2EstNjFIIZm_WUSKm5Wt7n {
 
 ._37MAYpIjl0IDA1xVhhsuX8 ._19eb8NMS53lqZR33su0kTr {
     backdrop-filter: blur(0px) brightness(0.65) saturate(0.7);
-    background: var(--minimal_dark_blacker_alt) !important;
-    transition: ease-out .25s !important;
+    background: var(--minimal_dark_blacker_alt);
+    transition: .25s ease-out !important;
 }
 
 ._1_vCR1dPfyJ7_yukwDqblf {
@@ -1465,8 +1465,8 @@ button._1iFnR7cGRa1kepep433pGx.h782PaUbu8xm3afLFh83E:hover svg path {
 }
 
 ._37MAYpIjl0IDA1xVhhsuX8>div:not(._2WEP32t2FdvHSRBiOZug83):not(._24sm_rs0RtItOALHFVIKms):not(._19eb8NMS53lqZR33su0kTr):not(.iJ6kMinIXkRkY49NT2sOx):not(._2SoWN3laHiRo1XbmPyTyPF) {
-    backdrop-filter: none !important;
-    background: var(--minimal_dark_blacker_alt) !important;
+    backdrop-filter: none;
+    background: var(--minimal_dark_blacker_alt);
     transition: .25s ease-out !important;
 }
 
@@ -1577,8 +1577,8 @@ svg._1dzQL1mVR8GTmmSi_kpDgr path {
 }
 
 ._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g {
-    width: 680px !important;
-    transform: translate(0px, -10px) !important;
+    width: 680px;
+    transform: translate(0px, -10px);
 }
 
 ._1_vCR1dPfyJ7_yukwDqblf:hover svg line {
