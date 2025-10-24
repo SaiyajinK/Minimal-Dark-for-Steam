@@ -43,8 +43,8 @@
 }
 
 ._39RheXihcN6H2k2muQTjkI ._3DeO92O5aVkcdwEBCJDjWm {
-    backdrop-filter: blur(0px) !important;
-    background: var(--minimal_dark_blacker_alt) !important;
+    backdrop-filter: blur(0px);
+    background: var(--minimal_dark_blacker_alt);
     margin-top: -1px !important;
     padding-top: 0px !important;
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
@@ -1195,7 +1195,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 
 ._2MKO5j24KqDdD-92hH5FXi {
     height: 163px !important;
-    background: var(--minimal_dark_invisiblegrey) !important;
+    background: transparent !important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_invisiblegrey) !important;
 }
