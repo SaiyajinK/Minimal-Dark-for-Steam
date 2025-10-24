@@ -7763,6 +7763,7 @@ body.v6 .deep_dive_tag {
 
 .carousel_container.paging_capsules .carousel_items > * > *:not(:last-child) {
     margin-right: 3px !important;
+    transition: .25s ease-out !important;
 }
 
 .live_streams_ctn .store_capsule:not(:last-child) {
@@ -8024,6 +8025,7 @@ div.rightcol {
 
 a.store_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked:hover {
     border-bottom: 1px solid var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
 }
 
 .account_setting_block {
@@ -9915,11 +9917,13 @@ body.v6 .sale_capsule .discount_block_inline {
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_black) !important;
     border: 1px solid var(--minimal_dark_blacker) !important;
+	transition: .25s ease-out !important;
 }
 
 .QFW0BtI4l77AFmv1xLAkx:hover {
     background: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
 }
 
 .QFW0BtI4l77AFmv1xLAkx._1B1XTNsfuwOaDPAkkr8M42 {
@@ -16225,6 +16229,7 @@ a._15eaL848WovXjJ0POHaD9D.Focusable:hover span._3W0fAmrZB7mfUJZ8QRpquy {
 
 ._2vZbFQSo3_g5s8Susyo1Wu>._1BL8JffKEwSMn-Zz6nDwMz {
     filter: saturate(.75) brightness(1) !important;
+    opacity: .15 !important;
 }
 
 .ZASQBzr8famOwE57bX0Yx .l-PuR7PfJfVDEMzpGW78f ._1QASDCrIOh5w3XlgdJQWOc {
