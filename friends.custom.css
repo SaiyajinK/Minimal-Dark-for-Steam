@@ -1,2739 +1,2842 @@
-@import url('./elements/config.css');
-
 * {
-	/* cursor: default !important; */
+  /* cursor: default !important; */
 }
 
 .focused:not(.singlewindow) .title-area-highlight {
-    opacity: 0 !important;
+  opacity: 0 !important;
 }
 
 .friendsui-container .title-area-icon {
-    width: 18px !important;
-    height: 18px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    transform: translate(-9px, 2px);
-    transition: .25s ease-out !important;
-    margin-left: 8px;
+  width: 18px !important;
+  height: 18px !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  transform: translate(-9px, 2px);
+  transition: .25s ease-out !important;
+  margin-left: 8px;
 }
 
-.friendsui-container .title-area-icon.maximizeButton svg line  {
-    stroke: var(--minimal_dark_topgrey) !important;
-    stroke-width: 8px !important;
+.friendsui-container .title-area-icon.maximizeButton svg line {
+  stroke: var(--minimal-dark-topgrey) !important;
+  stroke-width: 8px !important;
 }
 
 .friendsui-container .title-area-icon .SVGIcon_X_Line line {
-    stroke: var(--minimal_dark_topgrey) !important;
-    transition: .25s ease-out !important;
+  stroke: var(--minimal-dark-topgrey) !important;
+  transition: .25s ease-out !important;
 }
 
 .friendsui-container .title-area-icon:hover .SVGIcon_X_Line line {
-    stroke: white !important;
-    transition: .25s ease-out !important;
+  stroke: white !important;
+  transition: .25s ease-out !important;
 }
 
 .friendsui-container .title-area-icon:active .SVGIcon_X_Line line {
-    stroke: white !important;
-    transition: .25s ease-out !important;
+  stroke: white !important;
+  transition: .25s ease-out !important;
 }
 
-.title-area-icon:hover .SVGIcon_Button rect, /*.title-area-icon:hover .SVGIcon_Button line*/, .title-area-icon:hover .SVGIcon_Button polyline {
-    stroke: var(--minimal_dark_color) !important;
-    transition: stroke .15s ease-out;
+.title-area-icon:hover .SVGIcon_Button rect,
+/*.title-area-icon:hover .SVGIcon_Button line,*/
+.title-area-icon:hover .SVGIcon_Button polyline {
+  stroke: var(--minimal-dark-color) !important;
+  transition: stroke .15s ease-out;
 }
 
-.title-area-icon:hover .SVGIcon_Button rect, .title-area-icon:hover .SVGIcon_Button line, .title-area-icon:hover .SVGIcon_Button polyline {
-    stroke: var(--minimal_dark_color) !important;
-    transition: stroke .15s ease-out;
+.title-area-icon:hover .SVGIcon_Button rect,
+.title-area-icon:hover .SVGIcon_Button line,
+.title-area-icon:hover .SVGIcon_Button polyline {
+  stroke: var(--minimal-dark-color) !important;
+  transition: stroke .15s ease-out;
 }
 
-.title-area-icon:active .SVGIcon_Button rect, .title-area-icon:active .SVGIcon_Button line, .title-area-icon:active .SVGIcon_Button polyline {
-    stroke: white !important;
-    transition: stroke .15s ease-out;
+.title-area-icon:active .SVGIcon_Button rect,
+.title-area-icon:active .SVGIcon_Button line,
+.title-area-icon:active .SVGIcon_Button polyline {
+  stroke: white !important;
+  transition: stroke .15s ease-out;
 }
 
 .friendsui-container .title-area-icon.closeButton {
-    transition: .25s ease-out !important;
-    border-radius: 22px;
+  transition: .25s ease-out !important;
+  border-radius: 22px;
 }
 
 .friendsui-container .title-area-icon.closeButton:hover {
-    background: #f1244669 !important;
-    /* background: var(--minimal_dark_blacker) !important; */
-    transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_red2) !important;
-    /* border-left: 1px solid var(--minimal_dark_be_grey) !important; */
-    /* border-bottom: 1px solid var(--minimal_dark_be_grey) !important; */
-    border-radius: var(--minimal_dark_corner);
+  background: #f1244669 !important;
+  /* background: var(--minimal-dark-blacker) !important; */
+  transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-red2) !important;
+  /* border-left: 1px solid var(--minimal-dark-be-grey) !important; */
+  /* border-bottom: 1px solid var(--minimal-dark-be-grey) !important; */
+  border-radius: var(--minimal-dark-corner);
 }
 
 .friendsui-container .title-area-icon.closeButton:active {
-    background: #f1244669 !important;
-    /* background: var(--minimal_dark_blacker) !important; */
-    transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_red2) !important;
-    /* border-left: 1px solid var(--minimal_dark_be_grey) !important; */
-    /* border-bottom: 1px solid var(--minimal_dark_be_grey) !important; */
-    box-shadow: inset 0 0 8px #000000c2 !important;
-    border-radius: var(--minimal_dark_corner);
+  background: #f1244669 !important;
+  /* background: var(--minimal-dark-blacker) !important; */
+  transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-red2) !important;
+  /* border-left: 1px solid var(--minimal-dark-be-grey) !important; */
+  /* border-bottom: 1px solid var(--minimal-dark-be-grey) !important; */
+  box-shadow: inset 0 0 8px #000000c2 !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .title-area-icon.maximizeButton svg rect {
-    stroke: var(--minimal_dark_topgrey) !important;
-    transform: scale(0.85) !important;
-    x: 52px !important;
-    y: 63px !important;
+  stroke: var(--minimal-dark-topgrey) !important;
+  transform: scale(0.85) !important;
+  x: 52px !important;
+  y: 63px !important;
 }
 
 .friendsui-container .title-area-icon.maximizeButton {
-    transition: .25s ease-out !important;
-	border-radius: var(--minimal_dark_corner) !important;
+  transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .friendsui-container .title-area-icon.maximizeButton:hover {
-    transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    /* background: var(--minimal_dark_blacker_alt) !important; */
-    background: var(--minimal_dark_blacker) !important;
+  transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-top: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  /* background: var(--minimal-dark-blacker-alt) !important; */
+  background: var(--minimal-dark-blacker) !important;
 }
 
 .friendsui-container .title-area-icon.maximizeButton:active {
-    transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important;
-	box-shadow: inset 0 0 8px #000000c2 !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    /* background: var(--minimal_dark_blacker_alt) !important; */
-    background: var(--minimal_dark_blacker) !important;
+  transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-top: 1px solid var(--minimal-dark-color) !important;
+  box-shadow: inset 0 0 8px #000000c2 !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  /* background: var(--minimal-dark-blacker-alt) !important; */
+  background: var(--minimal-dark-blacker) !important;
 }
 
 .friendsui-container .title-area-icon.minimizeButton {
-    transition: .25s ease-out !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .friendsui-container .title-area-icon.minimizeButton svg {
-    transform: translateY(-4px) scale(0.9) !important;
+  transform: translateY(-4px) scale(0.9) !important;
 }
 
 .friendsui-container .title-area-icon.minimizeButton:hover {
-    transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    background: var(--minimal_dark_blacker_alt) !important;
-	background: var(--minimal_dark_blacker) !important;
+  transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-top: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  background: var(--minimal-dark-blacker) !important;
 }
 
 .friendsui-container .title-area-icon.minimizeButton:active {
-    transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important;
-	box-shadow: inset 0 0 8px #000000c2 !important;
-    border-radius: var(--minimal_dark_corner) !important;
-	background: var(--minimal_dark_blacker) !important;
+  transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-top: 1px solid var(--minimal-dark-color) !important;
+  box-shadow: inset 0 0 8px #000000c2 !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker) !important;
 }
 
 .friendsui-container .title-area-icon.restoreButton {
-    transition: .25s ease-out !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .friendsui-container .title-area-icon.restoreButton:hover {
-    transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-	background: var(--minimal_dark_blacker_alt) !important;
+  transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
 }
 
-.friendsui-container ::-webkit-scrollbar-button:vertical:increment,.friendsui-container ::-webkit-scrollbar-button:vertical:decrement {
-	display:none !important;
+.friendsui-container ::-webkit-scrollbar-button:vertical:increment,
+.friendsui-container ::-webkit-scrollbar-button:vertical:decrement {
+  display: none !important;
 }
 
 .friendsui-container ::-webkit-scrollbar-thumb {
-	background-color: var(--minimal_dark_be_grey) !important;
-	border: 4.5px solid transparent !important;
-    border-radius: 20px !important;
+  background-color: var(--minimal-dark-be-grey) !important;
+  border: 4.5px solid transparent !important;
+  border-radius: 20px !important;
 }
 
 .friendsui-container ::-webkit-scrollbar-thumb:hover {
-	background-color: var(--minimal_dark_color) !important;
-	border-radius:20px !important;
+  background-color: var(--minimal-dark-color) !important;
+  border-radius: 20px !important;
 }
 
 .friendlistListContainer {
-    overflow-y: auto;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    flex-grow: 1;
-    background: var(--minimal_dark_blacker_alt);
-    min-height: 32px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  flex-grow: 1;
+  background: var(--minimal-dark-blacker-alt);
+  min-height: 32px;
 }
 
 .friendListHeaderContainer {
-    min-height: 88px !important;
-    background-color: var(--minimal_dark_blacker_alt);
-    border-bottom: none;
-    box-shadow: inset rgba(61,68,80,.75) 1px 1px 1px 0px, inset rgba(61,68,80,.25) -1px 0px 1px 0px;
-    position: relative;
-    user-select: none;
-    flex-shrink: 0;
-    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+  min-height: 88px !important;
+  background-color: var(--minimal-dark-blacker-alt);
+  border-bottom: none;
+  box-shadow: inset rgba(61, 68, 80, .75) 1px 1px 1px 0px, inset rgba(61, 68, 80, .25) -1px 0px 1px 0px;
+  position: relative;
+  user-select: none;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 .activeTab {
-    background-color: transparent;
-    box-shadow: none !important;
-    color: var(--minimal_dark_less_white);
-    border-bottom: 0px solid var(--minimal_dark_be_grey) !important;
+  background-color: transparent;
+  box-shadow: none !important;
+  color: var(--minimal-dark-less-white);
+  border-bottom: 0px solid var(--minimal-dark-be-grey) !important;
 }
 
 .friendSearchInput[type="text"] {
-    color: var(--minimal_dark_less_white) !important;
+  color: var(--minimal-dark-less-white) !important;
 }
 
 .friendListFooter {
-    position: relative;
-    min-height: 26px;
-    background-color: var(--minimal_dark_blacker_alt);
-    flex-shrink: 0;
-    box-shadow: inset rgba(61,68,80,.3) 1px 1px 0px 0px;
+  position: relative;
+  min-height: 26px;
+  background-color: var(--minimal-dark-blacker-alt);
+  flex-shrink: 0;
+  box-shadow: inset rgba(61, 68, 80, .3) 1px 1px 0px 0px;
 }
 
 .chatRoomListContainer {
-    background: radial-gradient(ellipse farthest-corner at 20% 30%, #0a0b0d 0%, #25333a 0%, #182024 100%);
-    background: var(--minimal_dark_blacker_alt);
-    flex-shrink: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-    transition: all .2s ease-in-out;
+  background: radial-gradient(ellipse farthest-corner at 20% 30%, #0a0b0d 0%, #25333a 0%, #182024 100%);
+  background: var(--minimal-dark-blacker-alt);
+  flex-shrink: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all .2s ease-in-out;
 }
 
 .FriendsListChatSection.ChatRoomListContainerParent .chatRoomListContainer {
-    height: auto !important;
-    max-height: 250px !important;
-    transition: all .25s ease-in-out !important;
+  height: auto !important;
+  max-height: 250px !important;
+  transition: all .25s ease-in-out !important;
 }
 
 .FriendsListChatSection.ChatRoomListContainerParent.Collapsed .chatRoomListContainer {
-    height: auto !important;
-    max-height: 0px !important;
-    transition: all .25s ease-in-out !important;
+  height: auto !important;
+  max-height: 0px !important;
+  transition: all .25s ease-in-out !important;
 }
 
 .friendsListSectionTitle {
-    background-color: var(--minimal_dark_blacker_alt);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 30px;
-    user-select: none;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height: 20px;
-    text-align: left;
-    color: var(--minimal_dark_less_white) !important;
-    padding: 0;
-    position: relative;
-    border-top: 1px solid var(--minimal_dark_be_grey);
+  background-color: var(--minimal-dark-blacker-alt);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  user-select: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+  color: var(--minimal-dark-less-white) !important;
+  padding: 0;
+  position: relative;
+  border-top: 1px solid var(--minimal-dark-be-grey);
 }
 
 .friendsListSectionTitle.chatSectionTitle:hover {
-    background-color: var(--minimal_dark_blacker) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important;
+  background-color: var(--minimal-dark-blacker) !important;
+  border-top: 1px solid var(--minimal-dark-color) !important;
 }
 
 .titleBarContainer.ChatTabs {
-    background-color: var(--minimal_dark_blacker_alt) !important;
-    border: none;
-    border-bottom: none;
-    border-left: none;
-    box-shadow: inset 1px 1px 0px rgba(71,71,71,.3); !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
+  border: none;
+  border-bottom: none;
+  border-left: none;
+  box-shadow: inset 1px 1px 0px rgba(71, 71, 71, .3) !important;
 }
 
 .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj {
-    background-color: var(--minimal_dark_black) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important;
+  background-color: var(--minimal-dark-black) !important;
+  border-top: 1px solid var(--minimal-dark-color) !important;
 }
 
 .chatWindow {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    word-wrap: break-word;
-    word-break: break-word;
-    background: var(--minimal_dark_blacker_alt) !important;
-    font-size: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  word-break: break-word;
+  background: var(--minimal-dark-blacker-alt) !important;
+  font-size: 14px;
 }
 
 .chatWindow .chatEntry {
-    padding-top: 0px !important;
-    padding-left: 10px !important;
-    background-color: var(--minimal_dark_blacker_alt) !important;
+  padding-top: 0px !important;
+  padding-left: 10px !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
 }
 
 .chatWindow .chatHeader {
-    background: var(--minimal_dark_blacker) !important;
-    margin-top: 0px !important;
-    margin-bottom: 8px !important;
+  background: var(--minimal-dark-blacker) !important;
+  margin-top: 0px !important;
+  margin-bottom: 8px !important;
 }
 
 ._2gP0DqVyb1aEACymAe6if3 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    background-color: var(--minimal_dark_blacker_alt);
-    box-shadow: inset 0px 0px 4px #000;
-    outline-width: 0px;
-    color: #aaa;
-    border: 0px solid transparent;
-    padding-right: 2px;
-    border-radius: var(--minimal_dark_corner) !important;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: var(--minimal-dark-blacker-alt);
+  box-shadow: inset 0px 0px 4px #000;
+  outline-width: 0px;
+  color: #aaa;
+  border: 0px solid transparent;
+  padding-right: 2px;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 ._1IEiKQnjHpIv-m601y6hvP.K-lPMiafCuZRqjfXykujt {
-    flex: 0;
-    min-width: 46px;
-    position: relative;
-    background-color: var(--minimal_dark_black) !important;
-    margin: 0px;
-    margin-top: 0px;
-    max-width: 46px;
-    max-height: 46px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-top-left-radius: 5px !important;
-    border-bottom-left-radius: 5px !important;
+  flex: 0;
+  min-width: 46px;
+  position: relative;
+  background-color: var(--minimal-dark-black) !important;
+  margin: 0px;
+  margin-top: 0px;
+  max-width: 46px;
+  max-height: 46px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
 }
 
 ._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg {
-    flex: 0;
-    min-width: 46px;
-    position: relative;
-    background-color: var(--minimal_dark_black);
-    margin: 0px;
-    margin-top: 0px;
-    max-width: 46px;
-    max-height: 46px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 5px !important;
-    border-bottom-right-radius: 5px !important;
+  flex: 0;
+  min-width: 46px;
+  position: relative;
+  background-color: var(--minimal-dark-black);
+  margin: 0px;
+  margin-top: 0px;
+  max-width: 46px;
+  max-height: 46px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
 }
 
-.K-lPMiafCuZRqjfXykujt:hover, .K-lPMiafCuZRqjfXykujt:focus {
-    background-color: var(--minimal_dark_be_grey);
-    color: #fff;
+.K-lPMiafCuZRqjfXykujt:hover,
+.K-lPMiafCuZRqjfXykujt:focus {
+  background-color: var(--minimal-dark-be-grey);
+  color: #fff;
 }
 
 .VoiceToggle {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 ._2gP0DqVyb1aEACymAe6if3 ._1IEiKQnjHpIv-m601y6hvP {
-    align-self: flex-end;
-    min-height: 46px;
-    margin-bottom: 2px;
-    background: var(--minimal_dark_blacker_alt);
-    transition: background .3s ease;
-    border: none;
+  align-self: flex-end;
+  min-height: 46px;
+  margin-bottom: 2px;
+  background: var(--minimal-dark-blacker-alt);
+  transition: background .3s ease;
+  border: none;
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
-    border-top: .5px solid rgb(15 165 224 / 0%);
-    background: linear-gradient(to bottom, rgba(72, 87, 112, 0) 0, rgba(67, 73, 83, 0) 320px);
-    margin-top: 8px;
+  border-top: .5px solid rgb(15 165 224 / 0%);
+  background: linear-gradient(to bottom, rgba(72, 87, 112, 0) 0, rgba(67, 73, 83, 0) 320px);
+  margin-top: 8px;
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
-    border-top: .5px solid rgba(143 143 143 / 0%);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0, rgba(67, 73, 83, 0) 320px);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(67, 73, 83, 0) 320px);
-    margin-top: 8px;
+  border-top: .5px solid rgba(143 143 143 / 0%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0, rgba(67, 73, 83, 0) 320px);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(67, 73, 83, 0) 320px);
+  margin-top: 8px;
 }
 
-._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg:hover, ._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg:focus {
-    background-color: var(--minimal_dark_be_grey);
-    color: #fff;
+._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg:hover,
+._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg:focus {
+  background-color: var(--minimal-dark-be-grey);
+  color: #fff;
 }
 
 .VoiceToggle.Inactive:hover {
-    background-color: var(--minimal_dark_be_grey);
+  background-color: var(--minimal-dark-be-grey);
 }
 
 .chatFileUploadPreviewContainer {
-    background: var(--minimal_dark_black) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+  background: var(--minimal-dark-black) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 .messages_MsgWithAddons_32Uri:hover {
-    background-color: var(--minimal_dark_black);
+  background-color: var(--minimal-dark-black);
 }
 
-.DialogContent, .DialogContentTransition {
-    background: var(--minimal_dark_blacker_alt) !important;
-    user-select: none;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+.DialogContent,
+.DialogContentTransition {
+  background: var(--minimal-dark-blacker-alt) !important;
+  user-select: none;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 button.DialogButton {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
-button.DialogButton:hover, button.DialogButton.gpfocus {
-    background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-	color: var(--minimal_dark_color) !important;
+button.DialogButton:hover,
+button.DialogButton.gpfocus {
+  background: var(--minimal-dark-blacker) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
-button.DialogButton:active, button.DialogButton.gpfocus {
-    background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-	color: var(--minimal_dark_color) !important;
-	box-shadow: inset 0 0 8px #000000c2 !important;
+button.DialogButton:active,
+button.DialogButton.gpfocus {
+  background: var(--minimal-dark-blacker) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  color: var(--minimal-dark-color) !important;
+  box-shadow: inset 0 0 8px #000000c2 !important;
 }
 
 .DialogTextInputBase:not(:disabled):hover {
-    background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner);
-    /* color: var(--minimal_dark_color) !important; */
+  background: var(--minimal-dark-blacker) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner);
+  /* color: var(--minimal-dark-color) !important; */
 }
 
-.DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
-    background: var(--minimal_dark_blacker);
-    box-shadow: inset 1px 1px 4px #000a;
-    padding-left: 11px;
+.DesktopUI .DialogTextInputBase:focus,
+.DialogTextInputBase:focus-within {
+  background: var(--minimal-dark-blacker);
+  box-shadow: inset 1px 1px 4px #000a;
+  padding-left: 11px;
 }
 
 .MultiUserChat .isCurrentUser .msgText {
-    color: #6dcff6;
+  color: #6dcff6;
 }
 
 .msgText {
-    color: var(--minimal_dark_browser_overlay_close);
-    overflow: hidden;
+  color: var(--minimal-dark-browser-overlay-close);
+  overflow: hidden;
 }
 
 /* context menu ? */
 
 .friendsui-container .contextMenuItem {
-	border-top:0 !important;
-	color: var(--minimal_dark_less_white) !important;
+  border-top: 0 !important;
+  color: var(--minimal-dark-less-white) !important;
 }
 
 .friendsui-container .contextMenuGameName {
-	color: white;
+  color: white;
 }
 
 .friendsui-container .recentName {
-	color: var(--minimal_dark_light_blue);
+  color: var(--minimal-dark-light_blue);
 }
 
-.friendsui-container .contextMenuItem:hover, .friendsui-container .contextMenuItem._1KPWUt7wYWSfD3V7sYpsyT {
-	background: var(--minimal_dark_be_grey) !important;
+.friendsui-container .contextMenuItem:hover,
+.friendsui-container .contextMenuItem._1KPWUt7wYWSfD3V7sYpsyT {
+  background: var(--minimal-dark-be-grey) !important;
 }
 
-.friendsui-container .contextMenuGameTitle,.friendsui-container .contextMenuSectionContent,.friendsui-container .contextMenuGameOptions {
-	background: var(--minimal_dark_blacker_alt) !important;
+.friendsui-container .contextMenuGameTitle,
+.friendsui-container .contextMenuSectionContent,
+.friendsui-container .contextMenuGameOptions {
+  background: var(--minimal-dark-blacker-alt) !important;
 }
 
 .friendsui-container .LQkrbbayZPY11qHm01t7F {
-	background: var(--minimal_dark_black) !important;
-	border: 1px solid var(--minimal_dark_be_grey) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-black) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .friendSearchInput[type="text"]:focus {
-    background-color: var(--minimal_dark_black);
-    box-shadow: inset 0px 1px 4px #000000aa;
-    outline-width: 0px;
-    color: white;
-    padding-left: 28px;
-    background-position: 4px 4px;
+  background-color: var(--minimal-dark-black);
+  box-shadow: inset 0px 1px 4px #000000aa;
+  outline-width: 0px;
+  color: white;
+  padding-left: 28px;
+  background-position: 4px 4px;
 }
 
 .chattabs_CloseButton_7gMwY:hover .SVGIcon_X_Line line {
-    stroke: var(--minimal_dark_red2);
-    stroke-width: 30px;
+  stroke: var(--minimal-dark-red2);
+  stroke-width: 30px;
 }
 
 .chatTabSelector {
-    background: var(--minimal_dark_blacker_alt) !important;
-    width: 24px !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    margin-left: 8px !important;
-    margin-top: 0px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  width: 24px !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  margin-left: 8px !important;
+  margin-top: 0px !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 .chatTabSelector:hover {
-    background: var(--minimal_dark_black) !important;
+  background: var(--minimal-dark-black) !important;
 }
 
 .messages_SpeakerName_Online_7B6M2 {
-    color: var(--minimal_dark_topgrey);
-    font-weight: 500;
+  color: var(--minimal-dark-topgrey);
+  font-weight: 500;
 }
 
 .isCurrentUser .messages_SpeakerName_Online_7B6M2 {
-    color: var(--minimal_dark_topgrey);
-    font-weight: 500;
+  color: var(--minimal-dark-topgrey);
+  font-weight: 500;
 }
 
 .friendsListSectionTitle .SVGIcon_NewChatGroup {
-    fill: var(--minimal_dark_less_white) !important;
+  fill: var(--minimal-dark-less-white) !important;
 }
 
 .ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
-    stroke: var(--minimal_dark_less_white) !important;
+  stroke: var(--minimal-dark-less-white) !important;
 }
 
 .ChatRoomListGroupItem:hover .ChatRoomListGroupItem_header {
-    background-color: var(--minimal_dark_black) !important;
+  background-color: var(--minimal-dark-black) !important;
 }
 
 .currentUserContainer {
-    padding-right: 24px;
-    border-bottom: 0px solid rgba(67,73,83,.3);
+  padding-right: 24px;
+  border-bottom: 0px solid rgba(67, 73, 83, .3);
 }
 
 ._17ewzMiLZXQiOFFbpXAZdw {
-    display: none;
+  display: none;
 }
 
 .chatRoomButton .SVGIcon_Button {
-    fill: var(--minimal_dark_be_grey) !important;
+  fill: var(--minimal-dark-be-grey) !important;
 }
 
-.inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line {
-    stroke: var(--minimal_dark_be_grey) !important;
+.inviteAnotherFriendButton .SVGIcon_Button line,
+.chatRoomButton .SVGIcon_Button line {
+  stroke: var(--minimal-dark-be-grey) !important;
 }
 
-.inviteAnotherFriendButton:hover .SVGIcon_Button line, .chatRoomButton:hover:not(.Disabled) .SVGIcon_Button line {
-    stroke: var(--minimal_dark_color) !important;
+.inviteAnotherFriendButton:hover .SVGIcon_Button line,
+.chatRoomButton:hover:not(.Disabled) .SVGIcon_Button line {
+  stroke: var(--minimal-dark-color) !important;
 }
 
 .pagedcontent_Nav_1Vqsn {
-    background: var(--minimal_dark_blacker) !important;
+  background: var(--minimal-dark-blacker) !important;
 }
 
 .pagedcontent_Content_2mJpA {
-    background: var(--minimal_dark_blacker_alt) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
 }
 
 .inviteLinkContainer .DialogInput_Wrapper._DialogLayout {
-    background: none !important;
+  background: none !important;
 }
 
 .inviteLinkContainer .DialogDropDown._DialogInputContainer {
-    background-color: var(--minimal_dark_black) !important;
+  background-color: var(--minimal-dark-black) !important;
 }
 
 .inviteLinkContainer .DialogDropDown._DialogInputContainer:hover {
-    color: #fff;
-    background-color: var(--minimal_dark_be_grey) !important;
+  color: #fff;
+  background-color: var(--minimal-dark-be-grey) !important;
 }
 
 .inviteLinkContainer .DialogInputLabelGroup .DialogInput {
-    background: var(--minimal_dark_black) !important;
+  background: var(--minimal-dark-black) !important;
 }
 
-.DialogTextInputBase:disabled, .DialogTextInputBase:read-only {
-    color: var(--minimal_dark_progress_bar) !important;
+.DialogTextInputBase:disabled,
+.DialogTextInputBase:read-only {
+  color: var(--minimal-dark-progress-bar) !important;
 }
 
-.inviteAnotherFriendButton:hover, .chatRoomButton:hover:not(.Disabled) .SVGIcon_Button:hover {
-    fill: var(--minimal_dark_color) !important;
-    /* border: 1px solid var(--minimal_dark_color) !important; */
+.inviteAnotherFriendButton:hover,
+.chatRoomButton:hover:not(.Disabled) .SVGIcon_Button:hover {
+  fill: var(--minimal-dark-color) !important;
+  /* border: 1px solid var(--minimal-dark-color) !important; */
 }
 
 .chatRoomGroupHeaderName {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .chatRoomGroupHeaderName {
-    color: var(--minimal_dark_be_grey) !important;
+  color: var(--minimal-dark-be-grey) !important;
 }
 
 .ToggleGroupChatList {
-    padding-left: 10px;
-    padding-right: 10px;
-	width: 15px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 15px !important;
 }
 
 .ToggleGroupChatList:hover .SVGIcon_DoubleArrow:hover polyline {
-    stroke: var(--minimal_dark_color) !important;
+  stroke: var(--minimal-dark-color) !important;
 }
 
 .FriendsListChatSection.ChatRoomListContainerParent.Collapsed .ToggleGroupChatList .SVGIcon_DoubleArrow {
-    transform: rotateZ(90deg);
-    transition: all .2s ease-in-out;
+  transform: rotateZ(90deg);
+  transition: all .2s ease-in-out;
 }
 
 .FriendsListChatSection.ChatRoomListContainerParent .ToggleGroupChatList .SVGIcon_DoubleArrow {
-    transition: all .2s ease-in-out;
-    transform: rotate(-90deg);
+  transition: all .2s ease-in-out;
+  transform: rotate(-90deg);
 }
 
 .ScrollToBottomButton>span {
-    background: var(--minimal_dark_blacker_alt) !important;
-    color: var(--minimal_dark_color) !important;
-    border-top: 1px solid var(--minimal_dark_color) !important;
-    border-right: 1px solid var(--minimal_dark_color) !important;
-    border-left: 1px solid var(--minimal_dark_color) !important;
-	border-top-left-radius: var(--minimal_dark_corner) !important;
-    border-top-right-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  color: var(--minimal-dark-color) !important;
+  border-top: 1px solid var(--minimal-dark-color) !important;
+  border-right: 1px solid var(--minimal-dark-color) !important;
+  border-left: 1px solid var(--minimal-dark-color) !important;
+  border-top-left-radius: var(--minimal-dark-corner) !important;
+  border-top-right-radius: var(--minimal-dark-corner) !important;
 }
 
 .ScrollToBottomButton>span:hover {
-    background: var(--minimal_dark_color) !important;
-	color: white !important;
-    transition: .25s ease-out !important;
-	border-top: 1px solid var(--minimal_dark_be_grey) !important;
-    border-right: 1px solid var(--minimal_dark_be_grey) !important;
-    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+  background: var(--minimal-dark-color) !important;
+  color: white !important;
+  transition: .25s ease-out !important;
+  border-top: 1px solid var(--minimal-dark-be-grey) !important;
+  border-right: 1px solid var(--minimal-dark-be-grey) !important;
+  border-left: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 .chatRoomTextChannel.ActiveTextChannel {
-    background-color: #2e3c44;
-    background-color: var(--minimal_dark_black) !important;
+  background-color: #2e3c44;
+  background-color: var(--minimal-dark-black) !important;
 }
 
 .ChannelTypeTitle {
-    color: var(--minimal_dark_less_white) !important;
+  color: var(--minimal-dark-less-white) !important;
 }
 
 .chatRoomGroupNavColumn .chatRoomGroupNavCollapseExpand {
-    margin-right: 6px;
-    right: -12px;
+  margin-right: 6px;
+  right: -12px;
 }
 
 .ChannelTypeTitle .ChannelTypeLabel:hover:not(.NoPermission) {
-    color: var(--minimal_dark_color);
+  color: var(--minimal-dark-color);
 }
 
 .chatRoomGroupHeaderTagline {
-    color: var(--minimal_dark_browser_overlay_close) !important;
+  color: var(--minimal-dark-browser-overlay-close) !important;
 }
 
 .friendsui-container .SVGIcon_Pin.Pinned .head {
-    fill: var(--minimal_dark_red2) !important;
+  fill: var(--minimal-dark-red2) !important;
 }
+
 .friendsui-container .SVGIcon_Pin .head {
-    stroke: var(--minimal_dark_invisiblegrey) !important;
+  stroke: var(--minimal-dark-invisiblegrey) !important;
 }
 
 .ChatRoomAddRoomBtn .SVGIcon_PlusCircle {
-    stroke: var(--minimal_dark_color) !important;
+  stroke: var(--minimal-dark-color) !important;
 }
 
 .friendsui-container .SVGIcon_Pin .head {
-    fill: var(--minimal_dark_red2) !important;
-    stroke: var(--minimal_dark_invisiblegrey) !important;
+  fill: var(--minimal-dark-red2) !important;
+  stroke: var(--minimal-dark-invisiblegrey) !important;
 }
 
 .friendsui-container .SVGIcon_Pin .point {
-	transition: all .21s ease-in-out;
-    fill: var(--minimal_dark_less_white) !important;
+  transition: all .21s ease-in-out;
+  fill: var(--minimal-dark-less-white) !important;
 }
 
 .friendsui-container .SVGIcon_Pin:hover {
-    filter: brightness(1.5);
+  filter: brightness(1.5);
 }
 
 .chatRoomGroupNavCollapsed .chatRoomTextChannel.ActiveTextChannel:hover {
-    background: var(--minimal_dark_blacker) !important;
+  background: var(--minimal-dark-blacker) !important;
 }
 
 .namedGroup .chatRoomGroupHeader {
-    padding: 6px 12px 6px 12px !important;
-    background: var(--minimal_dark_blacker_alt) !important;
-    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+  padding: 6px 12px 6px 12px !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  border-bottom: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 .ChatRoomAddRoomBtn:hover:not(.NoPermission) .SVGIcon_PlusCircle {
-    filter: brightness(1.2);
+  filter: brightness(1.2);
 }
 
 .groupName:hover .ExpandPlusMinus .SVGIcon_PlusCircle line {
-    stroke: var(--minimal_dark_color);
+  stroke: var(--minimal-dark-color);
 }
 
-.addFriendButton:hover .SVGIcon_AddFriend .friendHead, .addFriendButton:hover .SVGIcon_AddFriend .friendBody {
-    color: var(--minimal_dark_color);
+.addFriendButton:hover .SVGIcon_AddFriend .friendHead,
+.addFriendButton:hover .SVGIcon_AddFriend .friendBody {
+  color: var(--minimal-dark-color);
 }
 
 .friendsListSectionTitle .createChatRoomButton:hover .SVGIcon_NewChatGroup {
-    fill: var(--minimal_dark_color) !important;
+  fill: var(--minimal-dark-color) !important;
 }
 
 .friendsListSectionTitle .SVGIcon_NewChatGroup:hover line {
-    stroke: white !important;
+  stroke: white !important;
 }
 
 .ExpandPlusMinus .SVGIcon_PlusCircle {
-    margin-left: -5px !important;
-	transform: scale(1.25) !important;
+  margin-left: -5px !important;
+  transform: scale(1.25) !important;
 }
 
 .friendGroup .groupName {
-    margin-left: 15px !important;
-    padding-bottom: 10px !important;
-    margin-top: 0px !important;
+  margin-left: 15px !important;
+  padding-bottom: 10px !important;
+  margin-top: 0px !important;
 }
 
-.friendlistListContainer .friend .avatarHolder .avatarStatus, .FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
-    /* display: block; */
-	display: none !important;
-    position: absolute;
-    right: 0;
-    top: 1px;
-    left: 29px;
-    bottom: 0;
-    width: 6px;
-    height: 6px;
-    border-radius: var(--minimal_dark_corner) !important;
+.friendlistListContainer .friend .avatarHolder .avatarStatus,
+.FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
+  /* display: block; */
+  display: none !important;
+  position: absolute;
+  right: 0;
+  top: 1px;
+  left: 29px;
+  bottom: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 ._2nrSdZqzl3e01VZleoVaWp {
-    display: flex;
-    flex-direction: column;
-    width: calc(100% - 30px);
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 30px);
 }
 
 .titleBarContainer .currentUserContainer ._27M2GicEvwcoEI5R0FSKi9 ._1k82NiWym4STegDGxRBHz2 {
-    margin-top: 0px;
-    opacity: .75;
+  margin-top: 0px;
+  opacity: .75;
 }
 
 .groupMemberList ._27M2GicEvwcoEI5R0FSKi9 ._1k82NiWym4STegDGxRBHz2 {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
-	display:none !important;
+  display: none !important;
 }
 
 .msg.serverMsg .msgText {
-    display: none !important;
+  display: none !important;
 }
 
 .chattabs_CloseButton_7gMwY {
-    width: 14px;
-    height: 14px;
+  width: 14px;
+  height: 14px;
 }
 
 .online ._1yIzy56YfJIliF6ykwhP2r {
-    /* background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%) !important; */
-    background: transparent !important;
-	box-shadow: none !important;
+  /* background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%) !important; */
+  background: transparent !important;
+  box-shadow: none !important;
 }
 
 .ingame ._1yIzy56YfJIliF6ykwhP2r {
-    /* background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%) !important; */
-    background: transparent !important;
+  /* background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%) !important; */
+  background: transparent !important;
 }
 
 .ingame.awayOrSnooze ._1yIzy56YfJIliF6ykwhP2r {
-    /* background: orange !important; */
-	background: transparent !important;
+  /* background: orange !important; */
+  background: transparent !important;
 }
 
 .awayOrSnooze ._1yIzy56YfJIliF6ykwhP2r {
-    /* background: orange !important; */
-	background: transparent !important;
+  /* background: orange !important; */
+  background: transparent !important;
 }
 
 .offline ._1yIzy56YfJIliF6ykwhP2r {
-    /* background: #7a7a7a !important; */
-    background: transparent !important;
+  /* background: #7a7a7a !important; */
+  background: transparent !important;
 }
 
 .chattabs_ChatTabContent_Friend_2ZiZ7 .friend .avatarHolder .avatarStatus {
-    right: 1px !important;
-    top: 1px !important;
-    width: 6px !important;
-    height: 6px !important;
+  right: 1px !important;
+  top: 1px !important;
+  width: 6px !important;
+  height: 6px !important;
 }
 
 ._3atbNcPD1_nRVTjOvryjWe ._338kJp62vHY5iDbsraaiKD {
-    display: none !important;
+  display: none !important;
 }
 
 ._2nrSdZqzl3e01VZleoVaWp {
-    display: flex;
-    flex-direction: column;
-    width: calc(100% - 30px);
-    margin-left: 0px !important;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 30px);
+  margin-left: 0px !important;
 }
 
 ._3atbNcPD1_nRVTjOvryjWe ._338kJp62vHY5iDbsraaiKD {
-    display: none !important;
+  display: none !important;
 }
 
 ._2nrSdZqzl3e01VZleoVaWp {
-    margin-left: 0px !important;
+  margin-left: 0px !important;
 }
 
 .friend.firstInGroup .SteamPlayerGroupLines {
-    height: 24px;
-    margin-top: 18px;
-    border-left: 1px solid var(--minimal_dark_color);
-    border-top: 1px solid var(--minimal_dark_color);
-    border-top-left-radius: 6px;
+  height: 24px;
+  margin-top: 18px;
+  border-left: 1px solid var(--minimal-dark-color);
+  border-top: 1px solid var(--minimal-dark-color);
+  border-top-left-radius: 6px;
 }
 
-.friend.lastInGroup .SteamPlayerGroupLines, .SteamPlayerGroupFooter .SteamPlayerGroupLines {
-    height: 24px;
-    border-left: 1px solid var(--minimal_dark_color);
-    border-bottom: 1px solid var(--minimal_dark_color);
-    margin-top: -15px;
-    border-bottom-left-radius: 6px;
+.friend.lastInGroup .SteamPlayerGroupLines,
+.SteamPlayerGroupFooter .SteamPlayerGroupLines {
+  height: 24px;
+  border-left: 1px solid var(--minimal-dark-color);
+  border-bottom: 1px solid var(--minimal-dark-color);
+  margin-top: -15px;
+  border-bottom-left-radius: 6px;
 }
 
 .speakerTimeStamp {
-    align-self: auto !important;
-    color: rgb(169 169 169 / 40%) !important;
-    transform: translate(-34px, 4px) !important;
-    margin-top: 2px !important;
+  align-self: auto !important;
+  color: rgb(169 169 169 / 40%) !important;
+  transform: translate(-34px, 4px) !important;
+  margin-top: 2px !important;
 }
 
 ._3EzTyjJx_tZUEIHygPwAeC.online ._1DArl3Gs9lXPcZdmCIlDJa {
-    color: orange !important;
+  color: orange !important;
 }
 
 .awayOrSnooze ._1k82NiWym4STegDGxRBHz2 {
-    color: orange !important;
-	opacity: .75 !important;
+  color: orange !important;
+  opacity: .75 !important;
 }
 
 ._1YsWjZbxFewllb2PX6ZhNm._3pGV8dWHnZMYHcytHxo6pw {
-    margin-top: -2px;
-    margin-left: -1px;
-    opacity: .75;
+  margin-top: -2px;
+  margin-left: -1px;
+  opacity: .75;
 }
 
 
 
 .awayOrSnooze .r62qzcdJQ0qezZglOtiUX {
-    color: orange !important;
+  color: orange !important;
 }
 
 ._1YsWjZbxFewllb2PX6ZhNm.online .SVGIcon_MobilePhone path {
-    fill: #4c91ac !important;
+  fill: #4c91ac !important;
 }
 
 ._1YsWjZbxFewllb2PX6ZhNm.awayOrSnooze .SVGIcon_MobilePhone path {
-    fill: orange !important;
+  fill: orange !important;
 }
 
 .MultiUserChat .msg:not(.ChatMsgSlashEmote) {
-    padding-left: 46px !important;
+  padding-left: 46px !important;
 }
 
 ._3EzTyjJx_tZUEIHygPwAeC.in-game ._1DArl3Gs9lXPcZdmCIlDJa {
-    color: orange !important;
+  color: orange !important;
 }
 
 .chatDialogs {
-    background: var(--minimal_dark_blacker_alt) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
 }
 
 .singleWindowDivider {
-    background-color: #1b1b1b !important;
+  background-color: #1b1b1b !important;
 }
 
-.resizingSingleWindow .singleWindowDivider, .singleWindowDivider:hover {
-    background-color: var(--minimal_dark_be_grey) !important;
+.resizingSingleWindow .singleWindowDivider,
+.singleWindowDivider:hover {
+  background-color: var(--minimal-dark-be-grey) !important;
 }
 
-._1ZlvfuG4Q4e9GfTYNuNI5b, ._3Z36hMlC0g5rhADc86JeV8 ._1ZlvfuG4Q4e9GfTYNuNI5b {
-    color: var(--minimal_dark_color) !important;
+._1ZlvfuG4Q4e9GfTYNuNI5b,
+._3Z36hMlC0g5rhADc86JeV8 ._1ZlvfuG4Q4e9GfTYNuNI5b {
+  color: var(--minimal-dark-color) !important;
 }
 
 .X2iywwN7fcdh9zXpXVsrk {
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
-    border-top: 1px solid var(--minimal_dark_greyblack) !important;
-    margin-left: 6px !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border-left: 1px solid var(--minimal_dark_be_grey) !important;
-    border-right: 1px solid var(--minimal_dark_be_grey) !important;
-    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
-	height: 40px !important;
-	margin: 2px 0px 2px 6px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-top: 1px solid var(--minimal-dark-greyblack) !important;
+  margin-left: 6px !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border-left: 1px solid var(--minimal-dark-be-grey) !important;
+  border-right: 1px solid var(--minimal-dark-be-grey) !important;
+  border-bottom: 1px solid var(--minimal-dark-be-grey) !important;
+  height: 40px !important;
+  margin: 2px 0px 2px 6px !important;
 }
 
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
-    border: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    height: 40px !important;
-    margin: 2px 0px 2px 6px !important;
-    background: radial-gradient(circle, rgba(2,0,36,0) -147%, rgba(26, 26, 26, .1) 100%) !important;
-    background-color: var(--minimal_dark_blacker_alt) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  height: 40px !important;
+  margin: 2px 0px 2px 6px !important;
+  background: radial-gradient(circle, rgba(2, 0, 36, 0) -147%, rgba(26, 26, 26, .1) 100%) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
 }
 
-.X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:before, .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk+.X2iywwN7fcdh9zXpXVsrk:before, .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:last-of-type:after, .X2iywwN7fcdh9zXpXVsrk:first-of-type:before {
-    display: none !important;
+.X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:before,
+.X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk+.X2iywwN7fcdh9zXpXVsrk:before,
+.X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:last-of-type:after,
+.X2iywwN7fcdh9zXpXVsrk:first-of-type:before {
+  display: none !important;
 }
 
-.X2iywwN7fcdh9zXpXVsrk::before, .X2iywwN7fcdh9zXpXVsrk:last-of-type::after {
-    background: var(--minimal_dark_be_grey) !important;
-    top: 0px !important;
-    bottom: 0px !important;
-    width: 1px !important;
-	display: none !important;
+.X2iywwN7fcdh9zXpXVsrk::before,
+.X2iywwN7fcdh9zXpXVsrk:last-of-type::after {
+  background: var(--minimal-dark-be-grey) !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  width: 1px !important;
+  display: none !important;
 }
 
 .VUHcmgCbu1oxey7ydJHP2 {
-    background-color: var(--minimal_dark_blacker) !important;
-    background: var(--minimal_dark_blacker) !important;
-    box-shadow: none !important;
-    padding: 0px !important;
+  background-color: var(--minimal-dark-blacker) !important;
+  background: var(--minimal-dark-blacker) !important;
+  box-shadow: none !important;
+  padding: 0px !important;
 }
 
 ._3kEgIPZCMTtXeWWzzRLo4K:hover {
-    background-color: var(--minimal_dark_black) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background-color: var(--minimal-dark-black) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .inviteAnotherFriendButton:hover .SVGIcon_Button {
-    fill: var(--minimal_dark_color) !important;
+  fill: var(--minimal-dark-color) !important;
 }
 
 .FriendChatTypingNotification {
-    background-color: none !important;
-    background: none !important;
+  background-color: none !important;
+  background: none !important;
 }
 
 ._1IEiKQnjHpIv-m601y6hvP:not(._2GM2kkVRqL-SdkG4oQjUzY) .SVGIcon_Button.SVGIcon_Submit path {
-    fill: var(--minimal_dark_color) !important;
+  fill: var(--minimal-dark-color) !important;
 }
 
 ._2gP0DqVyb1aEACymAe6if3 ._1IEiKQnjHpIv-m601y6hvP:not(._2GM2kkVRqL-SdkG4oQjUzY) {
-    background: none !important;
+  background: none !important;
 }
 
 ._3o6fvTcJst7E2CI8mm7R5T {
-    background: var(--minimal_dark_blacker) !important;
+  background: var(--minimal-dark-blacker) !important;
 }
 
 .APT8A-fjMRZ55HRAs5T1i {
-    background: none !important;
+  background: none !important;
 }
 
 ._DialogRow._DialogRowBackground {
-    background: var(--minimal_dark_blacker) !important;
+  background: var(--minimal-dark-blacker) !important;
 }
 
-.DialogSpanningTable.BannedUsersTable tr.hoverRow, .DialogSpanningTable.InvitedUsersTable tr.hoverRow, .DialogSpanningTable.InviteLinksTable tbody tr {
-    background: var(--minimal_dark_blacker) !important;
+.DialogSpanningTable.BannedUsersTable tr.hoverRow,
+.DialogSpanningTable.InvitedUsersTable tr.hoverRow,
+.DialogSpanningTable.InviteLinksTable tbody tr {
+  background: var(--minimal-dark-blacker) !important;
 }
 
 ._1IEiKQnjHpIv-m601y6hvP:not(._2GM2kkVRqL-SdkG4oQjUzY) .SVGIcon_Button.SVGIcon_Submit path:hover {
-    fill: var(--minimal_dark_color) !important;
-    filter: brightness(1.25) !important;
+  fill: var(--minimal-dark-color) !important;
+  filter: brightness(1.25) !important;
 }
 
 .confirmInviteRequestContainer .confirmInviteButton {
-    background-color: var(--minimal_dark_black) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+  background-color: var(--minimal-dark-black) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .confirmInviteRequestContainer .confirmInviteButton:hover {
-    background-color: var(--minimal_dark_be_grey) !important;
+  background-color: var(--minimal-dark-be-grey) !important;
 }
 
-.friendInviteButton.bright.acceptFriendInvite, .friendInviteButton.bright.declineFriendInvite {
-    background-color: var(--minimal_dark_black) !important;
+.friendInviteButton.bright.acceptFriendInvite,
+.friendInviteButton.bright.declineFriendInvite {
+  background-color: var(--minimal-dark-black) !important;
 }
 
-.friendInviteButton.bright.acceptFriendInvite:hover, .friendInviteButton.bright.declineFriendInvite:hover {
-    background-color: var(--minimal_dark_be_grey) !important;
+.friendInviteButton.bright.acceptFriendInvite:hover,
+.friendInviteButton.bright.declineFriendInvite:hover {
+  background-color: var(--minimal-dark-be-grey) !important;
 }
 
 .confirmInviteButton.confirmInvites {
-    background: var(--minimal_dark_color) !important;
-    color: white !important;
-	text-shadow: 0px 1px 4px black;
+  background: var(--minimal-dark-color) !important;
+  color: white !important;
+  text-shadow: 0px 1px 4px black;
 }
 
-.friendRequestButton:hover .SVGIcon_FriendRequest .friendHead, .friendRequestButton:hover .SVGIcon_FriendRequest .friendArm, .friendRequestButton:hover .SVGIcon_FriendRequest .friendBody, .friendRequestButton:hover .SVGIcon_FriendRequest .friendBodyFull {
-    fill: var(--minimal_dark_color) !important;
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendHead,
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendArm,
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendBody,
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendBodyFull {
+  fill: var(--minimal-dark-color) !important;
 }
 
 .TabSearchButton:hover .ColorSelector {
-    stroke: var(--minimal_dark_color) !important;
-    fill: var(--minimal_dark_color) !important;
+  stroke: var(--minimal-dark-color) !important;
+  fill: var(--minimal-dark-color) !important;
 }
 
 .friendSearchClear .SVGIcon_X_Line line {
-    stroke: var(--minimal_dark_red2) !important;
+  stroke: var(--minimal-dark-red2) !important;
 }
 
 .friendSearchClear .SVGIcon_X_Line:hover line {
-    stroke: var(--minimal_dark_red2) !important;
+  stroke: var(--minimal-dark-red2) !important;
 }
 
 .socialInputContainer .friendSearchInput[type="text"] {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    height: 20px !important;
-	
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  height: 20px !important;
+
 }
 
 .TabSearchButton:hover {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
-.friendGroup .friend, .friendGroup .SteamPlayerGroupFooter {
-    margin: 2px 16px 2px 16px !important;
-    border: 1px solid #262626c9 !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    padding-right: 12px !important;
-    transition: .25s ease-out !important;
+.friendGroup .friend,
+.friendGroup .SteamPlayerGroupFooter {
+  margin: 2px 16px 2px 16px !important;
+  border: 1px solid #262626c9 !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  padding-right: 12px !important;
+  transition: .25s ease-out !important;
 }
 
 .friend.quickAccessFriend .playerNameQuickAccessContainer .playerName {
-    padding-top: 17px !important;
+  padding-top: 17px !important;
 }
 
-.friendStatusHover.online:hover, .friendStatusHover.online.Friend_ContextMenuActive {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid rgb(109 207 246 / 40%)  !important;
-	transition: .25s ease-out !important;
-	/* width: auto !important; */
+.friendStatusHover.online:hover,
+.friendStatusHover.online.Friend_ContextMenuActive {
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid rgb(109 207 246 / 40%) !important;
+  transition: .25s ease-out !important;
+  /* width: auto !important; */
 }
 
-.friendStatusHover.offline:hover, .friendStatusHover.offline.Friend_ContextMenuActive {
-    background-color: rgb(64 64 64 / 20%) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid #808080bf !important;
-    transition: .25s ease-out !important;
-    /* width: auto !important; */
+.friendStatusHover.offline:hover,
+.friendStatusHover.offline.Friend_ContextMenuActive {
+  background-color: rgb(64 64 64 / 20%) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid #808080bf !important;
+  transition: .25s ease-out !important;
+  /* width: auto !important; */
 }
 
 .addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
-    color: var(--minimal_dark_progress_bar) !important;
+  color: var(--minimal-dark-progress-bar) !important;
 }
 
-.friendStatusHover.ingame:hover, .friendStatusHover.ingame.Friend_ContextMenuActive {
-    border: 1px solid rgb(227 255 194 / 40%) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-	transition: .25s ease-out !important;
-	/* width: auto !important; */
+.friendStatusHover.ingame:hover,
+.friendStatusHover.ingame.Friend_ContextMenuActive {
+  border: 1px solid rgb(227 255 194 / 40%) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  transition: .25s ease-out !important;
+  /* width: auto !important; */
 }
 
-.friendStatusHover.awayOrSnooze:hover, .friendStatusHover.awayOrSnooze.Friend_ContextMenuActive {
-    border: 1px solid rgb(255 192 76 / 40%) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    background-color: rgb(255 192 76 / 2%) !important;
-	transition: .25s ease-out !important;
-	/* width: auto !important; */
+.friendStatusHover.awayOrSnooze:hover,
+.friendStatusHover.awayOrSnooze.Friend_ContextMenuActive {
+  border: 1px solid rgb(255 192 76 / 40%) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  background-color: rgb(255 192 76 / 2%) !important;
+  transition: .25s ease-out !important;
+  /* width: auto !important; */
 }
 
-.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-    padding: 2px 0px 2px 12px !important;
+.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter,
+.friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
+  padding: 2px 0px 2px 12px !important;
 }
 
 .ChatMessageEntryVoice {
-    border-radius: var(--minimal_dark_corner) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
-._1X1-nhi0oX1Wy7y1mEIc1o, ._3grea2u6WuuGLHj9gJFmzY {
-    border-radius: var(--minimal_dark_corner) !important;
+._1X1-nhi0oX1Wy7y1mEIc1o,
+._3grea2u6WuuGLHj9gJFmzY {
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .pewyBQoFSgFWo_Ms99aRm {
-    padding-left: 10px !important;
+  padding-left: 10px !important;
 }
 
 ._2HYiy2iyfdo7xMy_a1Cjhq {
-    background-color: var(--minimal_dark_blacker_alt) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR ._1BUWXzey55_H5QKdz6Olrn {
-    background: var(--minimal_dark_be_grey) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-be-grey) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR ._1BUWXzey55_H5QKdz6Olrn:hover {
-    background: var(--minimal_dark_color) !important;
+  background: var(--minimal-dark-color) !important;
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR ._1BUWXzey55_H5QKdz6Olrn:active {
-    background: rgba(26, 26, 26, .25) !important;
+  background: rgba(26, 26, 26, .25) !important;
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR .nKXfubhpv_zmmMcEsbg0B {
-    color: var(--minimal_dark_red2) !important;
+  color: var(--minimal-dark-red2) !important;
 }
 
 ._1p_QrI3ixF-RAwnxad9pEm {
-    border-radius: var(--minimal_dark_corner) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 html.client_chat_frame body {
-    /* background: var(--minimal_dark_blacker_alt) !important; */
-    background: transparent !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  /* background: var(--minimal-dark-blacker-alt) !important; */
+  background: transparent !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 html.web_chat_frame body {
-    background: var(--minimal_dark_blacker_alt) !important;
-    /* background: transparent !important; */
-    border-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  /* background: transparent !important; */
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .HoverPositionPopup .miniProfileHoverInner {
-    border-radius: var(--minimal_dark_corner) !important;
-	border: 1px solid var(--minimal_dark_be_grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 ._2SW_Y5HHBZR-uC8LI36lQM {
-    background-color: transparent !important;
-	display: none !important;
+  background-color: transparent !important;
+  display: none !important;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 {
-    width: 326px !important;
-    height: auto !important;
+  width: 326px !important;
+  height: auto !important;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 .TzmYo1OP0E5U3PkUBq2zY {
-    height: auto !important;
+  height: auto !important;
 }
 
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7 {
-    background-color: rgba(26, 26, 26, .25) !important;
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-    padding-left: 9px !important;
-    color: var(--minimal_dark_color) !important;
-    font-weight: 400 !important;
-    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%) !important;
-    font-size: 11px;
-    border-radius: var(--minimal_dark_corner) !important;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-    border: 2px solid var(--minimal_dark_blacker) !important;
+  background-color: rgba(26, 26, 26, .25) !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 9px !important;
+  color: var(--minimal-dark-color) !important;
+  font-weight: 400 !important;
+  text-shadow: 0px 2px 3px rgb(0 0 0 / 30%) !important;
+  font-size: 11px;
+  border-radius: var(--minimal-dark-corner) !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  border: 2px solid var(--minimal-dark-blacker) !important;
 }
 
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7 .o_39qE2DKxFG3q0A-UZCM {
-    font-size: 11px;
-    letter-spacing: 1px !important;
+  font-size: 11px;
+  letter-spacing: 1px !important;
 }
 
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7:hover {
-    color: white !important;
-    text-shadow: 2px 1px 1px rgb(0 0 0 / 30%) !important;
-    background-color: var(--minimal_dark_color) !important;
-	border: 2px solid var(--minimal_dark_be_grey) !important;
-	border-radius: var(--minimal_dark_corner) !important;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
+  color: white !important;
+  text-shadow: 2px 1px 1px rgb(0 0 0 / 30%) !important;
+  background-color: var(--minimal-dark-color) !important;
+  border: 2px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
 }
 
 ._3uFt_Oop_phBX9z6ihWdKR {
-    color: var(--minimal_dark_color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
 ._2NVbSaqD0yWMMczl37cIAE {
-    background-color: var(--minimal_dark_black) !important;
-    padding: 10px !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+  background-color: var(--minimal-dark-black) !important;
+  padding: 10px !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 2px solid var(--minimal-dark-be-grey) !important;
 }
 
 ._1Bb6hYT7xcWUmYUrQmo6nl {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 2px solid var(--minimal_dark_be_grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 2px solid var(--minimal-dark-be-grey) !important;
 }
 
 ._3o7CShdvV_024QlCPNanTb.IqjmSkutoVlArzd8wO2Xa {
-    background-color: var(--minimal_dark_black) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    color: white !important;
+  background-color: var(--minimal-dark-black) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  color: white !important;
 }
 
 ._3o7CShdvV_024QlCPNanTb.IqjmSkutoVlArzd8wO2Xa:hover {
-    background-color: var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    color: white !important;
+  background-color: var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  color: white !important;
 }
 
 .qOHK85tePDcrS6OEMTwm2 {
-    padding: 2px !important;
-    background-color: var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  padding: 2px !important;
+  background-color: var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .qOHK85tePDcrS6OEMTwm2 .TwOz2KVAfp2GEs9Mve3r- {
-    background-color: var(--minimal_dark_blacker) !important;
-	border-radius: var(--minimal_dark_corner) !important;
-	border: 2px solid var(--minimal_dark_be_grey) !important
+  background-color: var(--minimal-dark-blacker) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 2px solid var(--minimal-dark-be-grey) !important
 }
 
 ._2NVbSaqD0yWMMczl37cIAE.ZF6iJ9yWqNVdzAbXdJ_sR:hover {
-    background-color: var(--minimal_dark_be_grey) !important;
-	border: 2px solid var(--minimal_dark_color) !important;
+  background-color: var(--minimal-dark-be-grey) !important;
+  border: 2px solid var(--minimal-dark-color) !important;
 }
 
 ._22LMC4oK3LB708upCdiF7L .I3s3okfGPF7NnDguZz-by {
-    background-color: var(--minimal_dark_blacker_alt) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 ._1Kiq19PmYWDOc9bBZN33cj {
-    background-color: var(--minimal_dark_black) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background-color: var(--minimal-dark-black) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
-._33TDStSlMjInp-NnLby0r8 ._1sqgWu-dTq9FLrOuXhpEjr, ._33TDStSlMjInp-NnLby0r8 ._3MoFsAdYDk6q_0Lm2zAGSa {
-    background-color: var(--minimal_dark_black) !important;
+._33TDStSlMjInp-NnLby0r8 ._1sqgWu-dTq9FLrOuXhpEjr,
+._33TDStSlMjInp-NnLby0r8 ._3MoFsAdYDk6q_0Lm2zAGSa {
+  background-color: var(--minimal-dark-black) !important;
 }
 
 .DialogSlider_Grabber {
-    background: var(--minimal_dark_color) !important;
-    box-shadow: 0px 0px 0px 2px rgb(0 0 0 / 40%) !important;
+  background: var(--minimal-dark-color) !important;
+  box-shadow: 0px 0px 0px 2px rgb(0 0 0 / 40%) !important;
 }
 
 .DialogSlider_Value {
-    background: var(--minimal_dark_color) !important;
+  background: var(--minimal-dark-color) !important;
 }
 
 ._22LMC4oK3LB708upCdiF7L .I3s3okfGPF7NnDguZz-by .K3lo5ez7fmmWgDQ1yQP4B {
-    background-color: var(--minimal_dark_blacker_alt) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
 }
 
 .chatFileUploadProgressContainer {
-    background: #12121280 !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    box-shadow: none !important;
-    backdrop-filter: blur(10px) !important;
-    bottom: 76px !important;
-	padding: 10px !important;
+  background: #12121280 !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  box-shadow: none !important;
+  backdrop-filter: blur(10px) !important;
+  bottom: 76px !important;
+  padding: 10px !important;
 }
 
 button.DialogButton.Primary {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    color: #dfe3e6 !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  color: #dfe3e6 !important;
 }
 
 button.DialogButton.Primary:hover {
-    background: var(--minimal_dark_blacker) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    color: var(--minimal_dark_color) !important;
+  background: var(--minimal-dark-blacker) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
 button.DialogButton.Primary:active {
-    background: var(--minimal_dark_blacker) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    color: white !important;
-	box-shadow: inset 0 0 8px #000000c2 !important;
+  background: var(--minimal-dark-blacker) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  color: white !important;
+  box-shadow: inset 0 0 8px #000000c2 !important;
 }
 
 .BBCodeAlreadyCollapsedText {
-    background-color: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+  background-color: var(--minimal-dark-blacker) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
-.BBCodeAlreadyCollapsed.Minimized:hover .BBCodeAlreadyCollapsedText, .BBCodeResizableComponent.Minimized:hover .BBCodeCollapsed {
-    background-color: var(--minimal_dark_be_grey) !important;
-    color: #fff;
+.BBCodeAlreadyCollapsed.Minimized:hover .BBCodeAlreadyCollapsedText,
+.BBCodeResizableComponent.Minimized:hover .BBCodeCollapsed {
+  background-color: var(--minimal-dark-be-grey) !important;
+  color: #fff;
 }
 
 .friendsui-container .statusHeaderGlow {
-	opacity:.6 !important;
+  opacity: .6 !important;
 }
 
 .friendsui-container [class*=ingame] .statusHeaderGlow stop:first-child {
-    stop-color: #9aff23 !important;
-    stop-opacity: .6 !important;
+  stop-color: #9aff23 !important;
+  stop-opacity: .6 !important;
 }
 
 .friendsui-container [class*=ingame] .statusHeaderGlow stop:last-child {
-	stop-color: #9aff23 !important;
+  stop-color: #9aff23 !important;
 }
 
 .friendsui-container [class*=online] .statusHeaderGlow stop:first-child {
-	stop-color: #6dcff6 !important;
-	stop-opacity: .6 !important;
+  stop-color: #6dcff6 !important;
+  stop-opacity: .6 !important;
 }
 
 .friendsui-container [class*=online] .statusHeaderGlow stop:last-child {
-	stop-color: #6dcff6 !important;
+  stop-color: #6dcff6 !important;
 }
 
 .friendsui-container [class*=offline] .statusHeaderGlow stop:first-child {
-	stop-color: #a0a0a0 !important;
-	stop-opacity: .6 !important;
+  stop-color: #a0a0a0 !important;
+  stop-opacity: .6 !important;
 }
 
 .friendsui-container [class*=offline] .statusHeaderGlow stop:last-child {
-	stop-color: #a0a0a0 !important;
+  stop-color: #a0a0a0 !important;
 }
 
 .friendsui-container [class*=away] .statusHeaderGlow stop:first-child {
-	stop-color: orange !important;
-	stop-opacity:.6 !important;
+  stop-color: orange !important;
+  stop-opacity: .6 !important;
 }
 
 .friendsui-container [class*=away] .statusHeaderGlow stop:last-child {
-	stop-color: orange !important;
+  stop-color: orange !important;
 }
 
 .inviteAnotherFriendButton {
-    background-color: var(--minimal_dark_blacker_alt) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    transform: translate(-2px, 10px) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  transform: translate(-2px, 10px) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .inviteAnotherFriendButton .SVGIcon_Button {
-    fill: var(--minimal_dark_be_grey) !important;
+  fill: var(--minimal-dark-be-grey) !important;
 }
 
 ._1AMAp6cciTbpuVe8FTH3rK {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-	background: rgb(18 18 18 / 75%) !important;
-    backdrop-filter: blur(10px) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  background: rgb(18 18 18 / 75%) !important;
+  backdrop-filter: blur(10px) !important;
 }
 
 .ChatTabs.HasWindowControls {
-    height: 43px !important;
-    padding-left: 9px !important;
+  height: 43px !important;
+  padding-left: 9px !important;
 }
 
 .chatTabSelector .SVGIcon_DownArrowContextMenu {
-    margin-left: 6px !important;
-    margin-top: 14px !important;
+  margin-left: 6px !important;
+  margin-top: 14px !important;
 }
 
 ._18EIcuUAoTtqjzcDzsTcdy:hover .SVGIcon_X_Line line {
-    stroke: var(--minimal_dark_red2) !important;
+  stroke: var(--minimal-dark-red2) !important;
 }
 
 .unreadMessageViolator {
-    color: white !important;
-    background: #1919194f !important;
-    height: 28px !important;
-    top: 109px !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    /* line-height: 24px !important; */
-    left: 5px !important;
-    backdrop-filter: blur(25px) !important;
+  color: white !important;
+  background: #1919194f !important;
+  height: 28px !important;
+  top: 109px !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  /* line-height: 24px !important; */
+  left: 5px !important;
+  backdrop-filter: blur(25px) !important;
 }
 
 .unreadMessageViolator:hover {
-    filter: brightness(1.1) !important;
-    color: var(--minimal_dark_color) !important;
-    background: #1919194f !important;
-    height: 28px !important;
-    top: 109px !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    /* line-height: 24px !important; */
-    left: 5px !important;
-    backdrop-filter: blur(25px) !important;
+  filter: brightness(1.1) !important;
+  color: var(--minimal-dark-color) !important;
+  background: #1919194f !important;
+  height: 28px !important;
+  top: 109px !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  /* line-height: 24px !important; */
+  left: 5px !important;
+  backdrop-filter: blur(25px) !important;
 }
 
 ._2z-o5GLHkTjJrgQAgz2uqh {
-    background: radial-gradient(ellipse farthest-corner at 98% 90%, rgba(26,26,26,.8) 0%, rgba(26,26,26,.2) 40%, rgba(233, 154, 35, 0) 70%) !important;
-	border-radius: 5px !important
+  background: radial-gradient(ellipse farthest-corner at 98% 90%, rgba(26, 26, 26, .8) 0%, rgba(26, 26, 26, .2) 40%, rgba(233, 154, 35, 0) 70%) !important;
+  border-radius: 5px !important
 }
 
 ._2NKkBU2gEImqo4YaPQ9Lck {
-    display: none !important;
+  display: none !important;
 }
 
-.ChatRoomListGroupItem .FriendMessageCount, .unreadFriend .FriendMessageCount {
-    border-radius: 3px !important;
-    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+.ChatRoomListGroupItem .FriendMessageCount,
+.unreadFriend .FriendMessageCount {
+  border-radius: 3px !important;
+  border: 1px solid var(--minimal-dark-invisiblegrey) !important;
 }
 
-.ChatRoomListGroupItem .FriendMessageCount, .unreadFriend .FriendMessageCount {
-    box-shadow: 0 0 0px 1px rgba(218,149,0,.5) !important;
-    right: 8px !important;
-    top: -4px !important;
-    backdrop-filter: blur(2px) !important;
-    animation-name: UnreadLabelPulse;
-    animation-iteration-count: infinite !important;
-    animation-timing-function: linear !important;
-    animation-duration: 2.8s !important;
+.ChatRoomListGroupItem .FriendMessageCount,
+.unreadFriend .FriendMessageCount {
+  box-shadow: 0 0 0px 1px rgba(218, 149, 0, .5) !important;
+  right: 8px !important;
+  top: -4px !important;
+  backdrop-filter: blur(2px) !important;
+  animation-name: UnreadLabelPulse;
+  animation-iteration-count: infinite !important;
+  animation-timing-function: linear !important;
+  animation-duration: 2.8s !important;
 }
 
 .FriendMessageCount {
-    line-height: 25px !important;
-    height: 25px !important;
+  line-height: 25px !important;
+  height: 25px !important;
 }
 
 .friend .labelHolder {
-    width: 10px !important;
+  width: 10px !important;
 }
 
-.friendGroup.taggedGroup, .friendGroup.gameGroup {
-    border-top: none !important;
-    margin-top: 12px !important;
+.friendGroup.taggedGroup,
+.friendGroup.gameGroup {
+  border-top: none !important;
+  margin-top: 12px !important;
 }
 
 .friendGroup .groupName .groupCount {
-    color: rgb(68 209 131 / 85%) !important;
-    opacity: 1 !important;
-    margin-left: 10px !important;
+  color: rgb(68 209 131 / 85%) !important;
+  opacity: 1 !important;
+  margin-left: 10px !important;
 }
 
 .gameGroup .gameGroupContainer {
-    display: flex;
-    color: #c5d6d4 !important;
-	/* rgb(68 209 131 / 85%) !important; */
+  display: flex;
+  color: #c5d6d4 !important;
+  /* rgb(68 209 131 / 85%) !important; */
 }
 
 .friendGroup.gameGroup .groupName {
-    color: #c5d6d4 !important;
-	/* color: rgb(68 209 131 / 85%) !important; */
-    padding-right: 10px !important;
+  color: #c5d6d4 !important;
+  /* color: rgb(68 209 131 / 85%) !important; */
+  padding-right: 10px !important;
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
-    color: #c5d6d4 !important;
-	/* color: rgb(133 133 133 / 100%) !important; */
+  color: #c5d6d4 !important;
+  /* color: rgb(133 133 133 / 100%) !important; */
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName {
-    color: #c5d6d4 !important;
-	/* color: rgb(109 207 246 / 75%) !important; */
+  color: #c5d6d4 !important;
+  /* color: rgb(109 207 246 / 75%) !important; */
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.ingameFriends .groupName {
-    color: #c5d6d4 !important;
-	/* color: rgb(145 194 87 / 75%) !important; */
+  color: #c5d6d4 !important;
+  /* color: rgb(145 194 87 / 75%) !important; */
 }
 
-.friendGroup.onlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed {
-    opacity: 1;
-    transform: translateX(0px);
-    color: rgb(109 207 246 / 75%) !important;
+.friendGroup.onlineFriends .groupName .groupCount,
+.friendGroup .groupName .groupCount.collapsed {
+  opacity: 1;
+  transform: translateX(0px);
+  color: rgb(109 207 246 / 75%) !important;
 }
 
-.friendGroup.offlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed {
-    opacity: 1;
-    transform: translateX(0px);
-    color: rgb(129 129 129 / 75%) !important;
+.friendGroup.offlineFriends .groupName .groupCount,
+.friendGroup .groupName .groupCount.collapsed {
+  opacity: 1;
+  transform: translateX(0px);
+  color: rgb(129 129 129 / 75%) !important;
 }
 
-.recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName {
-    color: #c5d6d4 !important;
-	/* color: rgb(255 218 38 / 75%) !important; */
+.recentChatsGroup .friendGroup .groupName,
+.friendGroup.taggedGroup .groupName {
+  color: #c5d6d4 !important;
+  /* color: rgb(255 218 38 / 75%) !important; */
 }
 
 .recentChatsGroup .friendGroup .groupName .groupCount {
-    color: rgb(255 218 38 / 75%) !important;
+  color: rgb(255 218 38 / 75%) !important;
 }
 
 .socialListTab .tabLabel {
-    opacity: 0 !important;
+  opacity: 0 !important;
 }
 
 .AvatarAndUser {
-    padding-left: 26px !important;
-    padding-top: 9px !important;
-    padding-bottom: 0px !important;
-    transform: scale(1) !important;
+  padding-left: 26px !important;
+  padding-top: 9px !important;
+  padding-bottom: 0px !important;
+  transform: scale(1) !important;
 }
 
 .currentUserContainer .r62qzcdJQ0qezZglOtiUX {
-    font-size: 14px;
-    font-weight: 500 !important;
+  font-size: 14px;
+  font-weight: 500 !important;
 }
 
 .titleBarContainer .currentUserContainer ._1k82NiWym4STegDGxRBHz2 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .currentUserAvatar {
-    width: 58px !important;
-    height: 0px !important;
-    transform: scale(1.24) translate(-5px, 5px);
-    filter: brightness(1.1) !important;
+  width: 58px !important;
+  height: 0px !important;
+  transform: scale(1.24) translate(-5px, 5px);
+  filter: brightness(1.1) !important;
 }
 
 .currentUserAvatar:hover {
-    width: 58px !important;
-    height: 0px !important;
-    transform: scale(1.34) translate(-4px, 4px);
-    filter: brightness(1.2);
+  width: 58px !important;
+  height: 0px !important;
+  transform: scale(1.34) translate(-4px, 4px);
+  filter: brightness(1.2);
 }
 
 .socialInputContainer .inputContainer {
-    padding-left: 87px !important;
+  padding-left: 87px !important;
 }
 
 .title-area-highlight {
-    background: var(--minimal_dark_color) !important;
+  background: var(--minimal-dark-color) !important;
 }
 
 .currentUserContainer .labelHolder {
-    margin-top: 16px !important;
-    margin-left: 0px !important;
+  margin-top: 16px !important;
+  margin-left: 0px !important;
 }
 
 .friendlistListContainer .friend .avatarHolder {
-    padding-top: 3px !important;
+  padding-top: 3px !important;
 }
 
 .friendlistListContainer .friend.ingame .labelHolder {
-    /* padding-top: 6px !important; */
-    padding-top: 4px !important;
+  /* padding-top: 6px !important; */
+  padding-top: 4px !important;
 }
 
 .friendlistListContainer .friend.online .labelHolder {
-    padding-top: 0px !important;
-    transform: translate(0px, -1px) !important;
-    transition: .25s ease-out !important;
+  padding-top: 0px !important;
+  transform: translate(0px, -1px) !important;
+  transition: .25s ease-out !important;
 }
 
 .friendlistListContainer .friend.ingame.awayOrSnooze .labelHolder {
-    padding-top: 8px !important;
-    transform: translate(0px, -3px) !important;
+  padding-top: 8px !important;
+  transform: translate(0px, -3px) !important;
 }
 
 .friendlistListContainer .friend.awayOrSnooze .labelHolder {
-    padding-top: 0px !important;
-    transform: translate(0px, -1px) !important;
+  padding-top: 0px !important;
+  transform: translate(0px, -1px) !important;
 }
 
 .friendlistListContainer .friend.offline .labelHolder {
-    padding-top: 0px !important;
-    transform: translate(0px, -1px) !important;
+  padding-top: 0px !important;
+  transform: translate(0px, -1px) !important;
 }
 
 .singlewindow .currentUserContainer .labelHolder {
-    padding-top: 0px !important;
-    transform: translate(0px, -1px) !important;
+  padding-top: 0px !important;
+  transform: translate(0px, -1px) !important;
 }
 
 :not(.friendInviteContainer) .awayOrSnooze .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-    fill: orange !important;
+  fill: orange !important;
 }
 
 ._3kEgIPZCMTtXeWWzzRLo4K ._3nIwHFIw4nSXC_DUrzO_a6 {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .msg.isCurrentUser.ChatMessageErrorSending {
-    background: linear-gradient(to bottom, rgba(68, 44, 44, 0.4) 0%, rgba(61, 22, 22, 0.2) 60%, rgba(66, 58, 58, 0.05) 100%);
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px dashed var(--minimal_dark_redsettings) !important;
+  background: linear-gradient(to bottom, rgba(68, 44, 44, 0.4) 0%, rgba(61, 22, 22, 0.2) 60%, rgba(66, 58, 58, 0.05) 100%);
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px dashed var(--minimal-dark-redsettings) !important;
 }
 
 .msg.isCurrentUser.ChatMessageErrorSending .msgText {
-    color: var(--minimal_dark_redsettings) !important;
+  color: var(--minimal-dark-redsettings) !important;
 }
 
 .ChatMessageErrorSendingAlert {
-    background-color: #f1244624 !important;
-    color: var(--minimal_dark_red2) !important;
+  background-color: #f1244624 !important;
+  color: var(--minimal-dark-red2) !important;
 }
 
 ._3n80SfAwzFqelSuprYLFQv {
-    height: 44px !important;
+  height: 44px !important;
 }
 
 .X2iywwN7fcdh9zXpXVsrk:hover:not(._1BNlZUYDbVr8VhCTmq7ksk) {
-    background-color: var(--minimal_dark_black) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-bottom: 1px solid var(--minimal_dark_color) !important;
+  background-color: var(--minimal-dark-black) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-bottom: 1px solid var(--minimal-dark-color) !important;
 }
 
-.timeDivision.time_passes .preHorizDivider, .timeDivision.time_passes .horizDivider {
-    border: 1px dashed rgba(26,26,26,.5) !important;
-	margin-right: -6px !important;
+.timeDivision.time_passes .preHorizDivider,
+.timeDivision.time_passes .horizDivider {
+  border: 1px dashed rgba(26, 26, 26, .5) !important;
+  margin-right: -6px !important;
 }
 
 .friendInviteBlockContainer .DialogCheckbox {
-    border-radius: 12px !important;
+  border-radius: 12px !important;
 }
 
 .friendInviteBlockContainer .blockCommunicationLabel {
-    color: var(--minimal_dark_redsettings) !important;
+  color: var(--minimal-dark-redsettings) !important;
 }
 
 .confirmInviteRequestContainer .cancelAddFriends {
-    top: 11px !important;
-    right: 5px !important;
-    width: 24px !important;
-    height: 20px !important;
+  top: 11px !important;
+  right: 5px !important;
+  width: 24px !important;
+  height: 20px !important;
 }
 
 .quickAccessFriends:not(.emptyQuickAccess) {
-    padding-top: 32px !important;
-    padding-left: 14px !important;
+  padding-top: 32px !important;
+  padding-left: 14px !important;
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s {
-    background-color: var(--minimal_dark_blacker) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+  background-color: var(--minimal-dark-blacker) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: transparent !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: transparent !important;
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    margin-right: 10px !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  margin-right: 10px !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
-._2XZq-_f6npaQdAgeRzKIkz:before, ._2XZq-_f6npaQdAgeRzKIkz:last-of-type:after {
-    background: transparent !important;
+._2XZq-_f6npaQdAgeRzKIkz:before,
+._2XZq-_f6npaQdAgeRzKIkz:last-of-type:after {
+  background: transparent !important;
 }
 
 .HorizontalMiniSliderScroll {
-    overflow-x: initial !important;
+  overflow-x: initial !important;
 }
 
 ._2QPdq7GZ_03AD1ioPixVXW {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-	transition: all 0.2s ease-out !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  transition: all 0.2s ease-out !important;
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz:hover:not(.Yd-DsWkYiFiYwpci--Yk_) {
-    background-color: var(--minimal_dark_black) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    transition: all 0.2s ease-out !important;
-    border-bottom: 1px solid var(--minimal_dark_color) !important;
+  background-color: var(--minimal-dark-black) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  transition: all 0.2s ease-out !important;
+  border-bottom: 1px solid var(--minimal-dark-color) !important;
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_:hover {
-    background-color: var(--minimal_dark_black) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-	transition: all 0.2s ease-out !important;
-	border-bottom: 1px solid var(--minimal_dark_color) !important;
+  background-color: var(--minimal-dark-black) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  transition: all 0.2s ease-out !important;
+  border-bottom: 1px solid var(--minimal-dark-color) !important;
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
-    background: radial-gradient(circle, rgba(2,0,36,0) -147%, rgba(26, 26, 26, .1) 100%) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border-bottom: 1px solid var(--minimal_dark_color) !important;
-    transition: all 0.2s ease-out !important;
+  background: radial-gradient(circle, rgba(2, 0, 36, 0) -147%, rgba(26, 26, 26, .1) 100%) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border-bottom: 1px solid var(--minimal-dark-color) !important;
+  transition: all 0.2s ease-out !important;
 }
 
-.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):focus .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):hover .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) .SVGIcon_Button.SVGIcon_Submit path {
-    fill: var(--minimal_dark_color) !important;
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):focus .SVGIcon_Button.SVGIcon_Submit path,
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):hover .SVGIcon_Button.SVGIcon_Submit path,
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) .SVGIcon_Button.SVGIcon_Submit path {
+  fill: var(--minimal-dark-color) !important;
 }
 
-.Aupswi7-c-w3XwNO5cp2i:hover, .Aupswi7-c-w3XwNO5cp2i:focus {
-    background-color: var(--minimal_dark_be_grey) !important;
-    color: #fff;
+.Aupswi7-c-w3XwNO5cp2i:hover,
+.Aupswi7-c-w3XwNO5cp2i:focus {
+  background-color: var(--minimal-dark-be-grey) !important;
+  color: #fff;
 }
 
 .RVIs84dAE6wHcjH9tkinc {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 ._1DsumfIa3MlkzUV9EXY5W9.online ._2n0EiKMGRP-r_BI5tDtttu {
-    color: orange !important;
+  color: orange !important;
 }
 
 .online .awayOrSnooze .nOdcT-MoOaXGePXLyPe0H {
-    color: #f7a24b !important;
+  color: #f7a24b !important;
 }
 
 .online .awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN {
-    color: #cd9a5a !important;
+  color: #cd9a5a !important;
 }
 
 ._1DsumfIa3MlkzUV9EXY5W9.in-game ._2n0EiKMGRP-r_BI5tDtttu {
-    color: orange !important;
+  color: orange !important;
 }
 
-.GreenEnvelopeMenu, .PP7LM0Ow1K5qkR8WElLpt {
-    background: var(--minimal_dark_blacker_alt) !important;
-	border-radius: var(--minimal_dark_corner) !important;
-	padding: 0px !important;
+.GreenEnvelopeMenu,
+.PP7LM0Ow1K5qkR8WElLpt {
+  background: var(--minimal-dark-blacker-alt) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  padding: 0px !important;
 }
 
 .friend.awayOrSnooze .labelHolder {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 /* .ingame .awayOrSnooze .nOdcT-MoOaXGePXLyPe0H { */
-    /* color: #f7a24b !important; */
+/* color: #f7a24b !important; */
 /* } */
 
-._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze .drAAsgW-ufgBGjQ4mIfiJ, ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze ._2TAMH-SbRqivpq6WNRR-VH {
-    color: orange !important;
+._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze .drAAsgW-ufgBGjQ4mIfiJ,
+._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze ._2TAMH-SbRqivpq6WNRR-VH {
+  color: orange !important;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze ._1oD1aSbwaTNwncgaVdaSv8 ._1nBxb6NZrm5NL86Cmgo4g2 {
-    color: #f7a24b !important;
+  color: #f7a24b !important;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game.awayOrSnooze ._1oD1aSbwaTNwncgaVdaSv8 ._1nBxb6NZrm5NL86Cmgo4g2 {
-    color: #f7a24b !important;
+  color: #f7a24b !important;
 }
 
-._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game.awayOrSnooze .K3kJzGQ5wihTMCijNJlBv:not(._2lhxiWpu1TQo8jSZm2VHsN) ._1NqKJdLf1QCef95pyZZwmL, ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game .K3kJzGQ5wihTMCijNJlBv._1oOq4b51Mdj1pZboaWOvOL ._1NqKJdLf1QCef95pyZZwmL {
-    color: orange !important;
+._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game.awayOrSnooze .K3kJzGQ5wihTMCijNJlBv:not(._2lhxiWpu1TQo8jSZm2VHsN) ._1NqKJdLf1QCef95pyZZwmL,
+._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game .K3kJzGQ5wihTMCijNJlBv._1oOq4b51Mdj1pZboaWOvOL ._1NqKJdLf1QCef95pyZZwmL {
+  color: orange !important;
 }
 
-.ingame.awayOrSnooze ._1k82NiWym4STegDGxRBHz2, .ingame ._1k82NiWym4STegDGxRBHz2, .ingame ._1k82NiWym4STegDGxRBHz2 a, .ingame ._1k82NiWym4STegDGxRBHz2 a:hover, .ingame ._1k82NiWym4STegDGxRBHz2 a:active, .ingame ._1k82NiWym4STegDGxRBHz2 a:visited {
-    color: #91c257 !important;
+.ingame.awayOrSnooze ._1k82NiWym4STegDGxRBHz2,
+.ingame ._1k82NiWym4STegDGxRBHz2,
+.ingame ._1k82NiWym4STegDGxRBHz2 a,
+.ingame ._1k82NiWym4STegDGxRBHz2 a:hover,
+.ingame ._1k82NiWym4STegDGxRBHz2 a:active,
+.ingame ._1k82NiWym4STegDGxRBHz2 a:visited {
+  color: #91c257 !important;
 }
 
-._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online.awayOrSnooze ._1SWhpi9ByGQrwHGQgTJCF5, ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online.awayOrSnooze ._3c5GOobmMUyjAWTosaUKUS {
-    color: #f7a24b !important;
+._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online.awayOrSnooze ._1SWhpi9ByGQrwHGQgTJCF5,
+._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online.awayOrSnooze ._3c5GOobmMUyjAWTosaUKUS {
+  color: #f7a24b !important;
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online.awayOrSnooze ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq {
-    color: orange !important;
+  color: orange !important;
 }
 
-._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze .qiP8aEgNz331tt6X4NMNW:not(._2TAWSrfSd1CiZ9WSYsc69c) ._2VUw8xyYCaD1WduLCK3nlW, ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze .qiP8aEgNz331tt6X4NMNW.h_So5GaEfmXOgB9hCC0Is ._2VUw8xyYCaD1WduLCK3nlW {
-    color: #f7a24b !important;
+._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze .qiP8aEgNz331tt6X4NMNW:not(._2TAWSrfSd1CiZ9WSYsc69c) ._2VUw8xyYCaD1WduLCK3nlW,
+._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze .qiP8aEgNz331tt6X4NMNW.h_So5GaEfmXOgB9hCC0Is ._2VUw8xyYCaD1WduLCK3nlW {
+  color: #f7a24b !important;
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq {
-    color: orange !important;
+  color: orange !important;
 }
 
-.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
-    background-color: var(--minimal_dark_blacker_alt) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW,
+.RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
+  background-color: var(--minimal-dark-blacker-alt) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 html.client_chat_frame .popup_chat_frame {
-    background: var(--minimal_dark_blacker_alt) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
 }
 
 ._2WfNoLBdfKwyutA6ho4aSH {
-    border-radius: var(--minimal_dark_corner) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_MobilePhone path {
-    fill: #f7a24b !important;
+  fill: #f7a24b !important;
 }
 
 .online ._3xUpb5DWXPFNcHHIcv-9pe {
-    border-radius: var(--minimal_dark_corner) !important;
-    width: 30px !important;
-    height: 30px !important;
-    transform: translate(1px, -1px) !important;
-    z-index: 1 !important;
-    background: transparent !important;
-    border: 1px solid #4c91ac !important;
-	transition: .25s ease-out !important;
-	display: contents !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  width: 30px !important;
+  height: 30px !important;
+  transform: translate(1px, -1px) !important;
+  z-index: 1 !important;
+  background: transparent !important;
+  border: 1px solid #4c91ac !important;
+  transition: .25s ease-out !important;
+  display: contents !important;
 }
 
 .ingame ._3xUpb5DWXPFNcHHIcv-9pe {
-    border-radius: var(--minimal_dark_corner) !important;
-    width: 30px !important;
-    height: 30px !important;
-    transform: translate(1px, -1px) !important;
-    z-index: 1 !important;
-    background: transparent !important;
-    border: 1px solid #91c257 !important;
-	transition: .25s ease-out !important;
-	display: contents !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  width: 30px !important;
+  height: 30px !important;
+  transform: translate(1px, -1px) !important;
+  z-index: 1 !important;
+  background: transparent !important;
+  border: 1px solid #91c257 !important;
+  transition: .25s ease-out !important;
+  display: contents !important;
 }
 
 .awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe {
-    border-radius: var(--minimal_dark_corner) !important;
-    width: 30px !important;
-    height: 30px !important;
-    transform: translate(1px, -1px) !important;
-    z-index: 1 !important;
-    background: transparent !important;
-    border: 1px solid #f7a24b !important;
-	-webkit-mask: none !important;
-	transition: .25s ease-out !important;
-	display: contents !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  width: 30px !important;
+  height: 30px !important;
+  transform: translate(1px, -1px) !important;
+  z-index: 1 !important;
+  background: transparent !important;
+  border: 1px solid #f7a24b !important;
+  -webkit-mask: none !important;
+  transition: .25s ease-out !important;
+  display: contents !important;
 }
 
 .offline ._3xUpb5DWXPFNcHHIcv-9pe {
-    border-radius: var(--minimal_dark_corner) !important;
-    width: 30px !important;
-    height: 30px !important;
-    transform: translate(1px, -1px) !important;
-    z-index: 1 !important;
-    background: transparent !important;
-    border: 1px solid grey !important;
-    transition: .25s ease-out !important;
-    display: contents !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  width: 30px !important;
+  height: 30px !important;
+  transform: translate(1px, -1px) !important;
+  z-index: 1 !important;
+  background: transparent !important;
+  border: 1px solid grey !important;
+  transition: .25s ease-out !important;
+  display: contents !important;
 }
 
 .nibodjvvrm86uCfnnAn4g.Medium {
-    height: 32px !important;
-    width: 32px !important;
+  height: 32px !important;
+  width: 32px !important;
 }
 
 .nibodjvvrm86uCfnnAn4g {
-    height: 33px !important;
-    width: 33px !important;
+  height: 33px !important;
+  width: 33px !important;
 }
 
 .nibodjvvrm86uCfnnAn4g.X-Large {
-    height: 92px !important;
-    width: 92px !important;
+  height: 92px !important;
+  width: 92px !important;
 }
 
 ._3qYm9oxf8MdyvQDJgbfCrF:hover {
-    background-color: var(--minimal_dark_black) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background-color: var(--minimal-dark-black) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 ._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
-    background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-blacker) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN {
-    color: #f7a24b !important;
+  color: #f7a24b !important;
 }
 
 ._1JXI4j2_xSpVK1YjyEuebr:hover .SVGIcon_X_Line line {
-    stroke: var(--minimal_dark_red2) !important;
+  stroke: var(--minimal-dark-red2) !important;
 }
 
 .ConnectionTroubleContent {
-    background: var(--minimal_dark_color) !important;
+  background: var(--minimal-dark-color) !important;
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._3CZcHyWskP9Hc5t7AOo75A {
-    height: auto !important;
+  height: auto !important;
 }
 
 ._3h-QRJGxnVOIExtHD1R0f2 {
-    border-radius: var(--minimal_dark_corner) !important;
-    transform: translate(0px, 0px) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  transform: translate(0px, 0px) !important;
 }
 
 .friend.quickAccessFriend {
-    border: 1px solid transparent !important;
-    transition: .25s ease-out !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    width: auto !important;
+  border: 1px solid transparent !important;
+  transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  width: auto !important;
 }
 
-.ChatTabContent .avatarHolder .avatarStatus, .friend.quickAccessFriend .avatarHolder .avatarStatus {
-    display: none !important;
+.ChatTabContent .avatarHolder .avatarStatus,
+.friend.quickAccessFriend .avatarHolder .avatarStatus {
+  display: none !important;
 }
 
-.nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right, .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-    /* display: none !important; */
+.nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right,
+.nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
+  /* display: none !important; */
 }
 
 .currentUserContainer .nOdcT-MoOaXGePXLyPe0H {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .FriendInGameIcon img {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._3gSTDNB2ZlqzhvkMEOxfCw ._1l8mFRMOzc3FeTSZuQcZBR {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._7-U6jtoeGvesTm7JFGH0- .A0XYrZMFUpzFpMU7qBrhJ {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._2rDsqxyJxBWUKDmY1lZ1Vw {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
-.Dialog_EditNickName .friend .avatarMedium, .Dialog_ChangePersonaName .friend .avatarMedium {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+.Dialog_EditNickName .friend .avatarMedium,
+.Dialog_ChangePersonaName .friend .avatarMedium {
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
-.Dialog_EditNickName .friend.online .DialogTextInputBase, .Dialog_ChangePersonaName .friend.online .DialogTextInputBase {
-    color: var(--minimal_dark_color) !important;
+.Dialog_EditNickName .friend.online .DialogTextInputBase,
+.Dialog_ChangePersonaName .friend.online .DialogTextInputBase {
+  color: var(--minimal-dark-color) !important;
 }
 
 .Dialog_ChangePersonaName .friend .labelHolder {
-    color: var(--minimal_dark_installed_games) !important;
+  color: var(--minimal-dark-installed-games) !important;
 }
 
 .ChatTabsContextMenu.CompactFriendsList .friend {
-    margin-top: 2px !important;
-    padding: 4px 0px !important;
+  margin-top: 2px !important;
+  padding: 4px 0px !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- {
-    background: var(--minimal_dark_blacker_alt) !important;
-    color: var(--minimal_dark_less_white) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    margin-top: 30px !important;
-    transition: .25s ease-out !important;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-    margin-bottom: 4px !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  color: var(--minimal-dark-less-white) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  margin-top: 30px !important;
+  transition: .25s ease-out !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-bottom: 4px !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._2sIHGS_555xUrHvjOwV0Y2 {
-    letter-spacing: 0px !important;
-	font-size: 11px;
+  letter-spacing: 0px !important;
+  font-size: 11px;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._3voPlg-2HzAUhuCyVhXm_D {
-    margin-right: 14px !important;
-	transition: .25s ease-out !important;
+  margin-right: 14px !important;
+  transition: .25s ease-out !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR-:hover {
-    color: var(--minimal_dark_color) !important;
-    transition: background .25s ease-out !important;
-    background: linear-gradient(180deg, rgba(26,26,26,.25) -50%, rgba(12, 12, 12, 1) 100%) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    transition: .25s ease-out !important;
+  color: var(--minimal-dark-color) !important;
+  transition: background .25s ease-out !important;
+  background: linear-gradient(180deg, rgba(26, 26, 26, .25) -50%, rgba(12, 12, 12, 1) 100%) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  transition: .25s ease-out !important;
 }
 
 .currentUserAvatar .avatarHolder.Medium {
-    width: 48px !important;
-    height: 48px !important;
-    margin-right: 6px !important;
+  width: 48px !important;
+  height: 48px !important;
+  margin-right: 6px !important;
 }
 
-.CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend, .CompactFriendsList .friendGroup .SteamPlayerGroupFooter, .CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-    padding: 2px 0px 2px 12px !important;
-    height: 26px !important;
-    margin-top: 4px !important;
+.CompactFriendsList .friend,
+.CompactFriendsList .friendGroup .friend,
+.CompactFriendsList .friendGroup .SteamPlayerGroupFooter,
+.CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
+  padding: 2px 0px 2px 12px !important;
+  height: 26px !important;
+  margin-top: 4px !important;
 }
 
 .CompactFriendsList .friend .avatarHolder img.avatar {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    height: 70% !important;
-    width: 70% !important;
-    transform: translate(0px, -2px) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  height: 70% !important;
+  width: 70% !important;
+  transform: translate(0px, -2px) !important;
 }
 
 .CompactFriendsList .friend .labelHolder {
-    height: 26px !important;
-    margin-top: 0px !important;
-    transform: translate(0px, -1px) !important;
+  height: 26px !important;
+  margin-top: 0px !important;
+  transform: translate(0px, -1px) !important;
 }
 
 .compactView .socialListTab {
-    transform: translate(0px, 1px) !important;
+  transform: translate(0px, 1px) !important;
 }
 
 .speaker.ingame .speakerStatus {
-    width: 30px !important;
-    height: 30px !important;
-    background-color: transparent !important;
-    transform: translate(-33px, 0px) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid #a6df3d !important;
+  width: 30px !important;
+  height: 30px !important;
+  background-color: transparent !important;
+  transform: translate(-33px, 0px) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid #a6df3d !important;
 }
 
 .speaker.online .speakerStatus {
-    width: 30px !important;
-    height: 30px !important;
-    background-color: transparent !important;
-    transform: translate(-33px, 0px) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid #4c91ac !important;
+  width: 30px !important;
+  height: 30px !important;
+  background-color: transparent !important;
+  transform: translate(-33px, 0px) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid #4c91ac !important;
 }
 
 .speaker.awayOrSnooze .speakerStatus {
-    width: 30px !important;
-    height: 30px !important;
-    background-color: transparent !important;
-    transform: translate(-33px, 0px) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid orange !important;
+  width: 30px !important;
+  height: 30px !important;
+  background-color: transparent !important;
+  transform: translate(-33px, 0px) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid orange !important;
 }
 
 .speaker.offline .speakerStatus {
-    width: 30px !important;
-    height: 30px !important;
-    background-color: transparent !important;
-    transform: translate(-33px, 0px) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid grey !important;
+  width: 30px !important;
+  height: 30px !important;
+  background-color: transparent !important;
+  transform: translate(-33px, 0px) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid grey !important;
 }
 
 .ChatRoomSpeaker .speaker .speakerName {
-    transform: translate(-35px, 4px) !important;
+  transform: translate(-35px, 4px) !important;
 }
 
 .timeDivision .preHorizDivider {
-    width: 5% !important;
-    background-color: rgba(79,82,87,.5) !important;
-    margin-right: -32px !important;
-    transform: translate(-40px, 0px) !important;
+  width: 5% !important;
+  background-color: rgba(79, 82, 87, .5) !important;
+  margin-right: -32px !important;
+  transform: translate(-40px, 0px) !important;
 }
 
 .friend.online .playerNameQuickAccessContainer {
-    opacity: .75 !important;
-	color: #6dcff6 !important;
+  opacity: .75 !important;
+  color: #6dcff6 !important;
 }
 
 .friend.ingame .playerNameQuickAccessContainer {
-    opacity: .75 !important;
-	color: #9aff23 !important;
+  opacity: .75 !important;
+  color: #9aff23 !important;
 }
 
 .friend.awayOrSnooze .playerNameQuickAccessContainer {
-    opacity: .75 !important;
-	color: #f7a24b !important;
+  opacity: .75 !important;
+  color: #f7a24b !important;
 }
 
 .friend.offline .playerNameQuickAccessContainer {
-    opacity: .75 !important;
-	color: grey !important;
+  opacity: .75 !important;
+  color: grey !important;
 }
 
 .FavoriteFriend_GameIcon {
-    display: none !important;
+  display: none !important;
 }
 
 .groupName .gameGroupContainer .groupIcon {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 .quickAccessFriends .favoriteElement:hover .friend .playerName {
-    color: var(--minimal_dark_installed_games) !important;
+  color: var(--minimal-dark-installed-games) !important;
 }
 
 .quickAccessFriends .favoriteElement:hover .online .playerName {
-    color: #6dcff6 !important;
-	filter: brightness(1.25) !important;
+  color: #6dcff6 !important;
+  filter: brightness(1.25) !important;
 }
 
 .quickAccessFriends .favoriteElement:hover .ingame .playerName {
-    color: #9aff23 !important;
-	filter: brightness(1.25) !important;
+  color: #9aff23 !important;
+  filter: brightness(1.25) !important;
 }
 
 .quickAccessFriends .favoriteElement:hover .awayOrSnooze .playerName {
-    color: #f7a24b !important;
-	filter: brightness(1.25) !important;
+  color: #f7a24b !important;
+  filter: brightness(1.25) !important;
 }
 
 .quickAccessFriends .favoriteElement:hover .offline .playerName {
-    color: white !important;
-	filter: brightness(1.25) !important;
+  color: white !important;
+  filter: brightness(1.25) !important;
 }
 
 .xSTLmzylFJdIfak7ZdhuA {
-    background: var(--minimal_dark_blacker_alt) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
 }
 
 ._3mf9BBKxhIVdrt6nIWBt4x {
-    background: var(--minimal_dark_blacker_alt) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
 }
 
 .chatRoomMembers {
-    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+  border-left: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 .MemberListOptionsContainer {
-    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+  border-left: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 .MemberListOption.ToggleMemberListView:hover polyline {
-    stroke: var(--minimal_dark_color) !important;
+  stroke: var(--minimal-dark-color) !important;
 }
 
 .ChatRoomGroupDialog_history {
-    border-radius: var(--minimal_dark_corner) !important;
-    padding: 10px !important;
-    padding-top: 0px !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  padding: 10px !important;
+  padding-top: 0px !important;
 }
 
 .ChatHistoryContainer {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 ._1osHa9KHOmdCDNrA232z4N {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0) 100%);
-    border-radius: var(--minimal_dark_corner) !important;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0) 100%);
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 ._2OoTJwlWvzvAysWOOEQaXS {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0) 100%);
-    border-radius: var(--minimal_dark_corner) !important;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0) 100%);
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .currentUserContainer ._3sxE7F1LV2IcSX68YsH9dI {
-    margin-top: 6px !important;
-    white-space: nowrap !important;
+  margin-top: 6px !important;
+  white-space: nowrap !important;
 }
 
 ._18bmBH7zyngCgHtgY3IEL_ {
-    background-color: var(--minimal_dark_blacker_alt) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
 }
 
 ._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY {
-    background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    transition: .25s ease-out !important;
+  background: var(--minimal-dark-blacker) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  transition: .25s ease-out !important;
 }
 
 ._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY:hover {
-    background: var(--minimal_dark_color) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    box-shadow: 1px 2px 18px rgba(0,0,0,.3) !important;
-    transition: .25s ease-out !important;
-	color: white !important;
+  background: var(--minimal-dark-color) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  box-shadow: 1px 2px 18px rgba(0, 0, 0, .3) !important;
+  transition: .25s ease-out !important;
+  color: white !important;
 }
 
 ._3t-tVOpu2n074cjZsygYfm ._2MByvWz7Ec6CRwKDWFmHrS {
-    color: var(--minimal_dark_red2) !important;
+  color: var(--minimal-dark-red2) !important;
 }
 
 ._3t-tVOpu2n074cjZsygYfm .rORRrCcMO9z86bopxDvrH {
-    color: var(--minimal_dark_redsettings) !important;
-    text-align: center !important;
+  color: var(--minimal-dark-redsettings) !important;
+  text-align: center !important;
 }
 
-.groupHeaderContainer .SortByRecent:hover .SVGIcon_SortBy, .groupHeaderContainer .SortByRecent.gpfocus .SVGIcon_SortBy {
-    stroke: var(--minimal_dark_color) !important;
+.groupHeaderContainer .SortByRecent:hover .SVGIcon_SortBy,
+.groupHeaderContainer .SortByRecent.gpfocus .SVGIcon_SortBy {
+  stroke: var(--minimal-dark-color) !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
-	box-shadow: none !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  border-bottom: 1px solid var(--minimal-dark-be-grey) !important;
+  box-shadow: none !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._3sgj23BemKViTVqwcKSU9G {
-    color: var(--minimal_dark_color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._3O7zSIxFPCfDxrCf7T8fGM {
-    display: none !important;
+  display: none !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._1m0afeRW-Gr5ZDK4viq3SY {
-    border-radius: var(--minimal_dark_corner) !important;
-    background-color: var(--minimal_dark_blacker_alt) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-	transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  transition: .25s ease-out !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._1m0afeRW-Gr5ZDK4viq3SY:hover {
-    border-radius: var(--minimal_dark_corner) !important;
-    background-color: var(--minimal_dark_blacker_alt) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-	color: var(--minimal_dark_color) !important;
-	transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color) !important;
+  transition: .25s ease-out !important;
 }
 
 .friendRequestButton .requestsNumber {
-    border: 1px solid white !important;
+  border: 1px solid white !important;
 }
 
 .addFriendButton {
-    width: 26px !important;
-    height: 26px !important;
-    margin-top: -2px !important;
-    margin-right: 11px !important;
+  width: 26px !important;
+  height: 26px !important;
+  margin-top: -2px !important;
+  margin-right: 11px !important;
 }
 
 .addFriendButton .SVGIcon_AddFriend .plusCircle {
-    color: var(--minimal_dark_color) !important;
-    border: 1px solid white !important;
-    stroke: white !important;
-    stroke-width: 10px !important;
+  color: var(--minimal-dark-color) !important;
+  border: 1px solid white !important;
+  stroke: white !important;
+  stroke-width: 10px !important;
 }
 
 .friendsTabButtonsContainer .TabSearchButton .SVGIcon_MagnifyingGlass {
-    width: 20px !important;
-    height: 20px !important;
-    margin-top: 2px !important;
-    transform: translate(4px, 0px) !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: 2px !important;
+  transform: translate(4px, 0px) !important;
 }
 
 .friendsTabButtonsContainer .friendRequestButton {
-    width: 26px !important;
-    height: 26px !important;
-    margin-top: -2px !important;
-    padding-left: 3px !important;
+  width: 26px !important;
+  height: 26px !important;
+  margin-top: -2px !important;
+  padding-left: 3px !important;
 }
 
-.friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendBodyFull, .friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendHead, .friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendArm, .friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendBody {
-    fill: var(--minimal_dark_color) !important;
+.friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendBodyFull,
+.friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendHead,
+.friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendArm,
+.friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendBody {
+  fill: var(--minimal-dark-color) !important;
 }
 
 .friendGroup .friendInviteContainer {
-    height: auto !important;
+  height: auto !important;
 }
 
 .Destructive .ModalPosition_TopBar {
-    background: linear-gradient(to right, #00000000, var(--minimal_dark_red2), #00000000) !important;
+  background: linear-gradient(to right, #00000000, var(--minimal-dark-red2), #00000000) !important;
 }
 
 .friendsui-container .DialogHeader {
-    color: var(--minimal_dark_red2) !important;
+  color: var(--minimal-dark-red2) !important;
 }
 
 button.DialogButton::before {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .ModalPosition_Dismiss .closeButton {
-    padding: 0px !important;
-    border-radius: 20px !important;
-    width: 18px !important;
-    height: 18px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    transform: translate(-5px, 6px) !important;
-    transition: .25s ease-out !important;
-    margin-left: 8px !important;
+  padding: 0px !important;
+  border-radius: 20px !important;
+  width: 18px !important;
+  height: 18px !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  transform: translate(-5px, 6px) !important;
+  transition: .25s ease-out !important;
+  margin-left: 8px !important;
 }
 
 .ModalPosition_Dismiss .closeButton:hover {
-	background: #f1244669 !important;
-    padding: 0px !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    width: 18px !important;
-    height: 18px !important;
-    border: 1px solid var(--minimal_dark_red2) !important;
-    transform: translate(-5px, 6px) !important;
-    transition: .25s ease-out !important;
-    margin-left: 8px !important;
+  background: #f1244669 !important;
+  padding: 0px !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  width: 18px !important;
+  height: 18px !important;
+  border: 1px solid var(--minimal-dark-red2) !important;
+  transform: translate(-5px, 6px) !important;
+  transition: .25s ease-out !important;
+  margin-left: 8px !important;
 }
 
 .ModalPosition_Dismiss .closeButton:active {
-    background: #f1244669 !important;
-    transition: .25s ease-out !important;
-    border: 1px solid var(--minimal_dark_red2) !important;
-    box-shadow: inset 0 0 8px #000000c2 !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background: #f1244669 !important;
+  transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-red2) !important;
+  box-shadow: inset 0 0 8px #000000c2 !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .ModalPosition_Dismiss .closeButton .SVGIcon_X_Line line {
-    stroke: var(--minimal_dark_topgrey) !important;
-    stroke-width: 24px;
-    transform: translate(18px, 10px) scale(.9) !important;
+  stroke: var(--minimal-dark-topgrey) !important;
+  stroke-width: 24px;
+  transform: translate(18px, 10px) scale(.9) !important;
 }
 
 .ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
-    stroke: #fff !important;
+  stroke: #fff !important;
 }
 
 .chatFileUploadProgressBarContainer {
-    width: 97% !important;
+  width: 97% !important;
 }
 
 .DialogProgressBar_ProgressBarContainer {
-    border: 4px solid var(--minimal_dark_be_grey) !important;
-    border-radius: 20px !important;
-    background: var(--minimal_dark_blacker_alt) !important;
+  border: 4px solid var(--minimal-dark-be-grey) !important;
+  border-radius: 20px !important;
+  background: var(--minimal-dark-blacker-alt) !important;
 }
 
 .chatFileUploadProgressName {
-    color: var(--minimal_dark_color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
 .friend.quickAccessFriend .avatarHolder {
-    width: 50px !important;
-	border-radius: var(--minimal_dark_corner) !important;
+  width: 50px !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .nibodjvvrm86uCfnnAn4g .X_mJE4BYV5StDPwZhSiAu {
-    /* transform: scale(1.1) translate(0px, 2px) !important; */
-    transform: scale(1.2) translate(0px, 0px) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  /* transform: scale(1.1) translate(0px, 2px) !important; */
+  transform: scale(1.2) translate(0px, 0px) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .currentUserAvatar img._3fM0F85j3aWVzr4RJM9-eu {
-    transform: scale(1) translate(0px, 0px) !important;
+  transform: scale(1) translate(0px, 0px) !important;
 }
 
 .QuickAccessChat.quickAccessFriend {
-    transition: .25s ease-out !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    width: auto !important;
-    height: 65px !important;
-    transform: translate(0px, 2px) !important;
-    margin-right: 2px !important;
+  transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  width: auto !important;
+  height: 65px !important;
+  transform: translate(0px, 2px) !important;
+  margin-right: 2px !important;
 }
 
 .QuickAccessChat.quickAccessFriend:hover {
-    transition: .25s ease-out !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    width: auto !important;
-    height: 65px !important;
-    transform: translate(0px, 2px) !important;
-    margin-right: 2px !important;
+  transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  width: auto !important;
+  height: 65px !important;
+  transform: translate(0px, 2px) !important;
+  margin-right: 2px !important;
 }
 
 .favoriteElement .ChatRoomGroupAvatar {
-    margin-bottom: -1px !important;
-	border-radius: var(--minimal_dark_corner) !important;
+  margin-bottom: -1px !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .ChatRoomGroupAvatar {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 .favoriteElement:hover .quickAccessFriend .clanName {
-    color: var(--minimal_dark_color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
 .friendlist.compactView .friendListHeaderContainer {
-    height: auto !important;
+  height: auto !important;
 }
 
 .compactQuickAccess .friend.quickAccessFriend {
-    width: 28px !important;
-    height: 28px !important;
+  width: 28px !important;
+  height: 28px !important;
 }
 
-.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatar, .compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
-    border-radius: var(--minimal_dark_corner) !important;
+.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatar,
+.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .compactQuickAccess .friend.ingame.quickAccessFriend {
-    border: 1px solid rgb(227 255 194 / 80%) !important;
-	border-radius: var(--minimal_dark_corner) !important;	
+  border: 1px solid rgb(227 255 194 / 80%) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .compactQuickAccess .friend.online.quickAccessFriend {
-    border: 1px solid rgb(109 207 246 / 80%) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid rgb(109 207 246 / 80%) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .compactQuickAccess .friend.offline.quickAccessFriend {
-    border: 1px solid rgb(128 128 128 / 80%) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid rgb(128 128 128 / 80%) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .compactQuickAccess .friend.awayOrSnooze.quickAccessFriend {
-    border: 1px solid rgb(255 165 0 / 80%) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid rgb(255 165 0 / 80%) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
-.quickAccessFriends .favoriteElement:hover .friend .avatarHolder img.avatar /* .friend.offline:hover .avatarHolder img.avatar, .friend.offline.Friend_ContextMenuActive .avatarHolder img.avatar */ {
-    transform: scale(0.9) translate(1px, 0px) !important;
+.quickAccessFriends .favoriteElement:hover .friend .avatarHolder img.avatar
+
+/* .friend.offline:hover .avatarHolder img.avatar, .friend.offline.Friend_ContextMenuActive .avatarHolder img.avatar */
+  {
+  transform: scale(0.9) translate(1px, 0px) !important;
 }
 
 .BBCodeYouTubeComponent {
-    background: var(--minimal_dark_blacker_alt2) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-blacker-alt2) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .BBCodeTitle {
-    color: var(--minimal_dark_color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
-.html5-video-player:not(.ytp-transparent), .html5-video-player.unstarted-mode, .html5-video-player.ad-showing, .html5-video-player.ended-mode {
-    background-color: var(--minimal_dark_blacker_alt2) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+.html5-video-player:not(.ytp-transparent),
+.html5-video-player.unstarted-mode,
+.html5-video-player.ad-showing,
+.html5-video-player.ended-mode {
+  background-color: var(--minimal-dark-blacker-alt2) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
-.ChatMessageInvite.GroupAlreadyJoined, .ChatMessageInvite.Inviter {
-    background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+.ChatMessageInvite.GroupAlreadyJoined,
+.ChatMessageInvite.Inviter {
+  background: var(--minimal-dark-blacker) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .ChatMessageInvite .inviteButton.inviteButtonJoinChat {
-    background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background: var(--minimal-dark-blacker) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .ChatMessageInvite .inviteButton.inviteButtonJoinChat:hover {
-    border: 1px solid var(--minimal_dark_color) !important;
-    color: var(--minimal_dark_color) !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
 .ChatMessageInvite .inviteButton.inviteButtonJoinChat:active {
-    border: 1px solid var(--minimal_dark_color) !important;
-    color: var(--minimal_dark_color) !important;
-	box-shadow: inset 0 0 8px #000000c2 !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color) !important;
+  box-shadow: inset 0 0 8px #000000c2 !important;
 }
 
 .socialSearchContainer {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .CompactFriendsList .X_mJE4BYV5StDPwZhSiAu.avatarFrame {
-    height: 70% !important;
-    width: 70% !important;
+  height: 70% !important;
+  width: 70% !important;
 }
 
 .compactView .currentUserAvatar .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-    transform: scale(1.18) translate(3px, 3px) !important;
-    width: 100% !important;
-    height: 100% !important;
+  transform: scale(1.18) translate(3px, 3px) !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
-    height: 18px !important;
+  height: 18px !important;
 }
 
-.CompactFriendsList .friend.ingame, .CompactFriendsList .friendGroup .friend.ingame {
-    height: 29px !important;
+.CompactFriendsList .friend.ingame,
+.CompactFriendsList .friendGroup .friend.ingame {
+  height: 29px !important;
 }
 
 .CompactFriendsList ._4ZTzGZ5TTgFyfw1DcXLXS._1oYSXGjBe7QctQ1ikLpCMm {
-    margin-top: -3px;
+  margin-top: -3px;
 }
 
 .CompactFriendsList ._3bbRZyUiK-bfc5Qov6xukI ._2Ri005Wg_uXDTa71kdRbcN {
-    font-size: 10px;
-    line-height: 10px !important;
+  font-size: 10px;
+  line-height: 10px !important;
 }
 
 .ExpandPlusMinus {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 .msg .filteredURL.bb_removedlink {
-    color: var(--minimal_dark_red2) !important;
-    background-color: var(--minimal_dark_blacker_alt) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    padding: 0px 8px 0px 8px !important;
-    border: 1px solid var(--minimal_dark_red2) !important;
+  color: var(--minimal-dark-red2) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  padding: 0px 8px 0px 8px !important;
+  border: 1px solid var(--minimal-dark-red2) !important;
 }
 
 .msg .filteredURL.bb_removedlink .threatURL {
-    color: var(--minimal_dark_red2) !important;
+  color: var(--minimal-dark-red2) !important;
 }
 
 .msg .filteredURL.bb_removedlink .SVGIcon_Caution .triangle path {
-    fill: transparent !important;
+  fill: transparent !important;
 }
 
-.msg .filteredURL.bb_removedlink .SVGIcon_Caution path, .msg .filteredURL.bb_removedlink .SVGIcon_Caution line {
-    stroke: var(--minimal_dark_red2) !important;
-    stroke-width: 18px !important;
+.msg .filteredURL.bb_removedlink .SVGIcon_Caution path,
+.msg .filteredURL.bb_removedlink .SVGIcon_Caution line {
+  stroke: var(--minimal-dark-red2) !important;
+  stroke-width: 18px !important;
 }
 
 .OpenGraphMessageURL_full {
-    color: var(--minimal_dark_color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
-.OpenGraphMessageURL_short, .OpenGraphMessageURL_full {
-    color: var(--minimal_dark_color) !important;
+.OpenGraphMessageURL_short,
+.OpenGraphMessageURL_full {
+  color: var(--minimal-dark-color) !important;
 }
 
-.msg div.ChatMessageOpenGraph, .msg div.SteamPublishedFile {
-    background: var(--minimal_dark_blacker) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+.msg div.ChatMessageOpenGraph,
+.msg div.SteamPublishedFile {
+  background: var(--minimal-dark-blacker) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
 }
 
 .OpenGraphImgBackground .ChatMessageOpenGraph_Image {
-    filter: blur(92px) saturate(1) brightness(1) !important;
+  filter: blur(92px) saturate(1) brightness(1) !important;
 }
 
 .friendSearchInput[type=text] {
-    background-color: var(--minimal_dark_blacker) !important;
+  background-color: var(--minimal-dark-blacker) !important;
 }
 
 .UA15KlVbtDSJkqSpIAMIN {
-    background-color: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+  background-color: var(--minimal-dark-blacker) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
-    fill: #ffe600 !important;
+  fill: #ffe600 !important;
 }
 
 ._2FJUPOjT7afeB0125mqdQt {
-    stroke: transparent !important;
+  stroke: transparent !important;
 }
 
 .DialogHighlight {
-    color: var(--minimal_dark_color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
 .friendlistListContainer .friend.online .labelHolder:hover {
-    transform: scale(1) translate(0px, -1px) !important;
+  transform: scale(1) translate(0px, -1px) !important;
 }
 
 .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.online.awayOrSnooze .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-    transform: scale(.92) translate(-1px, 2px) !important;
-	transition: .25s ease-out !important;
+  transform: scale(.92) translate(-1px, 2px) !important;
+  transition: .25s ease-out !important;
 }
 
 .friend.online.friendStatusHover.Panel.Focusable .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-    transform: scale(.92) translate(-1px, 2px) !important;
-	transition: .25s ease-out !important;
+  transform: scale(.92) translate(-1px, 2px) !important;
+  transition: .25s ease-out !important;
 }
 
 .friend.online.friendStatusHover.Panel.Focusable:hover .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-    transform: scale(1) translate(0px, 0px);
-	transition: .25s ease-out !important;
+  transform: scale(1) translate(0px, 0px);
+  transition: .25s ease-out !important;
 }
 
-.friend.offline:hover .avatarHolder img.avatar, .friend.online:hover .avatarHolder img.avatar, .friend.ingame:hover .avatarHolder img.avatar, .friend.ingame.awayOrSnooze:hover .avatarHolder img.avatar, .friend.online.awayOrSnooze:hover .avatarHolder img.avatar, .friend.awayOrSnooze:hover .avatarHolder img.avatar {
-    transform: scale(1) translate(0px, 0px);
-    transition: .25s ease-out !important;
+.friend.offline:hover .avatarHolder img.avatar,
+.friend.online:hover .avatarHolder img.avatar,
+.friend.ingame:hover .avatarHolder img.avatar,
+.friend.ingame.awayOrSnooze:hover .avatarHolder img.avatar,
+.friend.online.awayOrSnooze:hover .avatarHolder img.avatar,
+.friend.awayOrSnooze:hover .avatarHolder img.avatar {
+  transform: scale(1) translate(0px, 0px);
+  transition: .25s ease-out !important;
 }
 
 .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame {
-    transform: scale(1.09) translate(-1px, 2px) !important;
+  transform: scale(1.09) translate(-1px, 2px) !important;
 }
 
 .friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
-    padding-top: 5px;
-    font-size: 12px !important;
+  padding-top: 5px;
+  font-size: 12px !important;
 }
 
 .friend.ingame.quickAccessFriend.friendStatusHover.Panel.Focusable .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame img._3fM0F85j3aWVzr4RJM9-eu {
-    transform: translate(0px, -2px) !important;
+  transform: translate(0px, -2px) !important;
 }
 
 .quickAccessFriendsMessage {
-    font-size: 10px !important;
-    color: var(--minimal_dark_color) !important;
-    border: 1px dashed transparent !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  font-size: 10px !important;
+  color: var(--minimal-dark-color) !important;
+  border: 1px dashed transparent !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .dropTargetBox {
-    border: 2px dashed var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  border: 2px dashed var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .currentUserAvatar .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame img._3fM0F85j3aWVzr4RJM9-eu {
-    transform: scale(1.09) translate(1px, -2px) !important;
+  transform: scale(1.09) translate(1px, -2px) !important;
 }
 
 .CompactFriendsList .currentUserAvatar .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame img._3fM0F85j3aWVzr4RJM9-eu {
-    transform: scale(1.09) translate(1px, -2px) !important;
+  transform: scale(1.09) translate(1px, -2px) !important;
 }
 
 .CompactFriendsList .friend.ingame.friendStatusHover.Panel.Focusable:hover .labelHolder {
-    transform: scale(1) translate(5px, -1px) !important;
-    transition: .25s ease-out !important;
+  transform: scale(1) translate(5px, -1px) !important;
+  transition: .25s ease-out !important;
 }
 
 .friendlist.compactView .currentUserAvatar .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame img._3fM0F85j3aWVzr4RJM9-eu {
-    transform: scale(1.3) translate(4px, 1px) !important;
+  transform: scale(1.3) translate(4px, 1px) !important;
 }
 
 .DropTarget.quickAccessFriends.compactQuickAccess.Panel.Focusable .X_mJE4BYV5StDPwZhSiAu.avatarFrame {
-    transform: scale(.7) translate(-17px, -15px) !important;
+  transform: scale(.7) translate(-17px, -15px) !important;
 }
 
 .OneOnOneVoiceRoomControls {
-    background-color: var(--minimal_dark_blacker_alt) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
 }
 
 .OneOnOneVoiceRoomControls .VoiceToggleIconCtn:hover {
-    color: var(--minimal_dark_color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
 .inviteButton.inviteButtonJoinVoice {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_progress_bar) !important;
-    transition: .25s ease-out !important;
-    color: var(--minimal_dark_progress_bar) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-progress-bar) !important;
+  transition: .25s ease-out !important;
+  color: var(--minimal-dark-progress-bar) !important;
 }
 
 .inviteButton.inviteButtonJoinVoice:hover {
-    background: var(--minimal_dark_progress_bar) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-	color: white !important;
-	transition: .25s ease-out !important;
+  background: var(--minimal-dark-progress-bar) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  color: white !important;
+  transition: .25s ease-out !important;
 }
 
-.OneOnOneVoiceClose:hover, .OneOnOneVoiceClose.gpfocus {
-    background-color: var(--minimal_dark_red2) !important;
-	transition: .25s ease-out !important;
+.OneOnOneVoiceClose:hover,
+.OneOnOneVoiceClose.gpfocus {
+  background-color: var(--minimal-dark-red2) !important;
+  transition: .25s ease-out !important;
 }
 
 .OneOnOneVoiceClose {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    transition: .25s ease-out !important;
-    background: var(--minimal_dark_blacker_alt) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  transition: .25s ease-out !important;
+  background: var(--minimal-dark-blacker-alt) !important;
 }
 
 .inviteButton.inviteButtonDeclineVoice {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_red2) !important;
-    transition: .25s ease-out !important;
-	color: var(--minimal_dark_red2) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-red2) !important;
+  transition: .25s ease-out !important;
+  color: var(--minimal-dark-red2) !important;
 }
 
-.inviteButton.inviteButtonDeclineVoice:hover, .inviteButton.inviteButtonDeclineVoice.gpfocus {
-    background: var(--minimal_dark_red2) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    transition: .25s ease-out !important;
-	color: white !important;
+.inviteButton.inviteButtonDeclineVoice:hover,
+.inviteButton.inviteButtonDeclineVoice.gpfocus {
+  background: var(--minimal-dark-red2) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  transition: .25s ease-out !important;
+  color: white !important;
 }
 
 .friendListHeaderContainer .activeVoiceControls {
-    margin-top: 30px !important;
-    margin-bottom: 8px !important;
+  margin-top: 30px !important;
+  margin-bottom: 8px !important;
 }
 
 .activeVoiceButtons button {
-    margin-top: 1px !important;
+  margin-top: 1px !important;
 }
 
-.VoiceControlPanelButton:focus, .VoiceControlPanelButton:hover {
-    background-color: rgba(97,253,151,.3);
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid #78db86 !important;
-    transition: .25s ease-out !important;
+.VoiceControlPanelButton:focus,
+.VoiceControlPanelButton:hover {
+  background-color: rgba(97, 253, 151, .3);
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid #78db86 !important;
+  transition: .25s ease-out !important;
 }
 
 .chatRoomVoiceChannel .chatRoomTextChannel {
-    transition: .25s ease-out !important;
-    height: auto !important;
+  transition: .25s ease-out !important;
+  height: auto !important;
 }
 
 .chatRoomVoiceChannel .chatRoomTextChannel:hover {
-    background-color: rgba(97,253,151,.3);
-    background-color: rgba(97,253,151,.3);
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid #78db86 !important;
-    transition: .25s ease-out !important;
-    height: auto !important;
+  background-color: rgba(97, 253, 151, .3);
+  background-color: rgba(97, 253, 151, .3);
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid #78db86 !important;
+  transition: .25s ease-out !important;
+  height: auto !important;
 }
 
 .friendListHeaderContainer .activeVoiceControls:before {
-    background: transparent !important;
+  background: transparent !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel {
-    background-color: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background-color: var(--minimal-dark-blacker) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .emptyChannelNotice.Visible {
-    height: auto !important;
+  height: auto !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel {
-    width: auto !important;
+  width: auto !important;
 }
 
 .VoiceRoomChatWindow {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    background-color: #12121294 !important;
-    backdrop-filter: blur(8px) !important;
-    box-shadow: 1px 2px 18px #000;
-    border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  background-color: #12121294 !important;
+  backdrop-filter: blur(8px) !important;
+  box-shadow: 1px 2px 18px #000;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .VoiceRoomChatTitle {
-    background-color: var(--minimal_dark_blacker_alt) !important;
+  background-color: var(--minimal-dark-blacker-alt) !important;
 }
 
 .chatRoomVoiceChannel {
-    background-color: transparent !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
 .chatRoomVoiceChannel:not(.ActiveVoiceChannel):hover {
-    background-color: transparent !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--minimal-dark-color) !important;
+  border-radius: var(--minimal-dark-corner) !important;
 }
 
-.no_mic_for_session .voicestatusIcon.voiceStatusMic, .output_muted_self .voicestatusIcon.voiceStatusOutput, .output_muted_remotely .voicestatusIcon.voiceStatusOutput, .mic_muted_self .voicestatusIcon.voiceStatusMic, .mic_muted_remotely .voicestatusIcon.voiceStatusMic {
-    opacity: 1 !important;
-    color: var(--minimal_dark_red2) !important;
+.no_mic_for_session .voicestatusIcon.voiceStatusMic,
+.output_muted_self .voicestatusIcon.voiceStatusOutput,
+.output_muted_remotely .voicestatusIcon.voiceStatusOutput,
+.mic_muted_self .voicestatusIcon.voiceStatusMic,
+.mic_muted_remotely .voicestatusIcon.voiceStatusMic {
+  opacity: 1 !important;
+  color: var(--minimal-dark-red2) !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomTextChannel {
-    cursor: pointer;
-    opacity: 1;
-    height: auto !important;
-    border: 1px solid transparent !important;
+  cursor: pointer;
+  opacity: 1;
+  height: auto !important;
+  border: 1px solid transparent !important;
 }
 
-.chatRoomTextChannel:hover, .chatRoomVoiceChannel:hover .chatRoomVoiceChannelName, .chatRoomTextChannel:hover .chatRoomTextChannel {
-    color: var(--minimal_dark_color) !important;
+.chatRoomTextChannel:hover,
+.chatRoomVoiceChannel:hover .chatRoomVoiceChannelName,
+.chatRoomTextChannel:hover .chatRoomTextChannel {
+  color: var(--minimal-dark-color) !important;
 }
 
 .chatRoomVoiceChannel:not(.ActiveVoiceChannel):hover .chatRoomVoiceChannelNameContainer .chatRoomVoiceChannelIcon svg.SVGIcon_Button.SVGIcon_VoiceRoom path {
-    fill: var(--minimal_dark_color) !important;
+  fill: var(--minimal-dark-color) !important;
 }
 
 .OneOnOneVoiceRoomControls .inviteButton.inviteButtonDeclineVoice {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_red2) !important;
-    transition: .25s ease-out !important;
-    color: var(--minimal_dark_red2) !important;
+  background: var(--minimal-dark-blacker-alt) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-red2) !important;
+  transition: .25s ease-out !important;
+  color: var(--minimal-dark-red2) !important;
 }
 
 .OneOnOneVoiceRoomControls .inviteButton.inviteButtonDeclineVoice:hover {
-    background: var(--minimal_dark_red2) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    transition: .25s ease-out !important;
-    color: white !important;
+  background: var(--minimal-dark-red2) !important;
+  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-be-grey) !important;
+  transition: .25s ease-out !important;
+  color: white !important;
 }
 
 .mutualFriendNumber {
-    color: var(--minimal_dark_color) !important;
+  color: var(--minimal-dark-color) !important;
 }
 
 .friendInviteButtons {
-    padding-right: 16px !important;
+  padding-right: 16px !important;
 }

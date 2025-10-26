@@ -9,6 +9,6 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
     height: 4px !important;
     width: 10px !important;
     background: #8cd61d !important;
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal-dark-corner) !important;
     transform: translate(0px, -1px) !important;
 }

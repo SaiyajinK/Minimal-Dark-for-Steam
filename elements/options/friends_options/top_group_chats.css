@@ -11,7 +11,7 @@
 }
 
 .chatRoomListContainer {
-    border-bottom: 1px solid var(--minimal_dark_topgrey) !important;
+    border-bottom: 1px solid var(--minimal-dark-topgrey) !important;
 }
 
 .friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {

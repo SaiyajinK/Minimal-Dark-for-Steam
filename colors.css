@@ -1,0 +1,86 @@
+:root {
+  /*
+  * @name minimal dark color
+  */
+  --minimal-dark-color: #808080;
+  /*
+  * @name minimal dark be grey
+  */
+  --minimal-dark-be-grey: #262626;
+  /*
+  * @name minimal dark black
+  */
+  --minimal-dark-black: #1e1e1e;
+  /*
+  * @name minimal dark blacker
+  */
+  --minimal-dark-blacker: #191919;
+  /*
+  * @name minimal dark blacker alt
+  */
+  --minimal-dark-blacker-alt: #121212;
+  /*
+  * @name minimal dark blacker alt1
+  */
+  --minimal-dark-blacker-alt1: #101010;
+  /*
+  * @name minimal dark blacker alt2
+  */
+  --minimal-dark-blacker-alt2: #0c0c0c;
+  /*
+  * @name minimal dark topgrey
+  */
+  --minimal-dark-topgrey: #8b929a;
+  /*
+  * @name minimal dark topgrey1
+  */
+  --minimal-dark-topgrey1: #b9bec4;
+  /*
+  * @name minimal dark greyblack
+  */
+  --minimal-dark-greyblack: #2e2e2f;
+  /*
+  * @name minimal dark invisiblegrey
+  */
+  --minimal-dark-invisiblegrey: #2d2d2d;
+  /*
+  * @name minimal dark browser overlay close
+  */
+  --minimal-dark-browser-overlay-close: #a0de63;
+  /*
+  * @name minimal dark red2
+  */
+  --minimal-dark-red2: #f12446;
+    /*
+  * @name minimal dark red2
+  */
+  --minimal-dark-red2-rgba: #f12446;
+  /*
+  * @name minimal dark redsettings
+  */
+  --minimal-dark-redsettings: #bf3d3d;
+  /*
+  * @name minimal dark greensettings
+  */
+  --minimal-dark-greensettings: #5aa05a;
+  /*
+  * @name minimal dark status green
+  */
+  --minimal-dark-status-green: #06e39d;
+  /*
+  * @name minimal dark less white
+  */
+  --minimal-dark-less-white: #dcdcdc;
+  /*
+  * @name minimal dark progress bar
+  */
+  --minimal-dark-progress-bar: #21d083;
+  /*
+  * @name minimal dark currency
+  */
+  --minimal-dark-currency: #d6d6df;
+  /*
+  * @name minimal dark installed games
+  */
+  --minimal-dark-installed-games: #d6cab7;
+}

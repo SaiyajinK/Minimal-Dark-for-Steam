@@ -9,7 +9,7 @@
 
 .DesktopUI .title-area-icon.closeButton {
     transition: .25s ease-out !important;
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal-dark-corner) !important;
     border-top-right-radius: 7px !important;
     border-bottom-right-radius: 0px !important;
 }
@@ -26,7 +26,7 @@
 
 ._1ENHEsrSLcTRtPQFl1F-wL.Maximized._1DvwQt0JN-Ogp_4tVZdkzX .title-area-icon.closeButton {
     transition: .25s ease-out !important;
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal-dark-corner) !important;
     border-top-right-radius: 0px !important;
 }
 
@@ -37,37 +37,37 @@
 }
 
 .friendsui-container .title-area-icon.closeButton {
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal-dark-corner) !important;
     border-top-right-radius: 7px !important;
     border-bottom-right-radius: 0px !important;
 }
 
 .friendsui-container .title-area-icon.closeButton:hover {
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal-dark-corner) !important;
     border-top-right-radius: 7px !important;
     border-bottom-right-radius: 0px !important;
 }
 
 .friendsui-container .title-area-icon.closeButton:active {
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal-dark-corner) !important;
     border-top-right-radius: 7px !important;
     border-bottom-right-radius: 0px !important;
 }
 
 html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup.core .title-area-icon.closeButton {
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal-dark-corner) !important;
     border-top-right-radius: 7px !important;
     border-bottom-right-radius: 0px !important;
 }
 
 html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup.core .title-area-icon.closeButton:hover {
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal-dark-corner) !important;
     border-top-right-radius: 7px !important;
     border-bottom-right-radius: 0px !important;
 }
 
 html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup.core .title-area-icon.closeButton:active {
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal-dark-corner) !important;
     border-top-right-radius: 7px !important;
     border-bottom-right-radius: 0px !important;
 }

@@ -1,19 +1,19 @@
 ._3_xMyCJAh_Dv99KgZ54P3j:hover {
-	border: 1px solid var(--minimal_dark_color) !important;
-    border-bottom: 1px solid var(--minimal_dark_color) !important;
-    border-left: 1px solid var(--minimal_dark_color) !important;
+	border: 1px solid var(--minimal-dark-color) !important;
+    border-bottom: 1px solid var(--minimal-dark-color) !important;
+    border-left: 1px solid var(--minimal-dark-color) !important;
 	transition: .25s ease-out !important;
 }
 
 ._3_xMyCJAh_Dv99KgZ54P3j:active {
-	border: 1px solid var(--minimal_dark_invisiblegrey) !important;
-    border-bottom: 1px solid var(--minimal_dark_invisiblegrey) !important;
-    border-left: 1px solid var(--minimal_dark_invisiblegrey) !important;
+	border: 1px solid var(--minimal-dark-invisiblegrey) !important;
+    border-bottom: 1px solid var(--minimal-dark-invisiblegrey) !important;
+    border-left: 1px solid var(--minimal-dark-invisiblegrey) !important;
 	transition: .25s ease-out !important;
 }
 
 ._3_xMyCJAh_Dv99KgZ54P3j:hover ._28IqrZIgxpqkUQyhdaLDUN {
-    color: var(--minimal_dark_color) !important;
+    color: var(--minimal-dark-color) !important;
 	transition: .25s ease-out !important;
 }
 

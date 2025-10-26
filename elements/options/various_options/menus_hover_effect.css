@@ -1,10 +1,10 @@
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
-    border-left: 1px solid var(--minimal_dark_color) !important;
+    border-left: 1px solid var(--minimal-dark-color) !important;
 	transition: .25s ease-out !important;
 }
 
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI {
-    border-left: 1px solid var(--minimal_dark_black) !important;
+    border-left: 1px solid var(--minimal-dark-black) !important;
 	transition: .25s ease-out !important;
 }
 
@@ -19,6 +19,6 @@
 }
 
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:hover {
-    border-left: 1px solid var(--minimal_dark_color) !important;
+    border-left: 1px solid var(--minimal-dark-color) !important;
 	transition: .25s ease-out !important;
 }
