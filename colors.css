@@ -4,9 +4,13 @@
   */
   --minimal-dark-color: #808080;
   /*
-  * @name minimal dark be grey
+  * @name minimal dark border grey
   */
-  --minimal-dark-be-grey: #262626;
+  --minimal-dark-border-grey: #262626;
+  /*
+  * @name minimal dark popup background
+  */
+  --minimal-dark-bg-popup: #262626;
   /*
   * @name minimal dark black
   */

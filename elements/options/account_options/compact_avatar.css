@@ -2,12 +2,12 @@
     padding-right: 0px !important;
     min-height: 30px !important;
     width: 30px !important;
-    border-top: 0px solid var(--minimal-dark-be-grey) !important;
-    border-bottom: 1px solid var(--minimal-dark-be-grey) !important;
+    border-top: 0px solid var(--minimal-dark-border-grey) !important;
+    border-bottom: 1px solid var(--minimal-dark-border-grey) !important;
     margin-top: 0px !important;
     padding-left: 0px !important;
     border-right: 0px solid transparent !important;
-    border-left: 1px solid var(--minimal-dark-be-grey) !important;
+    border-left: 1px solid var(--minimal-dark-border-grey) !important;
     background: var(--minimal-dark-blacker-alt) !important;
     font-size: 0px !important;
     transition: .25s ease-out !important;

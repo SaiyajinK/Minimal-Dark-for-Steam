@@ -3,7 +3,7 @@
     background: var(--minimal-dark-blacker-alt) !important;
     box-shadow: none !important;
     border-top: none !important;
-    border-bottom: 1px solid var(--minimal-dark-be-grey) !important;
+    border-bottom: 1px solid var(--minimal-dark-border-grey) !important;
     height: 0px !important;
     transition: .5s ease-out !important;
     transform: translate(0px, 0px) !important;
