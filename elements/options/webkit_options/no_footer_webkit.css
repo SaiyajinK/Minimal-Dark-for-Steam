@@ -9,3 +9,11 @@ body.v6 div#footer {
 .knntvUEkLRg- {
     display: none !important;
 }
+
+body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
+    display: none !important;
+}
+
+#footer .footer_content {
+    display: none !important;
+}
