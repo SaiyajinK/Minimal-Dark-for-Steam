@@ -1150,6 +1150,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
     background-image: none !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transition: .25s ease-out !important;
+    transform: translate(50px, 10px) !important;
 }
 
 .HruWVPwIDh2FFOOH7OiSs .gioyPMOZttYFcnmgLnsWf .iYW5hWQwg14WYT4PV3xe_:hover {
