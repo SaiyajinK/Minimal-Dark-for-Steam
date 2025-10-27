@@ -1,5 +1,11 @@
 ._3Sb2o_mQ30IDRh0C72QUUu,
 ._2gSXCB6PbOlMxslr8hm6dm,
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K,
+._2iJsgdTIX9Tj23rWnB7Q-c,
+._1bGewp3tfzqAF6fVTFFUOz ._29p1jfvZ-VdlXK24_7UGsK,
+._2kwFFHckg8jvnwJfg9-la8,
+.DialogContent,
+.DialogContentTransition,
 ._2Dd4T78PcCTUVgOtDGFY5j,
 ._3x1HklzyDs4TEjACrRO2tB,
 ._20QAC4WMXm8qFE8waUT5oo,
@@ -13,4 +19,7 @@
 ._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC,
 ._17uEBe5Ri8TMsnfELvs8-N {
   background: transparent !important;
+}
+body {
+  background-color: var(--minimal-dark-background);
 }

@@ -1,5 +1,5 @@
 ::-webkit-scrollbar-thumb {
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
   border: 7px solid transparent;
   background-clip: padding-box;
   border-radius: var(--minimal-dark-corner);
@@ -31,7 +31,7 @@
 
 .ReactVirtualized__List:hover::-webkit-scrollbar-thumb,
 [class*="gamelist_Container_"]:hover::-webkit-scrollbar-thumb {
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
   background-clip: padding-box;
   -webkit-box-shadow: none;
   border-radius: var(--minimal-dark-corner);

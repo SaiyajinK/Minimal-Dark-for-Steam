@@ -1,12 +1,20 @@
 :root {
   /*
+  * @name minimal dark background for the entire application
+  */
+  --minimal-dark-background: #1e1e1e;
+  /*
   * @name minimal dark color
   */
   --minimal-dark-color: #808080;
   /*
-  * @name minimal dark border grey
+  * @name minimal dark border
   */
-  --minimal-dark-border-grey: #262626;
+  --minimal-dark-border: #262626;
+  /*
+  * @name minimal dark border hover
+  */
+  --minimal-dark-border-hover: #464646;
   /*
   * @name minimal dark popup background
   */
@@ -87,4 +95,24 @@
   * @name minimal dark installed games
   */
   --minimal-dark-installed-games: #d6cab7;
+  /*
+  * @name minimal dark left side game header gradient in library sidebar
+  */
+  --minimal-dark-sidebar-game-header-gradient-1: #121212;
+  /*
+  * @name minimal dark right side game header gradient in library sidebar
+  */
+  --minimal-dark-sidebar-game-header-gradient-2: #121212;
+  /*
+  * @name minimal dark left side game gradient in library sidebar
+  */
+  --minimal-dark-sidebar-game-gradient-1: #121212;
+  /*
+  * @name minimal dark right side game gradient in library sidebar
+  */
+  --minimal-dark-sidebar-game-gradient-2: #121212;
+  /*
+  * @name minimal dark topbar selected tab color
+  */
+  --minimal-dark-topbar-selected-tab: #ffffff;
 }

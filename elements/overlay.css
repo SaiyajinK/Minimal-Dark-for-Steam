@@ -1,9 +1,8 @@
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
   padding: 0px 14px 2px 14px;
-  background: var(--minimal-dark-blacker-alt);
   box-shadow: none;
   border-top: none;
-  border-bottom: 1px solid var(--minimal-dark-border-grey);
+  border-bottom: 1px solid var(--minimal-dark-border);
 }
 
 ._2yR2OYV73WSHDYrL_4tJHk {
@@ -18,7 +17,7 @@
 .lwprNSgEnKfVSHIzsgbFi {
   background-color: var(--minimal-dark-blacker-alt);
   background-image: none;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   box-shadow: 0 0 16px #000;
 }
@@ -59,7 +58,7 @@
 
 .zhaKeChn9HPNSMtk0ami_ ._1cXzMrhKqoTeIK_bPpNLIC {
   margin-top: 5px;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -93,7 +92,7 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F:nth-of-type(1) {
 
 .RTicBCbDcEGkjsbmWzA8C {
   background: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-right: none;
   flex: 1;
   min-width: 140px;
@@ -168,7 +167,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._1fuML-ekRbTEzgzC597yGP {
   background-color: var(--minimal-dark-blacker-alt);
-  border-top: 1px solid var(--minimal-dark-border-grey);
+  border-top: 1px solid var(--minimal-dark-border);
 }
 
 .franchise_notice {
@@ -304,7 +303,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 .DesktopUI .Oo5JPcEk_erKEYAzYp2nY:hover {
   color: #fff;
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
 }
 
 button.DialogButton.Primary {
@@ -334,13 +333,13 @@ button.DialogButton.Primary:enabled:active,
 button.DialogButton.Primary:enabled:active.gpfocus {
   background: transparent;
   box-shadow: inset 0px 0px 4px 4px #0000007a;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 button.DialogButton.Primary:enabled:hover:active {
   background: var(--minimal-dark-blacker-alt);
   box-shadow: inset 0px 0px 4px 4px #0000007a;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   color: white;
 }
 
@@ -349,7 +348,7 @@ div.ModalPosition_TopBar {
 }
 
 .mediamanagerutils_ButtonBox_28eIR.mediamanagerutils_Secondary_QE3sH {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 .mediamanagerutils_ButtonBox_28eIR.mediamanagerutils_Secondary_QE3sH:hover {
@@ -372,7 +371,7 @@ div.ModalPosition_TopBar {
   flex-direction: column;
   margin-top: 12px;
   margin-bottom: 12px;
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
   border: 1px solid #0e141b;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, .25);
 }
@@ -382,7 +381,7 @@ div.ModalPosition_TopBar {
 }
 
 ._2rxrVvbku0AC8Qbequ4-z9 ._2SvsKGOQeIoV8laKj5Ql5s ._2YSm1vJtLeKb9BbihsLY1F ._2_4_nZy-T2C3pHa81tGH76 ._3mCrTKGesl-jD-k-buQ13_ {
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
 }
 
 ._2rxrVvbku0AC8Qbequ4-z9 ._2SvsKGOQeIoV8laKj5Ql5s ._2YSm1vJtLeKb9BbihsLY1F ._341mdPDkZV7JkbIxGBREsd ._30Bn7zCGRm9mu2m62-VXOF.L3t04yaV4NIy6qhVIquGp {
@@ -397,7 +396,7 @@ button.DialogButton.Disabled {
 
 button.DialogButton:disabled:hover,
 button.DialogButton.Disabled:hover {
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
 }
 
 ._20evaxvMeG8jMJ31t-5-L5 {
@@ -417,7 +416,7 @@ button.DialogButton.Disabled:hover {
 ._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m ._3f3VJUtyLXUf_JDFE-BaQ6 {
   background: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 button.DialogButton {
@@ -426,7 +425,7 @@ button.DialogButton {
 
 button.DialogButton:hover,
 button.DialogButton.gpfocus {
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
   color: #fff;
 }
 
@@ -564,7 +563,7 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 ._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 ._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk {
@@ -573,7 +572,7 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 ._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 .oQafBNf0Aso9mt7Tt5wQi {
@@ -599,7 +598,7 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 ._1WKUOT3FdB9-48MMP0Tz9l {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 ._1WKUOT3FdB9-48MMP0Tz9l:hover,
@@ -609,7 +608,7 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 ._2n6FNLKyb6al_YPk13xS7S ._2RCSUgg2X_uF_C0e1lrcqc:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 ._2n6FNLKyb6al_YPk13xS7S ._2RCSUgg2X_uF_C0e1lrcqc:hover .DialogCheckbox {
@@ -618,17 +617,17 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._2n6FNLKyb6al_YPk13xS7S ._2qURXDJ4ZtfSVOesDk7A73 .DialogCheckbox {
   background: var(--minimal-dark-black);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._1EubJAK9z7JtdGks5M2f8t {
   background-color: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._17SQWViInfB-hmYYLoK4Yw:hover,
 ._17SQWViInfB-hmYYLoK4Yw:active {
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
 }
 
 ._3lwcRYJ_r7x01Cn15bcdYI {
@@ -637,7 +636,7 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 ._3lwcRYJ_r7x01Cn15bcdYI:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 ._1R-DVEa2yqX0no8BYLtn9N:hover {
@@ -669,7 +668,7 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 ._4BQHp2F51n2v8292fxZLZ {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -679,22 +678,22 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._35HbMDUqNj3v-llxNlSg1T {
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._35HbMDUqNj3v-llxNlSg1T:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   border: 1px solid var(--minimal-dark-color);
 }
 
 ._357GuN2jOraoBsztl6eEpW {
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
 ._357GuN2jOraoBsztl6eEpW:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   border: 1px solid var(--minimal-dark-color);
   border-radius: var(--minimal-dark-corner);
 }
@@ -709,7 +708,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._2ohOQgahhMYnIEfAQmv9B8 {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   background: var(--minimal-dark-blacker-alt);
   transform: translate(-20px, 0px);
 }
@@ -739,7 +738,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L {
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L:hover {
@@ -751,14 +750,14 @@ button.DialogButton:enabled:active.gpfocus {
 
 .fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg ._2LJMRr1_5XUK4wlt7YMyPi .mh8m9p4PBg_Qrev1bfTzc {
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 .fi6UDkxJq66MLo2z9wabQ .BoygotvcKo4DC4dSix8G3 {
   color: white;
   border-radius: var(--minimal-dark-corner);
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._27m9Qbg4ShilOgwvYZWV8l {
@@ -772,7 +771,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2wBK7MqJSrj6QCxf3357yL {
   background-color: #3d4450;
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -786,12 +785,12 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2OwqXw1nhBL430bsYTeEr-:hover {
   color: var(--minimal-dark-color);
-  background-color: 1px solid var(--minimal-dark-border-grey);
+  background-color: 1px solid var(--minimal-dark-border);
 }
 
 ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._3eNE5TKtDTnfNBAsCqfcP0:hover {
   color: var(--minimal-dark-color);
-  background-color: 1px solid var(--minimal-dark-border-grey);
+  background-color: 1px solid var(--minimal-dark-border);
 }
 
 ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._3eNE5TKtDTnfNBAsCqfcP0 {
@@ -812,7 +811,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._1-nHjRywUoX7Mpyc6JOPaQ {
   background: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: 10px;
   height: 4px;
 }
@@ -833,13 +832,13 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._1xlfggpT8Cn4-EK9iJBdx8 ._2J4GI0xeNpNga2OP4ksXi- {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._9C3IQcKq_7IuypXHqXTYI ._287ZGrkOOAizxtuE-F-1Tg {
   background-color: #000000;
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 .DialogToggleField_Option.Off.Active {
@@ -849,7 +848,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 .DialogToggleField_Option.Off:hover {
   color: #dfe3e6;
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
 }
 
 .DialogToggleField_Option.Active {
@@ -862,7 +861,7 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 .DialogToggleField_Option:hover {
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
 }
 
 .qFjVwKFidyZdbmIhaENhV {
@@ -883,7 +882,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._1TV2TLk7RNa3PqD1_WKqfs {
   background: var(--minimal-dark-blacker-alt);
   border-radius: 5px;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._1ARpYhIZ6djOb8YryXoRTt._1pAbz17S-TpVy4rtNcwjlr ._35OPW6SSVNT98PMn5YpdWe {
@@ -916,7 +915,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._7EGqd8bdiXJBd2fj5Hh8r {
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transition-property: border, background-color, color, box-shadow;
   transition-duration: 300ms;
   transition-timing-function: ease-out;
@@ -948,7 +947,7 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 ._1J8umaxlHnD4poewN6r8wp {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   color: var(--minimal-dark-red2);
   background-color: var(--minimal-dark-blacker-alt);
@@ -958,7 +957,7 @@ button.DialogButton:enabled:active.gpfocus {
 .Eb1lsOEJzpe16aJ22U1Qa {
   background-color: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._13jcEJEX7-IWJqusC_WKOF {
@@ -966,26 +965,26 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 .Eb1lsOEJzpe16aJ22U1Qa ._390X6OtISLq6uq5EvK25w img {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
 .UgQp-NQIbjw2dbLYF77Cw ._2mxOP83pEM0_VV774kShWG {
   border-radius: 0px 0px 5px 5px;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   background: var(--minimal-dark-blacker);
 }
 
 ._3QLt_cnTY9p8pNOj9jxTxR {
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   filter: brightness(1);
 }
 
 ._2AtQdZFU-mOGE-_3SuQKkw {
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   filter: brightness(1);
 }
@@ -1014,7 +1013,7 @@ button.DialogButton:enabled:active.gpfocus {
   background-color: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
   box-shadow: none;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._2T45kYJmyvQWyxytQeohuY._3JYigpIF46lZDATkhxHZmZ .OshLau78NSt9yYd3ifber:hover {
@@ -1022,25 +1021,25 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 ._28eIRmQ229ntDIyQXTn3Ub.QE3sHW9puNTAjiRDY71Xy:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   color: var(--minimal-dark-color);
 }
 
 ._1f9_BgoyE1cjqyeKD8dh9u .YzIcpcz4oFx-nndxro5jE {
   background: var(--minimal-dark-blacker-alt);
   backdrop-filter: blur(10px);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._1f9_BgoyE1cjqyeKD8dh9u ._162CJAH8jPwIYGGg5Q2YIc {
   background: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._3WR6QIYfn7Vo3gVdKjjFuW {
   background-color: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._3WR6QIYfn7Vo3gVdKjjFuW:hover {
@@ -1051,7 +1050,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._3WR6QIYfn7Vo3gVdKjjFuW ._3Hu0GgTCQF42PVBKY5PVIm {
   background: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   height: 22px;
   transform: translate(0px, 3px);
@@ -1081,7 +1080,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._2hcrnBEslc1Awh2IFpGA7W {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._2-7fqz03LhYHKEBI-HwIPq:hover {
@@ -1091,7 +1090,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._1JVxK7k1dVGT-XnDTUFrIC {
   background-color: #191919d1;
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   backdrop-filter: blur(8px);
 }
 
@@ -1118,14 +1117,14 @@ button.DialogButton:enabled:active.gpfocus {
 .UaZofqckhvedj_5hec7Km._30u9sU6ivH1Rzj07292vDe ._2RqQ4lEV9AKW7N6cgPHoik {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-bottom: none;
 }
 
 .UaZofqckhvedj_5hec7Km._30u9sU6ivH1Rzj07292vDe ._2KScPiTjuDpx2SKoaLGxC0 {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-top: none;
 }
 
@@ -1146,7 +1145,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._3i4EpiSDpxQHVFExxUa1Zp {
   background-color: var(--minimal-dark-blacker-alt);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   left: 18px;
   top: 59px;
 }
@@ -1155,7 +1154,7 @@ button.DialogButton:enabled:active.gpfocus {
   color: var(--minimal-dark-color);
   background: var(--minimal-dark-black);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   left: 18px;
   top: 59px;
 }
@@ -1173,7 +1172,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._3LLH_F43MTu6UtG4Z3kudv {
   background-color: var(--minimal-dark-blacker-alt);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   left: 22px;
   top: 59px;
 }
@@ -1182,7 +1181,7 @@ button.DialogButton:enabled:active.gpfocus {
   color: var(--minimal-dark-color);
   background: var(--minimal-dark-black);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   left: 22px;
   top: 59px;
 }
@@ -1199,7 +1198,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._1zaACxBAyMqq2MspuISjix .nzZlhFJAzKTdsKCWil0F9 {
   background-color: var(--minimal-dark-black);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._1tTuIhabs4uQQmR2udzw_P {
@@ -1208,7 +1207,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._6em9hiNtkrdaHE8eVfq0P {
   background: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -1230,7 +1229,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._2Pb44QTSnDyc5GLNnVtegN ._2vsDU46uDOtqK3-Kv9HFyo {
   background-color: var(--minimal-dark-blacker-alt);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._2Pb44QTSnDyc5GLNnVtegN ._2MX8QwL5Xjaa7uGP7hNIbc {
@@ -1240,7 +1239,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._1lcizT_Nbxsk484XzTtcFf {
   background-color: var(--minimal-dark-blacker-alt);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._2fICi3Sa-9RSsaGQXtgYxE ._1BfvGliHSf2eWZCE__10m1 .kjBAvLwkb1RetQQxFsPjM {
@@ -1254,7 +1253,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._3ZHIBZbKR6DCeKpSDqwlMg.hwsQa9AuO5HnZjJobwSys {
   background-color: var(--minimal-dark-blacker-alt);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   color: white;
 }
 
@@ -1278,7 +1277,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._3-FOZfbfmPwTkmRBuCTDwr {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._1j2F52r3Ii1QcgyElBRYZ1 {
@@ -1288,7 +1287,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._1j2F52r3Ii1QcgyElBRYZ1 ._1fVfKL7Q4K3sRdioqrCvlf {
   background-color: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._6cKPA9Qiq89elkZykzWm5 {
@@ -1298,32 +1297,32 @@ button.DialogButton:enabled:active.gpfocus {
 .byUV3gGMo74sUHlxvyjDp {
   background-color: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._1A662abUbKAn0ig5xH3aUN .ncAM2VaXiUJiIk2yvdf5T,
 ._1A662abUbKAn0ig5xH3aUN ._2icGUB0eQHsvd1mlUILwtM {
   background-color: var(--minimal-dark-blacker-alt);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._3PZjzoWLVofSeZpDpB1hrL ._3X22h7YdnZrFC2KSDbQiLq {
   background-color: var(--minimal-dark-blacker-alt);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._1dGgVLeznTJ_tSM-ISiy0C {
   background-color: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._3ZHIBZbKR6DCeKpSDqwlMg._2q1K8sdTBivCqmSyDOf6tz {
   background-color: var(--minimal-dark-blacker-alt);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   color: white;
 }
 
@@ -1338,7 +1337,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._3ixlq8K1YVBNIk7rw190aK {
   background-color: var(--minimal-dark-blacker-alt);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._3ixlq8K1YVBNIk7rw190aK ._3jzI6mjmcbRqEVzPuCJYv5 {
@@ -1361,7 +1360,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 .JB3vz2k1En56vQbe0XtOZ,
 ._2ytunPfeSrGLnjLfJzcZYH {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   background: var(--minimal-dark-blacker-alt);
   color: var(--minimal-dark-color);
@@ -1379,18 +1378,18 @@ button.DialogButton:enabled:active.gpfocus {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   background: var(--minimal-dark-blacker-alt);
-  border-bottom: 1px solid var(--minimal-dark-border-grey);
-  border-right: 1px solid var(--minimal-dark-border-grey);
-  border-left: 1px solid var(--minimal-dark-border-grey);
+  border-bottom: 1px solid var(--minimal-dark-border);
+  border-right: 1px solid var(--minimal-dark-border);
+  border-left: 1px solid var(--minimal-dark-border);
 }
 
 .iJ-nnbMoplnO7sW4GoKZE .ke2xSKYvfY9kTFlZgvXyx ._16W4iNZCkRy5g-01USxzcp {
   background: var(--minimal-dark-blacker-alt);
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  border-top: 1px solid var(--minimal-dark-border-grey);
-  border-right: 1px solid var(--minimal-dark-border-grey);
-  border-left: 1px solid var(--minimal-dark-border-grey);
+  border-top: 1px solid var(--minimal-dark-border);
+  border-right: 1px solid var(--minimal-dark-border);
+  border-left: 1px solid var(--minimal-dark-border);
 }
 
 .iJ-nnbMoplnO7sW4GoKZE .ke2xSKYvfY9kTFlZgvXyx ._16W4iNZCkRy5g-01USxzcp ._2oSbwmF9lRWp2wTpQ2BTcr {
@@ -1405,7 +1404,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._34dlBrUZP054ElsvOp5hQm ._1-ooPvEW2c6SHuhnz6SK3t .NP3DlSRiWZygPWZSLSVX {
   background-color: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._34dlBrUZP054ElsvOp5hQm ._1-ooPvEW2c6SHuhnz6SK3t .JffqXSW3actHr6hj8F9Sn {
@@ -1466,18 +1465,18 @@ button.DialogButton:enabled:active.gpfocus {
 
 .pKqdj8AMVbHjzLei06ytQ .SliderTrack {
   background: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 .KN1Z4dQcyKqZnJu1Lg-pt {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   background: var(--minimal-dark-blacker);
 }
 
 .aRSQbVMZyOH4yvKNPIIbD {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   background: var(--minimal-dark-blacker);
 }
 
@@ -1488,7 +1487,7 @@ button.DialogButton:enabled:active.gpfocus {
 .LXSDTbESQvn-zKZCQ3wBF ._29aMERAh0Sqr7KYiCk9_Fu,
 .LXSDTbESQvn-zKZCQ3wBF ._2ear7ibzGm0Ir71HLpaJra {
   background-color: black;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -1500,7 +1499,7 @@ button.DialogButton:enabled:active.gpfocus {
   border-radius: var(--minimal-dark-corner);
   background-color: var(--minimal-dark-blacker-alt);
   color: var(--minimal-dark-color);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._2-7fqz03LhYHKEBI-HwIPq:hover>img,
@@ -1509,15 +1508,15 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 ._2-7fqz03LhYHKEBI-HwIPq ._3yu2_I6JERouGkz0YLwnuX {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   border-radius: 20px;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._2-7fqz03LhYHKEBI-HwIPq ._3yu2_I6JERouGkz0YLwnuX:hover {
   background-color: rgba(26, 26, 26, .5);
   border-radius: 20px;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   backdrop-filter: blur(8px);
 }
 
@@ -1549,7 +1548,7 @@ button.DialogButton:enabled:active.gpfocus {
   color: black;
   background: orange;
   font-weight: bold;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -1574,7 +1573,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._3Lw0_xiOn-_VGCOMi6NUVk ._1AVfyoaKX1mpK6B7AJjoGA .Biz9h2ya6tC40llO7aWex {
   background-color: var(--minimal-dark-blacker-alt);
   color: white;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   font-weight: 500;
 }
 
@@ -1590,7 +1589,7 @@ button.DialogButton:enabled:active.gpfocus {
 }
 
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit {
-  border: 2px solid var(--minimal-dark-border-grey);
+  border: 2px solid var(--minimal-dark-border);
   background: #0e0e0e;
   transition: .25s ease-out;
 }
@@ -1601,7 +1600,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._2_vG6TwMW2XtyLlTEaODH9 {
   background-color: black;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._11I0_AlsB40ak50752rsuy {
@@ -1618,7 +1617,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._3e--AJv1pErMz7ete-Hprz:hover {
   background: var(--minimal-dark-black);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transition: .25s ease-out;
 }
 
@@ -1656,7 +1655,7 @@ button.DialogButton:enabled:active.gpfocus {
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3lj3-GDYOlcoIFB3fFo1ko {
   background-color: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._1ILFQY2sxyGFT_n-fifayy {
@@ -1705,7 +1704,7 @@ button.DialogButton:enabled:active.gpfocus {
 
 ._389dy3Ef8XXn1tSRL6VuUJ ._2PT6bYHtDfOFR4vyjivTCX {
   background-color: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   transition: .25s ease-out;
 }
@@ -1764,7 +1763,7 @@ button.QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable {
 
 .eKmEXJCm_lgme24Fp_HWt.GxgIyq8R5xTOeu4ftGrgX::after {
   height: 1px;
-  background: linear-gradient(90deg, var(--minimal-dark-border-grey) 0%, rgba(26, 26, 26, 0) 75%, rgba(33, 33, 33, 0) 100%);
+  background: linear-gradient(90deg, var(--minimal-dark-border) 0%, rgba(26, 26, 26, 0) 75%, rgba(33, 33, 33, 0) 100%);
 }
 
 html.responsive div#footer.compact .footer_content {

@@ -2,12 +2,12 @@
   padding-right: 0px;
   min-height: 30px;
   width: 30px;
-  border-top: 0px solid var(--minimal-dark-border-grey);
-  border-bottom: 1px solid var(--minimal-dark-border-grey);
+  border-top: 0px solid var(--minimal-dark-border);
+  border-bottom: 1px solid var(--minimal-dark-border);
   margin-top: 0px;
   padding-left: 0px;
   border-right: 0px solid transparent;
-  border-left: 1px solid var(--minimal-dark-border-grey);
+  border-left: 1px solid var(--minimal-dark-border);
   font-size: 0px;
   transition: .25s ease-out;
   color: transparent;

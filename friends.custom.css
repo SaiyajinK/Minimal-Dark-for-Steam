@@ -9,7 +9,7 @@
 .friendsui-container .title-area-icon {
   width: 18px;
   height: 18px;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transform: translate(-9px, 2px);
   transition: .25s ease-out;
   margin-left: 8px;
@@ -66,8 +66,8 @@
   /* background: var(--minimal-dark-blacker) ; */
   transition: .25s ease-out;
   border: 1px solid var(--minimal-dark-red2);
-  /* border-left: 1px solid var(--minimal-dark-border-grey) ; */
-  /* border-bottom: 1px solid var(--minimal-dark-border-grey) ; */
+  /* border-left: 1px solid var(--minimal-dark-border) ; */
+  /* border-bottom: 1px solid var(--minimal-dark-border) ; */
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -76,8 +76,8 @@
   /* background: var(--minimal-dark-blacker) ; */
   transition: .25s ease-out;
   border: 1px solid var(--minimal-dark-red2);
-  /* border-left: 1px solid var(--minimal-dark-border-grey) ; */
-  /* border-bottom: 1px solid var(--minimal-dark-border-grey) ; */
+  /* border-left: 1px solid var(--minimal-dark-border) ; */
+  /* border-bottom: 1px solid var(--minimal-dark-border) ; */
   box-shadow: inset 0 0 8px #000000c2;
   border-radius: var(--minimal-dark-corner);
 }
@@ -96,7 +96,7 @@
 
 .friendsui-container .title-area-icon.maximizeButton:hover {
   transition: .25s ease-out;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-top: 1px solid var(--minimal-dark-color);
   border-radius: var(--minimal-dark-corner);
   /* background: var(--minimal-dark-blacker-alt) ; */
@@ -105,7 +105,7 @@
 
 .friendsui-container .title-area-icon.maximizeButton:active {
   transition: .25s ease-out;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-top: 1px solid var(--minimal-dark-color);
   box-shadow: inset 0 0 8px #000000c2;
   border-radius: var(--minimal-dark-corner);
@@ -124,7 +124,7 @@
 
 .friendsui-container .title-area-icon.minimizeButton:hover {
   transition: .25s ease-out;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-top: 1px solid var(--minimal-dark-color);
   border-radius: var(--minimal-dark-corner);
   background: var(--minimal-dark-blacker-alt);
@@ -133,7 +133,7 @@
 
 .friendsui-container .title-area-icon.minimizeButton:active {
   transition: .25s ease-out;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-top: 1px solid var(--minimal-dark-color);
   box-shadow: inset 0 0 8px #000000c2;
   border-radius: var(--minimal-dark-corner);
@@ -158,7 +158,7 @@
 }
 
 .friendsui-container ::-webkit-scrollbar-thumb {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   border: 4.5px solid transparent;
   border-radius: 20px;
 }
@@ -185,14 +185,14 @@
   position: relative;
   user-select: none;
   flex-shrink: 0;
-  border-bottom: 1px solid var(--minimal-dark-border-grey);
+  border-bottom: 1px solid var(--minimal-dark-border);
 }
 
 .activeTab {
   background-color: transparent;
   box-shadow: none;
   color: var(--minimal-dark-less-white);
-  border-bottom: 0px solid var(--minimal-dark-border-grey);
+  border-bottom: 0px solid var(--minimal-dark-border);
 }
 
 .friendSearchInput[type="text"] {
@@ -243,7 +243,7 @@
   color: var(--minimal-dark-less-white);
   padding: 0;
   position: relative;
-  border-top: 1px solid var(--minimal-dark-border-grey);
+  border-top: 1px solid var(--minimal-dark-border);
 }
 
 .friendsListSectionTitle.chatSectionTitle:hover {
@@ -338,13 +338,13 @@
 
 .K-lPMiafCuZRqjfXykujt:hover,
 .K-lPMiafCuZRqjfXykujt:focus {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   color: #fff;
 }
 
 .VoiceToggle {
   background: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -372,18 +372,18 @@
 
 ._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg:hover,
 ._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg:focus {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   color: #fff;
 }
 
 .VoiceToggle.Inactive:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 .chatFileUploadPreviewContainer {
   background: var(--minimal-dark-black);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 .messages_MsgWithAddons_32Uri:hover {
@@ -395,12 +395,12 @@
   background: var(--minimal-dark-blacker-alt);
   user-select: none;
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 button.DialogButton {
   background: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -461,7 +461,7 @@ button.DialogButton.gpfocus {
 
 .friendsui-container .contextMenuItem:hover,
 .friendsui-container .contextMenuItem._1KPWUt7wYWSfD3V7sYpsyT {
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
 }
 
 .friendsui-container .contextMenuGameTitle,
@@ -472,7 +472,7 @@ button.DialogButton.gpfocus {
 
 .friendsui-container .LQkrbbayZPY11qHm01t7F {
   background: var(--minimal-dark-black);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -496,7 +496,7 @@ button.DialogButton.gpfocus {
   border-radius: var(--minimal-dark-corner);
   margin-left: 8px;
   margin-top: 0px;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 .chatTabSelector:hover {
@@ -535,12 +535,12 @@ button.DialogButton.gpfocus {
 }
 
 .chatRoomButton .SVGIcon_Button {
-  fill: var(--minimal-dark-border-grey);
+  fill: var(--minimal-dark-border);
 }
 
 .inviteAnotherFriendButton .SVGIcon_Button line,
 .chatRoomButton .SVGIcon_Button line {
-  stroke: var(--minimal-dark-border-grey);
+  stroke: var(--minimal-dark-border);
 }
 
 .inviteAnotherFriendButton:hover .SVGIcon_Button line,
@@ -566,7 +566,7 @@ button.DialogButton.gpfocus {
 
 .inviteLinkContainer .DialogDropDown._DialogInputContainer:hover {
   color: #fff;
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 .inviteLinkContainer .DialogInputLabelGroup .DialogInput {
@@ -589,7 +589,7 @@ button.DialogButton.gpfocus {
 }
 
 .chatRoomGroupHeaderName {
-  color: var(--minimal-dark-border-grey);
+  color: var(--minimal-dark-border);
 }
 
 .ToggleGroupChatList {
@@ -626,9 +626,9 @@ button.DialogButton.gpfocus {
   background: var(--minimal-dark-color);
   color: white;
   transition: .25s ease-out;
-  border-top: 1px solid var(--minimal-dark-border-grey);
-  border-right: 1px solid var(--minimal-dark-border-grey);
-  border-left: 1px solid var(--minimal-dark-border-grey);
+  border-top: 1px solid var(--minimal-dark-border);
+  border-right: 1px solid var(--minimal-dark-border);
+  border-left: 1px solid var(--minimal-dark-border);
 }
 
 .chatRoomTextChannel.ActiveTextChannel {
@@ -686,7 +686,7 @@ button.DialogButton.gpfocus {
 .namedGroup .chatRoomGroupHeader {
   padding: 6px 12px 6px 12px;
   background: var(--minimal-dark-blacker-alt);
-  border-bottom: 1px solid var(--minimal-dark-border-grey);
+  border-bottom: 1px solid var(--minimal-dark-border);
 }
 
 .ChatRoomAddRoomBtn:hover:not(.NoPermission) .SVGIcon_PlusCircle {
@@ -886,7 +886,7 @@ button.DialogButton.gpfocus {
 
 .resizingSingleWindow .singleWindowDivider,
 .singleWindowDivider:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 ._1ZlvfuG4Q4e9GfTYNuNI5b,
@@ -900,9 +900,9 @@ button.DialogButton.gpfocus {
   border-top: 1px solid var(--minimal-dark-greyblack);
   margin-left: 6px;
   border-radius: var(--minimal-dark-corner);
-  border-left: 1px solid var(--minimal-dark-border-grey);
-  border-right: 1px solid var(--minimal-dark-border-grey);
-  border-bottom: 1px solid var(--minimal-dark-border-grey);
+  border-left: 1px solid var(--minimal-dark-border);
+  border-right: 1px solid var(--minimal-dark-border);
+  border-bottom: 1px solid var(--minimal-dark-border);
   height: 40px;
   margin: 2px 0px 2px 6px;
 }
@@ -925,7 +925,7 @@ button.DialogButton.gpfocus {
 
 .X2iywwN7fcdh9zXpXVsrk::before,
 .X2iywwN7fcdh9zXpXVsrk:last-of-type::after {
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
   top: 0px;
   bottom: 0px;
   width: 1px;
@@ -990,7 +990,7 @@ button.DialogButton.gpfocus {
 }
 
 .confirmInviteRequestContainer .confirmInviteButton:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 .friendInviteButton.bright.acceptFriendInvite,
@@ -1000,7 +1000,7 @@ button.DialogButton.gpfocus {
 
 .friendInviteButton.bright.acceptFriendInvite:hover,
 .friendInviteButton.bright.declineFriendInvite:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
 }
 
 .confirmInviteButton.confirmInvites {
@@ -1031,7 +1031,7 @@ button.DialogButton.gpfocus {
 
 .socialInputContainer .friendSearchInput[type="text"] {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   height: 20px;
 
 }
@@ -1114,7 +1114,7 @@ button.DialogButton.gpfocus {
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR ._1BUWXzey55_H5QKdz6Olrn {
-  background: var(--minimal-dark-border-grey);
+  background: var(--minimal-dark-border);
   border: 1px solid var(--minimal-dark-color);
   border-radius: var(--minimal-dark-corner);
 }
@@ -1149,7 +1149,7 @@ html.web_chat_frame body {
 
 .HoverPositionPopup .miniProfileHoverInner {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._2SW_Y5HHBZR-uC8LI36lQM {
@@ -1190,7 +1190,7 @@ html.web_chat_frame body {
   color: white;
   text-shadow: 2px 1px 1px rgb(0 0 0 / 30%);
   background-color: var(--minimal-dark-color);
-  border: 2px solid var(--minimal-dark-border-grey);
+  border: 2px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   margin-left: 10px;
   margin-right: 10px;
@@ -1204,12 +1204,12 @@ html.web_chat_frame body {
   background-color: var(--minimal-dark-black);
   padding: 10px;
   border-radius: var(--minimal-dark-corner);
-  border: 2px solid var(--minimal-dark-border-grey);
+  border: 2px solid var(--minimal-dark-border);
 }
 
 ._1Bb6hYT7xcWUmYUrQmo6nl {
   border-radius: var(--minimal-dark-corner);
-  border: 2px solid var(--minimal-dark-border-grey);
+  border: 2px solid var(--minimal-dark-border);
 }
 
 ._3o7CShdvV_024QlCPNanTb.IqjmSkutoVlArzd8wO2Xa {
@@ -1219,25 +1219,25 @@ html.web_chat_frame body {
 }
 
 ._3o7CShdvV_024QlCPNanTb.IqjmSkutoVlArzd8wO2Xa:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   color: white;
 }
 
 .qOHK85tePDcrS6OEMTwm2 {
   padding: 2px;
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
 .qOHK85tePDcrS6OEMTwm2 .TwOz2KVAfp2GEs9Mve3r- {
   background-color: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 2px solid var(--minimal-dark-border-grey)
+  border: 2px solid var(--minimal-dark-border)
 }
 
 ._2NVbSaqD0yWMMczl37cIAE.ZF6iJ9yWqNVdzAbXdJ_sR:hover {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   border: 2px solid var(--minimal-dark-color);
 }
 
@@ -1272,7 +1272,7 @@ html.web_chat_frame body {
 .chatFileUploadProgressContainer {
   background: #12121280;
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   box-shadow: none;
   backdrop-filter: blur(10px);
   bottom: 76px;
@@ -1282,7 +1282,7 @@ html.web_chat_frame body {
 button.DialogButton.Primary {
   background: var(--minimal-dark-blacker-alt);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   color: #dfe3e6;
 }
 
@@ -1303,12 +1303,12 @@ button.DialogButton.Primary:active {
 
 .BBCodeAlreadyCollapsedText {
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 .BBCodeAlreadyCollapsed.Minimized:hover .BBCodeAlreadyCollapsedText,
 .BBCodeResizableComponent.Minimized:hover .BBCodeCollapsed {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   color: #fff;
 }
 
@@ -1354,17 +1354,17 @@ button.DialogButton.Primary:active {
 
 .inviteAnotherFriendButton {
   background-color: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transform: translate(-2px, 10px);
   border-radius: var(--minimal-dark-corner);
 }
 
 .inviteAnotherFriendButton .SVGIcon_Button {
-  fill: var(--minimal-dark-border-grey);
+  fill: var(--minimal-dark-border);
 }
 
 ._1AMAp6cciTbpuVe8FTH3rK {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   background: rgb(18 18 18 / 75%);
   backdrop-filter: blur(10px);
@@ -1390,7 +1390,7 @@ button.DialogButton.Primary:active {
   height: 28px;
   top: 109px;
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   /* line-height: 24px ; */
   left: 5px;
   backdrop-filter: blur(25px);
@@ -1596,7 +1596,7 @@ button.DialogButton.Primary:active {
 
 ._3kEgIPZCMTtXeWWzzRLo4K ._3nIwHFIw4nSXC_DUrzO_a6 {
   background: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -1621,7 +1621,7 @@ button.DialogButton.Primary:active {
 
 .X2iywwN7fcdh9zXpXVsrk:hover:not(._1BNlZUYDbVr8VhCTmq7ksk) {
   background-color: var(--minimal-dark-black);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-bottom: 1px solid var(--minimal-dark-color);
 }
 
@@ -1654,7 +1654,7 @@ button.DialogButton.Primary:active {
 ._3Ule3rolhZJiBN4yNNtk1s {
   background-color: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
@@ -1664,7 +1664,7 @@ button.DialogButton.Primary:active {
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   margin-right: 10px;
   border-radius: var(--minimal-dark-corner);
 }
@@ -1680,20 +1680,20 @@ button.DialogButton.Primary:active {
 
 ._2QPdq7GZ_03AD1ioPixVXW {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transition: all 0.2s ease-out;
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz:hover:not(.Yd-DsWkYiFiYwpci--Yk_) {
   background-color: var(--minimal-dark-black);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transition: all 0.2s ease-out;
   border-bottom: 1px solid var(--minimal-dark-color);
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_:hover {
   background-color: var(--minimal-dark-black);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   transition: all 0.2s ease-out;
   border-bottom: 1px solid var(--minimal-dark-color);
@@ -1715,12 +1715,12 @@ button.DialogButton.Primary:active {
 
 .Aupswi7-c-w3XwNO5cp2i:hover,
 .Aupswi7-c-w3XwNO5cp2i:focus {
-  background-color: var(--minimal-dark-border-grey);
+  background-color: var(--minimal-dark-border);
   color: #fff;
 }
 
 .RVIs84dAE6wHcjH9tkinc {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._1DsumfIa3MlkzUV9EXY5W9.online ._2n0EiKMGRP-r_BI5tDtttu {
@@ -1888,7 +1888,7 @@ html.client_chat_frame .popup_chat_frame {
 
 ._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
   background: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -1917,7 +1917,7 @@ html.client_chat_frame .popup_chat_frame {
   border: 1px solid transparent;
   transition: .25s ease-out;
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   width: auto;
 }
 
@@ -1936,18 +1936,18 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .FriendInGameIcon img {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._3gSTDNB2ZlqzhvkMEOxfCw ._1l8mFRMOzc3FeTSZuQcZBR {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._7-U6jtoeGvesTm7JFGH0- .A0XYrZMFUpzFpMU7qBrhJ {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._2rDsqxyJxBWUKDmY1lZ1Vw {
@@ -1956,7 +1956,7 @@ html.client_chat_frame .popup_chat_frame {
 
 .Dialog_EditNickName .friend .avatarMedium,
 .Dialog_ChangePersonaName .friend .avatarMedium {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -1977,7 +1977,7 @@ html.client_chat_frame .popup_chat_frame {
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- {
   background: var(--minimal-dark-blacker-alt);
   color: var(--minimal-dark-less-white);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   margin-top: 30px;
   transition: .25s ease-out;
   margin-left: 10px;
@@ -2021,7 +2021,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .CompactFriendsList .friend .avatarHolder img.avatar {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   height: 70%;
   width: 70%;
   transform: translate(0px, -2px);
@@ -2110,7 +2110,7 @@ html.client_chat_frame .popup_chat_frame {
 
 .groupName .gameGroupContainer .groupIcon {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 .quickAccessFriends .favoriteElement:hover .friend .playerName {
@@ -2146,11 +2146,11 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .chatRoomMembers {
-  border-left: 1px solid var(--minimal-dark-border-grey);
+  border-left: 1px solid var(--minimal-dark-border);
 }
 
 .MemberListOptionsContainer {
-  border-left: 1px solid var(--minimal-dark-border-grey);
+  border-left: 1px solid var(--minimal-dark-border);
 }
 
 .MemberListOption.ToggleMemberListView:hover polyline {
@@ -2164,7 +2164,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .ChatHistoryContainer {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -2189,14 +2189,14 @@ html.client_chat_frame .popup_chat_frame {
 
 ._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY {
   background: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   transition: .25s ease-out;
 }
 
 ._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY:hover {
   background: var(--minimal-dark-color);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
   box-shadow: 1px 2px 18px rgba(0, 0, 0, .3);
   transition: .25s ease-out;
@@ -2219,7 +2219,7 @@ html.client_chat_frame .popup_chat_frame {
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 {
   background: var(--minimal-dark-blacker-alt);
-  border-bottom: 1px solid var(--minimal-dark-border-grey);
+  border-bottom: 1px solid var(--minimal-dark-border);
   box-shadow: none;
 }
 
@@ -2234,7 +2234,7 @@ html.client_chat_frame .popup_chat_frame {
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._1m0afeRW-Gr5ZDK4viq3SY {
   border-radius: var(--minimal-dark-corner);
   background-color: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transition: .25s ease-out;
 }
 
@@ -2306,7 +2306,7 @@ button.DialogButton::before {
   border-radius: 20px;
   width: 18px;
   height: 18px;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transform: translate(-5px, 6px);
   transition: .25s ease-out;
   margin-left: 8px;
@@ -2347,7 +2347,7 @@ button.DialogButton::before {
 }
 
 .DialogProgressBar_ProgressBarContainer {
-  border: 4px solid var(--minimal-dark-border-grey);
+  border: 4px solid var(--minimal-dark-border);
   border-radius: 20px;
   background: var(--minimal-dark-blacker-alt);
 }
@@ -2374,7 +2374,7 @@ button.DialogButton::before {
 .QuickAccessChat.quickAccessFriend {
   transition: .25s ease-out;
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   width: auto;
   height: 65px;
   transform: translate(0px, 2px);
@@ -2398,7 +2398,7 @@ button.DialogButton::before {
 
 .ChatRoomGroupAvatar {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 .favoriteElement:hover .quickAccessFriend .clanName {
@@ -2448,7 +2448,7 @@ button.DialogButton::before {
 
 .BBCodeYouTubeComponent {
   background: var(--minimal-dark-blacker-alt2);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -2467,13 +2467,13 @@ button.DialogButton::before {
 .ChatMessageInvite.GroupAlreadyJoined,
 .ChatMessageInvite.Inviter {
   background: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
 .ChatMessageInvite .inviteButton.inviteButtonJoinChat {
   background: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -2560,7 +2560,7 @@ button.DialogButton::before {
 .msg div.SteamPublishedFile {
   background: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
 }
 
 .OpenGraphImgBackground .ChatMessageOpenGraph_Image {
@@ -2573,7 +2573,7 @@ button.DialogButton::before {
 
 .UA15KlVbtDSJkqSpIAMIN {
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -2683,7 +2683,7 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 .inviteButton.inviteButtonJoinVoice:hover {
   background: var(--minimal-dark-progress-bar);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   color: white;
   transition: .25s ease-out;
 }
@@ -2696,7 +2696,7 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 
 .OneOnOneVoiceClose {
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transition: .25s ease-out;
   background: var(--minimal-dark-blacker-alt);
 }
@@ -2713,7 +2713,7 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 .inviteButton.inviteButtonDeclineVoice.gpfocus {
   background: var(--minimal-dark-red2);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transition: .25s ease-out;
   color: white;
 }
@@ -2755,7 +2755,7 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 
 .chatRoomVoiceChannel.ActiveVoiceChannel {
   background-color: var(--minimal-dark-blacker);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -2768,7 +2768,7 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 }
 
 .VoiceRoomChatWindow {
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   background-color: #12121294;
   backdrop-filter: blur(8px);
   box-shadow: 1px 2px 18px #000;
@@ -2781,7 +2781,7 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 
 .chatRoomVoiceChannel {
   background-color: transparent;
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
 }
 
@@ -2828,7 +2828,7 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 .OneOnOneVoiceRoomControls .inviteButton.inviteButtonDeclineVoice:hover {
   background: var(--minimal-dark-red2);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-border);
   transition: .25s ease-out;
   color: white;
 }

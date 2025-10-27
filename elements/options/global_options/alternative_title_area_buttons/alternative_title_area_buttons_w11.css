@@ -1,14 +1,12 @@
-.DesktopUI .title-area-icon,
+.DesktopUI #popup_target .title-area-icon,
 .friendsui-container .title-area-icon {
   width: 26px;
   height: 26px;
-  transform: translate(-3px, 2px);
   transition: .25s ease-out;
-  margin-left: 3px;
   padding: 2px;
 }
 
-.DesktopUI .title-area-icon.closeButton {
+.DesktopUI #popup_target .title-area-icon.closeButton {
   transition: .25s ease-out;
   border-radius: var(--minimal-dark-corner);
   border-top-right-radius: 7px;
