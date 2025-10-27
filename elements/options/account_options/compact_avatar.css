@@ -4,7 +4,7 @@
     width: 30px !important;
     border-top: 0px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
-    margin-top: 0px !important;
+    margin-top: 0px;
     padding-left: 0px !important;
     border-right: 0px solid transparent !important;
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
