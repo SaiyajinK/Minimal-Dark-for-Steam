@@ -1,27 +1,27 @@
 .store_bg_overlay {
-    display: none !important;
+  display: none;
 }
 
 .fullscreen-bg {
-    display: none !important;
+  display: none;
 }
 
 .home_page_takeover_link img {
-    display: none !important;
+  display: none;
 }
 
 body:not(.no_home_gutter) .home_page_body_ctn .page_background_holder {
-    display: none !important;
+  display: none;
 }
 
 .home_page_takeover_link {
-    display: none !important;
+  display: none;
 }
 
 .menu_takeover_background {
-    display: none !important;
+  display: none;
 }
 
 .home_page_body_ctn.has_takeover .page_background_holder {
-    background-image: none !important;
+  background-image: none;
 }

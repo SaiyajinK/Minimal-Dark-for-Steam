@@ -1,3 +1,4 @@
-.FriendsListChatSection.ChatRoomListContainerParent.Collapsed, .FriendsListChatSection.ChatRoomListContainerParent {
-	display: none !important;
+.FriendsListChatSection.ChatRoomListContainerParent.Collapsed,
+.FriendsListChatSection.ChatRoomListContainerParent {
+  display: none;
 }

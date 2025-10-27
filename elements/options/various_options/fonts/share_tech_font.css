@@ -1,90 +1,91 @@
 @import url('https://fonts.cdnfonts.com/css/share-tech-mono');
 
 * {
-    font-family: 'Share Tech Mono', sans-serif !important;
+  font-family: 'Share Tech Mono', sans-serif;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD ._19axKcqYRuaJ8vdYKYmtTQ {
-    margin-top: 8px !important;
+  margin-top: 8px;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
-    margin-top: 6px !important;
+  margin-top: 6px;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD:hover:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
-    margin-top: 6px !important;
+  margin-top: 6px;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 {
-    padding: 6px 0px 2px 24px !important;
+  padding: 6px 0px 2px 24px;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ .ga1hyw11cdBVodrCAidPF {
-    margin-top: -4px !important;
+  margin-top: -4px;
 }
 
 ._3_xMyCJAh_Dv99KgZ54P3j ._28IqrZIgxpqkUQyhdaLDUN {
-    margin-top: 2px !important;
+  margin-top: 2px;
 }
 
 ._3bkuozxKIatrWG3aeisthc {
-    padding-top: 2px !important;
-    transform: translate(0px, 4px) !important;
+  padding-top: 2px;
+  transform: translate(0px, 4px);
 }
 
 ._3gwMkKp82bb5aZj4EeQnpi {
-    padding-top: 0px !important;
-    transform: translate(0px, 7px) !important;
+  padding-top: 0px;
+  transform: translate(0px, 7px);
 }
 
 .btn_grey_grey {
-    margin-right: -6px !important;
+  margin-right: -6px;
 }
 
 ._3ooxUb30k7736aTVnO179S {
-    font-weight: 500 !important;
+  font-weight: 500;
 }
 
-.store_nav .tab > span {
-    font-size: 13px !important;
-    font-weight: normal !important;
-    padding: 0 10px !important;
+.store_nav .tab>span {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 0 10px;
 }
 
 div#store_search {
-	float: right !important;
+  float: right;
 }
 
 .bSKGlAJG2UVWTsntEJY2v {
-    font-size: 13px !important;
+  font-size: 13px;
 }
 
 ._1Gu1U2_kcg3AWLrXQgX5S6 div.DVBcpUzJ0x6kaRMfug0OJ {
-    font-size: 14px !important;
-	line-height: 21px !important;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 ._3cV3O8FnPQqpJO5kIMUlLX {
-    padding: 5px 9px !important;
+  padding: 5px 9px;
 }
 
 .game_area_comingsoon h1 {
-    font-size: 22px !important;
+  font-size: 22px;
 }
 
-.game_area_purchase_game h1, .game_area_offsite_purchase h1 {
-    font-size: 20px !important;
+.game_area_purchase_game h1,
+.game_area_offsite_purchase h1 {
+  font-size: 20px;
 }
 
 .responsive_search_name_combined {
-    display: inline-flex !important;
+  display: inline-flex;
 }
 
 .search_result_row .col.search_released {
-    width: 92px !important;
+  width: 92px;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1) .bSKGlAJG2UVWTsntEJY2v {
-    font-size: 0px !important;
+  font-size: 0px;
 }

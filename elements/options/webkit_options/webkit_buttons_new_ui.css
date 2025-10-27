@@ -1,38 +1,42 @@
 ._1KU9eASfov1GnFQRbyLIdR {
-    height: 30px !important;
+  height: 30px;
 }
 
-a._175B12uOwmeGBNcSaQFe-Z, button._175B12uOwmeGBNcSaQFe-Z {
-    margin: 7px 5px !important;
-    padding: 7px 10px !important;
-    border: 1px solid var(--minimal-dark-border-grey) !important;
-    border-radius: var(--minimal-dark-corner) !important;
+a._175B12uOwmeGBNcSaQFe-Z,
+button._175B12uOwmeGBNcSaQFe-Z {
+  margin: 7px 5px;
+  padding: 7px 10px;
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._1KU9eASfov1GnFQRbyLIdR {
-    border: 1px solid var(--minimal-dark-border-grey) !important;
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
-a._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5, button._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5 {
-    background: transparent !important;
-    height: 16px !important;
-    margin: 8px !important;
-    transform: translate(0px, -1px) !important;
+a._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5,
+button._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5 {
+  background: transparent;
+  height: 16px;
+  margin: 8px;
+  transform: translate(0px, -1px);
 }
 
-a._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5:hover, button._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5:hover {
-    text-shadow: 1px 1px 1px #000000 !important;
-	border-top: 1px solid var(--minimal-dark-color1) !important;
-	color: var(--minimal-dark-color1) !important;
-	transition: .25s ease-out !important;
+a._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5:hover,
+button._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5:hover {
+  text-shadow: 1px 1px 1px #000000;
+  border-top: 1px solid var(--minimal-dark-color1);
+  color: var(--minimal-dark-color1);
+  transition: .25s ease-out;
 }
 
 span.BReXgOZvJY6u4htWQn1aF {
-	transition: .25s ease-out !important;
+  transition: .25s ease-out;
 }
 
-a._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5:hover span.BReXgOZvJY6u4htWQn1aF, button._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5:hover span.BReXgOZvJY6u4htWQn1aF {
-    text-shadow: 1px 1px 1px #000000 !important;
-	color: var(--minimal-dark-color1) !important;
-	transition: .25s ease-out !important;
+a._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5:hover span.BReXgOZvJY6u4htWQn1aF,
+button._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5:hover span.BReXgOZvJY6u4htWQn1aF {
+  text-shadow: 1px 1px 1px #000000;
+  color: var(--minimal-dark-color1);
+  transition: .25s ease-out;
 }

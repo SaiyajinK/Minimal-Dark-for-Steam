@@ -1,11 +1,12 @@
-.ChatMessageEntryVoice.Disabled, .ChatMessageEntryVoice {
-	display: none !important;
+.ChatMessageEntryVoice.Disabled,
+.ChatMessageEntryVoice {
+  display: none;
 }
 
 .W0OhkJtz8zMUW8Mhu0BMO {
-    height: 100px !important;
+  height: 100px;
 }
 
 ._2WfNoLBdfKwyutA6ho4aSH {
-    transform: translate(0px, -1px) !important;
+  transform: translate(0px, -1px);
 }

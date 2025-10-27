@@ -1,19 +1,19 @@
 ._3_xMyCJAh_Dv99KgZ54P3j:hover {
-    border: 1px solid var(--minimal-dark-invisiblegrey) !important;
-	border-left: 1px solid var(--minimal-dark-color) !important;
-	transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-invisiblegrey);
+  border-left: 1px solid var(--minimal-dark-color);
+  transition: .25s ease-out;
 }
 
 ._3_xMyCJAh_Dv99KgZ54P3j:active {
-    border: 1px solid var(--minimal-dark-invisiblegrey) !important;
-    border-left: 1px solid var(--minimal-dark-color) !important;
-    transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-invisiblegrey);
+  border-left: 1px solid var(--minimal-dark-color);
+  transition: .25s ease-out;
 }
 
 ._3_xMyCJAh_Dv99KgZ54P3j:hover ._28IqrZIgxpqkUQyhdaLDUN {
-    color: white !important;
+  color: white;
 }
 
 ._3_xMyCJAh_Dv99KgZ54P3j:active ._28IqrZIgxpqkUQyhdaLDUN {
-    color: white !important;
+  color: white;
 }

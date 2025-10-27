@@ -1,8 +1,8 @@
 html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup.core body.fullheight.Maximized .FriendsListContent.Panel.Focusable button.createChatRoomButton {
-    padding-right: 6px !important;
+  padding-right: 6px;
 }
 
 .DropTarget.friendsListContainer.fullheight.Panel.Focusable .FriendsListChatSection.ChatRoomListContainerParent.Collapsed button.createChatRoomButton {
-    padding-right: 24px !important;
-	transition: .25s ease-out !important;
+  padding-right: 24px;
+  transition: .25s ease-out;
 }

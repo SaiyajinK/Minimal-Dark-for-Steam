@@ -1,171 +1,171 @@
 * {
-  /* cursor: default !important; */
+  /* cursor: default ; */
 }
 
 .focused:not(.singlewindow) .title-area-highlight {
-  opacity: 0 !important;
+  opacity: 0;
 }
 
 .friendsui-container .title-area-icon {
-  width: 18px !important;
-  height: 18px !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--minimal-dark-border-grey);
   transform: translate(-9px, 2px);
-  transition: .25s ease-out !important;
+  transition: .25s ease-out;
   margin-left: 8px;
 }
 
 .friendsui-container .title-area-icon.maximizeButton svg line {
-  stroke: var(--minimal-dark-topgrey) !important;
-  stroke-width: 8px !important;
+  stroke: var(--minimal-dark-topgrey);
+  stroke-width: 8px;
 }
 
 .friendsui-container .title-area-icon .SVGIcon_X_Line line {
-  stroke: var(--minimal-dark-topgrey) !important;
-  transition: .25s ease-out !important;
+  stroke: var(--minimal-dark-topgrey);
+  transition: .25s ease-out;
 }
 
 .friendsui-container .title-area-icon:hover .SVGIcon_X_Line line {
-  stroke: white !important;
-  transition: .25s ease-out !important;
+  stroke: white;
+  transition: .25s ease-out;
 }
 
 .friendsui-container .title-area-icon:active .SVGIcon_X_Line line {
-  stroke: white !important;
-  transition: .25s ease-out !important;
+  stroke: white;
+  transition: .25s ease-out;
 }
 
 .title-area-icon:hover .SVGIcon_Button rect,
 /*.title-area-icon:hover .SVGIcon_Button line,*/
 .title-area-icon:hover .SVGIcon_Button polyline {
-  stroke: var(--minimal-dark-color) !important;
+  stroke: var(--minimal-dark-color);
   transition: stroke .15s ease-out;
 }
 
 .title-area-icon:hover .SVGIcon_Button rect,
 .title-area-icon:hover .SVGIcon_Button line,
 .title-area-icon:hover .SVGIcon_Button polyline {
-  stroke: var(--minimal-dark-color) !important;
+  stroke: var(--minimal-dark-color);
   transition: stroke .15s ease-out;
 }
 
 .title-area-icon:active .SVGIcon_Button rect,
 .title-area-icon:active .SVGIcon_Button line,
 .title-area-icon:active .SVGIcon_Button polyline {
-  stroke: white !important;
+  stroke: white;
   transition: stroke .15s ease-out;
 }
 
 .friendsui-container .title-area-icon.closeButton {
-  transition: .25s ease-out !important;
+  transition: .25s ease-out;
   border-radius: 22px;
 }
 
 .friendsui-container .title-area-icon.closeButton:hover {
-  background: #f1244669 !important;
-  /* background: var(--minimal-dark-blacker) !important; */
-  transition: .25s ease-out !important;
-  border: 1px solid var(--minimal-dark-red2) !important;
-  /* border-left: 1px solid var(--minimal-dark-border-grey) !important; */
-  /* border-bottom: 1px solid var(--minimal-dark-border-grey) !important; */
+  background: #f1244669;
+  /* background: var(--minimal-dark-blacker) ; */
+  transition: .25s ease-out;
+  border: 1px solid var(--minimal-dark-red2);
+  /* border-left: 1px solid var(--minimal-dark-border-grey) ; */
+  /* border-bottom: 1px solid var(--minimal-dark-border-grey) ; */
   border-radius: var(--minimal-dark-corner);
 }
 
 .friendsui-container .title-area-icon.closeButton:active {
-  background: #f1244669 !important;
-  /* background: var(--minimal-dark-blacker) !important; */
-  transition: .25s ease-out !important;
-  border: 1px solid var(--minimal-dark-red2) !important;
-  /* border-left: 1px solid var(--minimal-dark-border-grey) !important; */
-  /* border-bottom: 1px solid var(--minimal-dark-border-grey) !important; */
-  box-shadow: inset 0 0 8px #000000c2 !important;
+  background: #f1244669;
+  /* background: var(--minimal-dark-blacker) ; */
+  transition: .25s ease-out;
+  border: 1px solid var(--minimal-dark-red2);
+  /* border-left: 1px solid var(--minimal-dark-border-grey) ; */
+  /* border-bottom: 1px solid var(--minimal-dark-border-grey) ; */
+  box-shadow: inset 0 0 8px #000000c2;
   border-radius: var(--minimal-dark-corner);
 }
 
 .title-area-icon.maximizeButton svg rect {
-  stroke: var(--minimal-dark-topgrey) !important;
-  transform: scale(0.85) !important;
-  x: 52px !important;
-  y: 63px !important;
+  stroke: var(--minimal-dark-topgrey);
+  transform: scale(0.85);
+  x: 52px;
+  y: 63px;
 }
 
 .friendsui-container .title-area-icon.maximizeButton {
-  transition: .25s ease-out !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  transition: .25s ease-out;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .friendsui-container .title-area-icon.maximizeButton:hover {
-  transition: .25s ease-out !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-top: 1px solid var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  /* background: var(--minimal-dark-blacker-alt) !important; */
-  background: var(--minimal-dark-blacker) !important;
+  transition: .25s ease-out;
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-top: 1px solid var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
+  /* background: var(--minimal-dark-blacker-alt) ; */
+  background: var(--minimal-dark-blacker);
 }
 
 .friendsui-container .title-area-icon.maximizeButton:active {
-  transition: .25s ease-out !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-top: 1px solid var(--minimal-dark-color) !important;
-  box-shadow: inset 0 0 8px #000000c2 !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  /* background: var(--minimal-dark-blacker-alt) !important; */
-  background: var(--minimal-dark-blacker) !important;
+  transition: .25s ease-out;
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-top: 1px solid var(--minimal-dark-color);
+  box-shadow: inset 0 0 8px #000000c2;
+  border-radius: var(--minimal-dark-corner);
+  /* background: var(--minimal-dark-blacker-alt) ; */
+  background: var(--minimal-dark-blacker);
 }
 
 .friendsui-container .title-area-icon.minimizeButton {
-  transition: .25s ease-out !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  transition: .25s ease-out;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .friendsui-container .title-area-icon.minimizeButton svg {
-  transform: translateY(-4px) scale(0.9) !important;
+  transform: translateY(-4px) scale(0.9);
 }
 
 .friendsui-container .title-area-icon.minimizeButton:hover {
-  transition: .25s ease-out !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-top: 1px solid var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  background: var(--minimal-dark-blacker-alt) !important;
-  background: var(--minimal-dark-blacker) !important;
+  transition: .25s ease-out;
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-top: 1px solid var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
+  background: var(--minimal-dark-blacker-alt);
+  background: var(--minimal-dark-blacker);
 }
 
 .friendsui-container .title-area-icon.minimizeButton:active {
-  transition: .25s ease-out !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-top: 1px solid var(--minimal-dark-color) !important;
-  box-shadow: inset 0 0 8px #000000c2 !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  background: var(--minimal-dark-blacker) !important;
+  transition: .25s ease-out;
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-top: 1px solid var(--minimal-dark-color);
+  box-shadow: inset 0 0 8px #000000c2;
+  border-radius: var(--minimal-dark-corner);
+  background: var(--minimal-dark-blacker);
 }
 
 .friendsui-container .title-area-icon.restoreButton {
-  transition: .25s ease-out !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  transition: .25s ease-out;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .friendsui-container .title-area-icon.restoreButton:hover {
-  transition: .25s ease-out !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  background: var(--minimal-dark-blacker-alt) !important;
+  transition: .25s ease-out;
+  border: 1px solid var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
+  background: var(--minimal-dark-blacker-alt);
 }
 
 .friendsui-container ::-webkit-scrollbar-button:vertical:increment,
 .friendsui-container ::-webkit-scrollbar-button:vertical:decrement {
-  display: none !important;
+  display: none;
 }
 
 .friendsui-container ::-webkit-scrollbar-thumb {
-  background-color: var(--minimal-dark-border-grey) !important;
-  border: 4.5px solid transparent !important;
-  border-radius: 20px !important;
+  background-color: var(--minimal-dark-border-grey);
+  border: 4.5px solid transparent;
+  border-radius: 20px;
 }
 
 .friendsui-container ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--minimal-dark-color) !important;
-  border-radius: 20px !important;
+  background-color: var(--minimal-dark-color);
+  border-radius: 20px;
 }
 
 .friendlistListContainer {
@@ -178,25 +178,25 @@
 }
 
 .friendListHeaderContainer {
-  min-height: 88px !important;
+  min-height: 88px;
   background-color: var(--minimal-dark-blacker-alt);
   border-bottom: none;
   box-shadow: inset rgba(61, 68, 80, .75) 1px 1px 1px 0px, inset rgba(61, 68, 80, .25) -1px 0px 1px 0px;
   position: relative;
   user-select: none;
   flex-shrink: 0;
-  border-bottom: 1px solid var(--minimal-dark-border-grey) !important;
+  border-bottom: 1px solid var(--minimal-dark-border-grey);
 }
 
 .activeTab {
   background-color: transparent;
-  box-shadow: none !important;
+  box-shadow: none;
   color: var(--minimal-dark-less-white);
-  border-bottom: 0px solid var(--minimal-dark-border-grey) !important;
+  border-bottom: 0px solid var(--minimal-dark-border-grey);
 }
 
 .friendSearchInput[type="text"] {
-  color: var(--minimal-dark-less-white) !important;
+  color: var(--minimal-dark-less-white);
 }
 
 .friendListFooter {
@@ -217,15 +217,15 @@
 }
 
 .FriendsListChatSection.ChatRoomListContainerParent .chatRoomListContainer {
-  height: auto !important;
-  max-height: 250px !important;
-  transition: all .25s ease-in-out !important;
+  height: auto;
+  max-height: 250px;
+  transition: all .25s ease-in-out;
 }
 
 .FriendsListChatSection.ChatRoomListContainerParent.Collapsed .chatRoomListContainer {
-  height: auto !important;
-  max-height: 0px !important;
-  transition: all .25s ease-in-out !important;
+  height: auto;
+  max-height: 0px;
+  transition: all .25s ease-in-out;
 }
 
 .friendsListSectionTitle {
@@ -240,28 +240,28 @@
   font-size: 12px;
   line-height: 20px;
   text-align: left;
-  color: var(--minimal-dark-less-white) !important;
+  color: var(--minimal-dark-less-white);
   padding: 0;
   position: relative;
   border-top: 1px solid var(--minimal-dark-border-grey);
 }
 
 .friendsListSectionTitle.chatSectionTitle:hover {
-  background-color: var(--minimal-dark-blacker) !important;
-  border-top: 1px solid var(--minimal-dark-color) !important;
+  background-color: var(--minimal-dark-blacker);
+  border-top: 1px solid var(--minimal-dark-color);
 }
 
 .titleBarContainer.ChatTabs {
-  background-color: var(--minimal-dark-blacker-alt) !important;
+  background-color: var(--minimal-dark-blacker-alt);
   border: none;
   border-bottom: none;
   border-left: none;
-  box-shadow: inset 1px 1px 0px rgba(71, 71, 71, .3) !important;
+  box-shadow: inset 1px 1px 0px rgba(71, 71, 71, .3);
 }
 
 .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj {
-  background-color: var(--minimal-dark-black) !important;
-  border-top: 1px solid var(--minimal-dark-color) !important;
+  background-color: var(--minimal-dark-black);
+  border-top: 1px solid var(--minimal-dark-color);
 }
 
 .chatWindow {
@@ -274,20 +274,20 @@
   flex-direction: column;
   word-wrap: break-word;
   word-break: break-word;
-  background: var(--minimal-dark-blacker-alt) !important;
+  background: var(--minimal-dark-blacker-alt);
   font-size: 14px;
 }
 
 .chatWindow .chatEntry {
-  padding-top: 0px !important;
-  padding-left: 10px !important;
-  background-color: var(--minimal-dark-blacker-alt) !important;
+  padding-top: 0px;
+  padding-left: 10px;
+  background-color: var(--minimal-dark-blacker-alt);
 }
 
 .chatWindow .chatHeader {
-  background: var(--minimal-dark-blacker) !important;
-  margin-top: 0px !important;
-  margin-bottom: 8px !important;
+  background: var(--minimal-dark-blacker);
+  margin-top: 0px;
+  margin-bottom: 8px;
 }
 
 ._2gP0DqVyb1aEACymAe6if3 {
@@ -301,14 +301,14 @@
   color: #aaa;
   border: 0px solid transparent;
   padding-right: 2px;
-  border-radius: var(--minimal-dark-corner) !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._1IEiKQnjHpIv-m601y6hvP.K-lPMiafCuZRqjfXykujt {
   flex: 0;
   min-width: 46px;
   position: relative;
-  background-color: var(--minimal-dark-black) !important;
+  background-color: var(--minimal-dark-black);
   margin: 0px;
   margin-top: 0px;
   max-width: 46px;
@@ -316,8 +316,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border-top-left-radius: 5px !important;
-  border-bottom-left-radius: 5px !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 ._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg {
@@ -332,8 +332,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border-top-right-radius: 5px !important;
-  border-bottom-right-radius: 5px !important;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .K-lPMiafCuZRqjfXykujt:hover,
@@ -343,9 +343,9 @@
 }
 
 .VoiceToggle {
-  background: var(--minimal-dark-blacker-alt) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker-alt);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._2gP0DqVyb1aEACymAe6if3 ._1IEiKQnjHpIv-m601y6hvP {
@@ -381,9 +381,9 @@
 }
 
 .chatFileUploadPreviewContainer {
-  background: var(--minimal-dark-black) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  background: var(--minimal-dark-black);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 .messages_MsgWithAddons_32Uri:hover {
@@ -392,40 +392,40 @@
 
 .DialogContent,
 .DialogContentTransition {
-  background: var(--minimal-dark-blacker-alt) !important;
+  background: var(--minimal-dark-blacker-alt);
   user-select: none;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 button.DialogButton {
-  background: var(--minimal-dark-blacker-alt) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker-alt);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 button.DialogButton:hover,
 button.DialogButton.gpfocus {
-  background: var(--minimal-dark-blacker) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  color: var(--minimal-dark-color) !important;
+  background: var(--minimal-dark-blacker);
+  border: 1px solid var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
+  color: var(--minimal-dark-color);
 }
 
 button.DialogButton:active,
 button.DialogButton.gpfocus {
-  background: var(--minimal-dark-blacker) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  color: var(--minimal-dark-color) !important;
-  box-shadow: inset 0 0 8px #000000c2 !important;
+  background: var(--minimal-dark-blacker);
+  border: 1px solid var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
+  color: var(--minimal-dark-color);
+  box-shadow: inset 0 0 8px #000000c2;
 }
 
 .DialogTextInputBase:not(:disabled):hover {
-  background: var(--minimal-dark-blacker) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
+  background: var(--minimal-dark-blacker);
+  border: 1px solid var(--minimal-dark-color);
   border-radius: var(--minimal-dark-corner);
-  /* color: var(--minimal-dark-color) !important; */
+  /* color: var(--minimal-dark-color) ; */
 }
 
 .DesktopUI .DialogTextInputBase:focus,
@@ -447,8 +447,8 @@ button.DialogButton.gpfocus {
 /* context menu ? */
 
 .friendsui-container .contextMenuItem {
-  border-top: 0 !important;
-  color: var(--minimal-dark-less-white) !important;
+  border-top: 0;
+  color: var(--minimal-dark-less-white);
 }
 
 .friendsui-container .contextMenuGameName {
@@ -461,19 +461,19 @@ button.DialogButton.gpfocus {
 
 .friendsui-container .contextMenuItem:hover,
 .friendsui-container .contextMenuItem._1KPWUt7wYWSfD3V7sYpsyT {
-  background: var(--minimal-dark-border-grey) !important;
+  background: var(--minimal-dark-border-grey);
 }
 
 .friendsui-container .contextMenuGameTitle,
 .friendsui-container .contextMenuSectionContent,
 .friendsui-container .contextMenuGameOptions {
-  background: var(--minimal-dark-blacker-alt) !important;
+  background: var(--minimal-dark-blacker-alt);
 }
 
 .friendsui-container .LQkrbbayZPY11qHm01t7F {
-  background: var(--minimal-dark-black) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-black);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .friendSearchInput[type="text"]:focus {
@@ -491,16 +491,16 @@ button.DialogButton.gpfocus {
 }
 
 .chatTabSelector {
-  background: var(--minimal-dark-blacker-alt) !important;
-  width: 24px !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  margin-left: 8px !important;
-  margin-top: 0px !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  background: var(--minimal-dark-blacker-alt);
+  width: 24px;
+  border-radius: var(--minimal-dark-corner);
+  margin-left: 8px;
+  margin-top: 0px;
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 .chatTabSelector:hover {
-  background: var(--minimal-dark-black) !important;
+  background: var(--minimal-dark-black);
 }
 
 .messages_SpeakerName_Online_7B6M2 {
@@ -514,15 +514,15 @@ button.DialogButton.gpfocus {
 }
 
 .friendsListSectionTitle .SVGIcon_NewChatGroup {
-  fill: var(--minimal-dark-less-white) !important;
+  fill: var(--minimal-dark-less-white);
 }
 
 .ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
-  stroke: var(--minimal-dark-less-white) !important;
+  stroke: var(--minimal-dark-less-white);
 }
 
 .ChatRoomListGroupItem:hover .ChatRoomListGroupItem_header {
-  background-color: var(--minimal-dark-black) !important;
+  background-color: var(--minimal-dark-black);
 }
 
 .currentUserContainer {
@@ -535,53 +535,53 @@ button.DialogButton.gpfocus {
 }
 
 .chatRoomButton .SVGIcon_Button {
-  fill: var(--minimal-dark-border-grey) !important;
+  fill: var(--minimal-dark-border-grey);
 }
 
 .inviteAnotherFriendButton .SVGIcon_Button line,
 .chatRoomButton .SVGIcon_Button line {
-  stroke: var(--minimal-dark-border-grey) !important;
+  stroke: var(--minimal-dark-border-grey);
 }
 
 .inviteAnotherFriendButton:hover .SVGIcon_Button line,
 .chatRoomButton:hover:not(.Disabled) .SVGIcon_Button line {
-  stroke: var(--minimal-dark-color) !important;
+  stroke: var(--minimal-dark-color);
 }
 
 .pagedcontent_Nav_1Vqsn {
-  background: var(--minimal-dark-blacker) !important;
+  background: var(--minimal-dark-blacker);
 }
 
 .pagedcontent_Content_2mJpA {
-  background: var(--minimal-dark-blacker-alt) !important;
+  background: var(--minimal-dark-blacker-alt);
 }
 
 .inviteLinkContainer .DialogInput_Wrapper._DialogLayout {
-  background: none !important;
+  background: none;
 }
 
 .inviteLinkContainer .DialogDropDown._DialogInputContainer {
-  background-color: var(--minimal-dark-black) !important;
+  background-color: var(--minimal-dark-black);
 }
 
 .inviteLinkContainer .DialogDropDown._DialogInputContainer:hover {
   color: #fff;
-  background-color: var(--minimal-dark-border-grey) !important;
+  background-color: var(--minimal-dark-border-grey);
 }
 
 .inviteLinkContainer .DialogInputLabelGroup .DialogInput {
-  background: var(--minimal-dark-black) !important;
+  background: var(--minimal-dark-black);
 }
 
 .DialogTextInputBase:disabled,
 .DialogTextInputBase:read-only {
-  color: var(--minimal-dark-progress-bar) !important;
+  color: var(--minimal-dark-progress-bar);
 }
 
 .inviteAnotherFriendButton:hover,
 .chatRoomButton:hover:not(.Disabled) .SVGIcon_Button:hover {
-  fill: var(--minimal-dark-color) !important;
-  /* border: 1px solid var(--minimal-dark-color) !important; */
+  fill: var(--minimal-dark-color);
+  /* border: 1px solid var(--minimal-dark-color) ; */
 }
 
 .chatRoomGroupHeaderName {
@@ -589,17 +589,17 @@ button.DialogButton.gpfocus {
 }
 
 .chatRoomGroupHeaderName {
-  color: var(--minimal-dark-border-grey) !important;
+  color: var(--minimal-dark-border-grey);
 }
 
 .ToggleGroupChatList {
   padding-left: 10px;
   padding-right: 10px;
-  width: 15px !important;
+  width: 15px;
 }
 
 .ToggleGroupChatList:hover .SVGIcon_DoubleArrow:hover polyline {
-  stroke: var(--minimal-dark-color) !important;
+  stroke: var(--minimal-dark-color);
 }
 
 .FriendsListChatSection.ChatRoomListContainerParent.Collapsed .ToggleGroupChatList .SVGIcon_DoubleArrow {
@@ -613,31 +613,31 @@ button.DialogButton.gpfocus {
 }
 
 .ScrollToBottomButton>span {
-  background: var(--minimal-dark-blacker-alt) !important;
-  color: var(--minimal-dark-color) !important;
-  border-top: 1px solid var(--minimal-dark-color) !important;
-  border-right: 1px solid var(--minimal-dark-color) !important;
-  border-left: 1px solid var(--minimal-dark-color) !important;
-  border-top-left-radius: var(--minimal-dark-corner) !important;
-  border-top-right-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker-alt);
+  color: var(--minimal-dark-color);
+  border-top: 1px solid var(--minimal-dark-color);
+  border-right: 1px solid var(--minimal-dark-color);
+  border-left: 1px solid var(--minimal-dark-color);
+  border-top-left-radius: var(--minimal-dark-corner);
+  border-top-right-radius: var(--minimal-dark-corner);
 }
 
 .ScrollToBottomButton>span:hover {
-  background: var(--minimal-dark-color) !important;
-  color: white !important;
-  transition: .25s ease-out !important;
-  border-top: 1px solid var(--minimal-dark-border-grey) !important;
-  border-right: 1px solid var(--minimal-dark-border-grey) !important;
-  border-left: 1px solid var(--minimal-dark-border-grey) !important;
+  background: var(--minimal-dark-color);
+  color: white;
+  transition: .25s ease-out;
+  border-top: 1px solid var(--minimal-dark-border-grey);
+  border-right: 1px solid var(--minimal-dark-border-grey);
+  border-left: 1px solid var(--minimal-dark-border-grey);
 }
 
 .chatRoomTextChannel.ActiveTextChannel {
   background-color: #2e3c44;
-  background-color: var(--minimal-dark-black) !important;
+  background-color: var(--minimal-dark-black);
 }
 
 .ChannelTypeTitle {
-  color: var(--minimal-dark-less-white) !important;
+  color: var(--minimal-dark-less-white);
 }
 
 .chatRoomGroupNavColumn .chatRoomGroupNavCollapseExpand {
@@ -650,29 +650,29 @@ button.DialogButton.gpfocus {
 }
 
 .chatRoomGroupHeaderTagline {
-  color: var(--minimal-dark-browser-overlay-close) !important;
+  color: var(--minimal-dark-browser-overlay-close);
 }
 
 .friendsui-container .SVGIcon_Pin.Pinned .head {
-  fill: var(--minimal-dark-red2) !important;
+  fill: var(--minimal-dark-red2);
 }
 
 .friendsui-container .SVGIcon_Pin .head {
-  stroke: var(--minimal-dark-invisiblegrey) !important;
+  stroke: var(--minimal-dark-invisiblegrey);
 }
 
 .ChatRoomAddRoomBtn .SVGIcon_PlusCircle {
-  stroke: var(--minimal-dark-color) !important;
+  stroke: var(--minimal-dark-color);
 }
 
 .friendsui-container .SVGIcon_Pin .head {
-  fill: var(--minimal-dark-red2) !important;
-  stroke: var(--minimal-dark-invisiblegrey) !important;
+  fill: var(--minimal-dark-red2);
+  stroke: var(--minimal-dark-invisiblegrey);
 }
 
 .friendsui-container .SVGIcon_Pin .point {
   transition: all .21s ease-in-out;
-  fill: var(--minimal-dark-less-white) !important;
+  fill: var(--minimal-dark-less-white);
 }
 
 .friendsui-container .SVGIcon_Pin:hover {
@@ -680,13 +680,13 @@ button.DialogButton.gpfocus {
 }
 
 .chatRoomGroupNavCollapsed .chatRoomTextChannel.ActiveTextChannel:hover {
-  background: var(--minimal-dark-blacker) !important;
+  background: var(--minimal-dark-blacker);
 }
 
 .namedGroup .chatRoomGroupHeader {
-  padding: 6px 12px 6px 12px !important;
-  background: var(--minimal-dark-blacker-alt) !important;
-  border-bottom: 1px solid var(--minimal-dark-border-grey) !important;
+  padding: 6px 12px 6px 12px;
+  background: var(--minimal-dark-blacker-alt);
+  border-bottom: 1px solid var(--minimal-dark-border-grey);
 }
 
 .ChatRoomAddRoomBtn:hover:not(.NoPermission) .SVGIcon_PlusCircle {
@@ -703,28 +703,28 @@ button.DialogButton.gpfocus {
 }
 
 .friendsListSectionTitle .createChatRoomButton:hover .SVGIcon_NewChatGroup {
-  fill: var(--minimal-dark-color) !important;
+  fill: var(--minimal-dark-color);
 }
 
 .friendsListSectionTitle .SVGIcon_NewChatGroup:hover line {
-  stroke: white !important;
+  stroke: white;
 }
 
 .ExpandPlusMinus .SVGIcon_PlusCircle {
-  margin-left: -5px !important;
-  transform: scale(1.25) !important;
+  margin-left: -5px;
+  transform: scale(1.25);
 }
 
 .friendGroup .groupName {
-  margin-left: 15px !important;
-  padding-bottom: 10px !important;
-  margin-top: 0px !important;
+  margin-left: 15px;
+  padding-bottom: 10px;
+  margin-top: 0px;
 }
 
 .friendlistListContainer .friend .avatarHolder .avatarStatus,
 .FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
   /* display: block; */
-  display: none !important;
+  display: none;
   position: absolute;
   right: 0;
   top: 1px;
@@ -732,7 +732,7 @@ button.DialogButton.gpfocus {
   bottom: 0;
   width: 6px;
   height: 6px;
-  border-radius: var(--minimal-dark-corner) !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._2nrSdZqzl3e01VZleoVaWp {
@@ -751,11 +751,11 @@ button.DialogButton.gpfocus {
 }
 
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
-  display: none !important;
+  display: none;
 }
 
 .msg.serverMsg .msgText {
-  display: none !important;
+  display: none;
 }
 
 .chattabs_CloseButton_7gMwY {
@@ -764,55 +764,55 @@ button.DialogButton.gpfocus {
 }
 
 .online ._1yIzy56YfJIliF6ykwhP2r {
-  /* background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%) !important; */
-  background: transparent !important;
-  box-shadow: none !important;
+  /* background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%) ; */
+  background: transparent;
+  box-shadow: none;
 }
 
 .ingame ._1yIzy56YfJIliF6ykwhP2r {
-  /* background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%) !important; */
-  background: transparent !important;
+  /* background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%) ; */
+  background: transparent;
 }
 
 .ingame.awayOrSnooze ._1yIzy56YfJIliF6ykwhP2r {
-  /* background: orange !important; */
-  background: transparent !important;
+  /* background: orange ; */
+  background: transparent;
 }
 
 .awayOrSnooze ._1yIzy56YfJIliF6ykwhP2r {
-  /* background: orange !important; */
-  background: transparent !important;
+  /* background: orange ; */
+  background: transparent;
 }
 
 .offline ._1yIzy56YfJIliF6ykwhP2r {
-  /* background: #7a7a7a !important; */
-  background: transparent !important;
+  /* background: #7a7a7a ; */
+  background: transparent;
 }
 
 .chattabs_ChatTabContent_Friend_2ZiZ7 .friend .avatarHolder .avatarStatus {
-  right: 1px !important;
-  top: 1px !important;
-  width: 6px !important;
-  height: 6px !important;
+  right: 1px;
+  top: 1px;
+  width: 6px;
+  height: 6px;
 }
 
 ._3atbNcPD1_nRVTjOvryjWe ._338kJp62vHY5iDbsraaiKD {
-  display: none !important;
+  display: none;
 }
 
 ._2nrSdZqzl3e01VZleoVaWp {
   display: flex;
   flex-direction: column;
   width: calc(100% - 30px);
-  margin-left: 0px !important;
+  margin-left: 0px;
 }
 
 ._3atbNcPD1_nRVTjOvryjWe ._338kJp62vHY5iDbsraaiKD {
-  display: none !important;
+  display: none;
 }
 
 ._2nrSdZqzl3e01VZleoVaWp {
-  margin-left: 0px !important;
+  margin-left: 0px;
 }
 
 .friend.firstInGroup .SteamPlayerGroupLines {
@@ -833,19 +833,19 @@ button.DialogButton.gpfocus {
 }
 
 .speakerTimeStamp {
-  align-self: auto !important;
-  color: rgb(169 169 169 / 40%) !important;
-  transform: translate(-34px, 4px) !important;
-  margin-top: 2px !important;
+  align-self: auto;
+  color: rgb(169 169 169 / 40%);
+  transform: translate(-34px, 4px);
+  margin-top: 2px;
 }
 
 ._3EzTyjJx_tZUEIHygPwAeC.online ._1DArl3Gs9lXPcZdmCIlDJa {
-  color: orange !important;
+  color: orange;
 }
 
 .awayOrSnooze ._1k82NiWym4STegDGxRBHz2 {
-  color: orange !important;
-  opacity: .75 !important;
+  color: orange;
+  opacity: .75;
 }
 
 ._1YsWjZbxFewllb2PX6ZhNm._3pGV8dWHnZMYHcytHxo6pw {
@@ -857,155 +857,155 @@ button.DialogButton.gpfocus {
 
 
 .awayOrSnooze .r62qzcdJQ0qezZglOtiUX {
-  color: orange !important;
+  color: orange;
 }
 
 ._1YsWjZbxFewllb2PX6ZhNm.online .SVGIcon_MobilePhone path {
-  fill: #4c91ac !important;
+  fill: #4c91ac;
 }
 
 ._1YsWjZbxFewllb2PX6ZhNm.awayOrSnooze .SVGIcon_MobilePhone path {
-  fill: orange !important;
+  fill: orange;
 }
 
 .MultiUserChat .msg:not(.ChatMsgSlashEmote) {
-  padding-left: 46px !important;
+  padding-left: 46px;
 }
 
 ._3EzTyjJx_tZUEIHygPwAeC.in-game ._1DArl3Gs9lXPcZdmCIlDJa {
-  color: orange !important;
+  color: orange;
 }
 
 .chatDialogs {
-  background: var(--minimal-dark-blacker-alt) !important;
+  background: var(--minimal-dark-blacker-alt);
 }
 
 .singleWindowDivider {
-  background-color: #1b1b1b !important;
+  background-color: #1b1b1b;
 }
 
 .resizingSingleWindow .singleWindowDivider,
 .singleWindowDivider:hover {
-  background-color: var(--minimal-dark-border-grey) !important;
+  background-color: var(--minimal-dark-border-grey);
 }
 
 ._1ZlvfuG4Q4e9GfTYNuNI5b,
 ._3Z36hMlC0g5rhADc86JeV8 ._1ZlvfuG4Q4e9GfTYNuNI5b {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .X2iywwN7fcdh9zXpXVsrk {
-  border-top-left-radius: 0px !important;
-  border-top-right-radius: 0px !important;
-  border-top: 1px solid var(--minimal-dark-greyblack) !important;
-  margin-left: 6px !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border-left: 1px solid var(--minimal-dark-border-grey) !important;
-  border-right: 1px solid var(--minimal-dark-border-grey) !important;
-  border-bottom: 1px solid var(--minimal-dark-border-grey) !important;
-  height: 40px !important;
-  margin: 2px 0px 2px 6px !important;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top: 1px solid var(--minimal-dark-greyblack);
+  margin-left: 6px;
+  border-radius: var(--minimal-dark-corner);
+  border-left: 1px solid var(--minimal-dark-border-grey);
+  border-right: 1px solid var(--minimal-dark-border-grey);
+  border-bottom: 1px solid var(--minimal-dark-border-grey);
+  height: 40px;
+  margin: 2px 0px 2px 6px;
 }
 
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
-  border: 1px solid var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  height: 40px !important;
-  margin: 2px 0px 2px 6px !important;
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) -147%, rgba(26, 26, 26, .1) 100%) !important;
-  background-color: var(--minimal-dark-blacker-alt) !important;
+  border: 1px solid var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
+  height: 40px;
+  margin: 2px 0px 2px 6px;
+  background: radial-gradient(circle, rgba(2, 0, 36, 0) -147%, rgba(26, 26, 26, .1) 100%);
+  background-color: var(--minimal-dark-blacker-alt);
 }
 
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:before,
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk+.X2iywwN7fcdh9zXpXVsrk:before,
 .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:last-of-type:after,
 .X2iywwN7fcdh9zXpXVsrk:first-of-type:before {
-  display: none !important;
+  display: none;
 }
 
 .X2iywwN7fcdh9zXpXVsrk::before,
 .X2iywwN7fcdh9zXpXVsrk:last-of-type::after {
-  background: var(--minimal-dark-border-grey) !important;
-  top: 0px !important;
-  bottom: 0px !important;
-  width: 1px !important;
-  display: none !important;
+  background: var(--minimal-dark-border-grey);
+  top: 0px;
+  bottom: 0px;
+  width: 1px;
+  display: none;
 }
 
 .VUHcmgCbu1oxey7ydJHP2 {
-  background-color: var(--minimal-dark-blacker) !important;
-  background: var(--minimal-dark-blacker) !important;
-  box-shadow: none !important;
-  padding: 0px !important;
+  background-color: var(--minimal-dark-blacker);
+  background: var(--minimal-dark-blacker);
+  box-shadow: none;
+  padding: 0px;
 }
 
 ._3kEgIPZCMTtXeWWzzRLo4K:hover {
-  background-color: var(--minimal-dark-black) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-black);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .inviteAnotherFriendButton:hover .SVGIcon_Button {
-  fill: var(--minimal-dark-color) !important;
+  fill: var(--minimal-dark-color);
 }
 
 .FriendChatTypingNotification {
-  background-color: none !important;
-  background: none !important;
+  background-color: none;
+  background: none;
 }
 
 ._1IEiKQnjHpIv-m601y6hvP:not(._2GM2kkVRqL-SdkG4oQjUzY) .SVGIcon_Button.SVGIcon_Submit path {
-  fill: var(--minimal-dark-color) !important;
+  fill: var(--minimal-dark-color);
 }
 
 ._2gP0DqVyb1aEACymAe6if3 ._1IEiKQnjHpIv-m601y6hvP:not(._2GM2kkVRqL-SdkG4oQjUzY) {
-  background: none !important;
+  background: none;
 }
 
 ._3o6fvTcJst7E2CI8mm7R5T {
-  background: var(--minimal-dark-blacker) !important;
+  background: var(--minimal-dark-blacker);
 }
 
 .APT8A-fjMRZ55HRAs5T1i {
-  background: none !important;
+  background: none;
 }
 
 ._DialogRow._DialogRowBackground {
-  background: var(--minimal-dark-blacker) !important;
+  background: var(--minimal-dark-blacker);
 }
 
 .DialogSpanningTable.BannedUsersTable tr.hoverRow,
 .DialogSpanningTable.InvitedUsersTable tr.hoverRow,
 .DialogSpanningTable.InviteLinksTable tbody tr {
-  background: var(--minimal-dark-blacker) !important;
+  background: var(--minimal-dark-blacker);
 }
 
 ._1IEiKQnjHpIv-m601y6hvP:not(._2GM2kkVRqL-SdkG4oQjUzY) .SVGIcon_Button.SVGIcon_Submit path:hover {
-  fill: var(--minimal-dark-color) !important;
-  filter: brightness(1.25) !important;
+  fill: var(--minimal-dark-color);
+  filter: brightness(1.25);
 }
 
 .confirmInviteRequestContainer .confirmInviteButton {
-  background-color: var(--minimal-dark-black) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-black);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .confirmInviteRequestContainer .confirmInviteButton:hover {
-  background-color: var(--minimal-dark-border-grey) !important;
+  background-color: var(--minimal-dark-border-grey);
 }
 
 .friendInviteButton.bright.acceptFriendInvite,
 .friendInviteButton.bright.declineFriendInvite {
-  background-color: var(--minimal-dark-black) !important;
+  background-color: var(--minimal-dark-black);
 }
 
 .friendInviteButton.bright.acceptFriendInvite:hover,
 .friendInviteButton.bright.declineFriendInvite:hover {
-  background-color: var(--minimal-dark-border-grey) !important;
+  background-color: var(--minimal-dark-border-grey);
 }
 
 .confirmInviteButton.confirmInvites {
-  background: var(--minimal-dark-color) !important;
-  color: white !important;
+  background: var(--minimal-dark-color);
+  color: white;
   text-shadow: 0px 1px 4px black;
 }
 
@@ -1013,515 +1013,515 @@ button.DialogButton.gpfocus {
 .friendRequestButton:hover .SVGIcon_FriendRequest .friendArm,
 .friendRequestButton:hover .SVGIcon_FriendRequest .friendBody,
 .friendRequestButton:hover .SVGIcon_FriendRequest .friendBodyFull {
-  fill: var(--minimal-dark-color) !important;
+  fill: var(--minimal-dark-color);
 }
 
 .TabSearchButton:hover .ColorSelector {
-  stroke: var(--minimal-dark-color) !important;
-  fill: var(--minimal-dark-color) !important;
+  stroke: var(--minimal-dark-color);
+  fill: var(--minimal-dark-color);
 }
 
 .friendSearchClear .SVGIcon_X_Line line {
-  stroke: var(--minimal-dark-red2) !important;
+  stroke: var(--minimal-dark-red2);
 }
 
 .friendSearchClear .SVGIcon_X_Line:hover line {
-  stroke: var(--minimal-dark-red2) !important;
+  stroke: var(--minimal-dark-red2);
 }
 
 .socialInputContainer .friendSearchInput[type="text"] {
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  height: 20px !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  height: 20px;
 
 }
 
 .TabSearchButton:hover {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
 .friendGroup .friend,
 .friendGroup .SteamPlayerGroupFooter {
-  margin: 2px 16px 2px 16px !important;
-  border: 1px solid #262626c9 !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  padding-right: 12px !important;
-  transition: .25s ease-out !important;
+  margin: 2px 16px 2px 16px;
+  border: 1px solid #262626c9;
+  border-radius: var(--minimal-dark-corner);
+  padding-right: 12px;
+  transition: .25s ease-out;
 }
 
 .friend.quickAccessFriend .playerNameQuickAccessContainer .playerName {
-  padding-top: 17px !important;
+  padding-top: 17px;
 }
 
 .friendStatusHover.online:hover,
 .friendStatusHover.online.Friend_ContextMenuActive {
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid rgb(109 207 246 / 40%) !important;
-  transition: .25s ease-out !important;
-  /* width: auto !important; */
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid rgb(109 207 246 / 40%);
+  transition: .25s ease-out;
+  /* width: auto ; */
 }
 
 .friendStatusHover.offline:hover,
 .friendStatusHover.offline.Friend_ContextMenuActive {
-  background-color: rgb(64 64 64 / 20%) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid #808080bf !important;
-  transition: .25s ease-out !important;
-  /* width: auto !important; */
+  background-color: rgb(64 64 64 / 20%);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid #808080bf;
+  transition: .25s ease-out;
+  /* width: auto ; */
 }
 
 .addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
-  color: var(--minimal-dark-progress-bar) !important;
+  color: var(--minimal-dark-progress-bar);
 }
 
 .friendStatusHover.ingame:hover,
 .friendStatusHover.ingame.Friend_ContextMenuActive {
-  border: 1px solid rgb(227 255 194 / 40%) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  transition: .25s ease-out !important;
-  /* width: auto !important; */
+  border: 1px solid rgb(227 255 194 / 40%);
+  border-radius: var(--minimal-dark-corner);
+  transition: .25s ease-out;
+  /* width: auto ; */
 }
 
 .friendStatusHover.awayOrSnooze:hover,
 .friendStatusHover.awayOrSnooze.Friend_ContextMenuActive {
-  border: 1px solid rgb(255 192 76 / 40%) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  background-color: rgb(255 192 76 / 2%) !important;
-  transition: .25s ease-out !important;
-  /* width: auto !important; */
+  border: 1px solid rgb(255 192 76 / 40%);
+  border-radius: var(--minimal-dark-corner);
+  background-color: rgb(255 192 76 / 2%);
+  transition: .25s ease-out;
+  /* width: auto ; */
 }
 
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter,
 .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-  padding: 2px 0px 2px 12px !important;
+  padding: 2px 0px 2px 12px;
 }
 
 .ChatMessageEntryVoice {
-  border-radius: var(--minimal-dark-corner) !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._1X1-nhi0oX1Wy7y1mEIc1o,
 ._3grea2u6WuuGLHj9gJFmzY {
-  border-radius: var(--minimal-dark-corner) !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .pewyBQoFSgFWo_Ms99aRm {
-  padding-left: 10px !important;
+  padding-left: 10px;
 }
 
 ._2HYiy2iyfdo7xMy_a1Cjhq {
-  background-color: var(--minimal-dark-blacker-alt) !important;
+  background-color: var(--minimal-dark-blacker-alt);
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR ._1BUWXzey55_H5QKdz6Olrn {
-  background: var(--minimal-dark-border-grey) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-border-grey);
+  border: 1px solid var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR ._1BUWXzey55_H5QKdz6Olrn:hover {
-  background: var(--minimal-dark-color) !important;
+  background: var(--minimal-dark-color);
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR ._1BUWXzey55_H5QKdz6Olrn:active {
-  background: rgba(26, 26, 26, .25) !important;
+  background: rgba(26, 26, 26, .25);
 }
 
 ._2Wp_Z_M5YNw610Y0lVh5TR .nKXfubhpv_zmmMcEsbg0B {
-  color: var(--minimal-dark-red2) !important;
+  color: var(--minimal-dark-red2);
 }
 
 ._1p_QrI3ixF-RAwnxad9pEm {
-  border-radius: var(--minimal-dark-corner) !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 html.client_chat_frame body {
-  /* background: var(--minimal-dark-blacker-alt) !important; */
-  background: transparent !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  /* background: var(--minimal-dark-blacker-alt) ; */
+  background: transparent;
+  border-radius: var(--minimal-dark-corner);
 }
 
 html.web_chat_frame body {
-  background: var(--minimal-dark-blacker-alt) !important;
-  /* background: transparent !important; */
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker-alt);
+  /* background: transparent ; */
+  border-radius: var(--minimal-dark-corner);
 }
 
 .HoverPositionPopup .miniProfileHoverInner {
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 ._2SW_Y5HHBZR-uC8LI36lQM {
-  background-color: transparent !important;
-  display: none !important;
+  background-color: transparent;
+  display: none;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 {
-  width: 326px !important;
-  height: auto !important;
+  width: 326px;
+  height: auto;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 .TzmYo1OP0E5U3PkUBq2zY {
-  height: auto !important;
+  height: auto;
 }
 
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7 {
-  background-color: rgba(26, 26, 26, .25) !important;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  padding-left: 9px !important;
-  color: var(--minimal-dark-color) !important;
-  font-weight: 400 !important;
-  text-shadow: 0px 2px 3px rgb(0 0 0 / 30%) !important;
+  background-color: rgba(26, 26, 26, .25);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 9px;
+  color: var(--minimal-dark-color);
+  font-weight: 400;
+  text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
   font-size: 11px;
-  border-radius: var(--minimal-dark-corner) !important;
-  margin-left: 10px !important;
-  margin-right: 10px !important;
-  border: 2px solid var(--minimal-dark-blacker) !important;
+  border-radius: var(--minimal-dark-corner);
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid var(--minimal-dark-blacker);
 }
 
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7 .o_39qE2DKxFG3q0A-UZCM {
   font-size: 11px;
-  letter-spacing: 1px !important;
+  letter-spacing: 1px;
 }
 
 .SRcc1TnUvlXq7c7R6TRb ._2kAtv5HfuuXs5emJMlmah7:hover {
-  color: white !important;
-  text-shadow: 2px 1px 1px rgb(0 0 0 / 30%) !important;
-  background-color: var(--minimal-dark-color) !important;
-  border: 2px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  margin-left: 10px !important;
-  margin-right: 10px !important;
+  color: white;
+  text-shadow: 2px 1px 1px rgb(0 0 0 / 30%);
+  background-color: var(--minimal-dark-color);
+  border: 2px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 ._3uFt_Oop_phBX9z6ihWdKR {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 ._2NVbSaqD0yWMMczl37cIAE {
-  background-color: var(--minimal-dark-black) !important;
-  padding: 10px !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 2px solid var(--minimal-dark-border-grey) !important;
+  background-color: var(--minimal-dark-black);
+  padding: 10px;
+  border-radius: var(--minimal-dark-corner);
+  border: 2px solid var(--minimal-dark-border-grey);
 }
 
 ._1Bb6hYT7xcWUmYUrQmo6nl {
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 2px solid var(--minimal-dark-border-grey) !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 2px solid var(--minimal-dark-border-grey);
 }
 
 ._3o7CShdvV_024QlCPNanTb.IqjmSkutoVlArzd8wO2Xa {
-  background-color: var(--minimal-dark-black) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  color: white !important;
+  background-color: var(--minimal-dark-black);
+  border-radius: var(--minimal-dark-corner);
+  color: white;
 }
 
 ._3o7CShdvV_024QlCPNanTb.IqjmSkutoVlArzd8wO2Xa:hover {
-  background-color: var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  color: white !important;
+  background-color: var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
+  color: white;
 }
 
 .qOHK85tePDcrS6OEMTwm2 {
-  padding: 2px !important;
-  background-color: var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  padding: 2px;
+  background-color: var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .qOHK85tePDcrS6OEMTwm2 .TwOz2KVAfp2GEs9Mve3r- {
-  background-color: var(--minimal-dark-blacker) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 2px solid var(--minimal-dark-border-grey) !important
+  background-color: var(--minimal-dark-blacker);
+  border-radius: var(--minimal-dark-corner);
+  border: 2px solid var(--minimal-dark-border-grey)
 }
 
 ._2NVbSaqD0yWMMczl37cIAE.ZF6iJ9yWqNVdzAbXdJ_sR:hover {
-  background-color: var(--minimal-dark-border-grey) !important;
-  border: 2px solid var(--minimal-dark-color) !important;
+  background-color: var(--minimal-dark-border-grey);
+  border: 2px solid var(--minimal-dark-color);
 }
 
 ._22LMC4oK3LB708upCdiF7L .I3s3okfGPF7NnDguZz-by {
-  background-color: var(--minimal-dark-blacker-alt) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-blacker-alt);
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._1Kiq19PmYWDOc9bBZN33cj {
-  background-color: var(--minimal-dark-black) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-black);
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._33TDStSlMjInp-NnLby0r8 ._1sqgWu-dTq9FLrOuXhpEjr,
 ._33TDStSlMjInp-NnLby0r8 ._3MoFsAdYDk6q_0Lm2zAGSa {
-  background-color: var(--minimal-dark-black) !important;
+  background-color: var(--minimal-dark-black);
 }
 
 .DialogSlider_Grabber {
-  background: var(--minimal-dark-color) !important;
-  box-shadow: 0px 0px 0px 2px rgb(0 0 0 / 40%) !important;
+  background: var(--minimal-dark-color);
+  box-shadow: 0px 0px 0px 2px rgb(0 0 0 / 40%);
 }
 
 .DialogSlider_Value {
-  background: var(--minimal-dark-color) !important;
+  background: var(--minimal-dark-color);
 }
 
 ._22LMC4oK3LB708upCdiF7L .I3s3okfGPF7NnDguZz-by .K3lo5ez7fmmWgDQ1yQP4B {
-  background-color: var(--minimal-dark-blacker-alt) !important;
+  background-color: var(--minimal-dark-blacker-alt);
 }
 
 .chatFileUploadProgressContainer {
-  background: #12121280 !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  box-shadow: none !important;
-  backdrop-filter: blur(10px) !important;
-  bottom: 76px !important;
-  padding: 10px !important;
+  background: #12121280;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  box-shadow: none;
+  backdrop-filter: blur(10px);
+  bottom: 76px;
+  padding: 10px;
 }
 
 button.DialogButton.Primary {
-  background: var(--minimal-dark-blacker-alt) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  color: #dfe3e6 !important;
+  background: var(--minimal-dark-blacker-alt);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  color: #dfe3e6;
 }
 
 button.DialogButton.Primary:hover {
-  background: var(--minimal-dark-blacker) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  color: var(--minimal-dark-color) !important;
+  background: var(--minimal-dark-blacker);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-color);
+  color: var(--minimal-dark-color);
 }
 
 button.DialogButton.Primary:active {
-  background: var(--minimal-dark-blacker) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  color: white !important;
-  box-shadow: inset 0 0 8px #000000c2 !important;
+  background: var(--minimal-dark-blacker);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-color);
+  color: white;
+  box-shadow: inset 0 0 8px #000000c2;
 }
 
 .BBCodeAlreadyCollapsedText {
-  background-color: var(--minimal-dark-blacker) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  background-color: var(--minimal-dark-blacker);
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 .BBCodeAlreadyCollapsed.Minimized:hover .BBCodeAlreadyCollapsedText,
 .BBCodeResizableComponent.Minimized:hover .BBCodeCollapsed {
-  background-color: var(--minimal-dark-border-grey) !important;
+  background-color: var(--minimal-dark-border-grey);
   color: #fff;
 }
 
 .friendsui-container .statusHeaderGlow {
-  opacity: .6 !important;
+  opacity: .6;
 }
 
 .friendsui-container [class*=ingame] .statusHeaderGlow stop:first-child {
-  stop-color: #9aff23 !important;
-  stop-opacity: .6 !important;
+  stop-color: #9aff23;
+  stop-opacity: .6;
 }
 
 .friendsui-container [class*=ingame] .statusHeaderGlow stop:last-child {
-  stop-color: #9aff23 !important;
+  stop-color: #9aff23;
 }
 
 .friendsui-container [class*=online] .statusHeaderGlow stop:first-child {
-  stop-color: #6dcff6 !important;
-  stop-opacity: .6 !important;
+  stop-color: #6dcff6;
+  stop-opacity: .6;
 }
 
 .friendsui-container [class*=online] .statusHeaderGlow stop:last-child {
-  stop-color: #6dcff6 !important;
+  stop-color: #6dcff6;
 }
 
 .friendsui-container [class*=offline] .statusHeaderGlow stop:first-child {
-  stop-color: #a0a0a0 !important;
-  stop-opacity: .6 !important;
+  stop-color: #a0a0a0;
+  stop-opacity: .6;
 }
 
 .friendsui-container [class*=offline] .statusHeaderGlow stop:last-child {
-  stop-color: #a0a0a0 !important;
+  stop-color: #a0a0a0;
 }
 
 .friendsui-container [class*=away] .statusHeaderGlow stop:first-child {
-  stop-color: orange !important;
-  stop-opacity: .6 !important;
+  stop-color: orange;
+  stop-opacity: .6;
 }
 
 .friendsui-container [class*=away] .statusHeaderGlow stop:last-child {
-  stop-color: orange !important;
+  stop-color: orange;
 }
 
 .inviteAnotherFriendButton {
-  background-color: var(--minimal-dark-blacker-alt) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  transform: translate(-2px, 10px) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-blacker-alt);
+  border: 1px solid var(--minimal-dark-border-grey);
+  transform: translate(-2px, 10px);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .inviteAnotherFriendButton .SVGIcon_Button {
-  fill: var(--minimal-dark-border-grey) !important;
+  fill: var(--minimal-dark-border-grey);
 }
 
 ._1AMAp6cciTbpuVe8FTH3rK {
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  background: rgb(18 18 18 / 75%) !important;
-  backdrop-filter: blur(10px) !important;
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
+  background: rgb(18 18 18 / 75%);
+  backdrop-filter: blur(10px);
 }
 
 .ChatTabs.HasWindowControls {
-  height: 43px !important;
-  padding-left: 9px !important;
+  height: 43px;
+  padding-left: 9px;
 }
 
 .chatTabSelector .SVGIcon_DownArrowContextMenu {
-  margin-left: 6px !important;
-  margin-top: 14px !important;
+  margin-left: 6px;
+  margin-top: 14px;
 }
 
 ._18EIcuUAoTtqjzcDzsTcdy:hover .SVGIcon_X_Line line {
-  stroke: var(--minimal-dark-red2) !important;
+  stroke: var(--minimal-dark-red2);
 }
 
 .unreadMessageViolator {
-  color: white !important;
-  background: #1919194f !important;
-  height: 28px !important;
-  top: 109px !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  /* line-height: 24px !important; */
-  left: 5px !important;
-  backdrop-filter: blur(25px) !important;
+  color: white;
+  background: #1919194f;
+  height: 28px;
+  top: 109px;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  /* line-height: 24px ; */
+  left: 5px;
+  backdrop-filter: blur(25px);
 }
 
 .unreadMessageViolator:hover {
-  filter: brightness(1.1) !important;
-  color: var(--minimal-dark-color) !important;
-  background: #1919194f !important;
-  height: 28px !important;
-  top: 109px !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  /* line-height: 24px !important; */
-  left: 5px !important;
-  backdrop-filter: blur(25px) !important;
+  filter: brightness(1.1);
+  color: var(--minimal-dark-color);
+  background: #1919194f;
+  height: 28px;
+  top: 109px;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-color);
+  /* line-height: 24px ; */
+  left: 5px;
+  backdrop-filter: blur(25px);
 }
 
 ._2z-o5GLHkTjJrgQAgz2uqh {
-  background: radial-gradient(ellipse farthest-corner at 98% 90%, rgba(26, 26, 26, .8) 0%, rgba(26, 26, 26, .2) 40%, rgba(233, 154, 35, 0) 70%) !important;
-  border-radius: 5px !important
+  background: radial-gradient(ellipse farthest-corner at 98% 90%, rgba(26, 26, 26, .8) 0%, rgba(26, 26, 26, .2) 40%, rgba(233, 154, 35, 0) 70%);
+  border-radius: 5px
 }
 
 ._2NKkBU2gEImqo4YaPQ9Lck {
-  display: none !important;
+  display: none;
 }
 
 .ChatRoomListGroupItem .FriendMessageCount,
 .unreadFriend .FriendMessageCount {
-  border-radius: 3px !important;
-  border: 1px solid var(--minimal-dark-invisiblegrey) !important;
+  border-radius: 3px;
+  border: 1px solid var(--minimal-dark-invisiblegrey);
 }
 
 .ChatRoomListGroupItem .FriendMessageCount,
 .unreadFriend .FriendMessageCount {
-  box-shadow: 0 0 0px 1px rgba(218, 149, 0, .5) !important;
-  right: 8px !important;
-  top: -4px !important;
-  backdrop-filter: blur(2px) !important;
+  box-shadow: 0 0 0px 1px rgba(218, 149, 0, .5);
+  right: 8px;
+  top: -4px;
+  backdrop-filter: blur(2px);
   animation-name: UnreadLabelPulse;
-  animation-iteration-count: infinite !important;
-  animation-timing-function: linear !important;
-  animation-duration: 2.8s !important;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2.8s;
 }
 
 .FriendMessageCount {
-  line-height: 25px !important;
-  height: 25px !important;
+  line-height: 25px;
+  height: 25px;
 }
 
 .friend .labelHolder {
-  width: 10px !important;
+  width: 10px;
 }
 
 .friendGroup.taggedGroup,
 .friendGroup.gameGroup {
-  border-top: none !important;
-  margin-top: 12px !important;
+  border-top: none;
+  margin-top: 12px;
 }
 
 .friendGroup .groupName .groupCount {
-  color: rgb(68 209 131 / 85%) !important;
-  opacity: 1 !important;
-  margin-left: 10px !important;
+  color: rgb(68 209 131 / 85%);
+  opacity: 1;
+  margin-left: 10px;
 }
 
 .gameGroup .gameGroupContainer {
   display: flex;
-  color: #c5d6d4 !important;
-  /* rgb(68 209 131 / 85%) !important; */
+  color: #c5d6d4;
+  /* rgb(68 209 131 / 85%) ; */
 }
 
 .friendGroup.gameGroup .groupName {
-  color: #c5d6d4 !important;
-  /* color: rgb(68 209 131 / 85%) !important; */
-  padding-right: 10px !important;
+  color: #c5d6d4;
+  /* color: rgb(68 209 131 / 85%) ; */
+  padding-right: 10px;
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
-  color: #c5d6d4 !important;
-  /* color: rgb(133 133 133 / 100%) !important; */
+  color: #c5d6d4;
+  /* color: rgb(133 133 133 / 100%) ; */
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName {
-  color: #c5d6d4 !important;
-  /* color: rgb(109 207 246 / 75%) !important; */
+  color: #c5d6d4;
+  /* color: rgb(109 207 246 / 75%) ; */
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.ingameFriends .groupName {
-  color: #c5d6d4 !important;
-  /* color: rgb(145 194 87 / 75%) !important; */
+  color: #c5d6d4;
+  /* color: rgb(145 194 87 / 75%) ; */
 }
 
 .friendGroup.onlineFriends .groupName .groupCount,
 .friendGroup .groupName .groupCount.collapsed {
   opacity: 1;
   transform: translateX(0px);
-  color: rgb(109 207 246 / 75%) !important;
+  color: rgb(109 207 246 / 75%);
 }
 
 .friendGroup.offlineFriends .groupName .groupCount,
 .friendGroup .groupName .groupCount.collapsed {
   opacity: 1;
   transform: translateX(0px);
-  color: rgb(129 129 129 / 75%) !important;
+  color: rgb(129 129 129 / 75%);
 }
 
 .recentChatsGroup .friendGroup .groupName,
 .friendGroup.taggedGroup .groupName {
-  color: #c5d6d4 !important;
-  /* color: rgb(255 218 38 / 75%) !important; */
+  color: #c5d6d4;
+  /* color: rgb(255 218 38 / 75%) ; */
 }
 
 .recentChatsGroup .friendGroup .groupName .groupCount {
-  color: rgb(255 218 38 / 75%) !important;
+  color: rgb(255 218 38 / 75%);
 }
 
 .socialListTab .tabLabel {
-  opacity: 0 !important;
+  opacity: 0;
 }
 
 .AvatarAndUser {
-  padding-left: 26px !important;
-  padding-top: 9px !important;
-  padding-bottom: 0px !important;
-  transform: scale(1) !important;
+  padding-left: 26px;
+  padding-top: 9px;
+  padding-bottom: 0px;
+  transform: scale(1);
 }
 
 .currentUserContainer .r62qzcdJQ0qezZglOtiUX {
   font-size: 14px;
-  font-weight: 500 !important;
+  font-weight: 500;
 }
 
 .titleBarContainer .currentUserContainer ._1k82NiWym4STegDGxRBHz2 {
@@ -1529,247 +1529,247 @@ button.DialogButton.Primary:active {
 }
 
 .currentUserAvatar {
-  width: 58px !important;
-  height: 0px !important;
+  width: 58px;
+  height: 0px;
   transform: scale(1.24) translate(-5px, 5px);
-  filter: brightness(1.1) !important;
+  filter: brightness(1.1);
 }
 
 .currentUserAvatar:hover {
-  width: 58px !important;
-  height: 0px !important;
+  width: 58px;
+  height: 0px;
   transform: scale(1.34) translate(-4px, 4px);
   filter: brightness(1.2);
 }
 
 .socialInputContainer .inputContainer {
-  padding-left: 87px !important;
+  padding-left: 87px;
 }
 
 .title-area-highlight {
-  background: var(--minimal-dark-color) !important;
+  background: var(--minimal-dark-color);
 }
 
 .currentUserContainer .labelHolder {
-  margin-top: 16px !important;
-  margin-left: 0px !important;
+  margin-top: 16px;
+  margin-left: 0px;
 }
 
 .friendlistListContainer .friend .avatarHolder {
-  padding-top: 3px !important;
+  padding-top: 3px;
 }
 
 .friendlistListContainer .friend.ingame .labelHolder {
-  /* padding-top: 6px !important; */
-  padding-top: 4px !important;
+  /* padding-top: 6px ; */
+  padding-top: 4px;
 }
 
 .friendlistListContainer .friend.online .labelHolder {
-  padding-top: 0px !important;
-  transform: translate(0px, -1px) !important;
-  transition: .25s ease-out !important;
+  padding-top: 0px;
+  transform: translate(0px, -1px);
+  transition: .25s ease-out;
 }
 
 .friendlistListContainer .friend.ingame.awayOrSnooze .labelHolder {
-  padding-top: 8px !important;
-  transform: translate(0px, -3px) !important;
+  padding-top: 8px;
+  transform: translate(0px, -3px);
 }
 
 .friendlistListContainer .friend.awayOrSnooze .labelHolder {
-  padding-top: 0px !important;
-  transform: translate(0px, -1px) !important;
+  padding-top: 0px;
+  transform: translate(0px, -1px);
 }
 
 .friendlistListContainer .friend.offline .labelHolder {
-  padding-top: 0px !important;
-  transform: translate(0px, -1px) !important;
+  padding-top: 0px;
+  transform: translate(0px, -1px);
 }
 
 .singlewindow .currentUserContainer .labelHolder {
-  padding-top: 0px !important;
-  transform: translate(0px, -1px) !important;
+  padding-top: 0px;
+  transform: translate(0px, -1px);
 }
 
 :not(.friendInviteContainer) .awayOrSnooze .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-  fill: orange !important;
+  fill: orange;
 }
 
 ._3kEgIPZCMTtXeWWzzRLo4K ._3nIwHFIw4nSXC_DUrzO_a6 {
-  background: var(--minimal-dark-blacker-alt) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker-alt);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .msg.isCurrentUser.ChatMessageErrorSending {
   background: linear-gradient(to bottom, rgba(68, 44, 44, 0.4) 0%, rgba(61, 22, 22, 0.2) 60%, rgba(66, 58, 58, 0.05) 100%);
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px dashed var(--minimal-dark-redsettings) !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px dashed var(--minimal-dark-redsettings);
 }
 
 .msg.isCurrentUser.ChatMessageErrorSending .msgText {
-  color: var(--minimal-dark-redsettings) !important;
+  color: var(--minimal-dark-redsettings);
 }
 
 .ChatMessageErrorSendingAlert {
-  background-color: #f1244624 !important;
-  color: var(--minimal-dark-red2) !important;
+  background-color: #f1244624;
+  color: var(--minimal-dark-red2);
 }
 
 ._3n80SfAwzFqelSuprYLFQv {
-  height: 44px !important;
+  height: 44px;
 }
 
 .X2iywwN7fcdh9zXpXVsrk:hover:not(._1BNlZUYDbVr8VhCTmq7ksk) {
-  background-color: var(--minimal-dark-black) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-bottom: 1px solid var(--minimal-dark-color) !important;
+  background-color: var(--minimal-dark-black);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-bottom: 1px solid var(--minimal-dark-color);
 }
 
 .timeDivision.time_passes .preHorizDivider,
 .timeDivision.time_passes .horizDivider {
-  border: 1px dashed rgba(26, 26, 26, .5) !important;
-  margin-right: -6px !important;
+  border: 1px dashed rgba(26, 26, 26, .5);
+  margin-right: -6px;
 }
 
 .friendInviteBlockContainer .DialogCheckbox {
-  border-radius: 12px !important;
+  border-radius: 12px;
 }
 
 .friendInviteBlockContainer .blockCommunicationLabel {
-  color: var(--minimal-dark-redsettings) !important;
+  color: var(--minimal-dark-redsettings);
 }
 
 .confirmInviteRequestContainer .cancelAddFriends {
-  top: 11px !important;
-  right: 5px !important;
-  width: 24px !important;
-  height: 20px !important;
+  top: 11px;
+  right: 5px;
+  width: 24px;
+  height: 20px;
 }
 
 .quickAccessFriends:not(.emptyQuickAccess) {
-  padding-top: 32px !important;
-  padding-left: 14px !important;
+  padding-top: 32px;
+  padding-left: 14px;
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s {
-  background-color: var(--minimal-dark-blacker) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  background-color: var(--minimal-dark-blacker);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
-  background: var(--minimal-dark-blacker-alt) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: transparent !important;
+  background: var(--minimal-dark-blacker-alt);
+  border-radius: var(--minimal-dark-corner);
+  border: transparent;
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz {
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  margin-right: 10px !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-border-grey);
+  margin-right: 10px;
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz:before,
 ._2XZq-_f6npaQdAgeRzKIkz:last-of-type:after {
-  background: transparent !important;
+  background: transparent;
 }
 
 .HorizontalMiniSliderScroll {
-  overflow-x: initial !important;
+  overflow-x: initial;
 }
 
 ._2QPdq7GZ_03AD1ioPixVXW {
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  transition: all 0.2s ease-out !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  transition: all 0.2s ease-out;
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz:hover:not(.Yd-DsWkYiFiYwpci--Yk_) {
-  background-color: var(--minimal-dark-black) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  transition: all 0.2s ease-out !important;
-  border-bottom: 1px solid var(--minimal-dark-color) !important;
+  background-color: var(--minimal-dark-black);
+  border: 1px solid var(--minimal-dark-border-grey);
+  transition: all 0.2s ease-out;
+  border-bottom: 1px solid var(--minimal-dark-color);
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_:hover {
-  background-color: var(--minimal-dark-black) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  transition: all 0.2s ease-out !important;
-  border-bottom: 1px solid var(--minimal-dark-color) !important;
+  background-color: var(--minimal-dark-black);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
+  transition: all 0.2s ease-out;
+  border-bottom: 1px solid var(--minimal-dark-color);
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) -147%, rgba(26, 26, 26, .1) 100%) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border-bottom: 1px solid var(--minimal-dark-color) !important;
-  transition: all 0.2s ease-out !important;
+  background: radial-gradient(circle, rgba(2, 0, 36, 0) -147%, rgba(26, 26, 26, .1) 100%);
+  border: 1px solid var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
+  border-bottom: 1px solid var(--minimal-dark-color);
+  transition: all 0.2s ease-out;
 }
 
 .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):focus .SVGIcon_Button.SVGIcon_Submit path,
 .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):hover .SVGIcon_Button.SVGIcon_Submit path,
 .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) .SVGIcon_Button.SVGIcon_Submit path {
-  fill: var(--minimal-dark-color) !important;
+  fill: var(--minimal-dark-color);
 }
 
 .Aupswi7-c-w3XwNO5cp2i:hover,
 .Aupswi7-c-w3XwNO5cp2i:focus {
-  background-color: var(--minimal-dark-border-grey) !important;
+  background-color: var(--minimal-dark-border-grey);
   color: #fff;
 }
 
 .RVIs84dAE6wHcjH9tkinc {
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 ._1DsumfIa3MlkzUV9EXY5W9.online ._2n0EiKMGRP-r_BI5tDtttu {
-  color: orange !important;
+  color: orange;
 }
 
 .online .awayOrSnooze .nOdcT-MoOaXGePXLyPe0H {
-  color: #f7a24b !important;
+  color: #f7a24b;
 }
 
 .online .awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN {
-  color: #cd9a5a !important;
+  color: #cd9a5a;
 }
 
 ._1DsumfIa3MlkzUV9EXY5W9.in-game ._2n0EiKMGRP-r_BI5tDtttu {
-  color: orange !important;
+  color: orange;
 }
 
 .GreenEnvelopeMenu,
 .PP7LM0Ow1K5qkR8WElLpt {
-  background: var(--minimal-dark-blacker-alt) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  padding: 0px !important;
+  background: var(--minimal-dark-blacker-alt);
+  border-radius: var(--minimal-dark-corner);
+  padding: 0px;
 }
 
 .friend.awayOrSnooze .labelHolder {
-  opacity: 1 !important;
+  opacity: 1;
 }
 
 /* .ingame .awayOrSnooze .nOdcT-MoOaXGePXLyPe0H { */
-/* color: #f7a24b !important; */
+/* color: #f7a24b ; */
 /* } */
 
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze .drAAsgW-ufgBGjQ4mIfiJ,
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze ._2TAMH-SbRqivpq6WNRR-VH {
-  color: orange !important;
+  color: orange;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.online.awayOrSnooze ._1oD1aSbwaTNwncgaVdaSv8 ._1nBxb6NZrm5NL86Cmgo4g2 {
-  color: #f7a24b !important;
+  color: #f7a24b;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game.awayOrSnooze ._1oD1aSbwaTNwncgaVdaSv8 ._1nBxb6NZrm5NL86Cmgo4g2 {
-  color: #f7a24b !important;
+  color: #f7a24b;
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game.awayOrSnooze .K3kJzGQ5wihTMCijNJlBv:not(._2lhxiWpu1TQo8jSZm2VHsN) ._1NqKJdLf1QCef95pyZZwmL,
 ._3QoRRxsgnDolcCPCrAPm47 ._25tjYDzXV5ikVRTYuo3gkg.in-game .K3kJzGQ5wihTMCijNJlBv._1oOq4b51Mdj1pZboaWOvOL ._1NqKJdLf1QCef95pyZZwmL {
-  color: orange !important;
+  color: orange;
 }
 
 .ingame.awayOrSnooze ._1k82NiWym4STegDGxRBHz2,
@@ -1778,157 +1778,157 @@ button.DialogButton.Primary:active {
 .ingame ._1k82NiWym4STegDGxRBHz2 a:hover,
 .ingame ._1k82NiWym4STegDGxRBHz2 a:active,
 .ingame ._1k82NiWym4STegDGxRBHz2 a:visited {
-  color: #91c257 !important;
+  color: #91c257;
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online.awayOrSnooze ._1SWhpi9ByGQrwHGQgTJCF5,
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online.awayOrSnooze ._3c5GOobmMUyjAWTosaUKUS {
-  color: #f7a24b !important;
+  color: #f7a24b;
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online.awayOrSnooze ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq {
-  color: orange !important;
+  color: orange;
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze .qiP8aEgNz331tt6X4NMNW:not(._2TAWSrfSd1CiZ9WSYsc69c) ._2VUw8xyYCaD1WduLCK3nlW,
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze .qiP8aEgNz331tt6X4NMNW.h_So5GaEfmXOgB9hCC0Is ._2VUw8xyYCaD1WduLCK3nlW {
-  color: #f7a24b !important;
+  color: #f7a24b;
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game.awayOrSnooze ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq {
-  color: orange !important;
+  color: orange;
 }
 
 .RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW,
 .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
-  background-color: var(--minimal-dark-blacker-alt) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-blacker-alt);
+  border-radius: var(--minimal-dark-corner);
 }
 
 html.client_chat_frame .popup_chat_frame {
-  background: var(--minimal-dark-blacker-alt) !important;
+  background: var(--minimal-dark-blacker-alt);
 }
 
 ._2WfNoLBdfKwyutA6ho4aSH {
-  border-radius: var(--minimal-dark-corner) !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_MobilePhone path {
-  fill: #f7a24b !important;
+  fill: #f7a24b;
 }
 
 .online ._3xUpb5DWXPFNcHHIcv-9pe {
-  border-radius: var(--minimal-dark-corner) !important;
-  width: 30px !important;
-  height: 30px !important;
-  transform: translate(1px, -1px) !important;
-  z-index: 1 !important;
-  background: transparent !important;
-  border: 1px solid #4c91ac !important;
-  transition: .25s ease-out !important;
-  display: contents !important;
+  border-radius: var(--minimal-dark-corner);
+  width: 30px;
+  height: 30px;
+  transform: translate(1px, -1px);
+  z-index: 1;
+  background: transparent;
+  border: 1px solid #4c91ac;
+  transition: .25s ease-out;
+  display: contents;
 }
 
 .ingame ._3xUpb5DWXPFNcHHIcv-9pe {
-  border-radius: var(--minimal-dark-corner) !important;
-  width: 30px !important;
-  height: 30px !important;
-  transform: translate(1px, -1px) !important;
-  z-index: 1 !important;
-  background: transparent !important;
-  border: 1px solid #91c257 !important;
-  transition: .25s ease-out !important;
-  display: contents !important;
+  border-radius: var(--minimal-dark-corner);
+  width: 30px;
+  height: 30px;
+  transform: translate(1px, -1px);
+  z-index: 1;
+  background: transparent;
+  border: 1px solid #91c257;
+  transition: .25s ease-out;
+  display: contents;
 }
 
 .awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe {
-  border-radius: var(--minimal-dark-corner) !important;
-  width: 30px !important;
-  height: 30px !important;
-  transform: translate(1px, -1px) !important;
-  z-index: 1 !important;
-  background: transparent !important;
-  border: 1px solid #f7a24b !important;
-  -webkit-mask: none !important;
-  transition: .25s ease-out !important;
-  display: contents !important;
+  border-radius: var(--minimal-dark-corner);
+  width: 30px;
+  height: 30px;
+  transform: translate(1px, -1px);
+  z-index: 1;
+  background: transparent;
+  border: 1px solid #f7a24b;
+  -webkit-mask: none;
+  transition: .25s ease-out;
+  display: contents;
 }
 
 .offline ._3xUpb5DWXPFNcHHIcv-9pe {
-  border-radius: var(--minimal-dark-corner) !important;
-  width: 30px !important;
-  height: 30px !important;
-  transform: translate(1px, -1px) !important;
-  z-index: 1 !important;
-  background: transparent !important;
-  border: 1px solid grey !important;
-  transition: .25s ease-out !important;
-  display: contents !important;
+  border-radius: var(--minimal-dark-corner);
+  width: 30px;
+  height: 30px;
+  transform: translate(1px, -1px);
+  z-index: 1;
+  background: transparent;
+  border: 1px solid grey;
+  transition: .25s ease-out;
+  display: contents;
 }
 
 .nibodjvvrm86uCfnnAn4g.Medium {
-  height: 32px !important;
-  width: 32px !important;
+  height: 32px;
+  width: 32px;
 }
 
 .nibodjvvrm86uCfnnAn4g {
-  height: 33px !important;
-  width: 33px !important;
+  height: 33px;
+  width: 33px;
 }
 
 .nibodjvvrm86uCfnnAn4g.X-Large {
-  height: 92px !important;
-  width: 92px !important;
+  height: 92px;
+  width: 92px;
 }
 
 ._3qYm9oxf8MdyvQDJgbfCrF:hover {
-  background-color: var(--minimal-dark-black) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-black);
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
-  background: var(--minimal-dark-blacker) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN {
-  color: #f7a24b !important;
+  color: #f7a24b;
 }
 
 ._1JXI4j2_xSpVK1YjyEuebr:hover .SVGIcon_X_Line line {
-  stroke: var(--minimal-dark-red2) !important;
+  stroke: var(--minimal-dark-red2);
 }
 
 .ConnectionTroubleContent {
-  background: var(--minimal-dark-color) !important;
+  background: var(--minimal-dark-color);
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._3CZcHyWskP9Hc5t7AOo75A {
-  height: auto !important;
+  height: auto;
 }
 
 ._3h-QRJGxnVOIExtHD1R0f2 {
-  border-radius: var(--minimal-dark-corner) !important;
-  transform: translate(0px, 0px) !important;
+  border-radius: var(--minimal-dark-corner);
+  transform: translate(0px, 0px);
 }
 
 .friend.quickAccessFriend {
-  border: 1px solid transparent !important;
-  transition: .25s ease-out !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  width: auto !important;
+  border: 1px solid transparent;
+  transition: .25s ease-out;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  width: auto;
 }
 
 .ChatTabContent .avatarHolder .avatarStatus,
 .friend.quickAccessFriend .avatarHolder .avatarStatus {
-  display: none !important;
+  display: none;
 }
 
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-  /* display: none !important; */
+  /* display: none ; */
 }
 
 .currentUserContainer .nOdcT-MoOaXGePXLyPe0H {
@@ -1936,580 +1936,580 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .FriendInGameIcon img {
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._3gSTDNB2ZlqzhvkMEOxfCw ._1l8mFRMOzc3FeTSZuQcZBR {
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 ._1xTATKELHR-lRS_s3A4yzd ._7-U6jtoeGvesTm7JFGH0- .A0XYrZMFUpzFpMU7qBrhJ {
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 ._2rDsqxyJxBWUKDmY1lZ1Vw {
-  box-shadow: none !important;
+  box-shadow: none;
 }
 
 .Dialog_EditNickName .friend .avatarMedium,
 .Dialog_ChangePersonaName .friend .avatarMedium {
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .Dialog_EditNickName .friend.online .DialogTextInputBase,
 .Dialog_ChangePersonaName .friend.online .DialogTextInputBase {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .Dialog_ChangePersonaName .friend .labelHolder {
-  color: var(--minimal-dark-installed-games) !important;
+  color: var(--minimal-dark-installed-games);
 }
 
 .ChatTabsContextMenu.CompactFriendsList .friend {
-  margin-top: 2px !important;
-  padding: 4px 0px !important;
+  margin-top: 2px;
+  padding: 4px 0px;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- {
-  background: var(--minimal-dark-blacker-alt) !important;
-  color: var(--minimal-dark-less-white) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  margin-top: 30px !important;
-  transition: .25s ease-out !important;
-  margin-left: 10px !important;
-  margin-right: 10px !important;
-  margin-bottom: 4px !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker-alt);
+  color: var(--minimal-dark-less-white);
+  border: 1px solid var(--minimal-dark-border-grey);
+  margin-top: 30px;
+  transition: .25s ease-out;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 4px;
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._2sIHGS_555xUrHvjOwV0Y2 {
-  letter-spacing: 0px !important;
+  letter-spacing: 0px;
   font-size: 11px;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._3voPlg-2HzAUhuCyVhXm_D {
-  margin-right: 14px !important;
-  transition: .25s ease-out !important;
+  margin-right: 14px;
+  transition: .25s ease-out;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR-:hover {
-  color: var(--minimal-dark-color) !important;
-  transition: background .25s ease-out !important;
-  background: linear-gradient(180deg, rgba(26, 26, 26, .25) -50%, rgba(12, 12, 12, 1) 100%) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  transition: .25s ease-out !important;
+  color: var(--minimal-dark-color);
+  transition: background .25s ease-out;
+  background: linear-gradient(180deg, rgba(26, 26, 26, .25) -50%, rgba(12, 12, 12, 1) 100%);
+  border: 1px solid var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
+  transition: .25s ease-out;
 }
 
 .currentUserAvatar .avatarHolder.Medium {
-  width: 48px !important;
-  height: 48px !important;
-  margin-right: 6px !important;
+  width: 48px;
+  height: 48px;
+  margin-right: 6px;
 }
 
 .CompactFriendsList .friend,
 .CompactFriendsList .friendGroup .friend,
 .CompactFriendsList .friendGroup .SteamPlayerGroupFooter,
 .CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-  padding: 2px 0px 2px 12px !important;
-  height: 26px !important;
-  margin-top: 4px !important;
+  padding: 2px 0px 2px 12px;
+  height: 26px;
+  margin-top: 4px;
 }
 
 .CompactFriendsList .friend .avatarHolder img.avatar {
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  height: 70% !important;
-  width: 70% !important;
-  transform: translate(0px, -2px) !important;
+  border: 1px solid var(--minimal-dark-border-grey);
+  height: 70%;
+  width: 70%;
+  transform: translate(0px, -2px);
 }
 
 .CompactFriendsList .friend .labelHolder {
-  height: 26px !important;
-  margin-top: 0px !important;
-  transform: translate(0px, -1px) !important;
+  height: 26px;
+  margin-top: 0px;
+  transform: translate(0px, -1px);
 }
 
 .compactView .socialListTab {
-  transform: translate(0px, 1px) !important;
+  transform: translate(0px, 1px);
 }
 
 .speaker.ingame .speakerStatus {
-  width: 30px !important;
-  height: 30px !important;
-  background-color: transparent !important;
-  transform: translate(-33px, 0px) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid #a6df3d !important;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  transform: translate(-33px, 0px);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid #a6df3d;
 }
 
 .speaker.online .speakerStatus {
-  width: 30px !important;
-  height: 30px !important;
-  background-color: transparent !important;
-  transform: translate(-33px, 0px) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid #4c91ac !important;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  transform: translate(-33px, 0px);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid #4c91ac;
 }
 
 .speaker.awayOrSnooze .speakerStatus {
-  width: 30px !important;
-  height: 30px !important;
-  background-color: transparent !important;
-  transform: translate(-33px, 0px) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid orange !important;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  transform: translate(-33px, 0px);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid orange;
 }
 
 .speaker.offline .speakerStatus {
-  width: 30px !important;
-  height: 30px !important;
-  background-color: transparent !important;
-  transform: translate(-33px, 0px) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid grey !important;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  transform: translate(-33px, 0px);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid grey;
 }
 
 .ChatRoomSpeaker .speaker .speakerName {
-  transform: translate(-35px, 4px) !important;
+  transform: translate(-35px, 4px);
 }
 
 .timeDivision .preHorizDivider {
-  width: 5% !important;
-  background-color: rgba(79, 82, 87, .5) !important;
-  margin-right: -32px !important;
-  transform: translate(-40px, 0px) !important;
+  width: 5%;
+  background-color: rgba(79, 82, 87, .5);
+  margin-right: -32px;
+  transform: translate(-40px, 0px);
 }
 
 .friend.online .playerNameQuickAccessContainer {
-  opacity: .75 !important;
-  color: #6dcff6 !important;
+  opacity: .75;
+  color: #6dcff6;
 }
 
 .friend.ingame .playerNameQuickAccessContainer {
-  opacity: .75 !important;
-  color: #9aff23 !important;
+  opacity: .75;
+  color: #9aff23;
 }
 
 .friend.awayOrSnooze .playerNameQuickAccessContainer {
-  opacity: .75 !important;
-  color: #f7a24b !important;
+  opacity: .75;
+  color: #f7a24b;
 }
 
 .friend.offline .playerNameQuickAccessContainer {
-  opacity: .75 !important;
-  color: grey !important;
+  opacity: .75;
+  color: grey;
 }
 
 .FavoriteFriend_GameIcon {
-  display: none !important;
+  display: none;
 }
 
 .groupName .gameGroupContainer .groupIcon {
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 .quickAccessFriends .favoriteElement:hover .friend .playerName {
-  color: var(--minimal-dark-installed-games) !important;
+  color: var(--minimal-dark-installed-games);
 }
 
 .quickAccessFriends .favoriteElement:hover .online .playerName {
-  color: #6dcff6 !important;
-  filter: brightness(1.25) !important;
+  color: #6dcff6;
+  filter: brightness(1.25);
 }
 
 .quickAccessFriends .favoriteElement:hover .ingame .playerName {
-  color: #9aff23 !important;
-  filter: brightness(1.25) !important;
+  color: #9aff23;
+  filter: brightness(1.25);
 }
 
 .quickAccessFriends .favoriteElement:hover .awayOrSnooze .playerName {
-  color: #f7a24b !important;
-  filter: brightness(1.25) !important;
+  color: #f7a24b;
+  filter: brightness(1.25);
 }
 
 .quickAccessFriends .favoriteElement:hover .offline .playerName {
-  color: white !important;
-  filter: brightness(1.25) !important;
+  color: white;
+  filter: brightness(1.25);
 }
 
 .xSTLmzylFJdIfak7ZdhuA {
-  background: var(--minimal-dark-blacker-alt) !important;
+  background: var(--minimal-dark-blacker-alt);
 }
 
 ._3mf9BBKxhIVdrt6nIWBt4x {
-  background: var(--minimal-dark-blacker-alt) !important;
+  background: var(--minimal-dark-blacker-alt);
 }
 
 .chatRoomMembers {
-  border-left: 1px solid var(--minimal-dark-border-grey) !important;
+  border-left: 1px solid var(--minimal-dark-border-grey);
 }
 
 .MemberListOptionsContainer {
-  border-left: 1px solid var(--minimal-dark-border-grey) !important;
+  border-left: 1px solid var(--minimal-dark-border-grey);
 }
 
 .MemberListOption.ToggleMemberListView:hover polyline {
-  stroke: var(--minimal-dark-color) !important;
+  stroke: var(--minimal-dark-color);
 }
 
 .ChatRoomGroupDialog_history {
-  border-radius: var(--minimal-dark-corner) !important;
-  padding: 10px !important;
-  padding-top: 0px !important;
+  border-radius: var(--minimal-dark-corner);
+  padding: 10px;
+  padding-top: 0px;
 }
 
 .ChatHistoryContainer {
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._1osHa9KHOmdCDNrA232z4N {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0) 100%);
-  border-radius: var(--minimal-dark-corner) !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 ._2OoTJwlWvzvAysWOOEQaXS {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0) 100%);
-  border-radius: var(--minimal-dark-corner) !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .currentUserContainer ._3sxE7F1LV2IcSX68YsH9dI {
-  margin-top: 6px !important;
-  white-space: nowrap !important;
+  margin-top: 6px;
+  white-space: nowrap;
 }
 
 ._18bmBH7zyngCgHtgY3IEL_ {
-  background-color: var(--minimal-dark-blacker-alt) !important;
+  background-color: var(--minimal-dark-blacker-alt);
 }
 
 ._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY {
-  background: var(--minimal-dark-blacker) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  transition: .25s ease-out !important;
+  background: var(--minimal-dark-blacker);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
+  transition: .25s ease-out;
 }
 
 ._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY:hover {
-  background: var(--minimal-dark-color) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  box-shadow: 1px 2px 18px rgba(0, 0, 0, .3) !important;
-  transition: .25s ease-out !important;
-  color: white !important;
+  background: var(--minimal-dark-color);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
+  box-shadow: 1px 2px 18px rgba(0, 0, 0, .3);
+  transition: .25s ease-out;
+  color: white;
 }
 
 ._3t-tVOpu2n074cjZsygYfm ._2MByvWz7Ec6CRwKDWFmHrS {
-  color: var(--minimal-dark-red2) !important;
+  color: var(--minimal-dark-red2);
 }
 
 ._3t-tVOpu2n074cjZsygYfm .rORRrCcMO9z86bopxDvrH {
-  color: var(--minimal-dark-redsettings) !important;
-  text-align: center !important;
+  color: var(--minimal-dark-redsettings);
+  text-align: center;
 }
 
 .groupHeaderContainer .SortByRecent:hover .SVGIcon_SortBy,
 .groupHeaderContainer .SortByRecent.gpfocus .SVGIcon_SortBy {
-  stroke: var(--minimal-dark-color) !important;
+  stroke: var(--minimal-dark-color);
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 {
-  background: var(--minimal-dark-blacker-alt) !important;
-  border-bottom: 1px solid var(--minimal-dark-border-grey) !important;
-  box-shadow: none !important;
+  background: var(--minimal-dark-blacker-alt);
+  border-bottom: 1px solid var(--minimal-dark-border-grey);
+  box-shadow: none;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._3sgj23BemKViTVqwcKSU9G {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._3O7zSIxFPCfDxrCf7T8fGM {
-  display: none !important;
+  display: none;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._1m0afeRW-Gr5ZDK4viq3SY {
-  border-radius: var(--minimal-dark-corner) !important;
-  background-color: var(--minimal-dark-blacker-alt) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner);
+  background-color: var(--minimal-dark-blacker-alt);
+  border: 1px solid var(--minimal-dark-border-grey);
+  transition: .25s ease-out;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._1m0afeRW-Gr5ZDK4viq3SY:hover {
-  border-radius: var(--minimal-dark-corner) !important;
-  background-color: var(--minimal-dark-blacker-alt) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  color: var(--minimal-dark-color) !important;
-  transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner);
+  background-color: var(--minimal-dark-blacker-alt);
+  border: 1px solid var(--minimal-dark-color);
+  color: var(--minimal-dark-color);
+  transition: .25s ease-out;
 }
 
 .friendRequestButton .requestsNumber {
-  border: 1px solid white !important;
+  border: 1px solid white;
 }
 
 .addFriendButton {
-  width: 26px !important;
-  height: 26px !important;
-  margin-top: -2px !important;
-  margin-right: 11px !important;
+  width: 26px;
+  height: 26px;
+  margin-top: -2px;
+  margin-right: 11px;
 }
 
 .addFriendButton .SVGIcon_AddFriend .plusCircle {
-  color: var(--minimal-dark-color) !important;
-  border: 1px solid white !important;
-  stroke: white !important;
-  stroke-width: 10px !important;
+  color: var(--minimal-dark-color);
+  border: 1px solid white;
+  stroke: white;
+  stroke-width: 10px;
 }
 
 .friendsTabButtonsContainer .TabSearchButton .SVGIcon_MagnifyingGlass {
-  width: 20px !important;
-  height: 20px !important;
-  margin-top: 2px !important;
-  transform: translate(4px, 0px) !important;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  transform: translate(4px, 0px);
 }
 
 .friendsTabButtonsContainer .friendRequestButton {
-  width: 26px !important;
-  height: 26px !important;
-  margin-top: -2px !important;
-  padding-left: 3px !important;
+  width: 26px;
+  height: 26px;
+  margin-top: -2px;
+  padding-left: 3px;
 }
 
 .friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendBodyFull,
 .friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendHead,
 .friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendArm,
 .friendRequestButton.friendRequestViewActive .SVGIcon_FriendRequest .friendBody {
-  fill: var(--minimal-dark-color) !important;
+  fill: var(--minimal-dark-color);
 }
 
 .friendGroup .friendInviteContainer {
-  height: auto !important;
+  height: auto;
 }
 
 .Destructive .ModalPosition_TopBar {
-  background: linear-gradient(to right, #00000000, var(--minimal-dark-red2), #00000000) !important;
+  background: linear-gradient(to right, #00000000, var(--minimal-dark-red2), #00000000);
 }
 
 .friendsui-container .DialogHeader {
-  color: var(--minimal-dark-red2) !important;
+  color: var(--minimal-dark-red2);
 }
 
 button.DialogButton::before {
-  box-shadow: none !important;
+  box-shadow: none;
 }
 
 .ModalPosition_Dismiss .closeButton {
-  padding: 0px !important;
-  border-radius: 20px !important;
-  width: 18px !important;
-  height: 18px !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  transform: translate(-5px, 6px) !important;
-  transition: .25s ease-out !important;
-  margin-left: 8px !important;
+  padding: 0px;
+  border-radius: 20px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--minimal-dark-border-grey);
+  transform: translate(-5px, 6px);
+  transition: .25s ease-out;
+  margin-left: 8px;
 }
 
 .ModalPosition_Dismiss .closeButton:hover {
-  background: #f1244669 !important;
-  padding: 0px !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  width: 18px !important;
-  height: 18px !important;
-  border: 1px solid var(--minimal-dark-red2) !important;
-  transform: translate(-5px, 6px) !important;
-  transition: .25s ease-out !important;
-  margin-left: 8px !important;
+  background: #f1244669;
+  padding: 0px;
+  border-radius: var(--minimal-dark-corner);
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--minimal-dark-red2);
+  transform: translate(-5px, 6px);
+  transition: .25s ease-out;
+  margin-left: 8px;
 }
 
 .ModalPosition_Dismiss .closeButton:active {
-  background: #f1244669 !important;
-  transition: .25s ease-out !important;
-  border: 1px solid var(--minimal-dark-red2) !important;
-  box-shadow: inset 0 0 8px #000000c2 !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: #f1244669;
+  transition: .25s ease-out;
+  border: 1px solid var(--minimal-dark-red2);
+  box-shadow: inset 0 0 8px #000000c2;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .ModalPosition_Dismiss .closeButton .SVGIcon_X_Line line {
-  stroke: var(--minimal-dark-topgrey) !important;
+  stroke: var(--minimal-dark-topgrey);
   stroke-width: 24px;
-  transform: translate(18px, 10px) scale(.9) !important;
+  transform: translate(18px, 10px) scale(.9);
 }
 
 .ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
-  stroke: #fff !important;
+  stroke: #fff;
 }
 
 .chatFileUploadProgressBarContainer {
-  width: 97% !important;
+  width: 97%;
 }
 
 .DialogProgressBar_ProgressBarContainer {
-  border: 4px solid var(--minimal-dark-border-grey) !important;
-  border-radius: 20px !important;
-  background: var(--minimal-dark-blacker-alt) !important;
+  border: 4px solid var(--minimal-dark-border-grey);
+  border-radius: 20px;
+  background: var(--minimal-dark-blacker-alt);
 }
 
 .chatFileUploadProgressName {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .friend.quickAccessFriend .avatarHolder {
-  width: 50px !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  width: 50px;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .nibodjvvrm86uCfnnAn4g .X_mJE4BYV5StDPwZhSiAu {
-  /* transform: scale(1.1) translate(0px, 2px) !important; */
-  transform: scale(1.2) translate(0px, 0px) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  /* transform: scale(1.1) translate(0px, 2px) ; */
+  transform: scale(1.2) translate(0px, 0px);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .currentUserAvatar img._3fM0F85j3aWVzr4RJM9-eu {
-  transform: scale(1) translate(0px, 0px) !important;
+  transform: scale(1) translate(0px, 0px);
 }
 
 .QuickAccessChat.quickAccessFriend {
-  transition: .25s ease-out !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  width: auto !important;
-  height: 65px !important;
-  transform: translate(0px, 2px) !important;
-  margin-right: 2px !important;
+  transition: .25s ease-out;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  width: auto;
+  height: 65px;
+  transform: translate(0px, 2px);
+  margin-right: 2px;
 }
 
 .QuickAccessChat.quickAccessFriend:hover {
-  transition: .25s ease-out !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  width: auto !important;
-  height: 65px !important;
-  transform: translate(0px, 2px) !important;
-  margin-right: 2px !important;
+  transition: .25s ease-out;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-color);
+  width: auto;
+  height: 65px;
+  transform: translate(0px, 2px);
+  margin-right: 2px;
 }
 
 .favoriteElement .ChatRoomGroupAvatar {
-  margin-bottom: -1px !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  margin-bottom: -1px;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .ChatRoomGroupAvatar {
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 .favoriteElement:hover .quickAccessFriend .clanName {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .friendlist.compactView .friendListHeaderContainer {
-  height: auto !important;
+  height: auto;
 }
 
 .compactQuickAccess .friend.quickAccessFriend {
-  width: 28px !important;
-  height: 28px !important;
+  width: 28px;
+  height: 28px;
 }
 
 .compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatar,
 .compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
-  border-radius: var(--minimal-dark-corner) !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .compactQuickAccess .friend.ingame.quickAccessFriend {
-  border: 1px solid rgb(227 255 194 / 80%) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid rgb(227 255 194 / 80%);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .compactQuickAccess .friend.online.quickAccessFriend {
-  border: 1px solid rgb(109 207 246 / 80%) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid rgb(109 207 246 / 80%);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .compactQuickAccess .friend.offline.quickAccessFriend {
-  border: 1px solid rgb(128 128 128 / 80%) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid rgb(128 128 128 / 80%);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .compactQuickAccess .friend.awayOrSnooze.quickAccessFriend {
-  border: 1px solid rgb(255 165 0 / 80%) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  border: 1px solid rgb(255 165 0 / 80%);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .quickAccessFriends .favoriteElement:hover .friend .avatarHolder img.avatar
 
 /* .friend.offline:hover .avatarHolder img.avatar, .friend.offline.Friend_ContextMenuActive .avatarHolder img.avatar */
   {
-  transform: scale(0.9) translate(1px, 0px) !important;
+  transform: scale(0.9) translate(1px, 0px);
 }
 
 .BBCodeYouTubeComponent {
-  background: var(--minimal-dark-blacker-alt2) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker-alt2);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .BBCodeTitle {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .html5-video-player:not(.ytp-transparent),
 .html5-video-player.unstarted-mode,
 .html5-video-player.ad-showing,
 .html5-video-player.ended-mode {
-  background-color: var(--minimal-dark-blacker-alt2) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-blacker-alt2);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .ChatMessageInvite.GroupAlreadyJoined,
 .ChatMessageInvite.Inviter {
-  background: var(--minimal-dark-blacker) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .ChatMessageInvite .inviteButton.inviteButtonJoinChat {
-  background: var(--minimal-dark-blacker) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background: var(--minimal-dark-blacker);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .ChatMessageInvite .inviteButton.inviteButtonJoinChat:hover {
-  border: 1px solid var(--minimal-dark-color) !important;
-  color: var(--minimal-dark-color) !important;
+  border: 1px solid var(--minimal-dark-color);
+  color: var(--minimal-dark-color);
 }
 
 .ChatMessageInvite .inviteButton.inviteButtonJoinChat:active {
-  border: 1px solid var(--minimal-dark-color) !important;
-  color: var(--minimal-dark-color) !important;
-  box-shadow: inset 0 0 8px #000000c2 !important;
+  border: 1px solid var(--minimal-dark-color);
+  color: var(--minimal-dark-color);
+  box-shadow: inset 0 0 8px #000000c2;
 }
 
 .socialSearchContainer {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
 .CompactFriendsList .X_mJE4BYV5StDPwZhSiAu.avatarFrame {
-  height: 70% !important;
-  width: 70% !important;
+  height: 70%;
+  width: 70%;
 }
 
 .compactView .currentUserAvatar .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-  transform: scale(1.18) translate(3px, 3px) !important;
-  width: 100% !important;
-  height: 100% !important;
+  transform: scale(1.18) translate(3px, 3px);
+  width: 100%;
+  height: 100%;
 }
 
 .CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
-  height: 18px !important;
+  height: 18px;
 }
 
 .CompactFriendsList .friend.ingame,
 .CompactFriendsList .friendGroup .friend.ingame {
-  height: 29px !important;
+  height: 29px;
 }
 
 .CompactFriendsList ._4ZTzGZ5TTgFyfw1DcXLXS._1oYSXGjBe7QctQ1ikLpCMm {
@@ -2518,94 +2518,94 @@ button.DialogButton::before {
 
 .CompactFriendsList ._3bbRZyUiK-bfc5Qov6xukI ._2Ri005Wg_uXDTa71kdRbcN {
   font-size: 10px;
-  line-height: 10px !important;
+  line-height: 10px;
 }
 
 .ExpandPlusMinus {
-  opacity: 1 !important;
+  opacity: 1;
 }
 
 .msg .filteredURL.bb_removedlink {
-  color: var(--minimal-dark-red2) !important;
-  background-color: var(--minimal-dark-blacker-alt) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  padding: 0px 8px 0px 8px !important;
-  border: 1px solid var(--minimal-dark-red2) !important;
+  color: var(--minimal-dark-red2);
+  background-color: var(--minimal-dark-blacker-alt);
+  border-radius: var(--minimal-dark-corner);
+  padding: 0px 8px 0px 8px;
+  border: 1px solid var(--minimal-dark-red2);
 }
 
 .msg .filteredURL.bb_removedlink .threatURL {
-  color: var(--minimal-dark-red2) !important;
+  color: var(--minimal-dark-red2);
 }
 
 .msg .filteredURL.bb_removedlink .SVGIcon_Caution .triangle path {
-  fill: transparent !important;
+  fill: transparent;
 }
 
 .msg .filteredURL.bb_removedlink .SVGIcon_Caution path,
 .msg .filteredURL.bb_removedlink .SVGIcon_Caution line {
-  stroke: var(--minimal-dark-red2) !important;
-  stroke-width: 18px !important;
+  stroke: var(--minimal-dark-red2);
+  stroke-width: 18px;
 }
 
 .OpenGraphMessageURL_full {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .OpenGraphMessageURL_short,
 .OpenGraphMessageURL_full {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .msg div.ChatMessageOpenGraph,
 .msg div.SteamPublishedFile {
-  background: var(--minimal-dark-blacker) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
+  background: var(--minimal-dark-blacker);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
 }
 
 .OpenGraphImgBackground .ChatMessageOpenGraph_Image {
-  filter: blur(92px) saturate(1) brightness(1) !important;
+  filter: blur(92px) saturate(1) brightness(1);
 }
 
 .friendSearchInput[type=text] {
-  background-color: var(--minimal-dark-blacker) !important;
+  background-color: var(--minimal-dark-blacker);
 }
 
 .UA15KlVbtDSJkqSpIAMIN {
-  background-color: var(--minimal-dark-blacker) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-blacker);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
-  fill: #ffe600 !important;
+  fill: #ffe600;
 }
 
 ._2FJUPOjT7afeB0125mqdQt {
-  stroke: transparent !important;
+  stroke: transparent;
 }
 
 .DialogHighlight {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .friendlistListContainer .friend.online .labelHolder:hover {
-  transform: scale(1) translate(0px, -1px) !important;
+  transform: scale(1) translate(0px, -1px);
 }
 
 .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.online.awayOrSnooze .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-  transform: scale(.92) translate(-1px, 2px) !important;
-  transition: .25s ease-out !important;
+  transform: scale(.92) translate(-1px, 2px);
+  transition: .25s ease-out;
 }
 
 .friend.online.friendStatusHover.Panel.Focusable .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-  transform: scale(.92) translate(-1px, 2px) !important;
-  transition: .25s ease-out !important;
+  transform: scale(.92) translate(-1px, 2px);
+  transition: .25s ease-out;
 }
 
 .friend.online.friendStatusHover.Panel.Focusable:hover .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
   transform: scale(1) translate(0px, 0px);
-  transition: .25s ease-out !important;
+  transition: .25s ease-out;
 }
 
 .friend.offline:hover .avatarHolder img.avatar,
@@ -2615,180 +2615,180 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 .friend.online.awayOrSnooze:hover .avatarHolder img.avatar,
 .friend.awayOrSnooze:hover .avatarHolder img.avatar {
   transform: scale(1) translate(0px, 0px);
-  transition: .25s ease-out !important;
+  transition: .25s ease-out;
 }
 
 .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame {
-  transform: scale(1.09) translate(-1px, 2px) !important;
+  transform: scale(1.09) translate(-1px, 2px);
 }
 
 .friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
   padding-top: 5px;
-  font-size: 12px !important;
+  font-size: 12px;
 }
 
 .friend.ingame.quickAccessFriend.friendStatusHover.Panel.Focusable .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame img._3fM0F85j3aWVzr4RJM9-eu {
-  transform: translate(0px, -2px) !important;
+  transform: translate(0px, -2px);
 }
 
 .quickAccessFriendsMessage {
-  font-size: 10px !important;
-  color: var(--minimal-dark-color) !important;
-  border: 1px dashed transparent !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  font-size: 10px;
+  color: var(--minimal-dark-color);
+  border: 1px dashed transparent;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .dropTargetBox {
-  border: 2px dashed var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  border: 2px dashed var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .currentUserAvatar .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame img._3fM0F85j3aWVzr4RJM9-eu {
-  transform: scale(1.09) translate(1px, -2px) !important;
+  transform: scale(1.09) translate(1px, -2px);
 }
 
 .CompactFriendsList .currentUserAvatar .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame img._3fM0F85j3aWVzr4RJM9-eu {
-  transform: scale(1.09) translate(1px, -2px) !important;
+  transform: scale(1.09) translate(1px, -2px);
 }
 
 .CompactFriendsList .friend.ingame.friendStatusHover.Panel.Focusable:hover .labelHolder {
-  transform: scale(1) translate(5px, -1px) !important;
-  transition: .25s ease-out !important;
+  transform: scale(1) translate(5px, -1px);
+  transition: .25s ease-out;
 }
 
 .friendlist.compactView .currentUserAvatar .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.ingame .X_mJE4BYV5StDPwZhSiAu.avatarFrame img._3fM0F85j3aWVzr4RJM9-eu {
-  transform: scale(1.3) translate(4px, 1px) !important;
+  transform: scale(1.3) translate(4px, 1px);
 }
 
 .DropTarget.quickAccessFriends.compactQuickAccess.Panel.Focusable .X_mJE4BYV5StDPwZhSiAu.avatarFrame {
-  transform: scale(.7) translate(-17px, -15px) !important;
+  transform: scale(.7) translate(-17px, -15px);
 }
 
 .OneOnOneVoiceRoomControls {
-  background-color: var(--minimal-dark-blacker-alt) !important;
+  background-color: var(--minimal-dark-blacker-alt);
 }
 
 .OneOnOneVoiceRoomControls .VoiceToggleIconCtn:hover {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .inviteButton.inviteButtonJoinVoice {
-  background: var(--minimal-dark-blacker-alt) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-progress-bar) !important;
-  transition: .25s ease-out !important;
-  color: var(--minimal-dark-progress-bar) !important;
+  background: var(--minimal-dark-blacker-alt);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-progress-bar);
+  transition: .25s ease-out;
+  color: var(--minimal-dark-progress-bar);
 }
 
 .inviteButton.inviteButtonJoinVoice:hover {
-  background: var(--minimal-dark-progress-bar) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  color: white !important;
-  transition: .25s ease-out !important;
+  background: var(--minimal-dark-progress-bar);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  color: white;
+  transition: .25s ease-out;
 }
 
 .OneOnOneVoiceClose:hover,
 .OneOnOneVoiceClose.gpfocus {
-  background-color: var(--minimal-dark-red2) !important;
-  transition: .25s ease-out !important;
+  background-color: var(--minimal-dark-red2);
+  transition: .25s ease-out;
 }
 
 .OneOnOneVoiceClose {
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  transition: .25s ease-out !important;
-  background: var(--minimal-dark-blacker-alt) !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  transition: .25s ease-out;
+  background: var(--minimal-dark-blacker-alt);
 }
 
 .inviteButton.inviteButtonDeclineVoice {
-  background: var(--minimal-dark-blacker-alt) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-red2) !important;
-  transition: .25s ease-out !important;
-  color: var(--minimal-dark-red2) !important;
+  background: var(--minimal-dark-blacker-alt);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-red2);
+  transition: .25s ease-out;
+  color: var(--minimal-dark-red2);
 }
 
 .inviteButton.inviteButtonDeclineVoice:hover,
 .inviteButton.inviteButtonDeclineVoice.gpfocus {
-  background: var(--minimal-dark-red2) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  transition: .25s ease-out !important;
-  color: white !important;
+  background: var(--minimal-dark-red2);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  transition: .25s ease-out;
+  color: white;
 }
 
 .friendListHeaderContainer .activeVoiceControls {
-  margin-top: 30px !important;
-  margin-bottom: 8px !important;
+  margin-top: 30px;
+  margin-bottom: 8px;
 }
 
 .activeVoiceButtons button {
-  margin-top: 1px !important;
+  margin-top: 1px;
 }
 
 .VoiceControlPanelButton:focus,
 .VoiceControlPanelButton:hover {
   background-color: rgba(97, 253, 151, .3);
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid #78db86 !important;
-  transition: .25s ease-out !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid #78db86;
+  transition: .25s ease-out;
 }
 
 .chatRoomVoiceChannel .chatRoomTextChannel {
-  transition: .25s ease-out !important;
-  height: auto !important;
+  transition: .25s ease-out;
+  height: auto;
 }
 
 .chatRoomVoiceChannel .chatRoomTextChannel:hover {
   background-color: rgba(97, 253, 151, .3);
   background-color: rgba(97, 253, 151, .3);
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid #78db86 !important;
-  transition: .25s ease-out !important;
-  height: auto !important;
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid #78db86;
+  transition: .25s ease-out;
+  height: auto;
 }
 
 .friendListHeaderContainer .activeVoiceControls:before {
-  background: transparent !important;
+  background: transparent;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel {
-  background-color: var(--minimal-dark-blacker) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: var(--minimal-dark-blacker);
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .emptyChannelNotice.Visible {
-  height: auto !important;
+  height: auto;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel {
-  width: auto !important;
+  width: auto;
 }
 
 .VoiceRoomChatWindow {
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  background-color: #12121294 !important;
-  backdrop-filter: blur(8px) !important;
+  border: 1px solid var(--minimal-dark-border-grey);
+  background-color: #12121294;
+  backdrop-filter: blur(8px);
   box-shadow: 1px 2px 18px #000;
-  border-radius: var(--minimal-dark-corner) !important;
+  border-radius: var(--minimal-dark-corner);
 }
 
 .VoiceRoomChatTitle {
-  background-color: var(--minimal-dark-blacker-alt) !important;
+  background-color: var(--minimal-dark-blacker-alt);
 }
 
 .chatRoomVoiceChannel {
-  background-color: transparent !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: transparent;
+  border: 1px solid var(--minimal-dark-border-grey);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .chatRoomVoiceChannel:not(.ActiveVoiceChannel):hover {
-  background-color: transparent !important;
-  border: 1px solid var(--minimal-dark-color) !important;
-  border-radius: var(--minimal-dark-corner) !important;
+  background-color: transparent;
+  border: 1px solid var(--minimal-dark-color);
+  border-radius: var(--minimal-dark-corner);
 }
 
 .no_mic_for_session .voicestatusIcon.voiceStatusMic,
@@ -2796,47 +2796,47 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 .output_muted_remotely .voicestatusIcon.voiceStatusOutput,
 .mic_muted_self .voicestatusIcon.voiceStatusMic,
 .mic_muted_remotely .voicestatusIcon.voiceStatusMic {
-  opacity: 1 !important;
-  color: var(--minimal-dark-red2) !important;
+  opacity: 1;
+  color: var(--minimal-dark-red2);
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomTextChannel {
   cursor: pointer;
   opacity: 1;
-  height: auto !important;
-  border: 1px solid transparent !important;
+  height: auto;
+  border: 1px solid transparent;
 }
 
 .chatRoomTextChannel:hover,
 .chatRoomVoiceChannel:hover .chatRoomVoiceChannelName,
 .chatRoomTextChannel:hover .chatRoomTextChannel {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .chatRoomVoiceChannel:not(.ActiveVoiceChannel):hover .chatRoomVoiceChannelNameContainer .chatRoomVoiceChannelIcon svg.SVGIcon_Button.SVGIcon_VoiceRoom path {
-  fill: var(--minimal-dark-color) !important;
+  fill: var(--minimal-dark-color);
 }
 
 .OneOnOneVoiceRoomControls .inviteButton.inviteButtonDeclineVoice {
-  background: var(--minimal-dark-blacker-alt) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-red2) !important;
-  transition: .25s ease-out !important;
-  color: var(--minimal-dark-red2) !important;
+  background: var(--minimal-dark-blacker-alt);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-red2);
+  transition: .25s ease-out;
+  color: var(--minimal-dark-red2);
 }
 
 .OneOnOneVoiceRoomControls .inviteButton.inviteButtonDeclineVoice:hover {
-  background: var(--minimal-dark-red2) !important;
-  border-radius: var(--minimal-dark-corner) !important;
-  border: 1px solid var(--minimal-dark-border-grey) !important;
-  transition: .25s ease-out !important;
-  color: white !important;
+  background: var(--minimal-dark-red2);
+  border-radius: var(--minimal-dark-corner);
+  border: 1px solid var(--minimal-dark-border-grey);
+  transition: .25s ease-out;
+  color: white;
 }
 
 .mutualFriendNumber {
-  color: var(--minimal-dark-color) !important;
+  color: var(--minimal-dark-color);
 }
 
 .friendInviteButtons {
-  padding-right: 16px !important;
+  padding-right: 16px;
 }

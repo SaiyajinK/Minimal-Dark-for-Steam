@@ -1,44 +1,44 @@
 ._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC {
-    padding-right: 0px !important;
-    min-height: 30px !important;
-    width: 30px !important;
-    border-top: 0px solid var(--minimal-dark-border-grey) !important;
-    border-bottom: 1px solid var(--minimal-dark-border-grey) !important;
-    margin-top: 0px !important;
-    padding-left: 0px !important;
-    border-right: 0px solid transparent !important;
-    border-left: 1px solid var(--minimal-dark-border-grey) !important;
-    font-size: 0px !important;
-    transition: .25s ease-out !important;
-    color: transparent !important;
-	font-size: 0px !important;
-	margin-right: 62px !important;
+  padding-right: 0px;
+  min-height: 30px;
+  width: 30px;
+  border-top: 0px solid var(--minimal-dark-border-grey);
+  border-bottom: 1px solid var(--minimal-dark-border-grey);
+  margin-top: 0px;
+  padding-left: 0px;
+  border-right: 0px solid transparent;
+  border-left: 1px solid var(--minimal-dark-border-grey);
+  font-size: 0px;
+  transition: .25s ease-out;
+  color: transparent;
+  font-size: 0px;
+  margin-right: 62px;
 }
 
 ._3yD46y5pd3zOGR7CzKs0mC:hover {
-    transition: none;
-    cursor: pointer;
-    box-shadow: none !important;
-    min-height: 30px !important;
-    margin-bottom: 0px;
-    background: var(--minimal-dark-blacker) !important;
-    border-radius: 0px !important;
-    width: auto !important;
-    border-right: 3px solid var(--minimal-dark-color) !important;
-    font-size: 12px !important;
-    transition: .25s ease-out !important;
-    color: #4cb4ff !important;
-    padding-left: 0px !important;
-    padding-right: 10px !important;
-    transform: translate(-4px, 0px) !important;
-    border-right: 1px solid var(--minimal-dark-color) !important;
-    margin-left: 4px !important;
-    margin-right: 58px !important;
+  transition: none;
+  cursor: pointer;
+  box-shadow: none;
+  min-height: 30px;
+  margin-bottom: 0px;
+  background: var(--minimal-dark-blacker);
+  border-radius: 0px;
+  width: auto;
+  border-right: 3px solid var(--minimal-dark-color);
+  font-size: 12px;
+  transition: .25s ease-out;
+  color: #4cb4ff;
+  padding-left: 0px;
+  padding-right: 10px;
+  transform: translate(-4px, 0px);
+  border-right: 1px solid var(--minimal-dark-color);
+  margin-left: 4px;
+  margin-right: 58px;
 }
 
 ._3yD46y5pd3zOGR7CzKs0mC:active {
-    background: var(--minimal-dark-blacker) !important;
-	box-shadow: inset 0 0 8px #000000c2 !important;
-    min-height: 30px !important;
-    transition: .25s ease-out !important;
+  background: var(--minimal-dark-blacker);
+  box-shadow: inset 0 0 8px #000000c2;
+  min-height: 30px;
+  transition: .25s ease-out;
 }

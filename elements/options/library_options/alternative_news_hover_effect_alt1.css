@@ -1,23 +1,23 @@
 ._3_xMyCJAh_Dv99KgZ54P3j:hover {
-	border: 1px solid var(--minimal-dark-invisiblegrey) !important;
-    border-bottom: 1px solid var(--minimal-dark-color) !important;
-    border-left: 1px solid var(--minimal-dark-invisiblegrey) !important;
-	transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-invisiblegrey);
+  border-bottom: 1px solid var(--minimal-dark-color);
+  border-left: 1px solid var(--minimal-dark-invisiblegrey);
+  transition: .25s ease-out;
 }
 
 ._3_xMyCJAh_Dv99KgZ54P3j:active {
-	border: 1px solid var(--minimal-dark-invisiblegrey) !important;
-    border-bottom: 1px solid var(--minimal-dark-invisiblegrey) !important;
-    border-left: 1px solid var(--minimal-dark-invisiblegrey) !important;
-	transition: .25s ease-out !important;
+  border: 1px solid var(--minimal-dark-invisiblegrey);
+  border-bottom: 1px solid var(--minimal-dark-invisiblegrey);
+  border-left: 1px solid var(--minimal-dark-invisiblegrey);
+  transition: .25s ease-out;
 }
 
 ._3_xMyCJAh_Dv99KgZ54P3j:hover ._28IqrZIgxpqkUQyhdaLDUN {
-    color: var(--minimal-dark-color) !important;
-	transition: .25s ease-out !important;
+  color: var(--minimal-dark-color);
+  transition: .25s ease-out;
 }
 
 ._3_xMyCJAh_Dv99KgZ54P3j:active ._28IqrZIgxpqkUQyhdaLDUN {
-    color: white !important;
-	transition: .25s ease-out !important;
+  color: white;
+  transition: .25s ease-out;
 }
