@@ -1817,55 +1817,6 @@ html.client_chat_frame .popup_chat_frame {
   fill: #f7a24b;
 }
 
-.online ._3xUpb5DWXPFNcHHIcv-9pe {
-  border-radius: var(--minimal-dark-corner);
-  width: 30px;
-  height: 30px;
-  transform: translate(1px, -1px);
-  z-index: 1;
-  background: transparent;
-  border: 1px solid #4c91ac;
-  transition: .25s ease-out;
-  display: contents;
-}
-
-.ingame ._3xUpb5DWXPFNcHHIcv-9pe {
-  border-radius: var(--minimal-dark-corner);
-  width: 30px;
-  height: 30px;
-  transform: translate(1px, -1px);
-  z-index: 1;
-  background: transparent;
-  border: 1px solid #91c257;
-  transition: .25s ease-out;
-  display: contents;
-}
-
-.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe {
-  border-radius: var(--minimal-dark-corner);
-  width: 30px;
-  height: 30px;
-  transform: translate(1px, -1px);
-  z-index: 1;
-  background: transparent;
-  border: 1px solid #f7a24b;
-  -webkit-mask: none;
-  transition: .25s ease-out;
-  display: contents;
-}
-
-.offline ._3xUpb5DWXPFNcHHIcv-9pe {
-  border-radius: var(--minimal-dark-corner);
-  width: 30px;
-  height: 30px;
-  transform: translate(1px, -1px);
-  z-index: 1;
-  background: transparent;
-  border: 1px solid grey;
-  transition: .25s ease-out;
-  display: contents;
-}
-
 .nibodjvvrm86uCfnnAn4g.Medium {
   height: 32px;
   width: 32px;
@@ -1910,7 +1861,6 @@ html.client_chat_frame .popup_chat_frame {
 
 ._3h-QRJGxnVOIExtHD1R0f2 {
   border-radius: var(--minimal-dark-corner);
-  transform: translate(0px, 0px);
 }
 
 .friend.quickAccessFriend {
@@ -1928,7 +1878,7 @@ html.client_chat_frame .popup_chat_frame {
 
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-  /* display: none ; */
+  display: none !important;
 }
 
 .currentUserContainer .nOdcT-MoOaXGePXLyPe0H {

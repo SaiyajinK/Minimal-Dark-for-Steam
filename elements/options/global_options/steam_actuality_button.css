@@ -1,11 +1,3 @@
-._5wILZhsLODVwGfcJ0hKmJ {
-  display: none;
-}
-
-._5wILZhsLODVwGfcJ0hKmJ:hover {
-  display: none;
-}
-
-._5wILZhsLODVwGfcJ0hKmJ:active {
+.tool-tip-source:has(> ._5wILZhsLODVwGfcJ0hKmJ) {
   display: none;
 }
