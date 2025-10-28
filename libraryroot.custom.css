@@ -37,7 +37,7 @@
 .friendsui-container .title-area-icon {
   width: 18px;
   height: 18px;
-  border: 1px solid var(--minimal-dark-greyblack);
+  border: 1px solid var(--minimal-dark-border);
   transition: .25s ease-out;
 }
 
