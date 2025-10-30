@@ -10,18 +10,40 @@
   border-radius: 2px;
 }
 
-._1VNuYHM6BPBOJspC6zPf5r {
-  border: 1px dashed var(--minimal-dark-border);
+._1VNuYHM6BPBOJspC6zPf5r:not(.IbePLaw-vSvhG1GTenYFg) {
   border-radius: var(--minimal-dark-corner);
-  padding: 8px 19px 8px 25px;
-  margin-top: 10px;
+  padding: 8px 19px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  width: 100%;
 }
 
 ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg {
   background-color: var(--minimal-dark-blacker-alt);
-  border: 1px solid var(--minimal-dark-border);
+  border-top: 1px solid var(--minimal-dark-border);
+  border-bottom: 1px solid var(--minimal-dark-border);
   border-radius: var(--minimal-dark-corner);
+  width: 100%;
 }
+._21P7c4MWmsU2QSZeL-uyZo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.d9VKGABvFZQGmdqtaicMo ._21P7c4MWmsU2QSZeL-uyZo {
+  ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg {
+    border: 1px solid var(--minimal-dark-border);
+  }
+}
+._21P7c4MWmsU2QSZeL-uyZo._3-SbBb63lDnu6LzKV-q3Cg {
+  ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg {
+    border: 1px solid var(--minimal-dark-border);
+    width: 75%;
+    height: 75%;
+  }
+} 
 
 ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi,
 ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled,
@@ -42,8 +64,7 @@
 ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
   background-color: var(--minimal-dark-blacker);
   border-radius: var(--minimal-dark-corner);
-  border: 1px solid var(--minimal-dark-border);
-  border-bottom: 1px solid var(--minimal-dark-color);
+  border-color: var(--minimal-dark-border);
 }
 
 ._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI.DialogButton:enabled {
@@ -75,7 +96,11 @@
 ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC.DialogButton:enabled {
   background: var(--minimal-dark-invisiblegrey);
   color: #dcdedf;
-  transform: translate(-10px, 13px);
+}
+
+._373v1eWNyaPKhgnea9FZSt ._25orrwWG_3Sxt7Cez3seLV {
+  top: 30px;
+  right: 37px;
 }
 
 ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:hover {
@@ -83,17 +108,15 @@
 }
 
 .IbePLaw-vSvhG1GTenYFg .OINnOU8K5HzPe2nzczpZi {
-  border-bottom: 2px solid var(--minimal-dark-blacker-alt);
-  border-top: 4px solid var(--minimal-dark-blacker-alt);
-  border-left: 4px solid var(--minimal-dark-blacker-alt);
-  border-right: 4px solid var(--minimal-dark-blacker-alt);
-  padding: 10px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 ._1ugNiylO2vKXhirsGocAxa .OINnOU8K5HzPe2nzczpZi {
   padding-top: 10px;
   padding-left: 12px;
-  transform: translate(4px, 0px);
 }
 
 .OINnOU8K5HzPe2nzczpZi {

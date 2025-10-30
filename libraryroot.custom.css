@@ -1690,7 +1690,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
 }
 
 ._2Nq6ov7A1hGcHXVOXNt_OE {
-  border-top: 1px solid var(--minimal-dark-border);
+  border-top: unset;
 }
 
 /* vr headset icon topbar */
@@ -1740,7 +1740,9 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
 /* end vr headset icon topbar */
 
 ._3mz8wQ6Q44B8P7pzPP4Iyw {
-  border: 0px solid var(--minimal-dark-border);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 
 ._1ENHEsrSLcTRtPQFl1F-wL {
