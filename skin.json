@@ -1213,7 +1213,7 @@
 		"Alternative UI for new Steam menu :": {
 		"tab": "Webkit options (10)",
 		"description": "> The new Steam store menu has arrived, enabling this option will offer an alternative UI. \n\n - Minimal new UI : Minimal new Steam menu without modifications. \n - Minimal new UI (buttons) : Minimal new UI (buttons). \n - Compact : Minimal new Steam menu compact. \n - Ultra compact : Minimal new Steam menu ultra compact (just an icon & default size). \n - Ultra compact #1 : Minimal new Steam menu ultra compact (just an icon & compact size).",
-		"default": "Ultra compact #1",
+		"default": "Compact",
 		"values": {
 			"Minimal new UI": {},
 			"Minimal new UI (buttons)": {
