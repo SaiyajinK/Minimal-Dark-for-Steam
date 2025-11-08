@@ -16076,6 +16076,10 @@ body.v7menu .v7menu_spacer {
 	transition: .25s ease-out !important;
 }
 
+.PlaceholderInner {
+     display: none;
+}
+
 .-bDCBiZsIWB-_6IzGxbhz._2SVHFh60yRjQbYRg6t2mcK ._15eaL848WovXjJ0POHaD9D {
     background: linear-gradient(180deg, rgb(18 18 18 / 0%) -5%, var(--minimal_dark_blacker_alt) 100%) !important;
     border-radius: var(--minimal_dark_corner) !important;
