@@ -17078,4 +17078,12 @@ form#advsearchform .page_content_ctn .searchbar button.btnv6_blue_hoverfade.btn_
     transition: .25s ease-out !important;
 }
 
+/* webkit home black bar fix */
+.menu_takeover_background img {
+    object-fit: cover;
+    /* height: 36px */
+    filter: blur(25px);
+}
+/* webkit home black bar fix */
+
 /* end webkit */
