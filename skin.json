@@ -1216,12 +1216,7 @@
 		"default": "Compact",
 		"values": {
 			"Minimal new UI": {},
-			"Minimal new UI (buttons)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_buttons_new_ui.css"
-					}
-				},
-			"Compact": {
+			"Minimal new UI (compact)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/webkit_compact_ui_new_menu.css"
 					}
@@ -1234,6 +1229,16 @@
 			"Ultra compact #1": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/webkit_ultra_compact_ui_new_menu_alt.css"
+					}
+				},
+			"Minimal new UI (buttons)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_buttons_new_ui.css"
+					}
+				},
+			"Minimal new UI (compact buttons)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_buttons_new_ui_compact.css"
 					}
 				}
 			}
@@ -1386,7 +1391,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.6.1",
+	"version": "4.6.2",
 
 	"github": {
 		"owner": "SaiyajinK",
