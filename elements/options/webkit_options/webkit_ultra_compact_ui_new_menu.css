@@ -36,3 +36,13 @@ button._175B12uOwmeGBNcSaQFe-Z:hover .vj9hwW9u0MpjH7MVjjNw0 {
 ._175B12uOwmeGBNcSaQFe-Z._3wlHWKFbgRAZPFtWEr65YT._2IyR9WyPwYb15ILBjPvLR9._3qY2sJFFtNsrx_rBDIT7l1.Focusable .vj9hwW9u0MpjH7MVjjNw0 {
     background-color: var(--minimal_dark_color1) !important;
 }
+
+.menu_takeover_background img {
+    object-fit: cover !important;
+    /* height: 36px !important; */
+    filter: blur(25px) !important;
+}
+
+html:not(.rn_mobile_app) body.v7menu:not(.menu_background_overlap) .responsive_page_template_content {
+    padding-top: 36px !important;
+}
