@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 82 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 84 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -255,7 +255,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options (16) : 
+## Library options (17) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -283,6 +283,14 @@ _Default_ :<br>
 
 _Alternative_ :<br>  
 <img src="https://github.com/user-attachments/assets/80867f74-9e2a-4178-8757-965584b95e9b"></p></details>
+
+<details><summary>Animated hovering :</summary><br>  
+
+_no_ :<br>
+<img src="https://github.com/user-attachments/assets/395da311-1976-4864-94db-e0070ed04e6f"></p>
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/249145e9-e686-41c7-a69e-4278c21740f1"></p></details>
 
 <details><summary>Compact collections :</summary><br>  
 
@@ -438,7 +446,7 @@ _yes_ :<br>
 
 <hr>
 
-## Sidebar options (7) : 
+## Sidebar options (8) : 
 
 <details><summary>Alternative hover effect :</summary><br> 
 
@@ -470,6 +478,14 @@ _Dot (square)_ :<br>
 
 _Small dot (square)_ :<br> 
 <img src="https://github.com/user-attachments/assets/d258e195-54a4-44a3-a057-d7ea47ae8b3c"></p></details>
+
+<details><summary>Animated mouseover :</summary><br> 
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/9eae09bb-42a8-4242-b056-cdfce8ec47c0"></p>
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/228e6194-29c6-49fa-a746-188084f3cb70"></p></details>
 
 <details><summary>Bigger font size :</summary><br> 
 
@@ -639,6 +655,9 @@ _Maria_ :<br>
 
 _Sudo Var_ :<br> 
 <img src="https://github.com/user-attachments/assets/f1024d8a-2392-42f6-887e-3707e8dbc1d8"></p>
+
+_Orbitron_ :<br> 
+<img src="https://github.com/user-attachments/assets/21ba6367-b21c-46e6-8624-030c7f09adda"></p>
 
 _JetBrains_ :<br> 
 <img src="https://github.com/user-attachments/assets/f406eff8-12d8-4870-b8db-b3604b8c8411"></p></details>
