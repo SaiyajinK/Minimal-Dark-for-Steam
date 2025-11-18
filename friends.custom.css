@@ -2737,3 +2737,26 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 .friendInviteButtons {
     padding-right: 16px !important;
 }
+
+._1QU3cLCGXCmYTUvjYiqqz6 {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: rgb(18 18 18 / 40%) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+.vquL9mspYzz2tBtxrzqw9.boNOGnexLhWO9Nd0e6-0A {
+    background-color: rgb(18 18 18 / 40%) !important;
+    backdrop-filter: blur(8px) !important;
+    padding-left: 30px;
+}
+
+.vquL9mspYzz2tBtxrzqw9._3O0sMruBIaruOmKJLJre-J.boNOGnexLhWO9Nd0e6-0A {
+    transition: .25s ease-out !important;
+}
+
+.vquL9mspYzz2tBtxrzqw9._3O0sMruBIaruOmKJLJre-J.boNOGnexLhWO9Nd0e6-0A:hover {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+    background: transparent !important;
+}
