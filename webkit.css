@@ -119,7 +119,7 @@ body::-webkit-scrollbar-track {
 
 @media only screen and (min-width:3000px) {
 .responsive_page_content {
-	-webkit-transform:scale(2)!important;
+	-webkit-transform:scale(1)!important;
 	-webkit-transform-origin:50% 00% 0!important;
 }
 
