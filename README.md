@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 84 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 88 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -446,7 +446,7 @@ _yes_ :<br>
 
 <hr>
 
-## Sidebar options (8) : 
+## Sidebar options (11) : 
 
 <details><summary>Alternative hover effect :</summary><br> 
 
@@ -521,6 +521,24 @@ _no_ :<br>
 
 _yes_ :<br> 
 <img src="https://github.com/user-attachments/assets/c8e64082-00b1-4ad3-bb22-4eeedc8ff3a8"></p></details>
+
+<details><summary>Persistent Sidebar :</summary><br> 
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/5c53cc97-c26b-4280-b2c4-5a797bae20c4"></p></details>
+
+<details><summary>Pointer fix :</summary><br> 
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/bcd3ede8-b0d7-465e-8d92-436542e57ed5"></p>
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/9f05b142-d79f-470d-94aa-959ab91f753c"></p></details>
+
+<details><summary>Show sidebar on mouseover :</summary><br> 
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/cd882066-806e-4568-8a82-f64f6aa13b8e"></p></details>
 
 <details><summary>Uninstalled selected games color :</summary><br>  
 
@@ -704,7 +722,7 @@ _yes (fixed)_ :<br>
 
 <hr>
 
-## Webkit options (10) : 
+## Webkit options (11) : 
 
 <details><summary>Alternative UI for new Steam menu :</summary><br>  
 
@@ -762,6 +780,14 @@ _Show_ :<br>
 
 _Hide_ :<br> 
 <img src="https://github.com/user-attachments/assets/e372c7f9-40da-49cf-a2e5-ec801eed9fba"></p></details>
+
+<details><summary>Hide VAC ban information on profiles :</summary><br>  
+
+_Show_ :<br> 
+<img src="https://github.com/user-attachments/assets/f9af8c3c-89fa-4fb3-a13b-1cfbff477311"></p>
+
+_Hide_ :<br> 
+<img src="https://github.com/user-attachments/assets/eb6f7c9f-98d6-4aba-a130-e225e355d6aa"></p></details>
 
 <details><summary>Profiles :</summary><br>  
 
