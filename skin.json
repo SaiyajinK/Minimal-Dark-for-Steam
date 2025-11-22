@@ -759,7 +759,7 @@
 		},
 		
 		"Alternative hover effect :": {
-		"tab": "Sidebar options (8)",
+		"tab": "Sidebar options (11)",
 		"description": "> Set user color gradient to the left on hover. \n\n - Default : Left user color border on mouseover. \n - User color gradient : Left user color border and gradient on mouseover.",
 		"default": "Default",
 		"values": {
@@ -773,7 +773,7 @@
 		},
 		
 		"Alternative ingame friends indicator :": {
-		"tab": "Sidebar options (8)",
+		"tab": "Sidebar options (11)",
 		"description": "> Changes the indicator of ingame friends. \n\n - Minimal Dark default : Vertical bar. \n - Minimal Dark alternative #1 : Alternative vertical bar. \n - Minimal Dark alternative #2 : Horizontal bar. \n - Dot #1 : Rounded dot. \n - Dot #2 : Small rounded dot. \n - Dot #3 : Squared dot. \n - Dot #4 : Small squared dot.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -812,7 +812,7 @@
 		},
 		
 		"Animated mouseover :": {
-		"tab": "Sidebar options (8)",
+		"tab": "Sidebar options (11)",
 		"description": "> Add an animation when hovering over the list of games. \n\n - No : No animation. \n - Yes : Animated.",
 		"default": "yes",
 		"values": {
@@ -826,7 +826,7 @@
 		},
 		
 		"Bigger font size :": {
-		"tab": "Sidebar options (8)",
+		"tab": "Sidebar options (11)",
 		"description": "> Make games names bigger. \n\n - No : Normal font size. \n - Yes : Bigger font size.",
 		"default": "no",
 		"values": {
@@ -840,7 +840,7 @@
 		},
 		
 		"Bolder names :": {
-		"tab": "Sidebar options (8)",
+		"tab": "Sidebar options (11)",
 		"description": "> Make the game names in the sidebar bolder. \n\n - No : Normal font. \n - Yes : Bolder font.",
 		"default": "no",
 		"values": {
@@ -854,7 +854,7 @@
 		},
 		
 		"Installed/selected games color :": {
-		"tab": "Sidebar options (8)",
+		"tab": "Sidebar options (11)",
 		"description": "> Changes the color of installed/selected games. \n\n - Minimal Dark : Beige names / user color selected. \n - Minimal Dark alternative : White names / user color selected. \n - White : White names / white selected.",
 		"default": "Minimal Dark",
 		"values": {
@@ -873,7 +873,7 @@
 		},
 		
 		"No left images :": {
-		"tab": "Sidebar options (8)",
+		"tab": "Sidebar options (11)",
 		"description": "> Hide game images to the left of the names in the left bar. \n\n - No : Show images. \n - Yes : Hide images.",
 		"default": "no",
 		"values": {
@@ -886,8 +886,50 @@
 			}
 		},
 		
+		"Persistent Sidebar :": {
+		"tab": "Sidebar options (11)",
+		"description": "> Enabling this option displays the sidebar where it is not usually displayed (webkit, community, profil). \n\n - No : Hide sidebar on webkit, community and profil. \n - Yes : Show sidebar on webkit, community and profil.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/persistent_sidebar.css"
+					}
+				}
+			}
+		},
+		
+		"Pointer fix :": {
+		"tab": "Sidebar options (11)",
+		"description": "> Fix cursor for sidebar resize when the Persistent Sidebar option is disabled only. \n\n - No : Leave this option disabled if you are using the persistent sidebar. \n - Yes : Enable this option if you do not use the persistent sidebar.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/pointer_fix.css"
+					}
+				}
+			}
+		},
+		
+		"Show sidebar on mouseover :": {
+		"tab": "Sidebar options (11)",
+		"description": "> Displays the sidebar when the mouse hovers over it. \n\n - Default : Default display for sidebar. \n - On mouseover : Displays the sidebar when the mouse hovers over it. \n\n Note : The advanced filters and the filter buttons are not working.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"On mouseover": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/show_sidebar_mouseover.css"
+					}
+				}
+			}
+		},
+		
 		"Uninstalled selected games color :": {
-		"tab": "Sidebar options (8)",
+		"tab": "Sidebar options (11)",
 		"description": "> Changes the color of selected uninstalled games. \n\n - Minimal Dark : Red color. \n - White : White color. \n - User : User color.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1244,7 +1286,7 @@
 		},
 		
 		"Alternative UI for new Steam menu :": {
-		"tab": "Webkit options (10)",
+		"tab": "Webkit options (11)",
 		"description": "> The new Steam store menu has arrived, enabling this option will offer an alternative UI. \n\n - Minimal new UI : Minimal new Steam menu without modifications. \n - Minimal new UI (buttons) : Minimal new UI (buttons). \n - Compact : Minimal new Steam menu compact. \n - Ultra compact : Minimal new Steam menu ultra compact (just an icon & default size). \n - Ultra compact #1 : Minimal new Steam menu ultra compact (just an icon & compact size).",
 		"default": "Minimal new UI (compact)",
 		"values": {
@@ -1278,7 +1320,7 @@
 		},
 		
 		"Blocs backgrounds :": {
-		"tab": "Webkit options (10)",
+		"tab": "Webkit options (11)",
 		"description": "> This option changes the background shots of news or game update blocks to blurry or not. \n\n - Full dark : Full background, without transparency. \n - Blurred : The backgrounds are blurred.",
 		"default": "Blurred",
 		"values": {
@@ -1292,7 +1334,7 @@
 		},		
 
 		"Compact Webkit :": {
-		"tab": "Webkit options (10)",
+		"tab": "Webkit options (11)",
 		"description": "> Hide the left sidebar on the webkit homepage. \n\n - Hide : Hide left sidebar on homepage. \n - Show : Show left sidebar webkit.",
 		"default": "Hide",
 		"values": {
@@ -1306,7 +1348,7 @@
 		},
 		
 		"Events header :": {
-		"tab": "Webkit options (10)",
+		"tab": "Webkit options (11)",
 		"description": "> Show or remove the events wallpaper on the webkit homepage. \n\n - Minimal Dark : Event wallpaper are displayed. \n - Hide : Events header are hidden.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -1320,7 +1362,7 @@
 		},
 		
 		"Hide '+ Add a Showcase' :": {
-		"tab": "Webkit options (10)",
+		"tab": "Webkit options (11)",
 		"description": "> Hide '+ Add a Showcase' on your Steam profile. \n\n - No : Show '+ Add a showcase' on your Steam profile. \n - Yes : Hide '+ Add a showcase' on your Steam profile. \n\n > If you enable this option, you will no longer be able to add a new showcase to your Steam profile (unless you disable the option).",
 		"default": "no",
 		"values": {
@@ -1334,7 +1376,7 @@
 		},
 		
 		"Hide footers :": {
-		"tab": "Webkit options (10)",
+		"tab": "Webkit options (11)",
 		"description": "> Hide Steam information on webkit footers. \n\n - Hide : Hide legal informations at the bottom page of browser. \n - Show : Show legal informations at the bottom page of browser.",
 		"default": "Hide",
 		"values": {
@@ -1347,8 +1389,22 @@
 			}
 		},
 		
+		"Hide VAC ban information on profiles :": {
+		"tab": "Webkit options (11)",
+		"description": "> Hide VAC ban information on users profiles. \n\n - Yes : Hide VAC ban information on profiles. \n - No : Show VAC ban information on profiles.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/vac_information.css"
+					}
+				}
+			}
+		},
+		
 		"Profiles :": {
-		"tab": "Webkit options (10)",
+		"tab": "Webkit options (11)",
 		"description": "> Enabling this option makes the profile page blocks full and removes the blur effect. \n\n - Minimal Dark : Blurred blocs. \n - No blur blocs : Solid black color blocs.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1362,7 +1418,7 @@
 		},
 		
 		"Profiles headers :": {
-		"tab": "Webkit options (10)",
+		"tab": "Webkit options (11)",
 		"description": "> If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view).",
 		"default": "no",
 		"values": {
@@ -1376,7 +1432,7 @@
 		},
 		
 		"URL bar :": {
-		"tab": "Webkit options (10)",
+		"tab": "Webkit options (11)",
 		"description": "> This option allows you to permanently hide the URL bar or display it only on hover. \n\n - Visible : Steam default. \n - Hide : Hide the url bar. \n - Only show on hover : Show the url bar only on mouseover.",
 		"default": "Visible",
 		"values": {
@@ -1395,7 +1451,7 @@
 		},
 		
 		"Wishlist new Steam menu :": {
-		"tab": "Webkit options (10)",
+		"tab": "Webkit options (11)",
 		"description": "> The new Steam webkit menu is hidden by default on the wishlist. Enable this option to show it again. \n\n - Hide default menu : Hide menu in wishlist. \n - Revisited menu : Shows only the search and cart/wishlist buttons.",
 		"default": "Compact revisited menu",
 		"values": {
@@ -1424,7 +1480,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.6.6",
+	"version": "4.7.0",
 
 	"github": {
 		"owner": "SaiyajinK",
@@ -1450,4 +1506,3 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
-
