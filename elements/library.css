@@ -193,7 +193,6 @@
     width: 1px;
     background-color: var(--minimal_dark_be_grey);
     min-width: 1px;
-	cursor: e-resize !important;
 }
 
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) .SVGIcon_Play {
@@ -887,12 +886,12 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
 }
 
 ._2ZP8eOoQ1-pME4-pF91qSt ._276E6ijBpjMA2_iTxNhhjc {
-    background-color: var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_color);
 }
 
 ._9sPoVBFyE_vE87mnZJ5aB {
-    min-width: 278px !important;
-    max-width: 308px !important;
+    min-width: 278px;
+    max-width: 308px;
 }
 
 .DesktopUI .DialogToggle_Label:hover {
