@@ -1,5 +1,5 @@
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
-    padding: 0px 14px 2px 14px !important;
+    padding: 0px 14px 2px 14px;
     background: var(--minimal_dark_blacker_alt) !important;
     box-shadow: none !important;
     border-top: none;
@@ -31,7 +31,7 @@
 }
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover {
     background: #1a1a1a !important;
-    margin-top: 2px !important;
+    margin-top: 2px;
 	border: 1px solid var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
 	color: var(--minimal_dark_color) !important;
