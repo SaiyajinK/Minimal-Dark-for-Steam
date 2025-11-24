@@ -1,0 +1,39 @@
+.DesktopUI .title-area-icon-inner, .friendsui-container .title-area-icon-inner {
+    display: none !important;
+}
+
+.DesktopUI .title-area-icon.closeButton {
+    display: none !important;
+}
+
+.DesktopUI .title-area-icon.maximizeButton {
+    display: none !important;
+}
+
+.DesktopUI .title-area-icon.minimizeButton {
+    display: none !important;
+}
+
+._3vCzSrrXZzZjVJFZNg9SGu {
+    margin-right: 3px !important;
+}
+
+.ip-YZhijAMZcuRoXBGiye, .ip-YZhijAMZcuRoXBGiye:hover, .ip-YZhijAMZcuRoXBGiye:active {
+    border-top-right-radius: 7px !important;
+}
+
+.ip-YZhijAMZcuRoXBGiye:hover {
+    border-right: 1px solid var(--minimal_dark_color) !important;
+}
+
+._3cykd-VfN_xBxf3Qxriccm {
+    margin-right: -60px !important;
+}
+
+.DesktopUI .TitleBar.title-area.WindowFocus {
+    display: none !important;
+}
+
+.friendsui-container .title-area-icon {
+    display: none !important;
+}
