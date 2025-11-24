@@ -2505,8 +2505,8 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 }
 
 .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.online.awayOrSnooze .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-    transform: scale(.92) translate(-1px, 2px) !important;
-	transition: .25s ease-out !important;
+    transform: scale(1) translate(0px, 0px) !important;
+    transition: .25s ease-out !important;
 }
 
 .friend.online.friendStatusHover.Panel.Focusable .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
