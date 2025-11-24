@@ -1124,7 +1124,7 @@
 		},
 		
 		"Alternative root menu icon :": {
-		"tab": "Various options (8)",
+		"tab": "Various options (9)",
 		"description": "> Change the root menu icon with a alternative icon. \n\n - Minimal Dark : Half Steam logo. \n - Minimal Dark #1 : Full Steam logo. \n - Minimal Dark #2 : Rounded Steam logo (fill). \n - Minimal Dark #3 : Rounded Steam logo (oultine). \n - Minimal Dark #4 : Squared Steam logo (fill). \n - Minimal Dark #5 : Squared Steam logo (oultine).",
 		"default": "Minimal Dark",
 		"values": {
@@ -1158,7 +1158,7 @@
 		},
 
 		"Animated menu hovering :": {
-		"tab": "Various options (8)",
+		"tab": "Various options (9)",
 		"description": "> Enable this option if you want to have an animation on menus hover. \n\n - No : Static menus mouseover. \n - Yes : Animated menus mouseover.",
 		"default": "yes",
 		"values": {
@@ -1172,7 +1172,7 @@
 		},
 		
 		"Change UI font :": {
-		"tab": "Various options (8)",
+		"tab": "Various options (9)",
 		"description": "> Change the font of the interface. \n\n - Known bugs with topbar option 'Root menu Steam text' is disabled.",
 		"default": "Default",
 		"values": {
@@ -1216,7 +1216,7 @@
 		},
 		
 		"Context menus hover effect :": {
-		"tab": "Various options (8)",
+		"tab": "Various options (9)",
 		"description": "> Added a border to the left of the block with the user-defined color on the context menus when hover. \n\n - No hover effect : Static mouseover. \n - With hover effect : Animated mouseover.",
 		"default": "With hover effect",
 		"values": {
@@ -1230,7 +1230,7 @@
 		},
 		
 		"Default pointers :": {
-		"tab": "Various options (8)",
+		"tab": "Various options (9)",
 		"description": "> Display or hide pointers by default on the entire skin. \n\n - Steam : Steam default pointers. \n - Minimal Dark : Same cursor on the entire skin.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1244,7 +1244,7 @@
 		},
 
 		"Hide scrollbars :": {
-		"tab": "Various options (8)",
+		"tab": "Various options (9)",
 		"description": "> Hide or show scrollbars. \n\n - Hide : Hide all scrollbars on the entirety of the skin. \n - Show : Show all scrollbars on the entirety of the skin.",
 		"default": "Show",
 		"values": {
@@ -1256,9 +1256,9 @@
 				}
 			}
 		},
-
+		
 		"Mouseover animation of settings menu tabs :": {
-		"tab": "Various options (8)",
+		"tab": "Various options (9)",
 		"description": "> Enable or disable the category hover effect in settings section. \n\n - Animated : Mouseover are animated. \n - Static : Mousesover are static.",
 		"default": "Animated",
 		"values": {
@@ -1271,8 +1271,22 @@
 			}
 		},
 		
+		"No titlebar (Linux) :": {
+		"tab": "Various options (9)",
+		"description": "> Enable this option if you are using a tiled window manager in Linux and only use keyboard shortcuts to manage windows. \n\n - No : For Windows users. \n - Yes : If you are using a tiled window manager in Linux. \n\n Note : Leave this option disabled if you are on Windows.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/linux_no_titlebar.css"
+					}
+				}
+			}
+		},
+		
 		"Windows 10 fix for root menu corner :": {
-		"tab": "Various options (8)",
+		"tab": "Various options (9)",
 		"description": "> Fix the top left corner for Windows 10 users.",
 		"default": "no",
 		"values": {
@@ -1480,7 +1494,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.7.0",
+	"version": "4.7.1",
 
 	"github": {
 		"owner": "SaiyajinK",
