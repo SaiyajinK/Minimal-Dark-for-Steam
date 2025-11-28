@@ -69,3 +69,13 @@
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_color1) !important;
 }
+
+a.store_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked:hover {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_color1) !important;
+}
+
+.big_button:hover {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_color1) !important;
+}
