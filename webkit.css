@@ -1130,13 +1130,15 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
     background: var(--minimal_dark_blacker)!important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
 }
 
 .big_button:hover {
     background: var(--minimal_dark_black) !important;
     border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_color1) !important;
+    border: 1px solid var(--minimal_dark_color1);
     color: var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
 }
 
 .carousel_items.curator_featured_tags {
@@ -8066,7 +8068,7 @@ div.rightcol {
 }
 
 a.store_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked:hover {
-    border-bottom: 1px solid var(--minimal_dark_color1) !important;
+    border: 1px solid var(--minimal_dark_color1);
     transition: .25s ease-out !important;
 }
 
