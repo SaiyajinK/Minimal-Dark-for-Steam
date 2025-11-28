@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 89 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 90 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -117,7 +117,12 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (9) : 
+## Gamepage options (10) :
+
+<details><summary>Alternative view for scrolling bloc :</summary><br>  
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/3e520616-6fac-4b22-88d9-ab45932a261b"></p></details>
 
 <details><summary>Bigger gamepage/library buttons :</summary><br>  
 
