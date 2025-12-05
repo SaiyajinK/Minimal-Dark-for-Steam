@@ -902,7 +902,7 @@
 		
 		"Persistent Sidebar :": {
 		"tab": "Sidebar options (11)",
-		"description": "> Enabling this option displays the sidebar where it is not usually displayed (webkit, community, profil). \n\n - No : Hide sidebar on webkit, community and profil. \n - Yes : Show sidebar on webkit, community and profil.",
+		"description": "> Enabling this option displays the sidebar where it is not usually displayed (webkit, community, profil). \n\n - No : Hide sidebar on webkit, community and profil. \n - Yes : Show sidebar on webkit, community and profil. \n\n Known bug : the main filter is not accessible on the webkit.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -1508,7 +1508,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.7.2",
+	"version": "4.7.4",
 
 	"github": {
 		"owner": "SaiyajinK",
