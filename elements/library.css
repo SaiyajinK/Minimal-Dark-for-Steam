@@ -1454,7 +1454,7 @@ button._1iFnR7cGRa1kepep433pGx.h782PaUbu8xm3afLFh83E:hover svg path {
 }
 
 :focus~._3dncOt2dhpnFYQn-WYQ3Mb._1WWmQqppYq8c44A7nTMKUq {
-    transform: scale(0.9) translate(9px, 10px) !important;
+    transform: scale(0.9) translate(9px, 10px);
     transition: .25s ease-out !important;
     margin-right: 12px;
     margin-bottom: 10px;
@@ -1648,4 +1648,23 @@ svg._1dzQL1mVR8GTmmSi_kpDgr path {
 
 ._3_0Qbu8IAsqsv_6W5AxRhe {
     padding-top: 2px !important;
+}
+
+._3Sb2o_mQ30IDRh0C72QUUu ._2Z9gJ6Pd7eZn-kfODcXJuR .V7RuDNUxhxoBRaiGWbk3B .WYgDg9NyCcMIVuMyZ_NBC._3VOR2AeYATx3qSE0I-Pm-5.biTV-8rS2M65imVHU15Nv.xp7A-08Y404Of3FBHqX32.Panel ._3bkuozxKIatrWG3aeisthc {
+    transform: translate(-2px, 1px) !important;
+}
+
+._2tC_c87MH67xQM7Y0pVyXm.Focusable .V7RuDNUxhxoBRaiGWbk3B ._3CJctA7pLVdwHzNF5JmORE._1urF0O1V4DZOkjI28mDvRK.b3wFR-A7udxD-EIp_rbqC .WYgDg9NyCcMIVuMyZ_NBC._3VOR2AeYATx3qSE0I-Pm-5.L3xTnr5TfAJU1EhvCDaWm.xp7A-08Y404Of3FBHqX32.Panel ._3gwMkKp82bb5aZj4EeQnpi {
+    transform: translate(-2px, 1px) !important;
+}
+
+.WYgDg9NyCcMIVuMyZ_NBC ._8YrRmy_c6O0FCxFT8gjqo {
+	background-color: var(--minimal_dark_invisiblegrey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid transparent !important;
+    backdrop-filter: blur(8px) !important;
+    /* bottom: 30px !important; */
+    width: 18px !important;
+    height: 18px !important;
+    opacity: 1 !important;
 }
