@@ -19,3 +19,9 @@
     top: -13px !important;
     left: -10px !important;
 }
+
+:focus~._3dncOt2dhpnFYQn-WYQ3Mb._1WWmQqppYq8c44A7nTMKUq {
+    transform: translate(9px, 17px) !important;
+    margin-right: 8px !important;
+    margin-bottom: 0px !important;
+}
