@@ -7734,7 +7734,13 @@ div.ModalPosition_TopBar {
 }
 
 .content_hub_capsule_ctn .gradient {
-    border-radius: var(--minimal_dark_corner) !important;
+	background: linear-gradient(transparent, var(--minimal_dark_color1)) !important;
+	border-radius: var(--minimal_dark_corner) !important;
+	opacity: .5 !important;
+}
+
+.content_hub_capsule_ctn:hover .gradient {
+	opacity: .25 !important;
 }
 
 .content_hub_capsule_ctn:hover {
@@ -11213,12 +11219,12 @@ html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yL
 
 .content_hub_capsule_ctn .label {
     font-size: 14px !important;
-    color: var(--minimal_dark_color1) !important;
-    background: #121212b5 !important;
+    color: white !important;
+    background: transparent !important;
     padding: 5px 8px !important;
     border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_color1) !important;
-    backdrop-filter: blur(10px) !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+    backdrop-filter: blur(8px) !important;
 }
 
 ._2ESKkqmk68QMRArbxaUwm0 ._2cY4Vl4F1_9jlRxk7Su9uw {
