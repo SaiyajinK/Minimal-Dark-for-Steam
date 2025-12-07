@@ -1,0 +1,9 @@
+.DesktopUI .window_resize_grip {
+  opacity: 1 !important;
+	transform: scale(.75) !important;
+}
+
+html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup.core body.fullheight .chat_main.fullheight.responsive_friends .chat_main_flex.displayRow.Panel.Focusable .window_resize_grip {
+  opacity: .3 !important;
+	transform: scale(.75) !important;
+}
