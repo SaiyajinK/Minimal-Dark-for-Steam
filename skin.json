@@ -320,7 +320,7 @@
 		},
 		
 		"Alternative topbar color :": {
-		"tab": "Global options (7)",
+		"tab": "Global options (8)",
 		"description": "> Modify the color of the topbar. \n\n - Dark : Full dark topbar \n - Grey : Full grey topbar \n - Grey/dark : Grey topbar and dark buttons.",
 		"default": "Grey/dark",
 		"values": {
@@ -339,7 +339,7 @@
 		},		
 		
 		"Avatar frame :": {
-		"tab": "Global options (7)",
+		"tab": "Global options (8)",
 		"description": "> Hide or show avatar frame on all avatars. \n\n - Hide : Hide avatar frame on the entire skin. \n - Show : Show avatar frame on the entire skin.",
 		"default": "Hide",
 		"values": {
@@ -357,7 +357,7 @@
 		},
 		
 		"Corners radius :": {
-		"tab": "Global options (7)",
+		"tab": "Global options (8)",
 		"description": "> Sets the strength of corner rounding. \n\n - Square : 0px. \n - Rounded : 5px. \n - More rounded : 10px.",
 		"default": "Square",
 		"values": {
@@ -376,7 +376,7 @@
 		},
 		
 		"Hover borders on library and webkit blocks :": {
-		"tab": "Global options (7)",
+		"tab": "Global options (8)",
 		"description": "> Make the hover borders of library/webkit items full and no longer just on the bottom. \n\n - Full borders : Applies the user's color to all borders on mouseover. \n - Bottom only : Applies the user's color only to the bottom border on mouseover.",
 		"default": "Full borders",
 		"values": {
@@ -393,8 +393,37 @@
 			}
 		},
 		
+		"Resize grip (Steam windows) :": {
+		"tab": "Global options (8)",
+		"description": "> Show or hide the resizing grip display. \n\n - Default : Default Steam grip. \n - Default (smaller) : Smaller default Steam grip. \n - Alternative UI : Alternative UI for the resize grip. \n - Alternative UI (smaller) : Smaller alternative UI for the resize grip. \n - Hide : Hide the resize grip. \n\n NOTE : If you select 'Hide', you will need to disable the friends option 'Hide footer (fix)'",
+		"default": "Alternative UI (smaller)",
+		"values": {
+			"Default": {},
+			"Default (smaller)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/resize_grip/smaller_resize_grip.css"
+					}
+				},
+			"Alternative UI": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/resize_grip/alt_resize_grip.css"
+					}
+				},
+			"Alternative UI (smaller)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/resize_grip/alt_smaller_resize_grip.css"
+					}
+				},
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/resize_grip/hide_resize_grip.css"
+					}
+				}
+			}
+		},
+		
 		"Steam news button :": {
-		"tab": "Global options (7)",
+		"tab": "Global options (8)",
 		"description": "> Hide or show Steam news button in top bar. \n\n - Hide : Hide topbar Steam news button. \n - Show : Show topbar Steam news button.",
 		"default": "Hide",
 		"values": {
@@ -408,7 +437,7 @@
 		},
 		
 		"Title area buttons :": {
-		"tab": "Global options (7)",
+		"tab": "Global options (8)",
 		"description": "> Make the title bar buttons bigger (close/maximize/minimize buttons). \n\n - Small : Small titlebar buttons. \n - Enlarged (w11 users) : Enlarged buttons for Windows 11 users. \n - Enlarged (w10 users) : Enlarged buttons for Windows 10 users.",
 		"default": "Enlarged (w11 users)",
 		"values": {
@@ -427,7 +456,7 @@
 		},
 		
 		"Vanilla topbar style :": {
-		"tab": "Global options (7)",
+		"tab": "Global options (8)",
 		"description": "> Set the topbar in the vanilla style of steam skin. \n\n - Minimal Dark : Topbar buttons are on the same line. \n - Vanilla topbar : Set Topbar as on vanilla skin, buttons are on two lines.",
 		"default": "Minimal Dark",
 		"values": {
@@ -582,8 +611,8 @@
 		
 		"Compact news container :": {
 		"tab": "Library options (17)",
-		"description": "> Make the news container compact. \n\n - Steam default : Vanilla Steam size. \n - Compact #1 : Small size with small fonts. \n - Compact #2 : Small size with normal font.",
-		"default": "Compact #2",
+		"description": "> Make the news container compact. \n\n - Steam default : Vanilla Steam size. \n - Compact #1 : Small size with small fonts. \n - Compact #2 : Small size with normal font. \n - Ultra compact : Displays only the text of the news, also allows more news to be displayed. \n - Ultra compact (center content) : Same as ultra compact, but with centered elements.",
+		"default": "Ultra compact",
 		"values": {
 			"Steam default": {},
 			"Compact #1": {
@@ -594,6 +623,16 @@
 			"Compact #2": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/library_options/compact_news.css"
+					}
+				},
+			"Ultra compact": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/library_options/ultra_compact_news.css"
+					}
+				},
+			"Ultra compact (center content)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/library_options/ultra_compact_news_center.css"
 					}
 				}
 			}
@@ -1508,7 +1547,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.7.4",
+	"version": "4.7.6",
 
 	"github": {
 		"owner": "SaiyajinK",
