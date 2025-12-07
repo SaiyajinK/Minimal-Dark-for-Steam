@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 90 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 91 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -196,7 +196,7 @@ _yes_ :<br>
 
 <hr>
 
-## Global options (7) : 
+## Global options (8) : 
 
 <details><summary>Alternative topbar color :</summary><br>  
 
@@ -235,6 +235,23 @@ _Full borders_ :<br>
 
 _Bottom only_ :<br> 
 <img src="https://github.com/user-attachments/assets/1021ecac-9b0f-4df4-998d-5fd7dc3eacba"></p></details>
+
+<details><summary>Resize grip (Steam windows) :</summary><br>  
+
+_Default_ :<br>
+<img src="https://github.com/user-attachments/assets/22c1135d-c9c6-4795-a6f8-d0400f44a3cd"></p>
+
+_Default (smaller)_ :<br>
+<img src="https://github.com/user-attachments/assets/48591e90-00ab-43d1-9617-ed57f536da24"></p>
+
+_Alternative UI_ :<br>
+<img src="https://github.com/user-attachments/assets/f7e24e88-ca3a-4967-83b5-9c05f2fe889e"></p>
+
+_Alternative UI (smaller)_ :<br>
+<img src="https://github.com/user-attachments/assets/78bc2630-f70a-448c-a12c-30beae74b378"></p>
+
+_Hide_ :<br>
+<img src="https://github.com/user-attachments/assets/aa1c0277-e143-4533-93fd-ed51b258881a"></p></details>
 
 <details><summary>Steam news button :</summary><br> 
 
@@ -345,11 +362,17 @@ _Ultra compact (filter & search)_ :<br>
 _Steam default_ :<br> 
 <img src="https://github.com/user-attachments/assets/adb094c3-5342-433d-bca0-9b36573aaa69"></p>
 
+_Compact (normal font)_ :<br> 
+<img src="https://github.com/user-attachments/assets/bb010af6-c1ca-4076-85ce-052064093fad">
+
 _Compact (small font)_ :<br> 
 <img src="https://github.com/user-attachments/assets/db22570e-a6c3-48d8-8e8c-9f2e3b9150ad"></p>
 
-_Compact (normal font)_ :<br> 
-<img src="https://github.com/user-attachments/assets/bb010af6-c1ca-4076-85ce-052064093fad"></p></details>
+_Ultra compact_ :<br> 
+<img src="https://github.com/user-attachments/assets/5510932a-cb1b-49f8-835a-70a88e75a489"></p>
+
+_Compact (centered content)_ :<br> 
+<img src="https://github.com/user-attachments/assets/2c845e38-b811-4808-b02f-569c1372f138"></p></p></details>
 
 <details><summary>Hide shelf :</summary><br>  
 
