@@ -1,0 +1,3 @@
+.DesktopUI .window_resize_grip, html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup.core body.fullheight .chat_main.fullheight.responsive_friends .chat_main_flex.displayRow.Panel.Focusable .window_resize_grip {
+	visibility: hidden !important;
+}
