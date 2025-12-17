@@ -77,9 +77,16 @@
 	transition:top .3s ease-in-out;
 }
 
-._1OOQPJx0nCNP9ME9toCmV7:hover {
-}
+/* ._1OOQPJx0nCNP9ME9toCmV7:hover { */
+/* } */
 
-._1OOQPJx0nCNP9ME9toCmV7:hover::before {
-	opacity:.5;
+/* ._1OOQPJx0nCNP9ME9toCmV7:hover::before { */
+	/* opacity:.5; */
+/* } */
+
+._3-H47wPl1Ng3lh7xGZOPIg:hover, ._3V6804k2yutEiF6IWg8axH:hover {
+    background-color: transparent;
+    transition: background-color 150ms ease-in;
+	opacity: 1;
+	color: var(--minimal_dark_color);
 }
