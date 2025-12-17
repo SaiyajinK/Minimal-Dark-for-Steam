@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 91 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 94 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -117,7 +117,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (10) :
+## Gamepage options (11) :
 
 <details><summary>Alternative view for scrolling bloc :</summary><br>  
 
@@ -129,6 +129,14 @@ _yes_ :<br>
 _yes_ :<br>  
 <img src="https://github.com/user-attachments/assets/2cf350dc-b40f-4061-98b9-aea852eefacd"></p>
 <img src="https://github.com/user-attachments/assets/ae20f12e-e8cb-4162-89ed-db17c0d4cf40"></p></details>
+
+<details><summary>Bigger header :</summary><br>  
+
+_Default_ :<br>  
+<img src="https://github.com/user-attachments/assets/4267aaa1-04a9-4c16-96e0-9d0a1cb43653"></p>
+
+_Full image_ :<br>  
+<img src="https://github.com/user-attachments/assets/b26b571a-c58f-4952-a932-bbfce42caa34"></p></details>
 
 <details><summary>Blurred background :</summary><br>  
 
@@ -196,7 +204,7 @@ _yes_ :<br>
 
 <hr>
 
-## Global options (8) : 
+## Global options (9) : 
 
 <details><summary>Alternative topbar color :</summary><br>  
 
@@ -252,6 +260,11 @@ _Alternative UI (smaller)_ :<br>
 
 _Hide_ :<br>
 <img src="https://github.com/user-attachments/assets/aa1c0277-e143-4533-93fd-ed51b258881a"></p></details>
+
+<details><summary>Steam bigpicture button :</summary><br> 
+
+_Show_ :<br>
+<img src="https://github.com/user-attachments/assets/d2468472-fdfd-40a6-8913-144303afc107"></p></details>
 
 <details><summary>Steam news button :</summary><br> 
 
@@ -657,8 +670,7 @@ _yes_ :<br>
 
 <hr>
 
-## Various options (9) : 
-
+## Various options (10) : 
 
 <details><summary>Alternative root menu icon :</summary><br>  
 
@@ -744,6 +756,11 @@ _Static_ :<br>
 
 _yes_ :<br> 
 <img src="https://github.com/user-attachments/assets/02d66245-6dbc-4353-97fd-8d78f4638d66"></p></details>
+
+<details><summary>Pure black color (OLED) :</summary><br>  
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/a6a8dadc-98e9-409d-b303-691d87c94ca1"></p></details>
 
 <details><summary>Windows 10 fix for root menu corner :</summary><br>  
 
@@ -863,7 +880,7 @@ How to access to skin settings ? <br><br>
 ▪ `Steam menu` ➡️ `Millennium` ➡️ `Themes` ➡️ `Minimal Dark 3 horizontal dots (…)` ➡️ `Configure` .
 
 ### 📸 <ins>Screenchots</ins> : <br>
-<img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/341c9b74-a2f7-4585-b5b2-66a8157c09ba" />
+<img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/bbdbbeb3-ccde-44f0-bc36-76ca5336292e" />
 
 <hr>
 
