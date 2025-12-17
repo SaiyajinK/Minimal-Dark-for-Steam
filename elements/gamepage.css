@@ -1721,3 +1721,32 @@ button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
     border: 1px solid var(--minimal_dark_color) !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
+
+._3STfNQAZpe1U2ToD52S4dU {
+    border-radius: var(--minimal_dark_corner) !important;
+	box-shadow: none !important;
+}
+
+._1t7927CfvHZSxoXBLDiDaR {
+    background: rgb(18 18 18 / 40%) !important;
+	backdrop-filter: blur(8px) !important;
+    border-radius: var(--minimal_dark_corner) 0px 0px var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	border-right: none !important;
+	box-shadow: none !important;
+    text-shadow: none !important;
+	opacity: 1 !important;
+}
+
+.lKkF8MY2dBQlRkaHwjbqW {
+	height: 28px !important;
+    width: 28px !important;
+    background-color: rgb(18 18 18 / 40%) !important;
+	backdrop-filter: blur(8px) !important;
+    border-radius: 0px var(--minimal_dark_corner) var(--minimal_dark_corner) 0px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._2tCNvxerDW3kH9lXAFl0NK {
+    color: var(--minimal_dark_color) !important;
+}
