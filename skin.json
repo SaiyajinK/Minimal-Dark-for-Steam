@@ -170,7 +170,7 @@
 		},
 		
 		"Alternative view for scrolling bloc :": {
-		"tab": "Gamepage options (10)",
+		"tab": "Gamepage options (11)",
 		"description": "> Change the appearance and display of the top game panel when scrolling the game page. \n\n - No : Default bloc. \n - Yes : Alternative view.",
 		"default": "no",
 		"values": {
@@ -184,7 +184,7 @@
 		},
 
 		"Bigger gamepage/library buttons :": {
-		"tab": "Gamepage options (10)",
+		"tab": "Gamepage options (11)",
 		"description": "> Enlarge the play/download buttons on the library and gamepage. \n\n - No : Minimal default size buttons (medium). \n - Yes : Bigger size buttons (large).",
 		"default": "no",
 		"values": {
@@ -197,8 +197,22 @@
 			}
 		},
 		
+		"Bigger header :": {
+		"tab": "Gamepage options (11)",
+		"description": "> Enabling this option makes the image at the top of the game page larger (total image size) \n\n - Default : Default size. \n - Full image : Bigger size.",
+		"default": "Full image",
+		"values": {
+			"Default": {},
+			"Full image": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header.css"
+					}
+				}
+			}
+		},
+		
 		"Blurred background :": {
-		"tab": "Gamepage options (10)",
+		"tab": "Gamepage options (11)",
 		"description": "> Blur the background of the game page. \n\n - Full Dark : Applies dark color (#121212) to the entire page of a game. \n - Blurred : The top of the page will be blurred.",
 		"default": "Blurred",
 		"values": {
@@ -212,7 +226,7 @@
 		},
 		
 		"Community content :": {
-		"tab": "Gamepage options (10)",
+		"tab": "Gamepage options (11)",
 		"description": "> Hide or show the community content in gamepage. \n\n - Hide : Hide community content in gamepage (better performance if you have a bad pc). \n - Show : Show community content in gamepage.",
 		"default": "Show",
 		"values": {
@@ -226,7 +240,7 @@
 		},
 				
 		"Gamepage/library buttons svg color (Play/Install) :": {
-		"tab": "Gamepage options (10)",
+		"tab": "Gamepage options (11)",
 		"description": "> Set the svg color of the library buttons. \n\n - White : Applies white color on play/install buttons. \n - Same as the outline : The color will be the same as the outline of the button.",
 		"default": "White",
 		"values": {
@@ -240,7 +254,7 @@
 		},
 		
 		"Header (compact mod) :": {
-		"tab": "Gamepage options (10)",
+		"tab": "Gamepage options (11)",
 		"description": "> Hide or show the header image at the top of the game page to save more space. \n\n - Show : Show the header image at the top of the game page. \n - Hide : Hide the header image at the top of the game page to save more space. \n",
 		"default": "Show",
 		"values": {
@@ -254,7 +268,7 @@
 		},
 		
 		"Header size adjustment :": {
-		"tab": "Gamepage options (10)",
+		"tab": "Gamepage options (11)",
 		"description": "> Enabling this option will make the game page headers stretched. \n\n - No : Vanilla size, no image modifications. \n - Yes : The image fills the entire header block. \n",
 		"default": "Yes",
 		"values": {
@@ -268,7 +282,7 @@
 		},
 		
 		"Hide 'post-party summary' / 'WYRTG ?' :": {
-		"tab": "Gamepage options (10)",
+		"tab": "Gamepage options (11)",
 		"description": "> Hide or show 'post-party summary' or 'Would you recommend this game ?' in game gampeage. \n\n - Show all : Show all elements. \n - Hide all : Hide all elements. \n - Show summary only : Show only 'post-party summary', 'Would you recommend this game ?' is not displayed. \n - Show 'Would you recommend this game ?' only : Show only 'Would you recommend this game ?', 'post-party summary' is not displayed.",
 		"default": "Show all",
 		"values": {
@@ -292,7 +306,7 @@
 		},
 		
 		"Inverted gamepage (known bugs) :": {
-		"tab": "Gamepage options (10)",
+		"tab": "Gamepage options (11)",
 		"description": "> Invert gamepage blocks (community content option set to 'Show' not work with this option). \n\n - Default : The layout is the same as the default steam skin. \n - Inverted : The layout is reversed from the vanilla Steam skin (bugs may appear with this option selected).",
 		"default": "Default",
 		"values": {
@@ -306,7 +320,7 @@
 		},
 		
 		"Text on play/download button :": {
-		"tab": "Gamepage options (10)",
+		"tab": "Gamepage options (11)",
 		"description": "> Show or hide the text of the play/download buttons. \n\n - No : No text will be displayed, only the button icon will be present. \n - Yes : Text will be displayed next to the icon (play, stop, download).",
 		"default": "no",
 		"values": {
@@ -320,7 +334,7 @@
 		},
 		
 		"Alternative topbar color :": {
-		"tab": "Global options (8)",
+		"tab": "Global options (9)",
 		"description": "> Modify the color of the topbar. \n\n - Dark : Full dark topbar \n - Grey : Full grey topbar \n - Grey/dark : Grey topbar and dark buttons.",
 		"default": "Grey/dark",
 		"values": {
@@ -339,7 +353,7 @@
 		},		
 		
 		"Avatar frame :": {
-		"tab": "Global options (8)",
+		"tab": "Global options (9)",
 		"description": "> Hide or show avatar frame on all avatars. \n\n - Hide : Hide avatar frame on the entire skin. \n - Show : Show avatar frame on the entire skin.",
 		"default": "Hide",
 		"values": {
@@ -357,7 +371,7 @@
 		},
 		
 		"Corners radius :": {
-		"tab": "Global options (8)",
+		"tab": "Global options (9)",
 		"description": "> Sets the strength of corner rounding. \n\n - Square : 0px. \n - Rounded : 5px. \n - More rounded : 10px.",
 		"default": "Square",
 		"values": {
@@ -376,7 +390,7 @@
 		},
 		
 		"Hover borders on library and webkit blocks :": {
-		"tab": "Global options (8)",
+		"tab": "Global options (9)",
 		"description": "> Make the hover borders of library/webkit items full and no longer just on the bottom. \n\n - Full borders : Applies the user's color to all borders on mouseover. \n - Bottom only : Applies the user's color only to the bottom border on mouseover.",
 		"default": "Full borders",
 		"values": {
@@ -394,7 +408,7 @@
 		},
 		
 		"Resize grip (Steam windows) :": {
-		"tab": "Global options (8)",
+		"tab": "Global options (9)",
 		"description": "> Show or hide the resizing grip display. \n\n - Default : Default Steam grip. \n - Default (smaller) : Smaller default Steam grip. \n - Alternative UI : Alternative UI for the resize grip. \n - Alternative UI (smaller) : Smaller alternative UI for the resize grip. \n - Hide : Hide the resize grip. \n\n NOTE : If you select 'Hide', you will need to disable the friends option 'Hide footer (fix)'",
 		"default": "Alternative UI (smaller)",
 		"values": {
@@ -422,8 +436,22 @@
 			}
 		},
 		
+		"Steam bigpicture button :": {
+		"tab": "Global options (9)",
+		"description": "> Hide or show Steam bigpicture button in top bar. \n\n - Hide : Hide topbar Steam bigpicture button. \n - Show : Show topbar Steam bigpicture button.",
+		"default": "Hide",
+		"values": {
+			"Hide": {},
+			"Show": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/global_options/steam_bp_button.css"
+					}
+				}
+			}
+		},
+		
 		"Steam news button :": {
-		"tab": "Global options (8)",
+		"tab": "Global options (9)",
 		"description": "> Hide or show Steam news button in top bar. \n\n - Hide : Hide topbar Steam news button. \n - Show : Show topbar Steam news button.",
 		"default": "Hide",
 		"values": {
@@ -437,7 +465,7 @@
 		},
 		
 		"Title area buttons :": {
-		"tab": "Global options (8)",
+		"tab": "Global options (9)",
 		"description": "> Make the title bar buttons bigger (close/maximize/minimize buttons). \n\n - Small : Small titlebar buttons. \n - Enlarged (w11 users) : Enlarged buttons for Windows 11 users. \n - Enlarged (w10 users) : Enlarged buttons for Windows 10 users.",
 		"default": "Enlarged (w11 users)",
 		"values": {
@@ -456,7 +484,7 @@
 		},
 		
 		"Vanilla topbar style :": {
-		"tab": "Global options (8)",
+		"tab": "Global options (9)",
 		"description": "> Set the topbar in the vanilla style of steam skin. \n\n - Minimal Dark : Topbar buttons are on the same line. \n - Vanilla topbar : Set Topbar as on vanilla skin, buttons are on two lines.",
 		"default": "Minimal Dark",
 		"values": {
@@ -956,7 +984,7 @@
 		"Pointer fix :": {
 		"tab": "Sidebar options (11)",
 		"description": "> Fix cursor for sidebar resize when the Persistent Sidebar option is disabled only. \n\n - No : Leave this option disabled if you are using the persistent sidebar. \n - Yes : Enable this option if you do not use the persistent sidebar.",
-		"default": "yes",
+		"default": "no",
 		"values": {
 			"no": {},
 			"yes": {
@@ -1177,7 +1205,7 @@
 		},
 		
 		"Alternative root menu icon :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Change the root menu icon with a alternative icon. \n\n - Minimal Dark : Half Steam logo. \n - Minimal Dark #1 : Full Steam logo. \n - Minimal Dark #2 : Rounded Steam logo (fill). \n - Minimal Dark #3 : Rounded Steam logo (oultine). \n - Minimal Dark #4 : Squared Steam logo (fill). \n - Minimal Dark #5 : Squared Steam logo (oultine).",
 		"default": "Minimal Dark",
 		"values": {
@@ -1211,7 +1239,7 @@
 		},
 
 		"Animated menu hovering :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Enable this option if you want to have an animation on menus hover. \n\n - No : Static menus mouseover. \n - Yes : Animated menus mouseover.",
 		"default": "yes",
 		"values": {
@@ -1225,7 +1253,7 @@
 		},
 		
 		"Change UI font :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Change the font of the interface. \n\n - Known bugs with topbar option 'Root menu Steam text' is disabled.",
 		"default": "Default",
 		"values": {
@@ -1269,7 +1297,7 @@
 		},
 		
 		"Context menus hover effect :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Added a border to the left of the block with the user-defined color on the context menus when hover. \n\n - No hover effect : Static mouseover. \n - With hover effect : Animated mouseover.",
 		"default": "With hover effect",
 		"values": {
@@ -1283,7 +1311,7 @@
 		},
 		
 		"Default pointers :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Display or hide pointers by default on the entire skin. \n\n - Steam : Steam default pointers. \n - Minimal Dark : Same cursor on the entire skin.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1297,7 +1325,7 @@
 		},
 
 		"Hide scrollbars :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Hide or show scrollbars. \n\n - Hide : Hide all scrollbars on the entirety of the skin. \n - Show : Show all scrollbars on the entirety of the skin.",
 		"default": "Show",
 		"values": {
@@ -1311,7 +1339,7 @@
 		},
 		
 		"Mouseover animation of settings menu tabs :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Enable or disable the category hover effect in settings section. \n\n - Animated : Mouseover are animated. \n - Static : Mousesover are static.",
 		"default": "Animated",
 		"values": {
@@ -1325,7 +1353,7 @@
 		},
 		
 		"No titlebar (Linux) :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Enable this option if you are using a tiled window manager in Linux and only use keyboard shortcuts to manage windows. \n\n - No : For Windows users. \n - Yes : If you are using a tiled window manager in Linux. \n\n Note : Leave this option disabled if you are on Windows.",
 		"default": "no",
 		"values": {
@@ -1338,8 +1366,22 @@
 			}
 		},
 		
+		"Pure black color (OLED) :": {
+		"tab": "Various options (10)",
+		"description": "> Activate this option to enable pure black if you have an OLED screen. \n\n - No : Default color. \n - Yes : Pure black (oled)",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/pure_black_oled.css"
+					}
+				}
+			}
+		},
+		
 		"Windows 10 fix for root menu corner :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Fix the top left corner for Windows 10 users.",
 		"default": "no",
 		"values": {
@@ -1547,7 +1589,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.7.6",
+	"version": "4.8.0",
 
 	"github": {
 		"owner": "SaiyajinK",
