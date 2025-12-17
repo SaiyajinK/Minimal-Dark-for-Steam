@@ -8245,6 +8245,7 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 .profile_header {
     max-width: 952px !important;
     /* padding-top: 12px !important; */
+    padding: 24px 12px 0 12px !important;
 }
 
 .profile_customization {
@@ -10131,13 +10132,15 @@ body.v6 .sale_capsule .discount_block_inline {
 
 ._2FxbHJzYoH024ko7zqcJOf {
     border-radius: var(--minimal_dark_corner) !important;
-    color: var(--minimal_dark_color1) !important;
-    background: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_color) !important;
+    background: rgb(18 18 18 / 60%) !important;
+    backdrop-filter: blur(8px) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    padding: 0px 8px !important;
+    padding: 2px 8px !important;
     transform: translate(0px, -5px) !important;
     box-shadow: 1px 1px 8px #00000036, 2px 2px 16px 1px #0000 !important;
     text-shadow: none !important;
+    text-align: center !important;
 }
 
 ._1TRFtE8IfXpDQ_loHnB_bU {
@@ -11053,6 +11056,10 @@ body.v6 .scale_capsule.with_microtrailer.microtrailer_active {
     border-bottom: none !important;
 	box-shadow: none !important;
 }
+
+/* div#SaleSection_73769 ._1cOoCFwafBlSkwllIMf3XM._39HWXhhjsbML7K9sme9ItV._30Yfh62g3YeDgzOL-z9BnJ .zje61fgPER-HdQgXObOdD.VideoRow { */
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
+/* } */
 
 .LMExfoWM1Zfse4YW4jw4F {
     background: var(--minimal_dark_blacker_alt) !important;
@@ -15947,6 +15954,10 @@ button.QcCmjdiZ0nI-:hover svg path {
     /* display: none; */
 /* } */
 
+.p2qp0XfBE8M- button.nK8lTB5HZ5o- {
+    background: transparent !important;
+}
+
 /* end wishlist */
 
 ._3Z1skIYVoqLbYiP2wy46Ce, .qRybCqH-jtw- {
@@ -17130,6 +17141,55 @@ form#advsearchform .page_content_ctn .searchbar button.btnv6_blue_hoverfade.btn_
 ._3CGy1EaqFgVMH1Atf-TZBY ._3cziHBEgsSUnjyT5uXe5EX:hover ._35r6r_I_sSvDKuLqZaSKD_ {
     color: var(--minimal_dark_color1) !important;
     transition: .25s ease-out !important;
+}
+
+._3ollvhyH9ny_q06Oe2aLRk .AmQ9dRhZqhOyU0Vgt3nWR {
+    top: 50px !important;
+}
+
+._2uHYtSBLSS1MxFonkOXr0O ._3wBwgFLePqfIcCKHyA6g-K {
+    padding: 10px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+._11Wb4dZGttl7jOW2o_OF27 {
+    background: transparent !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+._3wBwgFLePqfIcCKHyA6g-K .H5GE-sEeFx3Nv8992Vu48 .DialogDropDown_Arrow svg {
+    fill: white !important;
+}
+
+._2AXFQ4F1EgcZAVJgYC6_KQ.Cw99TswABdwpty4wDm6Kv:hover {
+    border: 1px solid var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+}
+
+button._2oAiZidGyUxL-hfupFDQ2m.ContextMenuAutoFocus {
+    color: var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+    background: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.DialogDropDown:hover {
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .16);
+    color: var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+}
+
+.DialogDropDown:hover .DialogDropDown_Arrow svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
+    fill: var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+}
+
+._39_9JtPLKvxe9QGOk1oewb ._1wMXRi1zY6UsfJCNvUaAri {
+    margin-top: 90px !important;
+}
+
+._3ollvhyH9ny_q06Oe2aLRk .AmQ9dRhZqhOyU0Vgt3nWR {
+    margin-top: 60px !important;
 }
 
 /* end webkit */
