@@ -8,6 +8,7 @@
     margin-left: 1px;
     margin-right: 2px;
     transition: .25s ease-out !important;
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 ._3LKQ3S_yqrebeNLF6aeiog:hover {
@@ -15,7 +16,7 @@
     transform: translate(-60px, 0px) !important;
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-	border-top: 1px solid var(--minimal_dark_color) !important;
+    border-top: 1px solid var(--minimal_dark_color) !important;
     height: 30px !important;
     width: 39px !important;
     margin-left: 1px;
