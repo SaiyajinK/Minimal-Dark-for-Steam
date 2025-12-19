@@ -1,5 +1,10 @@
 :root { 
 
---minimal_dark_corner: 10px !important;
+--minimal_dark_corner: 5px !important;
 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #262626 !important;
+    border-radius: 10px !important;
 }
