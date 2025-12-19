@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 94 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 96 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -594,7 +594,7 @@ _User color_ :<br>
 
 <hr>
 
-## Topbar options (9) : 
+## Topbar options (10) : 
 
 <details><summary>Alternative contacts icon :</summary><br> 
 
@@ -622,6 +622,14 @@ _Hide arrows only_ :<br>
 
 _Hide all_ :<br> 
 <img src="https://github.com/user-attachments/assets/a2069f0b-adba-4504-a890-5582ff09a1c5"></p></details>
+
+<details><summary>Hover/active borders :</summary><br> 
+
+_No_ :<br> 
+<img src="https://github.com/user-attachments/assets/d3102cfc-e467-46a0-b8d2-6e8c05c79339"></p>
+
+_Yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/6d3f9715-4aca-4914-ae1e-0f42717cadca"></p></details>
 
 <details><summary>Root menu Steam text :</summary><br>
 
@@ -670,7 +678,7 @@ _yes_ :<br>
 
 <hr>
 
-## Various options (10) : 
+## Various options (11) : 
 
 <details><summary>Alternative root menu icon :</summary><br>  
 
@@ -762,13 +770,21 @@ _yes_ :<br>
 _yes_ :<br> 
 <img src="https://github.com/user-attachments/assets/a6a8dadc-98e9-409d-b303-691d87c94ca1"></p></details>
 
-<details><summary>Windows 10 fix for root menu corner :</summary><br>  
+<details><summary>Windows 10 fix corners :</summary><br>  
 
 _no (no fix)_ :<br> 
 <img src="https://github.com/user-attachments/assets/ecf4042d-d0ce-4192-abf1-bd00c464d35e"></p>
 
 _yes (fixed)_ :<br> 
 <img src="https://github.com/user-attachments/assets/98223110-34e4-49ac-8ce2-44b3affe0a59"></p></details>
+
+<details><summary>Windows corners fix :</summary><br>  
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/7e2539dd-a57a-47bc-ac01-181ab7be8392"></p><br><img src="https://github.com/user-attachments/assets/d45bd568-8e07-47e2-ac73-95da06d0b8ef"></p></p>
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/e524155a-bb97-45a3-9e3d-a516913d5851"></p><br><img src="https://github.com/user-attachments/assets/3a24422d-9638-4428-b6ec-ed6fbb259a52"></p></details>
 
 <hr>
 
