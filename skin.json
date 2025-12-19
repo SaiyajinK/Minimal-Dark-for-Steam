@@ -373,7 +373,7 @@
 		"Corners radius :": {
 		"tab": "Global options (9)",
 		"description": "> Sets the strength of corner rounding. \n\n - Square : 0px. \n - Rounded : 5px. \n - More rounded : 10px.",
-		"default": "Square",
+		"default": "Rounded",
 		"values": {
 			"Square": {},
 			"Rounded": {
@@ -410,7 +410,7 @@
 		"Resize grip (Steam windows) :": {
 		"tab": "Global options (9)",
 		"description": "> Show or hide the resizing grip display. \n\n - Default : Default Steam grip. \n - Default (smaller) : Smaller default Steam grip. \n - Alternative UI : Alternative UI for the resize grip. \n - Alternative UI (smaller) : Smaller alternative UI for the resize grip. \n - Hide : Hide the resize grip. \n\n NOTE : If you select 'Hide', you will need to disable the friends option 'Hide footer (fix)'",
-		"default": "Alternative UI (smaller)",
+		"default": "Default (smaller)",
 		"values": {
 			"Default": {},
 			"Default (smaller)": {
@@ -1029,7 +1029,7 @@
 		},
 		
 		"Alternative contacts icon :": {
-		"tab": "Topbar options (9)",
+		"tab": "Topbar options (10)",
 		"description": "> Use alternative icon for contacts bloc. \n\n - Minimal Dark #1 (fill) : Fill effect on mouseover contact icon. \n - Minimal Dark #1 (outline) : outline effect on mouseover contact icon. \n - Minimal Dark #2 (fill) : Fill effect on mouseover contact icon. \n - Minimal Dark #2 (ourline) : outline effect on mouseover contact icon.",
 		"default": "Minimal Dark #1 (fill)",
 		"values": {
@@ -1053,8 +1053,8 @@
 		},
 		
 		"Alternative downloads UI :": {
-		"tab": "Topbar options (9)",
-		"description": "> change the appearance of the download block. \n\n - New UI : Set download button compact. \n - Minimal Dark : Default UI.",
+		"tab": "Topbar options (10)",
+		"description": "> Change the appearance of the download block. \n\n - New UI : Set download button compact. \n - Minimal Dark : Default UI.",
 		"default": "New UI",
 		"values": {
 			"New UI": {
@@ -1066,8 +1066,22 @@
 			}
 		},
 		
+		"Hover/active borders :": {
+		"tab": "Topbar options (10)",
+		"description": "> Enable this option to make the hover effect on top bar elements display a complete border (also on active). \n\n - No : Top borders only. \n - Yes : Full borders.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/hover_borders.css"
+					}
+				}
+			}
+		},
+		
 		"Hide topbar elements :": {
-		"tab": "Topbar options (9)",
+		"tab": "Topbar options (10)",
 		"description": "> Hide topbar menus or arrows. \n\n - Show all : Display all elements of the topbar. \n - Hide menus only : Hide only menus. \n - Hide arrows only : Hide only arrows. \n - Hide all : Hide arrows, menus and tabs.",
 		"default": "Show all",
 		"values": {
@@ -1091,7 +1105,7 @@
 		},
 		
 		"Root menu Steam text :": {
-		"tab": "Topbar options (9)",
+		"tab": "Topbar options (10)",
 		"description": "> Hide or show steam text in top left of the root menu. \n\n - Hide : Hide root menu Steam text. \n - Show : Display root menu Steam text.",
 		"default": "Hide",
 		"values": {
@@ -1105,7 +1119,7 @@
 		},
 		
 		"Tabs text transform :": {
-		"tab": "Topbar options (9)",
+		"tab": "Topbar options (10)",
 		"description": "> Set capitalize text to topbar tabs. \n\n - No : Lowercase tab text. \n - Yes : Capitalize tab text.",
 		"default": "no",
 		"values": {
@@ -1119,7 +1133,7 @@
 		},
 		
 		"Topbar icons menu hover effect :": {
-		"tab": "Topbar options (9)",
+		"tab": "Topbar options (10)",
 		"description": "> Use alternative hover effect for icons menu (display, contacts, games, support). \n\n - Fill : Fill effect on mouseover. \n - Outline : Outline effect on mouseover.",
 		"default": "Fill",
 		"values": {
@@ -1133,7 +1147,7 @@
 		},
 		
 		"Topbar Store tab left icon (currency icon) :": {
-		"tab": "Topbar options (9)",
+		"tab": "Topbar options (10)",
 		"description": "> Changes the currency logo on the store icon. \n\n - No icon : Hide Store tabs icon. \n - Fill icon (euro) : Fill euro icon. \n - Oultine icon (euro) : Outline euro icon. \n - Fill icon (dollar) : Fill dollar icon. \n - Oultine icon (dollar) : Outline dollar icon. \n - Fill icon (pound sterling) : Fill pound sterling icon. \n - Oultine icon (pound sterling) : Outline pound sterling icon.",
 		"default": "Fill icon (euro)",
 		"values": {
@@ -1172,7 +1186,7 @@
 		},
 		
 		"Topbar tabs left icons (hover effect included) :": {
-		"tab": "Topbar options (9)",
+		"tab": "Topbar options (10)",
 		"description": "> Adds an icon to the left of the top bar tabs text. \n\n - No icons (text only) : Hide icons and show just text tabs. \n - Icons active (fill + text) : Show icons and text tabs with fill effect. \n - Icons active (outline + text) : Show icons and text tabs with outline effect.",
 		"default": "Icons active (fill + text)",
 		"values": {
@@ -1191,7 +1205,7 @@
 		},
 		
 		"Topbar tabs left icons, no text :": {
-		"tab": "Topbar options (9)",
+		"tab": "Topbar options (10)",
 		"description": "> Enable this option if you want to have just icons and no text. \n\n - No : Show tabs text and icons. \n - Yes : Hide tabs text, show just icons.",
 		"default": "no",
 		"values": {
@@ -1205,7 +1219,7 @@
 		},
 		
 		"Alternative root menu icon :": {
-		"tab": "Various options (10)",
+		"tab": "Various options (11)",
 		"description": "> Change the root menu icon with a alternative icon. \n\n - Minimal Dark : Half Steam logo. \n - Minimal Dark #1 : Full Steam logo. \n - Minimal Dark #2 : Rounded Steam logo (fill). \n - Minimal Dark #3 : Rounded Steam logo (oultine). \n - Minimal Dark #4 : Squared Steam logo (fill). \n - Minimal Dark #5 : Squared Steam logo (oultine).",
 		"default": "Minimal Dark",
 		"values": {
@@ -1239,7 +1253,7 @@
 		},
 
 		"Animated menu hovering :": {
-		"tab": "Various options (10)",
+		"tab": "Various options (11)",
 		"description": "> Enable this option if you want to have an animation on menus hover. \n\n - No : Static menus mouseover. \n - Yes : Animated menus mouseover.",
 		"default": "yes",
 		"values": {
@@ -1253,7 +1267,7 @@
 		},
 		
 		"Change UI font :": {
-		"tab": "Various options (10)",
+		"tab": "Various options (11)",
 		"description": "> Change the font of the interface. \n\n - Known bugs with topbar option 'Root menu Steam text' is disabled.",
 		"default": "Default",
 		"values": {
@@ -1297,7 +1311,7 @@
 		},
 		
 		"Context menus hover effect :": {
-		"tab": "Various options (10)",
+		"tab": "Various options (11)",
 		"description": "> Added a border to the left of the block with the user-defined color on the context menus when hover. \n\n - No hover effect : Static mouseover. \n - With hover effect : Animated mouseover.",
 		"default": "With hover effect",
 		"values": {
@@ -1311,7 +1325,7 @@
 		},
 		
 		"Default pointers :": {
-		"tab": "Various options (10)",
+		"tab": "Various options (11)",
 		"description": "> Display or hide pointers by default on the entire skin. \n\n - Steam : Steam default pointers. \n - Minimal Dark : Same cursor on the entire skin.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1325,7 +1339,7 @@
 		},
 
 		"Hide scrollbars :": {
-		"tab": "Various options (10)",
+		"tab": "Various options (11)",
 		"description": "> Hide or show scrollbars. \n\n - Hide : Hide all scrollbars on the entirety of the skin. \n - Show : Show all scrollbars on the entirety of the skin.",
 		"default": "Show",
 		"values": {
@@ -1339,7 +1353,7 @@
 		},
 		
 		"Mouseover animation of settings menu tabs :": {
-		"tab": "Various options (10)",
+		"tab": "Various options (11)",
 		"description": "> Enable or disable the category hover effect in settings section. \n\n - Animated : Mouseover are animated. \n - Static : Mousesover are static.",
 		"default": "Animated",
 		"values": {
@@ -1353,7 +1367,7 @@
 		},
 		
 		"No titlebar (Linux) :": {
-		"tab": "Various options (10)",
+		"tab": "Various options (11)",
 		"description": "> Enable this option if you are using a tiled window manager in Linux and only use keyboard shortcuts to manage windows. \n\n - No : For Windows users. \n - Yes : If you are using a tiled window manager in Linux. \n\n Note : Leave this option disabled if you are on Windows.",
 		"default": "no",
 		"values": {
@@ -1367,7 +1381,7 @@
 		},
 		
 		"Pure black color (OLED) :": {
-		"tab": "Various options (10)",
+		"tab": "Various options (11)",
 		"description": "> Activate this option to enable pure black if you have an OLED screen. \n\n - No : Default color. \n - Yes : Pure black (oled)",
 		"default": "no",
 		"values": {
@@ -1380,15 +1394,29 @@
 			}
 		},
 		
-		"Windows 10 fix for root menu corner :": {
-		"tab": "Various options (10)",
-		"description": "> Fix the top left corner for Windows 10 users.",
+		"Windows corners fix :": {
+		"tab": "Various options (11)",
+		"description": "> Same border radius value on all topbar buttons. \n\n No : Default values. \n Yes : Same values. \n\n NOTE : If you enable this option, you will need to disable the option directly below it, 'Windows 10 fix for root close corner'.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/same_br_root_close.css"
+					}
+				}
+			}
+		},
+		
+		"Windows 10 fix corners :": {
+		"tab": "Various options (11)",
+		"description": "> Fix the top left corner & top right corner for Windows 10 users. \n\n NOTE : Disable this option if you enable the option directly above, 'Windows corners fix'.",
 		"default": "no",
 		"values": {
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/various_options/options/w10_root_fix.css"
+			"affects": [".*"], "src": "elements/options/various_options/w10_root_fix.css"
 					}
 				}
 			}
@@ -1589,7 +1617,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.8.0",
+	"version": "4.8.2",
 
 	"github": {
 		"owner": "SaiyajinK",
