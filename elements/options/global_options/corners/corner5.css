@@ -3,3 +3,8 @@
 --minimal_dark_corner: 5px !important;
 
 }
+
+::-webkit-scrollbar-thumb {
+    background-color: #262626 !important;
+    border-radius: 5px !important;
+}
