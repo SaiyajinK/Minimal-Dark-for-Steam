@@ -1759,7 +1759,23 @@ html.responsive div#footer.compact .footer_content {
 }
 
 .MillenniumDesktopSidebar_Content {
-    background: var(--minimal_dark_blacker_alt) !important;
+    /* background: var(--minimal_dark_blacker_alt) !important; */
+    background: transparent !important;
+}
+
+._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX .MillenniumDesktopSidebar {
+    width: 640px !important;
+    background: rgb(18 18 18 / 60%) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX .MillenniumDesktopSidebar .MillenniumDesktopSidebar_Title._34nl5vUoFCDYYnmHNL7axB.Panel {
+    background: transparent !important;
+	box-shadow: none !important;
+}
+
+._34nl5vUoFCDYYnmHNL7axB {
+    box-shadow: none !important;
 }
 
 .DesktopUI .CFTLX2wIKOK3hNV-fS7_V {
