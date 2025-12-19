@@ -13,3 +13,15 @@
 ._39oUCO1OuizVPwcnnv88no ._3s0lkohH8wU2do0K1il28Y {
     border-top-left-radius: 0px !important;
 }
+
+.DesktopUI .title-area-icon.closeButton {
+    border-top-right-radius: 0px !important;
+}
+
+.DesktopUI .title-area-icon.closeButton:hover {
+    border-top-right-radius: 0px !important;
+}
+
+.DesktopUI .title-area-icon.closeButton:active {
+    border-top-right-radius: 0px !important;
+}
