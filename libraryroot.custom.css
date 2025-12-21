@@ -395,7 +395,7 @@
 ._3cykd-VfN_xBxf3Qxriccm ._5wILZhsLODVwGfcJ0hKmJ:hover {
     padding: 7px !important;
     transform: translate(6px, 0px) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
     border-top: 1px solid var(--minimal_dark_color) !important;
 }
 
@@ -2484,4 +2484,14 @@ textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 .DialogDropDown:hover .DialogDropDown_Arrow svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
     fill: white !important;
     transition: .25s ease-out !important;
+}
+
+/* ._2Lu3d-5qLmW4i19ysTt2jT ._2UyOBeiSdBayaFdRa39N2O ._3rgV8pPmQvZC-01x91-q-N { */
+	/* transform: translate(0px, 1px) !important; */
+/* ] */
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Steam_Root_Menu body.ContextMenuPopupBody.DesktopUI.WindowFocus {
+    /* transform: translate(0px, 1px) !important; */
+    top: 1px !important;
+    position: fixed !important;
 }
