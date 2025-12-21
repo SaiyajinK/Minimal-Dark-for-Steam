@@ -334,7 +334,7 @@
 		},
 		
 		"Alternative topbar color :": {
-		"tab": "Global options (9)",
+		"tab": "Global options (10)",
 		"description": "> Modify the color of the topbar. \n\n - Dark : Full dark topbar \n - Grey : Full grey topbar \n - Grey/dark : Grey topbar and dark buttons.",
 		"default": "Grey/dark",
 		"values": {
@@ -353,7 +353,7 @@
 		},		
 		
 		"Avatar frame :": {
-		"tab": "Global options (9)",
+		"tab": "Global options (10)",
 		"description": "> Hide or show avatar frame on all avatars. \n\n - Hide : Hide avatar frame on the entire skin. \n - Show : Show avatar frame on the entire skin.",
 		"default": "Hide",
 		"values": {
@@ -370,8 +370,22 @@
 			}
 		},
 		
+		"Compact menus/context menus :": {
+		"tab": "Global options (10)",
+		"description": "> Enable this option to make menus and context menus compact. \n\n No: Default size. \n Yes: Compact size.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/compact_menus.css"
+					}
+				}
+			}
+		},
+		
 		"Corners radius :": {
-		"tab": "Global options (9)",
+		"tab": "Global options (10)",
 		"description": "> Sets the strength of corner rounding. \n\n - Square : 0px. \n - Rounded : 5px. \n - More rounded : 10px.",
 		"default": "Rounded",
 		"values": {
@@ -390,7 +404,7 @@
 		},
 		
 		"Hover borders on library and webkit blocks :": {
-		"tab": "Global options (9)",
+		"tab": "Global options (10)",
 		"description": "> Make the hover borders of library/webkit items full and no longer just on the bottom. \n\n - Full borders : Applies the user's color to all borders on mouseover. \n - Bottom only : Applies the user's color only to the bottom border on mouseover.",
 		"default": "Full borders",
 		"values": {
@@ -408,7 +422,7 @@
 		},
 		
 		"Resize grip (Steam windows) :": {
-		"tab": "Global options (9)",
+		"tab": "Global options (10)",
 		"description": "> Show or hide the resizing grip display. \n\n - Default : Default Steam grip. \n - Default (smaller) : Smaller default Steam grip. \n - Alternative UI : Alternative UI for the resize grip. \n - Alternative UI (smaller) : Smaller alternative UI for the resize grip. \n - Hide : Hide the resize grip. \n\n NOTE : If you select 'Hide', you will need to disable the friends option 'Hide footer (fix)'",
 		"default": "Default (smaller)",
 		"values": {
@@ -437,7 +451,7 @@
 		},
 		
 		"Steam bigpicture button :": {
-		"tab": "Global options (9)",
+		"tab": "Global options (10)",
 		"description": "> Hide or show Steam bigpicture button in top bar. \n\n - Hide : Hide topbar Steam bigpicture button. \n - Show : Show topbar Steam bigpicture button.",
 		"default": "Hide",
 		"values": {
@@ -451,7 +465,7 @@
 		},
 		
 		"Steam news button :": {
-		"tab": "Global options (9)",
+		"tab": "Global options (10)",
 		"description": "> Hide or show Steam news button in top bar. \n\n - Hide : Hide topbar Steam news button. \n - Show : Show topbar Steam news button.",
 		"default": "Hide",
 		"values": {
@@ -465,7 +479,7 @@
 		},
 		
 		"Title area buttons :": {
-		"tab": "Global options (9)",
+		"tab": "Global options (10)",
 		"description": "> Make the title bar buttons bigger (close/maximize/minimize buttons). \n\n - Small : Small titlebar buttons. \n - Enlarged (w11 users) : Enlarged buttons for Windows 11 users. \n - Enlarged (w10 users) : Enlarged buttons for Windows 10 users.",
 		"default": "Enlarged (w11 users)",
 		"values": {
@@ -484,7 +498,7 @@
 		},
 		
 		"Vanilla topbar style :": {
-		"tab": "Global options (9)",
+		"tab": "Global options (10)",
 		"description": "> Set the topbar in the vanilla style of steam skin. \n\n - Minimal Dark : Topbar buttons are on the same line. \n - Vanilla topbar : Set Topbar as on vanilla skin, buttons are on two lines.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1069,7 +1083,7 @@
 		"Hover/active borders :": {
 		"tab": "Topbar options (10)",
 		"description": "> Enable this option to make the hover effect on top bar elements display a complete border (also on active). \n\n - No : Top borders only. \n - Yes : Full borders.",
-		"default": "no",
+		"default": "yes",
 		"values": {
 			"no": {},
 			"yes": {
@@ -1617,7 +1631,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.8.2",
+	"version": "4.8.4",
 
 	"github": {
 		"owner": "SaiyajinK",
