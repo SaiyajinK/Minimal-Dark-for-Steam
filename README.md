@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 96 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 97 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -204,7 +204,7 @@ _yes_ :<br>
 
 <hr>
 
-## Global options (9) : 
+## Global options (10) : 
 
 <details><summary>Alternative topbar color :</summary><br>  
 
@@ -224,6 +224,14 @@ _Show_ :<br>
 
 _Hide_ :<br>
 <img src="https://github.com/user-attachments/assets/9ff0f363-df70-43fc-8956-1ea7db4afbc1"></p></details>
+
+<details><summary>Compact menus/context menus :</summary><br>  
+
+_No_ :<br>
+<img src="https://github.com/user-attachments/assets/13466fb7-355f-4a65-a2c1-2af1d3b0d54f"></p>
+
+_Yes_ :<br>
+<img src="https://github.com/user-attachments/assets/29c6398d-f82e-4f07-a435-9492cbca1cd5"></p></details>
 
 <details><summary>Corners radius :</summary><br>  
 
@@ -896,7 +904,7 @@ How to access to skin settings ? <br><br>
 ▪ `Steam menu` ➡️ `Millennium` ➡️ `Themes` ➡️ `Minimal Dark 3 horizontal dots (…)` ➡️ `Configure` .
 
 ### 📸 <ins>Screenchots</ins> : <br>
-<img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/bbdbbeb3-ccde-44f0-bc36-76ca5336292e" />
+<img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/46a8d338-d757-4fe7-b885-855a524dc085" />
 
 <hr>
 
