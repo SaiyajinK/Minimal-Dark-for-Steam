@@ -14,11 +14,11 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 97 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 99 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
-## Account options (3) : 
+## Account options (4) : 
 
 <details><summary>Account wallet :</summary><br>  
 
@@ -27,6 +27,21 @@ _Show_ :<br>
 
 _Hide_ :<br>
 <img src="https://github.com/user-attachments/assets/4784eb68-ef01-458d-89fe-292f13db6081"></p></details>
+
+
+<details><summary>Avatar status border :</summary><br>  
+
+_Default_ :<br>
+<img src="https://github.com/user-attachments/assets/c7bc1eb9-9382-45d8-8c0c-25c8cc643e94"></p>
+
+_Reduce_ :<br>
+<img src="https://github.com/user-attachments/assets/87d3823e-4434-4f6c-8b1b-716285ebf067"></p>
+
+_User color_ :<br>
+<img src="https://github.com/user-attachments/assets/dd6ad720-4634-46b5-b26d-5e3c7faa317e"></p>
+
+_Hide_ :<br>
+<img src="https://github.com/user-attachments/assets/b345155a-27d9-4a82-9ae3-61a417133414"></p></details>
 
 <details><summary>Bigger notification button :</summary><br>  
 
@@ -46,7 +61,7 @@ _Compact_ :<br>
 
 <hr>
 
-## Friends options (8) : 
+## Friends options (9) : 
 
 <details><summary>Animated hovering :</summary><br>  
 
@@ -71,6 +86,14 @@ _Default_ :<br>
 
 _Smaller_ :<br>  
 <img src="https://github.com/user-attachments/assets/2c2a6f9f-0c2e-439c-918e-a3a2e12e49bd"></p></details>
+
+<details><summary>Friends list header glow :</summary><br>  
+
+_No_ :<br>  
+<img src="https://github.com/user-attachments/assets/508a4204-befb-4db5-b0d4-11d35b4aa683"></p>
+
+_Yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/3c0112a6-941a-4e1c-a350-af3a56cb6209"></p></details>
 
 <details><summary>Group chats position :</summary><br>  
 
