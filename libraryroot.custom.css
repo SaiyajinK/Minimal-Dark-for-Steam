@@ -324,10 +324,10 @@
 .nibodjvvrm86uCfnnAn4g.X-Small {
     height: 30px !important;
     width: 30px !important;
-    transform: translate(-1px, 0px) !important;
-    border: 1px solid var(--minimal_dark_blacker_alt) !important;
+    transform: translate(-1px, 0px);
+    border: 1px solid var(--minimal_dark_blacker_alt);
     box-shadow: none !important;
-    border-radius: var(--minimal_dark_corner) !important;
+    border-radius: var(--minimal_dark_corner);
 }
 
 .ack_message {
