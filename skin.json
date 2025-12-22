@@ -2,7 +2,7 @@
 
     "Conditions": {
 		"Account wallet :": {
-		"tab": "Account options (3)",
+		"tab": "Account options (4)",
 		"description": "> Hide or show wallet balance next to username. \n\n - Hide : Hide the account wallet. \n - Show : Show the account wallet.",
 		"default": "Hide",
 		"values": {
@@ -15,8 +15,32 @@
 			}
 		},
 		
+		"Avatar status border :": {
+		"tab": "Account options (4)",
+		"description": "> Hide or reduce the player avatar status border on the top bar in the user block. \n\n - Default : Minimal default. \n - Reduce : Reduce size on mouseover. \n - User color : User color border. \n - Hide : Hide status border.",
+		"default": "Reduce",
+		"values": {
+			"Default": {},
+			"Reduce": {
+			"TargetCss": {
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/status_border/reduced_border_status.css"
+					}
+			},
+			"User color": {
+			"TargetCss": {
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/status_border/user_color_border_status.css"
+					}
+			},
+			"Hide": {
+			"TargetCss": {
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/status_border/hide_border_status.css"
+					}
+				}
+			}
+		},
+		
 		"Bigger notification button :": {
-		"tab": "Account options (3)",
+		"tab": "Account options (4)",
 		"description": "> Make the notification icon bigger. \n\n - No : Default Steam size for notification button. \n - Yes : Larger size for notification button.",
 		"default": "no",
 		"values": {
@@ -30,7 +54,7 @@
 		},
 		
 		"Compact avatar :": {
-		"tab": "Account options (3)",
+		"tab": "Account options (4)",
 		"description": "> Make the avatar block compact. \n\n - Default : Default Steam user avatar bloc. \n - Compact : The block expands when the mouse moves over it.",
 		"default": "Compact",
 		"values": {
@@ -44,7 +68,7 @@
 		},
 		
 		"Animated hovering :": {
-		"tab": "Friends options (8)",
+		"tab": "Friends options (9)",
 		"description": "> Trigger an animation when hovering over contacts in the friends list. \n\n - No : No animation when mouseover. \n - Yes : Slide text to the right on mouseover.",
 		"default": "yes",
 		"values": {
@@ -58,7 +82,7 @@
 		},
 		
 		"Avatar size :": {
-		"tab": "Friends options (8)",
+		"tab": "Friends options (9)",
 		"description": "> Choice the size of the user avatar on friends list. \n\n - Default : Medium avatar size. \n - Small : Small avatar size. \n - Large : Large avatar size (display issues may occur with this size depending on the length and description of the game being launched as well as the size of the friends list window).",
 		"default": "Default",
 		"values": {
@@ -77,7 +101,7 @@
 		},
 		
 		"Font size :": {
-		"tab": "Friends options (8)",
+		"tab": "Friends options (9)",
 		"description": "> Change the size of the font of the friends list (not applied on compact mod). \n\n - Default : Steam default font size. \n - Smaller : Small font size.",
 		"default": "Smaller",
 		"values": {
@@ -90,8 +114,22 @@
 			}
 		},
 		
+		"Friends list header glow :": {
+		"tab": "Friends options (9)",
+		"description": "> Enable this option to remove the glow behind the profile picture on the friends list. \n\n - No : Leave the glow effect. \n - Yes : Delete the glow effect.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_options/header_glow.css"
+					}
+				}
+			}
+		},
+		
 		"Group chats position :": {
-		"tab": "Friends options (8)",
+		"tab": "Friends options (9)",
 		"description": "> Modify the position of the groups chats. \n\n - Default : Steam vanilla position. \n - Top : Top position. \n - Hide : Hide bloc.",
 		"default": "Default (bottom)",
 		"values": {
@@ -114,7 +152,7 @@
 		},
 		
 		"Hide footer :": {
-		"tab": "Friends options (8)",
+		"tab": "Friends options (9)",
 		"description": "> Hide footer on friends list. \n\n - No : No modification. \n - Yes : Hide bottom black bar.",
 		"default": "yes",
 		"values": {
@@ -128,7 +166,7 @@
 		},
 		
 		"Hide footer (fix) :": {
-		"tab": "Friends options (8)",
+		"tab": "Friends options (9)",
 		"description": "> Enable this option if you have chosen to hide the footer to fix the icon for creating a chat group. \n\n - No : Are you crazy ? \n - Yes : An animation is put in place for a better visual experience.",
 		"default": "yes",
 		"values": {
@@ -142,7 +180,7 @@
 		},
 		
 		"Hide voice chat :": {
-		"tab": "Friends options (8)",
+		"tab": "Friends options (9)",
 		"description": "> Hide the voice chat icon in conversations. \n\n - No : Hide the voice chat button in friends conversations. \n - Yes : Shows the voice chat button in friends conversations.",
 		"default": "no",
 		"values": {
@@ -156,7 +194,7 @@
 		},
 			
 		"Offline friends :": {
-		"tab": "Friends options (8)",
+		"tab": "Friends options (9)",
 		"description": "> Hide offline friends in friends list. \n\n - Show : Display the 'offline friends' section in the contact list. \n - Hide : Does not display the 'offline friends' section in the contact list (these are still findable via search).",
 		"default": "Show",
 		"values": {
@@ -372,7 +410,7 @@
 		
 		"Compact menus/context menus :": {
 		"tab": "Global options (10)",
-		"description": "> Enable this option to make menus and context menus compact. \n\n No: Default size. \n Yes: Compact size.",
+		"description": "> Enable this option to make menus and context menus compact. \n\n No : Default size. \n Yes : Compact size.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -1631,7 +1669,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.8.4",
+	"version": "4.8.6",
 
 	"github": {
 		"owner": "SaiyajinK",
