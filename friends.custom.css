@@ -153,14 +153,14 @@
 }
 
 .friendsui-container ::-webkit-scrollbar-thumb {
-	background-color: var(--minimal_dark_be_grey) !important;
+	background-color: var(--minimal_dark_be_grey);
 	border: 4.5px solid transparent !important;
-    border-radius: 20px !important;
+    border-radius: 20px;
 }
 
 .friendsui-container ::-webkit-scrollbar-thumb:hover {
 	background-color: var(--minimal_dark_color) !important;
-	border-radius:20px !important;
+	border-radius:20px;
 }
 
 .friendlistListContainer {
