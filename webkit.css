@@ -17197,4 +17197,10 @@ button._2oAiZidGyUxL-hfupFDQ2m.ContextMenuAutoFocus {
     margin-top: 60px !important;
 }
 
+.hero_capsule .hero_tag {
+    background-color: rgba(12, 12, 12, .4) !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
 /* end webkit */
