@@ -8,3 +8,8 @@
     background-color: #262626 !important;
     border-radius: 10px !important;
 }
+
+.friendsui-container ::-webkit-scrollbar-thumb {
+    background-color: #262626 !important;
+    border-radius: 10px !important;
+}
