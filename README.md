@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 99 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 100 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -625,7 +625,15 @@ _User color_ :<br>
 
 <hr>
 
-## Topbar options (10) : 
+## Topbar options (11) : 
+
+<details><summary>Alignment fix for 4k resolution :</summary><br> 
+
+_No_ :<br> 
+<img src="https://github.com/user-attachments/assets/f1666d3d-b76a-4012-82ba-4803173ae197"></p>
+
+_Yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/ebda4ffb-1e3b-4d8a-93b7-4a99417b3700"></p></details>
 
 <details><summary>Alternative contacts icon :</summary><br> 
 
@@ -927,7 +935,7 @@ How to access to skin settings ? <br><br>
 ▪ `Steam menu` ➡️ `Millennium` ➡️ `Themes` ➡️ `Minimal Dark 3 horizontal dots (…)` ➡️ `Configure` .
 
 ### 📸 <ins>Screenchots</ins> : <br>
-<img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/46a8d338-d757-4fe7-b885-855a524dc085" />
+<img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/10a06900-1738-4f3c-8c5b-80a083872016" />
 
 <hr>
 
