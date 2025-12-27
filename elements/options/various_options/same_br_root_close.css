@@ -40,6 +40,10 @@
     border-bottom-right-radius: var(--minimal_dark_corner) !important;
 }
 
+._1ENHEsrSLcTRtPQFl1F-wL.Maximized._1DvwQt0JN-Ogp_4tVZdkzX .title-area-icon.closeButton {
+    border-top-right-radius: var(--minimal_dark_corner) !important;
+}
+
 html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup.core .title-area-icon.closeButton {
     border-top-right-radius: var(--minimal_dark_corner) !important;
     border-bottom-right-radius: var(--minimal_dark_corner) !important;
