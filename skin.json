@@ -1096,8 +1096,8 @@
 		
 		"Alternative contacts icon :": {
 		"tab": "Topbar options (11)",
-		"description": "> Use alternative icon for contacts bloc. \n\n - Minimal Dark #1 (fill) : Fill effect on mouseover contact icon. \n - Minimal Dark #1 (outline) : outline effect on mouseover contact icon. \n - Minimal Dark #2 (fill) : Fill effect on mouseover contact icon. \n - Minimal Dark #2 (ourline) : outline effect on mouseover contact icon.",
-		"default": "Minimal Dark #1 (fill)",
+		"description": "> Use alternative icon for contacts bloc. \n\n - Minimal Dark #1 (fill) : Rounded icon with fill effect. \n - Minimal Dark #1 (outline) : Rounded icon with outline effect. \n - Minimal Dark #2 (fill) : Phone icon with fill effect. \n - Minimal Dark #2 (outline) : Phone icon with outline effect. \n - Minimal Dark #3 (fill) : Chat bubble with fill effect. \n - Minimal Dark #3 (outline) : Chat bubble with outline effect.",
+		"default": "Minimal Dark #3 (fill)",
 		"values": {
 			"Minimal Dark #1 (fill)": {},
 			"Minimal Dark #1 (outline)": {
@@ -1113,6 +1113,16 @@
 			"Minimal Dark #2 (outline)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_options/contacts_icon/alternative_contacts_icon_outline.css"
+					}
+				},
+			"Minimal Dark #3 (fill)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/contacts_icon/minimal_contacts_icon_alt_fill.css"
+					}
+				},
+			"Minimal Dark #3 (outline)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/contacts_icon/minimal_contacts_icon_alt_outline.css"
 					}
 				}
 			}
@@ -1683,7 +1693,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.8.7",
+	"version": "4.8.8",
 
 	"github": {
 		"owner": "SaiyajinK",
