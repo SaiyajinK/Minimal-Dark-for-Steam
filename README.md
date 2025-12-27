@@ -641,7 +641,10 @@ _Default_ :<br>
 <img src="https://github.com/user-attachments/assets/a98dd4f5-4ec0-4caa-80a5-0d577e384c3d"></p>
 
 _Alternative_ :<br> 
-<img src="https://github.com/user-attachments/assets/c195d68a-107e-48f3-bdd3-77e7a57c6fcb"></p></details>
+<img src="https://github.com/user-attachments/assets/c195d68a-107e-48f3-bdd3-77e7a57c6fcb"></p>
+
+_Bubble_ :<br> 
+<img src="https://github.com/user-attachments/assets/529c55a3-4bcf-46ca-8515-e747f7211e37"></p></details>
 
 <details><summary>Alternative downloads UI :</summary><br> 
 
