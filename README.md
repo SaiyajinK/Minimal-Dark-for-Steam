@@ -935,7 +935,7 @@ _Revisited_ :<br>
 </details>
 
 ### How to access to skin settings ? <br>
-<ins>*First method*</ins> : ▪ `Steam menu` ➡️ `Millennium Library Manager` ➡️ `Minimal Dark`. $${\color{lightgreen}(Recommended)}$$ <br>
+<ins>*First method*</ins> : ▪ `Steam menu` ➡️ `Millennium Library Manager` ➡️ `Minimal Dark`.<br>
 <ins>*Second method*</ins> : ▪ `Steam menu` ➡️ `Millennium` ➡️ `Themes tab` ➡️ `Minimal Dark 3 horizontal dots (…)` ➡️ `Configure`.<br>
 
 ### 📸 <ins>Screenchots</ins> : <br>
