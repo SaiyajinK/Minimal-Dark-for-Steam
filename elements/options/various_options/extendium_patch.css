@@ -1,0 +1,23 @@
+.extension-button,
+.extension-button:hover,
+.extension-button:active,
+.extension-button:focus,
+.extension-button:focus-visible {
+    background: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    transition: .25s ease-out !important;
+}
+
+.extensions-bar-container *:has(> .extension-button):hover,
+.extensions-bar-container *:has(> .extension-button:focus-visible),
+.extensions-bar-container *:has(> .extension-button:focus-within) {
+  border-color: rgba(0,0,0,0) !important;
+  border: 1px solid rgba(0,0,0,0) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.extension-button:hover svg {
+    color: var(--minimal_dark_color) !important
+}

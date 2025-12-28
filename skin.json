@@ -1295,7 +1295,7 @@
 		},
 		
 		"Alternative root menu icon :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Change the root menu icon with a alternative icon. \n\n - Minimal Dark : Half Steam logo. \n - Minimal Dark #1 : Full Steam logo. \n - Minimal Dark #2 : Rounded Steam logo (fill). \n - Minimal Dark #3 : Rounded Steam logo (oultine). \n - Minimal Dark #4 : Squared Steam logo (fill). \n - Minimal Dark #5 : Squared Steam logo (oultine).",
 		"default": "Minimal Dark",
 		"values": {
@@ -1329,7 +1329,7 @@
 		},
 
 		"Animated menu hovering :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Enable this option if you want to have an animation on menus hover. \n\n - No : Static menus mouseover. \n - Yes : Animated menus mouseover.",
 		"default": "yes",
 		"values": {
@@ -1343,7 +1343,7 @@
 		},
 		
 		"Change UI font :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Change the font of the interface. \n\n - Known bugs with topbar option 'Root menu Steam text' is disabled.",
 		"default": "Default",
 		"values": {
@@ -1387,7 +1387,7 @@
 		},
 		
 		"Context menus hover effect :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Added a border to the left of the block with the user-defined color on the context menus when hover. \n\n - No hover effect : Static mouseover. \n - With hover effect : Animated mouseover.",
 		"default": "With hover effect",
 		"values": {
@@ -1401,7 +1401,7 @@
 		},
 		
 		"Default pointers :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Display or hide pointers by default on the entire skin. \n\n - Steam : Steam default pointers. \n - Minimal Dark : Same cursor on the entire skin.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1414,8 +1414,22 @@
 			}
 		},
 
+		"Extendium Patch :": {
+		"tab": "Various options (12)",
+		"description": "> Activate this option to patch Extendium Extensions icon. \n\n - No : Default. \n - Yes : Minimal Dark Color.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/extendium_patch.css"
+					}
+				}
+			}
+		},
+
 		"Hide scrollbars :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Hide or show scrollbars. \n\n - Hide : Hide all scrollbars on the entirety of the skin. \n - Show : Show all scrollbars on the entirety of the skin.",
 		"default": "Show",
 		"values": {
@@ -1429,7 +1443,7 @@
 		},
 		
 		"Mouseover animation of settings menu tabs :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Enable or disable the category hover effect in settings section. \n\n - Animated : Mouseover are animated. \n - Static : Mousesover are static.",
 		"default": "Animated",
 		"values": {
@@ -1443,7 +1457,7 @@
 		},
 		
 		"No titlebar (Linux) :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Enable this option if you are using a tiled window manager in Linux and only use keyboard shortcuts to manage windows. \n\n - No : For Windows users. \n - Yes : If you are using a tiled window manager in Linux. \n\n Note : Leave this option disabled if you are on Windows.",
 		"default": "no",
 		"values": {
@@ -1457,7 +1471,7 @@
 		},
 		
 		"Pure black color (OLED) :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Activate this option to enable pure black if you have an OLED screen. \n\n - No : Default color. \n - Yes : Pure black (oled)",
 		"default": "no",
 		"values": {
@@ -1471,7 +1485,7 @@
 		},
 		
 		"Windows corners fix :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Same border radius value on all topbar buttons. \n\n No : Default values. \n Yes : Same values. \n\n NOTE : If you enable this option, you will need to disable the option directly below it, 'Windows 10 fix for root close corner'.",
 		"default": "yes",
 		"values": {
@@ -1485,7 +1499,7 @@
 		},
 		
 		"Windows 10 fix corners :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (12)",
 		"description": "> Fix the top left corner & top right corner for Windows 10 users. \n\n NOTE : Disable this option if you enable the option directly above, 'Windows corners fix'.",
 		"default": "no",
 		"values": {
