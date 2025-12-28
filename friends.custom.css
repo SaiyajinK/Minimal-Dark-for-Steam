@@ -433,28 +433,106 @@ button.DialogButton:active, button.DialogButton.gpfocus {
     overflow: hidden;
 }
 
-/* context menu ? */
+/* Context Menu Settings */
 
+
+/* BORDER RADIUS SETTINGS */
+
+/* First item in Top Part of Context Menu */
+.friendsui-container .contextMenuItem:first-child {
+    border-top-left-radius: var(--minimal_dark_corner) !important;
+    border-top-right-radius: var(--minimal_dark_corner) !important;
+}
+
+/* Last item in Top Part of Context Menu */
+.friendsui-container .contextMenuItem:last-child {
+    border-bottom-left-radius: var(--minimal_dark_corner) !important;
+    border-bottom-right-radius: var(--minimal_dark_corner) !important;
+}
+
+/* First item in Game Part of Context Menu */
+.friendsui-container .contextMenuGameOptions:first-child {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+/* Last item in Game Part of Context Menu */
+.friendsui-container .contextMenuSectionContent:last-child {
+    border-bottom-left-radius: var(--minimal_dark_corner) !important;
+    border-bottom-right-radius: var(--minimal_dark_corner) !important;
+}
+
+/* First item in Online, Away etc. Menu */
+.friendsui-container .contextMenuSectionContent:first-child {
+    border-top-left-radius: var(--minimal_dark_corner) !important;
+    border-top-right-radius: var(--minimal_dark_corner) !important;
+}
+
+/* END OF BORDER RADIUS SETTINGS */
+
+
+/* REST OF CONTEXT MENU SETTINGS */
+
+/* Top Part of Context Menu (Friend Part) */
 .friendsui-container .contextMenuItem {
-	border-top:0 !important;
-	color: var(--minimal_dark_less_white) !important;
+	color: var(--minimal_dark_less_white);
+    background: var(--minimal_dark_be_grey);
 }
 
-.friendsui-container .contextMenuGameName {
-	color: white;
-}
-
-.friendsui-container .recentName {
-	color: var(--minimal_dark_light_blue);
-}
-
-.friendsui-container .contextMenuItem:hover, .friendsui-container .contextMenuItem._1KPWUt7wYWSfD3V7sYpsyT {
-	background: var(--minimal_dark_be_grey) !important;
-}
-
+/* Bottom Part of Context Menu (Game Part) */
 .friendsui-container .contextMenuGameTitle,.friendsui-container .contextMenuSectionContent,.friendsui-container .contextMenuGameOptions {
-	background: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_less_white);
+    background: var(--minimal_dark_be_grey);
 }
+
+/* Game Font Color */
+.friendsui-container .contextMenuGameName {
+	color: #91C257;
+}
+
+/* Settings ONLY for the Game entry (Separates Friend & Game options nicely.) */
+.friendsui-container .contextMenuItem:has(.contextMenuGameName) {
+    background: var(--minimal_dark_black);
+    border-left: 2px solid #91C257 !important;
+}
+
+/* Hover Settings ONLY for the Game entry (I've set it so it don't change on hover as this button is unclickable.) */
+.friendsui-container .contextMenuItem:has(.contextMenuGameName):hover {
+    background: var(--minimal_dark_black) !important;
+}
+
+/* Manage -> Recent Names */
+.friendsui-container .recentName {
+	color: var(--minimal_dark_less_white);
+}
+
+/* Hover Settings of Context Menu Entries */
+.friendsui-container .contextMenuItem:hover, .friendsui-container .contextMenuItem._1KPWUt7wYWSfD3V7sYpsyT {
+    color: var(--minimal_dark_color);
+    background: var(--minimal_dark_blacker) !important; 
+}
+
+/* Context Menu Game Header Size */
+.contextMenuGameHeader {
+    width: 184px;
+    height: 69px;
+}
+
+/*Context Menu Game Header Mask */
+.contextMenuGameTitleBlurCropContainer {
+    -webkit-mask: none !important;
+    mask: none !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+}
+
+/* Context Menu Game Header Hover Background (It's unclickable) */
+.friendsui-container .contextMenuItem:has(.contextMenuGameHeader):hover {
+    background: var(--minimal_dark_be_grey) !important;
+}
+
+/* End of Context Menu Settings */
+
 
 .friendsui-container .LQkrbbayZPY11qHm01t7F {
 	background: var(--minimal_dark_black) !important;
