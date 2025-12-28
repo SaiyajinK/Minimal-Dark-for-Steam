@@ -935,8 +935,8 @@ _Revisited_ :<br>
 </details>
 
 ### How to access to skin settings ? <br>
-<ins>*First method*</ins> : ▪ `Steam menu` ➡️ `Millennium Library Manager` ➡️ `Minimal Dark`<br>
-<ins>*Second method*</ins> : ▪ `Steam menu` ➡️ `Millennium` ➡️ `Themes tab` ➡️ `Minimal Dark 3 dots (…)` ➡️ `Configure`<br>
+<ins>*First method*</ins> :<br> ▪ `Steam menu` ➡️ `Millennium Library Manager` ➡️ `Minimal Dark`<br>
+<ins>*Second method*</ins> :<br> ▪ `Steam menu` ➡️ `Millennium` ➡️ `Themes tab` ➡️ `Minimal Dark 3 dots (…)` ➡️ `Configure`<br>
 
 ### 📸 <ins>Screenchots</ins> : <br>
 <img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/10a06900-1738-4f3c-8c5b-80a083872016" />
