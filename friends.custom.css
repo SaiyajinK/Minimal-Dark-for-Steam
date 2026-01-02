@@ -448,8 +448,8 @@ button.DialogButton:active, button.DialogButton.gpfocus {
 	color: var(--minimal_dark_light_blue);
 }
 
-.friendsui-container .contextMenuItem:hover, .friendsui-container .contextMenuItem._1KPWUt7wYWSfD3V7sYpsyT {
-	background: var(--minimal_dark_be_grey) !important;
+.friendsui-container .contextMenuItem, .friendsui-container .contextMenuItem:hover, .friendsui-container .contextMenuItem._1KPWUt7wYWSfD3V7sYpsyT {
+    background: var(--minimal_dark_be_grey) !important;
 }
 
 .friendsui-container .contextMenuGameTitle,.friendsui-container .contextMenuSectionContent,.friendsui-container .contextMenuGameOptions {
@@ -2271,8 +2271,13 @@ button.DialogButton::before {
 
 .DialogProgressBar_ProgressBarContainer {
     border: 4px solid var(--minimal_dark_be_grey) !important;
-    border-radius: 20px !important;
+    border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.DialogProgressBar_Value {
+    background: var(--minimal_dark_color) !important;
+	border-radius: 0px;
 }
 
 .chatFileUploadProgressName {
@@ -2506,6 +2511,11 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 
 .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.online.awayOrSnooze .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
     transform: scale(1) translate(0px, 0px) !important;
+    transition: .25s ease-out !important;
+}
+
+.compactView .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.online.awayOrSnooze .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
+    transform: scale(1.18) translate(3px, 3px) !important;
     transition: .25s ease-out !important;
 }
 
@@ -2760,3 +2770,136 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
     transition: .25s ease-out !important;
     background: transparent !important;
 }
+
+.chatFileUploadCancel {
+    border-radius: var(--minimal_dark_corner) !important;
+    background-color: var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+}
+
+.chatFileUploadCancel:hover {
+    border-radius: var(--minimal_dark_corner) !important;
+    background-color: var(--minimal_dark_red2) !important;
+    transition: .25s ease-out !important;
+}
+
+/* context menu */
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
+    transition: .25s ease-out !important;
+	border-bottom-left-radius: var(--minimal_dark_corner) !important;
+	border-bottom-right-radius: var(--minimal_dark_corner) !important;
+}
+
+.contextMenuGameTitle.contextMenuUnselectable._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem.disabled {
+    background: var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+}
+
+.contextMenuGameTitle.contextMenuUnselectable._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem.disabled:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
+    background: var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child {
+    transition: .25s ease-out !important;
+	border-top-left-radius: var(--minimal_dark_corner) !important;
+	border-top-right-radius: var(--minimal_dark_corner) !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+	border-top-left-radius: var(--minimal_dark_corner) !important;
+	border-top-right-radius: var(--minimal_dark_corner) !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child {
+    transition: .25s ease-out !important;
+	border-bottom-left-radius: var(--minimal_dark_corner) !important;
+	border-bottom-right-radius: var(--minimal_dark_corner) !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+	border-bottom-left-radius: var(--minimal_dark_corner) !important;
+	border-bottom-right-radius: var(--minimal_dark_corner) !important;
+}
+
+.contextMenuGameTitle.contextMenuUnselectable._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem.disabled:hover .contextMenuGameTitleBlurCropContainer .contextMenuGameItem span.contextMenuGameName {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+._14wqdluDeDnnEcg3OSLEmd .client_chat_frame .MillenniumWindow_ContextMenu .Menu .ContextMenuPopupBody .friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI .contextMenuItem:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+	border-top-left-radius: var(--minimal_dark_corner) !important;
+	border-top-right-radius: var(--minimal_dark_corner) !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+	border-bottom-left-radius: var(--minimal_dark_corner) !important;
+	border-bottom-right-radius: var(--minimal_dark_corner) !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem, html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
+    background: var(--minimal_dark_be_grey) !important;
+    color: var(--minimal_dark_less_white) !important;
+    transition: .25s ease-out !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover, html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+    background: var(--minimal_dark_blacker) !important;
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu, html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
+    fill: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover ._114nFoGF7tZ4PpremDP2w0 svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
+    fill: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+/* end context menu */

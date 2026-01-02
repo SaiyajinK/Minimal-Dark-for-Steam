@@ -1956,8 +1956,8 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
-	/* border-radius: var(--minimal_dark_corner) !important; */
-	transition: .25s ease-out !important;
+    /* border-radius: var(--minimal_dark_corner) !important; */
+    transition: .25s ease-out !important;
 }
 
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {

@@ -392,8 +392,8 @@
 		
 		"Avatar frame :": {
 		"tab": "Global options (10)",
-		"description": "> Hide or show avatar frame on all avatars. \n\n - Hide : Hide avatar frame on the entire skin. \n - Show : Show avatar frame on the entire skin.",
-		"default": "Hide",
+		"description": "> Hide or show avatar frame on all avatars. \n\n - Hide : Hide avatar frame on the entire skin. \n - Show : Show avatar frame on the entire skin. \n\n NOTE : If you decide to display avatar frames, remember to check the toggle in the Steam settings 'Contacts and Chats: Enable animated avatars and avatar frames in your contacts list and in chat'",
+		"default": "Show",
 		"values": {
 			"Show": {
 			"TargetCss": {
@@ -410,13 +410,43 @@
 		
 		"Compact menus/context menus :": {
 		"tab": "Global options (10)",
-		"description": "> Enable this option to make menus and context menus compact. \n\n No : Default size. \n Yes : Compact size.",
-		"default": "yes",
+		"description": "> This option allows you to make the menus/context menus compact (or not), animated (or not), with a left border (or not). \n\n - The informations are directly on the sub-options.",
+		"default": "Compact size (animated with left border)",
 		"values": {
-			"no": {},
-			"yes": {
+			"Compact size (static)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/compact_menus.css"
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/compact_size_static.css"
+					}
+			},
+			"Compact size (animated)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/compact_size_animated.css"
+					}
+			},
+			"Compact size (static with left border)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/compact_size_static_wlb.css"
+					}
+			},
+			"Compact size (animated with left border)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/compact_size_animated_wlb.css"
+					}
+			},
+			"Default size (static)": {},
+			"Default size (animated)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/default_size_animated.css"
+					}
+			},
+			"Default size (static with left border)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/default_size_static_wlb.css"
+					}
+			},
+			"Default size (animated with left border)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/default_size_animated_wlb.css"
 					}
 				}
 			}
@@ -427,7 +457,11 @@
 		"description": "> Sets the strength of corner rounding. \n\n - Square : 0px. \n - Rounded : 5px. \n - More rounded : 10px.",
 		"default": "Rounded",
 		"values": {
-			"Square": {},
+			"Square": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/corners/corner0.css"
+					}
+				},
 			"Rounded": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/global_options/corners/corner5.css"
@@ -892,7 +926,7 @@
 		},
 		
 		"Alternative hover effect :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Set user color gradient to the left on hover. \n\n - Default : Left user color border on mouseover. \n - User color gradient : Left user color border and gradient on mouseover.",
 		"default": "Default",
 		"values": {
@@ -906,7 +940,7 @@
 		},
 		
 		"Alternative ingame friends indicator :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Changes the indicator of ingame friends. \n\n - Minimal Dark default : Vertical bar. \n - Minimal Dark alternative #1 : Alternative vertical bar. \n - Minimal Dark alternative #2 : Horizontal bar. \n - Dot #1 : Rounded dot. \n - Dot #2 : Small rounded dot. \n - Dot #3 : Squared dot. \n - Dot #4 : Small squared dot.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -945,7 +979,7 @@
 		},
 		
 		"Animated mouseover :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Add an animation when hovering over the list of games. \n\n - No : No animation. \n - Yes : Animated.",
 		"default": "yes",
 		"values": {
@@ -959,7 +993,7 @@
 		},
 		
 		"Bigger font size :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Make games names bigger. \n\n - No : Normal font size. \n - Yes : Bigger font size.",
 		"default": "no",
 		"values": {
@@ -973,7 +1007,7 @@
 		},
 		
 		"Bolder names :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Make the game names in the sidebar bolder. \n\n - No : Normal font. \n - Yes : Bolder font.",
 		"default": "no",
 		"values": {
@@ -986,8 +1020,22 @@
 			}
 		},
 		
+		"Games names overflow :": {
+		"tab": "Sidebar options (12)",
+		"description": "> Enable this option to prevent the game name from overlapping outside the sidebar block. \n\n - No : The game name overflows and is displayed in full. \n - Yes : The game name no longer overflows the sidebar when the mouse hovers over it.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/no_games_names_overflow.css"
+					}
+				}
+			}
+		},
+		
 		"Installed/selected games color :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Changes the color of installed/selected games. \n\n - Minimal Dark : Beige names / user color selected. \n - Minimal Dark alternative : White names / user color selected. \n - White : White names / white selected.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1006,7 +1054,7 @@
 		},
 		
 		"No left images :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Hide game images to the left of the names in the left bar. \n\n - No : Show images. \n - Yes : Hide images.",
 		"default": "no",
 		"values": {
@@ -1020,9 +1068,9 @@
 		},
 		
 		"Persistent Sidebar :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Enabling this option displays the sidebar where it is not usually displayed (webkit, community, profil). \n\n - No : Hide sidebar on webkit, community and profil. \n - Yes : Show sidebar on webkit, community and profil. \n\n Known bug : the main filter is not accessible on the webkit.",
-		"default": "yes",
+		"default": "no",
 		"values": {
 			"no": {},
 			"yes": {
@@ -1034,7 +1082,7 @@
 		},
 		
 		"Pointer fix :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Fix cursor for sidebar resize when the Persistent Sidebar option is disabled only. \n\n - No : Leave this option disabled if you are using the persistent sidebar. \n - Yes : Enable this option if you do not use the persistent sidebar.",
 		"default": "no",
 		"values": {
@@ -1048,7 +1096,7 @@
 		},
 		
 		"Show sidebar on mouseover :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Displays the sidebar when the mouse hovers over it. \n\n - Default : Default display for sidebar. \n - On mouseover : Displays the sidebar when the mouse hovers over it. \n\n Note : The advanced filters and the filter buttons are not working.",
 		"default": "Default",
 		"values": {
@@ -1062,7 +1110,7 @@
 		},
 		
 		"Uninstalled selected games color :": {
-		"tab": "Sidebar options (11)",
+		"tab": "Sidebar options (12)",
 		"description": "> Changes the color of selected uninstalled games. \n\n - Minimal Dark : Red color. \n - White : White color. \n - User : User color.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1295,7 +1343,7 @@
 		},
 		
 		"Alternative root menu icon :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (9)",
 		"description": "> Change the root menu icon with a alternative icon. \n\n - Minimal Dark : Half Steam logo. \n - Minimal Dark #1 : Full Steam logo. \n - Minimal Dark #2 : Rounded Steam logo (fill). \n - Minimal Dark #3 : Rounded Steam logo (oultine). \n - Minimal Dark #4 : Squared Steam logo (fill). \n - Minimal Dark #5 : Squared Steam logo (oultine).",
 		"default": "Minimal Dark",
 		"values": {
@@ -1328,22 +1376,8 @@
 			}
 		},
 
-		"Animated menu hovering :": {
-		"tab": "Various options (11)",
-		"description": "> Enable this option if you want to have an animation on menus hover. \n\n - No : Static menus mouseover. \n - Yes : Animated menus mouseover.",
-		"default": "yes",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/animated_menu_hovering.css"
-					}
-				}
-			}
-		},
-		
 		"Change UI font :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (9)",
 		"description": "> Change the font of the interface. \n\n - Known bugs with topbar option 'Root menu Steam text' is disabled.",
 		"default": "Default",
 		"values": {
@@ -1386,22 +1420,8 @@
 			}
 		},
 		
-		"Context menus hover effect :": {
-		"tab": "Various options (11)",
-		"description": "> Added a border to the left of the block with the user-defined color on the context menus when hover. \n\n - No hover effect : Static mouseover. \n - With hover effect : Animated mouseover.",
-		"default": "With hover effect",
-		"values": {
-			"No hover effect": {},
-			"With hover effect": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/menus_hover_effect.css"
-					}
-				}
-			}
-		},
-		
 		"Default pointers :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (9)",
 		"description": "> Display or hide pointers by default on the entire skin. \n\n - Steam : Steam default pointers. \n - Minimal Dark : Same cursor on the entire skin.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1415,7 +1435,7 @@
 		},
 
 		"Hide scrollbars :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (9)",
 		"description": "> Hide or show scrollbars. \n\n - Hide : Hide all scrollbars on the entirety of the skin. \n - Show : Show all scrollbars on the entirety of the skin.",
 		"default": "Show",
 		"values": {
@@ -1429,7 +1449,7 @@
 		},
 		
 		"Mouseover animation of settings menu tabs :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (9)",
 		"description": "> Enable or disable the category hover effect in settings section. \n\n - Animated : Mouseover are animated. \n - Static : Mousesover are static.",
 		"default": "Animated",
 		"values": {
@@ -1443,7 +1463,7 @@
 		},
 		
 		"No titlebar (Linux) :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (9)",
 		"description": "> Enable this option if you are using a tiled window manager in Linux and only use keyboard shortcuts to manage windows. \n\n - No : For Windows users. \n - Yes : If you are using a tiled window manager in Linux. \n\n Note : Leave this option disabled if you are on Windows.",
 		"default": "no",
 		"values": {
@@ -1457,7 +1477,7 @@
 		},
 		
 		"Pure black color (OLED) :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (9)",
 		"description": "> Activate this option to enable pure black if you have an OLED screen. \n\n - No : Default color. \n - Yes : Pure black (oled)",
 		"default": "no",
 		"values": {
@@ -1471,7 +1491,7 @@
 		},
 		
 		"Windows corners fix :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (9)",
 		"description": "> Same border radius value on all topbar buttons. \n\n No : Default values. \n Yes : Same values. \n\n NOTE : If you enable this option, you will need to disable the option directly below it, 'Windows 10 fix for root close corner'.",
 		"default": "yes",
 		"values": {
@@ -1485,7 +1505,7 @@
 		},
 		
 		"Windows 10 fix corners :": {
-		"tab": "Various options (11)",
+		"tab": "Various options (9)",
 		"description": "> Fix the top left corner & top right corner for Windows 10 users. \n\n NOTE : Disable this option if you enable the option directly above, 'Windows corners fix'.",
 		"default": "no",
 		"values": {
@@ -1693,7 +1713,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "4.8.8",
+	"version": "5.0.0",
 
 	"github": {
 		"owner": "SaiyajinK",

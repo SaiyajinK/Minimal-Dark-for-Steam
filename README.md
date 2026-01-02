@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 100 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 99 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -250,11 +250,29 @@ _Hide_ :<br>
 
 <details><summary>Compact menus/context menus :</summary><br>  
 
-_No_ :<br>
-<img src="https://github.com/user-attachments/assets/13466fb7-355f-4a65-a2c1-2af1d3b0d54f"></p>
+_Compact size (static)_ :<br>
+<img src="https://github.com/user-attachments/assets/e65f52ae-072f-4daf-873a-ca2cc3ab1f52"></p>
 
-_Yes_ :<br>
-<img src="https://github.com/user-attachments/assets/29c6398d-f82e-4f07-a435-9492cbca1cd5"></p></details>
+_Compact size (animated)_ :<br>
+<img src="https://github.com/user-attachments/assets/685811df-0e22-4e98-aca3-b8dd619b328d"></p>
+
+_Compact size (static with left border)_ :<br>
+<img src="https://github.com/user-attachments/assets/7504f03a-cbd4-4c6b-a819-257ce382ee6e"></p>
+
+_Compact size (animated with left border)_ :<br>
+<img src="https://github.com/user-attachments/assets/acf8e10f-d8db-4dff-a34a-511ba94131f9"></p>
+
+_Default size (static)_ :<br>
+<img src="https://github.com/user-attachments/assets/5c358567-2eff-40b0-bef7-f00cdd7fd798"></p>
+
+_Default size (animated)_ :<br>
+<img src="https://github.com/user-attachments/assets/a7fd0978-ec85-478f-ae22-8ee7c7e9ef23"></p>
+
+_Default size (static with left border)_ :<br>
+<img src="https://github.com/user-attachments/assets/560d672e-f8cb-4b06-9238-d2faace2ccc9"></p>
+
+_Default size (animated with left border)_ :<br>
+<img src="https://github.com/user-attachments/assets/610ffb50-5eb6-4176-b187-6582bfbba98c"></p></details>
 
 <details><summary>Corners radius :</summary><br>  
 
@@ -518,7 +536,7 @@ _yes_ :<br>
 
 <hr>
 
-## Sidebar options (11) : 
+## Sidebar options (12) : 
 
 <details><summary>Alternative hover effect :</summary><br> 
 
@@ -574,6 +592,14 @@ _no_ :<br>
 
 _yes_ :<br> 
 <img src="https://github.com/user-attachments/assets/011d6ad2-9c14-41aa-81e9-b2e44db7c335"></p></details>
+
+<details><summary>Games names overflow :</summary><br>
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/61fa4e63-40f0-4a02-a808-a799900dfdff"></p>
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/a5735ae7-150b-4e12-ac25-a08e3e2af98c"></p></details>
 
 <details><summary>Installed/selected games color :</summary><br> 
 
@@ -720,7 +746,7 @@ _yes_ :<br>
 
 <hr>
 
-## Various options (11) : 
+## Various options (9) : 
 
 <details><summary>Alternative root menu icon :</summary><br>  
 
@@ -735,14 +761,6 @@ _Minimal Dark rounded icon_ :<br>
 
 _Minimal Dark squared icon_ :<br> 
 <img src="https://github.com/user-attachments/assets/555a0dc8-859c-44c9-8ba9-c561026ecec0"></p></details>
-
-<details><summary>Animated menu hovering :</summary><br>  
-
-_yes_ :<br> 
-<img src="https://github.com/user-attachments/assets/3b7262f1-7b76-477c-8e2b-cc02c94dc86a"></p>
-
-_no_ :<br> 
-<img src="https://github.com/user-attachments/assets/3dd209d1-b164-47d3-8705-85cdede210e5"></p></details>
 
 <details><summary>Change UI font :</summary><br>  
 
@@ -769,14 +787,6 @@ _Orbitron_ :<br>
 
 _JetBrains_ :<br> 
 <img src="https://github.com/user-attachments/assets/f406eff8-12d8-4870-b8db-b3604b8c8411"></p></details>
-
-<details><summary>Context menus hover effect :</summary><br>  
-
-_No hover effect_ :<br> 
-<img src="https://github.com/user-attachments/assets/db25354a-7eda-4c0f-82ce-9193374f8eef"></p>
-
-_With hover effect_ :<br> 
-<img src="https://github.com/user-attachments/assets/3ae4cfcb-13b6-4429-8359-72899a442664"></p></details>
 
 <details><summary>Default pointers :</summary><br>  
 
@@ -935,8 +945,7 @@ _Revisited_ :<br>
 </details>
 
 ### How to access to skin settings ? <br>
-<ins>*First method*</ins> :<br> ▪ `Steam menu` ➡️ `Millennium Library Manager` ➡️ `Minimal Dark`<br>
-<ins>*Second method*</ins> :<br> ▪ `Steam menu` ➡️ `Millennium` ➡️ `Themes tab` ➡️ `Minimal Dark 3 dots (…)` ➡️ `Configure`<br>
+▪ `Steam menu` ➡️ `Millennium Library Manager` ➡️ `Minimal Dark`<br>
 
 ### 📸 <ins>Screenchots</ins> : <br>
 <img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/10a06900-1738-4f3c-8c5b-80a083872016" />

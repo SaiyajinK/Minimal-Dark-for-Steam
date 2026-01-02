@@ -3205,9 +3205,9 @@ a.activetrigger,a.trigger {
 }
 
 .popup_block {
-    position: static !important;
+    /* position: static !important; */
     transition: .25s ease-out !important;
-    transform: translate(-50px, 0px) !important;
+    transform: translate(10px, 32px) !important;
 }
 
 .popup_body.popup_menu.shadow_content {
@@ -3215,6 +3215,11 @@ a.activetrigger,a.trigger {
     z-index: 200 !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     background: var(--minimal_dark_blacker_alt) !important;
+    /* transform: translate(5px, 16px) !important; */
+}
+
+html.responsive.client.DesktopUI.MillenniumWindow_SteamBrowser body.flat_page.profile_edit_page.responsive_page .popup_block .shadow_content.popup_body.popup_menu {
+    transform: translate(5px, 16px) !important;
 }
 
 #profile_action_dropdown .popup_menu_item {
@@ -3805,9 +3810,8 @@ body.v6 #footer .rule {
 }
 
 .queue_controls_description {
-    color: var(--gold)!important;
-    background: 0 0!important;
-    margin-top: -28px!important;
+    background: 0 0 !important;
+    margin-top: -8px !important;
     padding-bottom: 40px !important;
 }
 
@@ -3816,7 +3820,13 @@ body.v6 #footer .rule {
     width: 130px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
-    transform: translate(88px, -14px) !important;
+    transform: translate(40px, -14px) !important;
+    height: 70% !important;
+	background: var(--minimal_dark_blacker) !important;
+}
+
+.btn_next_in_queue:after {
+    visibility: hidden !important;
 }
 
 .btn_next_in_queue .next_in_queue_content:hover {
@@ -3825,7 +3835,8 @@ body.v6 #footer .rule {
 	color: var(--minimal_dark_color1) !important;
     border: 1px solid var(--minimal_dark_color1) !important;
     border-radius: var(--minimal_dark_corner) !important;
-    transform: translate(88px, -14px) !important;
+    transform: translate(40px, -14px) !important;
+    height: 70% !important;
 }
 
 .btn_next_in_queue .next_in_queue_content:active {
@@ -3834,9 +3845,10 @@ body.v6 #footer .rule {
 	color: white !important;
     border: 1px solid var(--minimal_dark_color1) !important;
     border-radius: var(--minimal_dark_corner) !important;
-    transform: translate(88px, -14px) !important;
+    transform: translate(40px, -14px) !important;
 	transition: .25s ease-out !important;
 	box-shadow: inset 0 0 8px #000000c2 !important;
+    height: 70% !important;
 }
 
 .btn_next_in_queue {
@@ -9688,7 +9700,7 @@ p.reason.info:before {
 }
 
 .home_discount_games_ctn {
-    background-color: var(--minimal_dark_blacker_alt) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
@@ -16854,7 +16866,7 @@ div#recommended_creators_carousel .carousel_items.store_capsule_container.respon
 }
 
 .home_tab_bg_ctn {
-    background: var(--minimal_dark_invisiblegrey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .tab_row_item {
@@ -17201,6 +17213,59 @@ button._2oAiZidGyUxL-hfupFDQ2m.ContextMenuAutoFocus {
     background-color: rgba(12, 12, 12, .4) !important;
     border: 1px solid var(--minimal_dark_invisiblegrey) !important;
     border-radius: var(--minimal_dark_corner) !important;
+}
+
+.extension-button, .extension-button:hover, .extension-button:active, .extension-button:focus, .extension-button:focus-visible {
+    background: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    transition: .25s ease-out !important;
+}
+
+.extensions-bar-container *:has(> .extension-button):hover, .extensions-bar-container *:has(> .extension-button:focus-visible), .extensions-bar-container *:has(> .extension-button:focus-within) {
+  border-color: rgba(0,0,0,0) !important;
+  border: 1px solid rgba(0,0,0,0) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.extension-button:hover svg {
+    color: var(--minimal_dark_color) !important
+}
+
+.extension-button:active svg {
+    color: white !important
+}
+
+body#gsr {
+    background: var(--minimal_dark_black) !important;
+}
+
+.deep_dive_key_tags {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.deep_dive_tag {
+    border-radius: var(--minimal_dark_corner) !important;
+    padding: 4px 4px;
+}
+
+.top_new_releases_carousel_bg {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.home_tabs_sections .tab_content_items {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.tab_preview_details {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.home_content.single {
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 
 /* end webkit */
