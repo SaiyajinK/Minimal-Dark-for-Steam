@@ -22,10 +22,10 @@
 
 ._2sYIghGVXJr6tsQVvcryy8 {
     border-right: 1px solid var(--minimal_dark_blacker_alt) !important;
-    background: linear-gradient(to right, #0e0e0eb8 40%, rgba(62, 78, 105, 0) 100%) !important;
+    background: transparent !important;
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
 }
 
 ._2sYIghGVXJr6tsQVvcryy8._2zGph-MSF37bUmk_Qlu_XG {
@@ -56,8 +56,8 @@
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ {
-    background: linear-gradient(90deg, rgba(25,25,25,1) 0%, rgba(20,20,20,1) 50%, rgba(255,255,255,0) 100%);
-	box-sizing: border-box;
+    background: linear-gradient(to right, rgb(25 25 25) 0%, rgb(12 12 12 / 0%) 70%, rgb(18 18 18) 100%);
+    box-sizing: border-box;
     font-size: 12px;
     display: block;
     text-overflow: ellipsis;

@@ -1750,3 +1750,8 @@ button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
 ._2tCNvxerDW3kH9lXAFl0NK {
     color: var(--minimal_dark_color) !important;
 }
+
+._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
+    background: var(--minimal_dark_blacker_alt);
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+}
