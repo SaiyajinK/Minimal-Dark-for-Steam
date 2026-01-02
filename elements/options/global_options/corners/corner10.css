@@ -13,3 +13,146 @@
     background-color: #262626 !important;
     border-radius: 10px !important;
 }
+
+.DialogProgressBar_Value {
+    border-radius: 10px !important;
+}
+
+/* login */
+
+.l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux {
+    border: 2px solid #262626 !important;
+    background-color: #121212 !important;
+    border-radius: 10px !important;
+}
+
+.l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux:hover {
+    border: 2px solid var(--SystemAccentColor) !important;
+    background-color: #121212 !important;
+    border-radius: 10px !important;
+}
+
+._1mt2mPMVEDfpOhhWePy9hc:focus .IfVUbt19eXIqaAuGh2i63, ._1mt2mPMVEDfpOhhWePy9hc:hover .IfVUbt19eXIqaAuGh2i63 {
+    border: 2px solid var(--SystemAccentColor) !important;
+	border-radius: 10px !important;
+}
+
+._1mt2mPMVEDfpOhhWePy9hc:focus .IfVUbt19eXIqaAuGh2i63, ._1mt2mPMVEDfpOhhWePy9hc:hover .IfVUbt19eXIqaAuGh2i63 svg rect {
+    fill: var(--SystemAccentColor) !important;
+}
+
+.l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux>img, .l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux>svg {
+    border-radius: 10px !important;
+}
+
+.VZ6x_grhNkIYJG__jEEyp.DesktopUI._1NBr0Hdw3P-7Q6P5UXs96Y, .DesktopUI .VZ6x_grhNkIYJG__jEEyp._1NBr0Hdw3P-7Q6P5UXs96Y {
+    background: #121212 !important;
+}
+
+.VZ6x_grhNkIYJG__jEEyp {
+    background: #121212 !important;
+}
+
+.lat0M-V5X4uYd6Mpm1DJ1 ._2v9dClMg2Lmn8UVv6GUeJt {
+    background: #121212 !important;
+}
+
+.lat0M-V5X4uYd6Mpm1DJ1 .DjSvCZoKKfoNSmarsEcTS {
+    background: #141414 !important;
+    border-radius: 10px !important;
+    border: 1px solid #262626 !important;
+	transition: .25s ease-out !important;
+}
+
+.lat0M-V5X4uYd6Mpm1DJ1 .DjSvCZoKKfoNSmarsEcTS:hover {
+    background: #181818 !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--SystemAccentColor) !important;
+	color: var(--SystemAccentColor) !important;
+	transition: .25s ease-out !important;
+}
+
+.lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx {
+    border-radius: 10px !important;
+    border: 1px solid #262626 !important;
+    background-color: #121212 !important;
+}
+
+.lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx:hover {
+    border-radius: 10px !important;
+    border: 1px solid var(--SystemAccentColor) !important;
+    background-color: #181818 !important;
+}
+
+.lat0M-V5X4uYd6Mpm1DJ1 .LBS7IDpob52Sb4ZoKobh0 {
+    background-color: #121212 !important;
+	border: 1px solid #262626 !important;
+    border-radius: 10px !important;
+}
+
+svg._2E_ejdBSC79L4iDC4FAMHY path {
+    fill: var(--SystemAccentColor) !important;
+}
+
+.LBS7IDpob52Sb4ZoKobh0 ._28MB9LhS2kVTalIp0NHDv4 svg polyline {
+    stroke: var(--SystemAccentColor) !important;
+}
+
+.lat0M-V5X4uYd6Mpm1DJ1 .LBS7IDpob52Sb4ZoKobh0:focus {
+    outline: 1px solid var(--SystemAccentColor) !important;
+}
+
+.lat0M-V5X4uYd6Mpm1DJ1 .XrYgea66b38RASmbI3PJo._12zBmIktqPpcwJXItTb8f9 {
+    color: var(--SystemAccentColor) !important;
+}
+
+._2FxbHJzYoH024ko7zqcJOf {
+    background: #181818 !important;
+    border-radius: 10px !important;
+    color: var(--SystemAccentColor) !important;
+    text-shadow: none !important;
+	transition: .25s ease-out !important;
+}
+
+.lat0M-V5X4uYd6Mpm1DJ1 .DjSvCZoKKfoNSmarsEcTS:focus {
+    outline: 1px solid var(--SystemAccentColor) !important;
+	transition: .25s ease-out !important;
+}
+
+svg._3v6WnuVNx1rJx0x_1AAyPp path {
+    fill: var(--SystemAccentColor) !important;
+	transition: .25s ease-out !important;
+}
+
+._2Jkgs1ZwjavbwnJy76UgUm:hover svg path {
+    fill: var(--SystemAccentColor) !important;
+    transition: .25s ease-out !important;
+}
+
+body.QsvsRVwbsApgKt1MhM0fz.DesktopUI .VZ6x_grhNkIYJG__jEEyp._1NBr0Hdw3P-7Q6P5UXs96Y.DesktopUI .title-bar-actions.window-controls .title-area-icon.closeButton.windowControlButton {
+    transition: .25s ease-out !important;
+    border-radius: 10px !important;
+    /* border-top-right-radius: 0px !important; */
+    border: 1px solid #262626 !important;
+    transform: translate(-3px, 4px) !important;
+}
+
+body.QsvsRVwbsApgKt1MhM0fz.DesktopUI .VZ6x_grhNkIYJG__jEEyp._1NBr0Hdw3P-7Q6P5UXs96Y.DesktopUI .title-bar-actions.window-controls .title-area-icon.closeButton.windowControlButton:hover {
+	background: #f1244669 !important;
+    transition: .25s ease-out !important;
+    border-radius: 10px !important;
+    /* border-top-right-radius: 0px !important; */
+    border: 1px solid #f12446 !important;
+    transform: translate(-3px, 4px) !important;
+}
+
+body.QsvsRVwbsApgKt1MhM0fz.DesktopUI .VZ6x_grhNkIYJG__jEEyp._1NBr0Hdw3P-7Q6P5UXs96Y.DesktopUI .title-bar-actions.window-controls .title-area-icon.closeButton.windowControlButton:active {
+    transition: .25s ease-out !important;
+    border-radius: 10px !important;
+    /* border-top-right-radius: 0px !important; */
+    border: 1px solid #f12446; !important;
+    transform: translate(-3px, 4px) !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+/* end login */

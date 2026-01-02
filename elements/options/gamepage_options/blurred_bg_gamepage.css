@@ -7,4 +7,10 @@
     backdrop-filter: blur(8px) !important;
     background: rgb(18 18 18 / 40%) !important;
 }
+
+._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
+    background: transparent !important;
+    border-top: 1px solid var(--minimal_dark_invisiblegrey) !important;
+}
+
 /* end top of the game page when scrolling. */
