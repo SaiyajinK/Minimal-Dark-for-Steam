@@ -448,6 +448,10 @@ button.DialogButton:active, button.DialogButton.gpfocus {
 	color: var(--minimal_dark_light_blue);
 }
 
+.friendsui-container .contextMenuItem:hover {
+    color: var(--minimal_dark_color) !important;
+}
+
 .friendsui-container .contextMenuItem, .friendsui-container .contextMenuItem:hover, .friendsui-container .contextMenuItem._1KPWUt7wYWSfD3V7sYpsyT {
     background: var(--minimal_dark_be_grey) !important;
 }
@@ -2785,13 +2789,13 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 
 /* context menu */
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
     transition: .25s ease-out !important;
 	border-bottom-left-radius: var(--minimal_dark_corner) !important;
 	border-bottom-right-radius: var(--minimal_dark_corner) !important;
@@ -2808,43 +2812,43 @@ html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu
     transition: .25s ease-out !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
     background: var(--minimal_dark_be_grey) !important;
     transition: .25s ease-out !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child {
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child {
     transition: .25s ease-out !important;
-	border-top-left-radius: var(--minimal_dark_corner) !important;
-	border-top-right-radius: var(--minimal_dark_corner) !important;
+	/* border-top-left-radius: var(--minimal_dark_corner) !important; */
+	/* border-top-right-radius: var(--minimal_dark_corner) !important; */
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child:hover {
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child:hover {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
-	border-top-left-radius: var(--minimal_dark_corner) !important;
-	border-top-right-radius: var(--minimal_dark_corner) !important;
+	/* border-top-left-radius: var(--minimal_dark_corner) !important; */
+	/* border-top-right-radius: var(--minimal_dark_corner) !important; */
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child {
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child {
     transition: .25s ease-out !important;
-	border-bottom-left-radius: var(--minimal_dark_corner) !important;
-	border-bottom-right-radius: var(--minimal_dark_corner) !important;
+	/* border-bottom-left-radius: var(--minimal_dark_corner) !important; */
+	/* border-bottom-right-radius: var(--minimal_dark_corner) !important; */
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
-	border-bottom-left-radius: var(--minimal_dark_corner) !important;
-	border-bottom-right-radius: var(--minimal_dark_corner) !important;
+	/* border-bottom-left-radius: var(--minimal_dark_corner) !important; */
+	/* border-bottom-right-radius: var(--minimal_dark_corner) !important; */
 }
 
 .contextMenuGameTitle.contextMenuUnselectable._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem.disabled:hover .contextMenuGameTitleBlurCropContainer .contextMenuGameItem span.contextMenuGameName {
@@ -2858,13 +2862,13 @@ html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu
     transition: .25s ease-out !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child:hover {
+._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child:hover {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
@@ -2872,7 +2876,7 @@ html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu
 	border-top-right-radius: var(--minimal_dark_corner) !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
+._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
@@ -2880,26 +2884,36 @@ html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu
 	border-bottom-right-radius: var(--minimal_dark_corner) !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem, html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
+._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem, ._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
     background: var(--minimal_dark_be_grey) !important;
     color: var(--minimal_dark_less_white) !important;
     transition: .25s ease-out !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover, html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover, ._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
     background: var(--minimal_dark_blacker) !important;
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu, html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container.WindowFocus .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
+._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu, ._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
     fill: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-html._14wqdluDeDnnEcg3OSLEmd.client_chat_frame.MillenniumWindow_ContextMenu.Menu body.ContextMenuPopupBody.friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover ._114nFoGF7tZ4PpremDP2w0 svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover ._114nFoGF7tZ4PpremDP2w0 svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
     fill: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
 /* end context menu */
+
+._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:nth-of-type(1) {
+    border-top-left-radius: var(--minimal_dark_corner) !important;
+    border-top-right-radius: var(--minimal_dark_corner) !important;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child {
+    border-bottom-left-radius: var(--minimal_dark_corner) !important;
+    border-bottom-right-radius: var(--minimal_dark_corner) !important;
+}

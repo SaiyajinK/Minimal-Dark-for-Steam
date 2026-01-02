@@ -411,7 +411,7 @@
 		"Compact menus/context menus :": {
 		"tab": "Global options (10)",
 		"description": "> This option allows you to make the menus/context menus compact (or not), animated (or not), with a left border (or not). \n\n - The informations are directly on the sub-options.",
-		"default": "Compact size (animated with left border)",
+		"default": "Compact size (static with left border)",
 		"values": {
 			"Compact size (static)": {
 			"TargetCss": {
@@ -1713,7 +1713,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.0.0",
+	"version": "5.0.0-fixed",
 
 	"github": {
 		"owner": "SaiyajinK",
