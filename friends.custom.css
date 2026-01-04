@@ -2856,25 +2856,25 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
     transition: .25s ease-out !important;
 }
 
-._14wqdluDeDnnEcg3OSLEmd .client_chat_frame .MillenniumWindow_ContextMenu .Menu .ContextMenuPopupBody .friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI .contextMenuItem:hover {
-    background: var(--minimal_dark_blacker) !important;
-    color: var(--minimal_dark_color) !important;
-    transition: .25s ease-out !important;
-}
+/* ._14wqdluDeDnnEcg3OSLEmd .client_chat_frame .MillenniumWindow_ContextMenu .Menu .ContextMenuPopupBody .friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI .contextMenuItem:hover { */
+    /* background: var(--minimal_dark_blacker) !important; */
+    /* color: var(--minimal_dark_color) !important; */
+    /* transition: .25s ease-out !important; */
+/* } */
 
-._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
-    background: var(--minimal_dark_blacker) !important;
-    color: var(--minimal_dark_color) !important;
-    transition: .25s ease-out !important;
-}
+/* ._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover { */
+    /* background: var(--minimal_dark_blacker) !important; */
+    /* color: var(--minimal_dark_color) !important; */
+    /* transition: .25s ease-out !important; */
+/* } */
 
-._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child:hover {
-    background: var(--minimal_dark_blacker) !important;
-    color: var(--minimal_dark_color) !important;
-    transition: .25s ease-out !important;
-	border-top-left-radius: var(--minimal_dark_corner) !important;
-	border-top-right-radius: var(--minimal_dark_corner) !important;
-}
+/* ._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child:hover { */
+    /* background: var(--minimal_dark_blacker) !important; */
+    /* color: var(--minimal_dark_color) !important; */
+    /* transition: .25s ease-out !important; */
+	/* border-top-left-radius: var(--minimal_dark_corner) !important; */
+	/* border-top-right-radius: var(--minimal_dark_corner) !important; */
+/* } */
 
 ._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
     background: var(--minimal_dark_blacker) !important;
