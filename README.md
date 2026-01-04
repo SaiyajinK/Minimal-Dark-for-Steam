@@ -956,7 +956,7 @@ _Revisited_ :<br>
 ▪ `Steam menu` ➡️ `Millennium Library Manager` ➡️ `Minimal Dark`<br>
 
 ### 📸 <ins>Screenchots</ins> : <br>
-<img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/10a06900-1738-4f3c-8c5b-80a083872016" />
+<img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/6bc61e04-0ca7-4c61-9e0e-8f8d59064297" />
 
 <hr>
 
