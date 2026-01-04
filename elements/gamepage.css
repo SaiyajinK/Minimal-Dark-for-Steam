@@ -1430,16 +1430,20 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 }
 
 ._1J21tLst5SEhBPkVRT53UV div {
-    background: var(--minimal_dark_blacker_alt) !important;
-    color: var(--minimal_dark_color) !important;
-    border: 1px solid var(--minimal_dark_color) !important;
-    border-radius: var(--minimal_dark_corner) !important;
+    background: rgb(18 18 18 / 40%);
+    backdrop-filter: blur(8px);
+    color: white !important;
+    border: 1px solid var(--minimal_dark_be_grey);
+    border-radius: var(--minimal_dark_corner);
+    letter-spacing: 0px !important;
+    transition: .25s ease-out !important;
+    padding: 8px 32px 32px 32px;
 }
 
-._1J21tLst5SEhBPkVRT53UV div:hover {
-    background: var(--minimal_dark_color) !important;
-    color: white !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+._1J21tLst5SEhBPkVRT53UV:hover div {
+	background: var(--minimal_dark_blacker_alt);
+    color: var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_color);
 	transition: .25s ease-out !important;
 }
 
