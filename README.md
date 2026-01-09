@@ -686,7 +686,10 @@ _Default_ :<br>
 <img src="https://github.com/user-attachments/assets/cdf6a216-25b3-4602-bdaf-69d85e58a822"></p>
 
 _New UI_ :<br> 
-<img src="https://github.com/user-attachments/assets/be09aad6-fad9-4639-a13e-731915ae0987"></p></details>
+<img src="https://github.com/user-attachments/assets/be09aad6-fad9-4639-a13e-731915ae0987">
+
+_New UI (alt)_ :<br> 
+<img src="https://github.com/user-attachments/assets/920f314e-8a0b-48bb-8e4e-c729e984d1f0"></p></details>
 
 <details><summary>Hide topbar elements :</summary><br> 
 
