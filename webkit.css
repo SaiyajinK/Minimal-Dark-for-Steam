@@ -10186,10 +10186,13 @@ body.v6 .sale_capsule .discount_block_inline {
     backdrop-filter: blur(8px) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     padding: 2px 8px !important;
-    transform: translate(0px, -5px) !important;
+    transform: translate(-100px, -5px) !important;
     box-shadow: 1px 1px 8px #00000036, 2px 2px 16px 1px #0000 !important;
     text-shadow: none !important;
     text-align: center !important;
+	width: 240px !important;
+    max-width: 300px !important;
+    white-space: nowrap !important;
 }
 
 ._1TRFtE8IfXpDQ_loHnB_bU {
