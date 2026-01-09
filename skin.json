@@ -1192,12 +1192,17 @@
 		
 		"Alternative downloads UI :": {
 		"tab": "Topbar options (11)",
-		"description": "> Change the appearance of the download block. \n\n - New UI : Set download button compact. \n - Minimal Dark : Default UI.",
-		"default": "New UI",
+		"description": "> Change the appearance of the download block. \n\n - New UI : Set download button compact. \n - New UI (alt) : Compact button, but thinner line. \n - Minimal Dark : Default UI.",
+		"default": "New UI (alt)",
 		"values": {
 			"New UI": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/topbar_options/alternative_dl_ui.css"
+					}
+				},
+			"New UI (alt)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/alternative_dl_ui_alt.css"
 					}
 				},
 			"Minimal Dark": {}
@@ -1727,7 +1732,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.0.1",
+	"version": "5.0.2",
 
 	"github": {
 		"owner": "SaiyajinK",
