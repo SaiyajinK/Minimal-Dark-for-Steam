@@ -9587,6 +9587,42 @@ img.communitylink_achievement {
 
 .discussions_searchedForTerm, a.discussions_searchedForTerm {
     border-radius: var(--minimal_dark_corner) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid #d2ff96 !important;
+	transition: .25s ease-out !important;
+}
+
+.discussions_searchedForTerm:hover, a.discussions_searchedForTerm:hover {
+    border-radius: var(--minimal_dark_corner) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+	color: var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
+}
+
+.discussions_searchedForTerm .removeIcon {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABCUlEQVR4nN2VTQrCMBCF2xNYt3ahWyso3dXqaaq3EYqIXqDXUc/0ycAsakxiU1HRwKNlkryX+Uui6K8HEANDYAJkwEKRqS2RNX3JEyXKn0DWJKGnTjsQ5wbSrgJ9yHPFqEtY8hcx8IXGjHkBbIClhWipc4Vhn1kTr9VikmyBBqiBsmUv1SZzlWXfY9K17GynrA2RNnnt8G5sE3CVZAHslPAEHB1e3ZWuTWDuSVwB7IELcFURF7lgHiqwAg7AWUXEk3WoQOYhrzUsB/Wk0a9LZPqVJCfvLtPY0WiVp9EqS6Nlzhv2rVfFRy67F0VGUcgQVwMeHH9YPCKx5mUsta3NKJB/sfV/Mn9m3ABMMUoLQEsrFwAAAABJRU5ErkJggg==) !important;
+    background-size: 15px !important;
+	transition: .25s ease-out !important;
+}
+
+.discussions_searchedForTerm:hover span.removeIcon, a.discussions_searchedForTerm:hover span.removeIcon {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABCUlEQVR4nN2VTQrCMBCF2xNYt3ahWyso3dXqaaq3EYqIXqDXUc/0ycAsakxiU1HRwKNlkryX+Uui6K8HEANDYAJkwEKRqS2RNX3JEyXKn0DWJKGnTjsQ5wbSrgJ9yHPFqEtY8hcx8IXGjHkBbIClhWipc4Vhn1kTr9VikmyBBqiBsmUv1SZzlWXfY9K17GynrA2RNnnt8G5sE3CVZAHslPAEHB1e3ZWuTWDuSVwB7IELcFURF7lgHiqwAg7AWUXEk3WoQOYhrzUsB/Wk0a9LZPqVJCfvLtPY0WiVp9EqS6Nlzhv2rVfFRy67F0VGUcgQVwMeHH9YPCKx5mUsta3NKJB/sfV/Mn9m3ABMMUoLQEsrFwAAAABJRU5ErkJggg==) !important;
+    background-size: 15px !important;
+	transition: .25s ease-out !important;
+}
+
+.discussions_searchedForTerm:hover span.removeIcon:hover, a.discussions_searchedForTerm:hover span.removeIcon:hover {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABfElEQVR4nN1VPU/DMBBN8zugQ+48U8ayxucgtWx0YC9F/RX9LaX/CwkRdYLGLtC16Kz0Q4mdpFEZwNIpln1+z35+vgTBv27bYBZuItk1oG5MlAw+kUYc3OexVSS7nNMK/APUpUG600I+VAXncO4Juw46GcbXdcC6ELyG19YStAHXOxJBvVpZ2oLrPL7x9sIjzSwsap6BHGuQi7WQj0UgOwZyYXMKd+K8eHZLaUcgFwbV1iC9ahFPDnPxhMd4TiM9F9exu0oEbDvXLk0OdCA5gPPXdToDSb9MgGrovDiQY4PqxQKCWhqk1H2qI4IoGZQINNLI6w6wJPmuLXjqA7eBNDqJQAt6MoLe9gRAS41q6stfI903lkgz+E5zS5L3QaU+EqdEv37JqzPadOOqTdsgCIsy2UeENPc+NKR544d2rlLx7isV5yh2X0JdVYLnUnW4Kp4KngnqNSrXu8ZV0W/dY83VsFaWitOE7C62HXvbPsb9LzPps1s4pxX4n2k/Ac1VtRClUrMAAAAASUVORK5CYII=) !important;
+    background-size: 15px !important;
+	transition: .25s ease-out !important;
+}
+
+.discussions_searchedForTerm:hover span.removeIcon:active, a.discussions_searchedForTerm:hover span.removeIcon:active {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABfElEQVR4nN1VPU/DMBBN8zugQ+48U8ayxucgtWx0YC9F/RX9LaX/CwkRdYLGLtC16Kz0Q4mdpFEZwNIpln1+z35+vgTBv27bYBZuItk1oG5MlAw+kUYc3OexVSS7nNMK/APUpUG600I+VAXncO4Juw46GcbXdcC6ELyG19YStAHXOxJBvVpZ2oLrPL7x9sIjzSwsap6BHGuQi7WQj0UgOwZyYXMKd+K8eHZLaUcgFwbV1iC9ahFPDnPxhMd4TiM9F9exu0oEbDvXLk0OdCA5gPPXdToDSb9MgGrovDiQY4PqxQKCWhqk1H2qI4IoGZQINNLI6w6wJPmuLXjqA7eBNDqJQAt6MoLe9gRAS41q6stfI903lkgz+E5zS5L3QaU+EqdEv37JqzPadOOqTdsgCIsy2UeENPc+NKR544d2rlLx7isV5yh2X0JdVYLnUnW4Kp4KngnqNSrXu8ZV0W/dY83VsFaWitOE7C62HXvbPsb9LzPps1s4pxX4n2k/Ac1VtRClUrMAAAAASUVORK5CYII=) !important;
+    background-size: 13px !important;
+    transition: .25s ease-out !important;
+    background-position-x: 4px !important;
 }
 
 select {
@@ -17267,5 +17303,13 @@ body#gsr {
 .home_content.single {
     background: var(--minimal_dark_blacker_alt) !important;
 }
+
+/* url bar popup (when clicked) */
+._3cXgxM5dBuTxGOOYw01xSP {
+    background-color: var(--minimal_dark_color) !important;
+	border-radius: var(--minimal_dark_corner) !important;
+}
+/* Not functional, does not inject into Millennium */
+/* end url bar popup (when clicked) */
 
 /* end webkit */
