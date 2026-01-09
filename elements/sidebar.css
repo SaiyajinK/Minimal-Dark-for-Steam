@@ -428,3 +428,15 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
 ._2-O4ZG0KrnSrzISHBKctFQ._10GdoB3tQXXGFToQ3yY_SK._1VBNpnuk5eWT3VSCWNH57k.Focusable ._1vO6BoiVslZgs1kqDGdUs8._2wgFGloLUdbOVEeIYkuqTp ._1R9r2OBCxAmtuUVrgBEUBw._2E7G8grj_-tgxXbTXs1t2E.ga1hyw11cdBVodrCAidPF {
     margin-top: -1px !important;
 }
+
+._2kzMb_F7UTOEdecAFftN-l svg.f6-7-5CWFxNqF2BycKWlb.f6-7-5CWFxNqF2BycKWlb.f6-7-5CWFxNqF2BycKWlb circle {
+    stroke: var(--minimal_dark_status_green) !important;
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 svg:not(.SVGIcon_FriendIcon) circle:not(.SVGIcon_ProgressCircle &) {
+    fill: rgb(6 227 157 / 24%) !important;
+}
+
+._2kzMb_F7UTOEdecAFftN-l svg.f6-7-5CWFxNqF2BycKWlb.f6-7-5CWFxNqF2BycKWlb.f6-7-5CWFxNqF2BycKWlb {
+    transform: translate(1px, 0px) !important;
+}
