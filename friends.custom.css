@@ -734,7 +734,11 @@ button.DialogButton:active, button.DialogButton.gpfocus {
 }
 
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
-	display:none !important;
+    /* display: none !important; */
+    display: flex !important;
+    width: 0px !important;
+    height: 17px !important;
+    transform: translate(-42px, 4px) !important;
 }
 
 .msg.serverMsg .msgText {
@@ -1951,6 +1955,31 @@ html.client_chat_frame .popup_chat_frame {
     margin-top: 4px !important;
 }
 
+.CompactFriendsList.chatRoomMembers.groupMemberList .ChatRoomMemberScrollList_List .friend.ingame:hover{
+    border: 1px solid rgb(227 255 194 / 40%) !important;
+    transition: .25s ease-out !important;
+}
+
+.CompactFriendsList.chatRoomMembers.groupMemberList .ChatRoomMemberScrollList_List .friend.ingame.awayOrSnooze:hover{
+    border: 1px solid rgb(227 255 194 / 40%) !important;
+    transition: .25s ease-out !important;
+}
+
+.CompactFriendsList.chatRoomMembers.groupMemberList .ChatRoomMemberScrollList_List .friend.online:hover {
+    border: 1px solid rgb(109 207 246 / 40%)  !important;
+    transition: .25s ease-out !important;
+}
+
+.CompactFriendsList.chatRoomMembers.groupMemberList .ChatRoomMemberScrollList_List .friend.awayOrSnooze:hover {
+    border: 1px solid rgb(255 192 76 / 40%) !important;
+    transition: .25s ease-out !important;
+}
+
+.CompactFriendsList.chatRoomMembers.groupMemberList .ChatRoomMemberScrollList_List .friend.offline:hover {
+    border: 1px solid #808080bf !important;
+    transition: .25s ease-out !important;
+}
+
 .CompactFriendsList .friend .avatarHolder img.avatar {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     height: 70% !important;
@@ -2916,4 +2945,15 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child {
     border-bottom-left-radius: var(--minimal_dark_corner) !important;
     border-bottom-right-radius: var(--minimal_dark_corner) !important;
+}
+
+.MemberListColumn .friend .chatMemberFriendIcon svg {
+    width: 12px !important;
+    height: 12px !important;
+    inset-inline-start: 28px !important;
+    transform: translate(0px, -13px) !important;
+}
+
+.MemberListColumn .friend .chatMemberFriendIcon svg circle, .MemberListColumn .friend .chatMemberFriendIcon svg path {
+    fill: var(--minimal_dark_greensettings) !important;
 }
