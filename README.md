@@ -10,7 +10,7 @@
 ### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
 I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have a theme with consistent colorimetry. When creating the skin, I defined a function on many elements that injects the selected color code throughout the skin (by default, whether you're on Windows 10 or Windows 11, the Steam color will be the one you chose in Windows, but you can always use a different color by clicking on the color picker).<br><br>
 ℹ️ Following the latest Millennium update the theme color selection will have to be done from the Millennium settings for full compatibility.<br><br>
-▪ `Steam menu` ➡️ `Millennium settings` ➡️ `General` ➡️ `Themes` ➡️ `Custom accent color` ➡️ `Restart/refresh Steam`
+▪ `Steam menu` ➡️ `Millennium` ➡️ `General` ➡️ `Themes` ➡️ `Custom accent color` ➡️ `Restart/refresh Steam`
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
