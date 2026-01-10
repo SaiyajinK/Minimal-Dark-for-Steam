@@ -738,7 +738,7 @@ button.DialogButton:active, button.DialogButton.gpfocus {
     display: flex !important;
     width: 0px !important;
     height: 17px !important;
-    transform: translate(-42px, 4px) !important;
+    transform: translate(-41px, 1px) !important;
 }
 
 .msg.serverMsg .msgText {
@@ -1960,8 +1960,8 @@ html.client_chat_frame .popup_chat_frame {
     transition: .25s ease-out !important;
 }
 
-.CompactFriendsList.chatRoomMembers.groupMemberList .ChatRoomMemberScrollList_List .friend.ingame.awayOrSnooze:hover{
-    border: 1px solid rgb(227 255 194 / 40%) !important;
+.CompactFriendsList.chatRoomMembers.groupMemberList .ChatRoomMemberScrollList_List .friend.ingame.awayOrSnooze:hover {
+    border: 1px solid rgb(255 192 76 / 40%) !important;
     transition: .25s ease-out !important;
 }
 
@@ -2951,9 +2951,37 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
     width: 12px !important;
     height: 12px !important;
     inset-inline-start: 28px !important;
-    transform: translate(0px, -13px) !important;
+    transform: translate(-1px, -13px) !important;
 }
 
 .MemberListColumn .friend .chatMemberFriendIcon svg circle, .MemberListColumn .friend .chatMemberFriendIcon svg path {
     fill: var(--minimal_dark_greensettings) !important;
+}
+
+.CompactFriendsList .SteamPlayerGroupFooter .SteamPlayerGroupFooterCount, .CompactFriendsList .friend .avatarHolder {
+    transform: scale(1) translateY(3px) !important;
+}
+
+.MemberListColumn.MemberListViewCompact.Panel.Focusable img._3h-QRJGxnVOIExtHD1R0f2.avatar {
+    visibility: hidden !important;
+}
+
+.ChatSpeaker.ChatRoomSpeaker .speaker .rankIcon .SVGIcon_Crown, .MemberListColumn .friend .rankIcon .SVGIcon_Crown {
+    transform: translate(32px, 12px) !important;
+}
+
+.CompactFriendsList.chatRoomMembers.groupMemberList img._3fM0F85j3aWVzr4RJM9-eu {
+    transform: translate(0px, -1px) !important;
+}
+
+.MemberListColumn.MemberListViewCompact .friendGroup .groupName .groupIcon {
+    transform: translateX(-9px) !important;
+}
+
+.MemberListColumn .friendGroup .groupName .groupCountCollapsed {
+    color: var(--minimal_dark_topgrey1) !important;
+}
+
+.MemberListColumn.MemberListViewCompact.Panel.Focusable .CompactFriendsList.chatRoomMembers.groupMemberList .ExpandPlusMinus {
+    opacity: 0 !important;
 }
