@@ -326,7 +326,8 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     width: auto !important;
-	min-width: auto !important;
+    min-width: auto !important;
+    position: absolute !important;
 }
 
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ {
