@@ -61,7 +61,7 @@ _Compact_ :<br>
 
 <hr>
 
-## Friends options (9) : 
+## Friends options (10) : 
 
 <details><summary>Animated hovering :</summary><br>  
 
