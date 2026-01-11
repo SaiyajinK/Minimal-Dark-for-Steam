@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 100 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 101 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -86,6 +86,23 @@ _Default_ :<br>
 
 _Smaller_ :<br>  
 <img src="https://github.com/user-attachments/assets/2c2a6f9f-0c2e-439c-918e-a3a2e12e49bd"></p></details>
+
+<details><summary>Friends conversation tabs header glow :</summary><br>  
+
+_Default_ :<br>
+<img src="https://github.com/user-attachments/assets/35be8abd-c61a-4a77-a81a-84f807d91133"></p>
+
+_User color_ :<br>
+<img src="https://github.com/user-attachments/assets/f9aa6bef-ce0b-499d-8928-b638d09a7399"></p>
+
+_Hide (only user color dot)_ :<br>
+<img src="https://github.com/user-attachments/assets/dfd48690-dcd3-4368-a08d-fd25960993d7"></p>
+
+_Hide (only yellow dot)_ :<br>
+<img src="https://github.com/user-attachments/assets/66da2889-fc48-417c-9003-ad6b9fdcd92e"></p>
+
+_Hide (only red dot)_ :<br>
+<img src="https://github.com/user-attachments/assets/36195437-9670-4a22-8f7e-fdb610a5428c"></p></details>
 
 <details><summary>Friends list header glow :</summary><br>  
 
