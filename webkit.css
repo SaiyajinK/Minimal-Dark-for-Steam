@@ -4,7 +4,8 @@
 
 :root { 
 
---minimal_dark_color1: var(--SystemAccentColorAccent) !important;
+--minimal_dark_color: var(--SystemAccentColor) !important;
+--minimal_dark_color_rgb: var(--SystemAccentColor-RGB);
 
 /* global colors */
 --minimal_dark_be_grey: #262626;
