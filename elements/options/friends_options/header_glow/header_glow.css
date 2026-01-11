@@ -1,0 +1,3 @@
+.focused:not(.singlewindow) .title-area-highlight, .singleWindowFocusBar, .friendsui-container .statusHeaderGlow {
+    display: none !important;
+}
