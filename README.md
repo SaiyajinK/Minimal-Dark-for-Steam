@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 101 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 102 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -61,7 +61,7 @@ _Compact_ :<br>
 
 <hr>
 
-## Friends options (10) : 
+## Friends options (11) : 
 
 <details><summary>Animated hovering :</summary><br>  
 
@@ -146,6 +146,11 @@ _no_ :<br>
 
 _yes_ :<br>  
 <img src="https://github.com/user-attachments/assets/18b872d5-05e9-4bdf-8182-19599f44e3fb"></p></details>
+
+<details><summary>Inverted contact bloc :</summary><br>  
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/7fffe710-5c60-4e00-8448-f2c82523c223"></p></details>
 
 <details><summary>Offline friends :</summary><br>  
 
