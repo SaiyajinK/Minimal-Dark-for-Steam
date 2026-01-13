@@ -4,8 +4,8 @@
 
 :root { 
 
---minimal_dark_color: var(--SystemAccentColor) !important;
---minimal_dark_color_rgb: var(--SystemAccentColor-RGB);
+--minimal_dark_color1: var(--SystemAccentColorAccent) !important;
+--minimal_dark_color_rgb1: var(--SystemAccentColorAccent-RGB);
 
 /* global colors */
 --minimal_dark_be_grey: #262626;
@@ -1243,10 +1243,12 @@ img.member_tile {
 
 .apphub_Card.interactable {
 	border-radius: var(--minimal_dark_corner) !important;
+	transition: .25s ease-out !important;
 }
 
 .apphub_Card.interactable:hover {
     border: 1px solid var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
 }
 
 .apphub_CardAnnouncementBG {
@@ -10187,14 +10189,14 @@ body.v6 .sale_capsule .discount_block_inline {
     backdrop-filter: blur(8px) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     padding: 2px 8px !important;
-    transform: translate(-100px, -5px) !important;
+    transform: translate(43px, 3px) !important;
     box-shadow: 1px 1px 8px #00000036, 2px 2px 16px 1px #0000 !important;
     text-shadow: none !important;
     text-align: center !important;
-	width: auto !important;
+    width: auto !important;
     max-width: auto !important;
     white-space: nowrap !important;
-	position: absolute !important;
+    position: absolute !important;
 }
 
 ._1TRFtE8IfXpDQ_loHnB_bU {
