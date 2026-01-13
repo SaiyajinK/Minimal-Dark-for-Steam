@@ -68,7 +68,7 @@
 		},
 		
 		"Animated hovering :": {
-		"tab": "Friends options (10)",
+		"tab": "Friends options (11)",
 		"description": "> Trigger an animation when hovering over contacts in the friends list. \n\n - No : No animation when mouseover. \n - Yes : Slide text to the right on mouseover.",
 		"default": "yes",
 		"values": {
@@ -82,7 +82,7 @@
 		},
 		
 		"Avatar size :": {
-		"tab": "Friends options (10)",
+		"tab": "Friends options (11)",
 		"description": "> Choice the size of the user avatar on friends list. \n\n - Default : Medium avatar size. \n - Small : Small avatar size. \n - Large : Large avatar size (display issues may occur with this size depending on the length and description of the game being launched as well as the size of the friends list window).",
 		"default": "Default",
 		"values": {
@@ -101,7 +101,7 @@
 		},
 		
 		"Font size :": {
-		"tab": "Friends options (10)",
+		"tab": "Friends options (11)",
 		"description": "> Change the size of the font of the friends list (not applied on compact mod). \n\n - Default : Steam default font size. \n - Smaller : Small font size.",
 		"default": "Smaller",
 		"values": {
@@ -115,7 +115,7 @@
 		},
 		
 		"Friends conversation tabs header glow :": {
-		"tab": "Friends options (10)",
+		"tab": "Friends options (11)",
 		"description": "> Enable this option to remove the glow behind tab in conversations. \n\n - Default : Yellow glow + yellow dot. \n - User color : User color glow + user color dot \n - Hide #1 : Remove glow and show only yellow dot. \n - Hide #2 : Remove glow and show only user color dot.",
 		"default": "Default",
 		"values": {
@@ -144,7 +144,7 @@
 		},
 		
 		"Friends list header glow :": {
-		"tab": "Friends options (10)",
+		"tab": "Friends options (11)",
 		"description": "> Enable this option to remove the glow behind the profile picture on the friends list. \n\n - No : Leave the glow effect. \n - Yes : Delete the glow effect.",
 		"default": "no",
 		"values": {
@@ -158,7 +158,7 @@
 		},
 		
 		"Group chats position :": {
-		"tab": "Friends options (10)",
+		"tab": "Friends options (11)",
 		"description": "> Modify the position of the groups chats. \n\n - Default : Steam vanilla position. \n - Top : Top position. \n - Hide : Hide bloc.",
 		"default": "Default (bottom)",
 		"values": {
@@ -181,7 +181,7 @@
 		},
 		
 		"Hide footer :": {
-		"tab": "Friends options (10)",
+		"tab": "Friends options (11)",
 		"description": "> Hide footer on friends list. \n\n - No : No modification. \n - Yes : Hide bottom black bar.",
 		"default": "yes",
 		"values": {
@@ -195,7 +195,7 @@
 		},
 		
 		"Hide footer (fix) :": {
-		"tab": "Friends options (10)",
+		"tab": "Friends options (11)",
 		"description": "> Enable this option if you have chosen to hide the footer to fix the icon for creating a chat group. \n\n - No : Are you crazy ? \n - Yes : An animation is put in place for a better visual experience.",
 		"default": "yes",
 		"values": {
@@ -209,7 +209,7 @@
 		},
 		
 		"Hide voice chat :": {
-		"tab": "Friends options (10)",
+		"tab": "Friends options (11)",
 		"description": "> Hide the voice chat icon in conversations. \n\n - No : Hide the voice chat button in friends conversations. \n - Yes : Shows the voice chat button in friends conversations.",
 		"default": "no",
 		"values": {
@@ -221,9 +221,23 @@
 				}
 			}
 		},
+		
+		"Inverted contact bloc :": {
+		"tab": "Friends options (11)",
+		"description": "> Enabling this option reverses the display of the contact list. \n\n - No : Default ; The avatars are on the left, the text is on the right. \n - Yes : The avatars are on the right, the text is on the left.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_options/inverted_contact_bloc.css"
+					}
+				}
+			}
+		},
 			
 		"Offline friends :": {
-		"tab": "Friends options (10)",
+		"tab": "Friends options (11)",
 		"description": "> Hide offline friends in friends list. \n\n - Show : Display the 'offline friends' section in the contact list. \n - Hide : Does not display the 'offline friends' section in the contact list (these are still findable via search).",
 		"default": "Show",
 		"values": {
@@ -1785,6 +1799,5 @@
   
 	"header_image": "https://i.imgur.com/h75s8C4.jpeg",
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
-
 
 }
