@@ -1984,9 +1984,9 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt {
     backdrop-filter: blur(8px) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
-    position: fixed !important;
-    top: 41px !important;
-    left: 310px !important;
+    position: absolute !important;
+    /* top: 41px !important; */
+    /* left: 310px !important; */
 }
 
 ._3XGRklQrZMakU2xaYB0cLD ._1LhVfNukndDa_XWzq0vdg1 {
