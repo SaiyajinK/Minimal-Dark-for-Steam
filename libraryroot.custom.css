@@ -2493,3 +2493,20 @@ textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 ._2Lu3d-5qLwI4i19ysTt2jT ._2UyOBEiSdBayadFRa39N20 ._3rgV8PmQvZC-01x9l-q-N {
 margin-bottom: 10px !important;
 }
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .X3pN_ESh0aoxmm2nK65Hu {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG._231y-BrqpRH85PNLgfseSR {
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG.dB7T-kfL2b2b0jd9Zg9fa ._2d_FE9TOpHt1FsYhLEpjCp {
+    border-left: 3px solid var(--minimal_dark_color) !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
