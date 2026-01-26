@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 102 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 103 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -257,7 +257,7 @@ _yes_ :<br>
 
 <hr>
 
-## Global options (10) : 
+## Global options (11) : 
 
 <details><summary>Alternative topbar color :</summary><br>  
 
@@ -269,6 +269,14 @@ _Grey_ :<br>
 
 _Grey with dark buttons_ :<br>
 <img src="https://github.com/user-attachments/assets/feccd1d6-ba14-44f8-95ca-34c579b3952e"></p></details>
+
+<details><summary>Alternative ui color for context menus/menus :</summary><br>  
+
+_No_ :<br> 
+<img src="https://github.com/user-attachments/assets/95b7fec7-8733-4cb1-9604-243a8b3aa0e0"></p>
+
+_Yes_ :<br>
+<img src="https://github.com/user-attachments/assets/43688bbc-109e-4da2-ac14-17942a936276"></p></details>
 
 <details><summary>Avatar frame :</summary><br>  
 
@@ -369,7 +377,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options (17) : 
+## Library options (16) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -495,11 +503,6 @@ _User color_ :<br>
 _Hide_ :<br> 
 <img src="https://github.com/user-attachments/assets/3b49f2b8-599d-41e6-a836-89037db1e920"></p></details>
 
-<details><summary>Right Sidebar :</summary><br>   
-
-_Right (not recommanded)_ :<br> 
-<img src="https://github.com/user-attachments/assets/0cf2018a-818a-4192-a53a-163bd38a4437"></p></details>
-
 <details><summary>Static hovering (paysage games of Recent Games | Play Next) :</summary><br> 
 
 _Default (with animation)_ :<br> 
@@ -566,7 +569,7 @@ _yes_ :<br>
 
 <hr>
 
-## Sidebar options (12) : 
+## Sidebar options (13) : 
 
 <details><summary>Alternative hover effect :</summary><br> 
 
@@ -662,6 +665,11 @@ _no_ :<br>
 
 _yes_ :<br> 
 <img src="https://github.com/user-attachments/assets/9f05b142-d79f-470d-94aa-959ab91f753c"></p></details>
+
+<details><summary>Right Sidebar :</summary><br>   
+
+_Right (not recommanded)_ :<br> 
+<img src="https://github.com/user-attachments/assets/0cf2018a-818a-4192-a53a-163bd38a4437"></p></details>
 
 <details><summary>Show sidebar on mouseover :</summary><br> 
 
