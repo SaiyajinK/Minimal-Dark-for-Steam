@@ -429,7 +429,7 @@
 		},
 		
 		"Alternative topbar color :": {
-		"tab": "Global options (10)",
+		"tab": "Global options (11)",
 		"description": "> Modify the color of the topbar. \n\n - Dark : Full dark topbar \n - Grey : Full grey topbar \n - Grey/dark : Grey topbar and dark buttons.",
 		"default": "Grey/dark",
 		"values": {
@@ -447,8 +447,22 @@
 			}
 		},		
 		
+		"Alternative ui color for context menus/menus :": {
+		"tab": "Global options (11)",
+		"description": "> Inverted color for context menus/menus. \n\n - No : Default color \n - Yes : Inverted color",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/alternative_ui_cm.css"
+					}
+				}
+			}
+		},	
+		
 		"Avatar frame :": {
-		"tab": "Global options (10)",
+		"tab": "Global options (11)",
 		"description": "> Hide or show avatar frame on all avatars. \n\n - Hide : Hide avatar frame on the entire skin. \n - Show : Show avatar frame on the entire skin. \n\n NOTE : If you decide to display avatar frames, remember to check the toggle in the Steam settings 'Contacts and Chats: Enable animated avatars and avatar frames in your contacts list and in chat'",
 		"default": "Show",
 		"values": {
@@ -466,7 +480,7 @@
 		},
 		
 		"Compact menus/context menus :": {
-		"tab": "Global options (10)",
+		"tab": "Global options (11)",
 		"description": "> This option allows you to make the menus/context menus compact (or not), animated (or not), with a left border (or not). \n\n - The informations are directly on the sub-options.",
 		"default": "Compact size (static with left border)",
 		"values": {
@@ -510,7 +524,7 @@
 		},
 		
 		"Corners radius :": {
-		"tab": "Global options (10)",
+		"tab": "Global options (11)",
 		"description": "> Sets the strength of corner rounding. \n\n - Square : 0px. \n - Rounded : 5px. \n - More rounded : 10px.",
 		"default": "Rounded",
 		"values": {
@@ -533,7 +547,7 @@
 		},
 		
 		"Hover borders on library and webkit blocks :": {
-		"tab": "Global options (10)",
+		"tab": "Global options (11)",
 		"description": "> Make the hover borders of library/webkit items full and no longer just on the bottom. \n\n - Full borders : Applies the user's color to all borders on mouseover. \n - Bottom only : Applies the user's color only to the bottom border on mouseover.",
 		"default": "Full borders",
 		"values": {
@@ -551,7 +565,7 @@
 		},
 		
 		"Resize grip (Steam windows) :": {
-		"tab": "Global options (10)",
+		"tab": "Global options (11)",
 		"description": "> Show or hide the resizing grip display. \n\n - Default : Default Steam grip. \n - Default (smaller) : Smaller default Steam grip. \n - Alternative UI : Alternative UI for the resize grip. \n - Alternative UI (smaller) : Smaller alternative UI for the resize grip. \n - Hide : Hide the resize grip. \n\n NOTE : If you select 'Hide', you will need to disable the friends option 'Hide footer (fix)'",
 		"default": "Default (smaller)",
 		"values": {
@@ -580,7 +594,7 @@
 		},
 		
 		"Steam bigpicture button :": {
-		"tab": "Global options (10)",
+		"tab": "Global options (11)",
 		"description": "> Hide or show Steam bigpicture button in top bar. \n\n - Hide : Hide topbar Steam bigpicture button. \n - Show : Show topbar Steam bigpicture button.",
 		"default": "Hide",
 		"values": {
@@ -594,7 +608,7 @@
 		},
 		
 		"Steam news button :": {
-		"tab": "Global options (10)",
+		"tab": "Global options (11)",
 		"description": "> Hide or show Steam news button in top bar. \n\n - Hide : Hide topbar Steam news button. \n - Show : Show topbar Steam news button.",
 		"default": "Hide",
 		"values": {
@@ -608,7 +622,7 @@
 		},
 		
 		"Title area buttons :": {
-		"tab": "Global options (10)",
+		"tab": "Global options (11)",
 		"description": "> Make the title bar buttons bigger (close/maximize/minimize buttons). \n\n - Small : Small titlebar buttons. \n - Enlarged (w11 users) : Enlarged buttons for Windows 11 users. \n - Enlarged (w10 users) : Enlarged buttons for Windows 10 users.",
 		"default": "Enlarged (w11 users)",
 		"values": {
@@ -627,7 +641,7 @@
 		},
 		
 		"Vanilla topbar style :": {
-		"tab": "Global options (10)",
+		"tab": "Global options (11)",
 		"description": "> Set the topbar in the vanilla style of steam skin. \n\n - Minimal Dark : Topbar buttons are on the same line. \n - Vanilla topbar : Set Topbar as on vanilla skin, buttons are on two lines.",
 		"default": "Minimal Dark",
 		"values": {
@@ -641,7 +655,7 @@
 		},
 		
 		"Alternative library navigation button :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Changes the appearance of the navigation arrows on the library shelves. \n\n - Default : Just arrows displayed. \n - Alternative : Arrows and grey borders.",
 		"default": "Alternative",
 		"values": {
@@ -655,7 +669,7 @@
 		},
 		
 		"Alternative games names hover effect :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Change the appearance of the game name hover in the What's New block. \n\n - Default : Left user color border on mouseover. \n - Alt #1 : Bottom user color border on mouseover. \n - Alt #2 : Full user color border on mouseover.",
 		"default": "Default",
 		"values": {
@@ -678,7 +692,7 @@
 		},
 		
 		"Alternate view of in-game friends :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Changes the appearance and layout of in-game friend icons in library. \n\n - Default : Defaut appearence. \n - Alternative : Under the game block.",
 		"default": "Alternative",
 		"values": {
@@ -692,7 +706,7 @@
 		},
 		
 		"Animated buttons hovering :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Add an animation on the play/install/stop buttons on hovering in the library (gamepage buttons effect included). \n\n - No : No hover effect. \n - Animated : Enable hover effect on hovering buttons.",
 		"default": "yes",
 		"values": {
@@ -706,7 +720,7 @@
 		},
 		
 		"Compact collections :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Make collections display compact. \n\n - No : Spacing between Steam games covers by default. \n - Yes : Smaller spacing between games covers.",
 		"default": "no",
 		"values": {
@@ -720,7 +734,7 @@
 		},
 		
 		"Compact filters :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Make the library filters block compact. \n\n - No : Default Steam filters spacing. \n - Yes : Compact filters spacing.",
 		"default": "yes",
 		"values": {
@@ -734,7 +748,7 @@
 		},
 		
 		"Compact labels (library + whats news) :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Make Hide Today, Yesterday, Last Week blocs from library and what's new compact. \n\n - Default : The labels are not glued to the border. \n - Compact : The labels are glued to the border.",
 		"default": "Compact",
 		"values": {
@@ -748,7 +762,7 @@
 		},
 		
 		"Compact library :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Make library display compact. \n\n - No : Spacing between Steam games covers by default. \n - Yes : Smaller spacing between games covers.",
 		"default": "yes",
 		"values": {
@@ -762,7 +776,7 @@
 		},
 		
 		"Compact mod :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "Removes the filter & search from the sidebar to save even more space. \n\n - Default : Display filter and search. \n - Compact : Hide filter only. \n - Ultra compact : Hide filter and search.",
 		"default": "Default",
 		"values": {
@@ -781,7 +795,7 @@
 		},
 		
 		"Compact news container :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Make the news container compact. \n\n - Steam default : Vanilla Steam size. \n - Compact #1 : Small size with small fonts. \n - Compact #2 : Small size with normal font. \n - Ultra compact : Displays only the text of the news, also allows more news to be displayed. \n - Ultra compact (center content) : Same as ultra compact, but with centered elements.",
 		"default": "Ultra compact",
 		"values": {
@@ -810,7 +824,7 @@
 		},
 		
 		"Hide shelf :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Hide the add shelf button in the library. \n\n - No : Show the add shelf button in the library \n - Yes : Hide the add shelf button in the library.",
 		"default": "no",
 		"values": {
@@ -824,7 +838,7 @@
 		},
 		
 		"Library labels :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Hide 'Today, Yesterday, Last Week' from library. \n\n - Show : Show labels on library and news bloc. \n - Hide : Hide labels on library only. \n - Hide all : Hide labels on library and news bloc.",
 		"default": "Show",
 		"values": {
@@ -843,7 +857,7 @@
 		},
 		
 		"Library games hover glow color :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Change the color of the glow when you hover over a game image in your library. \n\n - Default : White glow. \n - User color : User color glow.",
 		"default": "Default",
 		"values": {
@@ -857,7 +871,7 @@
 		},
 		
 		"News container :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Hide or show 'What's New' bloc in the library. \n\n - Hide : Hide 'What's New' bloc. \n - Show : Show 'What's New' bloc.",
 		"default": "Show",
 		"values": {
@@ -870,22 +884,8 @@
 			}
 		},
 		
-		"Right Sidebar :": {
-		"tab": "Library options (17)",
-		"description": "> Place the left bar on the right of the Steam client. \n\n - Left : Left sidebar. \n - Right sidebar (to enlarge the sidebar you will always have to slide to the right and not to the left).",
-		"default": "Left",
-		"values": {
-			"Left": {},
-			"Right": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/sidebar_to_the_right.css"
-					}
-				}
-			}
-		},
-		
 		"Static hovering (paysage games of Recent Games | Play Next) :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Make paysage games mouse hover static. \n\n - Animated : Animated on mouse hover. \n - Static : Static on mouse hover.",
 		"default": "Animated",
 		"values": {
@@ -899,7 +899,7 @@
 		},
 		
 		"Static hovering (portrait games of Library | Collections) :": {
-		"tab": "Library options (17)",
+		"tab": "Library options (16)",
 		"description": "> Make portrait games mouse hover static. \n\n - Animated : Animated on mouse hover. \n - Static : Static on mouse hover.",
 		"default": "Static",
 		"values": {
@@ -983,7 +983,7 @@
 		},
 		
 		"Alternative hover effect :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Set user color gradient to the left on hover. \n\n - Default : Left user color border on mouseover. \n - User color gradient : Left user color border and gradient on mouseover.",
 		"default": "Default",
 		"values": {
@@ -997,7 +997,7 @@
 		},
 		
 		"Alternative ingame friends indicator :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Changes the indicator of ingame friends. \n\n - Minimal Dark default : Vertical bar. \n - Minimal Dark alternative #1 : Alternative vertical bar. \n - Minimal Dark alternative #2 : Horizontal bar. \n - Dot #1 : Rounded dot. \n - Dot #2 : Small rounded dot. \n - Dot #3 : Squared dot. \n - Dot #4 : Small squared dot.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -1036,7 +1036,7 @@
 		},
 		
 		"Animated mouseover :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Add an animation when hovering over the list of games. \n\n - No : No animation. \n - Yes : Animated.",
 		"default": "yes",
 		"values": {
@@ -1050,7 +1050,7 @@
 		},
 		
 		"Bigger font size :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Make games names bigger. \n\n - No : Normal font size. \n - Yes : Bigger font size.",
 		"default": "no",
 		"values": {
@@ -1064,7 +1064,7 @@
 		},
 		
 		"Bolder names :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Make the game names in the sidebar bolder. \n\n - No : Normal font. \n - Yes : Bolder font.",
 		"default": "no",
 		"values": {
@@ -1078,7 +1078,7 @@
 		},
 		
 		"Games names overflow :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Enable this option to prevent the game name from overlapping outside the sidebar block. \n\n - No : The game name overflows and is displayed in full. \n - Yes : The game name no longer overflows the sidebar when the mouse hovers over it.",
 		"default": "yes",
 		"values": {
@@ -1092,7 +1092,7 @@
 		},
 		
 		"Installed/selected games color :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Changes the color of installed/selected games. \n\n - Minimal Dark : Beige names / user color selected. \n - Minimal Dark alternative : White names / user color selected. \n - White : White names / white selected.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1111,7 +1111,7 @@
 		},
 		
 		"No left images :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Hide game images to the left of the names in the left bar. \n\n - No : Show images. \n - Yes : Hide images.",
 		"default": "no",
 		"values": {
@@ -1125,7 +1125,7 @@
 		},
 		
 		"Persistent Sidebar :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Enabling this option displays the sidebar where it is not usually displayed (webkit, community, profil). \n\n - No : Hide sidebar on webkit, community and profil. \n - Yes : Show sidebar on webkit, community and profil. \n\n Known bug : the main filter is not accessible on the webkit.",
 		"default": "yes",
 		"values": {
@@ -1139,7 +1139,7 @@
 		},
 		
 		"Pointer fix :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Fix cursor for sidebar resize when the Persistent Sidebar option is disabled only. \n\n - No : Leave this option disabled if you are using the persistent sidebar. \n - Yes : Enable this option if you do not use the persistent sidebar.",
 		"default": "no",
 		"values": {
@@ -1152,8 +1152,22 @@
 			}
 		},
 		
+		"Right Sidebar :": {
+		"tab": "Sidebar options (13)",
+		"description": "> Place the left bar on the right of the Steam client. \n\n - Left : Left sidebar. \n - Right sidebar (to enlarge the sidebar you will always have to slide to the right and not to the left).",
+		"default": "Left",
+		"values": {
+			"Left": {},
+			"Right": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/sidebar_options/sidebar_to_the_right.css"
+					}
+				}
+			}
+		},
+		
 		"Show sidebar on mouseover :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Displays the sidebar when the mouse hovers over it. \n\n - Default : Default display for sidebar. \n - On mouseover : Displays the sidebar when the mouse hovers over it. \n\n Note : The advanced filters and the filter buttons are not working.",
 		"default": "Default",
 		"values": {
@@ -1167,7 +1181,7 @@
 		},
 		
 		"Uninstalled selected games color :": {
-		"tab": "Sidebar options (12)",
+		"tab": "Sidebar options (13)",
 		"description": "> Changes the color of selected uninstalled games. \n\n - Minimal Dark : Red color. \n - White : White color. \n - User : User color.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1775,7 +1789,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.0.7",
+	"version": "5.0.8",
 
 	"github": {
 		"owner": "SaiyajinK",
@@ -1801,4 +1815,3 @@
 	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
 
 }
-
