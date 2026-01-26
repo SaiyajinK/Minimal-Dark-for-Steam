@@ -667,7 +667,7 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
 }
 
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play {
-    background: var(--minimal_dark_greyblack) !important;
+    background: var(--minimal_dark_greyblack);
     color: var(--minimal_dark_status_green) !important;
     transition: .25s ease-out !important;
     border-bottom-left-radius: 0px !important;
@@ -1954,7 +1954,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
 }
 
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
-    background: var(--minimal_dark_blacker) !important;
+    background: var(--minimal_dark_blacker);
     color: var(--minimal_dark_color) !important;
     /* border-radius: var(--minimal_dark_corner) !important; */
     transition: .25s ease-out !important;
