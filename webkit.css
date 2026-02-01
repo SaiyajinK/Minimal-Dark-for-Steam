@@ -12380,8 +12380,12 @@ a.view_inactive:hover {
 }
 
 .PP7LM0Ow1K5qkR8WElLpt.visible._2yAm5LY_eu-Vg_52l0HFlM {
-    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
+    border: 0px solid var(--minimal_dark_blacker_alt) !important;
     border-radius: var(--minimal_dark_corner) !important;
+}
+
+._2EstNjFIIZm_WUSKm5Wt7n._3pofGqV0buiKAfMPEs3_82._1UgM1Pm8SbTWX7_2f-crGt {
+    border: 1px solid var(--minimal_dark_blacker_alt) !important;
 }
 
 ._1n7Wloe5jZ6fSuvV18NNWI {
