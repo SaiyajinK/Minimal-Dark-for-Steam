@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 103 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 104 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -162,7 +162,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (12) :
+## Gamepage options (13) :
 
 <details><summary>Alternative view for back to top button :</summary><br>  
 
@@ -249,6 +249,11 @@ _Show 'Would you recommend this game?' only_ :<br>
 
 _Inverted_ :<br>
 <img src="https://github.com/user-attachments/assets/f5f9493e-556a-40ce-966e-6c2d48174454"></p></details>
+
+<details><summary>Hide all activities :</summary><br>      
+
+_Show all activities on mouseover_ :<br>
+<img src="https://github.com/user-attachments/assets/f329dd33-d765-494f-80ab-f045679071d4"></p></details>
 
 <details><summary>Text on play/download button :</summary><br>  
 
