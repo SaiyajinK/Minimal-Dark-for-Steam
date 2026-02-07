@@ -1863,3 +1863,8 @@ img._3PXcvKt0U1PJ2DAM8I5lLx {
     border: 1px solid var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
+
+._2-kDc3UDR-GN6V1lBpSupb, ._3UShzJcf4CyVupLSI3kqfD {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px dashed rgba(97,105,112,.6) !important;
+}
