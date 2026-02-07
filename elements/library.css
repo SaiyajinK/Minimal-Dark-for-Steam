@@ -403,23 +403,23 @@
     backdrop-filter: blur(8px) !important;
     border: 1px solid var(--minimal_dark_invisiblegrey) !important;
     border-radius: var(--minimal_dark_corner) !important;
-    transform: translate(0px, -195px) !important;
+    transform: translate(0px, -195px);
 }
 
 ._1LJqx_qFOC8199RBQO5kU8._1KR40mXc7Z4Dss99aBDbyN {
     background: #00ce7a;
     border: 1px solid var(--minimal_dark_progress_bar) !important;
     font-size: 12px !important;
-    transform: translate(0px, -24px) !important;
+    transform: translate(0px, -195px)
 }
 
 ._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM {
     background-color: transparent !important;
     padding-left: 12px !important;
-    border: 1px solid var(--minimal_dark_color) !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
     color: var(--minimal_dark_color) !important;
     font-weight: 500 !important;
-    transform: translate(0px, -18px) !important;
+    transform: translate(0px, -195px);
 }
 
 ._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM svg {
@@ -435,7 +435,8 @@
 .WYgDg9NyCcMIVuMyZ_NBC:hover ~ ._1LJqx_qFOC8199RBQO5kU8 {
     transform: none;
     z-index: 13;
-	backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    transform: translate(0px, -195px);
 }
 
 /* NEW button library game */
