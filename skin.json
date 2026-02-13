@@ -1537,7 +1537,7 @@
 		"Hide scrollbars :": {
 		"tab": "Various options (9)",
 		"description": "> Hide or show scrollbars. \n\n - Hide : Hide all scrollbars on the entirety of the skin. \n - Show : Show all scrollbars on the entirety of the skin.",
-		"default": "Show",
+		"default": "Hide",
 		"values": {
 			"Show": {},
 			"Hide": {
@@ -1813,7 +1813,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.1.0",
+	"version": "5.1.1",
 
 	"github": {
 		"owner": "SaiyajinK",
