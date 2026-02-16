@@ -773,13 +773,18 @@
 		
 		"Compact labels (library + whats news) :": {
 		"tab": "Library options (16)",
-		"description": "> Make Hide Today, Yesterday, Last Week blocs from library and what's new compact. \n\n - Default : The labels are not glued to the border. \n - Compact : The labels are glued to the border.",
+		"description": "> Make Hide Today, Yesterday, Last Week blocs from library and what's new compact. \n\n - Default : The labels are not glued to the border. \n - Compact : The labels are glued to the border. \n - Compact (bottom) : The labels are glued to the border at the bottom (library only).",
 		"default": "Compact",
 		"values": {
 			"Default": {},
 			"Compact": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_library_labels.css"
+					}
+				},
+			"Compact (bottom)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_library_labels_bottom.css"
 					}
 				}
 			}
@@ -863,13 +868,18 @@
 		
 		"Library labels :": {
 		"tab": "Library options (16)",
-		"description": "> Hide 'Today, Yesterday, Last Week' from library. \n\n - Show : Show labels on library and news bloc. \n - Hide : Hide labels on library only. \n - Hide all : Hide labels on library and news bloc.",
+		"description": "> Hide 'Today, Yesterday, Last Week' from library. \n\n - Show : Show labels on library and news bloc. \n - Hide library only : Hide labels on library only. \n - Hide What's new only : Hide labels on What's new only. \n - Hide all : Hide labels on library and news bloc.",
 		"default": "Show",
 		"values": {
 			"Show": {},
-			"Hide": {
+			"Hide library only": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/no_library_labels.css"
+					}
+				},
+			"Hide What's new only": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/no_wn_labels.css"
 					}
 				},
 			"Hide all": {
@@ -1619,7 +1629,7 @@
 		},
 		
 		"Alternative UI for new Steam menu :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> The new Steam store menu has arrived, enabling this option will offer an alternative UI. \n\n - Minimal new UI : Minimal new Steam menu without modifications. \n - Minimal new UI (buttons) : Minimal new UI (buttons). \n - Compact : Minimal new Steam menu compact. \n - Ultra compact : Minimal new Steam menu ultra compact (just an icon & default size). \n - Ultra compact #1 : Minimal new Steam menu ultra compact (just an icon & compact size).",
 		"default": "Minimal new UI (compact)",
 		"values": {
@@ -1653,7 +1663,7 @@
 		},
 		
 		"Blocs backgrounds :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> This option changes the background shots of news or game update blocks to blurry or not. \n\n - Full dark : Full background, without transparency. \n - Blurred : The backgrounds are blurred.",
 		"default": "Blurred",
 		"values": {
@@ -1667,7 +1677,7 @@
 		},		
 
 		"Compact Webkit :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> Hide the left sidebar on the webkit homepage. \n\n - Hide : Hide left sidebar on homepage. \n - Show : Show left sidebar webkit.",
 		"default": "Hide",
 		"values": {
@@ -1681,7 +1691,7 @@
 		},
 		
 		"Events header :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> Show or remove the events wallpaper on the webkit homepage. \n\n - Minimal Dark : Event wallpaper are displayed. \n - Hide : Events header are hidden.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -1694,8 +1704,22 @@
 			}
 		},
 		
+		"Events background :": {
+		"tab": "Webkit options (12)",
+		"description": "> Display or hide the custom Steam image for events on the webkit. \n\n - Default background : Default event wallpaper. \n - Black background : Hide event wallpaper and replace it with dark color.",
+		"default": "Default background",
+		"values": { 
+			"Default background": {},
+			"Black background": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/events_bg.css"
+					}
+				}
+			}
+		},
+		
 		"Hide '+ Add a Showcase' :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> Hide '+ Add a Showcase' on your Steam profile. \n\n - No : Show '+ Add a showcase' on your Steam profile. \n - Yes : Hide '+ Add a showcase' on your Steam profile. \n\n > If you enable this option, you will no longer be able to add a new showcase to your Steam profile (unless you disable the option).",
 		"default": "no",
 		"values": {
@@ -1709,7 +1733,7 @@
 		},
 		
 		"Hide footers :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> Hide Steam information on webkit footers. \n\n - Hide : Hide legal informations at the bottom page of browser. \n - Show : Show legal informations at the bottom page of browser.",
 		"default": "Hide",
 		"values": {
@@ -1723,7 +1747,7 @@
 		},
 		
 		"Hide VAC ban information on profiles :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> Hide VAC ban information on users profiles. \n\n - Yes : Hide VAC ban information on profiles. \n - No : Show VAC ban information on profiles.",
 		"default": "no",
 		"values": {
@@ -1737,7 +1761,7 @@
 		},
 		
 		"Profiles :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> Enabling this option makes the profile page blocks full and removes the blur effect. \n\n - Minimal Dark : Blurred blocs. \n - No blur blocs : Solid black color blocs.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1751,7 +1775,7 @@
 		},
 		
 		"Profiles headers :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view).",
 		"default": "no",
 		"values": {
@@ -1765,7 +1789,7 @@
 		},
 		
 		"URL bar :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> This option allows you to permanently hide the URL bar or display it only on hover. \n\n - Visible : Steam default. \n - Hide : Hide the url bar. \n - Only show on hover : Show the url bar only on mouseover.",
 		"default": "Visible",
 		"values": {
@@ -1784,7 +1808,7 @@
 		},
 		
 		"Wishlist new Steam menu :": {
-		"tab": "Webkit options (11)",
+		"tab": "Webkit options (12)",
 		"description": "> The new Steam webkit menu is hidden by default on the wishlist. Enable this option to show it again. \n\n - Hide default menu : Hide menu in wishlist. \n - Revisited menu : Shows only the search and cart/wishlist buttons.",
 		"default": "Compact revisited menu",
 		"values": {
@@ -1813,7 +1837,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.1.1",
+	"version": "5.1.4",
 
 	"github": {
 		"owner": "SaiyajinK",
