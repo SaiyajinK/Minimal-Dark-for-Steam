@@ -886,7 +886,7 @@ _yes_ :<br>
 
 <hr>
 
-## Webkit options (11) : 
+## Webkit options (12) : 
 
 <details><summary>Alternative UI for new Steam menu :</summary><br>  
 
@@ -928,6 +928,14 @@ _Show_ :<br>
 
 _Hide_ :<br> 
 <img src="https://github.com/user-attachments/assets/3375f939-6c76-4e3a-8f11-250b137402cd"></p></details>
+
+<details><summary>Events background :</summary><br>  
+
+_Default background_ :<br> 
+<img src="https://github.com/user-attachments/assets/86a141b7-4a3d-4127-8cb1-6535042a46b6"></p>
+
+_Black background_ :<br> 
+<img src="https://github.com/user-attachments/assets/33238ed0-c567-4339-95d4-901d445e8657"></p></details>
 
 <details><summary>Hide '+ Add a Showcase' :</summary><br>  
 
