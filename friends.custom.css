@@ -2961,7 +2961,11 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
     visibility: hidden !important;
 }
 
-.ChatSpeaker.ChatRoomSpeaker .speaker .rankIcon .SVGIcon_Crown, .MemberListColumn .friend .rankIcon .SVGIcon_Crown {
+.ChatSpeaker.ChatRoomSpeaker .speaker .rankIcon .SVGIcon_Crown {
+	visibility: hidden !important;
+}
+
+.MemberListColumn .friend .rankIcon .SVGIcon_Crown {
     transform: translate(32px, 12px) !important;
 }
 
