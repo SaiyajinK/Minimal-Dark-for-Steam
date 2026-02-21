@@ -2340,6 +2340,10 @@ svg._34bQcTHo5QKzuujoEyU1tm {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
+.MillenniumDesktopSidebar_EditorHeader {
+    box-shadow: none !important;
+}
+
 textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
     background-image: none !important;
 }
