@@ -890,10 +890,10 @@ html._2GpKTB_eizdXpH2xVGbMKi ._2y2tUbsMx8OIwkimGSyHmb {
     background-color: var(--minimal_dark_color);
 }
 
-._9sPoVBFyE_vE87mnZJ5aB {
-    min-width: 278px;
-    max-width: 308px;
-}
+/* ._9sPoVBFyE_vE87mnZJ5aB { */
+    /* min-width: 278px; */
+    /* max-width: 308px; */
+/* } */
 
 .DesktopUI .DialogToggle_Label:hover {
     color: var(--minimal_dark_color) !important;
