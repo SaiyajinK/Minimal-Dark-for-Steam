@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 105 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 107 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -162,7 +162,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (13) :
+## Gamepage options (14) :
 
 <details><summary>Alternative view for back to top button :</summary><br>  
 
@@ -206,6 +206,14 @@ _Show_ :<br>
 
 _Hide_ :<br>
 <img src="https://github.com/user-attachments/assets/87504166-6e7e-409b-a2ec-8f2f04dcef51"></p></details>
+
+<details><summary>Dropdown stream/play button :</summary><br>  
+
+_no_ :<br>  
+<img src="https://github.com/user-attachments/assets/fee9fdce-fd11-44b4-a662-842eddaed88c"></p>
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/3571567f-98f7-4988-a482-fe8e574be8c9"></p></details>
 
 <details><summary>Gamepage/library buttons svg color (Play/Install) :</summary><br>    
 
