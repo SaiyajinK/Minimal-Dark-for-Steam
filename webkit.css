@@ -1906,10 +1906,13 @@ body.v6 div#global_header .content {
 }
 
 #profile_action_dropdown {
-	top:-5px!important;
-	left:720px!important;
-	background:var(--minimal_dark_black)!important;
-	border-radius:0px!important;
+    top: -5px !important;
+    left: 720px !important;
+    background: var(--minimal_dark_black) !important;
+    border-radius: 0px !important;
+    position: static !important;
+    transform: translate(-47px, 5px) !important;
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 div#game_select_suggestions_ctn {
