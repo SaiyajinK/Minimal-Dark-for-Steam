@@ -251,7 +251,7 @@
 		},
 		
 		"Alternative view for back to top button :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Change the appearance and display of the back to top button when scrolling the game page. \n\n - No : Default view. \n - Yes : Alternative view.",
 		"default": "no",
 		"values": {
@@ -265,7 +265,7 @@
 		},		
 
 		"Alternative view for scrolling bloc :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Change the appearance and display of the top game panel when scrolling the game page. \n\n - No : Default bloc. \n - Yes : Alternative view.",
 		"default": "no",
 		"values": {
@@ -279,7 +279,7 @@
 		},
 
 		"Bigger gamepage/library buttons :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Enlarge the play/download buttons on the library and gamepage. \n\n - No : Minimal default size buttons (medium). \n - Yes : Bigger size buttons (large).",
 		"default": "no",
 		"values": {
@@ -293,7 +293,7 @@
 		},
 		
 		"Bigger header :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Enabling this option makes the image at the top of the game page larger (total image size) \n\n - Default : Default size. \n - Full image : Bigger size.",
 		"default": "Full image",
 		"values": {
@@ -307,7 +307,7 @@
 		},
 		
 		"Blurred background :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Blur the background of the game page. \n\n - Full Dark : Applies dark color (#121212) to the entire page of a game. \n - Blurred : The top of the page will be blurred.",
 		"default": "Blurred",
 		"values": {
@@ -321,7 +321,7 @@
 		},
 		
 		"Community content :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Hide or show the community content in gamepage. \n\n - Hide : Hide community content in gamepage (better performance if you have a bad pc). \n - Show : Show community content in gamepage.",
 		"default": "Show",
 		"values": {
@@ -333,9 +333,23 @@
 				}
 			}
 		},
+		
+		"Dropdown stream/play button :": {
+		"tab": "Gamepage options (14)",
+		"description": "> Show or hide the dropdown menu button on the play/install button on the game page. \n\n - No : Hide the dropdown menu button on the play/install button. \n - Yes : Show the dropdown menu button on the play/install button.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/dropdown_pb.css"
+					}
+				}
+			}
+		},
 				
 		"Gamepage/library buttons svg color (Play/Install) :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Set the svg color of the library buttons. \n\n - White : Applies white color on play/install buttons. \n - Same as the outline : The color will be the same as the outline of the button.",
 		"default": "White",
 		"values": {
@@ -349,7 +363,7 @@
 		},
 		
 		"Header (compact mod) :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Hide or show the header image at the top of the game page to save more space. \n\n - Show : Show the header image at the top of the game page. \n - Hide : Hide the header image at the top of the game page to save more space. \n",
 		"default": "Show",
 		"values": {
@@ -363,7 +377,7 @@
 		},
 		
 		"Header size adjustment :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Enabling this option will make the game page headers stretched. \n\n - No : Vanilla size, no image modifications. \n - Yes : The image fills the entire header block. \n",
 		"default": "Yes",
 		"values": {
@@ -377,7 +391,7 @@
 		},
 		
 		"Hide 'post-party summary' / 'WYRTG ?' :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Hide or show 'post-party summary' or 'Would you recommend this game ?' in game gampeage. \n\n - Show all : Show all elements. \n - Hide all : Hide all elements. \n - Show summary only : Show only 'post-party summary', 'Would you recommend this game ?' is not displayed. \n - Show 'Would you recommend this game ?' only : Show only 'Would you recommend this game ?', 'post-party summary' is not displayed.",
 		"default": "Show all",
 		"values": {
@@ -401,7 +415,7 @@
 		},
 		
 		"Inverted gamepage (known bugs) :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Invert gamepage blocks (community content option set to 'Show' not work with this option). \n\n - Default : The layout is the same as the default steam skin. \n - Inverted : The layout is reversed from the vanilla Steam skin (bugs may appear with this option selected).",
 		"default": "Default",
 		"values": {
@@ -415,7 +429,7 @@
 		},
 		
 		"Hide all activities :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Enabling this option hides all games activities (updates, personal trophies earned, and those of contacts). \n\n - Show all activities : Show all activities. \n - Show all activities on mouseover : Show all activities on mouseover only. \n - Hide all activities : Hide all activities. \n - Hide only the no activities message : Hide only 'There's no recent activity from the developers of this title or from your friends'.",
 		"default": "Show all activities",
 		"values": {
@@ -439,7 +453,7 @@
 		},
 		
 		"Text on play/download button :": {
-		"tab": "Gamepage options (13)",
+		"tab": "Gamepage options (14)",
 		"description": "> Show or hide the text of the play/download buttons. \n\n - No : No text will be displayed, only the button icon will be present. \n - Yes : Text will be displayed next to the icon (play, stop, download).",
 		"default": "no",
 		"values": {
@@ -1855,7 +1869,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.1.5",
+	"version": "5.1.6",
 
 	"github": {
 		"owner": "SaiyajinK",
