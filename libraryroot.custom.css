@@ -534,7 +534,13 @@ button.DialogButton::before {
 
 .DialogContent, .DialogContentTransition {
     background: var(--minimal_dark_blacker_alt) !important;
-    border-radius: var(--minimal_dark_corner0) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+._2SwH92Kuhm2Kw8_VHMFHcy {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 0px solid var(--minimal_dark_be_grey) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
 .ModalOverlayBackground {
@@ -2387,6 +2393,24 @@ textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
     border-top-right-radius: var(--minimal_dark_corner) !important;
     border-bottom-left-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
+}
+
+span._1mpeIo_E-qVxqb3DeRrQvl::after {
+    height: 18px !important;
+    width: 18px !important;
+    position: absolute !important;
+    content: "" !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACuklEQVR4nO2WXW/SUBjH+wkUTHQSE1+gUOiXkQtseLkZaHaviRsdL6VceOGMCa7ZhaIx+gVMvJABgwEF/By6b3GOOeY5XWGajZ6yshy0/+SfNOnN79c+z2kFwY8fP378/KtJjLWkPNVPoIlxPSmsU+SxlopPdCRPdCJP60Se6lie1HLCOsEnJjqBrpWEDPDjGkqMLfi1koiNNMWCrxGr50skpnWU+K4/FHiDl8waips2vIPERP8h8AVfRXFTIyDAIsGNQAzgR1UUHwG83cUSdMFNDkZIGmqp2KiCJIC36yhR42OJKfywgqRhlUgjKIuEhmWTC/jyHH54WkcJjuCjgzKSBpU5vKOEhiU38NffZJKB/cwJFK49g+9b8LFBhUAlNgksmVV2+BtGLhU0sihoZAntfhYHjEzOE/jjEoodW/CMEvhy8B5JiDP4MrHKJIG9gb+kBMCLvRKK9m14JgksDVzAw5wvhJ8XBY204gr+aBdF+yUCAowS2BU8BJaVAd6VxAy+VyK0bBLYNTwVMDI/XQg4SohdNRXpqki04dkk8FLwLkfIUWIGf7RLaNkk8NLwzEvMsNgUvnMGnk0CS4OSN1/YpSUaSg7gw50iErsqEbt/CVwsgcWeR/BLSzTSZON9/le4U8SRrkqgjBLew7uWoPAFEm7vkEhHtcomsTp4ZolGmtxqFsiDQ4AvnpZJYvXwjhIUPk/hw+0iLaMEFjtXBH+hhA3f2qajYwswSFw9vB0476lEI01uvtu04OHp0zfgLAGnU6StMv+CrCTBRloJvFbQva/PrNE52wUS4TYH8Hau7T1SqEBrm0mCnk68wNvZ+Ly1d//bc0cJuHfnw+OXAo8Jfdp6tVDisEhCzcKBwHNCH5+cL9HaIaHmJt/wdkLNwp8S6wRv5/bb/Iu7X55iKFzPbvjx48fPf5HfHS4yIZmrWTYAAAAASUVORK5CYII=) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    margin-right: 15px !important;
+    transition: .25s ease-out !important;
+    transform: translate(0px, -22px) !important;
+}
+
+._1mpeIo_E-qVxqb3DeRrQvl .SVGIcon_Button.SVGIcon_DialogCheck {
+    visibility: hidden !important;
 }
 
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:last-child {
