@@ -456,9 +456,9 @@ button.DialogButton:active, button.DialogButton.gpfocus {
     background: var(--minimal_dark_be_grey);
 }
 
-.friendsui-container .contextMenuGameTitle,.friendsui-container .contextMenuSectionContent,.friendsui-container .contextMenuGameOptions {
-	background: var(--minimal_dark_blacker_alt) !important;
-}
+/* .friendsui-container .contextMenuGameTitle,.friendsui-container .contextMenuSectionContent,.friendsui-container .contextMenuGameOptions { */
+	/* background: var(--minimal_dark_blacker_alt) !important; */
+/* } */
 
 .friendsui-container .LQkrbbayZPY11qHm01t7F {
 	background: var(--minimal_dark_black) !important;
