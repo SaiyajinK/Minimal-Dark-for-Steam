@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 107 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 109 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -702,7 +702,7 @@ _User color_ :<br>
 
 <hr>
 
-## Topbar options (11) : 
+## Topbar options (13) : 
 
 <details><summary>Alignment fix for 4k resolution :</summary><br> 
 
@@ -732,7 +732,18 @@ _New UI_ :<br>
 <img src="https://github.com/user-attachments/assets/be09aad6-fad9-4639-a13e-731915ae0987">
 
 _New UI (alt)_ :<br> 
-<img src="https://github.com/user-attachments/assets/920f314e-8a0b-48bb-8e4e-c729e984d1f0"></p></details>
+<img src="https://github.com/user-attachments/assets/920f314e-8a0b-48bb-8e4e-c729e984d1f0"></p>
+
+_Vanilla rework_ :<br> 
+<img src="https://github.com/user-attachments/assets/e2904113-bd76-43f9-a6f4-cc73e7610bce"></p>
+
+_Vanilla rework (text only)_ :<br> 
+<img src="https://github.com/user-attachments/assets/18df8a20-f5a5-4f6f-be18-9f37615a5d2c"></p></details>
+
+<details><summary>Downloads progress bar color :</summary><br> 
+
+_Yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/66fe1ac8-fa8f-440a-b44c-515718c1adda"></p></details>
 
 <details><summary>Hide topbar elements :</summary><br> 
 
@@ -752,6 +763,14 @@ _No_ :<br>
 
 _Yes_ :<br> 
 <img src="https://github.com/user-attachments/assets/6d3f9715-4aca-4914-ae1e-0f42717cadca"></p></details>
+
+<details><summary>Longer tabs :</summary><br> 
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/430fcf59-f0b4-4468-897e-77123817789e"></p>
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/864e2a8f-6a81-4d7d-95e0-304766ed3fd0"></p></details>
 
 <details><summary>Root menu Steam text :</summary><br>
 
