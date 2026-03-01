@@ -679,6 +679,11 @@ _no_ :<br>
 _yes_ :<br> 
 <img src="https://github.com/user-attachments/assets/9f05b142-d79f-470d-94aa-959ab91f753c"></p></details>
 
+<details><summary>Resize width :</summary><br>   
+
+_Manual resize_ :<br> 
+<img src="https://github.com/user-attachments/assets/51677e7c-0610-42aa-a6cd-3476b4ae6e96"></p></details>
+
 <details><summary>Right Sidebar :</summary><br>   
 
 _Right (not recommanded)_ :<br> 
