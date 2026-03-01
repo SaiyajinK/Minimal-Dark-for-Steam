@@ -11141,10 +11141,14 @@ body.v6 .scale_capsule.with_microtrailer.microtrailer_active {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     background: var(--minimal_dark_blacker_alt) !important;
+	transition: .25s ease-out !important;
 }
 
 ._3Fbv05BMyyoEG6zimEgcem ._3tZYNXnqaO3px3k5QRFOz-:hover:not(._1iv01Tc8SCeolVfQ-rJIEP) {
     border: 1px solid var(--minimal_dark_color1) !important;
+    color: var(--minimal_dark_color1) !important;
+    text-shadow: none !important;
+	transition: .25s ease-out !important;
 }
 
 ._3sG-J5T8SrzM0Hjkda7sgL._24GFDabY2zeyuzhvACpldO._2edFDJ0B9YjtlfqugPTxw0 {
@@ -11354,6 +11358,10 @@ html:not(.BasicUI) .gASJ2lL_xmVNuZkWGvrWg ._1_P15GG6AKyF_NMX2j4-Mu ._2hhNOdcC6yL
     font-size: 13px !important;
     /* color: var(--minimal_dark_color1) !important; */
     text-shadow: none !important;
+}
+
+._2WMiQ5MbP_ReyaX5DOpoUD.SaleSectionHeader {
+    color: var(--minimal_dark_color1) !important;
 }
 
 .T2laXwxJLS6qZ1Ko0q0Db ._2XgkK2m_01lZYUuqv34NBt span {
