@@ -7431,9 +7431,12 @@ a:hover {
     box-shadow: 0 0 2px #5c5c5c !important;
     border-bottom-left-radius: var(--minimal_dark_corner);
     border-bottom-right-radius: var(--minimal_dark_corner);
-	border-top-left-radius: var(--minimal_dark_corner);
-	border-top-right-radius: var(--minimal_dark_corner);
-	/* top: -9px !important; */
+    border-top-left-radius: var(--minimal_dark_corner);
+    border-top-right-radius: var(--minimal_dark_corner);
+    /* top: -9px !important; */
+    position: static !important;
+    padding-bottom: 10px !important;
+	transition: .25s ease-out !important;
 }
 
 #NamePopup #NamePopupAliases {
