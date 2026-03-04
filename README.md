@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 109 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 110 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -390,7 +390,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options (16) : 
+## Library options (17) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -494,6 +494,20 @@ _yes_ :<br>
 
 _no_ :<br> 
 <img src="https://github.com/user-attachments/assets/b70bec84-390d-4ad4-89b8-630dae142f48"></p></details>
+
+<details><summary>Labels color for completed games :</summary><br>  
+
+_Default_ :<br> 
+<img src="https://github.com/user-attachments/assets/194c36df-ba97-4a4c-a23c-42071ff30b7a"></p>
+
+_Default (bottom)_ :<br> 
+<img src="https://github.com/user-attachments/assets/3d1f7efb-fc65-4786-9a24-8f38dd2eed9f"></p>
+
+_compact_ :<br> 
+<img src="https://github.com/user-attachments/assets/2c2c202c-b786-4369-af75-0179f89f3750"></p>
+
+_Compact (bottom)_ :<br> 
+<img src="https://github.com/user-attachments/assets/4b4d6fc9-f826-47a0-9441-a860f9dc421c"></p></details>
 
 <details><summary>Library labels :</summary><br>  
 
