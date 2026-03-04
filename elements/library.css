@@ -396,8 +396,8 @@
 }
 
 ._1LJqx_qFOC8199RBQO5kU8 {
-    color: #fff !important;
-    background-color: #29292982 !important;
+    color: #fff;
+    background-color: #29292982;
     transform-origin: 0 100%;
     transition: transform .32s cubic-bezier(0, 0.73, 0.48, 1);
     backdrop-filter: blur(8px) !important;
@@ -414,16 +414,16 @@
 }
 
 ._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM {
-    background-color: transparent !important;
+    background-color: #29292982;
     padding-left: 12px !important;
     border: 1px solid var(--minimal_dark_invisiblegrey) !important;
-    color: var(--minimal_dark_color) !important;
+    color: var(--minimal_dark_color);
     font-weight: 500 !important;
     transform: translate(0px, -195px);
 }
 
 ._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM svg {
-    display: none !important;
+    display: none;
 }
 
 ._3IWn-2rn7x98o5fDd0rAxb .sZaUDqkKPd-EtHyaNfoKG svg {
