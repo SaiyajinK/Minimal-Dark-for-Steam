@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 110 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 112 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -390,7 +390,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options (17) : 
+## Library options (18) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -486,6 +486,14 @@ _Ultra compact_ :<br>
 
 _Compact (centered content)_ :<br> 
 <img src="https://github.com/user-attachments/assets/2c845e38-b811-4808-b02f-569c1372f138"></p></p></details>
+
+<details><summary>Download icon on uninstalled games :</summary><br>  
+
+_Show_ :<br> 
+<img src="https://github.com/user-attachments/assets/e2e4e2a5-ca47-474a-9391-6a9a75fddd76"></p>
+
+_Hide_ :<br> 
+<img src="https://github.com/user-attachments/assets/65cdeb87-a8a1-41d5-8e8e-93436723b8a2"></p></details>
 
 <details><summary>Hide shelf :</summary><br>  
 
@@ -932,7 +940,7 @@ _yes_ :<br>
 
 <hr>
 
-## Webkit options (12) : 
+## Webkit options (13) : 
 
 <details><summary>Alternative UI for new Steam menu :</summary><br>  
 
@@ -958,6 +966,14 @@ _Full dark_ :<br>
 
 _Blurred_ :<br> 
 <img src="https://github.com/user-attachments/assets/d2b1fe1b-cec0-463c-96b5-4e6ed7a0897a"></p></details>
+
+<details><summary>Carousel arrows borders :</summary><br>  
+
+_No_ :<br> 
+<img src="https://github.com/user-attachments/assets/0291b325-9dfa-440f-b8e1-ff9a958c2057"></p>
+
+_Yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/862aa88a-28f8-44a3-98b5-93ff712b5a71"></p></details>
 
 <details><summary>Compact Webkit :</summary><br>  
 
