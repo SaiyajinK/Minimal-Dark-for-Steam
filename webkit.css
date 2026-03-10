@@ -7715,15 +7715,15 @@ div.ModalPosition_TopBar {
 }
 
 .carousel_container .arrow.right {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
     right: -52px !important;
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .carousel_container .arrow.right:hover {
-    background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_color1) !important;
+    background: var(--minimal_dark_blacker);
+    border: 1px solid var(--minimal_dark_color1);
     right: -52px !important;
 }
 
@@ -7733,15 +7733,15 @@ div.ModalPosition_TopBar {
 }
 
 .carousel_container .arrow.left {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
     left: -52px !important;
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .carousel_container .arrow.left:hover {
-    background: var(--minimal_dark_blacker) !important;
-    border: 1px solid var(--minimal_dark_color1) !important;
+    background: var(--minimal_dark_blacker);
+    border: 1px solid var(--minimal_dark_color1);
     left: -52px !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
@@ -17446,6 +17446,37 @@ select option:hover {
 
 .A2B2VZqisd8LEU7zknWqk {
     background: transparent !important;
+}
+
+.amNoDX2pd1HfanrHX9QUo ._2uvK1zucSC4I2mo3PDObGs {
+    background-color: transparent !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+._7-m3PA_FStk99zsZUPYX- ._25ppgVnyq5WaMqUlTkqeug {
+    background: transparent !important;
+}
+
+.HGCiCZ2mhusHJku7z15Nw {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.HGCiCZ2mhusHJku7z15Nw ._1pk8MT_nsrwd0kif6cppyD {
+    background-color: var(--minimal_dark_blacker) !important;
+}
+
+.HGCiCZ2mhusHJku7z15Nw ._1pk8MT_nsrwd0kif6cppyD svg {
+    fill: var(--minimal_dark_color1) !important;
+}
+
+.dh9oGaFfS7QEnReR1JGRQ.amNoDX2pd1HfanrHX9QUo ._2uvK1zucSC4I2mo3PDObGs {
+    background: linear-gradient(to right, #121212 -1%, #181818 0%, rgba(34, 50, 70, 0) 92%, rgba(34, 50, 70, 0) 100%) !important;
+}
+
+.HGCiCZ2mhusHJku7z15Nw:hover {
+    background-color: var(--minimal_dark_blacker) !important;
 }
 
 /* end webkit */
