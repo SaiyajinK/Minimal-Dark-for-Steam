@@ -408,7 +408,8 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 {
-    padding: 3px 0px 2px 24px;
+    /* padding: 3px 0px 2px 24px; */
+    padding: 3px 0px 2px 2px;
     font-weight: lighter;
 }
 
@@ -496,4 +497,3 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
 ._2-O4ZG0KrnSrzISHBKctFQ._10GdoB3tQXXGFToQ3yY_SK.Focusable ._1R9r2OBCxAmtuUVrgBEUBw._2E7G8grj_-tgxXbTXs1t2E.ga1hyw11cdBVodrCAidPF {
     margin-right: 8px !important;
 }
-
