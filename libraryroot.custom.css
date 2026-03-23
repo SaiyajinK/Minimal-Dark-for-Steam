@@ -1664,7 +1664,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
     transition: .25s ease-out !important;
     width: 42px !important;
     height: 32px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
     transform: translate(12px, 0px) !important;
 	border-top: 1px solid var(--minimal_dark_color) !important;
 	border-radius: var(--minimal_dark_corner) !important;
