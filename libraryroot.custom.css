@@ -2374,7 +2374,8 @@ textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 
 ._9Ql-oVe_j8E-vsDdyVdWo:not(.aIeh3X5T2M074RLW1qn6_):hover {
     border-radius: var(--minimal_dark_corner) !important;
-	box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, .3) !important;
+    box-shadow: 0px 0px 0px 2px rgba(var(--SystemAccentColor-RGB), .3) !important;
+    transition: .25s ease-out !important;
 }
 
 ._2bl0iQ9xigbq4Zd1NI6NZl {
@@ -2386,6 +2387,7 @@ textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 ._9Ql-oVe_j8E-vsDdyVdWo:not(.aIeh3X5T2M074RLW1qn6_) {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
+    transition: .25s ease-out !important;
 }
 
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:first-child {
