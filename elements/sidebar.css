@@ -180,7 +180,7 @@
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 ._3uk3F1BmAJQR6rl1TPcaif {
-    color: var(--minimal_dark_status_green) !important;
+    color: var(--minimal_dark_status_green);
     text-transform: lowercase !important;
     font-style: italic !important;
     transition: .25s ease-out !important;
@@ -201,7 +201,7 @@
 /* end steam cloud color*/
 
 ._2-O4ZG0KrnSrzISHBKctFQ._1LVQp3h_vGOZ8TuDUEge0k {
-    color: var(--minimal_dark_status_green) !important;
+    color: var(--minimal_dark_status_green);
     transition: .25s ease-out !important;
 }
 
@@ -292,14 +292,18 @@
 ._2-O4ZG0KrnSrzISHBKctFQ._1LVQp3h_vGOZ8TuDUEge0k.Focusable {
     left: 1px;
     position: relative;
-    border-left: 1px solid var(--minimal_dark_status_green) !important;
-    background: linear-gradient(90deg, rgb(6 227 157 / 12%) 0%, rgba(30, 30, 30, 1) 50%, rgba(255, 255, 255, 0) 100%) !important;
+    border-left: 1px solid var(--minimal_dark_status_green);
+    background: linear-gradient(90deg, rgb(6 227 157 / 12%) 0%, rgba(30, 30, 30, 1) 50%, rgba(255, 255, 255, 0) 100%);
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ._1LVQp3h_vGOZ8TuDUEge0k._1UBpAXP408Ez_L_mXhW5Q9.Focusable {
     left: 1px;
     position: relative;
-    border-left: 1px solid var(--minimal_dark_status_green) !important;
+    border-left: 1px solid var(--minimal_dark_status_green);
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9._1LVQp3h_vGOZ8TuDUEge0k, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ._1LVQp3h_vGOZ8TuDUEge0k {
+    color: var(--minimal_dark_status_green);
 }
 
 ._20QAC4WMXm8qFE8waUT5oo {
@@ -471,11 +475,11 @@ svg.SVGIcon_Button.SVGIcon_FriendIcon {
 }
 
 ._2kzMb_F7UTOEdecAFftN-l svg.f6-7-5CWFxNqF2BycKWlb.f6-7-5CWFxNqF2BycKWlb.f6-7-5CWFxNqF2BycKWlb circle {
-    stroke: var(--minimal_dark_status_green) !important;
+    stroke: var(--minimal_dark_status_green);
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 svg:not(.SVGIcon_FriendIcon) circle:not(.SVGIcon_ProgressCircle &) {
-    fill: rgb(6 227 157 / 24%) !important;
+    fill: rgb(6 227 157 / 24%);
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE._1VBNpnuk5eWT3VSCWNH57k.Focusable ._2SXJM0PeFEi3gbC7V3S5pE span {
