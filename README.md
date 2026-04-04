@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 112 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 113 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -604,7 +604,15 @@ _yes_ :<br>
 
 <hr>
 
-## Sidebar options (13) : 
+## Sidebar options (15) : 
+
+<details><summary>Alternative color update :</summary><br> 
+
+_Default_ :<br> 
+<img src="https://github.com/user-attachments/assets/c77785f4-f109-4d1f-a958-61d6b36a5aa7"></p>
+
+_User color_ :<br> 
+<img src="https://github.com/user-attachments/assets/fce7cfd8-1cce-4f8f-a3c5-b3b8b088e59d"></p></details>
 
 <details><summary>Alternative hover effect :</summary><br> 
 
