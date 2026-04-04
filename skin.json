@@ -1078,8 +1078,22 @@
 			}
 		},
 		
+		"Alternative color update :": {
+		"tab": "Sidebar options (15)",
+		"description": "> Choose the color of games update notifications in the sidebar. \n - Default : Green \n - User color : User color.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"User color": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/alternative_update_color.css"
+					}
+				}
+			}
+		},
+		
 		"Alternative hover effect :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Set user color gradient to the left on hover. \n\n - Default : Left user color border on mouseover. \n - User color gradient : Left user color border and gradient on mouseover.",
 		"default": "Default",
 		"values": {
@@ -1093,7 +1107,7 @@
 		},
 		
 		"Alternative ingame friends indicator :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Changes the indicator of ingame friends. \n\n - Minimal Dark default : Vertical bar. \n - Minimal Dark alternative #1 : Alternative vertical bar. \n - Minimal Dark alternative #2 : Horizontal bar. \n - Dot #1 : Rounded dot. \n - Dot #2 : Small rounded dot. \n - Dot #3 : Squared dot. \n - Dot #4 : Small squared dot.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -1132,7 +1146,7 @@
 		},
 		
 		"Animated mouseover :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Add an animation when hovering over the list of games. \n\n - No : No animation. \n - Yes : Animated.",
 		"default": "yes",
 		"values": {
@@ -1146,7 +1160,7 @@
 		},
 		
 		"Bigger font size :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Make games names bigger. \n\n - No : Normal font size. \n - Yes : Bigger font size.",
 		"default": "no",
 		"values": {
@@ -1160,7 +1174,7 @@
 		},
 		
 		"Bolder names :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Make the game names in the sidebar bolder. \n\n - No : Normal font. \n - Yes : Bolder font.",
 		"default": "no",
 		"values": {
@@ -1174,7 +1188,7 @@
 		},
 		
 		"Games names overflow :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Enable this option to prevent the game name from overlapping outside the sidebar block. \n\n - No : The game name overflows and is displayed in full. \n - Yes : The game name no longer overflows the sidebar when the mouse hovers over it.",
 		"default": "yes",
 		"values": {
@@ -1188,7 +1202,7 @@
 		},
 		
 		"Installed/selected games color :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Changes the color of installed/selected games. \n\n - Minimal Dark : Beige names / user color selected. \n - Minimal Dark alternative : White names / user color selected. \n - White : White names / white selected.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1207,7 +1221,7 @@
 		},
 		
 		"No left images :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Hide game images to the left of the names in the left bar. \n\n - No : Show images. \n - Yes : Hide images.",
 		"default": "no",
 		"values": {
@@ -1221,7 +1235,7 @@
 		},
 		
 		"Persistent Sidebar :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Enabling this option displays the sidebar where it is not usually displayed (webkit, community, profil). \n\n - No : Hide sidebar on webkit, community and profil. \n - Yes : Show sidebar on webkit, community and profil. \n\n Known bug : the main filter is not accessible on the webkit.",
 		"default": "yes",
 		"values": {
@@ -1235,7 +1249,7 @@
 		},
 		
 		"Pointer fix :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Fix cursor for sidebar resize when the Persistent Sidebar option is disabled only. \n\n - No : Leave this option disabled if you are using the persistent sidebar. \n - Yes : Enable this option if you do not use the persistent sidebar.",
 		"default": "no",
 		"values": {
@@ -1249,7 +1263,7 @@
 		},
 		
 		"Resize width :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Choose to set a fixed length for the sidebar or if you want to expand it manually. \n\n - Fixed position : Fixed sidebar (resizing are not possible) \n - Manual resize : Enlarge the sidebar manually. \n\n NOTE : Not compatible with persistent sidebar option.",
 		"default": "Fixed position",
 		"values": {
@@ -1267,7 +1281,7 @@
 		},
 		
 		"Right Sidebar :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Place the left bar on the right of the Steam client. \n\n - Left : Left sidebar. \n - Right sidebar (to enlarge the sidebar you will always have to slide to the right and not to the left).",
 		"default": "Left",
 		"values": {
@@ -1281,7 +1295,7 @@
 		},
 		
 		"Show sidebar on mouseover :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Displays the sidebar when the mouse hovers over it. \n\n - Default : Default display for sidebar. \n - On mouseover : Displays the sidebar when the mouse hovers over it. \n\n Note : The advanced filters and the filter buttons are not working.",
 		"default": "Default",
 		"values": {
@@ -1295,7 +1309,7 @@
 		},
 		
 		"Uninstalled selected games color :": {
-		"tab": "Sidebar options (14)",
+		"tab": "Sidebar options (15)",
 		"description": "> Changes the color of selected uninstalled games. \n\n - Minimal Dark : Red color. \n - White : White color. \n - User : User color.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1969,7 +1983,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.2.7",
+	"version": "5.2.8",
 
 	"github": {
 		"owner": "SaiyajinK",
