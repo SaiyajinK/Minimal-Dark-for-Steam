@@ -554,3 +554,82 @@ div#LanguageFilter_Container .tab_filter_control_row.checked span.tab_filter_con
     background-repeat: no-repeat !important;
     background-size: 12px !important;
 }
+
+.vr8-YBSOq0c- {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.hEFJxZ6iiG8- {
+    visibility: hidden !important;
+}
+
+.y4ZeOWwnMb8-.LXCImeRzzAI->span {
+    background: red !important;
+}
+
+.y4ZeOWwnMb8-.LXCImeRzzAI->span {
+    border-radius: 10px !important;
+    color: var(--SystemAccentColorAccent) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    /* transition: .25s ease-out !important; */
+	border: 1px solid var(--SystemAccentColorAccent) !important;
+}
+
+.y4ZeOWwnMb8-.LXCImeRzzAI- {
+    background: transparent !important;
+}
+
+.y4ZeOWwnMb8-, a.y4ZeOWwnMb8- {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	/* transition: .25s ease-out !important; */
+}
+
+.y4ZeOWwnMb8-, a.y4ZeOWwnMb8-:hover {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--SystemAccentColorAccent) !important;
+	/* transition: .25s ease-out !important; */
+}
+
+.y4ZeOWwnMb8-, a.y4ZeOWwnMb8- span {
+    color: white !important;
+    /* transition: .25s ease-out !important; */
+}
+
+.y4ZeOWwnMb8-, a.y4ZeOWwnMb8- span:hover {
+    color: var(--SystemAccentColorAccent) !important;
+    /* transition: .25s ease-out !important; */
+}
+
+.y4ZeOWwnMb8-.LXCImeRzzAI-, .y4ZeOWwnMb8-.LXCImeRzzAI-:hover {
+    border: none !important;
+}
+
+.mtoll770TDI- {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 10px !important;
+}
+
+.mtoll770TDI- .zeSMWt3KX6g- .gwOmz-SBfjs- {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 10px !important;
+}
+
+._2OpCkQAxn48FmAJ4KO84_C {
+    background-color: #5b4531 !important;
+    border: 1px solid #bcb077 !important;
+    font-size: 10px !important;
+    border-radius: 10px !important;
+    color: #bcb077 !important;
+}
+
+._291ttHtxyu5obiKzor2G9G {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+._1e3WbBz7-mqMKmK8HnpzFF {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
