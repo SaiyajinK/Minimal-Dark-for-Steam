@@ -1458,7 +1458,7 @@
 		
 		"Hide topbar tabs :": {
 		"tab": "Topbar options (14)",
-		"description": "> Hide topbar tabs (at choice). \n\n - Show all : Display all tabs. \n - Hide w&c : Hide webkit and community tabs.",
+		"description": "> Hide topbar tabs. \n\n - Show all : Display all tabs. \n - Hide w&c : Hide webkit and community tabs.",
 		"default": "Show all",
 		"values": {
 			"Show all": {},
