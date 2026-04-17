@@ -2505,7 +2505,7 @@ div#headerSearch.friend_activity_header_search {
     padding-bottom: 12px !important;
     padding-left: 12px !important;
     padding-right: 12px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
     border-radius: var(--minimal_dark_corner) !important;
     backdrop-filter: blur(8px) !important;
     background: #1212125e;
@@ -3319,8 +3319,9 @@ span#profile_action_dropdown_link img {
 }
 
 .screenshot_showcase_screenshot {
-	border-radius:0px!important;
-	border:1px transparent solid!important;
+    border-radius: 0px !important;
+    border: 1px transparent solid !important;
+    display: initial !important;
 }
 
 .profile_header_bg_texture {
@@ -5499,7 +5500,7 @@ h2.pageheader {
     padding: 15px 15px!important;
     border-radius: var(--minimal_dark_corner) !important;
     background: #1212125e !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 }
 
 body.profile_page #footer {
@@ -8429,7 +8430,7 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 .profile_customization {
     border-radius: var(--minimal_dark_corner) !important;
     background-image: none !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 	backdrop-filter: blur(10px) !important;
 	background: #1212125e;
 }
@@ -8440,7 +8441,7 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
     backdrop-filter: blur(20px);
     padding: 10px;
     border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey);
 	background: #1212125e;
 }
 
@@ -9150,12 +9151,12 @@ body.v6 .broadcast_live_stream_icon {
     border-radius: var(--minimal_dark_corner) !important;
     backdrop-filter: blur(10px)!important;
     background-color: #1212125e !important;
-    border: 1px solid var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_blacker);
 }
 
 .showcase_content_bg:last-child {
     border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_blacker);
     margin-top: 10px !important;
 }
 
