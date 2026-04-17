@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 115 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 116 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -948,7 +948,7 @@ _yes_ :<br>
 
 <hr>
 
-## Webkit options (13) : 
+## Webkit options (15) : 
 
 <details><summary>Alternative UI for new Steam menu :</summary><br>  
 
@@ -974,6 +974,14 @@ _Full dark_ :<br>
 
 _Blurred_ :<br> 
 <img src="https://github.com/user-attachments/assets/d2b1fe1b-cec0-463c-96b5-4e6ed7a0897a"></p></details>
+
+<details><summary>Borders profiles :</summary><br>  
+
+_No_ :<br> 
+<img src="https://github.com/user-attachments/assets/051ad46e-e224-4351-ba89-aa6797896384"></p>
+
+_Yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/583eb98c-37d9-4547-86ad-6636bde9d62b"></p></details>
 
 <details><summary>Carousel arrows borders :</summary><br>  
 
@@ -1046,6 +1054,14 @@ _yes_ :<br>
 
 _no_ :<br> 
 <img src="https://github.com/user-attachments/assets/cbf9cc62-dc97-4597-917f-b4d5972f11ad"></p></details>
+
+<details><summary>Solid background color profiles :</summary><br>  
+
+_Default_ :<br> 
+<img src="https://github.com/user-attachments/assets/64454932-5e2e-4a94-a092-5dc506268cc2"></p>
+
+_Solid color_ :<br> 
+<img src="https://github.com/user-attachments/assets/a264a60d-977e-43e7-95f7-af38dce791c7"></p></details>
 
 <details><summary>URL bar :</summary><br>  
 
