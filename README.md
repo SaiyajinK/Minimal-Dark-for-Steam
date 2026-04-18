@@ -188,8 +188,11 @@ _yes_ :<br>
 _Default_ :<br>  
 <img src="https://github.com/user-attachments/assets/4267aaa1-04a9-4c16-96e0-9d0a1cb43653"></p>
 
-_Full image_ :<br>  
-<img src="https://github.com/user-attachments/assets/b26b571a-c58f-4952-a932-bbfce42caa34"></p></details>
+_Full image only when maximized_ :<br>  
+<img width="720" height="480" alt="Image" src="https://github.com/user-attachments/assets/29ca5e92-1901-480a-b7ab-fbf8367f3180" /></p>
+
+_Full image everywhere_ :<br>  
+<img width="720" height="480" alt="Image" src="https://github.com/user-attachments/assets/024ff1a6-a12e-406a-8e15-75ba3c3a7da1" /></p></details>
 
 <details><summary>Blurred background :</summary><br>  
 
