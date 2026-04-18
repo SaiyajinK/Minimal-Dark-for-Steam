@@ -294,13 +294,18 @@
 		
 		"Bigger header :": {
 		"tab": "Gamepage options (14)",
-		"description": "> Enabling this option makes the image at the top of the game page larger (total image size) \n\n - Default : Default size. \n - Full image : Bigger size.",
-		"default": "Full image",
+		"description": "> Enabling this option makes the image at the top of the game page larger (total image size) \n\n - Default : Default size. \n - Full image only when maximized : Bigger size when maximized window only. \n - Full image everywhere : Bigger size on normal and maximized window.",
+		"default": "Full image only when maximized",
 		"values": {
 			"Default": {},
-			"Full image": {
+			"Full image only when maximized": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header.css"
+					}
+				},
+			"Full image everywhere": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header_all.css"
 					}
 				}
 			}
@@ -2025,7 +2030,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.3.1",
+	"version": "5.3.2",
 
 	"github": {
 		"owner": "SaiyajinK",
