@@ -633,3 +633,20 @@ div#LanguageFilter_Container .tab_filter_control_row.checked span.tab_filter_con
 ._1e3WbBz7-mqMKmK8HnpzFF {
     background-color: var(--minimal_dark_blacker_alt) !important;
 }
+
+._5T6C7ESpj4ynwbH8LS101 ._1H947zVMI4eix33y6Vyrm0 {
+    font-size: 10px !important;
+    color: white !important;
+    border-radius: 0px !important;
+    border: 1px solid white !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    backdrop-filter: blur(8px) !important;
+    transform: translate(0px, 423px) !important;
+}
+
+._19l-UjQZVVGNK5SKnOrmJB .VoAJhMdtQTylTg3G03nJo {
+    background-color: #1212126b !important;
+    color: var(--minimal_dark_redsettings) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    backdrop-filter: blur(8px) !important;
+}
