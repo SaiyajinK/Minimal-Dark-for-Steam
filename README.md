@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 116 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 119 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -162,7 +162,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (14) :
+## Gamepage options (17) :
 
 <details><summary>Alternative view for back to top button :</summary><br>  
 
@@ -176,6 +176,11 @@ _yes_ :<br>
 
 _yes_ :<br>  
 <img src="https://github.com/user-attachments/assets/3e520616-6fac-4b22-88d9-ab45932a261b"></p></details>
+
+<details><summary>Always show game infos :</summary><br>  
+
+_yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/c9ab7c1a-24db-4182-bc69-d2756236da69"></p></details>
 
 <details><summary>Bigger gamepage/library buttons :</summary><br>  
 
@@ -201,6 +206,11 @@ _Full dark (default)_ :<br>
 
 _Blurred_ :<br>  
 <img src="https://github.com/user-attachments/assets/6cb34b45-ae41-4bed-ba49-744c413f1480"></p></details>
+
+<details><summary>Compact gamepage :</summary><br>  
+
+_Yes_ :<br>
+<img src="https://github.com/user-attachments/assets/1025b745-20a8-4ecf-8dae-e7387758efaf"></p></details>
 
 <details><summary>Community content :</summary><br>  
 
@@ -241,6 +251,14 @@ _No_ :<br>
 
 _Yes_ :<br>
 <img src="https://github.com/user-attachments/assets/28c42b68-04d0-4c5c-b12f-89169598d596"></p></details>
+
+<details><summary>Hide success date :</summary><br>      
+
+_No_ :<br>
+<img src="https://github.com/user-attachments/assets/a0e7649e-49c1-4688-87e0-41af88ca49fb"></p>
+
+_Yes_ :<br>
+<img src="https://github.com/user-attachments/assets/26a11adf-35ee-41b6-97d0-509063355e7d"></p></details>
 
 <details><summary>Hide 'post-party summary' / 'Would you recommend this game ?' :</summary><br>      
 
