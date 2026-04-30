@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 119 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 120 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -162,7 +162,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (17) :
+## Gamepage options (18) :
 
 <details><summary>Alternative view for back to top button :</summary><br>  
 
@@ -198,6 +198,14 @@ _Full image only when maximized_ :<br>
 
 _Full image everywhere_ :<br>  
 <img width="720" height="480" alt="Image" src="https://github.com/user-attachments/assets/024ff1a6-a12e-406a-8e15-75ba3c3a7da1" /></p></details>
+
+<details><summary>Bigger top bloc padding :</summary><br>  
+
+_No_ :<br>  
+<img src="https://github.com/user-attachments/assets/dbad3f98-5f19-4b83-aaea-7a61e6ce1bc1"></p>
+
+_Yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/7f9f81b2-1687-4cc6-9684-eddfad15a8c5"></p></details>
 
 <details><summary>Blurred background :</summary><br>  
 
