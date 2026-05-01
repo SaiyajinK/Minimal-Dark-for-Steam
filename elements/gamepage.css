@@ -655,7 +655,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 .UVeN0kaD3zv1feMj_mMw5._3xi-HLpFVHaakihoqhQ_6C {
     border: 1px solid var(--minimal_dark_color) !important;
     border-image: none !important;
-    background: var(--minimal_dark_blacker_alt) !important;
+    background: transparent !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
