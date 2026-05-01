@@ -954,12 +954,13 @@ div#fgg-widget-root button:hover svg path, div#fgg-widget-root button:hover svg 
 }
 
 div#fgg-widget-root div {
-    backdrop-filter: blur(8px) !important;
+    /* backdrop-filter: blur(8px) !important; */
     border-radius: 5px !important;
 }
 
 button#fgg-tab-games.fgg-tab, button#fgg-tab-settings.fgg-tab {
     border-radius: 0px !important;
+    font-size: 12px !important;
 }
 
 .fgg-header button#fgg-close {
@@ -1004,5 +1005,13 @@ div#fgg-body .fgg-empty .fgg-empty-icon svg.fgg-radar .fgg-radar-pulse {
 
 #fgg-body .fgg-hint-card .fgg-hint-label, #fgg-body .fgg-hint-card .fgg-hint-text {
     backdrop-filter: none !important;
+}
+
+.fgg-card:hover {
+    border: 1px solid var(--minimal_dark_color1) !important;
+}
+
+.fgg-card-accent {
+    background: var(--minimal_dark_color1) !important;
 }
 /* end auto-claim */
