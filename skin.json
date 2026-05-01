@@ -308,23 +308,38 @@
 		
 		"Bigger header :": {
 		"tab": "Gamepage options (18)",
-		"description": "> Enabling this option makes the image at the top of the game page larger (total image size) \n\n - Steam default : Default Steam size. \n - Minimal default : Minimal default size. \n - Full image only when maximized : Bigger size when maximized window only. \n - Full image everywhere : Bigger size on normal and maximized window.",
+		"description": "> Enabling this option makes the image at the top of the game page larger (total image size) \n\n - Steam default : Default Steam size. \n - Minimal default : Minimal default size. \n - Full image only when maximized : Bigger size when maximized window only. \n - Full image everywhere : Bigger size on normal and maximized window. \n\n NOTE : The options without a mask remove the slight black glow from the background but remain the same as those with the mask.",
 		"default": "Full image only when maximized",
 		"values": {
 			"Steam default": {},
 			"Minimal default": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header_min.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_min.css"
+					}
+				},
+			"Minimal default (no mask)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_min_no_mask.css"
 					}
 				},
 			"Full image only when maximized": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header.css"
+					}
+				},
+			"Full image only when maximized (no mask)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_no_mask.css"
 					}
 				},
 			"Full image everywhere": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header_all.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_all.css"
+					}
+				},
+			"Full image everywhere (no mask)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_all_no_mask.css"
 					}
 				}
 			}
@@ -2091,7 +2106,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.4.0",
+	"version": "5.4.1",
 
 	"github": {
 		"owner": "SaiyajinK",
