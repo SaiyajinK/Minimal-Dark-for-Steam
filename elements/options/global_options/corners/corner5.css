@@ -923,3 +923,61 @@ div#SaleSection_4 ._1cOoCFwafBlSkwllIMf3XM._39HWXhhjsbML7K9sme9ItV._2DwHnbQk_PGf
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 5px !important;
 }
+
+/* auto-claim */
+div#fgg-widget-root button {
+	/* border-radius: 0px 5px 5px 0px !important; */
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_blacker) !important;
+    transition: .25s ease-out !important;
+}
+
+div#fgg-widget-root button:hover {
+    border: 1px solid var(--minimal_dark_color1) !important;
+    background: var(--minimal_dark_black) !important;
+    transition: .25s ease-out !important;
+    color: var(--minimal_dark_color1) !important;
+}
+
+div#fgg-widget-root button:hover svg polyline {
+    stroke: var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+}
+
+.fgg-tab-indicator {
+    background: var(--minimal_dark_color1) !important;
+    box-shadow: 0 0 8px rgba(var(--SystemAccentColorAccent-RGB), 0.25) !important;
+}
+
+div#fgg-widget-root button:hover svg path, div#fgg-widget-root button:hover svg rect {
+    stroke: var(--minimal_dark_color1) !important;
+}
+
+div#fgg-widget-root div {
+    border-radius: 5px !important;
+}
+
+button#fgg-tab-games.fgg-tab, button#fgg-tab-settings.fgg-tab {
+    border-radius: 0px !important;
+}
+
+.fgg-header button#fgg-close {
+    border-radius: 5px !important;
+}
+
+div#fgg-body button#fgg-autoadd {
+    border-radius: 5px !important;
+}
+
+div#fgg-body button#fgg-notifygrab {
+    border-radius: 5px !important;
+}
+
+div#fgg-body button#fgg-notifygrab {
+    border-radius: 5px !important;
+}
+
+.fgg-toggle-knob {
+    border-radius: 5px !important;
+}
+/* end auto-claim */
