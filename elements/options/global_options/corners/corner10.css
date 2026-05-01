@@ -980,4 +980,20 @@ div#fgg-body button#fgg-notifygrab {
 .fgg-toggle-knob {
     border-radius: 10px !important;
 }
+
+.fgg-tab.active {
+    color: var(--minimal_dark_color1) !important;
+}
+
+div#fgg-body .fgg-empty .fgg-empty-icon svg.fgg-radar .fgg-radar-dot {
+    fill: var(--minimal_dark_color1) !important;
+}
+
+div#fgg-body .fgg-empty .fgg-empty-icon svg circle {
+    stroke: var(--minimal_dark_color1) !important;
+}
+
+div#fgg-body .fgg-empty .fgg-empty-icon svg.fgg-radar .fgg-radar-pulse {
+    stroke: var(--minimal_dark_color1) !important;
+}
 /* end auto-claim */
