@@ -2540,3 +2540,43 @@ margin-bottom: 10px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
+
+.millennium-custom-buttons {
+	margin-right: 0px !important;
+    margin-left: 3px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    height: 30px !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    font-size: 13px !important;
+	transition: .25s ease-out !important;
+}
+
+.millennium-custom-buttons:hover {
+	margin-right: 0px !important;
+    margin-left: 3px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    height: 30px !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    font-size: 13px !important;
+	transition: .25s ease-out !important;
+	color: var(--minimal_dark_color) !important;
+}
+
+.millennium-custom-buttons:active {
+	margin-right: 0px !important;
+    margin-left: 3px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    height: 30px !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    font-size: 13px !important;
+	transition: .25s ease-out !important;
+	color: white !important;
+	box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+.millennium-custom-buttons-inner-div {
+    padding: 5px 5px !important;
+}
