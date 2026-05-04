@@ -1014,4 +1014,9 @@ div#fgg-body .fgg-empty .fgg-empty-icon svg.fgg-radar .fgg-radar-pulse {
 .fgg-card-accent {
     background: var(--minimal_dark_color1) !important;
 }
+
+span#fgg-games-badge {
+    background: var(--minimal_dark_red2) !important;
+    border: 1px solid #ffffffbf !important;
+}
 /* end auto-claim */
