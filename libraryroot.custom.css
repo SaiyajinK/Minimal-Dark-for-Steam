@@ -651,7 +651,8 @@ button.DialogButton::before {
 .ModalDialogPopup .DialogContent {
     overflow: visible;
     background: var(--minimal_dark_blacker_alt) !important;
-	padding: 24px !important;
+	/* padding: 24px !important; */
+	padding: 20px !important;
 }
 
 .contextMenuItem:hover ._2QcdrheE9WasLLyJYHymUv._33a4zs_vxXCtw7vFTwb3XG, .contextMenuItem:hover ._2QcdrheE9WasLLyJYHymUv._54dy2uxVcadf_1e6Poifs {
@@ -2579,4 +2580,25 @@ margin-bottom: 10px !important;
 
 .millennium-custom-buttons-inner-div {
     padding: 5px 5px !important;
+}
+
+._2Ylu2Lki0Y2s452Fh--tiE {
+    color: var(--minimal_dark_color) !important;
+}
+
+._34lrt5-Fc3usZU6trA1P0- {
+	font-size: 10px !important;
+}
+
+.DialogContent._DialogLayout._2KQRlxOL0nH2Mx4tAGxQQr img._24_AuLm54JVe1Zc0AApCDR._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._1_1gXneI2QlOdyXMqiCZJx.DialogButton {
+    padding: 2px 15px !important;
+    line-height: 24px !important;
+}
+
+._20PFwr9na9AT4Lz00IdtVQ {
+    font-weight: 500 !important;
 }
