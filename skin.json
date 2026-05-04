@@ -390,7 +390,7 @@
 		"Community content :": {
 		"tab": "Gamepage options (18)",
 		"description": "> Hide or show the community content in gamepage. \n\n - Hide : Hide community content in gamepage (better performance if you have a bad pc). \n - Show : Show community content in gamepage.",
-		"default": "Show",
+		"default": "Hide",
 		"values": {
 			"Show": {},
 			"Hide": {
@@ -1318,7 +1318,7 @@
 		"Persistent Sidebar :": {
 		"tab": "Sidebar options (15)",
 		"description": "> Enabling this option displays the sidebar where it is not usually displayed (webkit, community, profil). \n\n - No : Hide sidebar on webkit, community and profil. \n - Yes : Show sidebar on webkit, community and profil. \n\n Known bug : the main filter is not accessible on the webkit.",
-		"default": "yes",
+		"default": "no",
 		"values": {
 			"no": {},
 			"yes": {
@@ -1774,7 +1774,7 @@
 		"Hide scrollbars :": {
 		"tab": "Various options (9)",
 		"description": "> Hide or show scrollbars. \n\n - Hide : Hide all scrollbars on the entirety of the skin. \n - Show : Show all scrollbars on the entirety of the skin.",
-		"default": "Hide",
+		"default": "Show",
 		"values": {
 			"Show": {},
 			"Hide": {
@@ -2106,7 +2106,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.4.1",
+	"version": "5.4.2",
 
 	"github": {
 		"owner": "SaiyajinK",
