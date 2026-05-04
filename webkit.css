@@ -116,7 +116,11 @@ body::-webkit-scrollbar-track {
 }
 
 .DialogBody::-webkit-scrollbar {
-	display:none!important;
+	display: none! important;
+}
+
+.DialogContent_InnerWidth::-webkit-scrollbar {
+  display: none !important;
 }
 
 @media only screen and (min-width:3000px) {
