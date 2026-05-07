@@ -1753,6 +1753,11 @@
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/various_options/fonts/jetbrains_font.css"
 					}
+				},
+			"DePixel": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/fonts/depixel_font.css"
+					}
 				}
 			}
 		},
