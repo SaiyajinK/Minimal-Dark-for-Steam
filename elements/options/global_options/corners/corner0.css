@@ -1009,6 +1009,8 @@ div#fgg-body .fgg-empty .fgg-empty-icon svg.fgg-radar .fgg-radar-pulse {
 
 .fgg-card:hover {
     border: 1px solid var(--minimal_dark_color1) !important;
+    transform: translate(0px) !important;
+    transition: none !important;
 }
 
 .fgg-card-accent {
@@ -1018,5 +1020,14 @@ div#fgg-body .fgg-empty .fgg-empty-icon svg.fgg-radar .fgg-radar-pulse {
 span#fgg-games-badge {
     background: var(--minimal_dark_red2) !important;
     border: 1px solid #ffffffbf !important;
+    color: white !important;
+}
+
+.fgg-card {
+    animation: none !important;
+}
+
+.fgg-toggle {
+    border-radius: 0px !important;
 }
 /* end auto-claim */
