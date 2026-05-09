@@ -1502,6 +1502,10 @@ button.DialogButton.Primary:active {
     padding-left: 87px !important;
 }
 
+.MemberListColumn .inputContainer {
+    padding-left: 0px !important;
+}
+
 .title-area-highlight {
     background: var(--minimal_dark_color) !important;
 }
