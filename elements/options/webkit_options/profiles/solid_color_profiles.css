@@ -1,0 +1,12 @@
+.profile_animated_background {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.profile_animated_background > video {
+   visibility: hidden !important;
+}
+
+body.profile_page.has_profile_background, div.profile_page.has_profile_background {
+    background-image: none !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
