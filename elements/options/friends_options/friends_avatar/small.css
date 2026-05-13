@@ -1,7 +1,0 @@
-.currentUserAvatar {
-    transform: scale(1) translate(-8px, 11px) !important;
-}
-
-.currentUserAvatar:hover {
-    transform: scale(1.1) translate(-6px, 9px) !important;
-}
