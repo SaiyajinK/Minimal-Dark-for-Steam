@@ -1,0 +1,28 @@
+.FriendsListContent {
+    flex-direction: column-reverse !important;
+}
+
+.FriendsListChatSection.ChatRoomListContainerParent.Collapsed .ToggleGroupChatList .SVGIcon_DoubleArrow {
+    transform: rotateZ(270deg) !important;
+}
+
+.FriendsListChatSection.ChatRoomListContainerParent .ToggleGroupChatList .SVGIcon_DoubleArrow {
+    transform: rotate(90deg) !important;
+}
+
+.chatRoomListContainer {
+    border-bottom: 1px solid var(--minimal_dark_topgrey) !important;
+}
+
+.friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
+    padding-top: 6px !important;
+}
+
+.chatRoomListContainer {
+    height: 156px !important;
+    padding-bottom: 8px !important;
+}
+
+.FriendsListChatSection.ChatRoomListContainerParent.Collapsed .chatRoomListContainer {
+    padding-bottom: 0px !important;
+}
