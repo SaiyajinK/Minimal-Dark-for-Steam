@@ -1,0 +1,8 @@
+.friendGroup .friend, .friendGroup .SteamPlayerGroupFooter {
+    flex-direction: row-reverse !important;
+}
+
+.ChatRoomListGroupItem_header {
+    flex-direction: row-reverse !important;
+    padding-inline-end: 20px !important;
+}

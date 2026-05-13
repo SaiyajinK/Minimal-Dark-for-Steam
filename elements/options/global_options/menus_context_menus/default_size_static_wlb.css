@@ -1,0 +1,83 @@
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI {
+    border-left: 1px solid var(--minimal_dark_black) !important;
+	transition: .25s ease-out !important;
+}
+
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:focus {
+    border-left: 1px solid transparent !important;
+	transition: .25s ease-out !important;
+}
+
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:focus {
+    border-left: 1px solid transparent !important;
+	transition: .25s ease-out !important;
+}
+
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+/* friends context menu */
+
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+.contextMenuGameTitle.contextMenuUnselectable._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem.disabled:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu .contextMenuSectionContent .contextMenuGameOptions._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._14wqdluDeDnnEcg3OSLEmd .client_chat_frame .MillenniumWindow_ContextMenu .Menu .ContextMenuPopupBody .friendsui-container .PP7LM0Ow1K5qkR8WElLpt.visible.ready._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI .contextMenuItem:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:first-child:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:last-child:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover, ._2yAm5LY_eu-Vg_52l0HFlM ._2EstNjFIIZm_WUSKm5Wt7n ._2RlEO6dx1vo3OB7EFJnzDi._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+    border-left: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+/* end friends context menu */
