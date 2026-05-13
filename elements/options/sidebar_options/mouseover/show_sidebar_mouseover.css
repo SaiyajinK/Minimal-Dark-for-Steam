@@ -1,0 +1,37 @@
+._1kYo6lsIPsf-T5NiVRHiDO::before {
+    content: "" !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    backdrop-filter: blur(8px) !important;
+    height: 100% !important;
+    width: 100% !important;
+    display: list-item !important;
+    position: static !important;
+    transition-delay: .05s !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqElEQVR4nO2aO28TQRCAV4hUPHroIaHmVRDCH4lpIPwBkHgVbn27J59nHLBnzhUSJFAAcuh4/AHEPwg0JnQ8FJpAkIzGdpzldGBLtmyxnk9abTGju5uZ3Z3dvTFGURRFURRlCCKgSxbpsQPassA/pXdA6y6pL5mQIaI5i0QOuf23ZoFqomdCxA4w3neCCXHYuz8MpecxpKede3AoqtbPWKSmL4+QL5qQcMBP+hFGaubqID3d1+E1ExJOFrqecRL5PB0ZCZ4DPmblcZVPWqAPw0yjcTWL9D6q1E6M7gCkH3sPXV1dPZzrgKhxxHPATlZugW5M0nhvul6fyAhwFTrrvbSVNwIc8uaEHbA5nhEAtN5/KNBGno4Ffravww9NSLikvpSZW02JuEyHTuSBNnx5XKFFExoWqDbcPoDvmRAhojmHfH+Q8cVi8aAJmbhCi5LnJdV1swO1LNAji+mFaX+boijKRCgl6akY0msO+Kb0MdKCmQVipAWH/CY/BdLrKGnMm1BxCZ13wN8GnL6+ljA9Z0IDAI5a5E+esbuyHbbA5d42eNc7K2zJydCEhAW660X5s5z9fblE3QF/8Zxw24SEA37nRf9Kno5FXvFOg2+z8mKxeMABFWThnFyjgrx3ZAdY4O97xpXLdCxPJ6o2jnv3Ads5Dro8lQsRoMLIDnBI26M6oBP9KTjAYro81ikQA13N0+nsCwZMAfkYi1SaXEuXxzIFIuQ7/iKYTXW9FNlfBC3SLRNaGnTevWAnDQK/kDTY7emXN/xbwaVBQaIuG51BGyG5IjOhEiWNeYv8Kn+15Zdy82tmgajriBXJtdLPjOGKoiiRlsjwP36MaIlMW0tkUEtk2loig1ois5OVa4lMVUtk/l+clsgYLZEhLZHpoiUyiqIoiqKYgPgN9N23JMiiSMIAAAAASUVORK5CYII=") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 18px !important;
+}
+
+._9sPoVBFyE_vE87mnZJ5aB {
+    max-width: 0px !important;
+    min-width: 20px !important;
+    content-visibility: auto !important;
+    transition: .25s ease-out !important;
+	transition-delay: 0s !important;
+
+}
+
+._9sPoVBFyE_vE87mnZJ5aB:hover {
+    min-width: 308px !important;
+    max-width: 308px !important;
+    content-visibility: auto !important;
+    transition: .25s ease-out !important;
+	  transition-delay: 0s !important;
+}
+
+._9sPoVBFyE_vE87mnZJ5aB:hover ._1kYo6lsIPsf-T5NiVRHiDO::before {
+    content: "" !important;
+	  display: none !important;
+}

@@ -1,0 +1,18 @@
+svg.SVGIcon_Button.SVGIcon_FriendIcon {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+    border-left: none !important;
+    margin-top: -3px !important;
+    margin-left: 1px !important;
+    height: 10px !important;
+    width: 2px !important;
+    background: #8cd61d !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    transform: translate(4px, 2px) !important;
+}
+
+._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ :hover {
+    background: transparent !important;
+}
