@@ -2546,7 +2546,7 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 }
 
 .compactView .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.online.awayOrSnooze .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
-    transform: scale(1.18) translate(3px, 3px) !important;
+    transform: scale(1) translate(0px, 0px) !important;
     transition: .25s ease-out !important;
 }
 
@@ -2958,7 +2958,8 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 }
 
 .CompactFriendsList .SteamPlayerGroupFooter .SteamPlayerGroupFooterCount, .CompactFriendsList .friend .avatarHolder {
-    transform: scale(1) translateY(3px) !important;
+    transform: scale(1) translateY(2px) !important;
+    /* padding-top: 0px !important; */
 }
 
 .MemberListColumn.MemberListViewCompact.Panel.Focusable img._3h-QRJGxnVOIExtHD1R0f2.avatar {

@@ -9,7 +9,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/hide_wallet.css"
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/hide_wallet/hide_wallet.css"
 					}
 				}
 			}
@@ -47,7 +47,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/alternative_notification_icon.css"
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/alternative_notification_icon/alternative_notification_icon.css"
 					}
 				}
 			}
@@ -61,7 +61,7 @@
 			"Default": {},
 			"Compact": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/account_options/compact_avatar.css"
+			"affects": ["^Steam$"], "src": "elements/options/account_options/compact_avatar/compact_avatar.css"
 					}
 				}
 			}
@@ -75,7 +75,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/animated_hovering.css"
+			"affects": [".*"], "src": "elements/options/friends_options/animated_hovering/animated_hovering.css"
 					}
 				}
 			}
@@ -108,7 +108,7 @@
 			"Default": {},
 			"Smaller": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/smaller_font_size.css"
+			"affects": [".*"], "src": "elements/options/friends_options/smaller_font_size/smaller_font_size.css"
 					}
 				}
 			}
@@ -164,17 +164,17 @@
 		"values": {
 			"Default (bottom)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/bottom_group_chats.css"
+			"affects": [".*"], "src": "elements/options/friends_options/group_chats_position/bottom_group_chats.css"
 					}
 				},
 			"Top": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/top_group_chats.css"
+			"affects": [".*"], "src": "elements/options/friends_options/group_chats_position/top_group_chats.css"
 					}
 				},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/hide_group_chats.css"
+			"affects": [".*"], "src": "elements/options/friends_options/group_chats_position/hide_group_chats.css"
 					}
 				}
 			}
@@ -188,7 +188,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/hide_footer.css"
+			"affects": [".*"], "src": "elements/options/friends_options/hide_footer/hide_footer.css"
 					}
 				}
 			}
@@ -202,7 +202,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/fix_footer.css"
+			"affects": [".*"], "src": "elements/options/friends_options/hide_footer/fix_footer.css"
 					}
 				}
 			}
@@ -216,7 +216,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/hide_vocal_chat.css"
+			"affects": [".*"], "src": "elements/options/friends_options/vocal_chat/hide_vocal_chat.css"
 					}
 				}
 			}
@@ -230,7 +230,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/inverted_contact_bloc.css"
+			"affects": [".*"], "src": "elements/options/friends_options/inverted_contact_bloc/inverted_contact_bloc.css"
 					}
 				}
 			}
@@ -244,7 +244,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/offline_friends.css"
+			"affects": [".*"], "src": "elements/options/friends_options/offline_friends/offline_friends.css"
 					}
 				}
 			}
@@ -258,7 +258,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/gamepage_options/alt_view_btt_button.css"
+			"affects": [".*"], "src": "elements/options/gamepage_options/alternative_view_for_back_to_top_button/alt_view_btt_button.css"
 					}
 				}
 			}
@@ -272,7 +272,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/gamepage_options/alt_view_scrolling_bloc.css"
+			"affects": [".*"], "src": "elements/options/gamepage_options/alternative_view_for_scrolling_bloc/alt_view_scrolling_bloc.css"
 					}
 				}
 			}
@@ -286,7 +286,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/gamepage_options/always_show_game_infos.css"
+			"affects": [".*"], "src": "elements/options/gamepage_options/always_show_game_infos/always_show_game_infos.css"
 					}
 				}
 			}
@@ -300,7 +300,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_task_buttons.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_gamepage_library_buttons/bigger_task_buttons.css"
 					}
 				}
 			}
@@ -353,7 +353,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_top_bloc_padding.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_top_bloc_padding/bigger_top_bloc_padding.css"
 					}
 				}
 			}
@@ -367,7 +367,7 @@
 			"Full dark": {},
 			"Blurred": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/blurred_bg_gamepage.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/blurred_background/blurred_bg_gamepage.css"
 					}
 				}
 			}
@@ -381,7 +381,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/compact_gamepage.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/compact_gamepage/compact_gamepage.css"
 					}
 				}
 			}
@@ -395,7 +395,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/gp_community_content.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/community_content/gp_community_content.css"
 					}
 				}
 			}
@@ -409,7 +409,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/dropdown_pb.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/dropdown_stream_play_button/dropdown_pb.css"
 					}
 				}
 			}
@@ -423,7 +423,7 @@
 			"White": {},
 			"Same as the outline": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/gamepage_library_svg_color.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/buttons_svg_color/gamepage_library_svg_color.css"
 					}
 				}
 			}
@@ -437,7 +437,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/gp_compact.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/header_compact/gp_compact.css"
 					}
 				}
 			}
@@ -503,7 +503,7 @@
 			"Default": {},
 			"Inverted": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/inverted_gamepage.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/inverted_gamepage/inverted_gamepage.css"
 					}
 				}
 			}
@@ -541,7 +541,7 @@
 			"yes": {},
 			"no": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/gamepage_options/library_buttons_text.css"
+			"affects": [".*"], "src": "elements/options/gamepage_options/button_text/library_buttons_text.css"
 					}
 				}
 			}
@@ -574,7 +574,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/alternative_ui_cm.css"
+			"affects": [".*"], "src": "elements/options/global_options/alternative_ui_context_menu/alternative_ui_cm.css"
 					}
 				}
 			}
@@ -672,12 +672,12 @@
 		"values": {
 			"Full borders": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/full_library_hover_effect.css"
+			"affects": [".*"], "src": "elements/options/global_options/borders_hover_effect/full_library_hover_effect.css"
 					}
 				},
 			"Bottom only": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/bottom_library_hover_effect.css"
+			"affects": [".*"], "src": "elements/options/global_options/borders_hover_effect/bottom_library_hover_effect.css"
 					}
 				}
 			}
@@ -720,7 +720,7 @@
 			"Hide": {},
 			"Show": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/global_options/steam_bp_button.css"
+			"affects": ["^Steam$"], "src": "elements/options/global_options/bigpicture_button/steam_bp_button.css"
 					}
 				}
 			}
@@ -734,7 +734,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/global_options/steam_actuality_button.css"
+			"affects": ["^Steam$"], "src": "elements/options/global_options/news_button/steam_actuality_button.css"
 					}
 				}
 			}
@@ -767,7 +767,7 @@
 			"Minimal Dark": {},
 			"Vanilla topbar": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/global_options/vanilla_topbar_style.css"
+			"affects": ["^Steam$"], "src": "elements/options/global_options/vanilla_topbar/vanilla_topbar_style.css"
 					}
 				}
 			}
@@ -781,7 +781,7 @@
 			"Default": {},
 			"Alternative": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/alternative_library_nav_buttons.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_nav_buttons/alternative_library_nav_buttons.css"
 					}
 				}
 			}
@@ -794,17 +794,17 @@
 		"values": {
 			"Default": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/alternative_news_hover_effect_default.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/news_hover_effect/alternative_news_hover_effect_default.css"
 					}
 				},
 			"Alt #1": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/alternative_news_hover_effect_alt1.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/news_hover_effect/alternative_news_hover_effect_alt1.css"
 					}
 				},
 			"Alt #2": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/alternative_news_hover_effect_alt2.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/news_hover_effect/alternative_news_hover_effect_alt2.css"
 					}
 				}
 			}
@@ -818,7 +818,7 @@
 			"Default": {},
 			"Alternative": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/alt_view_igf.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/alt_view_igf/alt_view_igf.css"
 					}
 				}
 			}
@@ -832,7 +832,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/hovering_buttons_anim.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/animated_buttons_hovering/hovering_buttons_anim.css"
 					}
 				}
 			}
@@ -846,7 +846,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_collections.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_collections/compact_collections.css"
 					}
 				}
 			}
@@ -860,7 +860,7 @@
 			"yes": {},
 			"no": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/filters_default.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_filters/filters_default.css"
 					}
 				}
 			}
@@ -874,7 +874,7 @@
 			"Default": {},
 			"Default (bottom)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/default_library_labels_bottom.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_labels/default_library_labels_bottom.css"
 					}
 				},
 			"Compact": {
@@ -898,7 +898,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_library.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_library/compact_library.css"
 					}
 				}
 			}
@@ -912,12 +912,12 @@
 			"Default": {},
 			"Compact": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_mod.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_mod/compact_mod.css"
 					}
 				},
 			"Ultra compact": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/ultra_compact_mod.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_mod/ultra_compact_mod.css"
 					}
 				}
 			}
@@ -931,22 +931,22 @@
 			"Steam default": {},
 			"Compact #1": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/library_options/compact_news_alt.css"
+			"affects": [".*"], "src": "elements/options/library_options/compact_news/compact_news_alt.css"
 					}
 				},
 			"Compact #2": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/library_options/compact_news.css"
+			"affects": [".*"], "src": "elements/options/library_options/compact_news/compact_news.css"
 					}
 				},
 			"Ultra compact": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/library_options/ultra_compact_news.css"
+			"affects": [".*"], "src": "elements/options/library_options/compact_news/ultra_compact_news.css"
 					}
 				},
 			"Ultra compact (center content)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/library_options/ultra_compact_news_center.css"
+			"affects": [".*"], "src": "elements/options/library_options/compact_news/ultra_compact_news_center.css"
 					}
 				}
 			}
@@ -960,7 +960,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/library_options/no_dl_icone.css"
+			"affects": [".*"], "src": "elements/options/library_options/download_icon_ug/no_dl_icone.css"
 					}
 				}
 			}
@@ -974,7 +974,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/library_options/hide_shelf.css"
+			"affects": [".*"], "src": "elements/options/library_options/shelf/hide_shelf.css"
 					}
 				}
 			}
@@ -1041,7 +1041,7 @@
 			"Default": {},
 			"User color": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/hover_games_glow_color.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/games_hover_glow/hover_games_glow_color.css"
 					}
 				}
 			}
@@ -1055,7 +1055,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/hide_news.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/news_container/hide_news.css"
 					}
 				}
 			}
@@ -1069,7 +1069,7 @@
 			"Animated": {},
 			"Static": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/static_hover_lg.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/static_hovering/static_hover_lg.css"
 					}
 				}
 			}
@@ -1083,7 +1083,7 @@
 			"Animated": {},
 			"Static": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/static_hover_pg.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/static_hovering/static_hover_pg.css"
 					}
 				}
 			}
@@ -1097,7 +1097,7 @@
 			"Hide": {},
 			"Show": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/miniprofile_options/bg_miniprofile.css"
+			"affects": [".*"], "src": "elements/options/miniprofile_options/mp_background/bg_miniprofile.css"
 					}
 				}
 			}
@@ -1111,7 +1111,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/miniprofile_options/no_hours_played_mp.css"
+			"affects": [".*"], "src": "elements/options/miniprofile_options/hours_played/no_hours_played_mp.css"
 					}
 				}
 			}
@@ -1125,7 +1125,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay_options/overlay_no_label_list.css"
+			"affects": [".*"], "src": "elements/options/overlay_options/no_labels/overlay_no_label_list.css"
 					}
 				}
 			}
@@ -1139,7 +1139,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay_options/overlay_no_label_normal.css"
+			"affects": [".*"], "src": "elements/options/overlay_options/no_labels/overlay_no_label_normal.css"
 					}
 				}
 			}
@@ -1153,7 +1153,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay_options/overlay_bigger_buttons.css"
+			"affects": [".*"], "src": "elements/options/overlay_options/bigger_buttons/overlay_bigger_buttons.css"
 					}
 				}
 			}
@@ -1167,7 +1167,7 @@
 			"Default": {},
 			"User color": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/alternative_update_color.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/color_update/alternative_update_color.css"
 					}
 				}
 			}
@@ -1181,7 +1181,7 @@
 			"Default": {},
 			"User color gradient": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/alternative_sidebar_hover_effect.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/hover_effect/alternative_sidebar_hover_effect.css"
 					}
 				}
 			}
@@ -1234,7 +1234,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/animated_hovering.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/mouseover/animated_hovering.css"
 					}
 				}
 			}
@@ -1248,7 +1248,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/bigger_names.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/font_size/bigger_names.css"
 					}
 				}
 			}
@@ -1262,7 +1262,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/bolder_names.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/font_size/bolder_names.css"
 					}
 				}
 			}
@@ -1276,7 +1276,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/no_games_names_overflow.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/games_names_overflow/no_games_names_overflow.css"
 					}
 				}
 			}
@@ -1290,12 +1290,12 @@
 			"Minimal Dark": {},
 			"Minimal Dark alternative": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/minimal_installed_user_color.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/games_color/minimal_installed_user_color.css"
 					}
 				},
 			"White": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/minimal_installed_white.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/games_color/minimal_installed_white.css"
 					}
 				}
 			}
@@ -1309,7 +1309,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/no_left_images.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/no_left_images/no_left_images.css"
 					}
 				}
 			}
@@ -1323,7 +1323,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/persistent_sidebar.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/persistent_sidebar/persistent_sidebar.css"
 					}
 				}
 			}
@@ -1337,7 +1337,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/pointer_fix.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/persistent_sidebar/pointer_fix.css"
 					}
 				}
 			}
@@ -1350,12 +1350,12 @@
 		"values": {
 			"Fixed position": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/sidebar_options/fixed_size.css"
+			"affects": ["^Steam$"], "src": "elements/options/sidebar_options/persistent_sidebar/fixed_size.css"
 					}
 				},
 			"Manual resize": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/sidebar_options/manual_resize.css"
+			"affects": ["^Steam$"], "src": "elements/options/sidebar_options/persistent_sidebar/manual_resize.css"
 					}
 				}
 			}
@@ -1369,7 +1369,7 @@
 			"Left": {},
 			"Right": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/sidebar_options/sidebar_to_the_right.css"
+			"affects": ["^Steam$"], "src": "elements/options/sidebar_options/right_sidebar/sidebar_to_the_right.css"
 					}
 				}
 			}
@@ -1383,7 +1383,7 @@
 			"Default": {},
 			"On mouseover": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/show_sidebar_mouseover.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/mouseover/show_sidebar_mouseover.css"
 					}
 				}
 			}
@@ -1397,12 +1397,12 @@
 			"Minimal Dark": {},
 			"White": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/minimal_uninstalled_white.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/selected_games/minimal_uninstalled_white.css"
 					}
 				},
 			"User": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/minimal_uninstalled_user_color.css"
+			"affects": [".*"], "src": "elements/options/sidebar_options/selected_games/minimal_uninstalled_user_color.css"
 					}
 				}
 			}
@@ -1416,7 +1416,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/4k_alignment_fix.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/4k_fix/4k_alignment_fix.css"
 					}
 				}
 			}
@@ -1463,22 +1463,22 @@
 		"values": {
 			"New UI": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/alternative_dl_ui.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/downloads_ui/alternative_dl_ui.css"
 					}
 				},
 			"New UI (alt)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/alternative_dl_ui_alt.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/downloads_ui/alternative_dl_ui_alt.css"
 					}
 				},
 			"Vanilla rework": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/vanilla_dl_rework.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/downloads_ui/vanilla_dl_rework.css"
 					}
 				},
 			"Vanilla rework (text only)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/vanilla_dl_rework_text_only.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/downloads_ui/vanilla_dl_rework_text_only.css"
 					}
 				},
 			"Minimal Dark": {}
@@ -1493,7 +1493,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/dl_progress_bar_color.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/progress_bar_color/dl_progress_bar_color.css"
 					}
 				}
 			}
@@ -1507,7 +1507,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/hover_borders.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/hover_active_borders/hover_borders.css"
 					}
 				}
 			}
@@ -1559,7 +1559,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/longer_tabs.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/longer_tabs/longer_tabs.css"
 					}
 				}
 			}
@@ -1573,7 +1573,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/hide_steam_text.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/hide_steam_text/hide_steam_text.css"
 					}
 				}
 			}
@@ -1587,7 +1587,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/tabs_text_form.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/tabs_text/tabs_text_form.css"
 					}
 				}
 			}
@@ -1601,7 +1601,7 @@
 			"Fill": {},
 			"Outline": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alternative_menus_hover_effect.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/tabs_hover_effect/alternative_menus_hover_effect.css"
 					}
 				}
 			}
@@ -1770,7 +1770,7 @@
 			"Steam": {},
 			"Minimal Dark": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/default_pointers.css"
+			"affects": [".*"], "src": "elements/options/various_options/pointers/default_pointers.css"
 					}
 				}
 			}
@@ -1784,7 +1784,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/hide_scrollbars.css"
+			"affects": [".*"], "src": "elements/options/various_options/scrollbars/hide_scrollbars.css"
 					}
 				}
 			}
@@ -1798,7 +1798,7 @@
 			"Animated": {},
 			"Static": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/no_hover_effect_settings_tabs.css"
+			"affects": [".*"], "src": "elements/options/various_options/menu_tabs_mouseover/no_hover_effect_settings_tabs.css"
 					}
 				}
 			}
@@ -1812,7 +1812,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/linux_no_titlebar.css"
+			"affects": [".*"], "src": "elements/options/various_options/linux_users/linux_no_titlebar.css"
 					}
 				}
 			}
@@ -1826,7 +1826,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/pure_black_oled.css"
+			"affects": [".*"], "src": "elements/options/various_options/oled_screens/pure_black_oled.css"
 					}
 				}
 			}
@@ -1840,7 +1840,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/same_br_root_close.css"
+			"affects": [".*"], "src": "elements/options/various_options/w10_fix/same_br_root_close.css"
 					}
 				}
 			}
@@ -1854,7 +1854,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/w10_root_fix.css"
+			"affects": [".*"], "src": "elements/options/various_options/w10_fix/w10_root_fix.css"
 					}
 				}
 			}
@@ -1868,27 +1868,27 @@
 			"Minimal new UI": {},
 			"Minimal new UI (compact)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_compact_ui_new_menu.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_compact_ui_new_menu.css"
 					}
 				},
 			"Ultra compact": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_ultra_compact_ui_new_menu.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_ultra_compact_ui_new_menu.css"
 					}
 				},
 			"Ultra compact #1": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_ultra_compact_ui_new_menu_alt.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_ultra_compact_ui_new_menu_alt.css"
 					}
 				},
 			"Minimal new UI (buttons)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_buttons_new_ui.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_buttons_new_ui.css"
 					}
 				},
 			"Minimal new UI (compact buttons)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_buttons_new_ui_compact.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_buttons_new_ui_compact.css"
 					}
 				}
 			}
@@ -1902,7 +1902,7 @@
 			"Full dark": {},
 			"Blurred": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/blurred_blocs_background.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/blocs_bg/blurred_blocs_background.css"
 					}
 				}
 			}
@@ -1916,7 +1916,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/profiles_border.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/profiles/borders/profiles_border.css"
 					}
 				}
 			}
@@ -1930,7 +1930,7 @@
 			"yes": {},
 			"no": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/no_border_arrows.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/carrousel_arrows/no_border_arrows.css"
 					}
 				}
 			}
@@ -1944,7 +1944,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/compact_webkit.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/compact_webkit/compact_webkit.css"
 					}
 				}
 			}
@@ -1958,7 +1958,7 @@
 			"Minimal Dark default": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_no_header_promo.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/event_header/webkit_no_header_promo.css"
 					}
 				}
 			}
@@ -1972,7 +1972,7 @@
 			"Default background": {},
 			"Black background": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/events_bg.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/event_bg/events_bg.css"
 					}
 				}
 			}
@@ -1986,7 +1986,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/hide_showcase.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/showcase/hide_showcase.css"
 					}
 				}
 			}
@@ -2000,7 +2000,7 @@
 			"Show": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/no_footer_webkit.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/footers/no_footer_webkit.css"
 					}
 				}
 			}
@@ -2014,7 +2014,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/vac_information.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/vac/vac_information.css"
 					}
 				}
 			}
@@ -2028,7 +2028,7 @@
 			"Minimal Dark": {},
 			"No blur blocs": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/no_blurred_profiles.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/profiles/no_blurred_profiles.css"
 					}
 				}
 			}
@@ -2042,7 +2042,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/default_profiles_header.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/profiles/default_profiles_header.css"
 					}
 				}
 			}
@@ -2056,7 +2056,7 @@
 			"Default": {},
 			"Solid color": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/solid_color_profiles.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/profiles/solid_color_profiles.css"
 					}
 				}
 			}
@@ -2088,17 +2088,17 @@
 		"values": {
 			"Hide default menu": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/hide_webkit_wl_menu_bar.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/wishlist/hide_webkit_wl_menu_bar.css"
 					}
 				},
 			"Revisited menu": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_revisited_menu_bar.css"	
+			"affects": [".*"], "src": "elements/options/webkit_options/wishlist/webkit_revisited_menu_bar.css"	
 					}
 				},
 			"Compact revisited menu": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_compact_revisited_menu_bar.css"	
+			"affects": [".*"], "src": "elements/options/webkit_options/wishlist/webkit_compact_revisited_menu_bar.css"	
 					}
 				}
 			}
@@ -2111,7 +2111,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.4.4",
+	"version": "5.4.8",
 
 	"github": {
 		"owner": "SaiyajinK",
