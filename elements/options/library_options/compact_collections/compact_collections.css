@@ -13,6 +13,7 @@
 
 .RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5.HighPerfMode.TallWindow.UltraWideWindow.WideWindow ._3vHkmRShhzwd67_MtEq8-n._3DJLGrqzoQ5vMDI_4VG502.Panel {
     padding-right: 0px !important;
+	grid-template-columns: repeat(auto-fit, 148px) !important;
 }
 
 .RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5.HighPerfMode.MediumWindow ._3vHkmRShhzwd67_MtEq8-n._3DJLGrqzoQ5vMDI_4VG502.Panel {
@@ -21,5 +22,6 @@
 }
 
 .V7RuDNUxhxoBRaiGWbk3B ._3DJLGrqzoQ5vMDI_4VG502 {
-    justify-content: unset !important;
+    /* justify-content: unset !important; */
+	justify-content: space-around !important;
 }
