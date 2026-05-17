@@ -451,7 +451,7 @@
 			"No": {},
 			"Yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/header_adjusted.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/header_size_adjustment/header_adjusted.css"
 					}
 				}
 			}
