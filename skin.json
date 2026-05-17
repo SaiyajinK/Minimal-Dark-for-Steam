@@ -465,7 +465,7 @@
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/gamepage_options/hide_success_date.css"
+			"affects": [".*"], "src": "elements/options/gamepage_options/hide_success_date/hide_success_date.css"
 					}
 				}
 			}
