@@ -3063,3 +3063,22 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 .msg.ChatMessageInvite .invitedTimeLabel, .Invite_ExpireTime {
     color: var(--minimal_dark_color) !important;
 }
+
+._1j7MD3GYqBmikQYiNjV7C1 {
+    background-color: transparent !important;
+    border: 1px solid rgb(243, 76, 43) !important;
+    margin: 10px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+._1j7MD3GYqBmikQYiNjV7C1 ._2HMEtuBquAv7lhvWzDIrKk._1sXLWlTLy9ViGQAs3kluPT svg line, ._1j7MD3GYqBmikQYiNjV7C1 ._2HMEtuBquAv7lhvWzDIrKk._1sXLWlTLy9ViGQAs3kluPT svg path {
+    stroke: rgb(243, 76, 43) !important;
+}
+
+._1j7MD3GYqBmikQYiNjV7C1 ._2UM7t1Wo4_BXddyfRbYcFu {
+    color: rgb(243, 76, 43) !important;
+}
+
+.RD2MZ5ZsWy91rWuHd1ypk:hover .SVGIcon_X_Line line, .RD2MZ5ZsWy91rWuHd1ypk:focus .SVGIcon_X_Line line {
+    stroke: rgb(243, 76, 43) !important;
+}
