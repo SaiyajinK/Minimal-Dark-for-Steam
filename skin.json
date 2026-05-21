@@ -1553,23 +1553,38 @@
 		
 		"Larger font :": {
 		"tab": "Topbar options (16)",
-		"description": "> Enabling this option increases the font size of the Steam root menu and tabs. \n\n - Default size : 13px \n - Medium size : 15px \n - Medium size (alt) : 16px \n - Larger size : 18px",
+		"description": "> Enabling this option increases the font size of the Steam root menu and tabs. \n\n - Default size : 13px \n - Medium size : 15px \n - Medium size (alt) : 16px \n - Larger size : 18px \n\n NOTE : The “Include wallet” options set the wallet text size to match the size of the selected option. “Exclude wallet” keeps the wallet text size smaller.",
 		"default": "Default size",
 		"values": {
 			"Default size": {},
-			"Medium size": {
+			"Medium size (included wallet)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text.css"
 					}
 				},
-			"Medium size (alt)": {
+			"Medium size (excluding wallet)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text_wallet.css"
+					}
+				},
+			"Medium size (alt - included wallet)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text_alt.css"
 					}
 				},
-			"Larger size": {
+			"Medium size (alt - excluding wallet)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text_alt_wallet.css"
+					}
+				},
+			"Larger size (included wallet)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/larger_font_text.css"
+					}
+				},
+			"Larger size (excluding wallet)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/larger_font_text_wallet.css"
 					}
 				}
 			}
