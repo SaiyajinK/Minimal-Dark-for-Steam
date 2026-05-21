@@ -307,7 +307,7 @@
 
 ._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC:hover {
     background: var(--minimal_dark_blacker) !important;
-    font-size: 12px !important;
+    font-size: 12px;
     transition: .25s ease-out !important;
     padding-right: 7px;
     border-right: 2px solid var(--minimal_dark_color);
@@ -988,7 +988,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
     padding-right: 0px !important;
     padding-left: 9px !important;
     height: 32px !important;
-    width: 281px !important;
+    width: 281px;
     border: none !important;
     transform: translate(3px, 1px) !important;
     border-top-left-radius: 7px;
