@@ -766,7 +766,7 @@ _User color_ :<br>
 
 <hr>
 
-## Topbar options (13) : 
+## Topbar options (16) : 
 
 <details><summary>Alignment fix for 4k resolution :</summary><br> 
 
@@ -827,6 +827,33 @@ _No_ :<br>
 
 _Yes_ :<br> 
 <img src="https://github.com/user-attachments/assets/6d3f9715-4aca-4914-ae1e-0f42717cadca"></p></details>
+
+<details><summary>Hide topbar tabs :</summary><br> 
+
+_Hide w&c_ :<br> 
+<img src="https://github.com/user-attachments/assets/e5f80de7-9fae-4ef8-bf21-b196dbbed391"></p></details>
+
+<details><summary>Larger font :</summary><br> 
+
+_Default size_ :<br> 
+<img src="https://github.com/user-attachments/assets/ffae7b7a-e579-4b2f-a3f7-54c0764a8c89"></p>
+
+_Medium size_ :<br> 
+<img src="https://github.com/user-attachments/assets/5b6ba9e8-7c99-46a7-b67c-6ac4aa6c90d9"></p>
+
+_Medium size (alt)_ :<br> 
+<img src="https://github.com/user-attachments/assets/46cfc147-6a29-4f39-bf9e-32f36cd76b28"></p>
+
+_Larger size_ :<br> 
+<img src="https://github.com/user-attachments/assets/424273d9-0f7e-4819-85b4-dd9c5fe26550"></p></details>
+
+<details><summary>Larger font (fix) :</summary><br> 
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/5193a6ee-ec75-409a-81ed-b60b32a461eb"></p>
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/2883d869-ee1e-41fc-9ba3-b5d3f07f49cc"></p></details>
 
 <details><summary>Longer tabs :</summary><br> 
 
