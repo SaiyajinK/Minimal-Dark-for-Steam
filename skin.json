@@ -251,7 +251,7 @@
 		},
 		
 		"Alternative view for back to top button :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Change the appearance and display of the back to top button when scrolling the game page. \n\n - No : Default view. \n - Yes : Alternative view.",
 		"default": "no",
 		"values": {
@@ -265,7 +265,7 @@
 		},		
 
 		"Alternative view for scrolling bloc :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Change the appearance and display of the top game panel when scrolling the game page. \n\n - No : Default bloc. \n - Yes : Alternative view.",
 		"default": "no",
 		"values": {
@@ -279,7 +279,7 @@
 		},
 		
 		"Always show game infos :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Always display game informations without having to press the information button. \n\n - No : Default. \n - Yes : Always.",
 		"default": "no",
 		"values": {
@@ -293,7 +293,7 @@
 		},
 
 		"Bigger gamepage/library buttons :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Enlarge the play/download buttons on the library and gamepage. \n\n - No : Minimal default size buttons (medium). \n - Yes : Bigger size buttons (large).",
 		"default": "no",
 		"values": {
@@ -307,7 +307,7 @@
 		},
 		
 		"Bigger header :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Enabling this option makes the image at the top of the game page larger (total image size) \n\n - Steam default : Default Steam size. \n - Minimal default : Minimal default size. \n - Full image only when maximized : Bigger size when maximized window only. \n - Full image everywhere : Bigger size on normal and maximized window. \n\n NOTE : The options without a mask remove the slight black glow from the background but remain the same as those with the mask.",
 		"default": "Full image only when maximized",
 		"values": {
@@ -346,7 +346,7 @@
 		},
 		
 		"Bigger top bloc padding :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Enabling this option increases the padding of the top block more significantly. \n\n - No : Default padding. \n - Yes : Bigger top padding.",
 		"default": "no",
 		"values": {
@@ -360,7 +360,7 @@
 		},
 		
 		"Blurred background :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Blur the background of the game page. \n\n - Full Dark : Applies dark color (#121212) to the entire page of a game. \n - Blurred : The top of the page will be blurred.",
 		"default": "Blurred",
 		"values": {
@@ -374,7 +374,7 @@
 		},
 		
 		"Compact gamepage :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Make the game page compact by only displaying game news, achievements, screenchots. \n\n - No : Default gamepage. \n - Yes : Hide DLC, contacts who play, evaluation.",
 		"default": "no",
 		"values": {
@@ -388,7 +388,7 @@
 		},
 		
 		"Community content :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Hide or show the community content in gamepage. \n\n - Hide : Hide community content in gamepage (better performance if you have a bad pc). \n - Show : Show community content in gamepage.",
 		"default": "Hide",
 		"values": {
@@ -402,7 +402,7 @@
 		},
 		
 		"Dropdown stream/play button :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Show or hide the dropdown menu button on the play/install button on the game page. \n\n - No : Hide the dropdown menu button on the play/install button. \n - Yes : Show the dropdown menu button on the play/install button.",
 		"default": "no",
 		"values": {
@@ -416,7 +416,7 @@
 		},
 				
 		"Gamepage/library buttons svg color (Play/Install) :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Set the svg color of the library buttons. \n\n - White : Applies white color on play/install buttons. \n - Same as the outline : The color will be the same as the outline of the button.",
 		"default": "White",
 		"values": {
@@ -430,7 +430,7 @@
 		},
 		
 		"Header (compact mod) :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Hide or show the header image at the top of the game page to save more space. \n\n - Show : Show the header image at the top of the game page. \n - Hide : Hide the header image at the top of the game page to save more space. \n",
 		"default": "Show",
 		"values": {
@@ -444,7 +444,7 @@
 		},
 		
 		"Header size adjustment :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Enabling this option will make the game page headers stretched. \n\n - No : Vanilla size, no image modifications. \n - Yes : The image fills the entire header block. \n",
 		"default": "Yes",
 		"values": {
@@ -457,8 +457,22 @@
 			}
 		},
 		
+		"Hide categorys name :": {
+		"tab": "Gamepage options (19)",
+		"description": "> Enable this option to hide category names on a game page. \n\n - No : Show categorys name on gamepage. \n - Yes : Hide categorys name on gamepage. \n",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/gamepage_options/categorys_name/hide_categorys_name.css"
+					}
+				}
+			}
+		},
+		
 		"Hide success date :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Hide or not the time achievements were obtained. \n\n - No : Show time achievements were obtained. \n - Yes : Hide time achievements were obtained. \n",
 		"default": "no",
 		"values": {
@@ -472,7 +486,7 @@
 		},
 		
 		"Hide 'post-party summary' / 'WYRTG ?' :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Hide or show 'post-party summary' or 'Would you recommend this game ?' in game gampeage. \n\n - Show all : Show all elements. \n - Hide all : Hide all elements. \n - Show summary only : Show only 'post-party summary', 'Would you recommend this game ?' is not displayed. \n - Show 'Would you recommend this game ?' only : Show only 'Would you recommend this game ?', 'post-party summary' is not displayed.",
 		"default": "Show all",
 		"values": {
@@ -496,7 +510,7 @@
 		},
 		
 		"Inverted gamepage (known bugs) :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Invert gamepage blocks (community content option set to 'Show' not work with this option). \n\n - Default : The layout is the same as the default steam skin. \n - Inverted : The layout is reversed from the vanilla Steam skin (bugs may appear with this option selected).",
 		"default": "Default",
 		"values": {
@@ -510,7 +524,7 @@
 		},
 		
 		"Hide all activities :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Enabling this option hides all games activities (updates, personal trophies earned, and those of contacts). \n\n - Show all activities : Show all activities. \n - Show all activities on mouseover : Show all activities on mouseover only. \n - Hide all activities : Hide all activities. \n - Hide only the no activities message : Hide only 'There's no recent activity from the developers of this title or from your friends'.",
 		"default": "Show all activities",
 		"values": {
@@ -534,7 +548,7 @@
 		},
 		
 		"Text on play/download button :": {
-		"tab": "Gamepage options (18)",
+		"tab": "Gamepage options (19)",
 		"description": "> Show or hide the text of the play/download buttons. \n\n - No : No text will be displayed, only the button icon will be present. \n - Yes : Text will be displayed next to the icon (play, stop, download).",
 		"default": "no",
 		"values": {
@@ -548,7 +562,7 @@
 		},
 		
 		"Alternative topbar color :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> Modify the color of the topbar. \n\n - Dark : Full dark topbar \n - Grey : Full grey topbar \n - Grey/dark : Grey topbar and dark buttons.",
 		"default": "Grey/dark",
 		"values": {
@@ -567,7 +581,7 @@
 		},		
 		
 		"Alternative ui color for context menus/menus :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> Inverted color for context menus/menus. \n\n - No : Default color \n - Yes : Inverted color",
 		"default": "no",
 		"values": {
@@ -581,7 +595,7 @@
 		},	
 		
 		"Avatar frame :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> Hide or show avatar frame on all avatars. \n\n - Hide : Hide avatar frame on the entire skin. \n - Show : Show avatar frame on the entire skin. \n\n NOTE : If you decide to display avatar frames, remember to check the toggle in the Steam settings 'Contacts and Chats: Enable animated avatars and avatar frames in your contacts list and in chat'",
 		"default": "Show",
 		"values": {
@@ -599,7 +613,7 @@
 		},
 		
 		"Compact menus/context menus :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> This option allows you to make the menus/context menus compact (or not), animated (or not), with a left border (or not). \n\n - The informations are directly on the sub-options.",
 		"default": "Compact size (static with left border)",
 		"values": {
@@ -642,8 +656,27 @@
 			}
 		},
 		
+		"Context menus left icons :": {
+		"tab": "Global options (12)",
+		"description": "> Adds an icon to the left of the text in context menus. \n\n - Default : No icons. \n - User color icons (small) : Displays small icons + user-color on hover. \n - User color icons (big) : Displays big icons + user-color on hover. \n\n NOTE : Select the option based on the size you chose for the context menus in the option above. \n Compact size > Small \n Normal size > Large",
+		"default": "User color icons (small)",
+		"values": {
+			"Default": {},
+			"User color icons (small)": {	
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_small.css"
+					}
+				},
+			"User color icons (big)": {	
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_big.css"
+					}
+				}
+			}
+		},
+		
 		"Corners radius :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> Sets the strength of corner rounding. \n\n - Square : 0px. \n - Rounded : 5px. \n - More rounded : 10px.",
 		"default": "Rounded",
 		"values": {
@@ -666,7 +699,7 @@
 		},
 		
 		"Hover borders on library and webkit blocks :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> Make the hover borders of library/webkit items full and no longer just on the bottom. \n\n - Full borders : Applies the user's color to all borders on mouseover. \n - Bottom only : Applies the user's color only to the bottom border on mouseover.",
 		"default": "Full borders",
 		"values": {
@@ -684,7 +717,7 @@
 		},
 		
 		"Resize grip (Steam windows) :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> Show or hide the resizing grip display. \n\n - Default : Default Steam grip. \n - Default (smaller) : Smaller default Steam grip. \n - Alternative UI : Alternative UI for the resize grip. \n - Alternative UI (smaller) : Smaller alternative UI for the resize grip. \n - Hide : Hide the resize grip. \n\n NOTE : If you select 'Hide', you will need to disable the friends option 'Hide footer (fix)'",
 		"default": "Default (smaller)",
 		"values": {
@@ -713,7 +746,7 @@
 		},
 		
 		"Steam bigpicture button :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> Hide or show Steam bigpicture button in top bar. \n\n - Hide : Hide topbar Steam bigpicture button. \n - Show : Show topbar Steam bigpicture button.",
 		"default": "Hide",
 		"values": {
@@ -727,7 +760,7 @@
 		},
 		
 		"Steam news button :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> Hide or show Steam news button in top bar. \n\n - Hide : Hide topbar Steam news button. \n - Show : Show topbar Steam news button.",
 		"default": "Hide",
 		"values": {
@@ -741,7 +774,7 @@
 		},
 		
 		"Title area buttons :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> Make the title bar buttons bigger (close/maximize/minimize buttons). \n\n - Small : Small titlebar buttons. \n - Enlarged (w11 users) : Enlarged buttons for Windows 11 users. \n - Enlarged (w10 users) : Enlarged buttons for Windows 10 users.",
 		"default": "Enlarged (w11 users)",
 		"values": {
@@ -760,7 +793,7 @@
 		},
 		
 		"Vanilla topbar style :": {
-		"tab": "Global options (11)",
+		"tab": "Global options (12)",
 		"description": "> Set the topbar in the vanilla style of steam skin. \n\n - Minimal Dark : Topbar buttons are on the same line. \n - Vanilla topbar : Set Topbar as on vanilla skin, buttons are on two lines.",
 		"default": "Minimal Dark",
 		"values": {
@@ -2164,7 +2197,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.5.2",
+	"version": "5.5.4",
 
 	"github": {
 		"owner": "SaiyajinK",
