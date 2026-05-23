@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 122 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 124 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -162,7 +162,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (18) :
+## Gamepage options (19) :
 
 <details><summary>Alternative view for back to top button :</summary><br>  
 
@@ -260,6 +260,14 @@ _No_ :<br>
 _Yes_ :<br>
 <img src="https://github.com/user-attachments/assets/28c42b68-04d0-4c5c-b12f-89169598d596"></p></details>
 
+<details><summary>Hide categorys name :</summary><br>      
+
+_No_ :<br>
+<img src="https://github.com/user-attachments/assets/2d2334c2-ef81-4de6-843e-1051815fd3e5"></p>
+
+_Yes_ :<br>
+<img src="https://github.com/user-attachments/assets/2fd12cb3-59d8-4626-aab0-66bde265e60f"></p></details>
+
 <details><summary>Hide success date :</summary><br>      
 
 _No_ :<br>
@@ -299,7 +307,7 @@ _yes_ :<br>
 
 <hr>
 
-## Global options (11) : 
+## Global options (12) : 
 
 <details><summary>Alternative topbar color :</summary><br>  
 
@@ -353,6 +361,17 @@ _Default size (static with left border)_ :<br>
 
 _Default size (animated with left border)_ :<br>
 <img src="https://github.com/user-attachments/assets/610ffb50-5eb6-4176-b187-6582bfbba98c"></p></details>
+
+<details><summary>Context menus left icons :</summary><br>  
+
+_Default_ :<br>
+<img src="https://github.com/user-attachments/assets/5caec6a8-9c8d-47f3-9818-c63e99c563d6"></p>
+
+_User color (small)_ :<br>
+<img src="https://github.com/user-attachments/assets/1019384e-e7e9-4b54-a1ce-6c76980e245e"></p>
+
+User color (big)_ :<br>
+<img src="https://github.com/user-attachments/assets/e811f50e-a027-4ec3-890d-ef9ec6671f37"></p></details>
 
 <details><summary>Corners radius :</summary><br>  
 
