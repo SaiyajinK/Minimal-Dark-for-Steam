@@ -1913,3 +1913,23 @@ img._3PXcvKt0U1PJ2DAM8I5lLx {
     padding: 0px  !important;
 }
 /* end hltb plugin */
+
+.playcount-box {
+    background: rgb(25 25 25 / 40%) !important;
+	backdrop-filter: blur(8px) !important;
+    padding: 3px 7px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.playcount-dot.low {
+    background: red !important;
+}
+
+.playcount-dot.high {
+    background: var(--minimal_dark_progress_bar) !important;
+}
+
+.playcount-dot.default {
+    background: #477eff !important;
+}
