@@ -1931,8 +1931,7 @@ img._3PXcvKt0U1PJ2DAM8I5lLx {
 }
 
 .playcount-dot.medium {
-    background: #fdd725;
-    box-shadow: 0 0 4px rgba(207, 181, 59, 0.6);
+    background: #fdd725 !important;
 }
 
 .playcount-dot.high {
