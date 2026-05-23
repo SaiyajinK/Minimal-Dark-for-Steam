@@ -1117,3 +1117,11 @@ video._2aMRbzoT83AkFGYSmCvnRe, img.JIMdRVl5GQwMrWUt3A6RH {
 ._28eIRmQ229ntDIyQXTn3Ub._32Lfwcdolc3ByZWItfR3ni.QE3sHW9puNTAjiRDY71Xy:hover svg {
     color: var(--minimal_dark_color) !important;
 }
+
+.YCAfbWkeMBk- {
+    background-color: #000000 !important;
+}
+
+.YCAfbWkeMBk-:after {
+    background-color: var(--minimal_dark_color1) !important;
+}
