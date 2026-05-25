@@ -658,18 +658,28 @@
 		
 		"Context menus left icons :": {
 		"tab": "Global options (12)",
-		"description": "> Adds an icon to the left of the text in context menus. \n\n - Default : No icons. \n - User color icons (small) : Displays small icons + user-color on hover. \n - User color icons (big) : Displays big icons + user-color on hover. \n\n NOTE : Select the option based on the size you chose for the context menus in the option above. \n Compact size > Small \n Normal size > Large",
-		"default": "User color icons (small)",
+		"description": "> Adds an icon to the left of the text in context menus. \n\n - Default : No icons. \n - User color icons (small) : Displays small icons + user-color on hover. \n - User color icons (big) : Displays big icons + user-color on hover. \n\n NOTE : Select the option based on the size you chose for the context menus in the option above but the large size works in compact mode, but the blocks are slightly larger than in compact mode.",
+		"default": "User color icons (small/fill)",
 		"values": {
 			"Default": {},
-			"User color icons (small)": {	
+			"User color icons (small/fill)": {	
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_small.css"
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_small_fill.css"
 					}
 				},
-			"User color icons (big)": {	
+			"User color icons (big/fill)": {	
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_big.css"
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_big_fill.css"
+					}
+				},
+			"User color icons (small/outline)": {	
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_small_outline.css"
+					}
+				},
+			"User color icons (big/outline)": {	
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_big_outline.css"
 					}
 				}
 			}
@@ -2197,7 +2207,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.5.4",
+	"version": "5.5.5",
 
 	"github": {
 		"owner": "SaiyajinK",
