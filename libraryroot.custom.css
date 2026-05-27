@@ -1447,9 +1447,9 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
     content: "";
     display: block !important;
-    width: 100% !important;
-    height: 1px !important;
-    background: var(--minimal_dark_color) !important;
+    width: 100%;
+    height: 1px;
+    background: var(--minimal_dark_color);
     border-radius: 6px !important;
     animation: _2wrHkBHr-Qiwn2S5A_vFDw 0.75s !important;
     margin-top: 1px !important;
