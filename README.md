@@ -14,7 +14,7 @@ I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have 
 
 ### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
 When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 124 customization options available in the Minimal Dark settings.
+You can configure it however you like with the 125 customization options available in the Minimal Dark settings.
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
@@ -785,7 +785,33 @@ _User color_ :<br>
 
 <hr>
 
-## Topbar options (16) : 
+## Topbar options (17) : 
+
+<details><summary>Alternative underlining :</summary><br> 
+
+_Default (thin line)_ :<br> 
+<img src="https://github.com/user-attachments/assets/a85e96a8-4ed8-4140-adf1-fe6bf50276e4"></p>
+
+_Default (bold line)_ :<br> 
+<img src="https://github.com/user-attachments/assets/fca260c7-5d2c-49b6-a870-90b86aa7e472"></p>
+
+_To the right (thin line)_ :<br> 
+<img src="https://github.com/user-attachments/assets/ae485a24-316b-4914-b13b-bf4c98df7579"></p>
+
+_To the right (bold line)_ :<br> 
+<img src="https://github.com/user-attachments/assets/fb752153-0fa6-487d-a97c-9a1ced2b78de"></p>
+
+_To the left (thin line)_ :<br> 
+<img src="https://github.com/user-attachments/assets/4016ca3e-c51a-4bfe-8994-08664d57378d"></p>
+
+_To the left (bold line)_ :<br> 
+<img src="https://github.com/user-attachments/assets/f551f782-3b58-4d12-9692-2ef1576f00a0"></p>
+
+_Fade (thin line)_ :<br> 
+<img src="https://github.com/user-attachments/assets/e432d91d-ef46-4dca-a947-e887c107c9d4"></p>
+
+_Fade (bold line)_ :<br> 
+<img src="https://github.com/user-attachments/assets/3a9675aa-ff45-42e6-b640-66e8ed724296"></p></details>
 
 <details><summary>Alignment fix for 4k resolution :</summary><br> 
 
