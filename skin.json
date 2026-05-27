@@ -1450,9 +1450,53 @@
 				}
 			}
 		},
+		
+		"Alt underlining :": {
+		"tab": "Topbar options (17)",
+		"description": "> An alternative display for the selected tab in the top bar. \n\n - Default : Line. \n - To the right : Line to the right. \n - Fade : Fade line.",
+		"default": "Default (thin line)",
+		"values": {
+			"Default (thin line)": {},
+			"Default (bold line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/dbl_underlining.css"
+					}
+				},
+			"To the right (thin line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/ttr_underlining.css"
+					}
+				},
+			"To the right (bold line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/btr_underlining.css"
+					}
+				},
+			"To the left (thin line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/ttl_underlining.css"
+					}
+				},
+			"To the left (bold line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/btl_underlining.css"
+					}
+				},
+			"Fade (Thin line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/ftl_underlining.css"
+					}
+				},
+			"Fade (bold line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/fbl_underlining.css"
+					}
+				}
+			}
+		},
 
 		"Alignment fix for 4K resolution :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Enabling this option will fix the top bar alignment for 4K resolutions. \n\n - No : No fix. \n - Yes : Applied fix.",
 		"default": "no",
 		"values": {
@@ -1466,7 +1510,7 @@
 		},
 		
 		"Alternative contacts icon :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Use alternative icon for contacts bloc. \n\n - Minimal Dark #1 (fill) : Rounded icon with fill effect. \n - Minimal Dark #1 (outline) : Rounded icon with outline effect. \n - Minimal Dark #2 (fill) : Phone icon with fill effect. \n - Minimal Dark #2 (outline) : Phone icon with outline effect. \n - Minimal Dark #3 (fill) : Chat bubble with fill effect. \n - Minimal Dark #3 (outline) : Chat bubble with outline effect.",
 		"default": "Minimal Dark #3 (fill)",
 		"values": {
@@ -1500,7 +1544,7 @@
 		},
 		
 		"Alternative downloads UI :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Change the appearance of the download block. \n\n - New UI : Set download button compact. \n - New UI (alt) : Compact button, but thinner line. \n - Vanilla rework : Vanilla ui with Minimal vibes. \n - Vanilla rework (text only) : Vanilla ui but only text \n - Minimal Dark : Default UI.",
 		"default": "New UI (alt)",
 		"values": {
@@ -1529,7 +1573,7 @@
 		},
 		
 		"Downloads progress bar color :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Enable this option to make another color for the progress download bar. \n\n - No : Green progress bar. \n - Yes : User color progress bar.",
 		"default": "no",
 		"values": {
@@ -1543,7 +1587,7 @@
 		},
 		
 		"Hover/active borders :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Enable this option to make the hover effect on top bar elements display a complete border (also on active). \n\n - No : Top borders only. \n - Yes : Full borders.",
 		"default": "yes",
 		"values": {
@@ -1557,7 +1601,7 @@
 		},
 		
 		"Hide topbar elements :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Hide topbar menus or arrows. \n\n - Show all : Display all elements of the topbar. \n - Hide menus only : Hide only menus. \n - Hide arrows only : Hide only arrows. \n - Hide all : Hide arrows, menus and tabs.",
 		"default": "Show all",
 		"values": {
@@ -1581,7 +1625,7 @@
 		},
 		
 		"Hide topbar tabs :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Hide topbar tabs. \n\n - Show all : Display all tabs. \n - Hide w&c : Hide webkit and community tabs.",
 		"default": "Show all",
 		"values": {
@@ -1595,7 +1639,7 @@
 		},
 		
 		"Larger font :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Enabling this option increases the font size of the Steam root menu and tabs. \n\n - Default size : 13px \n - Medium size : 15px \n - Medium size (alt) : 16px \n - Larger size : 18px \n\n NOTE : The “Include wallet” options set the wallet text size to match the size of the selected option. “Exclude wallet” keeps the wallet text size smaller.",
 		"default": "Default size",
 		"values": {
@@ -1634,7 +1678,7 @@
 		},		
 		
 		"Larger font (fix) :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Enable this option if you do not see the word Steam displayed on the root button and you have enabled the larger font option. \n\n - No : Use this choice if the root menu text is displayed. \n - Yes : Use this choice if the root menu text is hidden.",
 		"default": "yes",
 		"values": {
@@ -1648,7 +1692,7 @@
 		},		
 
 		"Longer tabs :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Make the topbar tabs longer. \n\n - No : Normal width. \n - Yes : Longer tabs.",
 		"default": "no",
 		"values": {
@@ -1662,7 +1706,7 @@
 		},
 		
 		"Root menu Steam text :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Hide or show steam text in top left of the root menu. \n\n - Hide : Hide root menu Steam text. \n - Show : Display root menu Steam text.",
 		"default": "Hide",
 		"values": {
@@ -1676,7 +1720,7 @@
 		},
 		
 		"Tabs text transform :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Set capitalize text to topbar tabs. \n\n - No : Lowercase tab text. \n - Yes : Capitalize tab text.",
 		"default": "no",
 		"values": {
@@ -1690,7 +1734,7 @@
 		},
 		
 		"Topbar icons menu hover effect :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Use alternative hover effect for icons menu (display, contacts, games, support). \n\n - Fill : Fill effect on mouseover. \n - Outline : Outline effect on mouseover.",
 		"default": "Fill",
 		"values": {
@@ -1704,7 +1748,7 @@
 		},
 		
 		"Topbar Store tab left icon (currency icon) :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Changes the currency logo on the store icon. \n\n - No icon : Hide Store tabs icon. \n - Fill icon (euro) : Fill euro icon. \n - Oultine icon (euro) : Outline euro icon. \n - Fill icon (dollar) : Fill dollar icon. \n - Oultine icon (dollar) : Outline dollar icon. \n - Fill icon (pound sterling) : Fill pound sterling icon. \n - Oultine icon (pound sterling) : Outline pound sterling icon.",
 		"default": "Fill icon (euro)",
 		"values": {
@@ -1743,7 +1787,7 @@
 		},
 		
 		"Topbar tabs left icons (hover effect included) :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Adds an icon to the left of the top bar tabs text. \n\n - No icons (text only) : Hide icons and show just text tabs. \n - Icons active (fill + text) : Show icons and text tabs with fill effect. \n - Icons active (outline + text) : Show icons and text tabs with outline effect.",
 		"default": "Icons active (fill + text)",
 		"values": {
@@ -1762,7 +1806,7 @@
 		},
 		
 		"Topbar tabs left icons, no text :": {
-		"tab": "Topbar options (16)",
+		"tab": "Topbar options (17)",
 		"description": "> Enable this option if you want to have just icons and no text. \n\n - No : Show tabs text and icons. \n - Yes : Hide tabs text, show just icons.",
 		"default": "no",
 		"values": {
@@ -2207,7 +2251,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.5.5",
+	"version": "5.5.8",
 
 	"github": {
 		"owner": "SaiyajinK",
