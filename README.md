@@ -1,24 +1,58 @@
-<p align="left"><img src="https://github.com/user-attachments/assets/3675a0a9-74bc-4d52-a3b1-6813bc19e770" width="400" height="58"> <img src="https://github.com/user-attachments/assets/2046df08-2913-4ea0-a0f0-af598e9a7faa" width="166" height="75"></p>
-<p align="left">for Steam.</p>
+<div align="center">
 
-[![minimal](https://github.com/user-attachments/assets/91875213-247b-4dbc-a04a-9285821a3524)](https://steambrew.app/theme?id=F4XgbtTW4x5CJmi5DUK3)
-[![kofi](https://github.com/user-attachments/assets/1b855598-ce2c-4dd7-a795-6347311e2baf)](https://ko-fi.com/saiyajink)
-[![discord](https://github.com/user-attachments/assets/2e7025bc-7311-4364-85c2-c1478686b312)](https://discord.gg/2qnAq8B69u) 
+<p align="center"><img src="https://github.com/user-attachments/assets/3675a0a9-74bc-4d52-a3b1-6813bc19e770" width="400" height="58"> <img src="https://github.com/user-attachments/assets/2046df08-2913-4ea0-a0f0-af598e9a7faa" width="166" height="75"></p>
+<p align="center">for Steam.</p>
 
-<hr>
+[![discord](https://github.com/user-attachments/assets/2e7025bc-7311-4364-85c2-c1478686b312)](https://discord.gg/2qnAq8B69u)
+[![kofi](https://github.com/user-attachments/assets/1b855598-ce2c-4dd7-a795-6347311e2baf)](https://ko-fi.com/saiyajink) 
 
-### 🎨 <ins>Customize theme with the color of your choice</ins> : <br>
-I'm not a fan of heavy interfaces with "messy" colors. So I did my best to have a theme with consistent colorimetry. When creating the skin, I defined a function on many elements that injects the selected color code throughout the skin (by default, whether you're on Windows 10 or Windows 11, the Steam color will be the one you chose in Windows, but you can always use a different color by clicking on the color picker).<br><br>
-ℹ️ Following the latest Millennium update the theme color selection will have to be done from the Millennium settings for full compatibility.<br><br>
-▪ `Steam menu` ➡️ `Millennium` ➡️ `General` ➡️ `Themes` ➡️ `Custom accent color` ➡️ `Restart/refresh Steam`
+<p align="center">
+<a href="https://steambrew.app/theme?id=F4XgbtTW4x5CJmi5DUK3">
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fsteambrew.app%2Fapi%2Fv2%2Fdetails%2FF4XgbtTW4x5CJmi5DUK3&query=$.data.download&label=Downloads&logo=steam&style=flat&color=1a9fff&labelColor=262626&logoColor=FFFFFF"></a>
 
-### ⚙️ <ins>Full customizable skin, create your own skin layout with many settings</ins> : <br>
-When you download the skin, my personal settings will be applied. <br>
-You can configure it however you like with the 125 customization options available in the Minimal Dark settings.
+<a href="https://github.com/SaiyajinK/Minimal-Dark-for-Steam/stargazers">
+  <img src="https://img.shields.io/github/stars/SaiyajinK/Minimal-Dark-for-Steam?style=flat&label=Stars&color=FFD43B&labelColor=262626&logo=github&logoColor=FFFFFF">
+</a>
+</p>
+
+</p>
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+<p align="center">
+  A modern and highly customizable dark skin for Steam.
+</p>
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+</div>
+
+
+### ✨ Features :
+
+| Feature | Description |
+|----------|----------|
+| 🖥️ Interface | Minimalist and modern interface |
+| 🧩 Architecture | Lightweight and modular structure |
+
+### 🎨 Customization :
+
+| Category | Options |
+|-----------|----------:|
+| 👤 Account | 4 |
+| 👥 Friends | 11 |
+| 🎮 Gamepage | 19 |
+| 🌐 Global | 12 |
+| 📚 Library | 18 |
+| 🪪 Miniprofile | 2 |
+| 🎯 Overlay | 3 |
+| 📂 Sidebar | 15 |
+| 🔝 Topbar | 17 |
+| 🧩 Various | 9 |
+| 🌍 Webkit | 15 |
+| **Total** | **125+** |
 
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
-## Account options (4) : 
+### <ins>Account options</ins> (4) : 
 
 <details><summary>Account wallet :</summary><br>  
 
@@ -61,7 +95,7 @@ _Compact_ :<br>
 
 <hr>
 
-## Friends options (11) : 
+### <ins>Friends options</ins> (11) : 
 
 <details><summary>Animated hovering :</summary><br>  
 
@@ -162,7 +196,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Gamepage options (19) :
+### <ins>Gamepage options</ins> (19) :
 
 <details><summary>Alternative view for back to top button :</summary><br>  
 
@@ -307,7 +341,7 @@ _yes_ :<br>
 
 <hr>
 
-## Global options (12) : 
+### <ins>Global options</ins> (12) : 
 
 <details><summary>Alternative topbar color :</summary><br>  
 
@@ -438,7 +472,7 @@ _Enlarged (w10 users)_ :<br>
 
 <hr>
 
-## Library options (18) : 
+### <ins>Library options</ins> (18) : 
 
 <details><summary>Alternative library navigation button :</summary><br>  
 
@@ -604,7 +638,7 @@ _Static (without animation)_ :<br>
 
 <hr>
 
-## Miniprofile options (2) : 
+### <ins>Miniprofile options</ins> (2) : 
 
 <details><summary>Miniprofile background :</summary><br>
 
@@ -624,7 +658,7 @@ _Hide_ :<br>
 
 <hr>
 
-## Overlay options (3) : 
+### <ins>Overlay options</ins> (3) : 
 
 <details><summary>No button labels in list mod :</summary><br>  
 
@@ -652,7 +686,7 @@ _yes_ :<br>
 
 <hr>
 
-## Sidebar options (15) : 
+### <ins>Sidebar options</ins> (15) : 
 
 <details><summary>Alternative color update :</summary><br> 
 
@@ -785,7 +819,7 @@ _User color_ :<br>
 
 <hr>
 
-## Topbar options (17) : 
+### <ins>Topbar options</ins> (17) : 
 
 <details><summary>Alternative underlining :</summary><br> 
 
@@ -955,7 +989,7 @@ _yes_ :<br>
 
 <hr>
 
-## Various options (9) : 
+### <ins>Various options</ins> (9) : 
 
 <details><summary>Alternative root menu icon :</summary><br>  
 
@@ -1049,7 +1083,7 @@ _yes_ :<br>
 
 <hr>
 
-## Webkit options (15) : 
+### <ins>Webkit options</ins> (15) : 
 
 <details><summary>Alternative UI for new Steam menu :</summary><br>  
 
@@ -1185,56 +1219,96 @@ _Revisited_ :<br>
 <img src="https://github.com/user-attachments/assets/456e6b3c-c5be-4fdc-a3c9-338e6d10fbd4"></p></details><br>
 </details>
 
-### How to access to skin settings ? <br>
-▪ `Steam menu` ➡️ `Millennium Library Manager` ➡️ `Minimal Dark`<br>
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
 
-### 📸 <ins>Screenchots</ins> : <br>
-<img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/6bc61e04-0ca7-4c61-9e0e-8f8d59064297" />
+### 📸 Preview :
 
-<hr>
+| <img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/233d5c3a-b001-44d5-a52a-0e583532ccc2" />  |
+| ------ |
 
-### ✅ <ins>Quick installation with Millennium (recommanded)</ins> : <br>
-1️⃣ - Download & install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) <br>
-2️⃣ - Go to `Steam menu` ➡️ `Millennium` ➡️ `Install a theme` and paste Minimal ID : `F4XgbtTW4x5CJmi5DUK3` <br>
-3️⃣ - Restart Steam <br>
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
 
-### 🛠️ <ins>Recommended Steam settings</ins> : <br>
-▪ Steam ➡️ `Stable branch`.  <br>
-▪ Steam settings ➡️ `Library` ➡️ `Display size for library interface elements` ➡️ `Medium`.  <br>
-▪ Steam settings ➡️ `Contacts and chat` ➡️ `Group contacts by games`. <br>
-▪ Steam UI ➡️ : <br>
-- `Desktop mode` (fully functional)  <br>
-- `Big Picture mode` (the skin is largely created for the bp mode, but there is persistants problems, look [here](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/issues/71)).  <br>
+### 📥 Installation :
 
-<hr>
+| Step | Action |
+|------|--------|
+| 1️⃣ | Download and install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) |
+| 2️⃣ | Go to `Steam menu` / `Millennium` / `Install a theme` and paste the Minimal Dark ID: `F4XgbtTW4x5CJmi5DUK3` |
+| 3️⃣ | Restart Steam |
 
-### 🪛 <ins>Tools used</ins> : <br>
-▪ [Color picker](https://htmlcolorcodes.com/color-picker/) <br>
-▪ [ColorSpace](https://mycolor.space) <br>
-▪ [CSS Gradient](https://cssgradient.io/) <br>
-▪ [Free SVG collection](https://thenounproject.com/) <br>
+### ✅ Recommended Plugin :
 
-### 📃 <ins>Open Source References</ins> : <br>
-▪ Credits to [Rose's Metro for Steam](https://github.com/RoseTheFlower) for the initial base of the theme and the inspiration it gave me. <br>
-▪ [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) for the implementation in Millennium. <br>
-▪ [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) for the dark base of webkit. <br>
-▪ [Icon8](https://icons8.com) for Base64 icons. <br>
-▪ [CDNFonts](https://www.cdnfonts.com/) for alternative fonts. <br>
+| Plugin | Description |
+|---------|-------------|
+| ⟳ [Easy-Restart-Reload-for-Steam](https://github.com/SaiyajinK/Easy-Restart-Reload-for-Steam) | Adds Restart and Refresh options to the Steam root menu |
 
-<hr>
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
 
-### 👤 <ins>About</ins> : <br>
-Minimal Dark is a personalized and customizable minimal theme for the Steam interface. <br>
-I started from the basic Steam skin using the development tool (DevTools) as well as notepad++. <br>
-All the sources and tools I used used are listed above. <br>
+### 🛠️ Recommended Steam Settings :
 
-I am neither a coder nor a developer, I have some knowledge after several years of practice and I do this in my free time when I have it. Be understanding if you encounter any bugs. <br><br>
-⚠️ Minimal Dark is a completely <ins>free skin</ins>.  <br>
-💲 If someone pretends to be me and asks you for money to get the skin, it is a fraud. <br>
+| Setting | Recommended Value |
+|----------|------------------|
+| 🌿 Steam Branch | `Stable branch` |
+| 🖥️ Steam UI | `Desktop mode` |
+| 📚 Library Display Size | `Medium` |
 
-### 🌌 <ins>Do you like my work</ins> ? <br>
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
 
-⭐ Add a star to my directory ! <br>
-💯 It's <ins>free</ins> and it gives me strength because I see that other people like my work. 🫡<br>
-![firefox_zkLiqn1vT8](https://github.com/user-attachments/assets/bfd45d2b-f5a3-40bf-9e9f-0e656be0b7c8) <br>
-☕ [Support me on Ko-fi](https://ko-fi.com/saiyajink) <br>
+### 🪛 Tools Used :
+
+| Tool | Description |
+|------|-------------|
+| 🎨 [Color Picker](https://htmlcolorcodes.com/color-picker/) | Color selection and adjustments |
+| 🌈 [ColorSpace](https://mycolor.space) | Color palette generation |
+| 📈 [CSS Gradient](https://cssgradient.io/) | Gradient creation |
+| 🖼️ [The Noun Project](https://thenounproject.com/) | SVG icon resources |
+
+### 📃 Open Source References :
+
+| Project / Author | Contribution |
+|------------------|--------------|
+| 🌹 [Rose's Metro for Steam](https://github.com/RoseTheFlower) | Initial theme base and inspiration |
+| ⚙️ [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) | Millennium implementation |
+| 🌑 [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) | Dark WebKit base |
+| 🎯 [Icons8](https://icons8.com) | Base64 icons |
+| 🔤 [CDNFonts](https://www.cdnfonts.com/) | Alternative fonts |
+
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+
+### ❤️ Support :
+
+| Support | Action |
+|----------|----------|
+| ⭐ GitHub | Star the repository |
+| 🐞 Bug Reports | Report bugs through [GitHub](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/issues) or [Discord](https://discord.com/channels/1367109896419676203/1379085575893815367) |
+| ☕ Ko-fi | Support the project on [Ko-fi](https://ko-fi.com/saiyajink) |
+
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+
+### 👤 About :
+
+> Minimal Dark is a modern and highly customizable Steam theme, developed and maintained in my free time.
+>
+> The project has evolved over the years through experimentation, community feedback, and continuous improvements.
+
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+
+### ⚠️ Disclaimer :
+
+> 🕊️ Minimal Dark is completely free.<br>
+>
+> 💲 If someone asks you to pay for access to this theme while pretending to be the author, it is a scam.
