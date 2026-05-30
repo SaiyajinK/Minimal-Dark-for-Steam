@@ -8,10 +8,10 @@
 
 <p align="center">
 <a href="https://steambrew.app/theme?id=F4XgbtTW4x5CJmi5DUK3">
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fsteambrew.app%2Fapi%2Fv2%2Fdetails%2FF4XgbtTW4x5CJmi5DUK3&query=$.data.download&label=%E2%AD%B3&logo=steam&style=flat&color=1a9fff&labelColor=262626&logoColor=FFFFFF"></a>
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fsteambrew.app%2Fapi%2Fv2%2Fdetails%2FF4XgbtTW4x5CJmi5DUK3&query=$.data.download&label=Downloads&logo=steam&style=flat&color=1a9fff&labelColor=262626&logoColor=FFFFFF"></a>
 
 <a href="https://github.com/SaiyajinK/Minimal-Dark-for-Steam">
-<img src="https://img.shields.io/github/stars/SaiyajinK/Minimal-Dark-for-Steam?style=flat&label=%E2%98%85&logo=github&color=FFD43B&labelColor=262626&logoColor=FFFFFF">
+  <img src="https://img.shields.io/badge/GitHub-124★-FFD43B?style=flat&logo=github&labelColor=262626&color=FFD43B&logoColor=FFFFFF">
 </a>
 </p>
 
