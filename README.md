@@ -10,8 +10,8 @@
 <a href="https://steambrew.app/theme?id=F4XgbtTW4x5CJmi5DUK3">
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fsteambrew.app%2Fapi%2Fv2%2Fdetails%2FF4XgbtTW4x5CJmi5DUK3&query=$.data.download&label=Downloads&logo=steam&style=flat&color=1a9fff&labelColor=262626&logoColor=FFFFFF"></a>
 
-<a href="https://github.com/SaiyajinK/Minimal-Dark-for-Steam/stargazers">
-  <img src="https://img.shields.io/github/stars/SaiyajinK/Minimal-Dark-for-Steam?style=flat&label=Stars&color=FFD43B&labelColor=262626&logo=github&logoColor=FFFFFF">
+<a href="https://github.com/SaiyajinK/Minimal-Dark-for-Steam">
+  <img src="https://img.shields.io/github/stars/SaiyajinK/Minimal-Dark-for-Steam?style=flat&label=Stars&logo=github&color=FFD43B&labelColor=262626&logoColor=FFFFFF">
 </a>
 </p>
 
