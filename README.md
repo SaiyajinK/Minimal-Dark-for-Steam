@@ -1243,8 +1243,9 @@ _Revisited_ :<br>
 | Step | Action |
 |------|--------|
 | 1️⃣ | Download and install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) |
-| 2️⃣ | Go to `Steam menu` / `Millennium` / `Install a theme` and paste `F4XgbtTW4x5CJmi5DUK3` |
-| 3️⃣ | Restart Steam |
+| 2️⃣ | Go to `Steam menu` / `Millennium` / `Themes` / `Install a theme` |
+| 3️⃣ | paste `F4XgbtTW4x5CJmi5DUK3` |
+| 4️⃣ | Refresh Steam when prompted (a full reboot may be necessary) |
 
 <p align="center">
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -1254,7 +1255,7 @@ _Revisited_ :<br>
 
 | Plugin | Description |
 |---------|-------------|
-| ⟳ [Easy-Restart-Reload-for-Steam](https://github.com/SaiyajinK/Easy-Restart-Reload-for-Steam) | Adds Restart and Refresh options to the Steam root menu |
+| 🔄 [Easy-Restart-Reload-for-Steam](https://github.com/SaiyajinK/Easy-Restart-Reload-for-Steam) | Adds Restart and Refresh options to the Steam root menu |
 
 <p align="center">
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
