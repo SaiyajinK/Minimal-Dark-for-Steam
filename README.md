@@ -52,6 +52,10 @@
 | 🌍 Webkit | 15 |
 | **Total** | **125+** |
 
+</p>
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+
 <details><summary>🔎 Clic here to preview all customization options.</summary>
 
 ### <ins>Account options</ins> (4) : 
