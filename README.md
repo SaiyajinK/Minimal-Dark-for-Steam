@@ -7,14 +7,14 @@
 <a href="https://steambrew.app/theme?id=F4XgbtTW4x5CJmi5DUK3">
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fsteambrew.app%2Fapi%2Fv2%2Fdetails%2FF4XgbtTW4x5CJmi5DUK3&query=$.data.download&suffix=%20%E2%86%93&label=&logo=steam&style=flat&color=1a9fff&labelColor=262626&logoColor=FFFFFF"></a>
 &nbsp;
-<a href="https://github.com/SaiyajinK/Minimal-Dark-for-Steam">
-  <img src="https://img.shields.io/github/stars/SaiyajinK/Minimal-Dark-for-Steam?style=flat&label=%E2%98%85&logo=github&color=FFD43B&labelColor=262626&logoColor=FFFFFF"></a>
-&nbsp;
 <a href="https://discord.gg/2qnAq8B69u">
   <img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&labelColor=262626&color=5865F2&logoColor=FFFFFF"></a>
 &nbsp;
 <a href="https://ko-fi.com/saiyajink">
   <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&labelColor=262626&color=FF5E5B&logo=kofi&logoColor=FFFFFF"></a>
+&nbsp;
+<a href="https://github.com/SaiyajinK/Minimal-Dark-for-Steam">
+  <img src="https://img.shields.io/github/stars/SaiyajinK/Minimal-Dark-for-Steam?style=flat&label=%E2%98%85&logo=github&color=FFD43B&labelColor=262626&logoColor=FFFFFF"></a>
 </p>
 &nbsp;
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
