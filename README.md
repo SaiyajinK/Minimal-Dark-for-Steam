@@ -31,6 +31,10 @@
 | 🖥️ Interface | Minimalist and modern interface |
 | 🧩 Architecture | Lightweight and modular structure |
 
+</p>
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+
 ### 🎨 Customization :
 
 | Category | Options |
@@ -1273,6 +1277,10 @@ _Revisited_ :<br>
 | 📈 [CSS Gradient](https://cssgradient.io/) | Gradient creation |
 | 🖼️ [The Noun Project](https://thenounproject.com/) | SVG icon resources |
 
+</p>
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+
 ### 📃 Open Source References :
 
 | Project / Author | Contribution |
@@ -1289,7 +1297,7 @@ _Revisited_ :<br>
 
 ### ❤️ Support :
 
-| Support | Action |
+| Platform | Action |
 |----------|----------|
 | ⭐ GitHub | Star the repository |
 | 🐞 Bug Reports | Report bugs through [GitHub](https://github.com/SaiyajinK/Minimal-Dark-for-Steam/issues) or [Discord](https://discord.com/channels/1367109896419676203/1379085575893815367) |
