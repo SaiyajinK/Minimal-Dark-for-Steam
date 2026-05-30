@@ -1243,7 +1243,7 @@ _Revisited_ :<br>
 | Step | Action |
 |------|--------|
 | 1️⃣ | Download and install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) |
-| 2️⃣ | Go to `Steam menu` / `Millennium` / `Install a theme` and paste the Minimal Dark ID: `F4XgbtTW4x5CJmi5DUK3` |
+| 2️⃣ | Go to `Steam menu` / `Millennium` / `Install a theme` and paste `F4XgbtTW4x5CJmi5DUK3` |
 | 3️⃣ | Restart Steam |
 
 <p align="center">
