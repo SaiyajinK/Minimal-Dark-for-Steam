@@ -1265,9 +1265,9 @@ _Revisited_ :<br>
 
 | Setting | Recommended Value |
 |----------|------------------|
-| 🌿 Steam Branch | `Stable branch` |
+| 🌿 Steam branch | `Stable branch` |
 | 🖥️ Steam UI | `Desktop mode` |
-| 📚 Library Display Size | `Medium` |
+| 📚 Library display size | `Medium` |
 
 <p align="center">
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -1288,7 +1288,7 @@ _Revisited_ :<br>
 
 ### 📃 Open source references :
 
-| Project / Author | Contribution |
+| Project / author | Contribution |
 |------------------|--------------|
 | 🌹 [Rose's Metro for Steam](https://github.com/RoseTheFlower) | Initial theme base and inspiration |
 | ⚙️ [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) | Millennium implementation |
