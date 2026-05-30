@@ -23,8 +23,6 @@
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
 </p>
-</div>
-
 
 ### ✨ Features :
 
@@ -36,7 +34,7 @@
 ### 🎨 Customization :
 
 | Category | Options |
-|-----------|----------:|
+|----------|:--------:|
 | 👤 Account | 4 |
 | 👥 Friends | 11 |
 | 🎮 Gamepage | 19 |
@@ -1240,6 +1238,10 @@ _Revisited_ :<br>
 | 2️⃣ | Go to `Steam menu` / `Millennium` / `Install a theme` and paste the Minimal Dark ID: `F4XgbtTW4x5CJmi5DUK3` |
 | 3️⃣ | Restart Steam |
 
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+
 ### ✅ Recommended Plugin :
 
 | Plugin | Description |
@@ -1312,3 +1314,4 @@ _Revisited_ :<br>
 > 🕊️ Minimal Dark is completely free.<br>
 >
 > 💲 If someone asks you to pay for access to this theme while pretending to be the author, it is a scam.
+</div>
