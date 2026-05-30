@@ -1250,7 +1250,7 @@ _Revisited_ :<br>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
 </p>
 
-### ✅ Recommended Plugin :
+### ✅ Recommended plugin :
 
 | Plugin | Description |
 |---------|-------------|
@@ -1260,7 +1260,7 @@ _Revisited_ :<br>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
 </p>
 
-### 🛠️ Recommended Steam Settings :
+### 🛠️ Recommended Steam settings :
 
 | Setting | Recommended Value |
 |----------|------------------|
@@ -1272,7 +1272,7 @@ _Revisited_ :<br>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
 </p>
 
-### 🪛 Tools Used :
+### 🪛 Tools used :
 
 | Tool | Description |
 |------|-------------|
@@ -1285,7 +1285,7 @@ _Revisited_ :<br>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
 </p>
 
-### 📃 Open Source References :
+### 📃 Open source references :
 
 | Project / Author | Contribution |
 |------------------|--------------|
