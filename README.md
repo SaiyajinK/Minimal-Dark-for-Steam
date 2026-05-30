@@ -1287,7 +1287,7 @@ _Revisited_ :<br>
 |------------------|--------------|
 | 🌹 [Rose's Metro for Steam](https://github.com/RoseTheFlower) | Initial theme base and inspiration |
 | ⚙️ [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) | Millennium implementation |
-| 🌑 [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) | Dark WebKit base |
+| 🌑 [Shiina](https://github.com/AikoMidori/steam-dark-mode/blob/master/webkit.css) | Dark webkit base |
 | 🎯 [Icons8](https://icons8.com) | Base64 icons |
 | 🔤 [CDNFonts](https://www.cdnfonts.com/) | Alternative fonts |
 
