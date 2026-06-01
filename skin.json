@@ -222,7 +222,7 @@
 			}
 		},
 		
-		"Inverted contact bloc :": {
+		"Inverted contact block :": {
 		"tab": "Friends options (11)",
 		"description": "> Enabling this option reverses the display of the contact list. \n\n - No : Default ; The avatars are on the left, the text is on the right. \n - Yes : The avatars are on the right, the text is on the left.",
 		"default": "no",
@@ -457,9 +457,9 @@
 			}
 		},
 		
-		"Hide categorys name :": {
+		"Hide category names :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Enable this option to hide category names on a game page. \n\n - No : Show categorys name on gamepage. \n - Yes : Hide categorys name on gamepage. \n",
+		"description": "> Enable this option to hide category names on a game page. \n\n - No : Show category names on gamepage. \n - Yes : Hide category names on gamepage. \n",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -580,7 +580,7 @@
 			}
 		},		
 		
-		"Alternative ui color for context menus/menus :": {
+		"Alternative UI color for context menus/menus :": {
 		"tab": "Global options (12)",
 		"description": "> Inverted color for context menus/menus. \n\n - No : Default color \n - Yes : Inverted color",
 		"default": "no",
@@ -830,7 +830,7 @@
 			}
 		},
 		
-		"Alternative games names hover effect :": {
+		"Alternative game names hover effect :": {
 		"tab": "Library options (18)",
 		"description": "> Change the appearance of the game name hover in the What's New block. \n\n - Default : Left user color border on mouseover. \n - Alt #1 : Bottom user color border on mouseover. \n - Alt #2 : Full user color border on mouseover.",
 		"default": "Default",

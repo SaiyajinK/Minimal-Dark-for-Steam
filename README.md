@@ -58,7 +58,7 @@
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
 </p>
 
-<details><summary>🔎 Clic here to preview all customization options.</summary>
+<details><summary>🔎 Click here to preview all customization options.</summary>
 
 ### <ins>Account options</ins> (4) : 
 
@@ -189,7 +189,7 @@ _no_ :<br>
 _yes_ :<br>  
 <img src="https://github.com/user-attachments/assets/18b872d5-05e9-4bdf-8182-19599f44e3fb"></p></details>
 
-<details><summary>Inverted contact bloc :</summary><br>  
+<details><summary>Inverted contact block :</summary><br>  
 
 _yes_ :<br>  
 <img src="https://github.com/user-attachments/assets/7fffe710-5c60-4e00-8448-f2c82523c223"></p></details>
@@ -302,7 +302,7 @@ _No_ :<br>
 _Yes_ :<br>
 <img src="https://github.com/user-attachments/assets/28c42b68-04d0-4c5c-b12f-89169598d596"></p></details>
 
-<details><summary>Hide categorys name :</summary><br>      
+<details><summary>Hide category names :</summary><br>      
 
 _No_ :<br>
 <img src="https://github.com/user-attachments/assets/2d2334c2-ef81-4de6-843e-1051815fd3e5"></p>
@@ -332,7 +332,7 @@ _Show post-party summary only_ :<br>
 _Show 'Would you recommend this game?' only_ :<br>
 <img src="https://github.com/user-attachments/assets/35009178-5c83-4a88-a0cd-2fd9c1288087"></p></details>
 
-<details><summary>Inverted gamepage (know bugs) :</summary><br>  
+<details><summary>Inverted gamepage (known bugs) :</summary><br>  
 
 _Inverted_ :<br>
 <img src="https://github.com/user-attachments/assets/f5f9493e-556a-40ce-966e-6c2d48174454"></p></details>
@@ -362,7 +362,7 @@ _Grey_ :<br>
 _Grey with dark buttons_ :<br>
 <img src="https://github.com/user-attachments/assets/feccd1d6-ba14-44f8-95ca-34c579b3952e"></p></details>
 
-<details><summary>Alternative ui color for context menus/menus :</summary><br>  
+<details><summary>Alternative UI color for context menus/menus :</summary><br>  
 
 _No_ :<br> 
 <img src="https://github.com/user-attachments/assets/95b7fec7-8733-4cb1-9604-243a8b3aa0e0"></p>
@@ -490,7 +490,7 @@ _Default_ :<br>
 _Alternative_ :<br>  
 <img src="https://github.com/user-attachments/assets/72597203-d36d-44be-86ce-99000d17db19"></p></details>
 
-<details><summary>Alternative games names hover effect :</summary><br>
+<details><summary>Alternative game names hover effect :</summary><br>
 
 _Default_ :<br>
 <img src="https://github.com/user-attachments/assets/351b4376-bc10-4d1d-b385-65e96850da56"></p>
@@ -1290,7 +1290,7 @@ _Revisited_ :<br>
 
 ### 📃 Open source references :
 
-| Project / author | Contribution |
+| Project / Author | Contribution |
 |------------------|--------------|
 | 🌹 [Rose's Metro for Steam](https://github.com/RoseTheFlower) | Initial theme base and inspiration |
 | ⚙️ [ShadowMonster99](https://github.com/ShadowMonster99/millennium-steam-patcher) | Millennium implementation |
