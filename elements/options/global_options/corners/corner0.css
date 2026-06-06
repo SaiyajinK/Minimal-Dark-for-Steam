@@ -1198,7 +1198,7 @@ video._2aMRbzoT83AkFGYSmCvnRe, img.JIMdRVl5GQwMrWUt3A6RH {
 }
 
 .carousel_items.store_capsule_container > * > *:hover {
-    border: 1px solid transparent !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .home_capsule_banner {
