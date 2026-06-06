@@ -1194,15 +1194,19 @@ img.tab_item_cap_img {
 }
 
 .tab_review_summary {
-	border-radius:0px!important;
+	border-radius: var(--minimal_dark_corner) !important;
 }
 
 .tab_preview .screenshot {
-	border-radius:0px!important;
+	border-radius: var(--minimal_dark_corner) !important;
+}
+
+.tab_preview_video {
+	border-radius: var(--minimal_dark_corner) !important;
 }
 
 .tab_preview {
-	border-radius:0px!important;
+	border-radius: var(--minimal_dark_corner) !important;
 }
 
 .carousel_items.store_capsule_container {
@@ -7877,39 +7881,51 @@ div.ModalPosition_TopBar {
 
 .carousel_container .arrow.right {
     border: 1px solid var(--minimal_dark_be_grey);
-    right: -52px !important;
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker_alt) !important;
+    width: 30px !important;
+    right: -60px !important;
+	top: 35% !important;
 }
 
 .carousel_container .arrow.right:hover {
     background: var(--minimal_dark_blacker);
     border: 1px solid var(--minimal_dark_color1);
-    right: -52px !important;
+    width: 30px !important;
+    right: -60px !important;
+	top: 35% !important;
 }
 
 .carousel_container .arrow.right:active {
     box-shadow: inset 0px 0px 20px 0px #000000a1;
-    right: -52px;
+    width: 30px !important;
+    right: -60px !important;
+	top: 35% !important;
 }
 
 .carousel_container .arrow.left {
     border: 1px solid var(--minimal_dark_be_grey);
-    left: -52px !important;
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker_alt) !important;
+	width: 30px !important;
+    left: -60px !important;
+	top: 35% !important;
 }
 
 .carousel_container .arrow.left:hover {
     background: var(--minimal_dark_blacker);
     border: 1px solid var(--minimal_dark_color1);
-    left: -52px !important;
     border-radius: var(--minimal_dark_corner) !important;
+	width: 30px !important;
+    left: -60px !important;
+	top: 35% !important;
 }
 
 .carousel_container .arrow.left:active {
     box-shadow: inset 0px 0px 20px 0px #000000a1;
-    left: -52px;
+	width: 30px !important;
+    left: -60px !important;
+	top: 35% !important;
 }
 
 .content_hub_carousel_ctn .content_hub_capsule_ctn img {
@@ -7940,7 +7956,7 @@ div.ModalPosition_TopBar {
 
 .store_main_capsule:hover {
     color: #fff !important;
-	box-shadow: 0 0 10px var(--minimal_dark_color1) !important;
+	/* box-shadow: 0 0 10px var(--minimal_dark_color1) !important; */
 }
 
 .carousel_container.maincap .carousel_items {
@@ -15435,7 +15451,7 @@ textarea.gLFyf, .YacQv {
     border-radius: var(--minimal_dark_corner) !important;
     padding: 0 0 0 4px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    transform: translate(0px, -3px) !important;
+    transform: translate(3px, -12px) !important;
     border-left: 1px solid var(--minimal_dark_browser_overlay_close) !important;
 }
 
@@ -15478,6 +15494,7 @@ textarea.gLFyf, .YacQv {
     border-left: 1px solid #d3deea !important;
 	color:  #d3deea !important;
 	border-radius: var(--minimal_dark_corner) !important;
+    transform: translate(3px, -12px) !important;
 }
 
 .search_suggest .match .ds_flag.ds_wishlist_flag {
@@ -17118,6 +17135,7 @@ div#recommended_creators_carousel .carousel_items.store_capsule_container.respon
 
 .home_tab_bg_ctn {
     background: var(--minimal_dark_blacker_alt) !important;
+    border-image: none !important;
 }
 
 .tab_row_item {
