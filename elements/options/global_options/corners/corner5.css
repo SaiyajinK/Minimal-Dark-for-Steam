@@ -1181,7 +1181,7 @@ video._2aMRbzoT83AkFGYSmCvnRe, img.JIMdRVl5GQwMrWUt3A6RH {
 
 @media screen and (min-width: 1400px) {
     .carousel_wide_mode .carousel_container .prev {
-        transform: translateX(calc(-666px - 40px)) !important;
+        transform: translateX(calc(-806px - 40px)) !important;
     }
 }
 
@@ -1566,4 +1566,15 @@ span.DCat1zs4gq0- {
     background: #bfdef7;
     color: white !important;
     font-weight: 400 !important;
+}
+
+._3fFFsvII7Y2KXNLDk_krOW::before {
+    border-bottom: 1px solid var(--minimal_dark_red2) !important;
+}
+
+.carousel_items.store_capsule_container .capsule_image_ctn.main_capsule {
+  width: 100% !important;
+  height: 100% !important;
+  background-size: cover !important;
+  background-position: center center !important;
 }
