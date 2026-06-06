@@ -11948,9 +11948,9 @@ body.v6.newonsteam .newonsteam_headercaps img {
     padding: 5px !important;
 }
 
-.focus > .community_recommendation_app {
-    width: 932px !important;
-}
+/* .focus > .community_recommendation_app { */
+    /* width: 932px !important; */
+/* } */
 
 .community_recommendations_block > .review_box .avatar .playerAvatar img {
     border-radius: var(--minimal_dark_corner) !important;
