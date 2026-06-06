@@ -50,16 +50,6 @@
     border-bottom: 1px solid var(--minimal_dark_color1) !important;
 }
 
-/* .carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal:hover { */
-    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
-	/* border-bottom: 1px solid var(--minimal_dark_color1) !important; */
-/* } */
-
-/* .carousel_items.store_capsule_container > * > *:hover { */
-    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
-    /* border-bottom: 1px solid var(--minimal_dark_color1) !important; */
-/* } */
-
 .steamdeck_banner_desktop:hover {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_color1) !important;
