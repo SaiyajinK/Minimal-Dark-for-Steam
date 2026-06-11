@@ -1002,7 +1002,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
     flex-direction: row;
     align-items: center;
     /* border-left: 1px solid var(--minimal_dark_be_grey) !important; */
-    padding-left: 5px !important;
+    padding-left: 5px;
     transform: translate(-45px, 0px);
 }
 
