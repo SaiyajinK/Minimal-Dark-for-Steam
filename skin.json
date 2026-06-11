@@ -917,7 +917,7 @@
 			"Default": {},
 			"Default (bottom)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_labels/default_library_labels_bottom.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/default_library_labels_bottom.css"
 					}
 				},
 			"Compact": {
