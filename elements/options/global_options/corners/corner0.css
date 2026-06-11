@@ -1578,3 +1578,26 @@ span.DCat1zs4gq0- {
   background-size: cover !important;
   background-position: center center !important;
 }
+
+.game_language_options td span {
+    color: var(--minimal_dark_color1) !important;
+}
+
+.all_languages {
+    color: var(--minimal_dark_color1) !important;
+}
+
+._1FCh_hPFNuwj9vrVDMOvMC {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+._29jQMo9DGCmcSKyDIC3V7M {
+    background: #0e0e0e !important;
+    border-radius: 0px !important;
+}
+
+._3sRe2CGQBgablPBz9Bc9c2:hover, :hover > ._3sRe2CGQBgablPBz9Bc9c2 {
+    background: #262626 !important;
+}
