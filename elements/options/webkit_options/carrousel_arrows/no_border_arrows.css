@@ -52,6 +52,7 @@
     -webkit-mask-size: contain !important;
     -webkit-mask-position: center !important;
     transition: .25s ease-out !important;
+	transform: rotate(0deg) !important;
 }
 
 .carousel_container .arrow.left:hover > div {
