@@ -1602,7 +1602,7 @@
 		
 		"Hide topbar elements :": {
 		"tab": "Topbar options (17)",
-		"description": "> Hide topbar menus or arrows. \n\n - Show all : Display all elements of the topbar. \n - Hide menus only : Hide only menus. \n - Hide arrows only : Hide only arrows. \n - Hide all : Hide arrows, menus and tabs.",
+		"description": "> Hide topbar menus or arrows. \n\n - Show all : Display all elements of the topbar. \n - Hide menus only : Hide only menus. \n - Hide arrows only : Hide only arrows. \n - Hide all : Hide arrows, menus and tabs. \n\n NOTE : The options for the vanilla bar should only be used if you are using the vanilla bar in the global options.",
 		"default": "Show all",
 		"values": {
 			"Show all": {},
@@ -1611,14 +1611,29 @@
 			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_menus_only.css"
 					}
 				},
+			"Hide menus only (for vanilla top bar style option)": {	
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_menus_only_vanilla.css"
+					}
+				},
 			"Hide arrows only": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_arrows_only.css"
 					}
 				},
+			"Hide arrows only (for vanilla top bar style option)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_arrows_only_vanilla.css"
+					}
+				},
 			"Hide all": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_all.css"
+					}
+				},
+			"Hide all (for vanilla top bar style option)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_all_vanilla.css"
 					}
 				}
 			}
@@ -2251,7 +2266,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.6.5",
+	"version": "5.6.7",
 
 	"github": {
 		"owner": "SaiyajinK",
