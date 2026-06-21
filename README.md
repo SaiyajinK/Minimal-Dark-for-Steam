@@ -52,7 +52,7 @@
 | 🔝 Topbar | 17 |
 | 🧩 Various | 9 |
 | 🌍 Webkit | 15 |
-| **Total** | **125+** |
+| **Total** | **126+** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
