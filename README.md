@@ -44,7 +44,7 @@
 | 👤 Account | 4 |
 | 👥 Friends | 11 |
 | 🎮 Gamepage | 19 |
-| 🌐 Global | 12 |
+| 🌐 Global | 13 |
 | 📚 Library | 18 |
 | 🪪 Miniprofile | 2 |
 | 🎯 Overlay | 3 |
@@ -349,7 +349,15 @@ _yes_ :<br>
 
 <hr>
 
-### <ins>Global options</ins> (12) : 
+### <ins>Global options</ins> (13) : 
+
+<details><summary>Alternative border color for context menus :</summary><br>  
+
+_Black_ :<br>
+<img src="https://github.com/user-attachments/assets/7f12f994-c329-4224-a3bf-2e4c8c8fb8f6"></p>
+
+_Grey_ :<br> 
+<img src="https://github.com/user-attachments/assets/3b187f82-e01f-4ea9-a8cd-73dcdf6d8747"></p></details>
 
 <details><summary>Alternative topbar color :</summary><br>  
 
