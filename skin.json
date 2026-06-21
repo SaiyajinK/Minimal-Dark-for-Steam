@@ -561,8 +561,22 @@
 			}
 		},
 		
+		"Alternative border color for context menus :": {
+		"tab": "Global options (13)",
+		"description": "> Change the border color of menus and context menus. \n\n - Black : Black border \n - Grey : Grey border.",
+		"default": "Black",
+		"values": {
+			"Black": {},
+			"Grey": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/alt_color_border.css"
+					}
+				}
+			}
+		},	
+		
 		"Alternative topbar color :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Modify the color of the topbar. \n\n - Dark : Full dark topbar \n - Grey : Full grey topbar \n - Grey/dark : Grey topbar and dark buttons.",
 		"default": "Grey/dark",
 		"values": {
@@ -581,7 +595,7 @@
 		},		
 		
 		"Alternative UI color for context menus/menus :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Inverted color for context menus/menus. \n\n - No : Default color \n - Yes : Inverted color",
 		"default": "no",
 		"values": {
@@ -595,7 +609,7 @@
 		},	
 		
 		"Avatar frame :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Hide or show avatar frame on all avatars. \n\n - Hide : Hide avatar frame on the entire skin. \n - Show : Show avatar frame on the entire skin. \n\n NOTE : If you decide to display avatar frames, remember to check the toggle in the Steam settings 'Contacts and Chats: Enable animated avatars and avatar frames in your contacts list and in chat'",
 		"default": "Show",
 		"values": {
@@ -613,7 +627,7 @@
 		},
 		
 		"Compact menus/context menus :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> This option allows you to make the menus/context menus compact (or not), animated (or not), with a left border (or not). \n\n - The informations are directly on the sub-options.",
 		"default": "Compact size (static with left border)",
 		"values": {
@@ -657,7 +671,7 @@
 		},
 		
 		"Context menus left icons :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Adds an icon to the left of the text in context menus. \n\n - Default : No icons. \n - User color icons (small) : Displays small icons + user-color on hover. \n - User color icons (big) : Displays big icons + user-color on hover. \n\n NOTE : Select the option based on the size you chose for the context menus in the option above but the large size works in compact mode, but the blocks are slightly larger than in compact mode.",
 		"default": "User color icons (small/fill)",
 		"values": {
@@ -686,7 +700,7 @@
 		},
 		
 		"Corners radius :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Sets the strength of corner rounding. \n\n - Square : 0px. \n - Rounded : 5px. \n - More rounded : 10px.",
 		"default": "Rounded",
 		"values": {
@@ -709,7 +723,7 @@
 		},
 		
 		"Hover borders on library and webkit blocks :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Make the hover borders of library/webkit items full and no longer just on the bottom. \n\n - Full borders : Applies the user's color to all borders on mouseover. \n - Bottom only : Applies the user's color only to the bottom border on mouseover.",
 		"default": "Full borders",
 		"values": {
@@ -727,7 +741,7 @@
 		},
 		
 		"Resize grip (Steam windows) :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Show or hide the resizing grip display. \n\n - Default : Default Steam grip. \n - Default (smaller) : Smaller default Steam grip. \n - Alternative UI : Alternative UI for the resize grip. \n - Alternative UI (smaller) : Smaller alternative UI for the resize grip. \n - Hide : Hide the resize grip. \n\n NOTE : If you select 'Hide', you will need to disable the friends option 'Hide footer (fix)'",
 		"default": "Default (smaller)",
 		"values": {
@@ -756,7 +770,7 @@
 		},
 		
 		"Steam bigpicture button :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Hide or show Steam bigpicture button in top bar. \n\n - Hide : Hide topbar Steam bigpicture button. \n - Show : Show topbar Steam bigpicture button.",
 		"default": "Hide",
 		"values": {
@@ -770,7 +784,7 @@
 		},
 		
 		"Steam news button :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Hide or show Steam news button in top bar. \n\n - Hide : Hide topbar Steam news button. \n - Show : Show topbar Steam news button.",
 		"default": "Hide",
 		"values": {
@@ -784,7 +798,7 @@
 		},
 		
 		"Title area buttons :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Make the title bar buttons bigger (close/maximize/minimize buttons). \n\n - Small : Small titlebar buttons. \n - Enlarged (w11 users) : Enlarged buttons for Windows 11 users. \n - Enlarged (w10 users) : Enlarged buttons for Windows 10 users.",
 		"default": "Enlarged (w11 users)",
 		"values": {
@@ -803,7 +817,7 @@
 		},
 		
 		"Vanilla topbar style :": {
-		"tab": "Global options (12)",
+		"tab": "Global options (13)",
 		"description": "> Set the topbar in the vanilla style of steam skin. \n\n - Minimal Dark : Topbar buttons are on the same line. \n - Vanilla topbar : Set Topbar as on vanilla skin, buttons are on two lines.",
 		"default": "Minimal Dark",
 		"values": {
@@ -2266,7 +2280,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.6.7",
+	"version": "5.6.8",
 
 	"github": {
 		"owner": "SaiyajinK",
