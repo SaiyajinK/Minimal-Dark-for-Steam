@@ -1939,3 +1939,14 @@ img._3PXcvKt0U1PJ2DAM8I5lLx {
 .playcount-dot.high {
     background: var(--minimal_dark_progress_bar) !important;
 }
+
+._1evWkbycSNbpWEQv0fi2a3 {
+    background-color: #bfbfbf0a !important;
+    backdrop-filter: blur(8px) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._1evWkbycSNbpWEQv0fi2a3 .Uhnu8BbWIFQNTGqiwjAA7 {
+    color: var(--minimal_dark_color) !important;
+}
