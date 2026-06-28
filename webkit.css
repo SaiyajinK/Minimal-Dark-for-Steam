@@ -7886,7 +7886,7 @@ div.ModalPosition_TopBar {
     width: 30px !important;
     right: -60px !important;
     top: 38% !important;
-    height: 84% !important;
+    /* height: 84% !important; */
 }
 
 .carousel_container .arrow.right:hover {
@@ -7895,7 +7895,7 @@ div.ModalPosition_TopBar {
     width: 30px !important;
     right: -60px !important;
     top: 38% !important;
-    height: 84% !important;
+    /* height: 84% !important; */
 }
 
 .carousel_container .arrow.right:active {
@@ -7903,7 +7903,7 @@ div.ModalPosition_TopBar {
     width: 30px !important;
     right: -60px !important;
     top: 38% !important;
-    height: 84% !important;
+    /* height: 84% !important; */
 }
 
 .carousel_container .arrow.left {
@@ -7913,7 +7913,7 @@ div.ModalPosition_TopBar {
 	width: 30px !important;
     left: -60px !important;
     top: 38% !important;
-    height: 84% !important;
+    /* height: 84% !important; */
 }
 
 .carousel_container .arrow.left:hover {
@@ -7923,7 +7923,7 @@ div.ModalPosition_TopBar {
 	width: 30px !important;
     left: -60px !important;
     top: 38% !important;
-    height: 84% !important;
+    /* height: 84% !important; */
 }
 
 .carousel_container .arrow.left:active {
@@ -7931,7 +7931,7 @@ div.ModalPosition_TopBar {
 	width: 30px !important;
     left: -60px !important;
     top: 38% !important;
-    height: 84% !important;
+    /* height: 84% !important; */
 }
 
 .special_offers .arrow.left, .special_offers .arrow.right {
@@ -15599,7 +15599,8 @@ textarea.gLFyf, .YacQv {
 }
 
 .carousel_items.store_capsule_container.responsive_scroll_snap_ctn .ds_flag.ds_wishlist_flag {
-    transform: translate(3px, -26px) !important;
+    /* transform: translate(3px, -26px) !important; */
+	transform: translate(3px, -10px) !important;
 }
 
 .search_suggest .match .ds_flag.ds_wishlist_flag {
