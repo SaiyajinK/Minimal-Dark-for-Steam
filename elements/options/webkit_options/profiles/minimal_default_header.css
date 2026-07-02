@@ -1,0 +1,142 @@
+.profile_header_content {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  border: 1px solid var(--minimal_dark_be_grey) !important;
+  border-radius: var(--minimal_dark_corner) !important;
+  backdrop-filter: blur(8px) !important;
+  background: #1212125e !important;
+}
+
+.profile_customization {
+  border-radius: var(--minimal_dark_corner) !important;
+  background-image: none !important;
+  border: 1px solid var(--minimal_dark_be_grey) !important;
+  backdrop-filter: blur(10px) !important;
+  background: #1212125e !important;
+}
+
+.profile_rightcol {
+  width: 268px !important;
+  float: right !important;
+  backdrop-filter: blur(20px) !important;
+  padding: 10px;
+  border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal_dark_be_grey) !important;
+  background: #1212125e !important;
+}
+
+.showcase_content_bg:last-child {
+  border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal_dark_blacker) !important;
+  margin-top: 10px !important;
+}
+
+.profile_customization_header {
+  background: #1212125e !important;
+}
+
+.showcase_content_bg {
+  border-radius: var(--minimal_dark_corner) !important;
+  backdrop-filter: blur(10px)!important;
+  background-color: #1212125e !important;
+  border: 1px solid var(--minimal_dark_blacker) !important;
+}
+
+.showcase_content_bg:last-child {
+  border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal_dark_blacker) !important;
+  margin-top: 10px !important;
+}
+
+.friendBlock.persona.in-game {
+	color:var(--minimal_dark_status_green)!important;
+	height:36px!important;
+	padding:4px 0 4px 4px!important;
+	margin-bottom:4px!important;
+	font-size:11px!important;
+	line-height:13px!important;
+	overflow:hidden!important;
+	white-space:nowrap!important;
+	text-overflow:ellipsis!important;
+	position:relative!important;
+	border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.friendBlock.persona.online {
+	color:#5db2fe!important;
+	height:36px!important;
+	padding:4px 0 4px 4px!important;
+	margin-bottom:4px!important;
+	font-size:11px!important;
+	line-height:13px!important;
+	overflow:hidden!important;
+	white-space:nowrap!important;
+	text-overflow:ellipsis!important;
+	position:relative!important;
+	border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.friendBlock.persona.offline {
+	color:var(--minimal_dark_less_white)!important;
+	height:36px!important;
+	padding:4px 0 4px 4px!important;
+	margin-bottom:4px!important;
+	font-size:11px!important;
+	line-height:13px!important;
+	overflow:hidden!important;
+	white-space:nowrap!important;
+	text-overflow:ellipsis!important;
+	position:relative!important;
+	border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.profile_content.has_profile_background {
+  z-index: 0!important;
+  margin-top: 0px !important;
+  padding-top: 9px !important;
+  backdrop-filter: none !important;
+  border-radius: 0px;
+  background: transparent !important;
+}
+
+.profile_header_bg_texture {
+  background: #1f1e1e73 !important;
+  backdrop-filter: blur(25px) !important;
+  border-radius: 0px!important;
+  margin-top: 10px !important;
+  background: var(--minimal_dark_blacker_alt)!important;
+}
+
+.profile_header_badge {
+	border-radius: var(--minimal_dark_corner) !important;
+	background-color: transparent !important;
+}
+
+.profile_header_bg {
+	background-image: none !important;
+}
+
+.profile_background_holder_content {
+	border-radius: 0px !important;
+}
+
+.profile_header_bg_texture {
+  background: #1f1e1e73;
+  backdrop-filter: none !important;
+  border-radius: 0px!important;
+  background: none !important;
+}
+
+.profile_content {
+  background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.profile_header {
+  max-width: 952px !important;
+  padding: 24px 12px 0 12px !important;
+}
