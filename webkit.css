@@ -2339,27 +2339,6 @@ div#headerSearch.friend_activity_header_search {
 	background-color:var(--minimal_dark_blacker_alt) !important;
 }
 
-/* .profile_header_bg_texture { */
-    /* background: #1f1e1e73; */
-    /* backdrop-filter: blur(25px) !important; */
-    /* border-radius: 0px!important; */
-    /* margin-top: 10p; */
-    /* background: var(--minimal_dark_blacker_alt)!important; */
-/* } */
-
-/* .profile_header_badge { */
-	/* border-radius: var(--minimal_dark_corner) !important; */
-	/* background-color: transparent !important; */
-/* } */
-
-/* .profile_header_bg { */
-	/* background-image:none! */
-/* } */
-
-/* .profile_background_holder_content { */
-	/* border-radius:0px!important; */
-/* } */
-
 .playerAvatar.profile_header_size.in-game {
 	max-width: 40%!important;
     float: left!important;
