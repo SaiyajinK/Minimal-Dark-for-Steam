@@ -1806,3 +1806,19 @@ html.responsive div#footer.compact .footer_content {
     margin-top: 0px !important;
     margin-bottom: 10px !important;
 }
+
+._3Vl2zkYPoCpw1q_1n28D3z {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG._2fy9Xqi70es7wkqy4iOvBE {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG._2fy9Xqi70es7wkqy4iOvBE:hover {
+    background-color: var(--minimal_dark_black) !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+}
