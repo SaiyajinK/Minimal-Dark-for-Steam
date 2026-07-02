@@ -2339,26 +2339,26 @@ div#headerSearch.friend_activity_header_search {
 	background-color:var(--minimal_dark_blacker_alt) !important;
 }
 
-.profile_header_bg_texture {
-    background: #1f1e1e73;
-    backdrop-filter: blur(25px) !important;
-    border-radius: 0px!important;
-    margin-top: 10p;
-    background: var(--minimal_dark_blacker_alt)!important;
-}
+/* .profile_header_bg_texture { */
+    /* background: #1f1e1e73; */
+    /* backdrop-filter: blur(25px) !important; */
+    /* border-radius: 0px!important; */
+    /* margin-top: 10p; */
+    /* background: var(--minimal_dark_blacker_alt)!important; */
+/* } */
 
-.profile_header_badge {
-	border-radius: var(--minimal_dark_corner) !important;
-	background-color: transparent !important;
-}
+/* .profile_header_badge { */
+	/* border-radius: var(--minimal_dark_corner) !important; */
+	/* background-color: transparent !important; */
+/* } */
 
-.profile_header_bg {
-	background-image:none!
-}
+/* .profile_header_bg { */
+	/* background-image:none! */
+/* } */
 
-.profile_background_holder_content {
-	border-radius:0px!important;
-}
+/* .profile_background_holder_content { */
+	/* border-radius:0px!important; */
+/* } */
 
 .playerAvatar.profile_header_size.in-game {
 	max-width: 40%!important;
@@ -2450,73 +2450,8 @@ div#headerSearch.friend_activity_header_search {
 	display:block!important;
 }
 
-.friendBlock.persona.in-game {
-	color:var(--minimal_dark_status_green)!important;
-	height:36px!important;
-	padding:4px 0 4px 4px!important;
-	margin-bottom:4px!important;
-	font-size:11px!important;
-	line-height:13px!important;
-	overflow:hidden!important;
-	white-space:nowrap!important;
-	text-overflow:ellipsis!important;
-	position:relative!important;
-	border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-}
-
-.friendBlock.persona.online {
-	color:#5db2fe!important;
-	height:36px!important;
-	padding:4px 0 4px 4px!important;
-	margin-bottom:4px!important;
-	font-size:11px!important;
-	line-height:13px!important;
-	overflow:hidden!important;
-	white-space:nowrap!important;
-	text-overflow:ellipsis!important;
-	position:relative!important;
-	border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-}
-
-.friendBlock.persona.offline {
-	color:var(--minimal_dark_less_white)!important;
-	height:36px!important;
-	padding:4px 0 4px 4px!important;
-	margin-bottom:4px!important;
-	font-size:11px!important;
-	line-height:13px!important;
-	overflow:hidden!important;
-	white-space:nowrap!important;
-	text-overflow:ellipsis!important;
-	position:relative!important;
-	border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-}
-
-.profile_content.has_profile_background {
-    z-index: 0!important;
-    margin-top: 0px !important;
-    padding-top: 9px !important;
-    backdrop-filter: none !important;
-    border-radius: 0px;
-    background: transparent !important;
-}
-
 .workshop_showcase_details_row {
 	background-image:none!important;
-}
-
-.profile_header_content {
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
-    padding-left: 12px !important;
-    padding-right: 12px !important;
-    border: 1px solid var(--minimal_dark_be_grey);
-    border-radius: var(--minimal_dark_corner) !important;
-    backdrop-filter: blur(8px) !important;
-    background: #1212125e;
 }
 
 .workshop_showcase_details_content {
@@ -2759,9 +2694,9 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 	border-width:1px!important;
 }
 
-.profile_content {
-    background: var(--minimal_dark_blacker_alt) !important;
-}
+/* .profile_content { */
+    /* background: var(--minimal_dark_blacker_alt) !important; */
+/* } */
 
 .guideTop .workshopItemControls {
     background-color: var(--minimal_dark_black)!important;
@@ -3330,13 +3265,6 @@ span#profile_action_dropdown_link img {
     border-radius: 0px !important;
     border: 1px transparent solid !important;
     display: initial !important;
-}
-
-.profile_header_bg_texture {
-    background: #1f1e1e73;
-    backdrop-filter: none !important;
-    border-radius: 0px!important;
-    background: none !important;
 }
 
 .showcase_content_bg:last-child {
@@ -5849,80 +5777,6 @@ body.v6.winter_sale_home h2.winter {
     transform: translate(0px, -12px) !important;
     display: block !important;
 }
-
-/* .grouppage_member_tiles { */
-	/* right:-1px!important; */
-	/* height:230px!important; */
-	/* padding-bottom:12px!important; */
-	/* padding-top:0!important; */
-	/* background:0 0!important; */
-	/* border-radius:0px!important; */
-/* } */
-
-/* .grouppage_header_name { */
-	/* background:rgba(0, 0, 0, 0.2)!important; */
-	/* backdrop-filter:blur(10px)!important; */
-	/* position:absolute!important; */
-	/* transform:translate(-50%, -50%)!important; */
-	/* display:inline-block!important; */
-	/* text-align:center!important; */
-	/* right:auto!important; */
-	/* left:50%!important; */
-	/* top:30%!important; */
-	/* background-color:transparent!important; */
-/* } */
-
-/* .grouppage_header_label { */
-	/* border-top-left-radius:10px!important; */
-	/* border-top-right-radius:10px!important; */
-	/* background:rgba(0, 0, 0, 0.2)!important; */
-	/* backdrop-filter:blur(20px)!important; */
-	/* position:absolute!important; */
-	/* transform:translate(-50%, -50%)!important; */
-	/* display:inline-block!important; */
-	/* text-align:center!important; */
-	/* right:auto!important; */
-	/* left:50%!important; */
-	/* top:15%!important; */
-	/* background-color:transparent!important; */
-/* } */
-
-/* .grouppage_friendsingroup { */
-	/* position:absolute!important; */
-	/* transform:translate(-50%, -50%)!important; */
-	/* display:inline-block!important; */
-	/* text-align:center!important; */
-	/* right:auto!important; */
-	/* left:50%!important; */
-	/* top:50%!important; */
-	/* background-color:transparent!important; */
-/* } */
-
-/* .grouppage_friendsingroup_title { */
-	/* border-radius:0px!important; */
-	/* background:rgba(0, 0, 0, 0.2)!important; */
-	/* backdrop-filter:blur(20px)!important; */
-	/* position:absolute!important; */
-	/* transform:translate(-50%, -50%)!important; */
-	/* display:inline-block!important; */
-	/* text-align:center!important; */
-	/* right:auto!important; */
-	/* left:1%!important; */
-	/* top:-130%!important; */
-	/* background-color:transparent!important; */
-/* } */
-
-/* .grouppage_friendsingroup .grouppage_friendsingroup_title { */
-    /* border-radius: var(--minimal_dark_corner) !important; */
-    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
-/* } */
-
-/* .grouppage_friendsingroup .friendavatar { */
-    /* float: left !important; */
-    /* padding: 0px !important; */
-    /* border-radius: var(--minimal_dark_corner) !important; */
-    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
-/* } */
 
 .top_new_releases_background {
 	background-image: none!important;
@@ -8540,30 +8394,6 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
     transition-timing-function: ease-out !important;
 }
 
-.profile_header {
-    max-width: 952px !important;
-    /* padding-top: 12px !important; */
-    padding: 24px 12px 0 12px !important;
-}
-
-.profile_customization {
-    border-radius: var(--minimal_dark_corner) !important;
-    background-image: none !important;
-    border: 1px solid var(--minimal_dark_be_grey);
-	backdrop-filter: blur(10px) !important;
-	background: #1212125e;
-}
-
-.profile_rightcol {
-    width: 268px !important;
-    float: right !important;
-    backdrop-filter: blur(20px);
-    padding: 10px;
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey);
-	background: #1212125e;
-}
-
 ._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach._3H7Awq1oAhxrdDo3ANR4mu {
     background-color: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_color1) !important;
@@ -9261,23 +9091,6 @@ body.v6 .broadcast_live_stream_icon {
 .item_desc_game_info .item_desc_game_icon > img {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-}
-
-.profile_customization_header {
-    background: #1212125e !important;
-}
-
-.showcase_content_bg {
-    border-radius: var(--minimal_dark_corner) !important;
-    backdrop-filter: blur(10px)!important;
-    background-color: #1212125e !important;
-    border: 1px solid var(--minimal_dark_blacker);
-}
-
-.showcase_content_bg:last-child {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_blacker);
-    margin-top: 10px !important;
 }
 
 .profile_friends.manage_link {
