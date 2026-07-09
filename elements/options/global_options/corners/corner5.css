@@ -1730,3 +1730,21 @@ span.DCat1zs4gq0- {
     transform: translate(3px, 35px) !important;
     display: table !important;
 }
+
+.UCcWbKJHppU- {
+    translate: 0px 40px !important;
+}
+
+._2tdhUFMMsjGr_BI7uMcoWy {
+    border-radius: 5px !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+}
+
+._2tdhUFMMsjGr_BI7uMcoWy:hover {
+    border-radius: 5px !important;
+    background: var(--minimal_dark_color1) !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+}
