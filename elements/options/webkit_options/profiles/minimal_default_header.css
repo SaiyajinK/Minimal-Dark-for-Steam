@@ -109,7 +109,7 @@
   backdrop-filter: blur(25px) !important;
   border-radius: 0px!important;
   margin-top: 10px !important;
-  background: var(--minimal_dark_blacker_alt)!important;
+  background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .profile_header_badge {
@@ -139,4 +139,8 @@
 .profile_header {
   max-width: 952px !important;
   padding: 24px 12px 0 12px !important;
+}
+
+.commentthread_area {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
