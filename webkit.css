@@ -53,8 +53,8 @@ body.SteamDeckTheme .profile_customization_header, body.SteamDeckTheme .profile_
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--minimal_dark_color) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+    background-color: var(--minimal_dark_color1) !important;
+    border-radius: var(--minimal_dark_corner) !important;
 }
 
 ._2MSFQv8F34No-YaWoPUlC_:hover .zOiWIqdjr4HIUZy3CNUuF {
