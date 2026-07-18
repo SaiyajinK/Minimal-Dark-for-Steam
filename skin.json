@@ -1146,20 +1146,6 @@
 			}
 		},
 		
-		"Miniprofile background :": {
-		"tab": "Miniprofile options (2)",
-		"description": "> Show or hide image/video on background by default on mini profiles. \n\n - Hide : Set the mini-profile background black with an acrylic effect. \n - Show : The mini-profile background image will be displayed.",
-		"default": "Hide",
-		"values": {
-			"Hide": {},
-			"Show": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/miniprofile_options/mp_background/bg_miniprofile.css"
-					}
-				}
-			}
-		},	
-		
 		"Hours played :": {
 		"tab": "Miniprofile options (2)",
 		"description": "> Hide the block of hours played on the miniprofiles. \n\n - Show : Displays hours played on players mini-profiles. \n - Hide : Hide hours played on players mini-profiles.",
@@ -1172,10 +1158,66 @@
 					}
 				}
 			}
-		},	
+		},
+		
+		"Miniprofile background :": {
+		"tab": "Miniprofile options (2)",
+		"description": "> Show or hide image/video on background by default on mini profiles. \n\n - Hide : Set the mini-profile background black with an acrylic effect. \n - Show : The mini-profile background image will be displayed.",
+		"default": "Hide",
+		"values": {
+			"Hide": {},
+			"Show": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/miniprofile_options/mp_background/bg_miniprofile.css"
+					}
+				}
+			}
+		},
+		
+		"Bigger buttons :": {
+		"tab": "Overlay options (5)",
+		"description": "> Make the overlay buttons bigger. \n\n - No : Default size buttons. \n - Yes : Bigger size buttons.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay_options/bigger_buttons/overlay_bigger_buttons.css"
+					}
+				}
+			}
+		},
+		
+		"Notifications toast borders color :": {
+		"tab": "Overlay options (5)",
+		"description": "Changes the border color of toast notifications. \n\n - User color on top : Only the top border uses the user color. \n - Full border : Applies the user color to the entire border.",
+		"default": "User color on top",
+		"values": {
+			"User color on top": {},
+			"User color full": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay_options/toast/border_color/full_border.css"
+					}
+				}
+			}
+		},
+		
+		"Notifications toast text color :": {
+		"tab": "Overlay options (5)",
+		"description": "Changes the text color of messages displayed in toast notifications. \n\n - Default : White text. \n - User color : Uses the user-selected color for the text.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"User color": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay_options/toast/text_color/user_color.css"
+					}
+				}
+			}
+		},
 		
 		"No button labels in list mod :": {
-		"tab": "Overlay options (3)",
+		"tab": "Overlay options (5)",
 		"description": "> hide button names to only have the icon when the overlay is in list mode only. \n\n - No : Hide buttons labels. \n - Yes : Show buttons labels.",
 		"default": "yes",
 		"values": {
@@ -1189,7 +1231,7 @@
 		},
 		
 		"No button labels in normal mod :": {
-		"tab": "Overlay options (3)",
+		"tab": "Overlay options (5)",
 		"description": "> hide button names to only have the icon when the overlay is in normal mode only. \n\n - No : Hide buttons labels. \n - Yes : Show buttons labels.",
 		"default": "no",
 		"values": {
@@ -1197,20 +1239,6 @@
 			"yes": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/overlay_options/no_labels/overlay_no_label_normal.css"
-					}
-				}
-			}
-		},
-		
-		"Bigger buttons :": {
-		"tab": "Overlay options (3)",
-		"description": "> Make the overlay buttons bigger. \n\n - No : Default size buttons. \n - Yes : Bigger size buttons.",
-		"default": "no",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay_options/bigger_buttons/overlay_bigger_buttons.css"
 					}
 				}
 			}
@@ -2285,7 +2313,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.7.4",
+	"version": "5.7.6",
 
 	"github": {
 		"owner": "SaiyajinK",
