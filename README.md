@@ -47,12 +47,12 @@
 | 🌐 Global | 13 |
 | 📚 Library | 18 |
 | 🪪 Miniprofile | 2 |
-| 🎯 Overlay | 3 |
+| 🎯 Overlay | 5 |
 | 📂 Sidebar | 15 |
 | 🔝 Topbar | 17 |
 | 🧩 Various | 9 |
 | 🌍 Webkit | 15 |
-| **Total** | **126+** |
+| **Total** | **128+** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -674,7 +674,31 @@ _Hide_ :<br>
 
 <hr>
 
-### <ins>Overlay options</ins> (3) : 
+### <ins>Overlay options</ins> (5) : 
+
+<details><summary>Bigger buttons :</summary><br>  
+
+_no_ :<br> 
+<img src="https://github.com/user-attachments/assets/c5b88964-ebd1-4422-ac47-7e52b6afbf6d"></p>
+
+_yes_ :<br> 
+<img src="https://github.com/user-attachments/assets/9689347c-2299-4478-b10c-225e27d21969"></p></details>
+
+<details><summary>Notifications toast borders color :</summary><br>  
+
+_User color on top_ :<br> 
+<img src="https://github.com/user-attachments/assets/0370a968-e284-4a4a-b0f9-e9ed1d62cf47"></p>
+
+_User color full_ :<br> 
+<img src="https://github.com/user-attachments/assets/86db2185-5594-4dcd-b200-37bfa3e45ed1"></p></details>
+
+<details><summary>Notifications toast text color :</summary><br>  
+
+_Default_ :<br> 
+<img src="https://github.com/user-attachments/assets/c8c052e1-967b-47f6-a091-7e10f13c4d47"></p>
+
+_User color_ :<br> 
+<img src="https://github.com/user-attachments/assets/635e0e35-b638-4639-9078-87f8005a8277"></p></details>
 
 <details><summary>No button labels in list mod :</summary><br>  
 
@@ -691,14 +715,6 @@ _yes_ :<br>
 
 _no_ :<br> 
 <img src="https://github.com/user-attachments/assets/0540b034-6946-4310-9f32-df64632f7e97"></p></details>
-
-<details><summary>Bigger buttons :</summary><br>  
-
-_no_ :<br> 
-<img src="https://github.com/user-attachments/assets/c5b88964-ebd1-4422-ac47-7e52b6afbf6d"></p>
-
-_yes_ :<br> 
-<img src="https://github.com/user-attachments/assets/9689347c-2299-4478-b10c-225e27d21969"></p></details>
 
 <hr>
 
