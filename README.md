@@ -656,14 +656,6 @@ _Static (without animation)_ :<br>
 
 ### <ins>Miniprofile options</ins> (2) : 
 
-<details><summary>Miniprofile background :</summary><br>
-
-_Show_ :<br> 
-<img src="https://github.com/user-attachments/assets/5e0c9ca2-125c-4f2d-9a7f-5f26cbeb5e24"></p>
-
-_Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/e3fc01ce-fcd9-4dbf-adce-26d2b8d29721"></p></details>
-
 <details><summary>Hours played :</summary><br>
 
 _Show_ :<br> 
@@ -671,6 +663,14 @@ _Show_ :<br>
 
 _Hide_ :<br> 
 <img src="https://github.com/user-attachments/assets/3dd489bc-317c-44dc-a895-1a2a84d1d23c"></p></details>
+
+<details><summary>Miniprofile background :</summary><br>
+
+_Show_ :<br> 
+<img src="https://github.com/user-attachments/assets/5e0c9ca2-125c-4f2d-9a7f-5f26cbeb5e24"></p>
+
+_Hide_ :<br> 
+<img src="https://github.com/user-attachments/assets/e3fc01ce-fcd9-4dbf-adce-26d2b8d29721"></p></details>
 
 <hr>
 
