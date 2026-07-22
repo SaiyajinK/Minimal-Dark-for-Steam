@@ -177,3 +177,10 @@
     background: var(--minimal_dark_blacker) !important;
     transition: .25s ease-out !important;
 }
+
+._3yiWpBXwEmDLlaIupVXjUt {
+    background-color: #0A0A0A !important;
+    color: var(--minimal_dark_color) !important;
+	border-bottom-left-radius: var(--minimal_dark_corner) !important;
+	border-bottom-right-radius: var(--minimal_dark_corner) !important;
+}
