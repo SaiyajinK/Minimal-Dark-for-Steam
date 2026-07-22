@@ -197,3 +197,11 @@ button.DialogButton::before {
     border: 2px dashed var(--minimal_dark_color) !important;
 	transition: .25s ease-out !important;
 }
+
+._1BxZDLT8KveuJzn-1q4NTP .gpPxCvNVctmdxo8yfyEAJ {
+    color: rgba(var(--minimal_dark_color_rgb), .5) !important;
+}
+
+._1BxZDLT8KveuJzn-1q4NTP .gpPxCvNVctmdxo8yfyEAJ:hover ._10Culn1h2NcqjUXJQdhPFm {
+    color: var(--minimal_dark_color) !important;
+}
