@@ -1,2 +1,3 @@
 :has(.btn_profile_action[href*="/edit/"]) .profile_ban_status {
     display: none !important;
+}

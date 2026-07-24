@@ -25,3 +25,7 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
 .-ufC3n6-YXg- {
     display: none !important;
 }
+
+#footer, #footer#footer {
+    display: none !important;
+}
