@@ -148,28 +148,61 @@
 	background: var(--minimal_dark_blacker_alt) !important;
 }
 
-.friendsui-container ::-webkit-scrollbar-button:vertical:increment,.friendsui-container ::-webkit-scrollbar-button:vertical:decrement {
-	display:none !important;
+.friendsui-container ::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+    -webkit-appearance: none !important;
+}
+
+.friendsui-container ::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+.friendsui-container ::-webkit-scrollbar-corner {
+    background: transparent !important;
 }
 
 .friendsui-container ::-webkit-scrollbar-thumb {
-	background-color: var(--minimal_dark_be_grey);
-	border: 4.5px solid transparent !important;
-    border-radius: 20px;
+    background-color: var(--minimal_dark_black) !important;
+    background-image: none !important;
+    background-clip: padding-box !important;
+
+    border: 2px solid transparent !important;
+    border-radius: 20px !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    transition:
+        background-color 180ms ease,
+        border-width 150ms ease !important;
 }
 
-.friendsui-container ::-webkit-scrollbar-thumb:hover {
-	background-color: var(--minimal_dark_color) !important;
-	border-radius:20px;
+.friendsui-container :hover::-webkit-scrollbar-thumb {
+    background-color: var(--minimal_dark_black) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.friendsui-container ::-webkit-scrollbar-thumb:hover,
+.friendsui-container :hover::-webkit-scrollbar-thumb:hover {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+.friendsui-container ::-webkit-scrollbar-thumb:active,
+.friendsui-container :active::-webkit-scrollbar-thumb,
+.friendsui-container :hover::-webkit-scrollbar-thumb:active {
+    background-color: var(--minimal_dark_color) !important;
+    border-width: 1px !important;
+}
+
+.friendsui-container ::-webkit-scrollbar-button:vertical:increment,
+.friendsui-container ::-webkit-scrollbar-button:vertical:decrement {
+    display: none !important;
 }
 
 .friendlistListContainer {
-    overflow-y: auto;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    flex-grow: 1;
-    background: var(--minimal_dark_blacker_alt);
-    min-height: 32px;
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 
 .friendListHeaderContainer {
@@ -2685,7 +2718,6 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 }
 
 .chatRoomVoiceChannel .chatRoomTextChannel:hover {
-    background-color: rgba(97,253,151,.3);
     background-color: rgba(97,253,151,.3);
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid #78db86 !important;

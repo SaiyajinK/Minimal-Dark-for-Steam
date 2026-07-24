@@ -2058,7 +2058,7 @@
 		},
 		
 		"Alternative UI for new Steam menu :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> The new Steam store menu has arrived, enabling this option will offer an alternative UI. \n\n - Minimal new UI : Minimal new Steam menu without modifications. \n - Minimal new UI (buttons) : Minimal new UI (buttons). \n - Compact : Minimal new Steam menu compact. \n - Ultra compact : Minimal new Steam menu ultra compact (just an icon & default size). \n - Ultra compact #1 : Minimal new Steam menu ultra compact (just an icon & compact size).",
 		"default": "Minimal new UI (compact)",
 		"values": {
@@ -2092,7 +2092,7 @@
 		},
 		
 		"Blocs backgrounds :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> This option changes the background shots of news or game update blocks to blurry or not. \n\n - Full dark : Full background, without transparency. \n - Blurred : The backgrounds are blurred.",
 		"default": "Blurred",
 		"values": {
@@ -2106,7 +2106,7 @@
 		},
 		
 		"Borders profiles :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> Enable or disable the display borders on profile pages. \n - No : borders are displayed. \n - Yes : borders are not displayed.",
 		"default": "no",
 		"values": {
@@ -2120,7 +2120,7 @@
 		},
 		
 		"Carousel arrows borders :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> Show or hide borders on carousel arrows on the main webkit page and for all other parts using them. \n\n - No : Hide carousel arrows borders. \n - yes : Show carousel arrows borders.",
 		"default": "yes",
 		"values": {
@@ -2134,7 +2134,7 @@
 		},
 
 		"Compact Webkit :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> Hide the left sidebar on the webkit homepage. \n\n - Hide : Hide left sidebar on homepage. \n - Show : Show left sidebar webkit.",
 		"default": "Hide",
 		"values": {
@@ -2148,35 +2148,35 @@
 		},
 		
 		"Events header :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> Show or remove the events wallpaper on the webkit homepage. \n\n - Minimal Dark : Event wallpaper are displayed. \n - Hide : Events header are hidden.",
 		"default": "Minimal Dark default",
 		"values": {
 			"Minimal Dark default": {},
 			"Hide": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/event_header/webkit_no_header_promo.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/events_header/webkit_no_header_promo.css"
 					}
 				}
 			}
 		},
 		
 		"Events background :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> Display or hide the custom Steam image for events on the webkit. \n\n - Default background : Default event wallpaper. \n - Black background : Hide event wallpaper and replace it with dark color.",
 		"default": "Default background",
 		"values": { 
 			"Default background": {},
 			"Black background": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/event_bg/events_bg.css"
+			"affects": [".*"], "src": "elements/options/webkit_options/events_bg/events_bg.css"
 					}
 				}
 			}
 		},
 		
 		"Hide '+ Add a Showcase' :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> Hide '+ Add a Showcase' on your Steam profile. \n\n - No : Show '+ Add a showcase' on your Steam profile. \n - Yes : Hide '+ Add a showcase' on your Steam profile. \n\n > If you enable this option, you will no longer be able to add a new showcase to your Steam profile (unless you disable the option).",
 		"default": "no",
 		"values": {
@@ -2190,7 +2190,7 @@
 		},
 		
 		"Hide footers :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> Hide Steam information on webkit footers. \n\n - Hide : Hide legal informations at the bottom page of browser. \n - Show : Show legal informations at the bottom page of browser.",
 		"default": "Hide",
 		"values": {
@@ -2204,7 +2204,7 @@
 		},
 		
 		"Hide VAC ban information on profiles :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> Hide VAC ban information on users profiles. \n\n - Yes : Hide VAC ban information on profiles. \n - No : Show VAC ban information on profiles.",
 		"default": "no",
 		"values": {
@@ -2218,7 +2218,7 @@
 		},
 		
 		"Profiles :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> Enabling this option makes the profile page blocks full and removes the blur effect. \n\n - Minimal Dark : Blurred blocs. \n - No blur blocs : Solid black color blocs.",
 		"default": "Minimal Dark",
 		"values": {
@@ -2232,7 +2232,7 @@
 		},
 		
 		"Profiles headers :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view). \n\n - Vanilla profiles : Like vanilla UI of Steam. \n - Minimal default : Minimal dark default UI. \n - Minimal (for Steam profiles skins) : If you use a Steam profile skin.",
 		"default": "Minimal default",
 		"values": {
@@ -2251,7 +2251,7 @@
 		},
 		
 		"Solid background color profiles :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> Make the background of profiles on WebKit dark. \n\n - Default : No changes, video and image visible. \n - Solid color : Dark and solid color, no video, no image.",
 		"default": "Default",
 		"values": {
@@ -2265,7 +2265,7 @@
 		},
 		
 		"URL bar :": {
-		"tab": "Webkit options (15)",
+		"tab": "Webkit options (14)",
 		"description": "> This option allows you to permanently hide the URL bar or display it only on hover. \n\n - Visible : Steam default. \n - Hide : Hide the url bar. \n - Only show on hover : Show the url bar only on mouseover.",
 		"default": "Visible",
 		"values": {
@@ -2281,29 +2281,6 @@
 					}
 				}
 			}
-		},
-		
-		"Wishlist new Steam menu :": {
-		"tab": "Webkit options (15)",
-		"description": "> The new Steam webkit menu is hidden by default on the wishlist. Enable this option to show it again. \n\n - Hide default menu : Hide menu in wishlist. \n - Revisited menu : Shows only the search and cart/wishlist buttons.",
-		"default": "Compact revisited menu",
-		"values": {
-			"Hide default menu": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/wishlist/hide_webkit_wl_menu_bar.css"
-					}
-				},
-			"Revisited menu": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/wishlist/webkit_revisited_menu_bar.css"	
-					}
-				},
-			"Compact revisited menu": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/wishlist/webkit_compact_revisited_menu_bar.css"	
-					}
-				}
-			}
 		}
 },
 
@@ -2313,7 +2290,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.7.8",
+	"version": "5.8.0",
 
 	"github": {
 		"owner": "SaiyajinK",
