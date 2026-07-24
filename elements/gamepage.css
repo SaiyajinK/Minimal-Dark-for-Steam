@@ -689,7 +689,6 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
     background: radial-gradient(100% 80% at 64% 95%, rgba(107, 115, 127, 0.3) 0%, rgba(78, 62, 80, 0.5) 20%, rgba(36, 40, 47, 0.5) 100%);
     border: 1px solid #ad65ba !important;
     border-image: none !important;
-    border-radius: var(--minimal_dark_corner) !important;
 }
 
 ._2lNdDLgjQdeBXmMlPO8lvq {
@@ -1677,7 +1676,6 @@ button._34gmVq6C3FNtdHqDLa3-XR.TextButton.Focusable {
     width: 100% !important;
     height: 100% !important;
     border-radius: var(--minimal_dark_corner) !important;
-    color: var(--minimal_dark_color) !important;
     left: 1px !important;
 }
 

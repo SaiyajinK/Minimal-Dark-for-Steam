@@ -1,66 +1,56 @@
-/* ::-webkit-scrollbar-thumb { */
-	/* background: var(--minimal_dark_be_grey) !important; */
-	/* border: 7px solid transparent !important; */
-	/* background-clip: padding-box !important; */
-	/* border-radius: var(--minimal_dark_corner) !important; */
-/* } */
+html body *::-webkit-scrollbar {
+    width: 12px !important;
+    height: 12px !important;
+    -webkit-appearance: none !important;
+}
 
-/* .ReactVirtualized__List::-webkit-scrollbar-track { */
-	/* background: transparent !important; */
-/* } */
+/* Piste */
 
-/* .ReactVirtualized__Grid::-webkit-scrollbar { */
-	/* background-color: transparent !important; */
-	/* -webkit-box-shadow: none !important; */
-/* } */
+html body *::-webkit-scrollbar-track {
+    background: transparent !important;
+}
 
-/* ::-webkit-scrollbar-track { */
-	/* background: transparent !important; */
-	/* border-radius: var(--minimal_dark_corner) !important; */
-/* } */
+html body *::-webkit-scrollbar-corner {
+    background: transparent !important;
+}
 
-/* ::-webkit-scrollbar-corner{ */
-	/* background-color: transparent !important; */
-	/* border-radius: var(--minimal_dark_corner) !important; */
-/* } */
+/* État normal */
 
-/* ::-webkit-scrollbar { */
-    /* background-color: transparent !important; */
-    /* width: 19px !important; */
-    /* border-radius: var(--minimal_dark_corner) !important; */
-/* } */
+html body *::-webkit-scrollbar-thumb {
+    background-color: var(--minimal_dark_black) !important;
+    background-image: none !important;
+    background-clip: padding-box !important;
 
-/* .ReactVirtualized__List:hover::-webkit-scrollbar-thumb, */
-/* [class*="gamelist_Container_"]:hover::-webkit-scrollbar-thumb { */
-	/* background: var(--minimal_dark_be_grey) !important; */
-	/* background-clip: padding-box!important; */
-	/* -webkit-box-shadow: none !important; */
-	/* border-radius: var(--minimal_dark_corner) !important; */
-/* } */
+    border: 2px solid transparent !important;
+    border-radius: 8px !important;
 
-/* .ReactVirtualized__List:hover::-webkit-scrollbar-thumb:hover { */
-	/* background: var(--minimal_dark_color) !important; */
-	/* background-clip: padding-box!important; */
-	/* border-radius: var(--minimal_dark_corner) !important; */
-/* } */
+    opacity: 1 !important;
+    visibility: visible !important;
 
-/* ::-webkit-scrollbar-thumb:hover { */
-	/* background-color: var(--minimal_dark_color) !important; */
-	/* border-radius: var(--minimal_dark_corner) !important; */
-/* } */
+    transition:
+        background-color 180ms ease,
+        border-width 150ms ease !important;
+}
 
-/* .ReactVirtualized__List::-webkit-scrollbar-thumb { */
-	/* background: transparent !important; */
-	/* border-radius: var(--minimal_dark_corner) !important; */
-/* } */
+/* Maintient la scrollbar visible au survol du conteneur */
 
-/* [class*="library_LeftListSizableContainer_"]::-webkit-scrollbar:horizontal { */
-	/* background-color: transparent !important; */
-	/* -webkit-box-shadow: none !important; */
-	/* border-radius: var(--minimal_dark_corner) !important; */
-/* } */
+html body *:hover::-webkit-scrollbar-thumb {
+    background-color: var(--minimal_dark_black) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
 
-::-webkit-scrollbar-thumb {
-    background-color: #262626 !important;
-    border-radius: 0px;
+/* Survol direct de la scrollbar */
+
+html body *::-webkit-scrollbar-thumb:hover,
+html body *:hover::-webkit-scrollbar-thumb:hover {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+/* Clic maintenu : léger grossissement */
+
+html body *::-webkit-scrollbar-thumb:active,
+html body *:hover::-webkit-scrollbar-thumb:active {
+    background-color: var(--minimal_dark_color) !important;
+    border-width: 1px !important;
 }
