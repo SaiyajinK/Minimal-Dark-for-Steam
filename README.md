@@ -51,8 +51,8 @@
 | 📂 Sidebar | 15 |
 | 🔝 Topbar | 17 |
 | 🧩 Various | 9 |
-| 🌍 Webkit | 15 |
-| **Total** | **128+** |
+| 🌍 Webkit | 14 |
+| **Total** | **127+** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -1115,7 +1115,7 @@ _yes_ :<br>
 
 <hr>
 
-### <ins>Webkit options</ins> (15) : 
+### <ins>Webkit options</ins> (14) : 
 
 <details><summary>Alternative UI for new Steam menu :</summary><br>  
 
@@ -1239,16 +1239,7 @@ _Hide_ :<br>
 <img src="https://github.com/user-attachments/assets/89f849b3-9885-4b11-b54c-d1bdb3c011a7"></p>
 
 _Only show on hover_ :<br> 
-<img src="https://github.com/user-attachments/assets/fe080b22-75ca-43b3-9472-586b50db4c85"></p></details>
-
-
-<details><summary>Wishlist new Steam menu :</summary><br>  
-
-_Hide_ :<br> 
-<img src="https://github.com/user-attachments/assets/04bf6c15-c134-48ed-b437-242f939b1dd0"></p>
-
-_Revisited_ :<br> 
-<img src="https://github.com/user-attachments/assets/456e6b3c-c5be-4fdc-a3c9-338e6d10fbd4"></p></details><br>
+<img src="https://github.com/user-attachments/assets/fe080b22-75ca-43b3-9472-586b50db4c85"></p></details><br>
 </details>
 
 <p align="center">
