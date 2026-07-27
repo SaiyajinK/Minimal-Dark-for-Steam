@@ -1,0 +1,7 @@
+.MultiUserChat .isCurrentUser .msgText {
+    color: #969aa1 !important;
+}
+
+.msgText {
+    color: #c1c6cf !important;
+}
