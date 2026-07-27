@@ -968,6 +968,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
     border-top-right-radius: var(--minimal_dark_corner) !important;
     border-bottom-right-radius: var(--minimal_dark_corner) !important;
     border-bottom-left-radius: 0px;
+    transition: .25s ease-out !important;
 }
 
 ._2UyOBeiSdBayaFdRa39N2O:active:not(._2hcblpUHuN5CYOoq6eU2y0) {
@@ -1804,6 +1805,7 @@ button._2oAiZidGyUxL-hfupFDQ2m.lYnGtW6EEZqmYUVJH2wLC._2U_Y7A-0lddoJdrJBvf8JE:nth
     margin-right: 4px !important;
     margin-top: 1px;
     border-radius: var(--minimal_dark_corner) !important;
+    transition: .25s ease-out !important;
 }
 
 ._7AlhCx3XGzBeIrQaCneUD:nth-of-type(1)::before {
@@ -2174,6 +2176,7 @@ button.DialogButton:hover::before {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(3px, -1px) !important;
     padding: 7px !important;
+    transition: .25s ease-out !important;
 }
 
 ._13vrqU6oOqmmxrsZSW5O39 ._34bQcTHo5QKzuujoEyU1tm {
