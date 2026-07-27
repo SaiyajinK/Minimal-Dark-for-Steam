@@ -42,7 +42,7 @@
 | Category | Options |
 |----------|:--------:|
 | 👤 Account | 4 |
-| 👥 Friends | 11 |
+| 👥 Friends | 13 |
 | 🎮 Gamepage | 19 |
 | 🌐 Global | 13 |
 | 📚 Library | 18 |
@@ -52,7 +52,7 @@
 | 🔝 Topbar | 17 |
 | 🧩 Various | 9 |
 | 🌍 Webkit | 14 |
-| **Total** | **127+** |
+| **Total** | **129+** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -103,7 +103,23 @@ _Compact_ :<br>
 
 <hr>
 
-### <ins>Friends options</ins> (11) : 
+### <ins>Friends options</ins> (13) : 
+
+<details><summary>Alt color for received/sent messages :</summary><br>  
+
+_Colored_ :<br>  
+<img src="https://github.com/user-attachments/assets/a334eb94-8eaa-4ad1-9ef9-7fdd4452532f"></p>
+
+_Steam default colors_ :<br>  
+<img src="https://github.com/user-attachments/assets/134d37b8-9f0c-4b27-824d-dbbcbb79a4bf"></p></details>
+
+<details><summary>Alt normal view for favorites contacts :</summary><br>  
+
+_No_ :<br>  
+<img src="https://github.com/user-attachments/assets/c7f78360-ce42-4c9a-9947-97f063b32ea0"></p>
+
+_Yes_ :<br>  
+<img src="https://github.com/user-attachments/assets/f66168f4-b6e1-4b97-9776-1eda5c1d22be"></p></details>
 
 <details><summary>Animated hovering :</summary><br>  
 
