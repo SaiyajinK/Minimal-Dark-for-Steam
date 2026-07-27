@@ -1,0 +1,31 @@
+.friend.quickAccessFriend {
+    transform: scale(0.8) !important;
+}
+
+.friend.quickAccessFriend {
+    margin: 0px !important;
+}
+
+.friend.quickAccessFriend {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.quickAccessFriends .friendStatusHover.online:hover, .friendStatusHover.online.Friend_ContextMenuActive {
+    border: 1px solid rgb(109 207 246 / 70%) !important;
+}
+
+.quickAccessFriends .friendStatusHover.offline:hover, .friendStatusHover.offline.Friend_ContextMenuActive {
+    border: 1px solid rgb(128 128 128 / 90%) !important;
+}
+
+.quickAccessFriends .friendStatusHover.ingame:hover, .friendStatusHover.ingame.Friend_ContextMenuActive {
+    border: 1px solid rgb(227 255 194 / 70%) !important;
+}
+
+.quickAccessFriends .friendStatusHover.awayOrSnooze:hover, .friendStatusHover.awayOrSnooze.Friend_ContextMenuActive {
+    border: 1px solid rgb(255 192 76 / 70%) !important;
+}
+
+.friendlist.compactView .friend.quickAccessFriend.friendStatusHover img._3h-QRJGxnVOIExtHD1R0f2.avatar.avatar {
+    transform: translate(1px, 0px) !important;
+}
