@@ -3,24 +3,29 @@
     "Conditions": {
 		"Account wallet :": {
 		"tab": "Account options (4)",
-		"description": "> Hide or show wallet balance next to username. \n\n - Hide : Hide the account wallet. \n - Show : Show the account wallet.",
+		"description": "> Choose whether to display the wallet balance next to the account name.\n\n- Hide : Hide the wallet balance.\n- Show : Show the wallet balance.",
 		"default": "Hide",
 		"values": {
-			"Show": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/hide_wallet/hide_wallet.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
 		"Avatar status border :": {
 		"tab": "Account options (4)",
-		"description": "> Hide or reduce the player avatar status border on the top bar in the user block. \n\n - Default : Minimal default. \n - Reduce : Reduce size on mouseover. \n - User color : User color border. \n - Hide : Hide status border.",
+		"description": "> Choose how the avatar status border appears in the top bar account block.\n\n- Default : Use the default Minimal Dark border.\n- Hide : Hide the status border.\n- Reduce : Reduce the border size on hover.\n- User color : Use the selected user color for the border.",
 		"default": "Reduce",
 		"values": {
 			"Default": {},
+			"Hide": {
+			"TargetCss": {
+			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/status_border/hide_border_status.css"
+					}
+				},
 			"Reduce": {
 			"TargetCss": {
 			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/status_border/reduced_border_status.css"
@@ -30,18 +35,13 @@
 			"TargetCss": {
 			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/status_border/user_color_border_status.css"
 					}
-			},
-			"Hide": {
-			"TargetCss": {
-			"affects": ["^Account", "^Steam$"], "src": "elements/options/account_options/status_border/hide_border_status.css"
-					}
-				}
+			}
 			}
 		},
 		
 		"Bigger notification button :": {
 		"tab": "Account options (4)",
-		"description": "> Make the notification icon bigger. \n\n - No : Default Steam size for notification button. \n - Yes : Larger size for notification button.",
+		"description": "> Choose whether to enlarge the notification button.\n\n- No : Use Steam's default notification button size.\n- Yes : Use a larger notification button.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -55,21 +55,21 @@
 		
 		"Compact avatar :": {
 		"tab": "Account options (4)",
-		"description": "> Make the avatar block compact. \n\n - Default : Default Steam user avatar bloc. \n - Compact : The block expands when the mouse moves over it.",
+		"description": "> Choose whether to use a compact account avatar block.\n\n- Compact : Use a compact block that expands on hover.\n- Default : Use Steam's default account avatar block.",
 		"default": "Compact",
 		"values": {
-			"Default": {},
 			"Compact": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/account_options/compact_avatar/compact_avatar.css"
 					}
-				}
+				},
+			"Default": {}
 			}
 		},
 		
-		"Alt color for received/sent messages :": {
+		"Alternative color for received/sent messages :": {
 		"tab": "Friends options (13)",
-		"description": "> This option changes the colors of sent and received messages in conversations. \n\n - Colored : Sent = Blue & Received = Light Green. \n - Default Steam colors : Sent = White Grey & Received = Grey.",
+		"description": "> Choose the colors used for sent and received messages in conversations.\n\n- Colored : Use blue for sent messages and light green for received messages.\n- Default Steam colors : Use off-white for sent messages and gray for received messages.",
 		"default": "Colored",
 		"values": {
 			"Colored": {},
@@ -81,9 +81,9 @@
 			}
 		},
 		
-		"Alt normal view for favorites contacts :": {
+		"Alternative normal view for favorite contacts :": {
 		"tab": "Friends options (13)",
-		"description": "> If you don't use compact mode for the fav contacts in friends list (in steam settings), this option allows favorite contacts to be displayed just like compact version but with the name of the contact, though still smaller. \n\n - No : Default view \n - yes : Reduced standard version. \n\n NOTE : This option only works if the compact mode for favorite contacts is disabled in the Steam settings.",
+		"description": "> Use a smaller normal layout for favorite contacts while keeping contact names visible.\n\n- No : Use the default normal layout.\n- Yes : Use the reduced normal layout.\n\nNote : This option only works when compact mode for favorite contacts is disabled in Steam's settings.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -97,7 +97,7 @@
 		
 		"Animated hovering :": {
 		"tab": "Friends options (13)",
-		"description": "> Trigger an animation when hovering over contacts in the friends list. \n\n - No : No animation when mouseover. \n - Yes : Slide text to the right on mouseover.",
+		"description": "> Choose whether contacts animate when hovered in the friends list.\n\n- No : Disable the hover animation.\n- Yes : Slide contact text to the right on hover.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -111,18 +111,18 @@
 		
 		"Avatar size :": {
 		"tab": "Friends options (13)",
-		"description": "> Choice the size of the user avatar on friends list. \n\n - Default : Medium avatar size. \n - Small : Small avatar size. \n - Large : Large avatar size (display issues may occur with this size depending on the length and description of the game being launched as well as the size of the friends list window).",
+		"description": "> Choose the avatar size used in the friends list.\n\n- Default : Use medium avatars.\n- Large (known issues) : Use large avatars. Display issues may occur depending on the game description length and friends list window size.\n- Small : Use small avatars.",
 		"default": "Default",
 		"values": {
 			"Default": {},
+			"Large (known issues)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_options/friends_avatar/large.css"
+					}
+				},
 			"Small": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/friends_options/friends_avatar/small.css"
-					}
-				},
-			"Large (known bugs)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/friends_avatar/large.css"
 					}
 				}
 			}
@@ -130,7 +130,7 @@
 		
 		"Font size :": {
 		"tab": "Friends options (13)",
-		"description": "> Change the size of the font of the friends list (not applied on compact mod). \n\n - Default : Steam default font size. \n - Smaller : Small font size.",
+		"description": "> Choose the friends list font size. This setting does not apply in compact mode.\n\n- Default : Use Steam's default font size.\n- Smaller : Use a smaller font size.",
 		"default": "Smaller",
 		"values": {
 			"Default": {},
@@ -144,18 +144,13 @@
 		
 		"Friends conversation tabs header glow :": {
 		"tab": "Friends options (13)",
-		"description": "> Enable this option to remove the glow behind tab in conversations. \n\n - Default : Yellow glow + yellow dot. \n - User color : User color glow + user color dot \n - Hide #1 : Remove glow and show only yellow dot. \n - Hide #2 : Remove glow and show only user color dot.",
+		"description": "> Choose the glow and status dot displayed on conversation tabs.\n\n- Default : Show the yellow glow and yellow dot.\n- Hide (only red dot) : Hide the glow and show only the red dot.\n- Hide (only user color dot) : Hide the glow and show only the user-color dot.\n- Hide (only yellow dot) : Hide the glow and show only the yellow dot.\n- User color : Show a user-color glow and user-color dot.",
 		"default": "Default",
 		"values": {
 			"Default": {},
-			"User Color": {
+			"Hide (only red dot)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/header_glow/user_color_conversation_glow.css"
-					}
-				},
-			"Hide (only yellow dot)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/header_glow/no_conversation_glow_y.css"
+			"affects": [".*"], "src": "elements/options/friends_options/header_glow/no_conversation_glow_r.css"
 					}
 				},
 			"Hide (only user color dot)": {
@@ -163,9 +158,14 @@
 			"affects": [".*"], "src": "elements/options/friends_options/header_glow/no_conversation_glow_uc.css"
 					}
 				},
-			"Hide (only red dot)": {
+			"Hide (only yellow dot)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/header_glow/no_conversation_glow_r.css"
+			"affects": [".*"], "src": "elements/options/friends_options/header_glow/no_conversation_glow_y.css"
+					}
+				},
+			"User color": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_options/header_glow/user_color_conversation_glow.css"
 					}
 				}
 			}
@@ -173,7 +173,7 @@
 		
 		"Friends list header glow :": {
 		"tab": "Friends options (13)",
-		"description": "> Enable this option to remove the glow behind the profile picture on the friends list. \n\n - No : Leave the glow effect. \n - Yes : Delete the glow effect.",
+		"description": "> Choose whether to hide the glow behind the profile picture in the friends list.\n\n- No : Keep the glow effect.\n- Yes : Hide the glow effect.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -185,9 +185,9 @@
 			}
 		},
 		
-		"Group chats position :": {
+		"Group chat position :": {
 		"tab": "Friends options (13)",
-		"description": "> Modify the position of the groups chats. \n\n - Default : Steam vanilla position. \n - Top : Top position. \n - Hide : Hide bloc.",
+		"description": "> Choose the position of the group chat block.\n\n- Default (bottom) : Keep Steam's default bottom position.\n- Hide : Hide the group chat block.\n- Top : Move the group chat block to the top.",
 		"default": "Default (bottom)",
 		"values": {
 			"Default (bottom)": {
@@ -195,14 +195,14 @@
 			"affects": [".*"], "src": "elements/options/friends_options/group_chats_position/bottom_group_chats.css"
 					}
 				},
-			"Top": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/friends_options/group_chats_position/top_group_chats.css"
-					}
-				},
 			"Hide": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/friends_options/group_chats_position/hide_group_chats.css"
+					}
+				},
+			"Top": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_options/group_chats_position/top_group_chats.css"
 					}
 				}
 			}
@@ -210,7 +210,7 @@
 		
 		"Hide footer :": {
 		"tab": "Friends options (13)",
-		"description": "> Hide footer on friends list. \n\n - No : No modification. \n - Yes : Hide bottom black bar.",
+		"description": "> Choose whether to hide the footer in the friends list.\n\n- No : Show the footer.\n- Yes : Hide the bottom footer bar.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -224,7 +224,7 @@
 		
 		"Hide footer (fix) :": {
 		"tab": "Friends options (13)",
-		"description": "> Enable this option if you have chosen to hide the footer to fix the icon for creating a chat group. \n\n - No : Are you crazy ? \n - Yes : An animation is put in place for a better visual experience.",
+		"description": "> Enable the animated replacement for the create-group-chat icon when the friends list footer is hidden.\n\n- No : Do not apply the replacement.\n- Yes : Apply the animated replacement.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -238,7 +238,7 @@
 		
 		"Hide voice chat :": {
 		"tab": "Friends options (13)",
-		"description": "> Hide the voice chat icon in conversations. \n\n - No : Hide the voice chat button in friends conversations. \n - Yes : Shows the voice chat button in friends conversations.",
+		"description": "> Choose whether to hide the voice chat button in conversations.\n\n- No : Show the voice chat button.\n- Yes : Hide the voice chat button.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -252,7 +252,7 @@
 		
 		"Inverted contact block :": {
 		"tab": "Friends options (13)",
-		"description": "> Enabling this option reverses the display of the contact list. \n\n - No : Default ; The avatars are on the left, the text is on the right. \n - Yes : The avatars are on the right, the text is on the left.",
+		"description": "> Choose the alignment of avatars and text in the contact list.\n\n- No : Place avatars on the left and text on the right.\n- Yes : Place avatars on the right and text on the left.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -263,24 +263,24 @@
 				}
 			}
 		},
-			
+		
 		"Offline friends :": {
 		"tab": "Friends options (13)",
-		"description": "> Hide offline friends in friends list. \n\n - Show : Display the 'offline friends' section in the contact list. \n - Hide : Does not display the 'offline friends' section in the contact list (these are still findable via search).",
+		"description": "> Choose whether to display the Offline Friends section in the friends list.\n\n- Hide : Hide the section. Offline friends remain available through search.\n- Show : Show the Offline Friends section.",
 		"default": "Show",
 		"values": {
-			"Show": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/friends_options/offline_friends/offline_friends.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
 		"Alternative view for back to top button :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Change the appearance and display of the back to top button when scrolling the game page. \n\n - No : Default view. \n - Yes : Alternative view.",
+		"description": "> Choose the appearance of the back-to-top button shown while scrolling a game page.\n\n- No : Use the default appearance.\n- Yes : Use the alternative appearance.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -290,11 +290,11 @@
 					}
 				}
 			}
-		},		
-
-		"Alternative view for scrolling bloc :": {
+		},
+		
+		"Alternative view for scrolling block :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Change the appearance and display of the top game panel when scrolling the game page. \n\n - No : Default bloc. \n - Yes : Alternative view.",
+		"description": "> Choose the appearance of the game header shown while scrolling a game page.\n\n- No : Use the default header.\n- Yes : Use the alternative header.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -306,9 +306,9 @@
 			}
 		},
 		
-		"Always show game infos :": {
+		"Always show game information :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Always display game informations without having to press the information button. \n\n - No : Default. \n - Yes : Always.",
+		"description": "> Choose whether to keep game information visible without opening the information panel.\n\n- No : Use the default behavior.\n- Yes : Always display the game information.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -319,10 +319,10 @@
 				}
 			}
 		},
-
+		
 		"Bigger gamepage/library buttons :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Enlarge the play/download buttons on the library and gamepage. \n\n - No : Minimal default size buttons (medium). \n - Yes : Bigger size buttons (large).",
+		"description": "> Choose the size of Play, Install, and Download buttons on game pages and in the library.\n\n- No : Use the medium Minimal Dark button size.\n- Yes : Use larger buttons.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -336,18 +336,17 @@
 		
 		"Bigger header :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Enabling this option makes the image at the top of the game page larger (total image size) \n\n - Steam default : Default Steam size. \n - Minimal default : Minimal default size. \n - Full image only when maximized : Bigger size when maximized window only. \n - Full image everywhere : Bigger size on normal and maximized window. \n\n NOTE : The options without a mask remove the slight black glow from the background but remain the same as those with the mask.",
+		"description": "> Choose the size and mask of the image at the top of game pages.\n\n- Full image everywhere : Use the full-size image in normal and maximized windows.\n- Full image everywhere (no mask) : Use the full-size image everywhere without the dark mask.\n- Full image only when maximized : Use the full-size image only when the window is maximized.\n- Full image only when maximized (no mask) : Use the full-size image only when maximized, without the dark mask.\n- Minimal default : Use the default Minimal Dark size.\n- Minimal default (no mask) : Use the default Minimal Dark size without the dark mask.\n- Steam default : Use Steam's default size.",
 		"default": "Full image only when maximized",
 		"values": {
-			"Steam default": {},
-			"Minimal default": {
+			"Full image everywhere": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_min.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_all.css"
 					}
 				},
-			"Minimal default (no mask)": {
+			"Full image everywhere (no mask)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_min_no_mask.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_all_no_mask.css"
 					}
 				},
 			"Full image only when maximized": {
@@ -360,22 +359,23 @@
 			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_no_mask.css"
 					}
 				},
-			"Full image everywhere": {
+			"Minimal default": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_all.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_min.css"
 					}
 				},
-			"Full image everywhere (no mask)": {
+			"Minimal default (no mask)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_all_no_mask.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/bigger_header/bigger_header_min_no_mask.css"
 					}
-				}
+				},
+			"Steam default": {}
 			}
 		},
 		
-		"Bigger top bloc padding :": {
+		"Bigger top block padding :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Enabling this option increases the padding of the top block more significantly. \n\n - No : Default padding. \n - Yes : Bigger top padding.",
+		"description": "> Choose whether to increase the padding around the top game page block.\n\n- No : Use the default padding.\n- Yes : Use larger padding.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -389,21 +389,35 @@
 		
 		"Blurred background :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Blur the background of the game page. \n\n - Full Dark : Applies dark color (#121212) to the entire page of a game. \n - Blurred : The top of the page will be blurred.",
+		"description": "> Choose the background style used on game pages.\n\n- Blurred : Blur the upper part of the game page.\n- Full dark : Use a solid dark background (#121212) across the entire game page.",
 		"default": "Blurred",
 		"values": {
-			"Full dark": {},
 			"Blurred": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/blurred_background/blurred_bg_gamepage.css"
 					}
-				}
+				},
+			"Full dark": {}
+			}
+		},
+		
+		"Community content :": {
+		"tab": "Gamepage options (19)",
+		"description": "> Choose whether to display community content on game pages.\n\n- Hide : Hide community content. This may improve performance on slower PCs.\n- Show : Show community content.",
+		"default": "Hide",
+		"values": {
+			"Hide": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/community_content/gp_community_content.css"
+					}
+				},
+			"Show": {}
 			}
 		},
 		
 		"Compact gamepage :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Make the game page compact by only displaying game news, achievements, screenchots. \n\n - No : Default gamepage. \n - Yes : Hide DLC, contacts who play, evaluation.",
+		"description": "> Use a compact game page that focuses on news, achievements, and screenshots.\n\n- No : Use the default game page layout.\n- Yes : Hide DLC, friends who play, and review sections.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -415,23 +429,9 @@
 			}
 		},
 		
-		"Community content :": {
-		"tab": "Gamepage options (19)",
-		"description": "> Hide or show the community content in gamepage. \n\n - Hide : Hide community content in gamepage (better performance if you have a bad pc). \n - Show : Show community content in gamepage.",
-		"default": "Hide",
-		"values": {
-			"Show": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/community_content/gp_community_content.css"
-					}
-				}
-			}
-		},
-		
 		"Dropdown stream/play button :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Show or hide the dropdown menu button on the play/install button on the game page. \n\n - No : Hide the dropdown menu button on the play/install button. \n - Yes : Show the dropdown menu button on the play/install button.",
+		"description": "> Choose whether to display the dropdown arrow on Play, Stream, and Install buttons.\n\n- No : Hide the dropdown arrow.\n- Yes : Show the dropdown arrow.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -442,38 +442,38 @@
 				}
 			}
 		},
-				
-		"Gamepage/library buttons svg color (Play/Install) :": {
+		
+		"Gamepage/library buttons SVG color (Play/Install) :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Set the svg color of the library buttons. \n\n - White : Applies white color on play/install buttons. \n - Same as the outline : The color will be the same as the outline of the button.",
+		"description": "> Choose the SVG icon color used by Play and Install buttons.\n\n- Same as the outline : Match the icon color to the button outline.\n- White : Use white icons.",
 		"default": "White",
 		"values": {
-			"White": {},
 			"Same as the outline": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/buttons_svg_color/gamepage_library_svg_color.css"
 					}
-				}
+				},
+			"White": {}
 			}
 		},
 		
-		"Header (compact mod) :": {
+		"Header (compact mode) :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Hide or show the header image at the top of the game page to save more space. \n\n - Show : Show the header image at the top of the game page. \n - Hide : Hide the header image at the top of the game page to save more space. \n",
+		"description": "> Choose whether to display the header image when compact mode is enabled.\n\n- Hide : Hide the header image to save space.\n- Show : Show the header image.",
 		"default": "Show",
 		"values": {
-			"Show": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/header_compact/gp_compact.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
 		"Header size adjustment :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Enabling this option will make the game page headers stretched. \n\n - No : Vanilla size, no image modifications. \n - Yes : The image fills the entire header block. \n",
+		"description": "> Choose whether game page header images fill their entire container.\n\n- No : Keep Steam's default image size.\n- Yes : Stretch the image to fill the header block.",
 		"default": "Yes",
 		"values": {
 			"No": {},
@@ -485,23 +485,33 @@
 			}
 		},
 		
-		"Hide category names :": {
+		"Hide 'post-party summary' / 'WYRTG?' :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Enable this option to hide category names on a game page. \n\n - No : Show category names on gamepage. \n - Yes : Hide category names on gamepage. \n",
-		"default": "no",
+		"description": "> Choose which post-game panels are displayed on game pages.\n\n- Hide all : Hide both panels.\n- Show 'WYRTG?' only : Show only the recommendation prompt.\n- Show all : Show both panels.\n- Show post-party summary only : Show only the post-game summary.",
+		"default": "Show all",
 		"values": {
-			"no": {},
-			"yes": {
+			"Hide all": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/gamepage_options/categorys_name/hide_categorys_name.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/post_party_elements/hide_all.css"
+					}
+				},
+			"Show 'WYRTG?' only": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/post_party_elements/show_only_recommend.css"
+					}
+				},
+			"Show all": {},
+			"Show post-party summary only": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/post_party_elements/show_only_summary.css"
 					}
 				}
 			}
 		},
 		
-		"Hide success date :": {
+		"Hide achievement dates :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Hide or not the time achievements were obtained. \n\n - No : Show time achievements were obtained. \n - Yes : Hide time achievements were obtained. \n",
+		"description": "> Choose whether to hide achievement unlock dates.\n\n- No : Show achievement unlock dates.\n- Yes : Hide achievement unlock dates.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -513,25 +523,39 @@
 			}
 		},
 		
-		"Hide 'post-party summary' / 'WYRTG ?' :": {
+		"Hide all activities :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Hide or show 'post-party summary' or 'Would you recommend this game ?' in game gampeage. \n\n - Show all : Show all elements. \n - Hide all : Hide all elements. \n - Show summary only : Show only 'post-party summary', 'Would you recommend this game ?' is not displayed. \n - Show 'Would you recommend this game ?' only : Show only 'Would you recommend this game ?', 'post-party summary' is not displayed.",
-		"default": "Show all",
+		"description": "> Choose how activity items are displayed on game pages.\n\n- Hide all activities : Hide the entire activity feed.\n- Hide only the no activities message : Hide only the message shown when no recent activity is available.\n- Show all activities : Always show the activity feed.\n- Show all activities on hover : Show the activity feed only on hover.",
+		"default": "Show all activities",
 		"values": {
-			"Show all": {},
-			"Hide all": {
+			"Hide all activities": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/post_party_elements/hide_all.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/activities/no_activities.css"
 					}
 				},
-			"Show post-party summary only": {
+			"Hide only the no activities message": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/post_party_elements/show_only_summary.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/activities/hide_only_no_activities_message.css"
 					}
 				},
-			"Show 'WYRTG ?' only": {
+			"Show all activities": {},
+			"Show all activities on hover": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/post_party_elements/show_only_recommend.css"
+			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/activities/show_activities_on_mouseover.css"
+					}
+				}
+			}
+		},
+		
+		"Hide category names :": {
+		"tab": "Gamepage options (19)",
+		"description": "> Choose whether to hide category names on game pages.\n\n- No : Show category names.\n- Yes : Hide category names.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/gamepage_options/categorys_name/hide_categorys_name.css"
 					}
 				}
 			}
@@ -539,7 +563,7 @@
 		
 		"Inverted gamepage (known bugs) :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Invert gamepage blocks (community content option set to 'Show' not work with this option). \n\n - Default : The layout is the same as the default steam skin. \n - Inverted : The layout is reversed from the vanilla Steam skin (bugs may appear with this option selected).",
+		"description": "> Choose whether to reverse the game page block layout.\n\n- Default : Use Steam's default block order.\n- Inverted : Reverse the block order. Display issues may occur, and this layout is incompatible with visible community content.",
 		"default": "Default",
 		"values": {
 			"Default": {},
@@ -551,47 +575,23 @@
 			}
 		},
 		
-		"Hide all activities :": {
+		"Text on play/download buttons :": {
 		"tab": "Gamepage options (19)",
-		"description": "> Enabling this option hides all games activities (updates, personal trophies earned, and those of contacts). \n\n - Show all activities : Show all activities. \n - Show all activities on mouseover : Show all activities on mouseover only. \n - Hide all activities : Hide all activities. \n - Hide only the no activities message : Hide only 'There's no recent activity from the developers of this title or from your friends'.",
-		"default": "Show all activities",
-		"values": {
-			"Show all activities": {},
-			"Show all activities on mouseover": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/activities/show_activities_on_mouseover.css"
-					}
-				},
-			"Hide only the no activities message": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/activities/hide_only_no_activities_message.css"
-					}
-				},
-			"Hide all activities": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/gamepage_options/activities/no_activities.css"
-					}
-				}
-			}
-		},
-		
-		"Text on play/download button :": {
-		"tab": "Gamepage options (19)",
-		"description": "> Show or hide the text of the play/download buttons. \n\n - No : No text will be displayed, only the button icon will be present. \n - Yes : Text will be displayed next to the icon (play, stop, download).",
+		"description": "> Choose whether Play, Stop, and Download buttons display text next to their icons.\n\n- No : Show icons only.\n- Yes : Show text next to the icons.",
 		"default": "no",
 		"values": {
-			"yes": {},
 			"no": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/gamepage_options/button_text/library_buttons_text.css"
 					}
-				}
+				},
+			"yes": {}
 			}
 		},
 		
 		"Alternative border color for context menus :": {
-		"tab": "Global options (13)",
-		"description": "> Change the border color of menus and context menus. \n\n - Black : Black border \n - Grey : Grey border.",
+		"tab": "Global options (14)",
+		"description": "> Choose the border color used by menus and context menus.\n\n- Black : Use black borders.\n- Grey : Use gray borders.",
 		"default": "Black",
 		"values": {
 			"Black": {},
@@ -601,11 +601,11 @@
 					}
 				}
 			}
-		},	
+		},
 		
 		"Alternative topbar color :": {
-		"tab": "Global options (13)",
-		"description": "> Modify the color of the topbar. \n\n - Dark : Full dark topbar \n - Grey : Full grey topbar \n - Grey/dark : Grey topbar and dark buttons.",
+		"tab": "Global options (14)",
+		"description": "> Choose the color scheme used by the top bar.\n\n- Dark : Use a fully dark top bar.\n- Grey : Use a fully gray top bar.\n- Grey/dark : Use a gray top bar with dark buttons.",
 		"default": "Grey/dark",
 		"values": {
 			"Dark": {},
@@ -620,11 +620,11 @@
 					}
 				}
 			}
-		},		
+		},
 		
 		"Alternative UI color for context menus/menus :": {
-		"tab": "Global options (13)",
-		"description": "> Inverted color for context menus/menus. \n\n - No : Default color \n - Yes : Inverted color",
+		"tab": "Global options (14)",
+		"description": "> Choose whether to invert the colors of menus and context menus.\n\n- No : Use the default colors.\n- Yes : Use the inverted colors.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -634,34 +634,91 @@
 					}
 				}
 			}
-		},	
+		},
 		
-		"Avatar frame :": {
-		"tab": "Global options (13)",
-		"description": "> Hide or show avatar frame on all avatars. \n\n - Hide : Hide avatar frame on the entire skin. \n - Show : Show avatar frame on the entire skin. \n\n NOTE : If you decide to display avatar frames, remember to check the toggle in the Steam settings 'Contacts and Chats: Enable animated avatars and avatar frames in your contacts list and in chat'",
-		"default": "Show",
+		"Animation for context menus/menus :": {
+		"tab": "Global options (14)",
+		"description": "> Choose the opening animation used by menus and context menus.\n\n- No animation : Open instantly.\n- Reveal from bottom : Reveal from bottom to top. This option is not recommended.\n- Reveal from center : Reveal outward from the center.\n- Reveal from left : Reveal from left to right.\n- Reveal from right : Reveal from right to left.\n- Reveal from sides : Reveal from both sides toward the center.\n- Reveal from top : Reveal from top to bottom.",
+		"default": "Reveal from top",
 		"values": {
-			"Show": {
+			"No animation": {},
+			"Reveal from bottom": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/avatar_frame/show.css"
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/m_cm_animation_bottom.css"
+					},
+			"TargetJs": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/js/m_cm_animation.js"
 					}
 				},
+			"Reveal from center": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/m_cm_animation_center.css"
+					},
+			"TargetJs": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/js/m_cm_animation.js"
+					}
+				},
+			"Reveal from left": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/m_cm_animation_left.css"
+					},
+			"TargetJs": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/js/m_cm_animation.js"
+					}
+				},
+			"Reveal from right": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/m_cm_animation_right.css"
+					},
+			"TargetJs": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/js/m_cm_animation.js"
+					}
+				},
+			"Reveal from sides": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/m_cm_animation_sides.css"
+					},
+			"TargetJs": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/js/m_cm_animation.js"
+					}
+				},
+			"Reveal from top": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/m_cm_animation_top.css"
+					},
+			"TargetJs": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/animation/js/m_cm_animation.js"
+					}
+				}
+			}
+		},
+		
+		"Avatar frame :": {
+		"tab": "Global options (14)",
+		"description": "> Choose whether to display avatar frames throughout the interface.\n\n- Hide : Hide all avatar frames.\n- Show : Show avatar frames.\n\nNote : To display animated avatars and avatar frames, enable the corresponding option in Steam under Contacts and Chat.",
+		"default": "Show",
+		"values": {
 			"Hide": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/global_options/avatar_frame/hide.css"
+					}
+				},
+			"Show": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/avatar_frame/show.css"
 					}
 				}
 			}
 		},
 		
 		"Compact menus/context menus :": {
-		"tab": "Global options (13)",
-		"description": "> This option allows you to make the menus/context menus compact (or not), animated (or not), with a left border (or not). \n\n - The informations are directly on the sub-options.",
+		"tab": "Global options (14)",
+		"description": "> Choose the size, animation, and optional left border used by menus and context menus.\n\n- Compact size (animated with left border) : Use compact spacing, animated rows, and a left border.\n- Compact size (animated) : Use compact spacing with animated rows.\n- Compact size (static with left border) : Use compact spacing, static rows, and a left border.\n- Compact size (static) : Use compact spacing with static rows.\n- Default size (animated with left border) : Use default spacing, animated rows, and a left border.\n- Default size (animated) : Use default spacing with animated rows.\n- Default size (static with left border) : Use default spacing, static rows, and a left border.\n- Default size (static) : Use default spacing with static rows.",
 		"default": "Compact size (static with left border)",
 		"values": {
-			"Compact size (static)": {
+			"Compact size (animated with left border)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/compact_size_static.css"
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/compact_size_animated_wlb.css"
 					}
 			},
 			"Compact size (animated)": {
@@ -674,12 +731,16 @@
 			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/compact_size_static_wlb.css"
 					}
 			},
-			"Compact size (animated with left border)": {
+			"Compact size (static)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/compact_size_animated_wlb.css"
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/compact_size_static.css"
 					}
 			},
-			"Default size (static)": {},
+			"Default size (animated with left border)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/default_size_animated_wlb.css"
+					}
+				},
 			"Default size (animated)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/default_size_animated.css"
@@ -690,51 +751,47 @@
 			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/default_size_static_wlb.css"
 					}
 			},
-			"Default size (animated with left border)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/default_size_animated_wlb.css"
-					}
-				}
+			"Default size (static)": {}
 			}
 		},
 		
-		"Context menus left icons :": {
-		"tab": "Global options (13)",
-		"description": "> Adds an icon to the left of the text in context menus. \n\n - Default : No icons. \n - User color icons (small) : Displays small icons + user-color on hover. \n - User color icons (big) : Displays big icons + user-color on hover. \n\n NOTE : Select the option based on the size you chose for the context menus in the option above but the large size works in compact mode, but the blocks are slightly larger than in compact mode.",
+		"Context menu left icons :": {
+		"tab": "Global options (14)",
+		"description": "> Choose the size and style of icons displayed to the left of context menu entries.\n\n- Default : Do not add icons.\n- User color icons (big/fill) : Use large filled icons with the user color on hover.\n- User color icons (big/outline) : Use large outlined icons with the user color on hover.\n- User color icons (small/fill) : Use small filled icons with the user color on hover.\n- User color icons (small/outline) : Use small outlined icons with the user color on hover.\n\nNote : Choose an icon size that matches the context menu size selected above. Large icons also work in compact mode but slightly increase row height.",
 		"default": "User color icons (small/fill)",
 		"values": {
 			"Default": {},
-			"User color icons (small/fill)": {	
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_small_fill.css"
-					}
-				},
 			"User color icons (big/fill)": {	
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_big_fill.css"
-					}
-				},
-			"User color icons (small/outline)": {	
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_small_outline.css"
 					}
 				},
 			"User color icons (big/outline)": {	
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_big_outline.css"
 					}
+				},
+			"User color icons (small/fill)": {	
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_small_fill.css"
+					}
+				},
+			"User color icons (small/outline)": {	
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/menus_context_menus/icon_tabs_cm/user_color_small_outline.css"
+					}
 				}
 			}
 		},
 		
-		"Corners radius :": {
-		"tab": "Global options (13)",
-		"description": "> Sets the strength of corner rounding. \n\n - Square : 0px. \n - Rounded : 5px. \n - More rounded : 10px.",
+		"Corner radius :": {
+		"tab": "Global options (14)",
+		"description": "> Choose the corner radius used throughout the interface.\n\n- More rounded : Use a 10 px radius.\n- Rounded : Use a 5 px radius.\n- Square : Use square corners with a 0 px radius.",
 		"default": "Rounded",
 		"values": {
-			"Square": {
+			"More rounded": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/corners/corner0.css"
+			"affects": [".*"], "src": "elements/options/global_options/corners/corner10.css"
 					}
 				},
 			"Rounded": {
@@ -742,43 +799,37 @@
 			"affects": [".*"], "src": "elements/options/global_options/corners/corner5.css"
 					}
 				},
-			"More rounded": {
+			"Square": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/corners/corner10.css"
+			"affects": [".*"], "src": "elements/options/global_options/corners/corner0.css"
 					}
 				}
 			}
 		},
 		
-		"Hover borders on library and webkit blocks :": {
-		"tab": "Global options (13)",
-		"description": "> Make the hover borders of library/webkit items full and no longer just on the bottom. \n\n - Full borders : Applies the user's color to all borders on mouseover. \n - Bottom only : Applies the user's color only to the bottom border on mouseover.",
+		"Hover borders on library and WebKit blocks :": {
+		"tab": "Global options (14)",
+		"description": "> Choose whether hovered library and WebKit items use a full border or a bottom border only.\n\n- Bottom only : Apply the user color only to the bottom border.\n- Full borders : Apply the user color to every border.",
 		"default": "Full borders",
 		"values": {
-			"Full borders": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/borders_hover_effect/full_library_hover_effect.css"
-					}
-				},
 			"Bottom only": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/global_options/borders_hover_effect/bottom_library_hover_effect.css"
+					}
+				},
+			"Full borders": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/borders_hover_effect/full_library_hover_effect.css"
 					}
 				}
 			}
 		},
 		
 		"Resize grip (Steam windows) :": {
-		"tab": "Global options (13)",
-		"description": "> Show or hide the resizing grip display. \n\n - Default : Default Steam grip. \n - Default (smaller) : Smaller default Steam grip. \n - Alternative UI : Alternative UI for the resize grip. \n - Alternative UI (smaller) : Smaller alternative UI for the resize grip. \n - Hide : Hide the resize grip. \n\n NOTE : If you select 'Hide', you will need to disable the friends option 'Hide footer (fix)'",
+		"tab": "Global options (14)",
+		"description": "> Choose the appearance of the resize grip used by Steam windows.\n\n- Alternative UI : Use the alternative resize grip.\n- Alternative UI (smaller) : Use a smaller alternative resize grip.\n- Default : Use Steam's default resize grip.\n- Default (smaller) : Use a smaller version of Steam's default resize grip.\n- Hide : Hide the resize grip.\n\nNote : If you hide the resize grip, disable the Friends option named Hidden footer icon fix.",
 		"default": "Default (smaller)",
 		"values": {
-			"Default": {},
-			"Default (smaller)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/resize_grip/smaller_resize_grip.css"
-					}
-				},
 			"Alternative UI": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/global_options/resize_grip/alt_resize_grip.css"
@@ -789,6 +840,12 @@
 			"affects": [".*"], "src": "elements/options/global_options/resize_grip/alt_smaller_resize_grip.css"
 					}
 				},
+			"Default": {},
+			"Default (smaller)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/resize_grip/smaller_resize_grip.css"
+					}
+				},
 			"Hide": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/global_options/resize_grip/hide_resize_grip.css"
@@ -797,9 +854,9 @@
 			}
 		},
 		
-		"Steam bigpicture button :": {
-		"tab": "Global options (13)",
-		"description": "> Hide or show Steam bigpicture button in top bar. \n\n - Hide : Hide topbar Steam bigpicture button. \n - Show : Show topbar Steam bigpicture button.",
+		"Steam Big Picture button :": {
+		"tab": "Global options (14)",
+		"description": "> Choose whether to display the Steam Big Picture button in the top bar.\n\n- Hide : Hide the button.\n- Show : Show the button.",
 		"default": "Hide",
 		"values": {
 			"Hide": {},
@@ -811,42 +868,42 @@
 			}
 		},
 		
-		"Steam news button :": {
-		"tab": "Global options (13)",
-		"description": "> Hide or show Steam news button in top bar. \n\n - Hide : Hide topbar Steam news button. \n - Show : Show topbar Steam news button.",
+		"Steam News button :": {
+		"tab": "Global options (14)",
+		"description": "> Choose whether to display the Steam News button in the top bar.\n\n- Hide : Hide the button.\n- Show : Show the button.",
 		"default": "Hide",
 		"values": {
-			"Show": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/global_options/news_button/steam_actuality_button.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
 		"Title area buttons :": {
-		"tab": "Global options (13)",
-		"description": "> Make the title bar buttons bigger (close/maximize/minimize buttons). \n\n - Small : Small titlebar buttons. \n - Enlarged (w11 users) : Enlarged buttons for Windows 11 users. \n - Enlarged (w10 users) : Enlarged buttons for Windows 10 users.",
-		"default": "Enlarged (w11 users)",
+		"tab": "Global options (14)",
+		"description": "> Choose the size of the Minimize, Maximize, and Close buttons.\n\n- Enlarged (Windows 10) : Use enlarged buttons designed for Windows 10.\n- Enlarged (Windows 11) : Use enlarged buttons designed for Windows 11.\n- Small : Use small title bar buttons.",
+		"default": "Enlarged (Windows 11)",
 		"values": {
-			"Small": {},
-			"Enlarged (w11 users)": {
+			"Enlarged (Windows 10)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/alternative_title_area_buttons/alternative_title_area_buttons_w10.css"
+					}
+				},
+			"Enlarged (Windows 11)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/global_options/alternative_title_area_buttons/alternative_title_area_buttons_w11.css"
 					}
 				},
-			"Enlarged (w10 users)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/global_options/alternative_title_area_buttons/alternative_title_area_buttons_w10.css"
-					}
-				}
+			"Small": {}
 			}
 		},
 		
 		"Vanilla topbar style :": {
-		"tab": "Global options (13)",
-		"description": "> Set the topbar in the vanilla style of steam skin. \n\n - Minimal Dark : Topbar buttons are on the same line. \n - Vanilla topbar : Set Topbar as on vanilla skin, buttons are on two lines.",
+		"tab": "Global options (14)",
+		"description": "> Choose between the Minimal Dark and vanilla Steam top bar layouts.\n\n- Minimal Dark : Place all top bar buttons on one row.\n- Vanilla topbar : Use Steam's two-row top bar layout.",
 		"default": "Minimal Dark",
 		"values": {
 			"Minimal Dark": {},
@@ -858,60 +915,60 @@
 			}
 		},
 		
-		"Alternative library navigation button :": {
-		"tab": "Library options (18)",
-		"description": "> Changes the appearance of the navigation arrows on the library shelves. \n\n - Default : Just arrows displayed. \n - Alternative : Arrows and grey borders.",
-		"default": "Alternative",
-		"values": {
-			"Default": {},
-			"Alternative": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_nav_buttons/alternative_library_nav_buttons.css"
-					}
-				}
-			}
-		},
-		
 		"Alternative game names hover effect :": {
 		"tab": "Library options (18)",
-		"description": "> Change the appearance of the game name hover in the What's New block. \n\n - Default : Left user color border on mouseover. \n - Alt #1 : Bottom user color border on mouseover. \n - Alt #2 : Full user color border on mouseover.",
+		"description": "> Choose the hover border used by game titles in the What's New section.\n\n- Alternative #1 : Show a user-color bottom border.\n- Alternative #2 : Show a full user-color border.\n- Default : Show a user-color left border.",
 		"default": "Default",
 		"values": {
-			"Default": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/news_hover_effect/alternative_news_hover_effect_default.css"
-					}
-				},
-			"Alt #1": {
+			"Alternative #1": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/news_hover_effect/alternative_news_hover_effect_alt1.css"
 					}
 				},
-			"Alt #2": {
+			"Alternative #2": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/news_hover_effect/alternative_news_hover_effect_alt2.css"
+					}
+				},
+			"Default": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/news_hover_effect/alternative_news_hover_effect_default.css"
 					}
 				}
 			}
 		},
 		
-		"Alternate view of in-game friends :": {
+		"Alternative library navigation button :": {
 		"tab": "Library options (18)",
-		"description": "> Changes the appearance and layout of in-game friend icons in library. \n\n - Default : Defaut appearence. \n - Alternative : Under the game block.",
+		"description": "> Choose the appearance of navigation arrows on library shelves.\n\n- Alternative : Show arrows with gray borders.\n- Default : Show arrows only.",
 		"default": "Alternative",
 		"values": {
-			"Default": {},
+			"Alternative": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_nav_buttons/alternative_library_nav_buttons.css"
+					}
+				},
+			"Default": {}
+			}
+		},
+		
+		"Alternative view of in-game friends :": {
+		"tab": "Library options (18)",
+		"description": "> Choose the layout of in-game friend icons in the library.\n\n- Alternative : Place the icons below the game block.\n- Default : Use the default layout.",
+		"default": "Alternative",
+		"values": {
 			"Alternative": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/alt_view_igf/alt_view_igf.css"
 					}
-				}
+				},
+			"Default": {}
 			}
 		},
 		
-		"Animated buttons hovering :": {
+		"Animated button hover :": {
 		"tab": "Library options (18)",
-		"description": "> Add an animation on the play/install/stop buttons on hovering in the library (gamepage buttons effect included). \n\n - No : No hover effect. \n - Animated : Enable hover effect on hovering buttons.",
+		"description": "> Choose whether Play, Install, and Stop buttons animate on hover in the library and on game pages.\n\n- No : Disable the hover animation.\n- Yes : Enable the hover animation.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -925,7 +982,7 @@
 		
 		"Compact collections :": {
 		"tab": "Library options (18)",
-		"description": "> Make collections display compact. \n\n - No : Spacing between Steam games covers by default. \n - Yes : Smaller spacing between games covers.",
+		"description": "> Choose whether to reduce the spacing between game covers in collections.\n\n- No : Use Steam's default spacing.\n- Yes : Use reduced spacing.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -939,29 +996,23 @@
 		
 		"Compact filters :": {
 		"tab": "Library options (18)",
-		"description": "> Make the library filters block compact. \n\n - No : Default Steam filters spacing. \n - Yes : Compact filters spacing.",
+		"description": "> Choose whether to reduce the spacing in the library filter block.\n\n- No : Use Steam's default filter spacing.\n- Yes : Use compact filter spacing.",
 		"default": "yes",
 		"values": {
-			"yes": {},
 			"no": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_filters/filters_default.css"
 					}
-				}
+				},
+			"yes": {}
 			}
 		},
 		
-		"Compact labels (library + whats news) :": {
+		"Compact labels (library + What's New) :": {
 		"tab": "Library options (18)",
-		"description": "> Make Hide Today, Yesterday, Last Week blocs from library and what's new compact. \n\n - Default : The labels are not glued to the border. \n - Compact : The labels are glued to the border. \n - Compact (bottom) : The labels are glued to the border at the bottom (library only).",
+		"description": "> Choose the layout of date labels in the library and What's New section.\n\n- Compact : Attach compact labels to the top border.\n- Compact (bottom) : Attach compact labels to the bottom border in the library.\n- Default : Use detached labels at the top.\n- Default (bottom) : Use detached labels at the bottom in the library.",
 		"default": "Compact",
 		"values": {
-			"Default": {},
-			"Default (bottom)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/default_library_labels_bottom.css"
-					}
-				},
 			"Compact": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_library_labels.css"
@@ -971,13 +1022,19 @@
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_library_labels_bottom.css"
 					}
+				},
+			"Default": {},
+			"Default (bottom)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/default_library_labels_bottom.css"
+					}
 				}
 			}
 		},
 		
 		"Compact library :": {
 		"tab": "Library options (18)",
-		"description": "> Make library display compact. \n\n - No : Spacing between Steam games covers by default. \n - Yes : Smaller spacing between games covers.",
+		"description": "> Choose whether to reduce the spacing between game covers in the library.\n\n- No : Use Steam's default spacing.\n- Yes : Use reduced spacing.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -989,17 +1046,17 @@
 			}
 		},
 		
-		"Compact mod :": {
+		"Compact mode :": {
 		"tab": "Library options (18)",
-		"description": "Removes the filter & search from the sidebar to save even more space. \n\n - Default : Display filter and search. \n - Compact : Hide filter only. \n - Ultra compact : Hide filter and search.",
+		"description": "> Choose which search and filter controls are visible in the sidebar.\n\n- Compact : Hide the filter controls.\n- Default : Show the search and filter controls.\n- Ultra compact : Hide both the search and filter controls.",
 		"default": "Default",
 		"values": {
-			"Default": {},
 			"Compact": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_mod/compact_mod.css"
 					}
 				},
+			"Default": {},
 			"Ultra compact": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_mod/ultra_compact_mod.css"
@@ -1010,10 +1067,9 @@
 		
 		"Compact news container :": {
 		"tab": "Library options (18)",
-		"description": "> Make the news container compact. \n\n - Steam default : Vanilla Steam size. \n - Compact #1 : Small size with small fonts. \n - Compact #2 : Small size with normal font. \n - Ultra compact : Displays only the text of the news, also allows more news to be displayed. \n - Ultra compact (center content) : Same as ultra compact, but with centered elements.",
+		"description": "> Choose the size and layout of the What's New section.\n\n- Compact #1 : Use a compact layout with smaller text.\n- Compact #2 : Use a compact layout with normal-size text.\n- Steam default : Use Steam's default layout.\n- Ultra compact : Show text only and fit more news items.\n- Ultra compact (center content) : Use the ultra-compact layout with centered content.",
 		"default": "Ultra compact",
 		"values": {
-			"Steam default": {},
 			"Compact #1": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/library_options/compact_news/compact_news_alt.css"
@@ -1024,6 +1080,7 @@
 			"affects": [".*"], "src": "elements/options/library_options/compact_news/compact_news.css"
 					}
 				},
+			"Steam default": {},
 			"Ultra compact": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/library_options/compact_news/ultra_compact_news.css"
@@ -1039,21 +1096,21 @@
 		
 		"Download icon on uninstalled games :": {
 		"tab": "Library options (18)",
-		"description": "> Show or hide the download icon on uninstalled games in the library. \n\n - Show : Show the download icon on uninstalled games in the library. \n - Hide : Hide the download icon on uninstalled games in the library.",
+		"description": "> Choose whether to display download icons on uninstalled games in the library.\n\n- Hide : Hide the download icons.\n- Show : Show the download icons.",
 		"default": "Show",
 		"values": {
-			"Show": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/library_options/download_icon_ug/no_dl_icone.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
 		"Hide shelf :": {
 		"tab": "Library options (18)",
-		"description": "> Hide the add shelf button in the library. \n\n - No : Show the add shelf button in the library \n - Yes : Hide the add shelf button in the library.",
+		"description": "> Choose whether to hide the Add Shelf button in the library.\n\n- No : Show the Add Shelf button.\n- Yes : Hide the Add Shelf button.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1065,12 +1122,21 @@
 			}
 		},
 		
-		"Labels color for completed games :": {
+		"Label color for completed games :": {
 		"tab": "Library options (18)",
-		"description": "> Define the appearance of labels for games that are 100% completed in the library. \n\n - Minimal : Blurred background, user color text, no medal (no modifications). \n - Others choices : User color background, white text with medal. \n\n NOTE: Choose the sub-option based on what you have chosen for the Compact labels option.",
+		"description": "> Choose the appearance of labels shown on 100% completed games.\n\n- Compact : Use a compact user-color label with white text and a medal.\n- Compact (bottom) : Use the compact label at the bottom.\n- Default : Use a default-size user-color label with white text and a medal.\n- Default (bottom) : Use the default-size label at the bottom.\n- Minimal : Use a blurred background, user-color text, and no medal.\n\nNote : Choose a layout that matches the Compact library labels option.",
 		"default": "Minimal",
 		"values": {
-			"Minimal": {},
+			"Compact": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/completed_games/compact_color_100.css"
+					}
+				},
+			"Compact (bottom)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/completed_games/compact_bottom_color_100.css"
+					}
+				},
 			"Default": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/completed_games/default_color_100.css"
@@ -1081,46 +1147,13 @@
 			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/completed_games/default_bottom_color_100.css"
 					}
 				},
-			"Compact": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/completed_games/compact_color_100.css"
-					}
-				},
-			"Compact (bottom)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/completed_games/compact_bottom_color_100.css"
-					}
-				}
+			"Minimal": {}
 			}
 		},
 		
-		"Library labels :": {
+		"Library game hover glow color :": {
 		"tab": "Library options (18)",
-		"description": "> Hide 'Today, Yesterday, Last Week' from library. \n\n - Show : Show labels on library and news bloc. \n - Hide library only : Hide labels on library only. \n - Hide What's new only : Hide labels on What's new only. \n - Hide all : Hide labels on library and news bloc.",
-		"default": "Show",
-		"values": {
-			"Show": {},
-			"Hide library only": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/no_library_labels.css"
-					}
-				},
-			"Hide What's new only": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/no_wn_labels.css"
-					}
-				},
-			"Hide all": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/no_library_labels_full.css"
-					}
-				}
-			}
-		},
-		
-		"Library games hover glow color :": {
-		"tab": "Library options (18)",
-		"description": "> Change the color of the glow when you hover over a game image in your library. \n\n - Default : White glow. \n - User color : User color glow.",
+		"description": "> Choose the glow color used when hovering over game artwork in the library.\n\n- Default : Use a white glow.\n- User color : Use the selected user color.",
 		"default": "Default",
 		"values": {
 			"Default": {},
@@ -1132,23 +1165,47 @@
 			}
 		},
 		
-		"News container :": {
+		"Library labels :": {
 		"tab": "Library options (18)",
-		"description": "> Hide or show 'What's New' bloc in the library. \n\n - Hide : Hide 'What's New' bloc. \n - Show : Show 'What's New' bloc.",
+		"description": "> Choose where date labels such as Today, Yesterday, and Last Week are displayed.\n\n- Hide all : Hide labels in both the library and What's New section.\n- Hide library only : Hide labels in the library only.\n- Hide What's new only : Hide labels in the What's New section only.\n- Show : Show labels in both locations.",
 		"default": "Show",
 		"values": {
-			"Show": {},
+			"Hide all": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/no_library_labels_full.css"
+					}
+				},
+			"Hide library only": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/no_library_labels.css"
+					}
+				},
+			"Hide What's new only": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/no_wn_labels.css"
+					}
+				},
+			"Show": {}
+			}
+		},
+		
+		"News container :": {
+		"tab": "Library options (18)",
+		"description": "> Choose whether to display the What's New section in the library.\n\n- Hide : Hide the What's New section.\n- Show : Show the What's New section.",
+		"default": "Show",
+		"values": {
 			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/news_container/hide_news.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
-		"Static hovering (paysage games of Recent Games | Play Next) :": {
+		"Static hovering (landscape games of Recent Games | Play Next) :": {
 		"tab": "Library options (18)",
-		"description": "> Make paysage games mouse hover static. \n\n - Animated : Animated on mouse hover. \n - Static : Static on mouse hover.",
+		"description": "> Choose the hover effect used by landscape game artwork in Recent Games and Play Next.\n\n- Animated : Use the animated hover effect.\n- Static : Use a static hover effect.",
 		"default": "Animated",
 		"values": {
 			"Animated": {},
@@ -1162,7 +1219,7 @@
 		
 		"Static hovering (portrait games of Library | Collections) :": {
 		"tab": "Library options (18)",
-		"description": "> Make portrait games mouse hover static. \n\n - Animated : Animated on mouse hover. \n - Static : Static on mouse hover.",
+		"description": "> Choose the hover effect used by portrait game artwork in the library and collections.\n\n- Animated : Use the animated hover effect.\n- Static : Use a static hover effect.",
 		"default": "Static",
 		"values": {
 			"Animated": {},
@@ -1176,21 +1233,21 @@
 		
 		"Hours played :": {
 		"tab": "Miniprofile options (2)",
-		"description": "> Hide the block of hours played on the miniprofiles. \n\n - Show : Displays hours played on players mini-profiles. \n - Hide : Hide hours played on players mini-profiles.",
+		"description": "> Choose whether to display the Hours Played block on mini-profiles.\n\n- Hide : Hide the Hours Played block.\n- Show : Show the Hours Played block.",
 		"default": "Show",
 		"values": {
-			"Show": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/miniprofile_options/hours_played/no_hours_played_mp.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
-		"Miniprofile background :": {
+		"Mini-profile background :": {
 		"tab": "Miniprofile options (2)",
-		"description": "> Show or hide image/video on background by default on mini profiles. \n\n - Hide : Set the mini-profile background black with an acrylic effect. \n - Show : The mini-profile background image will be displayed.",
+		"description": "> Choose whether to display profile images and videos in mini-profile backgrounds.\n\n- Hide : Use a black background with an acrylic effect.\n- Show : Display the mini-profile background image or video.",
 		"default": "Hide",
 		"values": {
 			"Hide": {},
@@ -1204,7 +1261,7 @@
 		
 		"Bigger buttons :": {
 		"tab": "Overlay options (5)",
-		"description": "> Make the overlay buttons bigger. \n\n - No : Default size buttons. \n - Yes : Bigger size buttons.",
+		"description": "> Choose whether to enlarge overlay buttons.\n\n- No : Use the default button size.\n- Yes : Use larger buttons.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1216,37 +1273,9 @@
 			}
 		},
 		
-		"Notifications toast borders color :": {
+		"No button labels in list mode :": {
 		"tab": "Overlay options (5)",
-		"description": "Changes the border color of toast notifications. \n\n - User color on top : Only the top border uses the user color. \n - Full border : Applies the user color to the entire border.",
-		"default": "User color on top",
-		"values": {
-			"User color on top": {},
-			"User color full": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay_options/toast/border_color/full_border.css"
-					}
-				}
-			}
-		},
-		
-		"Notifications toast text color :": {
-		"tab": "Overlay options (5)",
-		"description": "Changes the text color of messages displayed in toast notifications. \n\n - Default : White text. \n - User color : Uses the user-selected color for the text.",
-		"default": "Default",
-		"values": {
-			"Default": {},
-			"User color": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay_options/toast/text_color/user_color.css"
-					}
-				}
-			}
-		},
-		
-		"No button labels in list mod :": {
-		"tab": "Overlay options (5)",
-		"description": "> hide button names to only have the icon when the overlay is in list mode only. \n\n - No : Hide buttons labels. \n - Yes : Show buttons labels.",
+		"description": "> Choose whether to hide overlay button labels in list mode.\n\n- No : Show button labels.\n- Yes : Hide button labels and show icons only.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -1258,9 +1287,9 @@
 			}
 		},
 		
-		"No button labels in normal mod :": {
+		"No button labels in normal mode :": {
 		"tab": "Overlay options (5)",
-		"description": "> hide button names to only have the icon when the overlay is in normal mode only. \n\n - No : Hide buttons labels. \n - Yes : Show buttons labels.",
+		"description": "> Choose whether to hide overlay button labels in normal mode.\n\n- No : Show button labels.\n- Yes : Hide button labels and show icons only.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1272,15 +1301,29 @@
 			}
 		},
 		
-		"Alternative color update :": {
-		"tab": "Sidebar options (15)",
-		"description": "> Choose the color of games update notifications in the sidebar. \n - Default : Green \n - User color : User color.",
+		"Notification toast border color :": {
+		"tab": "Overlay options (5)",
+		"description": "> Choose where notification toast borders use the selected user color.\n\n- User color on all borders : Apply the user color to every border.\n- User color on top : Apply the user color to the top border only.",
+		"default": "User color on top",
+		"values": {
+			"User color on all borders": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay_options/toast/border_color/full_border.css"
+					}
+				},
+			"User color on top": {}
+			}
+		},
+		
+		"Notification toast text color :": {
+		"tab": "Overlay options (5)",
+		"description": "> Choose the text color used in notification toasts.\n\n- Default : Use white text.\n- User color : Use the selected user color.",
 		"default": "Default",
 		"values": {
 			"Default": {},
 			"User color": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/color_update/alternative_update_color.css"
+			"affects": [".*"], "src": "elements/options/overlay_options/toast/text_color/user_color.css"
 					}
 				}
 			}
@@ -1288,7 +1331,7 @@
 		
 		"Alternative hover effect :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Set user color gradient to the left on hover. \n\n - Default : Left user color border on mouseover. \n - User color gradient : Left user color border and gradient on mouseover.",
+		"description": "> Choose the hover effect used by games in the sidebar.\n\n- Default : Show a user-color left border.\n- User color gradient : Show a user-color left border and gradient.",
 		"default": "Default",
 		"values": {
 			"Default": {},
@@ -1300,22 +1343,11 @@
 			}
 		},
 		
-		"Alternative ingame friends indicator :": {
+		"Alternative in-game friends indicator :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Changes the indicator of ingame friends. \n\n - Minimal Dark default : Vertical bar. \n - Minimal Dark alternative #1 : Alternative vertical bar. \n - Minimal Dark alternative #2 : Horizontal bar. \n - Dot #1 : Rounded dot. \n - Dot #2 : Small rounded dot. \n - Dot #3 : Squared dot. \n - Dot #4 : Small squared dot.",
+		"description": "> Choose the indicator used for friends who are currently in game.\n\n- Dot #1 : Use a rounded dot.\n- Dot #2 : Use a small rounded dot.\n- Dot #3 : Use a square dot.\n- Dot #4 : Use a small square dot.\n- Minimal Dark alternative #1 : Use the alternative vertical bar.\n- Minimal Dark alternative #2 : Use a horizontal bar.\n- Minimal Dark default : Use the default vertical bar.",
 		"default": "Minimal Dark default",
 		"values": {
-			"Minimal Dark default": {},
-			"Minimal Dark alternative #1": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/minimal_vertical_indicator.css"
-					}
-				},
-			"Minimal Dark alternative #2": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/minimal_horizontal_indicator.css"
-					}
-				},
 			"Dot #1": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/round_indicator.css"
@@ -1335,13 +1367,38 @@
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/min_square_indicator.css"
 					}
+				},
+			"Minimal Dark alternative #1": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/minimal_vertical_indicator.css"
+					}
+				},
+			"Minimal Dark alternative #2": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/ingame_indicator/minimal_horizontal_indicator.css"
+					}
+				},
+			"Minimal Dark default": {}
+			}
+		},
+		
+		"Alternative update color :": {
+		"tab": "Sidebar options (15)",
+		"description": "> Choose the color of game update notifications in the sidebar.\n\n- Default : Use green.\n- User color : Use the selected user color.",
+		"default": "Default",
+		"values": {
+			"Default": {},
+			"User color": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/color_update/alternative_update_color.css"
+					}
 				}
 			}
 		},
 		
 		"Animated mouseover :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Add an animation when hovering over the list of games. \n\n - No : No animation. \n - Yes : Animated.",
+		"description": "> Choose whether game entries animate when hovered in the sidebar.\n\n- No : Disable the hover animation.\n- Yes : Enable the hover animation.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -1355,7 +1412,7 @@
 		
 		"Bigger font size :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Make games names bigger. \n\n - No : Normal font size. \n - Yes : Bigger font size.",
+		"description": "> Choose whether to enlarge game names in the sidebar.\n\n- No : Use the normal font size.\n- Yes : Use a larger font size.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1369,7 +1426,7 @@
 		
 		"Bolder names :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Make the game names in the sidebar bolder. \n\n - No : Normal font. \n - Yes : Bolder font.",
+		"description": "> Choose whether game names in the sidebar use a bolder font weight.\n\n- No : Use the normal font weight.\n- Yes : Use a bolder font weight.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1381,9 +1438,9 @@
 			}
 		},
 		
-		"Games names overflow :": {
+		"Game name overflow :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Enable this option to prevent the game name from overlapping outside the sidebar block. \n\n - No : The game name overflows and is displayed in full. \n - Yes : The game name no longer overflows the sidebar when the mouse hovers over it.",
+		"description": "> Choose whether long game names remain inside the sidebar.\n\n- No : Allow game names to overflow and display in full.\n- Yes : Keep game names within the sidebar on hover.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -1395,9 +1452,23 @@
 			}
 		},
 		
-		"Installed/selected games color :": {
+		"Hide left images :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Changes the color of installed/selected games. \n\n - Minimal Dark : Beige names / user color selected. \n - Minimal Dark alternative : White names / user color selected. \n - White : White names / white selected.",
+		"description": "> Choose whether to hide game cover icons beside names in the sidebar.\n\n- No : Show game cover icons.\n- Yes : Hide game cover icons.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/no_left_images/no_left_images.css"
+					}
+				}
+			}
+		},
+		
+		"Installed/selected game color :": {
+		"tab": "Sidebar options (15)",
+		"description": "> Choose the colors used for installed and selected games.\n\n- Minimal Dark : Use beige names and the user color for the selected game.\n- Minimal Dark alternative : Use white names and the user color for the selected game.\n- White : Use white for both game names and the selected game.",
 		"default": "Minimal Dark",
 		"values": {
 			"Minimal Dark": {},
@@ -1414,23 +1485,9 @@
 			}
 		},
 		
-		"No left images :": {
+		"Persistent sidebar :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Hide game images to the left of the names in the left bar. \n\n - No : Show images. \n - Yes : Hide images.",
-		"default": "no",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/no_left_images/no_left_images.css"
-					}
-				}
-			}
-		},
-		
-		"Persistent Sidebar :": {
-		"tab": "Sidebar options (15)",
-		"description": "> Enabling this option displays the sidebar where it is not usually displayed (webkit, community, profil). \n\n - No : Hide sidebar on webkit, community and profil. \n - Yes : Show sidebar on webkit, community and profil. \n\n Known bug : the main filter is not accessible on the webkit.",
+		"description": "> Choose whether to keep the sidebar visible on WebKit, Community, and profile pages.\n\n- No : Hide the sidebar on those pages.\n- Yes : Show the sidebar on those pages.\n\nNote : The main filter is not accessible on WebKit pages when this option is enabled.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1444,7 +1501,7 @@
 		
 		"Pointer fix :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Fix cursor for sidebar resize when the Persistent Sidebar option is disabled only. \n\n - No : Leave this option disabled if you are using the persistent sidebar. \n - Yes : Enable this option if you do not use the persistent sidebar.",
+		"description": "> Choose whether to fix the sidebar resize pointer when Persistent sidebar is disabled.\n\n- No : Use this setting when Persistent sidebar is enabled.\n- Yes : Use this setting when Persistent sidebar is disabled.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1458,7 +1515,7 @@
 		
 		"Resize width :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Choose to set a fixed length for the sidebar or if you want to expand it manually. \n\n - Fixed position : Fixed sidebar (resizing are not possible) \n - Manual resize : Enlarge the sidebar manually. \n\n NOTE : Not compatible with persistent sidebar option.",
+		"description": "> Choose whether the sidebar uses a fixed width or can be resized manually.\n\n- Fixed position : Use a fixed sidebar width.\n- Manual resize : Allow the sidebar to be resized manually.\n\nNote : This option is not compatible with Persistent sidebar.",
 		"default": "Fixed position",
 		"values": {
 			"Fixed position": {
@@ -1474,9 +1531,9 @@
 			}
 		},
 		
-		"Right Sidebar :": {
+		"Right sidebar :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Place the left bar on the right of the Steam client. \n\n - Left : Left sidebar. \n - Right sidebar (to enlarge the sidebar you will always have to slide to the right and not to the left).",
+		"description": "> Choose which side of the Steam window displays the sidebar.\n\n- Left : Place the sidebar on the left.\n- Right : Place the sidebar on the right. The resize handle still moves toward the right.",
 		"default": "Left",
 		"values": {
 			"Left": {},
@@ -1488,13 +1545,32 @@
 			}
 		},
 		
+		"Selected uninstalled game color :": {
+		"tab": "Sidebar options (15)",
+		"description": "> Choose the color used for selected uninstalled games.\n\n- Minimal Dark : Use red.\n- User color : Use the selected user color.\n- White : Use white.",
+		"default": "Minimal Dark",
+		"values": {
+			"Minimal Dark": {},
+			"User color": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/selected_games/minimal_uninstalled_user_color.css"
+					}
+				},
+			"White": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/selected_games/minimal_uninstalled_white.css"
+					}
+				}
+			}
+		},
+		
 		"Show sidebar on mouseover :": {
 		"tab": "Sidebar options (15)",
-		"description": "> Displays the sidebar when the mouse hovers over it. \n\n - Default : Default display for sidebar. \n - On mouseover : Displays the sidebar when the mouse hovers over it. \n\n Note : The advanced filters and the filter buttons are not working.",
+		"description": "> Choose whether the sidebar remains visible or appears only on hover.\n\n- Default : Keep the sidebar visible.\n- On hover : Show the sidebar when hovered.\n\nNote : Advanced filters and filter buttons are unavailable in hover mode.",
 		"default": "Default",
 		"values": {
 			"Default": {},
-			"On mouseover": {
+			"On hover": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/sidebar_options/mouseover/show_sidebar_mouseover.css"
 					}
@@ -1502,72 +1578,9 @@
 			}
 		},
 		
-		"Uninstalled selected games color :": {
-		"tab": "Sidebar options (15)",
-		"description": "> Changes the color of selected uninstalled games. \n\n - Minimal Dark : Red color. \n - White : White color. \n - User : User color.",
-		"default": "Minimal Dark",
-		"values": {
-			"Minimal Dark": {},
-			"White": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/selected_games/minimal_uninstalled_white.css"
-					}
-				},
-			"User": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/sidebar_options/selected_games/minimal_uninstalled_user_color.css"
-					}
-				}
-			}
-		},
-		
-		"Alt underlining :": {
-		"tab": "Topbar options (17)",
-		"description": "> An alternative display for the selected tab in the top bar. \n\n - Default : Line. \n - To the right : Line to the right. \n - Fade : Fade line.",
-		"default": "Default (thin line)",
-		"values": {
-			"Default (thin line)": {},
-			"Default (bold line)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/dbl_underlining.css"
-					}
-				},
-			"To the right (thin line)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/ttr_underlining.css"
-					}
-				},
-			"To the right (bold line)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/btr_underlining.css"
-					}
-				},
-			"To the left (thin line)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/ttl_underlining.css"
-					}
-				},
-			"To the left (bold line)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/btl_underlining.css"
-					}
-				},
-			"Fade (Thin line)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/ftl_underlining.css"
-					}
-				},
-			"Fade (bold line)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/fbl_underlining.css"
-					}
-				}
-			}
-		},
-
 		"Alignment fix for 4K resolution :": {
 		"tab": "Topbar options (17)",
-		"description": "> Enabling this option will fix the top bar alignment for 4K resolutions. \n\n - No : No fix. \n - Yes : Applied fix.",
+		"description": "> Choose whether to apply the top bar alignment fix for 4K displays.\n\n- No : Do not apply the fix.\n- Yes : Apply the alignment fix.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1581,7 +1594,7 @@
 		
 		"Alternative contacts icon :": {
 		"tab": "Topbar options (17)",
-		"description": "> Use alternative icon for contacts bloc. \n\n - Minimal Dark #1 (fill) : Rounded icon with fill effect. \n - Minimal Dark #1 (outline) : Rounded icon with outline effect. \n - Minimal Dark #2 (fill) : Phone icon with fill effect. \n - Minimal Dark #2 (outline) : Phone icon with outline effect. \n - Minimal Dark #3 (fill) : Chat bubble with fill effect. \n - Minimal Dark #3 (outline) : Chat bubble with outline effect.",
+		"description": "> Choose the contacts icon used in the top bar.\n\n- Minimal Dark #1 (fill) : Use the filled rounded icon.\n- Minimal Dark #1 (outline) : Use the outlined rounded icon.\n- Minimal Dark #2 (fill) : Use the filled phone icon.\n- Minimal Dark #2 (outline) : Use the outlined phone icon.\n- Minimal Dark #3 (fill) : Use the filled chat bubble icon.\n- Minimal Dark #3 (outline) : Use the outlined chat bubble icon.",
 		"default": "Minimal Dark #3 (fill)",
 		"values": {
 			"Minimal Dark #1 (fill)": {},
@@ -1615,9 +1628,10 @@
 		
 		"Alternative downloads UI :": {
 		"tab": "Topbar options (17)",
-		"description": "> Change the appearance of the download block. \n\n - New UI : Set download button compact. \n - New UI (alt) : Compact button, but thinner line. \n - Vanilla rework : Vanilla ui with Minimal vibes. \n - Vanilla rework (text only) : Vanilla ui but only text \n - Minimal Dark : Default UI.",
+		"description": "> Choose the appearance of the Downloads button in the top bar.\n\n- Minimal Dark : Use the default Minimal Dark interface.\n- New UI : Use the compact new interface.\n- New UI (alt) : Use the compact new interface with a thinner progress line.\n- Vanilla rework : Use a reworked vanilla interface with Minimal Dark styling.\n- Vanilla rework (text only) : Use the reworked vanilla interface with text only.",
 		"default": "New UI (alt)",
 		"values": {
+			"Minimal Dark": {},
 			"New UI": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/topbar_options/downloads_ui/alternative_dl_ui.css"
@@ -1637,14 +1651,57 @@
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/topbar_options/downloads_ui/vanilla_dl_rework_text_only.css"
 					}
-				},
-			"Minimal Dark": {}
+				}
 			}
 		},
 		
-		"Downloads progress bar color :": {
+		"Alternative underlining :": {
 		"tab": "Topbar options (17)",
-		"description": "> Enable this option to make another color for the progress download bar. \n\n - No : Green progress bar. \n - Yes : User color progress bar.",
+		"description": "> Choose the style and position of the underline beneath the selected top bar tab.\n\n- Default (bold line) : Use a bold line in the default position.\n- Default (thin line) : Use a thin line in the default position.\n- Fade (bold line) : Use a bold fading line.\n- Fade (thin line) : Use a thin fading line.\n- To the left (bold line) : Use a bold line aligned to the left.\n- To the left (thin line) : Use a thin line aligned to the left.\n- To the right (bold line) : Use a bold line aligned to the right.\n- To the right (thin line) : Use a thin line aligned to the right.",
+		"default": "Default (thin line)",
+		"values": {
+			"Default (bold line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/dbl_underlining.css"
+					}
+				},
+			"Default (thin line)": {},
+			"Fade (bold line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/fbl_underlining.css"
+					}
+				},
+			"Fade (thin line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/ftl_underlining.css"
+					}
+				},
+			"To the left (bold line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/btl_underlining.css"
+					}
+				},
+			"To the left (thin line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/ttl_underlining.css"
+					}
+				},
+			"To the right (bold line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/btr_underlining.css"
+					}
+				},
+			"To the right (thin line)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/alt_underlining/ttr_underlining.css"
+					}
+				}
+			}
+		},
+		
+		"Download progress bar color :": {
+		"tab": "Topbar options (17)",
+		"description": "> Choose the color of the download progress bar.\n\n- No : Use green.\n- Yes : Use the selected user color.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1656,34 +1713,19 @@
 			}
 		},
 		
-		"Hover/active borders :": {
-		"tab": "Topbar options (17)",
-		"description": "> Enable this option to make the hover effect on top bar elements display a complete border (also on active). \n\n - No : Top borders only. \n - Yes : Full borders.",
-		"default": "yes",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/hover_active_borders/hover_borders.css"
-					}
-				}
-			}
-		},
-		
 		"Hide topbar elements :": {
 		"tab": "Topbar options (17)",
-		"description": "> Hide topbar menus or arrows. \n\n - Show all : Display all elements of the topbar. \n - Hide menus only : Hide only menus. \n - Hide arrows only : Hide only arrows. \n - Hide all : Hide arrows, menus and tabs. \n\n NOTE : The options for the vanilla bar should only be used if you are using the vanilla bar in the global options.",
+		"description": "> Choose which menus, navigation arrows, and tabs are visible in the top bar.\n\n- Hide all : Hide menus, arrows, and tabs.\n- Hide all (for vanilla top bar style option) : Hide all elements when using the vanilla top bar style.\n- Hide arrows only : Hide navigation arrows only.\n- Hide arrows only (for vanilla top bar style option) : Hide navigation arrows when using the vanilla top bar style.\n- Hide menus only : Hide root menus only.\n- Hide menus only (for vanilla top bar style option) : Hide root menus when using the vanilla top bar style.\n- Show all : Show every top bar element.\n\nNote : Use the vanilla-specific choices only when Vanilla top bar style is enabled.",
 		"default": "Show all",
 		"values": {
-			"Show all": {},
-			"Hide menus only": {	
+			"Hide all": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_menus_only.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_all.css"
 					}
 				},
-			"Hide menus only (for vanilla top bar style option)": {	
+			"Hide all (for vanilla top bar style option)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_menus_only_vanilla.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_all_vanilla.css"
 					}
 				},
 			"Hide arrows only": {
@@ -1696,28 +1738,43 @@
 			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_arrows_only_vanilla.css"
 					}
 				},
-			"Hide all": {
+			"Hide menus only": {	
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_all.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_menus_only.css"
 					}
 				},
-			"Hide all (for vanilla top bar style option)": {
+			"Hide menus only (for vanilla top bar style option)": {	
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_all_vanilla.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/topbar_elements/hide_menus_only_vanilla.css"
 					}
-				}
+				},
+			"Show all": {}
 			}
 		},
 		
 		"Hide topbar tabs :": {
 		"tab": "Topbar options (17)",
-		"description": "> Hide topbar tabs. \n\n - Show all : Display all tabs. \n - Hide w&c : Hide webkit and community tabs.",
+		"description": "> Choose whether to hide the WebKit and Community tabs.\n\n- Hide WebKit and Community : Hide both tabs.\n- Show all : Show all top bar tabs.",
 		"default": "Show all",
 		"values": {
-			"Show all": {},
-			"Hide w&c": {	
+			"Hide WebKit and Community": {	
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/topbar_options/topbar_tabs/hide_tabs/webkit_community.css"
+					}
+				},
+			"Show all": {}
+			}
+		},
+		
+		"Hover/active borders :": {
+		"tab": "Topbar options (17)",
+		"description": "> Choose whether hovered and active top bar items use full borders.\n\n- No : Show the top border only.\n- Yes : Show full borders.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/hover_active_borders/hover_borders.css"
 					}
 				}
 			}
@@ -1725,13 +1782,28 @@
 		
 		"Larger font :": {
 		"tab": "Topbar options (17)",
-		"description": "> Enabling this option increases the font size of the Steam root menu and tabs. \n\n - Default size : 13px \n - Medium size : 15px \n - Medium size (alt) : 16px \n - Larger size : 18px \n\n NOTE : The “Include wallet” options set the wallet text size to match the size of the selected option. “Exclude wallet” keeps the wallet text size smaller.",
+		"description": "> Choose the font size used by the Steam root menu and top bar tabs.\n\n- Default size : Use 13 px text.\n- Larger size (excluding wallet) : Use 18 px text while keeping the wallet text smaller.\n- Larger size (including wallet) : Use 18 px text, including the wallet text.\n- Medium size (alt, excluding wallet) : Use 16 px text while keeping the wallet text smaller.\n- Medium size (alt, including wallet) : Use 16 px text, including the wallet text.\n- Medium size (excluding wallet) : Use 15 px text while keeping the wallet text smaller.\n- Medium size (including wallet) : Use 15 px text, including the wallet text.",
 		"default": "Default size",
 		"values": {
 			"Default size": {},
-			"Medium size (included wallet)": {
+			"Larger size (excluding wallet)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/larger_font_text_wallet.css"
+					}
+				},
+			"Larger size (including wallet)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/larger_font_text.css"
+					}
+				},
+			"Medium size (alt, excluding wallet)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text_alt_wallet.css"
+					}
+				},
+			"Medium size (alt, including wallet)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text_alt.css"
 					}
 				},
 			"Medium size (excluding wallet)": {
@@ -1739,32 +1811,17 @@
 			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text_wallet.css"
 					}
 				},
-			"Medium size (alt - included wallet)": {
+			"Medium size (including wallet)": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text_alt.css"
-					}
-				},
-			"Medium size (alt - excluding wallet)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text_alt_wallet.css"
-					}
-				},
-			"Larger size (included wallet)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/larger_font_text.css"
-					}
-				},
-			"Larger size (excluding wallet)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/larger_font_text_wallet.css"
+			"affects": [".*"], "src": "elements/options/topbar_options/larger_font/medium_font_text.css"
 					}
 				}
 			}
-		},		
+		},
 		
 		"Larger font (fix) :": {
 		"tab": "Topbar options (17)",
-		"description": "> Enable this option if you do not see the word Steam displayed on the root button and you have enabled the larger font option. \n\n - No : Use this choice if the root menu text is displayed. \n - Yes : Use this choice if the root menu text is hidden.",
+		"description": "> Choose whether to apply the root menu text fix when Larger font is enabled.\n\n- No : Use this choice when the word Steam is already visible.\n- Yes : Use this choice when the word Steam is hidden.",
 		"default": "yes",
 		"values": {
 			"no": {},
@@ -1774,11 +1831,11 @@
 					}
 				}
 			}
-		},		
-
+		},
+		
 		"Longer tabs :": {
 		"tab": "Topbar options (17)",
-		"description": "> Make the topbar tabs longer. \n\n - No : Normal width. \n - Yes : Longer tabs.",
+		"description": "> Choose whether to increase the width of top bar tabs.\n\n- No : Use the normal tab width.\n- Yes : Use wider tabs.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1792,21 +1849,21 @@
 		
 		"Root menu Steam text :": {
 		"tab": "Topbar options (17)",
-		"description": "> Hide or show steam text in top left of the root menu. \n\n - Hide : Hide root menu Steam text. \n - Show : Display root menu Steam text.",
+		"description": "> Choose whether to display the word Steam beside the root menu icon.\n\n- Hide : Hide the text.\n- Show : Show the text.",
 		"default": "Hide",
 		"values": {
-			"Show": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_options/hide_steam_text/hide_steam_text.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
 		"Tabs text transform :": {
 		"tab": "Topbar options (17)",
-		"description": "> Set capitalize text to topbar tabs. \n\n - No : Lowercase tab text. \n - Yes : Capitalize tab text.",
+		"description": "> Choose the capitalization used by top bar tab labels.\n\n- No : Use lowercase labels.\n- Yes : Capitalize the labels.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1818,9 +1875,9 @@
 			}
 		},
 		
-		"Topbar icons menu hover effect :": {
+		"Topbar menu icon hover effect :": {
 		"tab": "Topbar options (17)",
-		"description": "> Use alternative hover effect for icons menu (display, contacts, games, support). \n\n - Fill : Fill effect on mouseover. \n - Outline : Outline effect on mouseover.",
+		"description": "> Choose the hover effect used by top bar menu icons.\n\n- Fill : Use a filled hover effect.\n- Outline : Use an outlined hover effect.",
 		"default": "Fill",
 		"values": {
 			"Fill": {},
@@ -1834,33 +1891,33 @@
 		
 		"Topbar Store tab left icon (currency icon) :": {
 		"tab": "Topbar options (17)",
-		"description": "> Changes the currency logo on the store icon. \n\n - No icon : Hide Store tabs icon. \n - Fill icon (euro) : Fill euro icon. \n - Oultine icon (euro) : Outline euro icon. \n - Fill icon (dollar) : Fill dollar icon. \n - Oultine icon (dollar) : Outline dollar icon. \n - Fill icon (pound sterling) : Fill pound sterling icon. \n - Oultine icon (pound sterling) : Outline pound sterling icon.",
+		"description": "> Choose the currency icon displayed beside the Store tab.\n\n- Fill icon (dollar) : Use a filled dollar icon.\n- Fill icon (euro) : Use a filled euro icon.\n- Fill icon (pound sterling) : Use a filled pound sterling icon.\n- No icon : Hide the currency icon.\n- Outline icon (dollar) : Use an outlined dollar icon.\n- Outline icon (euro) : Use an outlined euro icon.\n- Outline icon (pound sterling) : Use an outlined pound sterling icon.",
 		"default": "Fill icon (euro)",
 		"values": {
-			"No icon": {},
-			"Fill icon (euro)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_euro_active.css"
-					}
-				},
-			"Outline icon (euro)": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_outline_euro_active.css"
-					}
-				},
 			"Fill icon (dollar)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_dollar_active.css"
 					}
 				},
-			"Outline icon (dollar)": {
+			"Fill icon (euro)": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_outline_dollar_active.css"
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_euro_active.css"
 					}
 				},
 			"Fill icon (pound sterling)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_ps_active.css"
+					}
+				},
+			"No icon": {},
+			"Outline icon (dollar)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_outline_dollar_active.css"
+					}
+				},
+			"Outline icon (euro)": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/store_icon/store_icon_outline_euro_active.css"
 					}
 				},
 			"Outline icon (pound sterling)": {
@@ -1873,10 +1930,9 @@
 		
 		"Topbar tabs left icons (hover effect included) :": {
 		"tab": "Topbar options (17)",
-		"description": "> Adds an icon to the left of the top bar tabs text. \n\n - No icons (text only) : Hide icons and show just text tabs. \n - Icons active (fill + text) : Show icons and text tabs with fill effect. \n - Icons active (outline + text) : Show icons and text tabs with outline effect.",
+		"description": "> Choose whether top bar tabs display filled icons, outlined icons, or text only.\n\n- Icons active (fill + text) : Show filled icons and text.\n- Icons active (outline + text) : Show outlined icons and text.\n- No icons (text only) : Hide the icons and show text only.",
 		"default": "Icons active (fill + text)",
 		"values": {
-			"No icons (text only)": {},
 			"Icons active (fill + text)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/topbar_tabs_active_icons.css"
@@ -1886,13 +1942,14 @@
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/topbar_options/topbar_tabs/topbar_tabs_active_outline_icons.css"
 					}
-				}
+				},
+			"No icons (text only)": {}
 			}
 		},
 		
 		"Topbar tabs left icons, no text :": {
 		"tab": "Topbar options (17)",
-		"description": "> Enable this option if you want to have just icons and no text. \n\n - No : Show tabs text and icons. \n - Yes : Hide tabs text, show just icons.",
+		"description": "> Choose whether top bar tabs display icons without text.\n\n- No : Show both icons and text.\n- Yes : Show icons only.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -1906,7 +1963,7 @@
 		
 		"Alternative root menu icon :": {
 		"tab": "Various options (9)",
-		"description": "> Change the root menu icon with a alternative icon. \n\n - Minimal Dark : Half Steam logo. \n - Minimal Dark #1 : Full Steam logo. \n - Minimal Dark #2 : Rounded Steam logo (fill). \n - Minimal Dark #3 : Rounded Steam logo (oultine). \n - Minimal Dark #4 : Squared Steam logo (fill). \n - Minimal Dark #5 : Squared Steam logo (oultine).",
+		"description": "> Choose the icon displayed on the Steam root menu button.\n\n- Minimal Dark : Use the half Steam logo.\n- Minimal Dark #1 : Use the full Steam logo.\n- Minimal Dark #2 : Use the filled rounded Steam logo.\n- Minimal Dark #3 : Use the outlined rounded Steam logo.\n- Minimal Dark #4 : Use the filled square Steam logo.\n- Minimal Dark #5 : Use the outlined square Steam logo.",
 		"default": "Minimal Dark",
 		"values": {
 			"Minimal Dark": {},
@@ -1937,41 +1994,16 @@
 				}
 			}
 		},
-
+		
 		"Change UI font :": {
 		"tab": "Various options (9)",
-		"description": "> Change the font of the interface. \n\n - Known bugs with topbar option 'Root menu Steam text' is disabled.",
+		"description": "> Choose the font used throughout the interface.\n\n- Default : Use the default interface font.\n- DePixel : Use DePixel.\n- JetBrains : Use JetBrains Mono.\n- Maria : Use Maria.\n- Monaco : Use Monaco.\n- Orbitron : Use Orbitron.\n- Roboto : Use Roboto.\n- Share Tech : Use Share Tech.\n- Sudo Var : Use Sudo Var.\n\nNote : Some fonts may conflict with Steam text in the root menu when that option is disabled.",
 		"default": "Default",
 		"values": {
 			"Default": {},
-			"Roboto": {
+			"DePixel": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/fonts/roboto_font.css"
-					}
-				},
-			"Monaco": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/fonts/monaco_font.css"
-					}
-				},
-			"Share Tech": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/fonts/share_tech_font.css"
-					}
-				},
-			"Maria": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/fonts/maria_font.css"
-					}
-				},
-			"Sudo Var": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/fonts/sudo_var_font.css"
-					}
-				},
-			"Orbitron": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/fonts/orbitron_font.css"
+			"affects": [".*"], "src": "elements/options/various_options/fonts/depixel_font.css"
 					}
 				},
 			"JetBrains": {
@@ -1979,9 +2011,34 @@
 			"affects": [".*"], "src": "elements/options/various_options/fonts/jetbrains_font.css"
 					}
 				},
-			"DePixel": {
+			"Maria": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/fonts/depixel_font.css"
+			"affects": [".*"], "src": "elements/options/various_options/fonts/maria_font.css"
+					}
+				},
+			"Monaco": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/fonts/monaco_font.css"
+					}
+				},
+			"Orbitron": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/fonts/orbitron_font.css"
+					}
+				},
+			"Roboto": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/fonts/roboto_font.css"
+					}
+				},
+			"Share Tech": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/fonts/share_tech_font.css"
+					}
+				},
+			"Sudo Var": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/fonts/sudo_var_font.css"
 					}
 				}
 			}
@@ -1989,35 +2046,35 @@
 		
 		"Default pointers :": {
 		"tab": "Various options (9)",
-		"description": "> Display or hide pointers by default on the entire skin. \n\n - Steam : Steam default pointers. \n - Minimal Dark : Same cursor on the entire skin.",
+		"description": "> Choose the pointer style used throughout the interface.\n\n- Minimal Dark : Use a consistent Minimal Dark pointer everywhere.\n- Steam : Use Steam's default pointers.",
 		"default": "Minimal Dark",
 		"values": {
-			"Steam": {},
 			"Minimal Dark": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/various_options/pointers/default_pointers.css"
 					}
-				}
+				},
+			"Steam": {}
 			}
 		},
-
+		
 		"Hide scrollbars :": {
 		"tab": "Various options (9)",
-		"description": "> Hide or show scrollbars. \n\n - Hide : Hide all scrollbars on the entirety of the skin. \n - Show : Show all scrollbars on the entirety of the skin.",
+		"description": "> Choose whether to display scrollbars throughout the interface.\n\n- Hide : Hide all scrollbars.\n- Show : Show all scrollbars.",
 		"default": "Show",
 		"values": {
-			"Show": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/various_options/scrollbars/hide_scrollbars.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
 		"Mouseover animation of settings menu tabs :": {
 		"tab": "Various options (9)",
-		"description": "> Enable or disable the category hover effect in settings section. \n\n - Animated : Mouseover are animated. \n - Static : Mousesover are static.",
+		"description": "> Choose whether category tabs in Settings animate on hover.\n\n- Animated : Use animated hover effects.\n- Static : Use static hover effects.",
 		"default": "Animated",
 		"values": {
 			"Animated": {},
@@ -2031,7 +2088,7 @@
 		
 		"No titlebar (Linux) :": {
 		"tab": "Various options (9)",
-		"description": "> Enable this option if you are using a tiled window manager in Linux and only use keyboard shortcuts to manage windows. \n\n - No : For Windows users. \n - Yes : If you are using a tiled window manager in Linux. \n\n Note : Leave this option disabled if you are on Windows.",
+		"description": "> Hide the title bar when using a tiled window manager on Linux.\n\n- No : Keep the title bar. Use this setting on Windows.\n- Yes : Hide the title bar for keyboard-driven tiled window managers on Linux.\n\nNote : Leave this option disabled on Windows.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -2045,7 +2102,7 @@
 		
 		"Pure black color (OLED) :": {
 		"tab": "Various options (9)",
-		"description": "> Activate this option to enable pure black if you have an OLED screen. \n\n - No : Default color. \n - Yes : Pure black (oled)",
+		"description": "> Choose whether to use pure black backgrounds for OLED displays.\n\n- No : Use the default dark colors.\n- Yes : Use pure black backgrounds.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -2057,23 +2114,9 @@
 			}
 		},
 		
-		"Windows corners fix :": {
+		"Windows 10 corner fix :": {
 		"tab": "Various options (9)",
-		"description": "> Same border radius value on all topbar buttons. \n\n No : Default values. \n Yes : Same values. \n\n NOTE : If you enable this option, you will need to disable the option directly below it, 'Windows 10 fix for root close corner'.",
-		"default": "yes",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/various_options/w10_fix/same_br_root_close.css"
-					}
-				}
-			}
-		},
-		
-		"Windows 10 fix corners :": {
-		"tab": "Various options (9)",
-		"description": "> Fix the top left corner & top right corner for Windows 10 users. \n\n NOTE : Disable this option if you enable the option directly above, 'Windows corners fix'.",
+		"description": "> Choose whether to correct the upper-left and upper-right window corners on Windows 10.\n\n- No : Do not apply the Windows 10 corner fix.\n- Yes : Apply the Windows 10 corner fix.\n\nNote : When this option is enabled, disable Top bar corner consistency.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -2085,12 +2128,36 @@
 			}
 		},
 		
+		"Windows corner fix :": {
+		"tab": "Various options (9)",
+		"description": "> Choose whether all top bar buttons use the same corner radius.\n\n- No : Keep the default corner radius values.\n- Yes : Use the same corner radius for every top bar button.\n\nNote : When this option is enabled, disable Windows 10 corner fix.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/w10_fix/same_br_root_close.css"
+					}
+				}
+			}
+		},
+		
 		"Alternative UI for new Steam menu :": {
 		"tab": "Webkit options (14)",
-		"description": "> The new Steam store menu has arrived, enabling this option will offer an alternative UI. \n\n - Minimal new UI : Minimal new Steam menu without modifications. \n - Minimal new UI (buttons) : Minimal new UI (buttons). \n - Compact : Minimal new Steam menu compact. \n - Ultra compact : Minimal new Steam menu ultra compact (just an icon & default size). \n - Ultra compact #1 : Minimal new Steam menu ultra compact (just an icon & compact size).",
+		"description": "> Choose an alternative layout for the new Steam Store menu.\n\n- Minimal new UI : Use the standard Minimal Dark layout.\n- Minimal new UI (buttons) : Use the Minimal Dark layout with buttons.\n- Minimal new UI (compact buttons) : Use the compact Minimal Dark layout with buttons.\n- Minimal new UI (compact) : Use the compact Minimal Dark layout.\n- Ultra compact : Show only the icon at the default size.\n- Ultra compact #1 : Show only the icon at a compact size.",
 		"default": "Minimal new UI (compact)",
 		"values": {
 			"Minimal new UI": {},
+			"Minimal new UI (buttons)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_buttons_new_ui.css"
+					}
+				},
+			"Minimal new UI (compact buttons)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_buttons_new_ui_compact.css"
+					}
+				},
 			"Minimal new UI (compact)": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_compact_ui_new_menu.css"
@@ -2105,107 +2172,83 @@
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_ultra_compact_ui_new_menu_alt.css"
 					}
-				},
-			"Minimal new UI (buttons)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_buttons_new_ui.css"
-					}
-				},
-			"Minimal new UI (compact buttons)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/webkit_menu/webkit_buttons_new_ui_compact.css"
-					}
 				}
 			}
 		},
 		
-		"Blocs backgrounds :": {
+		"Block backgrounds :": {
 		"tab": "Webkit options (14)",
-		"description": "> This option changes the background shots of news or game update blocks to blurry or not. \n\n - Full dark : Full background, without transparency. \n - Blurred : The backgrounds are blurred.",
+		"description": "> Choose the background style used by news and game update blocks.\n\n- Blurred : Use blurred backgrounds.\n- Full dark : Use solid dark backgrounds without transparency.",
 		"default": "Blurred",
 		"values": {
-			"Full dark": {},
 			"Blurred": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/blocs_bg/blurred_blocs_background.css"
 					}
-				}
+				},
+			"Full dark": {}
 			}
 		},
 		
-		"Borders profiles :": {
+		"Carousel arrow borders :": {
 		"tab": "Webkit options (14)",
-		"description": "> Enable or disable the display borders on profile pages. \n - No : borders are displayed. \n - Yes : borders are not displayed.",
-		"default": "no",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/profiles/borders/profiles_border.css"
-					}
-				}
-			}
-		},
-		
-		"Carousel arrows borders :": {
-		"tab": "Webkit options (14)",
-		"description": "> Show or hide borders on carousel arrows on the main webkit page and for all other parts using them. \n\n - No : Hide carousel arrows borders. \n - yes : Show carousel arrows borders.",
+		"description": "> Choose whether to display borders around carousel arrows on WebKit pages.\n\n- No : Hide carousel arrow borders.\n- Yes : Show carousel arrow borders.",
 		"default": "yes",
 		"values": {
-			"yes": {},
 			"no": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/carrousel_arrows/no_border_arrows.css"
 					}
-				}
+				},
+			"yes": {}
 			}
 		},
-
-		"Compact Webkit :": {
+		
+		"Compact WebKit :": {
 		"tab": "Webkit options (14)",
-		"description": "> Hide the left sidebar on the webkit homepage. \n\n - Hide : Hide left sidebar on homepage. \n - Show : Show left sidebar webkit.",
+		"description": "> Choose whether to hide the left sidebar on the WebKit home page.\n\n- Hide : Hide the left sidebar.\n- Show : Show the left sidebar.",
 		"default": "Hide",
 		"values": {
-			"Show": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/compact_webkit/compact_webkit.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
-		"Events header :": {
+		"Event background :": {
 		"tab": "Webkit options (14)",
-		"description": "> Show or remove the events wallpaper on the webkit homepage. \n\n - Minimal Dark : Event wallpaper are displayed. \n - Hide : Events header are hidden.",
-		"default": "Minimal Dark default",
-		"values": {
-			"Minimal Dark default": {},
-			"Hide": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/events_header/webkit_no_header_promo.css"
-					}
-				}
-			}
-		},
-		
-		"Events background :": {
-		"tab": "Webkit options (14)",
-		"description": "> Display or hide the custom Steam image for events on the webkit. \n\n - Default background : Default event wallpaper. \n - Black background : Hide event wallpaper and replace it with dark color.",
+		"description": "> Choose the background used by Steam event pages.\n\n- Black background : Replace the event artwork with a dark background.\n- Default background : Show the default event artwork.",
 		"default": "Default background",
 		"values": { 
-			"Default background": {},
 			"Black background": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/events_bg/events_bg.css"
 					}
-				}
+				},
+			"Default background": {}
+			}
+		},
+		
+		"Event header :": {
+		"tab": "Webkit options (14)",
+		"description": "> Choose whether to display the event artwork header on the WebKit home page.\n\n- Hide : Hide the event artwork header.\n- Minimal Dark default : Show the event artwork header.",
+		"default": "Minimal Dark default",
+		"values": {
+			"Hide": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/events_header/webkit_no_header_promo.css"
+					}
+				},
+			"Minimal Dark default": {}
 			}
 		},
 		
 		"Hide '+ Add a Showcase' :": {
 		"tab": "Webkit options (14)",
-		"description": "> Hide '+ Add a Showcase' on your Steam profile. \n\n - No : Show '+ Add a showcase' on your Steam profile. \n - Yes : Hide '+ Add a showcase' on your Steam profile. \n\n > If you enable this option, you will no longer be able to add a new showcase to your Steam profile (unless you disable the option).",
+		"description": "> Choose whether to hide the \"+ Add a Showcase\" control on your Steam profile.\n\n- No : Show the control.\n- Yes : Hide the control.\n\nNote : When hidden, you cannot add a new showcase until this option is disabled.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -2219,21 +2262,21 @@
 		
 		"Hide footers :": {
 		"tab": "Webkit options (14)",
-		"description": "> Hide Steam information on webkit footers. \n\n - Hide : Hide legal informations at the bottom page of browser. \n - Show : Show legal informations at the bottom page of browser.",
+		"description": "> Choose whether to hide legal information in WebKit page footers.\n\n- Hide : Hide footer legal information.\n- Show : Show footer legal information.",
 		"default": "Hide",
 		"values": {
-			"Show": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/footers/no_footer_webkit.css"
 					}
-				}
+				},
+			"Show": {}
 			}
 		},
 		
 		"Hide VAC ban information on profiles :": {
 		"tab": "Webkit options (14)",
-		"description": "> Hide VAC ban information on users profiles. \n\n - Yes : Hide VAC ban information on profiles. \n - No : Show VAC ban information on profiles.",
+		"description": "> Choose whether to hide VAC ban information on user profiles.\n\n- No : Show VAC ban information.\n- Yes : Hide VAC ban information.",
 		"default": "no",
 		"values": {
 			"no": {},
@@ -2245,13 +2288,46 @@
 			}
 		},
 		
+		"Profile borders :": {
+		"tab": "Webkit options (14)",
+		"description": "> Choose whether to display borders around blocks on profile pages.\n\n- No : Hide profile block borders.\n- Yes : Show profile block borders.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/profiles/borders/profiles_border.css"
+					}
+				}
+			}
+		},
+		
+		"Profile headers :": {
+		"tab": "Webkit options (14)",
+		"description": "> Choose the header style used on Steam profile pages.\n\n- Minimal (for Steam profile themes) : Use Minimal styling while preserving colors from Steam profile themes.\n- Minimal default : Use the default Minimal Dark headers.\n- Vanilla profiles : Use Steam's vanilla profile headers.",
+		"default": "Minimal default",
+		"values": {
+			"Minimal (for Steam profile themes)": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/profiles/default_profiles_header.css"
+					}
+				},
+			"Minimal default": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/profiles/minimal_default_header.css"
+					}
+				},
+			"Vanilla profiles": {}
+			}
+		},
+		
 		"Profiles :": {
 		"tab": "Webkit options (14)",
-		"description": "> Enabling this option makes the profile page blocks full and removes the blur effect. \n\n - Minimal Dark : Blurred blocs. \n - No blur blocs : Solid black color blocs.",
+		"description": "> Choose whether profile blocks use blurred or solid backgrounds.\n\n- Minimal Dark : Use blurred blocks.\n- No blurred blocks : Use solid black blocks.",
 		"default": "Minimal Dark",
 		"values": {
 			"Minimal Dark": {},
-			"No blur blocs": {
+			"No blurred blocks": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/profiles/no_blurred_profiles.css"
 					}
@@ -2259,28 +2335,9 @@
 			}
 		},
 		
-		"Profiles headers :": {
+		"Solid profile background color :": {
 		"tab": "Webkit options (14)",
-		"description": "> If you are using profile skin (or not), enable this option to view the color of the predefined block headers in the profile you applied (also displays on the profiles you view). \n\n - Vanilla profiles : Like vanilla UI of Steam. \n - Minimal default : Minimal dark default UI. \n - Minimal (for Steam profiles skins) : If you use a Steam profile skin.",
-		"default": "Minimal default",
-		"values": {
-			"Vanilla profiles": {},
-			"Minimal default": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/profiles/minimal_default_header.css"
-					}
-				},
-			"Minimal (for Steam profiles skins)": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/webkit_options/profiles/default_profiles_header.css"
-					}
-				}
-			}
-		},
-		
-		"Solid background color profiles :": {
-		"tab": "Webkit options (14)",
-		"description": "> Make the background of profiles on WebKit dark. \n\n - Default : No changes, video and image visible. \n - Solid color : Dark and solid color, no video, no image.",
+		"description": "> Choose whether profile pages display custom artwork or a solid dark background.\n\n- Default : Show profile images and videos.\n- Solid color : Use a solid dark background without images or videos.",
 		"default": "Default",
 		"values": {
 			"Default": {},
@@ -2294,20 +2351,20 @@
 		
 		"URL bar :": {
 		"tab": "Webkit options (14)",
-		"description": "> This option allows you to permanently hide the URL bar or display it only on hover. \n\n - Visible : Steam default. \n - Hide : Hide the url bar. \n - Only show on hover : Show the url bar only on mouseover.",
+		"description": "> Choose whether the URL bar is always visible, always hidden, or shown only on hover.\n\n- Hide : Hide the URL bar.\n- Show only on hover : Show the URL bar only on hover.\n- Visible : Keep the URL bar visible.",
 		"default": "Visible",
 		"values": {
-			"Visible": {},
 			"Hide": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/url_bar/url_bar_hide.css"
 					}
 				},
-			"Only shows on hover": {
+			"Show only on hover": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/webkit_options/url_bar/url_bar_hide_show_hover.css"
 					}
-				}
+				},
+			"Visible": {}
 			}
 		}
 },
@@ -2318,7 +2375,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.8.4",
+	"version": "5.9.0",
 
 	"github": {
 		"owner": "SaiyajinK",
