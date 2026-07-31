@@ -1747,12 +1747,42 @@ button.QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable {
     transform: translate(0px, -2px) !important;
 }
 
-.eKmEXJCm_lgme24Fp_HWt {
-    background: none !important;
-    border: none !important;
-    padding: 10px !important;
+.eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q.FieldDescription {
+    transition: .25s ease-out !important;
+}
+
+.eKmEXJCm_lgme24Fp_HWt:hover ._1W1to_azoBRG95oNAFpf9Q.FieldDescription {
+    color: white !important;
+    transition: .25s ease-out !important;
+}
+
+.eKmEXJCm_lgme24Fp_HWt ._3jMlJm4PQCA8SfNlUR99Fo.FieldLabel {
+    transition: .25s ease-out !important;
+    color: #dcdedf !important;
+}
+
+.eKmEXJCm_lgme24Fp_HWt:hover ._3jMlJm4PQCA8SfNlUR99Fo.FieldLabel {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+.MillenniumDesktopSidebar_Overlay {
+    background: rgb(12 12 12 / 75%) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+.eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
-    margin-bottom: 5px;
+    background: var(--minimal_dark_blacker_alt) !important;
+    transition: .25s ease-out !important;
+}
+
+.DialogBody.aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx {
+    border: none !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: transparent !important;
+    transition: .25s ease-out !important;
 }
 
 .eKmEXJCm_lgme24Fp_HWt.GxgIyq8R5xTOeu4ftGrgX::after {
@@ -1770,9 +1800,42 @@ html.responsive div#footer.compact .footer_content {
 }
 
 ._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX .MillenniumDesktopSidebar {
-    width: 640px !important;
+    width: 50% !important;
     background: rgb(18 18 18 / 60%) !important;
     backdrop-filter: blur(8px) !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._3jMlJm4PQCA8SfNlUR99Fo.DesktopUI, .DesktopUI ._3jMlJm4PQCA8SfNlUR99Fo {
+    font-size: 12px !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.MillenniumDesktopSidebar:not([data-focused-item-type="THEME"]) {
+    width: 360px !important;
+    min-width: 360px !important;
+    max-width: 360px !important;
+    flex: 0 0 360px !important;
+}
+
+.MillenniumDesktopSidebar[data-focused-item-type="THEME"] {
+    width: 1000px !important;
+    min-width: 1000px !important;
+    max-width: 1000px !important;
+    flex: 0 0 1000px !important;
+}
+
+.MillenniumDesktopSidebar {
+    transition:
+        width 250ms ease,
+        min-width 250ms ease,
+        max-width 250ms ease,
+        flex-basis 250ms ease !important;
+}
+
+.PSZtxj2h3MlyYv-c9dgke.FieldRightColumn {
+    display: flex;
+    align-items: center;
 }
 
 ._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX .MillenniumDesktopSidebar .MillenniumDesktopSidebar_Title._34nl5vUoFCDYYnmHNL7axB.Panel {
@@ -1805,6 +1868,7 @@ html.responsive div#footer.compact .footer_content {
 ._2sssIwe0duyIrFvat2oXzH._3few7361SOf4k_YuKCmM62.MillenniumSettings.Panel ._1W1to_azoBRG95oNAFpf9Q {
     margin-top: 0px !important;
     margin-bottom: 10px !important;
+    color: #dcdedf !important;
 }
 
 ._3Vl2zkYPoCpw1q_1n28D3z {
