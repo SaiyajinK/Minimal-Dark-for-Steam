@@ -1839,7 +1839,7 @@ html.client_chat_frame .popup_chat_frame {
     border-radius: var(--minimal_dark_corner) !important;
     width: 30px !important;
     height: 30px !important;
-    transform: translate(1px, -1px) !important;
+    /* transform: translate(1px, -1px) !important; */
     z-index: 1 !important;
     background: transparent !important;
     border: 1px solid grey !important;
