@@ -1,0 +1,21 @@
+/* Context menu: reveal from bottom */
+@keyframes MinimalDarkContextMenuOpen {
+    from {
+        opacity: 0;
+        clip-path: inset(100% 0 0 0);
+    }
+
+    to {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+body.SteamUIPopupWindowBody #popup_target .PP7LM0Ow1K5qkR8WElLpt.visible.ready, .DialogMenuPosition.visible.ready {
+    animation:
+        MinimalDarkContextMenuOpen
+        420ms
+        cubic-bezier(.2, .8, .2, 1)
+        70ms
+        both !important;
+}
