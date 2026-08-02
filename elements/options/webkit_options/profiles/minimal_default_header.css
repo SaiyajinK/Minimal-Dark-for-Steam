@@ -144,3 +144,15 @@
 .commentthread_area {
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
+
+.recent_game>.recent_game_content {
+    padding: 15px 15px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: #1212125e !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.game_info_badge {
+    box-shadow: none !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
