@@ -1,18 +1,28 @@
-/* Reliable menus/context menus opening animation */
+/*
+ *  Animation fiable d’ouverture des menus et menus contextuels
+ */
 (() => {
     "use strict";
 
+    /* Sélecteur commun aux fenêtres de menus créées par Steam. */
     const MENU_SELECTOR = ".PP7LM0Ow1K5qkR8WElLpt";
 
+    /* Nom et paramètres de l’animation définie dans le fichier CSS. */
     const ANIMATION_NAME =
         "MinimalDarkContextMenuOpen";
 
     const ANIMATION =
         `${ANIMATION_NAME} 420ms cubic-bezier(.2, .8, .2, 1) 70ms both`;
 
+    /* Empêche le script d’être installé plusieurs fois dans la même fenêtre. */
     const INSTALL_KEY =
         "__minimalDarkContextMenuAnimationInstalled";
 
+    /*
+     * États associés à chaque menu :
+     * animations en attente, actives, contenu précédent et dernier démarrage.
+     * WeakMap et WeakSet permettent leur suppression automatique avec le menu.
+     */
     const pendingAnimations = new WeakMap();
     const initialChecks = new WeakMap();
     const activeAnimations = new WeakMap();
@@ -22,6 +32,7 @@
     const lastCssAnimation = new WeakMap();
     const lastAnimationStarts = new WeakMap();
 
+    /* Installe le système uniquement dans une fenêtre contextuelle Steam. */
     const install = () => {
         if (!document.body?.classList.contains("ContextMenuPopupBody")) {
             return;
@@ -29,24 +40,29 @@
 
         const popupTarget = document.getElementById("popup_target");
 
+        /* Arrête si le conteneur est absent ou si le script est déjà installé. */
         if (!popupTarget || window[INSTALL_KEY]) {
             return;
         }
 
         window[INSTALL_KEY] = true;
 
+        /* Détecte la fenêtre spéciale utilisée pour les notifications. */
         const isNotificationsWindow =
             document.documentElement.classList.contains(
                 "Notifications_Menu"
             );
 
+        /* Vérifie que Steam considère le menu comme entièrement ouvert. */
         const isOpen = (menu) =>
             menu.classList.contains("visible") &&
             menu.classList.contains("ready");
 
+        /* Normalise le texte afin de détecter un changement de contenu. */
         const getContent = (menu) =>
             menu.textContent.replace(/\s+/g, " ").trim();
 
+        /* Annule une animation programmée, mais pas encore démarrée. */
         const clearPendingAnimation = (menu) => {
             const pending = pendingAnimations.get(menu);
 
@@ -56,6 +72,7 @@
             }
         };
 
+        /* Annule la vérification effectuée lors du premier affichage. */
         const clearInitialCheck = (menu) => {
             const pending = initialChecks.get(menu);
 
@@ -65,6 +82,7 @@
             }
         };
 
+        /* Arrête le suivi d’une animation active et retire ses événements. */
         const clearActiveAnimation = (menu) => {
             const active = activeAnimations.get(menu);
 
@@ -87,6 +105,10 @@
             activeAnimations.delete(menu);
         };
 
+        /*
+         * Suit une animation jusqu’à sa fin ou son annulation.
+         * Le délai de 800 ms sert de sécurité si aucun événement n’est reçu.
+         */
         const trackAnimation = (menu) => {
             clearActiveAnimation(menu);
             lastAnimationStarts.set(menu, performance.now());
@@ -139,6 +161,7 @@
             );
         };
 
+        /* Nettoie tous les états et styles ajoutés à un menu. */
         const resetMenu = (menu) => {
             clearPendingAnimation(menu);
             clearInitialCheck(menu);
@@ -152,12 +175,12 @@
             menu.style.removeProperty("clip-path");
         };
 
-        /*
-         * If Steam closes a menu before its opening animation ends,
-         * keep it hidden instead of removing the animation styles.
-         * Removing them immediately would briefly reveal the complete
-         * menu before its native popup window disappears.
-         */
+		/*
+		 * Si Steam ferme un menu avant la fin de son animation d’ouverture,
+		 * conservez-le masqué au lieu de supprimer les styles d’animation.
+		 * Leur suppression immédiate afficherait brièvement le menu complet
+		 * avant la disparition de sa fenêtre contextuelle native.
+		 */
         const hideInterruptedMenu = (menu) => {
             clearPendingAnimation(menu);
             clearInitialCheck(menu);
@@ -219,10 +242,10 @@
             }) ?? null;
         };
 
-        /*
-         * Keep the CSS animation that Steam has already started.
-         * The JavaScript must not cancel and replay this first run.
-         */
+		/*
+		 * Conserver l’animation CSS déjà démarrée par Steam.
+		 * Le JavaScript ne doit pas annuler et rejouer cette première exécution.
+		 */
         const adoptCssAnimation = (menu, animation) => {
             everSeen.add(menu);
             lastCssAnimation.set(menu, animation);
@@ -290,10 +313,10 @@
                 force = force || previousPending.force;
             }
 
-            /*
-             * This path is used only when Steam reuses an existing
-             * open menu or when no CSS animation was detected.
-             */
+			/*
+			 * Ce chemin est utilisé uniquement lorsque Steam réutilise un menu
+			 * déjà ouvert ou lorsqu’aucune animation CSS n’a été détectée.
+			 */
             menu.style.setProperty(
                 "animation",
                 "none",
@@ -333,10 +356,10 @@
                 return;
             }
 
-            /*
-             * Content inserted during a running animation belongs
-             * to that same opening and must never restart it.
-             */
+			/*
+			 * Le contenu inséré pendant une animation en cours appartient
+			 * à cette même ouverture et ne doit jamais la redémarrer.
+			 */
             if (activeAnimations.has(menu)) {
                 previousContents.set(menu, getContent(menu));
                 return;
@@ -358,11 +381,11 @@
                 return;
             }
 
-            /*
-             * A menu with no saved content is opening for the first
-             * time. Wait one frame so the browser can expose the CSS
-             * animation, then adopt it instead of restarting it.
-             */
+			/*
+			 * Un menu sans contenu mémorisé s’ouvre pour la première fois.
+			 * Attendre une image permet au navigateur d’exposer l’animation CSS,
+			 * puis de l’adopter au lieu de la redémarrer.
+			 */
             if (!previousContents.has(menu)) {
                 const existingCheck = initialChecks.get(menu);
 
@@ -373,11 +396,11 @@
                     return;
                 }
 
-                /*
-                 * Record the opening immediately, before waiting for
-                 * requestAnimationFrame. This also covers a second
-                 * click made during the very first rendered frame.
-                 */
+				/*
+				 * Enregistrer immédiatement l’ouverture avant d’attendre
+				 * requestAnimationFrame. Cela couvre également un second
+				 * clic effectué pendant la toute première image affichée.
+				 */
                 lastAnimationStarts.set(
                     menu,
                     performance.now()
@@ -409,11 +432,11 @@
 
                     everSeen.add(menu);
 
-                    /*
-                     * Keep a CSS animation that belongs to this
-                     * opening, even if it finished before this
-                     * JavaScript had time to inspect it.
-                     */
+					/*
+					 * Conserver une animation CSS appartenant à cette ouverture,
+					 * même si elle s’est terminée avant que ce JavaScript
+					 * ait eu le temps de l’examiner.
+					 */
                     if (
                         cssAnimation &&
                         (
