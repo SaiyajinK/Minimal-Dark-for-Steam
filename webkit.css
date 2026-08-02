@@ -3108,16 +3108,27 @@ span#profile_action_dropdown_link img {
 	border-top:0!important;
 }
 
-.game_info_achievements_badge .game_info_badge_border {
-    border-radius: var(--minimal_dark_corner) !important;
-    box-shadow: none !important;
+/* .game_info_achievements_badge .game_info_badge_border { */
+    /* border-radius: var(--minimal_dark_corner) !important; */
+    /* box-shadow: none !important; */
+    /* border: 1px solid var(--minimal_dark_be_grey) !important; */
+/* } */
+
+.game_info_achievement img {
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    transform: translate(0px, -1px) !important;
+}
+
+.game_info_badge {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: none;
 }
 
 .game_info_badge_border {
-	border:0!important;
-	border-radius:0px!important;
-	background-color:rgba(0,0,0,0)!important;
+	border: 0 !important;
+	border-radius: 0px !important;
+	background-color: rgba(0,0,0,0) !important;
+	box-shadow: none !important;
 }
 
 .achievement_progress_bar_ctn {
@@ -3148,6 +3159,8 @@ span#profile_action_dropdown_link img {
 }
 
 .game_info_achievement.plus_more, .showcase_achievement.plus_more {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
     box-shadow: none !important;
 }
 
@@ -5325,7 +5338,7 @@ h2.pageheader {
     padding: 15px 15px!important;
     border-radius: var(--minimal_dark_corner) !important;
     background: #1212125e !important;
-    border: 1px solid var(--minimal_dark_be_grey);
+    border: none;
 }
 
 body.profile_page #footer {
@@ -5346,7 +5359,8 @@ body.profile_page #footer {
 }
 
 .recent_game .achievement_icons {
-	float:right!important;
+    float: right !important;
+    padding: 2px !important;
 }
 
 .sale_page_background {
