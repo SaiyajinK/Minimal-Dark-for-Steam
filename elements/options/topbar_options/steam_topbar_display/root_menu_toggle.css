@@ -1,0 +1,65 @@
+/*
+ * Option : conserve uniquement le bouton Steam dans la barre supérieure
+ * et anime l'affichage des autres menus, flèches et onglets.
+ */
+
+html.MinimalDarkRootMenuMode .RootMenuBar {
+    box-sizing: border-box !important;
+    flex-shrink: 0 !important;
+    min-width: 0 !important;
+    width: var(--minimal-dark-root-menu-full-width) !important;
+    max-width: var(--minimal-dark-root-menu-button-width) !important;
+    overflow: hidden !important;
+    transition:
+        max-width 380ms cubic-bezier(.22, 1, .36, 1) !important;
+}
+
+html.MinimalDarkRootMenuMode.MinimalDarkTopbarExpanded
+    .RootMenuBar {
+    max-width: var(--minimal-dark-root-menu-full-width) !important;
+}
+
+html.MinimalDarkRootMenuMode .SuperNav {
+    box-sizing: border-box !important;
+    flex-shrink: 0 !important;
+    min-width: 0 !important;
+    width: var(--minimal-dark-super-nav-full-width) !important;
+    max-width: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    transform: translateX(-12px) scale(.985) !important;
+    transform-origin: left center !important;
+    transition:
+        max-width 420ms cubic-bezier(.22, 1, .36, 1),
+        opacity 180ms ease-out,
+        transform 360ms cubic-bezier(.22, 1, .36, 1),
+        visibility 0s linear 420ms !important;
+}
+
+html.MinimalDarkRootMenuMode.MinimalDarkTopbarExpanded
+    .SuperNav {
+    max-width: var(--minimal-dark-super-nav-full-width) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: translateX(0) scale(1) !important;
+    transition-delay: 55ms, 55ms, 55ms, 0s !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html.MinimalDarkRootMenuMode .RootMenuBar,
+    html.MinimalDarkRootMenuMode .SuperNav {
+        transition-duration: 0ms !important;
+        transition-delay: 0ms !important;
+    }
+}
+
+/*
+ * Fin d'option : affichage repliable de la barre supérieure.
+ */
+ 
+._3Z3ohQ8-1NKnCZkbS6fvy {
+    margin-left: 226px !important;
+}
