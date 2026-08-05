@@ -736,6 +736,7 @@ button.DialogButton:active, button.DialogButton.gpfocus {
     margin-left: 15px !important;
     padding-bottom: 10px !important;
     margin-top: 0px !important;
+    line-height: 29px !important;
 }
 
 .friendlistListContainer .friend .avatarHolder .avatarStatus, .FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
@@ -1455,6 +1456,7 @@ button.DialogButton.Primary:active {
     color: rgb(68 209 131 / 85%) !important;
     opacity: 1 !important;
     margin-left: 10px !important;
+    transform: translate(-4px, 1px) !important;
 }
 
 .gameGroup .gameGroupContainer {
@@ -3137,11 +3139,6 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
     transform: scale(1) translate(0px, 0px) !important;
     transition: .25s ease-out !important;
 }
-
-/* .compactView .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.online.awayOrSnooze .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu { */
-    /* transform: scale(1) translate(0px, 0px) !important; */
-    /* transition: .25s ease-out !important; */
-/* } */
 
 .compactView .DropTarget.quickAccessFriends.compactQuickAccess .nibodjvvrm86uCfnnAn4g.avatarHolder.no-drag.Medium.online.awayOrSnooze .X_mJE4BYV5StDPwZhSiAu ._3fM0F85j3aWVzr4RJM9-eu {
     transform: scale(1) translate(3px, 0px) !important;
