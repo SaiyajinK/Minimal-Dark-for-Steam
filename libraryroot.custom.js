@@ -219,3 +219,7 @@
         start();
     }
 })();
+/*
+* Fin de correction des dimensions des fenêtres natives utilisées par
+* les menus et sous-menus de Steam.
+*/
