@@ -48,9 +48,11 @@ body.SteamDeckTheme .profile_customization_header, body.SteamDeckTheme .profile_
 }
 /* end profil neon header */
 
-/* ._2MSFQv8F34No-YaWoPUlC_:hover .zOiWIqdjr4HIUZy3CNUuF { */
-    /* fill: var(--minimal_dark_color1) !important; */
-/* } */
+/* Wishlist — neutralise la nouvelle scrollbar Steam */
+html:has(#StoreTemplate) {
+    scrollbar-color: auto !important;
+}
+/* End wishlist — neutralise la nouvelle scrollbar Steam */
 
 ::-webkit-scrollbar {
     width: 12px !important;
@@ -16945,5 +16947,4 @@ select option:hover {
 .HGCiCZ2mhusHJku7z15Nw:hover {
     background-color: var(--minimal_dark_blacker) !important;
 }
-
 /* end webkit */
