@@ -2591,14 +2591,6 @@ button.p0Gsr94HawQ-:active {
     transform: translate(0px, -8px) !important;
 }
 
-/* .PE-3oq-yIvg-.-SAg8UMCWZ4- a._9KYdPze1X3k- { */
-    /* transform: translate(0px, -4px) !important; */
-/* } */
-
-/* .PE-3oq-yIvg-.-SAg8UMCWZ4- ._6QzykeEsckc- { */
-    /* transform: translate(0px, -7px) !important; */
-/* } */
-
 .Vy3rNuKLunU-._8hEc07LCoLU- {
     color: white !important;
     background-color: var(--minimal_dark_color1) !important;
@@ -2642,5 +2634,16 @@ button.p0Gsr94HawQ-:active {
 
 ._3BsNYqJmlVM- .rsMD9WnTopA- .hPiY1A-1izA- {
     font-size: 16px !important;
+}
+
+#add_to_wishlist_area_success .wishlist_added_temp_notice {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    color: var(--minimal_dark_status_green) !important;
+    border-radius: 0px !important;
+}
+
+#add_to_wishlist_area_success .wishlist_added_temp_notice:after {
+    visibility: hidden !important;
 }
 /* end new wushlist fix */
