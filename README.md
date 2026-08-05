@@ -49,10 +49,10 @@
 | 🪪 Miniprofile | 2 |
 | 🎯 Overlay | 5 |
 | 📂 Sidebar | 15 |
-| 🔝 Topbar | 17 |
+| 🔝 Topbar | 20 |
 | 🧩 Various | 9 |
 | 🌍 Webkit | 14 |
-| **Total** | **130** |
+| **Total** | **133** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -886,7 +886,7 @@ _On hover_ :<br>
 
 <hr>
 
-### <ins>Topbar options</ins> (17) : 
+### <ins>Topbar options</ins> (20) : 
 
 <details><summary>Alignment fix for 4K resolution :</summary><br> 
 
@@ -1013,6 +1013,37 @@ _yes_ :<br>
 
 _Hide_ :<br>
 <img src="https://github.com/user-attachments/assets/617c121e-1c45-4e16-a796-ccdfcde72a0e"></p></details>
+
+
+<details><summary>Steam menu activation :</summary><br> 
+
+_On click_ :<br>
+<img src=""></p>
+
+_On hover (compact avatar)_ :<br>
+<img src=""></p>
+
+_On hover (normal avatar)_ :<br>
+<img src=""></p></details>
+
+<details><summary>Steam tab submenus activation :</summary><br> 
+
+_On click_ :<br>
+<img src=""></p>
+
+_On hover_ :<br>
+<img src=""></p></details>
+
+<details><summary>Steam topbar visibility :</summary><br> 
+
+_Collapsed_ :<br>
+<img src=""></p>
+
+_Collapsed (Steam root menu text shown)_ :<br>
+<img src=""></p>
+
+_Default_ :<br>
+<img src=""></p></details>
 
 <details><summary>Tabs text transform :</summary><br> 
 
