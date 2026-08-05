@@ -639,7 +639,7 @@
 		"Animation for context menus/menus :": {
 		"tab": "Global options (14)",
 		"description": "> Choose the opening animation used by menus and context menus.\n\n- No animation : Open instantly.\n- Reveal from bottom : Reveal from bottom to top. This option is not recommended.\n- Reveal from center : Reveal outward from the center.\n- Reveal from left : Reveal from left to right.\n- Reveal from right : Reveal from right to left.\n- Reveal from sides : Reveal from both sides toward the center.\n- Reveal from top : Reveal from top to bottom.",
-		"default": "Reveal from top",
+		"default": "Reveal from left",
 		"values": {
 			"No animation": {},
 			"Reveal from bottom": {
@@ -1579,7 +1579,7 @@
 		},
 		
 		"Alignment fix for 4K resolution :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose whether to apply the top bar alignment fix for 4K displays.\n\n- No : Do not apply the fix.\n- Yes : Apply the alignment fix.",
 		"default": "no",
 		"values": {
@@ -1593,7 +1593,7 @@
 		},
 		
 		"Alternative contacts icon :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose the contacts icon used in the top bar.\n\n- Minimal Dark #1 (fill) : Use the filled rounded icon.\n- Minimal Dark #1 (outline) : Use the outlined rounded icon.\n- Minimal Dark #2 (fill) : Use the filled phone icon.\n- Minimal Dark #2 (outline) : Use the outlined phone icon.\n- Minimal Dark #3 (fill) : Use the filled chat bubble icon.\n- Minimal Dark #3 (outline) : Use the outlined chat bubble icon.",
 		"default": "Minimal Dark #3 (fill)",
 		"values": {
@@ -1627,7 +1627,7 @@
 		},
 		
 		"Alternative downloads UI :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose the appearance of the Downloads button in the top bar.\n\n- Minimal Dark : Use the default Minimal Dark interface.\n- New UI : Use the compact new interface.\n- New UI (alt) : Use the compact new interface with a thinner progress line.\n- Vanilla rework : Use a reworked vanilla interface with Minimal Dark styling.\n- Vanilla rework (text only) : Use the reworked vanilla interface with text only.",
 		"default": "New UI (alt)",
 		"values": {
@@ -1656,7 +1656,7 @@
 		},
 		
 		"Alternative underlining :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose the style and position of the underline beneath the selected top bar tab.\n\n- Default (bold line) : Use a bold line in the default position.\n- Default (thin line) : Use a thin line in the default position.\n- Fade (bold line) : Use a bold fading line.\n- Fade (thin line) : Use a thin fading line.\n- To the left (bold line) : Use a bold line aligned to the left.\n- To the left (thin line) : Use a thin line aligned to the left.\n- To the right (bold line) : Use a bold line aligned to the right.\n- To the right (thin line) : Use a thin line aligned to the right.",
 		"default": "Default (thin line)",
 		"values": {
@@ -1700,7 +1700,7 @@
 		},
 		
 		"Download progress bar color :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose the color of the download progress bar.\n\n- No : Use green.\n- Yes : Use the selected user color.",
 		"default": "no",
 		"values": {
@@ -1714,7 +1714,7 @@
 		},
 		
 		"Hide topbar elements :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose which menus, navigation arrows, and tabs are visible in the top bar.\n\n- Hide all : Hide menus, arrows, and tabs.\n- Hide all (for vanilla top bar style option) : Hide all elements when using the vanilla top bar style.\n- Hide arrows only : Hide navigation arrows only.\n- Hide arrows only (for vanilla top bar style option) : Hide navigation arrows when using the vanilla top bar style.\n- Hide menus only : Hide root menus only.\n- Hide menus only (for vanilla top bar style option) : Hide root menus when using the vanilla top bar style.\n- Show all : Show every top bar element.\n\nNote : Use the vanilla-specific choices only when Vanilla top bar style is enabled.",
 		"default": "Show all",
 		"values": {
@@ -1753,7 +1753,7 @@
 		},
 		
 		"Hide topbar tabs :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose whether to hide the WebKit and Community tabs.\n\n- Hide WebKit and Community : Hide both tabs.\n- Show all : Show all top bar tabs.",
 		"default": "Show all",
 		"values": {
@@ -1767,7 +1767,7 @@
 		},
 		
 		"Hover/active borders :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose whether hovered and active top bar items use full borders.\n\n- No : Show the top border only.\n- Yes : Show full borders.",
 		"default": "yes",
 		"values": {
@@ -1781,7 +1781,7 @@
 		},
 		
 		"Larger font :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose the font size used by the Steam root menu and top bar tabs.\n\n- Default size : Use 13 px text.\n- Larger size (excluding wallet) : Use 18 px text while keeping the wallet text smaller.\n- Larger size (including wallet) : Use 18 px text, including the wallet text.\n- Medium size (alt, excluding wallet) : Use 16 px text while keeping the wallet text smaller.\n- Medium size (alt, including wallet) : Use 16 px text, including the wallet text.\n- Medium size (excluding wallet) : Use 15 px text while keeping the wallet text smaller.\n- Medium size (including wallet) : Use 15 px text, including the wallet text.",
 		"default": "Default size",
 		"values": {
@@ -1820,7 +1820,7 @@
 		},
 		
 		"Larger font (fix) :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose whether to apply the root menu text fix when Larger font is enabled.\n\n- No : Use this choice when the word Steam is already visible.\n- Yes : Use this choice when the word Steam is hidden.",
 		"default": "yes",
 		"values": {
@@ -1834,7 +1834,7 @@
 		},
 		
 		"Longer tabs :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose whether to increase the width of top bar tabs.\n\n- No : Use the normal tab width.\n- Yes : Use wider tabs.",
 		"default": "no",
 		"values": {
@@ -1848,7 +1848,7 @@
 		},
 		
 		"Root menu Steam text :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose whether to display the word Steam beside the root menu icon.\n\n- Hide : Hide the text.\n- Show : Show the text.",
 		"default": "Hide",
 		"values": {
@@ -1861,8 +1861,66 @@
 			}
 		},
 		
+		"Steam menu activation :": {
+		"tab": "Topbar options (20)",
+		"description": "> Choose how Steam menus are opened.\n\n- On click : Open menus with a mouse click.\n- On hover : Open menus by hovering over them.\n\n NOTE : Mouse clicks are disabled when a hover option is selected.",
+		"default": "On click",
+		"values": {
+			"On click": {},
+			"On hover (compact avatar)": {
+			"TargetJs": {
+			"affects": [".*"], "src": "elements/options/topbar_options/steam_menu_on_hover/open_on_hover_compact.js"
+					}
+				},
+			"On hover (normal avatar)": {
+			"TargetJs": {
+			"affects": [".*"], "src": "elements/options/topbar_options/steam_menu_on_hover/open_on_hover_normal.js"
+					}
+				}
+			}
+		},
+		
+		"Steam tab submenus activation :": {
+		"tab": "Topbar options (20)",
+		"description": "> Choose how Steam tab submenus are opened.\n\n- On click : Open submenus by clicking their tabs.\n- On hover : Open submenus by hovering over their tabs.\n\n NOTE : For the “On click” option, a single click opens the tab’s submenu. To access the tab’s link, double-click it.",
+		"default": "On hover",
+		"values": {
+			"On click": {
+			"TargetJs": {
+			"affects": [".*"], "src": "elements/options/topbar_options/steam_tab_on_click/open_on_click.js"
+					}
+				},
+			"On hover": {}
+			}
+		},
+		
+		"Steam topbar visibility :": {
+		"tab": "Topbar options (20)",
+		"description": "> Choose how the Steam topbar is displayed.\n\n- Collapsed : Keep only the Steam root menu visible. Single-click it to open its submenu, and double-click it to reveal or hide the rest of the topbar.\n- Collapsed (Steam root menu text shown) : The same option, but only if you do not display the root menu text.\n- Default : Keep all Steam menus, arrows, and tabs visible.\n\n NOTE #1 : The topbar remains expanded after a double-click. Double-click the Steam root menu again to collapse it.\n NOTE #2 : This option is not compatible with the global “Vanilla topbar style” option.",
+		"default": "Default",
+			"values": {
+			"Collapsed": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/steam_topbar_display/root_menu_toggle.css"
+				},
+			"TargetJs": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/steam_topbar_display/root_menu_toggle.js"
+					}
+				},
+			"Collapsed (Steam root menu text shown) :": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/steam_topbar_display/root_menu_toggle_rm.css"
+				},
+			"TargetJs": {
+			"affects": ["^Steam$"], "src": "elements/options/topbar_options/steam_topbar_display/root_menu_toggle.js"
+					}
+				},
+			"Default": {}
+			}
+		},
+		
 		"Tabs text transform :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose the capitalization used by top bar tab labels.\n\n- No : Use lowercase labels.\n- Yes : Capitalize the labels.",
 		"default": "no",
 		"values": {
@@ -1876,7 +1934,7 @@
 		},
 		
 		"Topbar menu icon hover effect :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose the hover effect used by top bar menu icons.\n\n- Fill : Use a filled hover effect.\n- Outline : Use an outlined hover effect.",
 		"default": "Fill",
 		"values": {
@@ -1890,7 +1948,7 @@
 		},
 		
 		"Topbar Store tab left icon (currency icon) :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose the currency icon displayed beside the Store tab.\n\n- Fill icon (dollar) : Use a filled dollar icon.\n- Fill icon (euro) : Use a filled euro icon.\n- Fill icon (pound sterling) : Use a filled pound sterling icon.\n- No icon : Hide the currency icon.\n- Outline icon (dollar) : Use an outlined dollar icon.\n- Outline icon (euro) : Use an outlined euro icon.\n- Outline icon (pound sterling) : Use an outlined pound sterling icon.",
 		"default": "Fill icon (euro)",
 		"values": {
@@ -1929,7 +1987,7 @@
 		},
 		
 		"Topbar tabs left icons (hover effect included) :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose whether top bar tabs display filled icons, outlined icons, or text only.\n\n- Icons active (fill + text) : Show filled icons and text.\n- Icons active (outline + text) : Show outlined icons and text.\n- No icons (text only) : Hide the icons and show text only.",
 		"default": "Icons active (fill + text)",
 		"values": {
@@ -1948,7 +2006,7 @@
 		},
 		
 		"Topbar tabs left icons, no text :": {
-		"tab": "Topbar options (17)",
+		"tab": "Topbar options (20)",
 		"description": "> Choose whether top bar tabs display icons without text.\n\n- No : Show both icons and text.\n- Yes : Show icons only.",
 		"default": "no",
 		"values": {
@@ -2375,7 +2433,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "5.9.2",
+	"version": "5.9.6",
 
 	"github": {
 		"owner": "SaiyajinK",
