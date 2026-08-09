@@ -1014,36 +1014,26 @@ _yes_ :<br>
 _Hide_ :<br>
 <img src="https://github.com/user-attachments/assets/617c121e-1c45-4e16-a796-ccdfcde72a0e"></p></details>
 
-
 <details><summary>Steam menu activation :</summary><br> 
 
 _On click_ :<br>
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/60a4fa02-28ba-439f-9d0e-82ecba88523a"></p>
 
-_On hover (compact avatar)_ :<br>
-<img src=""></p>
-
-_On hover (normal avatar)_ :<br>
-<img src=""></p></details>
+_On hover_ :<br>
+<img src="https://github.com/user-attachments/assets/7a3e70a4-30f6-4e4e-9e2c-f973b434b98d"></p></p></details>
 
 <details><summary>Steam tab submenus activation :</summary><br> 
 
 _On click_ :<br>
-<img src=""></p>
+<img src="https://github.com/user-attachments/assets/26f15f31-537b-4dba-addb-3f026cf214a2"></p>
 
 _On hover_ :<br>
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/062145be-d88e-4ad1-bef4-97abf95fb948"></p></details>
 
 <details><summary>Steam topbar visibility :</summary><br> 
 
 _Collapsed_ :<br>
-<img src=""></p>
-
-_Collapsed (Steam root menu text shown)_ :<br>
-<img src=""></p>
-
-_Default_ :<br>
-<img src=""></p></details>
+<img src="https://github.com/user-attachments/assets/13d5fa72-fdcf-4623-beb8-8485d0519c7d"></p></details>
 
 <details><summary>Tabs text transform :</summary><br> 
 
