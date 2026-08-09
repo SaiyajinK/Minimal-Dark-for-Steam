@@ -1820,6 +1820,8 @@ body.v6 div#global_header .content {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     line-height: 28px !important;
+    padding: 0px 10px 0px 10px !important;
+	margin-right: 0px !important;
 }
 
 .apphub_sectionTabsHR {
@@ -2093,6 +2095,10 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
 
 .apphub_BackToTopButton.rightcap, .apphub_BackToTopButton.leftcap {
     display: none !important;
+}
+
+.discussionSearchTextContainer::before {
+    visibility: hidden !important;
 }
 
 .discussionSearchTextContainer {
@@ -2909,19 +2915,6 @@ body.v6 .discount_block {
     background: 0 0!important;
 }
 
-a.search_result_row.ds_collapse_flag .responsive_search_name_combined .col.search_price_discount_combined.responsive_secondrow .discount_prices {
-    border-radius: var(--minimal_dark_corner) !important;
-    width: auto !important;
-    max-width: fit-content;
-    padding-right: 10px !important;
-    padding-left: 10px !important;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
 .discount_block_large .discount_prices {
 	border-radius:0px!important;
 }
@@ -3515,15 +3508,6 @@ img.game_header_image_full {
 .game_area_dlc_bubble {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey)!important;
-}
-
-.ds_flag.ds_completetheset {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    color: var(--minimal_dark_color1) !important;
-    font-weight: 700 !important;
-    background: #12121285 !important;
-    backdrop-filter: blur(10px) !important;
 }
 
 .game_description_column h2,.recommendation_bodytext h2 {
@@ -6424,7 +6408,7 @@ a.gutter_item:hover {
 
 body.v6 .game_area_already_owned.page_content {
     background: var(--minimal_dark_blacker) !important;
-    color: var(--minimal_dark_progress_bar) !important;
+    color: #21ced0 !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     margin-bottom: 10px !important;
     border-radius: var(--minimal_dark_corner) !important;
@@ -6433,18 +6417,6 @@ body.v6 .game_area_already_owned.page_content {
 
 .game_area_already_owned .already_in_library {
     transform: translate(12px, -4px) !important;
-}
-
-.package_in_library_flag.in_own_library {
-    background: #1919199c !important;
-    backdrop-filter: blur(8px);
-    border-radius: var(--minimal_dark_corner) !important;
-    color: var(--minimal_dark_browser_overlay_close);
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-}
-
-.package_in_library_flag.in_own_library span {
-    color: var(--minimal_dark_browser_overlay_close) !important;
 }
 
 #home_gutter_recentlyviewed {
@@ -9260,10 +9232,6 @@ img.communitylink_achievement {
 ._1BxZDLT8KveuJzn-1q4NTP .OS07NfYlp6v-Eh5oQ7dwn {
     color: var(--minimal_dark_color1) !important;
     opacity: .5 !important;
-}
-
-.profile_flag {
-    border-radius: var(--minimal_dark_corner) !important;
 }
 
 .pre_release_review {
@@ -12305,6 +12273,7 @@ a.view_inactive:hover {
 
 .apphub_sectionTab.active {
     border: 1px solid var(--minimal_dark_color1) !important;
+    padding: 0px 10px 0px 10px !important;
 }
 
 .store_main_capsule .reason .main .tags > span, .tab_preview .tags > a {
@@ -15185,104 +15154,6 @@ textarea.gLFyf, .YacQv {
 	color: var(--minimal_dark_color1) !important;
 }
 
-.ds_flag {
-    color: var(--minimal_dark_browser_overlay_close) !important;
-}
-
-.ds_flag.ds_incart_flag {
-    border-radius: var(--minimal_dark_corner) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    color: var(--minimal_dark_status_green) !important;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nI2QPQrCQBCFI+zM4hXsVLDwpxcsBMFTWFkoYmdlZyl6hc1MtBD0Cl7BU2Rn4jkiiIEkiuTB18x8zXsBJq4DSgsbu2bwL3VPDevDKSrdgipB5SsqbcuA0KwoCjuMuWs9tzLAux4qUVncWX9u529G3dAIrQsiCM9B6QjKywxUvoBQvyAa4fH7kRPNMxx9t0nTGijfUfkEwgdUepiEVj+bg9AeJBp8VthYjSaVJsvnBft7Wb8WFcRNAAAAAElFTkSuQmCC") no-repeat 4px 4px #12121285 !important;
-    backdrop-filter: blur(10px) !important;
-    border-left: 1px solid var(--minimal_dark_status_green) !important;
-    transform: translate(3px, -12px) !important;
-}
-
-.ds_incart_flag.ds_flag::before {
-    margin-right: 5px !important;
-}
-
-.ds_owned_flag.ds_flag::before {
-    content: "☰" !important;
-    margin-right: 5px !important;
-}
-
-.ds_wishlist_flag.ds_flag::before {
-    margin-right: 5px !important;
-}
-
-.ds_owned_flag.ds_flag {
-    background: #1919199c !important;
-    backdrop-filter: blur(8px);
-    border-radius: var(--minimal_dark_corner) !important;
-    padding: 0 0 0 4px !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    transform: translate(3px, -12px) !important;
-    border-left: 1px solid var(--minimal_dark_browser_overlay_close) !important;
-}
-
-.ds_collapse_flag.ds_collapse_flag_tiny.ds_flagged .ds_flag.ds_owned_flag {
-    top: 4px !important;
-    margin-left: 2px !important;
-    height: 18px !important;
-}
-
-.ds_collapse_flag.ds_collapse_flag_tiny.ds_flagged .ds_flag.ds_wishlist_flag {
-    top: 1px !important;
-    margin-left: 2px !important;
-    height: 18px !important;
-}
-
-.ds_collapse_flag.ds_collapse_flag_tiny .ds_flag.ds_owned_flag {
-    border-left: 1px solid var(--minimal_dark_browser_overlay_close) !important;
-    background: #1919199c !important;
-    backdrop-filter: blur(8px);
-    border-radius: var(--minimal_dark_corner) !important;
-	color: var(--minimal_dark_browser_overlay_close) !important;
-}
-
-.ds_collapse_flag.ds_collapse_flag_tiny .ds_flag.ds_wishlist_flag {
-    border-left: 1px solid #d3deea !important;
-    background: #1919199c !important;
-    backdrop-filter: blur(8px);
-    border-radius: var(--minimal_dark_corner) !important;
-	color: #d3deea !important;
-}
-
-.ds_collapse_flag_tiny.ds_flagged:hover .ds_flag {
-    padding-left: 5px !important;
-}
-
-.ds_flag.ds_wishlist_flag {
-	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkUlEQVR4nI2OsQkCURBELxIRMRYxEG3DKq4Ar4Grw0JswcBEE0PBTg5M5v0NVxa+4P07xIWBZeYxTFUV5+7TUOkPTlIj6fAP+ACeg8DdJ2a2SSntgRbwrDa8yIIJcA5cv4CeJN27rlt8WmfAZQS8RVFvgpltS9DMdoOtQJ2BV1b89Rh4BM7AWtISOIU3Bq5+eW+QbLpxgzr0LQAAAABJRU5ErkJggg==') no-repeat 4px 4px #1919199c !important;
-    backdrop-filter: blur(8px);
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-left: 1px solid #d3deea !important;
-	color:  #d3deea !important;
-	border-radius: var(--minimal_dark_corner) !important;
-    transform: translate(3px, -12px) !important;
-}
-
-.carousel_items.store_capsule_container.responsive_scroll_snap_ctn .ds_flag.ds_wishlist_flag {
-    /* transform: translate(3px, -26px) !important; */
-	transform: translate(3px, -10px) !important;
-}
-
-.search_suggest .match .ds_flag.ds_wishlist_flag {
-    width: 10px !important;
-    transition: .25s ease-out !important;
-}
-
-.search_suggest .match .ds_flag.ds_incart_flag {
-    border-left: 1px solid var(--minimal_dark_status_green) !important;
-}
-
-.search_area .popup_body .match:hover .ds_flag.ds_wishlist_flag {
-    width: auto !important;
-	transition: .25s ease-out !important;
-}
-
 .game_area_purchase_game_dropdown_menu_items_container tr:first-child td {
     border-top: 1px solid rgb(38,38,38) !important;
 }
@@ -16134,16 +16005,12 @@ div#StoreTemplate .v2uRRqcZpzM-.Panel .ny5zKM3-7ec- a._-4fVuiRLPho-.ZfTk6ryId-Y-
     transition: .25s ease-out !important;
 }
 
-div#StoreTemplate .v2uRRqcZpzM-.Panel .ny5zKM3-7ec- a._-4fVuiRLPho-.ZfTk6ryId-Y-.Focusable {
-
-}
-
 ._16jZ3HEbtaJTl80pQINN2Y.Panel.Focusable a._175B12uOwmeGBNcSaQFe-Z._1tJxbjNzcWSdG2hBsklCTN.Focusable span.BReXgOZvJY6u4htWQn1aF {
     transform: translate(0px, -1px) !important;
 }
 
 ._16jZ3HEbtaJTl80pQINN2Y.Panel.Focusable a._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5.Focusable svg {
-    transform: translate(0px, 1px) !important;
+    transform: translate(0px, -1px) !important;
 }
 
 span.BReXgOZvJY6u4htWQn1aF {
@@ -16946,5 +16813,10 @@ select option:hover {
 
 .HGCiCZ2mhusHJku7z15Nw:hover {
     background-color: var(--minimal_dark_blacker) !important;
+}
+
+.anticheat_nonkernel_notice {
+    border-radius: 5px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 /* end webkit */
