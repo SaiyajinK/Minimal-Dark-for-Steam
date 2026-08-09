@@ -163,9 +163,15 @@
              * Fonction interne de Steam qui redimensionne
              * la fenêtre native actuellement ouverte.
              */
+			/*
+			 * Convertit les dimensions CSS selon la mise à l’échelle DPI
+			 * avant de les transmettre à la fenêtre native.
+			 */
+            const dpiScale = window.devicePixelRatio || 1;
+
             window.SteamClient?.Window?.ResizeTo?.(
-                targetWidth,
-                targetHeight,
+                Math.ceil(targetWidth * dpiScale),
+                Math.ceil(targetHeight * dpiScale),
                 true
             );
         };
