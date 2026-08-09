@@ -1,6 +1,5 @@
 <div align="center">
-
-<p align="center"><img src="https://github.com/user-attachments/assets/3675a0a9-74bc-4d52-a3b1-6813bc19e770" width="400" height="58"> <img src="https://github.com/user-attachments/assets/2046df08-2913-4ea0-a0f0-af598e9a7faa" width="166" height="75"></p>
+<p align="center"><img width="400" height="58" alt="mdfs26" src="https://github.com/user-attachments/assets/02c13c4a-6376-4836-a75d-e83d3eacd91f"> <img width="166" height="75" alt="mdfs_l" src="https://github.com/user-attachments/assets/836eec4f-1e5c-43e1-9207-aa6a82a95421"></p>
 <p align="center">for Steam.</p><br>
 
 <p align="center">
@@ -1304,7 +1303,7 @@ _Visible_ :<br>
 
 ### 📸 Preview :
 
-| <img width="844,5" height="495" alt="minimal_1125" src="https://github.com/user-attachments/assets/233d5c3a-b001-44d5-a52a-0e583532ccc2" />  |
+| <img width="844,5" height="495" alt="mdfs_p" src="https://github.com/user-attachments/assets/790b0e4e-e84b-41a5-b008-ea937edcae87" />  |
 | ------ |
 
 <p align="center">
