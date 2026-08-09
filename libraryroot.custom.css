@@ -815,7 +815,8 @@ html._2GpKTB_eizdXpH2xVGbMKi body {
     background: var(--minimal_dark_black) !important;
     color: var(--minimal_dark_less_white);
     border-radius: var(--minimal_dark_corner) !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
+    box-shadow: none !important;
 }
 
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:hover {
