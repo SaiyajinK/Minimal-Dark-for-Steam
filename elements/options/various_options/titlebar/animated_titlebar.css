@@ -1,0 +1,255 @@
+/* Barre de titre animée */
+:is(.DesktopUI, .friendsui-container) .title-area-icon.minimizeButton, :is(.DesktopUI, .friendsui-container) .title-area-icon.maximizeButton, :is(.DesktopUI, .friendsui-container) .title-area-icon.restoreButton, :is(.DesktopUI, .friendsui-container) .title-area-icon.closeButton {
+    position: relative !important;
+}
+
+/* Transition de couleur sur l'état normal, le survol et le clic. */
+:is(.DesktopUI, .friendsui-container) .title-area-icon:is(.minimizeButton, .maximizeButton, .restoreButton, .closeButton) svg, :is(.DesktopUI, .friendsui-container) .title-area-icon:is(.minimizeButton, .maximizeButton, .restoreButton, .closeButton) svg * {
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon:is(.minimizeButton, .maximizeButton, .restoreButton, .closeButton):hover svg, :is(.DesktopUI, .friendsui-container) .title-area-icon:is(.minimizeButton, .maximizeButton, .restoreButton, .closeButton):hover svg * {
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon:is(.minimizeButton, .maximizeButton, .restoreButton, .closeButton):active svg, :is(.DesktopUI, .friendsui-container) .title-area-icon:is(.minimizeButton, .maximizeButton, .restoreButton, .closeButton):active svg * {
+    color: white !important;
+    stroke: white !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.minimizeButton svg {
+    overflow: visible !important;
+}
+
+/* Réduire : le trait se redessine lentement de gauche à droite. */
+:is(.DesktopUI, .friendsui-container) .title-area-icon.minimizeButton:hover svg line {
+    stroke: var(--minimal_dark_color) !important;
+    stroke-linecap: round !important;
+    stroke-dasharray: 240;
+    animation: animated-titlebar-reduce-line 720ms cubic-bezier(.2, .65, .25, 1) both !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.minimizeButton:active svg line {
+    stroke: white !important;
+    transition: .25s ease-out !important;
+}
+
+@keyframes animated-titlebar-reduce-line {
+    0% {
+        stroke-dashoffset: 240;
+    }
+
+    8% {
+        stroke-dashoffset: 240;
+    }
+
+    72% {
+        filter: drop-shadow(0 0 2px var(--minimal_dark_color));
+        stroke-dashoffset: 18;
+    }
+
+    100% {
+        filter: drop-shadow(0 0 0 transparent);
+        stroke-dashoffset: 0;
+    }
+}
+
+/* Agrandir : les quatre coins s'ouvrent vers l'extérieur. */
+:is(.DesktopUI, .friendsui-container) .title-area-icon.maximizeButton:hover svg {
+    opacity: 0 !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.maximizeButton::before {
+    content: "" !important;
+    position: absolute !important;
+    z-index: 2 !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: 12px !important;
+    height: 12px !important;
+    translate: -50% -50% !important;
+    color: var(--minimal_dark_color) !important;
+    background: linear-gradient(currentColor 0 0) left top / 0 2px no-repeat, linear-gradient(currentColor 0 0) left top / 2px 0 no-repeat, linear-gradient(currentColor 0 0) right top / 0 2px no-repeat, linear-gradient(currentColor 0 0) right top / 2px 0 no-repeat, linear-gradient(currentColor 0 0) left bottom / 0 2px no-repeat, linear-gradient(currentColor 0 0) left bottom / 2px 0 no-repeat, linear-gradient(currentColor 0 0) right bottom / 0 2px no-repeat, linear-gradient(currentColor 0 0) right bottom / 2px 0 no-repeat;
+    opacity: 0;
+    pointer-events: none !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.maximizeButton:hover::before {
+    animation: animated-titlebar-maximize-corners 360ms cubic-bezier(.22, .8, .24, 1) both !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.maximizeButton:active::before {
+    color: white !important;
+    transition: .25s ease-out !important;
+}
+
+@keyframes animated-titlebar-maximize-corners {
+    0% {
+        width: 5px;
+        height: 5px;
+        opacity: 0;
+        background-size: 0 1.5px, 1.5px 0, 0 1.5px, 1.5px 0, 0 1.5px, 1.5px 0, 0 1.5px, 1.5px 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    72% {
+        width: 11px;
+        height: 11px;
+        background-size: 4px 1px, 1px 4px, 4px 1px, 1px 4px, 4px 1px, 1px 4px, 4px 1px, 1px 4px;
+    }
+
+    100% {
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+        background-size: 4px 1px, 1px 4px, 4px 1px, 1px 4px, 4px 1px, 1px 4px, 4px 1px, 1px 4px;
+    }
+}
+
+/* Restaurer : les deux fenêtres basculent en profondeur. */
+:is(.DesktopUI, .friendsui-container) .title-area-icon.restoreButton:hover svg {
+    opacity: 0 !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.restoreButton::before, :is(.DesktopUI, .friendsui-container) .title-area-icon.restoreButton::after {
+    content: "" !important;
+    position: absolute !important;
+    z-index: 2 !important;
+    top: 50% !important;
+    left: 50% !important;
+    box-sizing: border-box !important;
+    width: 10px !important;
+    height: 10px !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    border-radius: 1px !important;
+    opacity: 0;
+    pointer-events: none !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.restoreButton:hover::before {
+    animation: animated-titlebar-restore-back 480ms cubic-bezier(.22, .8, .24, 1) both !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.restoreButton:hover::after {
+    animation: animated-titlebar-restore-front 480ms cubic-bezier(.22, .8, .24, 1) both !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.restoreButton:active::before, :is(.DesktopUI, .friendsui-container) .title-area-icon.restoreButton:active::after {
+    border-color: white !important;
+    transition: .25s ease-out !important;
+}
+
+@keyframes animated-titlebar-restore-back {
+    0% {
+        opacity: 1;
+        transform: translate(-5px, -5px);
+    }
+
+    58% {
+        opacity: .5;
+        transform: translate(-3px, -7px);
+    }
+
+    100% {
+        opacity: .8;
+        transform: translate(-4px, -6px);
+    }
+}
+
+@keyframes animated-titlebar-restore-front {
+    0% {
+        opacity: .65;
+        transform: translate(-5px, -5px);
+    }
+
+    58% {
+        opacity: 1;
+        transform: translate(-7px, -3px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-6px, -4px);
+    }
+}
+
+/* Fermer : les deux traits de la croix se redessinent l'un après l'autre. */
+:is(.DesktopUI, .friendsui-container) .title-area-icon.closeButton:hover > .title-area-icon-inner, :is(.DesktopUI, .friendsui-container) .title-area-icon.closeButton:hover > svg {
+    opacity: 0 !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.closeButton::before, :is(.DesktopUI, .friendsui-container) .title-area-icon.closeButton::after {
+    content: "" !important;
+    position: absolute !important;
+    z-index: 2 !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: clamp(14px, 66%, 16px) !important;
+    height: 1.5px !important;
+    border-radius: 999px !important;
+    background: white !important;
+    opacity: 0;
+    pointer-events: none !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.closeButton:hover::before {
+    animation: animated-titlebar-close-stroke-first 280ms cubic-bezier(.22, .8, .24, 1) both !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.closeButton:hover::after {
+    animation: animated-titlebar-close-stroke-second 280ms 125ms cubic-bezier(.22, .8, .24, 1) both !important;
+    transition: .25s ease-out !important;
+}
+
+:is(.DesktopUI, .friendsui-container) .title-area-icon.closeButton:active::before, :is(.DesktopUI, .friendsui-container) .title-area-icon.closeButton:active::after {
+    background: white !important;
+    transition: .25s ease-out !important;
+}
+
+@keyframes animated-titlebar-close-stroke-first {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) rotate(45deg) scaleX(0);
+    }
+
+    18% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) rotate(45deg) scaleX(1);
+    }
+}
+
+@keyframes animated-titlebar-close-stroke-second {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) rotate(-45deg) scaleX(0);
+    }
+
+    18% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) rotate(-45deg) scaleX(1);
+    }
+}
+/* Fin barre de titre animée */
