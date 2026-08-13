@@ -2018,7 +2018,7 @@
 		},
 		
 		"Alternative root menu icon :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Choose the icon displayed on the Steam root menu button.\n\n- Minimal Dark : Use the half Steam logo.\n- Minimal Dark #1 : Use the full Steam logo.\n- Minimal Dark #2 : Use the filled rounded Steam logo.\n- Minimal Dark #3 : Use the outlined rounded Steam logo.\n- Minimal Dark #4 : Use the filled square Steam logo.\n- Minimal Dark #5 : Use the outlined square Steam logo.",
 		"default": "Minimal Dark",
 		"values": {
@@ -2051,8 +2051,22 @@
 			}
 		},
 		
+		"Animated titlebar :": {
+		"tab": "Various options (10)",
+		"description": "> This option animates the title area (minimize, maximize/restore, and close buttons).\n\n- No : Static titlebar.\n- Yes : Animate the titlebar.",
+		"default": "Yes",
+		"values": {
+			"No": {},
+			"Yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/various_options/titlebar/animated_titlebar.css"
+					}
+				}
+			}
+		},
+		
 		"Change UI font :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Choose the font used throughout the interface.\n\n- Default : Use the default interface font.\n- DePixel : Use DePixel.\n- JetBrains : Use JetBrains Mono.\n- Maria : Use Maria.\n- Monaco : Use Monaco.\n- Orbitron : Use Orbitron.\n- Roboto : Use Roboto.\n- Share Tech : Use Share Tech.\n- Sudo Var : Use Sudo Var.\n\nNote : Some fonts may conflict with Steam text in the root menu when that option is disabled.",
 		"default": "Default",
 		"values": {
@@ -2101,7 +2115,7 @@
 		},
 		
 		"Default pointers :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Choose the pointer style used throughout the interface.\n\n- Minimal Dark : Use a consistent Minimal Dark pointer everywhere.\n- Steam : Use Steam's default pointers.",
 		"default": "Minimal Dark",
 		"values": {
@@ -2115,7 +2129,7 @@
 		},
 		
 		"Hide scrollbars :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Choose whether to display scrollbars throughout the interface.\n\n- Hide : Hide all scrollbars.\n- Show : Show all scrollbars.",
 		"default": "Show",
 		"values": {
@@ -2129,7 +2143,7 @@
 		},
 		
 		"Mouseover animation of settings menu tabs :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Choose whether category tabs in Settings animate on hover.\n\n- Animated : Use animated hover effects.\n- Static : Use static hover effects.",
 		"default": "Animated",
 		"values": {
@@ -2143,7 +2157,7 @@
 		},
 		
 		"No titlebar (Linux) :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Hide the title bar when using a tiled window manager on Linux.\n\n- No : Keep the title bar. Use this setting on Windows.\n- Yes : Hide the title bar for keyboard-driven tiled window managers on Linux.\n\nNote : Leave this option disabled on Windows.",
 		"default": "no",
 		"values": {
@@ -2157,7 +2171,7 @@
 		},
 		
 		"Pure black color (OLED) :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Choose whether to use pure black backgrounds for OLED displays.\n\n- No : Use the default dark colors.\n- Yes : Use pure black backgrounds.",
 		"default": "no",
 		"values": {
@@ -2171,7 +2185,7 @@
 		},
 		
 		"Windows 10 corner fix :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Choose whether to correct the upper-left and upper-right window corners on Windows 10.\n\n- No : Do not apply the Windows 10 corner fix.\n- Yes : Apply the Windows 10 corner fix.\n\nNote : When this option is enabled, disable Top bar corner consistency.",
 		"default": "no",
 		"values": {
@@ -2185,7 +2199,7 @@
 		},
 		
 		"Windows corner fix :": {
-		"tab": "Various options (9)",
+		"tab": "Various options (10)",
 		"description": "> Choose whether all top bar buttons use the same corner radius.\n\n- No : Keep the default corner radius values.\n- Yes : Use the same corner radius for every top bar button.\n\nNote : When this option is enabled, disable Windows 10 corner fix.",
 		"default": "yes",
 		"values": {
@@ -2431,7 +2445,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.0.0",
+	"version": "6.0.1",
 
 	"github": {
 		"owner": "SaiyajinK",
