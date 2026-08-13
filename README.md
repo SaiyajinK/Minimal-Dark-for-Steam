@@ -49,9 +49,9 @@
 | 🎯 Overlay | 5 |
 | 📂 Sidebar | 15 |
 | 🔝 Topbar | 20 |
-| 🧩 Various | 9 |
+| 🧩 Various | 10 |
 | 🌍 Webkit | 14 |
-| **Total** | **133** |
+| **Total** | **134** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -1076,7 +1076,7 @@ _yes_ :<br>
 
 <hr>
 
-### <ins>Various options</ins> (9) : 
+### <ins>Various options</ins> (10) : 
 
 <details><summary>Alternative root menu icon :</summary><br>  
 
@@ -1091,6 +1091,14 @@ _Minimal Dark #2_ :<br>
 
 _Minimal Dark #4_ :<br>
 <img src="https://github.com/user-attachments/assets/555a0dc8-859c-44c9-8ba9-c561026ecec0"></p></details>
+
+<details><summary>Animated titlebar :</summary><br> 
+
+_yes_ :<br>
+<img src="https://github.com/user-attachments/assets/fb0175ba-4ae8-40b7-9400-23e2a92a3056"></p>
+
+<img src="https://github.com/user-attachments/assets/e37281a0-e776-4edc-bb8e-5b515ca1e3f9"></p></details>
+
 
 <details><summary>Change UI font :</summary><br>  
 
