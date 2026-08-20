@@ -1565,6 +1565,7 @@ button.DialogButton.Primary:active {
 .friendlistListContainer .friend.ingame .labelHolder {
     /* padding-top: 6px !important; */
     padding-top: 4px !important;
+	padding-bottom: 5px !important;
 }
 
 .friendlistListContainer .friend.online .labelHolder {
