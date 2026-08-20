@@ -2977,3 +2977,15 @@ div#searchSuggestions_«r0» ._3dtnlw7cvJhAMGafZPipGv.rG10F9nINvk6AFeTNj9Ki {
     color: #8f98a0 !important;
 }
 /* end personnal calendar */
+
+/* fix overlay scrollbar background */
+html.responsive body {
+    background: var(--minimal_dark_blacker) !important;
+}
+/* end fix overlay scrollbar background */
+
+._3cXgxM5dBuTxGOOYw0lxsP {
+    background-color: var(--minimal_dark_color) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
