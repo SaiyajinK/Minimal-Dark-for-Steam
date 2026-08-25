@@ -2616,3 +2616,7 @@ margin-bottom: 10px !important;
 ._2tALpM7z8naXJ35Pp5fNAG {
     background: var(--minimal_dark_blacker_alt) !important;
 }
+
+.MillenniumDesktopSidebar ._2tALpM7z8naXJ35Pp5fNAG.FieldLeftColumn {
+    background: transparent !important;
+}
