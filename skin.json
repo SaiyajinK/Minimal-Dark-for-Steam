@@ -1337,7 +1337,7 @@
 			"Acrylic": {},
 			"Solid dark color": {
 			"TargetCss": {
-			"affects": ["*$"], "src": "elements/options/overlay_options/millennium/bg_solid_color.css"
+			"affects": [".*"], "src": "elements/options/overlay_options/millennium/bg_solid_color.css"
 					}
 				}
 			}
