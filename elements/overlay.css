@@ -1801,7 +1801,7 @@ html.responsive div#footer.compact .footer_content {
 
 ._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX .MillenniumDesktopSidebar {
     width: 50% !important;
-    background: rgb(18 18 18 / 60%) !important;
+    background: rgb(18 18 18 / 60%);
     backdrop-filter: blur(8px) !important;
     border-left: 1px solid var(--minimal_dark_be_grey) !important;
 }
@@ -1811,14 +1811,14 @@ html.responsive div#footer.compact .footer_content {
     color: var(--minimal_dark_color) !important;
 }
 
-.MillenniumDesktopSidebar:not([data-focused-item-type="THEME"]) {
+.MillenniumDesktopSidebar:not([data-focused-item-type="THEME"]), .MillenniumDesktopSidebar:not([data-focused-item-type="PLUGIN"]) {
     width: 360px !important;
     min-width: 360px !important;
     max-width: 360px !important;
     flex: 0 0 360px !important;
 }
 
-.MillenniumDesktopSidebar[data-focused-item-type="THEME"] {
+.MillenniumDesktopSidebar[data-focused-item-type="THEME"], .MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] {
     width: 1000px !important;
     min-width: 1000px !important;
     max-width: 1000px !important;
