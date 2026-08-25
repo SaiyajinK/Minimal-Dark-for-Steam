@@ -1260,7 +1260,7 @@
 		},
 		
 		"Bigger buttons :": {
-		"tab": "Overlay options (5)",
+		"tab": "Overlay options (6)",
 		"description": "> Choose whether to enlarge overlay buttons.\n\n- No : Use the default button size.\n- Yes : Use larger buttons.",
 		"default": "no",
 		"values": {
@@ -1274,7 +1274,7 @@
 		},
 		
 		"No button labels in list mode :": {
-		"tab": "Overlay options (5)",
+		"tab": "Overlay options (6)",
 		"description": "> Choose whether to hide overlay button labels in list mode.\n\n- No : Show button labels.\n- Yes : Hide button labels and show icons only.",
 		"default": "yes",
 		"values": {
@@ -1288,7 +1288,7 @@
 		},
 		
 		"No button labels in normal mode :": {
-		"tab": "Overlay options (5)",
+		"tab": "Overlay options (6)",
 		"description": "> Choose whether to hide overlay button labels in normal mode.\n\n- No : Show button labels.\n- Yes : Hide button labels and show icons only.",
 		"default": "no",
 		"values": {
@@ -1302,7 +1302,7 @@
 		},
 		
 		"Notification toast border color :": {
-		"tab": "Overlay options (5)",
+		"tab": "Overlay options (6)",
 		"description": "> Choose where notification toast borders use the selected user color.\n\n- User color on all borders : Apply the user color to every border.\n- User color on top : Apply the user color to the top border only.",
 		"default": "User color on top",
 		"values": {
@@ -1316,7 +1316,7 @@
 		},
 		
 		"Notification toast text color :": {
-		"tab": "Overlay options (5)",
+		"tab": "Overlay options (6)",
 		"description": "> Choose the text color used in notification toasts.\n\n- Default : Use white text.\n- User color : Use the selected user color.",
 		"default": "Default",
 		"values": {
@@ -1324,6 +1324,20 @@
 			"User color": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/overlay_options/toast/text_color/user_color.css"
+					}
+				}
+			}
+		},
+		
+		"Millennium sidebar background ": {
+		"tab": "Overlay options (6)",
+		"description": "> Choose the background style used for the Millennium sidebar.\n\n- Acrylic : Use the default acrylic background.\n- Solid dark color : Use a solid dark background.",
+		"default": "Acrylic",
+		"values": {
+			"Acrylic": {},
+			"Solid dark color": {
+			"TargetCss": {
+			"affects": ["*$"], "src": "elements/options/overlay_options/millennium/bg_solid_color.css"
 					}
 				}
 			}
@@ -2445,7 +2459,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.0.2",
+	"version": "6.0.4",
 
 	"github": {
 		"owner": "SaiyajinK",
