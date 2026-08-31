@@ -1,0 +1,11 @@
+.FavoriteFriend_GameIcon {
+  display: block !important;
+  position: absolute !important;
+	bottom: -24px !important;
+	background-color: transparent !important;
+}
+
+.FavoriteFriend_GameIcon img {
+  border-radius: var(--minimal_dark_corner) !important;
+  border: 1px solid var(--minimal_dark_be_grey) !important;
+}
