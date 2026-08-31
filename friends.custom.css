@@ -2054,7 +2054,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .FavoriteFriend_GameIcon {
-    display: none !important;
+    display: none;
 }
 
 .groupName .gameGroupContainer .groupIcon {
