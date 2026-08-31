@@ -68,7 +68,7 @@
 		},
 		
 		"Alternative color for received/sent messages :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose the colors used for sent and received messages in conversations.\n\n- Colored : Use blue for sent messages and light green for received messages.\n- Default Steam colors : Use off-white for sent messages and gray for received messages.",
 		"default": "Colored",
 		"values": {
@@ -82,7 +82,7 @@
 		},
 		
 		"Alternative normal view for favorite contacts :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Use a smaller normal layout for favorite contacts while keeping contact names visible.\n\n- No : Use the default normal layout.\n- Yes : Use the reduced normal layout.\n\nNote : This option only works when compact mode for favorite contacts is disabled in Steam's settings.",
 		"default": "no",
 		"values": {
@@ -96,7 +96,7 @@
 		},
 		
 		"Animated hovering :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose whether contacts animate when hovered in the friends list.\n\n- No : Disable the hover animation.\n- Yes : Slide contact text to the right on hover.",
 		"default": "yes",
 		"values": {
@@ -110,7 +110,7 @@
 		},
 		
 		"Avatar size :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose the avatar size used in the friends list.\n\n- Default : Use medium avatars.\n- Large (known issues) : Use large avatars. Display issues may occur depending on the game description length and friends list window size.\n- Small : Use small avatars.",
 		"default": "Default",
 		"values": {
@@ -129,7 +129,7 @@
 		},
 		
 		"Font size :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose the friends list font size. This setting does not apply in compact mode.\n\n- Default : Use Steam's default font size.\n- Smaller : Use a smaller font size.",
 		"default": "Smaller",
 		"values": {
@@ -143,7 +143,7 @@
 		},
 		
 		"Friends conversation tabs header glow :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose the glow and status dot displayed on conversation tabs.\n\n- Default : Show the yellow glow and yellow dot.\n- Hide (only red dot) : Hide the glow and show only the red dot.\n- Hide (only user color dot) : Hide the glow and show only the user-color dot.\n- Hide (only yellow dot) : Hide the glow and show only the yellow dot.\n- User color : Show a user-color glow and user-color dot.",
 		"default": "Default",
 		"values": {
@@ -172,7 +172,7 @@
 		},
 		
 		"Friends list header glow :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose whether to hide the glow behind the profile picture in the friends list.\n\n- No : Keep the glow effect.\n- Yes : Hide the glow effect.",
 		"default": "no",
 		"values": {
@@ -185,8 +185,22 @@
 			}
 		},
 		
+		"Game icon for favorite contacts :": {
+		"tab": "Friends options (14)",
+		"description": "> Choose whether to display the game icon on the tile of a friend pinned to your favorites.\n\n- No : Hide the game icon on favorite contacts.\n- Yes : Show the game icon on favorite contacts.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_options/fav_game_icon/show_fav_game_icon.css"
+					}
+				}
+			}
+		},		
+
 		"Group chat position :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose the position of the group chat block.\n\n- Default (bottom) : Keep Steam's default bottom position.\n- Hide : Hide the group chat block.\n- Top : Move the group chat block to the top.",
 		"default": "Default (bottom)",
 		"values": {
@@ -209,7 +223,7 @@
 		},
 		
 		"Hide footer :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose whether to hide the footer in the friends list.\n\n- No : Show the footer.\n- Yes : Hide the bottom footer bar.",
 		"default": "yes",
 		"values": {
@@ -223,7 +237,7 @@
 		},
 		
 		"Hide footer (fix) :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Enable the animated replacement for the create-group-chat icon when the friends list footer is hidden.\n\n- No : Do not apply the replacement.\n- Yes : Apply the animated replacement.",
 		"default": "yes",
 		"values": {
@@ -237,7 +251,7 @@
 		},
 		
 		"Hide voice chat :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose whether to hide the voice chat button in conversations.\n\n- No : Show the voice chat button.\n- Yes : Hide the voice chat button.",
 		"default": "no",
 		"values": {
@@ -251,7 +265,7 @@
 		},
 		
 		"Inverted contact block :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose the alignment of avatars and text in the contact list.\n\n- No : Place avatars on the left and text on the right.\n- Yes : Place avatars on the right and text on the left.",
 		"default": "no",
 		"values": {
@@ -265,7 +279,7 @@
 		},
 		
 		"Offline friends :": {
-		"tab": "Friends options (13)",
+		"tab": "Friends options (14)",
 		"description": "> Choose whether to display the Offline Friends section in the friends list.\n\n- Hide : Hide the section. Offline friends remain available through search.\n- Show : Show the Offline Friends section.",
 		"default": "Show",
 		"values": {
@@ -2459,7 +2473,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.0.5",
+	"version": "6.0.6",
 
 	"github": {
 		"owner": "SaiyajinK",
