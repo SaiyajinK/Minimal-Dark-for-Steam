@@ -41,7 +41,7 @@
 | Category | Options |
 |----------|:--------:|
 | 👤 Account | 4 |
-| 👥 Friends | 13 |
+| 👥 Friends | 14 |
 | 🎮 Gamepage | 19 |
 | 🌐 Global | 14 |
 | 📚 Library | 18 |
@@ -51,7 +51,7 @@
 | 🔝 Topbar | 20 |
 | 🧩 Various | 10 |
 | 🌍 Webkit | 14 |
-| **Total** | **135** |
+| **Total** | **136** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
