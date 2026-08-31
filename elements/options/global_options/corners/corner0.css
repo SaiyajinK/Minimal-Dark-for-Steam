@@ -3155,3 +3155,26 @@ html.responsive body {
 ._2YwI6QyeX5t6yHIRe9YxHR:hover ._2gZBTB3Ko7mAvZCtcGVqVm {
     color: var(--minimal_dark_color1) !important;
 }
+
+/* Extendium Style Fix ; by @madmaxgrey */
+.extendium-toolbar-manager-context-menu ._2EstNjFIIZm_WUSKm5Wt7n {
+    background: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+    width: 271px !important;
+}
+
+html.client_chat_frame body.ContextMenuPopupBody, 
+html.web_chat_frame body.ContextMenuPopupBody {
+    border: 1px solid transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+}
+
+.eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx, 
+.eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu)._3hgIZByMuZIEiFspMRGFBw {
+    padding-top: 10px;
+}
+/* Extendium Style Fix */
