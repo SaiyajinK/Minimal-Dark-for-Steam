@@ -2752,8 +2752,8 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
     color: var(--minimal_dark_color1) !important;
     border: 1px solid var(--minimal_dark_color1) !important;
-    border: 1px solid var(--gpColor-Blue) !important;
-    color: var(--gpColor-Blue) !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+    color: var(--minimal_dark_color1) !important;
 }
 
 .explore_rightcol_box {
@@ -8281,7 +8281,7 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 
 .achievement_progress_bar_ctn .progress_bar {
     border-radius: var(--minimal_dark_corner) !important;
-    background: linear-gradient(88deg, rgba(25, 175, 255, 0.3) 0%, var(--gpColor-Blue) 80%) !important;
+    background: linear-gradient(88deg, rgba(25, 175, 255, 0.3) 0%, var(--minimal_dark_color1) 80%) !important;
 }
 
 .blotter_appselect {
@@ -8520,7 +8520,7 @@ body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.D
 }
 
 .videoTimelineMain .STV_timelineGhostValue {
-    background: linear-gradient(to right, #368fa7 0%, var(--gpColor-Blue) calc(100% - 4px), var(--gpColor-Blue) calc(100% - 1px), #dcf2ff 100%) !important;
+    background: linear-gradient(to right, #368fa7 0%, var(--minimal_dark_color1) calc(100% - 4px), var(--minimal_dark_color1) calc(100% - 1px), #dcf2ff 100%) !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
@@ -8970,7 +8970,7 @@ body.v6 .broadcast_live_stream_icon {
 
 .manage_friends_panel {
     border-radius: var(--minimal_dark_corner) !important;
-	box-shadow: 0 0 0 1px var(--gpColor-Blue) inset !important;
+	box-shadow: 0 0 0 1px var(--minimal_dark_color1) inset !important;
 	background: rgba(25, 175, 255, 0.1) !important;
 }
 
@@ -10788,7 +10788,7 @@ div#ReviewText {
 }
 
 .dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {
-    color: var(--gpColor-Blue) !important;
+    color: var(--minimal_dark_color1) !important;
     background: var(--minimal_dark_be_grey) !important;
 }
 
@@ -13501,7 +13501,7 @@ span#VoteDownBtn_4476110736154691403:hover {
 }
 
 .checkout_main .dselect_container a:hover {
-    color: var(--gpColor-Blue) !important;
+    color: var(--minimal_dark_color1) !important;
 }
 
 .checkout_error {
@@ -13548,7 +13548,7 @@ p {
 }
 
 .cart_tab_off {
-    color: var(--gpColor-Blue) !important;
+    color: var(--minimal_dark_color1) !important;
 }
 
 .accountInfoBlock .block_content {
