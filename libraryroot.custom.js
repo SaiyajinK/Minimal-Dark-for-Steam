@@ -162,12 +162,19 @@
             /*
              * Fonction interne de Steam qui redimensionne
              * la fenêtre native actuellement ouverte.
+             *
+             * Sous Windows, les dimensions CSS sont converties
+             * selon la mise à l’échelle DPI.
+             *
+             * Sous Linux, Steam applique déjà sa propre mise à l’échelle,
+             * le facteur reste donc fixé à 1.
              */
-			/*
-			 * Convertit les dimensions CSS selon la mise à l’échelle DPI
-			 * avant de les transmettre à la fenêtre native.
-			 */
-            const dpiScale = window.devicePixelRatio || 1;
+            const isWindows =
+                navigator.userAgent.includes("Windows");
+
+            const dpiScale = isWindows
+                ? (window.devicePixelRatio || 1)
+                : 1;
 
             window.SteamClient?.Window?.ResizeTo?.(
                 Math.ceil(targetWidth * dpiScale),
@@ -225,7 +232,8 @@
         start();
     }
 })();
+
 /*
-* Fin de correction des dimensions des fenêtres natives utilisées par
-* les menus et sous-menus de Steam.
-*/
+ * Fin de correction des dimensions des fenêtres natives utilisées par
+ * les menus et sous-menus de Steam.
+ */
