@@ -169,12 +169,12 @@
              * Sous Linux, Steam applique déjà sa propre mise à l’échelle,
              * le facteur reste donc fixé à 1.
              */
-            const isWindows =
-                navigator.userAgent.includes("Windows");
+            const isLinux =
+                navigator.userAgent.includes("Linux");
 
-            const dpiScale = isWindows
-                ? (window.devicePixelRatio || 1)
-                : 1;
+            const dpiScale = isLinux
+                ? 1
+                : (window.devicePixelRatio || 1);
 
             window.SteamClient?.Window?.ResizeTo?.(
                 Math.ceil(targetWidth * dpiScale),
