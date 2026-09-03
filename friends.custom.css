@@ -3188,3 +3188,13 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
     opacity: 0 !important;
 }
 /* end compact view */
+
+/* Overlay */
+#popup_target.popup_chat_frame {
+    border-radius: var(--minimal_dark_corner) !important;
+    overflow: hidden !important;
+}
+
+.friendListHeaderContainer {
+    box-shadow: none !important;
+}

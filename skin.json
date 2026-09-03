@@ -1274,7 +1274,7 @@
 		},
 		
 		"Bigger buttons :": {
-		"tab": "Overlay options (6)",
+		"tab": "Overlay options (7)",
 		"description": "> Choose whether to enlarge overlay buttons.\n\n- No : Use the default button size.\n- Yes : Use larger buttons.",
 		"default": "no",
 		"values": {
@@ -1286,9 +1286,23 @@
 				}
 			}
 		},
+
+		"Physical-pixel window borders :": {
+		"tab": "Overlay options (7)",
+		"description": "> Draw a one-physical-pixel border around Overlay windows and the in-game Friends List. The border stays aligned when a window is resized or Windows display scaling changes.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetJs": {
+			"affects": [".*"], "src": "elements/overlay.js"
+					}
+				}
+			}
+		},
 		
 		"No button labels in list mode :": {
-		"tab": "Overlay options (6)",
+		"tab": "Overlay options (7)",
 		"description": "> Choose whether to hide overlay button labels in list mode.\n\n- No : Show button labels.\n- Yes : Hide button labels and show icons only.",
 		"default": "yes",
 		"values": {
@@ -1302,7 +1316,7 @@
 		},
 		
 		"No button labels in normal mode :": {
-		"tab": "Overlay options (6)",
+		"tab": "Overlay options (7)",
 		"description": "> Choose whether to hide overlay button labels in normal mode.\n\n- No : Show button labels.\n- Yes : Hide button labels and show icons only.",
 		"default": "no",
 		"values": {
@@ -1316,7 +1330,7 @@
 		},
 		
 		"Notification toast border color :": {
-		"tab": "Overlay options (6)",
+		"tab": "Overlay options (7)",
 		"description": "> Choose where notification toast borders use the selected user color.\n\n- User color on all borders : Apply the user color to every border.\n- User color on top : Apply the user color to the top border only.",
 		"default": "User color on top",
 		"values": {
@@ -1330,7 +1344,7 @@
 		},
 		
 		"Notification toast text color :": {
-		"tab": "Overlay options (6)",
+		"tab": "Overlay options (7)",
 		"description": "> Choose the text color used in notification toasts.\n\n- Default : Use white text.\n- User color : Use the selected user color.",
 		"default": "Default",
 		"values": {
@@ -1344,7 +1358,7 @@
 		},
 		
 		"Millennium sidebar background ": {
-		"tab": "Overlay options (6)",
+		"tab": "Overlay options (7)",
 		"description": "> Choose the background style used for the Millennium sidebar.\n\n- Acrylic : Use the default acrylic background.\n- Solid dark color : Use a solid dark background.",
 		"default": "Acrylic",
 		"values": {
