@@ -1886,3 +1886,79 @@ html.responsive div#footer.compact .footer_content {
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
 }
+
+/* Overlay */
+#popup_target > .OverlayPopup {
+    border-radius: var(--minimal_dark_corner) !important;
+    overflow: hidden !important;
+}
+
+/* Overlay title-bar buttons */
+.PinWindowButton,
+.CloudSyncButton,
+.FlipWindowButton {
+    border-radius: var(--minimal_dark_corner) !important;
+    overflow: hidden !important;
+}
+
+/* Notes */
+.GameNotes .PagedSettingsDialog_PageListColumn {
+    min-width: 180px !important;
+    border: none !important;
+}
+
+.GameNotes .PagedSettingDialog_ContentColumn {
+    border: none !important;
+    border-left: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 0 !important;
+}
+
+.GameNotes .PagedSettingsDialog_PageListItem {
+    margin-inline: 6px !important;
+}
+
+.GameNotes .EditorInput {
+    border-radius: var(--minimal_dark_corner) !important;
+    box-shadow: none !important;
+    overflow: auto !important;
+}
+
+/* Clock */
+.OverlayTimer .OverlayClock {
+    height: 164px !important;
+    padding: 6px 0 0 !important;
+}
+
+.OverlayTimer.Flipped .OverlayClock {
+    padding: 0 0 6px !important;
+}
+
+.OverlayTimer.Flipped .ResizeTextContainer,
+.OverlayTimer.Flipped .title-bar-actions {
+    transform: translateY(-6px) !important;
+}
+
+.OverlayTimer .ClockResizeSlider {
+    margin-right: 6px !important;
+}
+
+.OverlayTimer .ClockResizeSlider .DialogSlider_Grabber {
+    background-color: var(--minimal_dark_color) !important;
+}
+
+/* Recordings & Screenshots */
+.ScreenshotManager {
+    clip-path: inset(0 round var(--minimal_dark_corner)) !important;
+}
+
+.ScreenshotManager .StickyHeader {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: none !important;
+    border-image: none !important;
+    box-shadow: none !important;
+}
+
+.ScreenshotManager .DesktopBottomGlass {
+    border: none !important;
+    border-top: 1px solid var(--minimal_dark_be_grey) !important;
+}
