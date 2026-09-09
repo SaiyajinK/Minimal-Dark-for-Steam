@@ -3190,7 +3190,8 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 /* end compact view */
 
 /* Overlay */
-#popup_target.popup_chat_frame {
+html.minimal-dark-overlay-friends
+    #popup_target.popup_chat_frame {
     border-radius: var(--minimal_dark_corner) !important;
     overflow: hidden !important;
 }
@@ -3208,6 +3209,7 @@ html.minimal-dark-overlay-friends
     z-index: 2147483647;
 }
 
-.friendListHeaderContainer {
+html.minimal-dark-overlay-friends
+    .friendListHeaderContainer {
     box-shadow: none !important;
 }

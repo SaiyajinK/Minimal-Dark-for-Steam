@@ -7,7 +7,11 @@
     "use strict";
 
     const INSTALL_KEY = "__minimalDarkOverlaySizeSnapInstalled";
+    const OVERLAY_FRIENDS_CLASS =
+        "minimal-dark-overlay-friends";
     const RESIZE_END_DELAY = 120;
+    const CONTEXT_RETRY_DELAY = 100;
+    const CONTEXT_RETRY_LIMIT = 50;
     const MAX_SCALE_DENOMINATOR = 8;
     const SCALE_TOLERANCE = 0.001;
 
@@ -16,6 +20,7 @@
 
     let resizeTimer = 0;
     let applyingSize = false;
+    let contextRetryCount = 0;
 
     const getCssPixelStep = (scale) => {
         for (
@@ -91,18 +96,44 @@
         const isOverlayPopup = document.body?.classList.contains(
             "OverlayPopupBody"
         );
-        const isOverlayFriendsWindow =
+        const isFriendsDocument =
             document.documentElement.classList.contains(
                 "friendsui-container"
-            ) &&
+            );
+        const isOverlayFriendsWindow =
+            isFriendsDocument &&
             typeof globalThis.SteamClient?.Overlay === "object";
 
-        if (!isOverlayPopup && !isOverlayFriendsWindow) return;
+        if (!isOverlayPopup && !isOverlayFriendsWindow) {
+            if (contextRetryCount < CONTEXT_RETRY_LIMIT) {
+                contextRetryCount += 1;
+                setTimeout(install, CONTEXT_RETRY_DELAY);
+            }
+
+            return;
+        }
 
         if (isOverlayFriendsWindow) {
-            document.documentElement.classList.add(
-                "minimal-dark-overlay-friends"
-            );
+            const keepOverlayFriendsClass = () => {
+                if (
+                    !document.documentElement.classList.contains(
+                        OVERLAY_FRIENDS_CLASS
+                    )
+                ) {
+                    document.documentElement.classList.add(
+                        OVERLAY_FRIENDS_CLASS
+                    );
+                }
+            };
+
+            keepOverlayFriendsClass();
+
+            new MutationObserver(
+                keepOverlayFriendsClass
+            ).observe(document.documentElement, {
+                attributes: true,
+                attributeFilter: ["class"]
+            });
         }
 
         window.addEventListener("resize", scheduleSizeSnap, {
