@@ -1287,9 +1287,9 @@
 			}
 		},
 
-		"Physical-pixel window borders :": {
+		"Pixel-aligned Overlay window sizes :": {
 		"tab": "Overlay options (7)",
-		"description": "> Draw a one-physical-pixel border around Overlay windows and the in-game Friends List. The border stays aligned when a window is resized or Windows display scaling changes.",
+		"description": "> Snap Overlay window dimensions to the CSS-pixel grid required by the current Windows display scaling after resizing.",
 		"default": "yes",
 		"values": {
 			"no": {},

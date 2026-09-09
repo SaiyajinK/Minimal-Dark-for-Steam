@@ -1893,6 +1893,18 @@ html.responsive div#footer.compact .footer_content {
     overflow: hidden !important;
 }
 
+/* Overlay window border */
+#popup_target > .OverlayPopup::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    box-sizing: border-box;
+    border: 1px solid var(--minimal_dark_be_grey);
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: 2147483647;
+}
+
 /* Overlay title-bar buttons */
 .PinWindowButton,
 .CloudSyncButton,

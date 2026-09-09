@@ -3195,6 +3195,19 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
     overflow: hidden !important;
 }
 
+/* Friends List border */
+html.minimal-dark-overlay-friends
+    #popup_target.popup_chat_frame::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    box-sizing: border-box;
+    border: 1px solid var(--minimal_dark_be_grey);
+    border-radius: var(--minimal_dark_corner);
+    pointer-events: none;
+    z-index: 2147483647;
+}
+
 .friendListHeaderContainer {
     box-shadow: none !important;
 }

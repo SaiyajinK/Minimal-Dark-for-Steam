@@ -1,217 +1,113 @@
 /*
- * Draws a one-physical-pixel border around Steam Overlay popups.
- *
- * A regular CSS border can lose an edge when CEF converts a fractionally
- * sized popup to the physical pixel grid. This script draws the border in an
- * SVG viewBox measured directly in physical pixels instead.
+ * Snaps Steam Overlay popup dimensions to the CSS-pixel grid required by
+ * the current device scale factor. This keeps opposite CSS borders on the
+ * same physical-pixel phase without drawing or replacing the border itself.
  */
 (() => {
     "use strict";
 
-    const INSTALL_KEY =
-        "__minimalDarkPhysicalOverlayBorderInstalled";
+    const INSTALL_KEY = "__minimalDarkOverlaySizeSnapInstalled";
+    const RESIZE_END_DELAY = 120;
+    const MAX_SCALE_DENOMINATOR = 8;
+    const SCALE_TOLERANCE = 0.001;
 
     if (window[INSTALL_KEY]) return;
     window[INSTALL_KEY] = true;
 
-    const SVG_NS = "http://www.w3.org/2000/svg";
-    const TARGET_SELECTOR = [
-        "#popup_target > .OverlayPopup",
-        "#popup_target.popup_chat_frame"
-    ].join(", ");
+    let resizeTimer = 0;
+    let applyingSize = false;
 
-    const FRAME_ID = "minimal-dark-physical-overlay-border";
-    const STYLE_ID = "minimal-dark-physical-overlay-border-style";
-    const DEFAULT_COLOR = "#606062";
-    const PHYSICAL_EDGE_INSET = 1.5;
-    const RESIZE_END_DELAY = 90;
-    const FADE_IN_DURATION = 70;
+    const getCssPixelStep = (scale) => {
+        for (
+            let denominator = 1;
+            denominator <= MAX_SCALE_DENOMINATOR;
+            denominator += 1
+        ) {
+            const scaled = scale * denominator;
 
-    let target = null;
-    let frame = null;
-    let border = null;
-    let resizeObserver = null;
-    let frameRequest = 0;
-    let revealTimer = 0;
+            if (
+                Math.abs(scaled - Math.round(scaled)) <
+                SCALE_TOLERANCE
+            ) {
+                return denominator;
+            }
+        }
 
-    const readNumber = (value) => {
-        const number = Number.parseFloat(value);
-        return Number.isFinite(number) ? number : 0;
+        return 1;
     };
 
-    const scheduleUpdate = () => {
-        if (frameRequest) return;
+    const snapToStep = (value, step) =>
+        Math.max(step, Math.round(value / step) * step);
 
-        frameRequest = requestAnimationFrame(() => {
-            frameRequest = 0;
-            updateFrame();
-        });
-    };
+    const snapWindowSize = async () => {
+        if (applyingSize) return;
 
-    const updateFrame = () => {
-        if (!target?.isConnected || !frame || !border) {
-            attachToCurrentTarget();
+        const steamWindow = globalThis.SteamClient?.Window;
+
+        if (
+            typeof steamWindow?.GetWindowDimensions !== "function" ||
+            typeof steamWindow?.ResizeTo !== "function"
+        ) {
             return;
         }
 
-        const scale = window.devicePixelRatio || 1;
-        const bounds = target.getBoundingClientRect();
-        const physicalWidth = Math.max(
-            1,
-            Math.round(bounds.width * scale)
-        );
-        const physicalHeight = Math.max(
-            1,
-            Math.round(bounds.height * scale)
-        );
+        const step = getCssPixelStep(window.devicePixelRatio || 1);
 
-        const styles = getComputedStyle(target);
-        const cssRadius = readNumber(styles.borderTopLeftRadius);
-        const physicalRadius = Math.max(
-            0,
-            cssRadius * scale - 0.5
-        );
-        const customColor = styles
-            .getPropertyValue("--minimal_dark_overlay_border_color")
-            .trim();
+        if (step === 1) return;
 
-        frame.setAttribute(
-            "viewBox",
-            `0 0 ${physicalWidth} ${physicalHeight}`
-        );
-        border.setAttribute("x", String(PHYSICAL_EDGE_INSET));
-        border.setAttribute("y", String(PHYSICAL_EDGE_INSET));
-        border.setAttribute(
-            "width",
-            String(
-                Math.max(
-                    0,
-                    physicalWidth - 2 * PHYSICAL_EDGE_INSET
-                )
-            )
-        );
-        border.setAttribute(
-            "height",
-            String(
-                Math.max(
-                    0,
-                    physicalHeight - 2 * PHYSICAL_EDGE_INSET
-                )
-            )
-        );
-        border.setAttribute("rx", String(physicalRadius));
-        border.setAttribute("ry", String(physicalRadius));
-        border.setAttribute("stroke", customColor || DEFAULT_COLOR);
-    };
+        const dimensions = await steamWindow.GetWindowDimensions();
+        const width = snapToStep(dimensions.width, step);
+        const height = snapToStep(dimensions.height, step);
 
-    const createFrame = () => {
-        frame?.remove();
+        if (
+            width === dimensions.width &&
+            height === dimensions.height
+        ) {
+            return;
+        }
 
-        frame = document.createElementNS(SVG_NS, "svg");
-        frame.id = FRAME_ID;
-        frame.setAttribute("aria-hidden", "true");
-        frame.setAttribute("preserveAspectRatio", "none");
-        frame.style.cssText = [
-            "position: fixed",
-            "top: 0",
-            "left: 0",
-            "width: 100vw",
-            "height: 100vh",
-            "overflow: visible",
-            "pointer-events: none",
-            "z-index: 2147483647"
-        ].join(";");
+        applyingSize = true;
 
-        border = document.createElementNS(SVG_NS, "rect");
-        border.setAttribute("fill", "none");
-        border.setAttribute("stroke-width", "1");
-        frame.appendChild(border);
-        document.body.appendChild(frame);
-    };
-
-    const handleResize = () => {
-        if (!frame) return;
-
-        frame.style.transition = "none";
-        frame.style.opacity = "0";
-        clearTimeout(revealTimer);
-        scheduleUpdate();
-
-        revealTimer = setTimeout(() => {
-            updateFrame();
-
+        try {
+            steamWindow.ResizeTo(width, height, true);
+        } finally {
             requestAnimationFrame(() => {
-                if (!frame) return;
-
-                frame.style.transition =
-                    `opacity ${FADE_IN_DURATION}ms ease-out`;
-                frame.style.opacity = "1";
+                applyingSize = false;
             });
-        }, RESIZE_END_DELAY);
+        }
     };
 
-    const attachToCurrentTarget = () => {
-        const nextTarget = document.querySelector(TARGET_SELECTOR);
+    const scheduleSizeSnap = () => {
+        if (applyingSize) return;
 
-        if (!nextTarget) return;
-        if (nextTarget === target && frame?.isConnected) {
-            return;
-        }
-
-        resizeObserver?.disconnect();
-        target = nextTarget;
-        createFrame();
-
-        resizeObserver = new ResizeObserver(handleResize);
-        resizeObserver.observe(target);
-        resizeObserver.observe(document.documentElement);
-        scheduleUpdate();
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(
+            snapWindowSize,
+            RESIZE_END_DELAY
+        );
     };
 
     const install = () => {
-        if (!document.body) return;
-
-        const isOverlayPopup = document.body.classList.contains(
+        const isOverlayPopup = document.body?.classList.contains(
             "OverlayPopupBody"
         );
-        const isFriendsWindow = document.documentElement.classList.contains(
-            "friendsui-container"
-        );
+        const isOverlayFriendsWindow =
+            document.documentElement.classList.contains(
+                "friendsui-container"
+            ) &&
+            typeof globalThis.SteamClient?.Overlay === "object";
 
-        if (!isOverlayPopup && !isFriendsWindow) return;
+        if (!isOverlayPopup && !isOverlayFriendsWindow) return;
 
-        let style = document.getElementById(STYLE_ID);
-
-        if (!style) {
-            style = document.createElement("style");
-            style.id = STYLE_ID;
-            style.textContent = `
-                #popup_target > .OverlayPopup::after,
-                #popup_target.popup_chat_frame::after {
-                    content: none !important;
-                }
-            `;
-            document.head.appendChild(style);
+        if (isOverlayFriendsWindow) {
+            document.documentElement.classList.add(
+                "minimal-dark-overlay-friends"
+            );
         }
 
-        attachToCurrentTarget();
-
-        const mutationObserver = new MutationObserver(
-            attachToCurrentTarget
-        );
-        mutationObserver.observe(document.body, {
-            childList: true,
-            subtree: true
-        });
-
-        window.addEventListener("resize", handleResize, {
+        window.addEventListener("resize", scheduleSizeSnap, {
             passive: true
         });
-        window.visualViewport?.addEventListener(
-            "resize",
-            handleResize,
-            { passive: true }
-        );
     };
 
     if (document.readyState === "loading") {
