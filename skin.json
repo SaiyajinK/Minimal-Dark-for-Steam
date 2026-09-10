@@ -1288,14 +1288,17 @@
 		},
 
 		"Pixel-aligned Overlay window sizes :": {
-		"tab": "Overlay options (7)",
-		"description": "> Snap Overlay window dimensions to the CSS-pixel grid required by the current Windows display scaling after resizing.",
-		"default": "yes",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetJs": {
-			"affects": [".*"], "src": "elements/overlay.js"
+			"tab": "Overlay options (7)",
+			"description": "> Snap overlay window dimensions to the CSS-pixel grid required by the current Windows display scaling after resizing.\nNo : No overlay border correction\nYes : Overlay window borders fixed.",
+			"default": "yes",
+			"values": {
+				"no": {},
+				"yes": {
+					"TargetCss": {
+						"affects": [".*"], "src": "elements/options/overlay_options/pixel_align/pixel_overlay.css"
+					},
+					"TargetJs": {
+						"affects": [".*"], "src": "elements/options/overlay_options/pixel_align/pixel_overlay.js"
 					}
 				}
 			}
