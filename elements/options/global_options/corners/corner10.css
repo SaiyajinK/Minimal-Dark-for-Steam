@@ -3155,3 +3155,101 @@ html.responsive body {
 ._2YwI6QyeX5t6yHIRe9YxHR:hover ._2gZBTB3Ko7mAvZCtcGVqVm {
     color: var(--minimal_dark_color1) !important;
 }
+
+body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.lX3GvxrkYaEqKJRpIhPsk {
+    border-radius: 10px !important;
+    background: var(--minimal_dark_color1) !important
+}
+
+._326_uhqq2I-hJwNRSqIZK4 .tqaXEuWN2wV5_8lmSkMng._8UPO4fZBxxerbhcRBpAcc {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 10px !important;
+}
+
+._326_uhqq2I-hJwNRSqIZK4 .tqaXEuWN2wV5_8lmSkMng .VSMflzbqITft0dYgbLNq1 ._1iXgQQI5ZT9D1DgDCwVW_T {
+    color: var(--minimal_dark_color1) !important;
+    border-bottom: 1px solid var(--minimal_dark_color1) !important;
+}
+
+._3JFqZ4-_gZl_CQKdNJFdg2 ._2A83UfRXWSLbHFYfDcch9W ._3GS5DCQb2y5KKnOB8rHEw5 {
+    border-radius: 10px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
+}
+
+._3JFqZ4-_gZl_CQKdNJFdg2 ._2A83UfRXWSLbHFYfDcch9W ._3GS5DCQb2y5KKnOB8rHEw5:hover {
+    border-radius: 10px !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
+}
+
+._326_uhqq2I-hJwNRSqIZK4 .tqaXEuWN2wV5_8lmSkMng._1beaDtCHZ3Kn9oAHWEKXMe {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
+}
+
+._326_uhqq2I-hJwNRSqIZK4 .tqaXEuWN2wV5_8lmSkMng._1beaDtCHZ3Kn9oAHWEKXMe:hover {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
+}
+
+/* Extendium Style Fix by madmaxgrey */
+/* strip default padding/shadow */
+.extendium-toolbar-manager-context-menu ._2EstNjFIIZm_WUSKm5Wt7n {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* center the "Extensions" title and color it */
+.extendium-toolbar-manager-context-menu .DialogHeader {
+  color: var(--SystemAccentColor) !important;
+  font-size: 20px !important;
+  text-align: center !important;
+  width: 100% !important;
+  display: block !important;
+}
+
+/* extension list rows */
+.extendium-toolbar-manager-context-menu .Field {
+  border-radius: 10px !important;
+  transition: background 0.15s ease !important;
+}
+
+.extendium-toolbar-manager-context-menu .Field:hover {
+  background: var(--SystemAccentColor) !important;
+}
+
+/* pin and settings gear buttons on each row */
+.extendium-toolbar-manager-context-menu .Field [class*="DialogButton"] {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 6px !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
+}
+
+.extendium-toolbar-manager-context-menu .Field [class*="DialogButton"] svg {
+  margin: 0 auto !important;
+}
+
+/* Manage extensions link - remove icon, center text */
+.extendium-toolbar-manager-context-menu div[style*="cursor: pointer"] .FieldIcon {
+  display: none !important;
+}
+
+.extendium-toolbar-manager-context-menu div[style*="cursor: pointer"] .FieldLabel {
+  justify-content: center !important;
+  width: 100% !important;
+}
+/* End Extendium Style Fix */
