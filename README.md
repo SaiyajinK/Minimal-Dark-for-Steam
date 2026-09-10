@@ -46,12 +46,12 @@
 | 🌐 Global | 14 |
 | 📚 Library | 18 |
 | 🪪 Miniprofile | 2 |
-| 🎯 Overlay | 6 |
+| 🎯 Overlay | 7 |
 | 📂 Sidebar | 15 |
 | 🔝 Topbar | 20 |
 | 🧩 Various | 10 |
 | 🌍 Webkit | 14 |
-| **Total** | **136** |
+| **Total** | **137** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
