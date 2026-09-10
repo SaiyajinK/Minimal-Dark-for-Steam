@@ -823,7 +823,7 @@
 		
 		"Hover borders on library and WebKit blocks :": {
 		"tab": "Global options (14)",
-		"description": "> Choose whether hovered library and WebKit items use a full border or a bottom border only.\n\n- Bottom only : Apply the user color only to the bottom border.\n- Full borders : Apply the user color to every border.",
+		"description": "> Choose whether hovered library and WebKit items use a full border or a bottom border only.\n\n- Bottom only : Apply the user color only to the bottom border.\n- Full borders : Apply the user color to every border.\n- No borders : No borders.",
 		"default": "Full borders",
 		"values": {
 			"Bottom only": {
@@ -834,6 +834,11 @@
 			"Full borders": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/global_options/borders_hover_effect/full_library_hover_effect.css"
+					}
+				},
+			"No borders": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/global_options/borders_hover_effect/no_hover_effect.css"
 					}
 				}
 			}
@@ -1167,10 +1172,15 @@
 		
 		"Library game hover glow color :": {
 		"tab": "Library options (18)",
-		"description": "> Choose the glow color used when hovering over game artwork in the library.\n\n- Default : Use a white glow.\n- User color : Use the selected user color.",
+		"description": "> Choose the glow color used when hovering over game artwork in the library.\n\n- Default : Use a white glow.\n- User color : Use the selected user color.\n- No glow : Transparent glow.",
 		"default": "Default",
 		"values": {
 			"Default": {},
+			"No glow": {
+			"TargetCss": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/games_hover_glow/no_glow_color.css"
+					}
+				},
 			"User color": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/games_hover_glow/hover_games_glow_color.css"
@@ -1286,19 +1296,16 @@
 				}
 			}
 		},
-
-		"Pixel-aligned Overlay window sizes :": {
-			"tab": "Overlay options (7)",
-			"description": "> Snap overlay window dimensions to the CSS-pixel grid required by the current Windows display scaling after resizing.\nNo : No overlay border correction\nYes : Overlay window borders fixed.",
-			"default": "yes",
-			"values": {
-				"no": {},
-				"yes": {
-					"TargetCss": {
-						"affects": [".*"], "src": "elements/options/overlay_options/pixel_align/pixel_overlay.css"
-					},
-					"TargetJs": {
-						"affects": [".*"], "src": "elements/options/overlay_options/pixel_align/pixel_overlay.js"
+		
+		"Millennium sidebar background ": {
+		"tab": "Overlay options (7)",
+		"description": "> Choose the background style used for the Millennium sidebar.\n\n- Acrylic : Use the default acrylic background.\n- Solid dark color : Use a solid dark background.",
+		"default": "Acrylic",
+		"values": {
+			"Acrylic": {},
+			"Solid dark color": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay_options/millennium/bg_solid_color.css"
 					}
 				}
 			}
@@ -1334,9 +1341,14 @@
 		
 		"Notification toast border color :": {
 		"tab": "Overlay options (7)",
-		"description": "> Choose where notification toast borders use the selected user color.\n\n- User color on all borders : Apply the user color to every border.\n- User color on top : Apply the user color to the top border only.",
+		"description": "> Choose where notification toast borders use the selected user color.\n\n- User color on all borders : Apply the user color to every border.\n- Grey color on all borders : Apply the grey color to every border.\n- User color on top : Apply the user color to the top border only.",
 		"default": "User color on top",
 		"values": {
+			"Grey color on all borders": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay_options/toast/border_color/grey_border.css"
+					}
+				},
 			"User color on all borders": {
 			"TargetCss": {
 			"affects": [".*"], "src": "elements/options/overlay_options/toast/border_color/full_border.css"
@@ -1360,15 +1372,18 @@
 			}
 		},
 		
-		"Millennium sidebar background ": {
-		"tab": "Overlay options (7)",
-		"description": "> Choose the background style used for the Millennium sidebar.\n\n- Acrylic : Use the default acrylic background.\n- Solid dark color : Use a solid dark background.",
-		"default": "Acrylic",
-		"values": {
-			"Acrylic": {},
-			"Solid dark color": {
-			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay_options/millennium/bg_solid_color.css"
+		"Pixel-aligned Overlay window sizes :": {
+			"tab": "Overlay options (7)",
+			"description": "> Snap overlay window dimensions to the CSS-pixel grid required by the current Windows display scaling after resizing.\n\nNo : No overlay border correction\nYes : Overlay window borders fixed.",
+			"default": "yes",
+			"values": {
+				"no": {},
+				"yes": {
+				"TargetCss": {
+				"affects": [".*"], "src": "elements/options/overlay_options/pixel_align/pixel_overlay.css"
+					},
+				"TargetJs": {
+				"affects": [".*"], "src": "elements/options/overlay_options/pixel_align/pixel_overlay.js"
 					}
 				}
 			}
@@ -2490,7 +2505,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.0.7",
+	"version": "6.1.0",
 
 	"github": {
 		"owner": "SaiyajinK",
