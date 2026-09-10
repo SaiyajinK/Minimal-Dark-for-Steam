@@ -6413,6 +6413,7 @@ body.v6 .game_area_already_owned.page_content {
     margin-bottom: 10px !important;
     border-radius: var(--minimal_dark_corner) !important;
     height: 34px !important;
+    margin-top: 10px !important;
 }
 
 .game_area_already_owned .already_in_library {
