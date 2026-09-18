@@ -2574,7 +2574,7 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 
 .friends_search_text_box,.groups_search_text_box {
 	border-radius:0px!important;
-	background:0 0!important;
+	/* background:0 0!important; */
 	background-color:var(--minimal_dark_greyblack)!important;
 	border:1px solid rgba(30,30,31,.52)!important;
 }
@@ -5451,20 +5451,23 @@ body.v6.winter_sale_home h2.winter {
 }
 
 .profile_friends .friend_block_v2 {
-	width:280px!important;
-	background:var(--minimal_dark_black)!important;
-	border-radius: var(--minimal_dark_corner) !important;
-	border: 1px solid var(--minimal_dark_blacker)!important;
+    width: 280px !important;
+    background: var(--minimal_dark_black) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
 }
 
 .profile_friends .friend_block_v2:hover {
 	background:var(--minimal_dark_blacker)!important;
 	border-radius: var(--minimal_dark_corner) !important;
-	border: 1px solid var(--minimal_dark_be_grey)!important;
+	border: 1px solid var(--minimal_dark_color1)!important;
+	transition: .25s ease-out !important;
 }
 
 .friend_block_v2 .player_avatar {
-	margin-top:2px!important;
+    margin-top: 2px !important;
+    margin-left: 3px !important;
 }
 
 .friendBlock .friendPlayerLevel {
@@ -8966,7 +8969,7 @@ body.v6 .broadcast_live_stream_icon {
 
 .friends_search_text_box, .groups_search_text_box {
     border-radius: var(--minimal_dark_corner) !important;
-    padding: 0 0 0 15px !important;
+    /* padding: 0 0 0 15px !important; */
 }
 
 .manage_friends_panel {
@@ -14164,7 +14167,7 @@ a.general_btn:hover {
 }
 
 input[type=text], input[type=password], input[type=number], select {
-    border: 1px solid transparent !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .btnv6_blue_blue_innerfade > span {
