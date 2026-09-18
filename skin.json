@@ -1374,7 +1374,7 @@
 
 		"Notification toast UI :": {
 		"tab": "Overlay options (8)",
-		"description": "> Choose the UI used for notification toasts.\n\n- Minimal UI : Minimal style UI.\n- Vanilla UI : Vanilla style.",
+		"description": "> Choose the UI used for notification toasts.\n\n- Minimal UI : Minimal Dark style.\n- Vanilla UI : Original Steam style.",
 		"default": "Minimal UI",
 		"values": {
 			"Vanilla UI": {},
