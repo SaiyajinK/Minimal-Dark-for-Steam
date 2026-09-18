@@ -46,12 +46,12 @@
 | 🌐 Global | 14 |
 | 📚 Library | 18 |
 | 🪪 Miniprofile | 2 |
-| 🎯 Overlay | 7 |
+| 🎯 Overlay | 8 |
 | 📂 Sidebar | 15 |
 | 🔝 Topbar | 20 |
 | 🧩 Various | 10 |
 | 🌍 Webkit | 14 |
-| **Total** | **137** |
+| **Total** | **138** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -708,7 +708,7 @@ _Show_ :<br>
 
 <hr>
 
-### <ins>Overlay options</ins> (6) : 
+### <ins>Overlay options</ins> (8) : 
 
 <details><summary>Bigger buttons :</summary><br>  
 
@@ -749,6 +749,14 @@ _Default_ :<br>
 
 _User color_ :<br>
 <img src="https://github.com/user-attachments/assets/635e0e35-b638-4639-9078-87f8005a8277"></p></details>
+
+<details><summary>Notification toast UI :</summary><br>  
+
+_Vanilla UI_ :<br>
+<img src="https://github.com/user-attachments/assets/b29d64e7-eeeb-467f-943c-315bc89bb40c"></p>
+
+_Minimal UI_ :<br>
+<img src="https://github.com/user-attachments/assets/2220be1c-159b-4302-825b-2dae0037acd0"></p></details>
 
 <details><summary>Millennium sidebar background :</summary><br>  
 
