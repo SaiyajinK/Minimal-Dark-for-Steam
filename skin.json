@@ -1284,7 +1284,7 @@
 		},
 		
 		"Bigger buttons :": {
-		"tab": "Overlay options (7)",
+		"tab": "Overlay options (8)",
 		"description": "> Choose whether to enlarge overlay buttons.\n\n- No : Use the default button size.\n- Yes : Use larger buttons.",
 		"default": "no",
 		"values": {
@@ -1298,7 +1298,7 @@
 		},
 		
 		"Millennium sidebar background ": {
-		"tab": "Overlay options (7)",
+		"tab": "Overlay options (8)",
 		"description": "> Choose the background style used for the Millennium sidebar.\n\n- Acrylic : Use the default acrylic background.\n- Solid dark color : Use a solid dark background.",
 		"default": "Acrylic",
 		"values": {
@@ -1312,7 +1312,7 @@
 		},
 		
 		"No button labels in list mode :": {
-		"tab": "Overlay options (7)",
+		"tab": "Overlay options (8)",
 		"description": "> Choose whether to hide overlay button labels in list mode.\n\n- No : Show button labels.\n- Yes : Hide button labels and show icons only.",
 		"default": "yes",
 		"values": {
@@ -1326,7 +1326,7 @@
 		},
 		
 		"No button labels in normal mode :": {
-		"tab": "Overlay options (7)",
+		"tab": "Overlay options (8)",
 		"description": "> Choose whether to hide overlay button labels in normal mode.\n\n- No : Show button labels.\n- Yes : Hide button labels and show icons only.",
 		"default": "no",
 		"values": {
@@ -1340,7 +1340,7 @@
 		},
 		
 		"Notification toast border color :": {
-		"tab": "Overlay options (7)",
+		"tab": "Overlay options (8)",
 		"description": "> Choose where notification toast borders use the selected user color.\n\n- User color on all borders : Apply the user color to every border.\n- Grey color on all borders : Apply the grey color to every border.\n- User color on top : Apply the user color to the top border only.",
 		"default": "User color on top",
 		"values": {
@@ -1359,7 +1359,7 @@
 		},
 		
 		"Notification toast text color :": {
-		"tab": "Overlay options (7)",
+		"tab": "Overlay options (8)",
 		"description": "> Choose the text color used in notification toasts.\n\n- Default : Use white text.\n- User color : Use the selected user color.",
 		"default": "Default",
 		"values": {
@@ -1371,9 +1371,23 @@
 				}
 			}
 		},
+
+		"Notification toast UI :": {
+		"tab": "Overlay options (8)",
+		"description": "> Choose the UI used for notification toasts.\n\n- Minimal UI : Minimal style UI.\n- Vanilla UI : Vanilla style.",
+		"default": "Minimal UI",
+		"values": {
+			"Vanilla UI": {},
+			"Minimal UI": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/overlay_options/toast/ui/minimal.css"
+					}
+				}
+			}
+		},
 		
 		"Pixel-aligned Overlay window sizes :": {
-			"tab": "Overlay options (7)",
+			"tab": "Overlay options (8)",
 			"description": "> Snap overlay window dimensions to the CSS-pixel grid required by the current Windows display scaling after resizing.\n\nNo : No overlay border correction\nYes : Overlay window borders fixed.",
 			"default": "yes",
 			"values": {
@@ -2505,7 +2519,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.1.1",
+	"version": "6.1.4",
 
 	"github": {
 		"owner": "SaiyajinK",
