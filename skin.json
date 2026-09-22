@@ -606,7 +606,7 @@
 		"Alternative border color for context menus :": {
 		"tab": "Global options (14)",
 		"description": "> Choose the border color used by menus and context menus.\n\n- Black : Use black borders.\n- Grey : Use gray borders.",
-		"default": "Black",
+		"default": "Grey",
 		"values": {
 			"Black": {},
 			"Grey": {
