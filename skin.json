@@ -1380,7 +1380,7 @@
 			"Vanilla UI": {},
 			"Minimal UI": {
 			"TargetCss": {
-			"affects": [".*"], "src": "elements/options/overlay_options/toast/ui/minimal.css"
+			"affects": [".*"], "src": "elements/options/overlay_options/ui/minimal.css"
 					}
 				}
 			}
