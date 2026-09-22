@@ -12592,8 +12592,8 @@ a.view_inactive:hover {
 }
 
 .CarouselBtnLeft polygon, .CarouselBtnRight polygon {
-    fill: var(--minimal_dark_topgrey) !important;
-    opacity: .75 !important;
+    fill: #ffffff !important;
+    opacity: 1 !important;
 }
 
 ._2uCcEtorGeW0ZGXBH1Ccus ._3PF1bgE6QCxmaoDt04QJqz {
