@@ -3652,3 +3652,36 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
     color: var(--minimal_dark_color1) !important;
     transition: .25s ease-out !important;
 }
+
+.sharedfiles_tabs_ctn a.sectionTab.home, .sharedfiles_tabs_ctn a.sectionTab.active.home, .sharedfiles_tabs_ctn a.sectionTab.about {
+    padding: 10px !important;
+}
+
+.instructionsTitle {
+    padding-top: 18px !important;
+}
+
+.queue_btn_menu:hover .queue_menu_flyout, .queue_menu_flyout:hover, .queue_menu_flyout.force_expand, [aria-expanded=true] ~ .queue_menu_flyout {
+    background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: 10px !important;
+}
+
+._1c0u5zo_wZGsAM08nfEEKu {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    background: var(--minimal_dark_black) !important;
+    border-radius: 10px !important;
+    color: white !important;
+    transition: .25s ease-out !important;
+}
+
+._1c0u5zo_wZGsAM08nfEEKu:hover, ._1c0u5zo_wZGsAM08nfEEKu._2BMRaClxLpIT5YJoDcejhm {
+    background-color: #485d77;
+    color: var(--minimal_dark_color1) !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
+}
+
+.game_area_comingsoon .wishlist_add_reminder {
+    background: var(--minimal_dark_blacker) !important;
+}
