@@ -44,7 +44,7 @@
 | 👥 Friends | 14 |
 | 🎮 Gamepage | 19 |
 | 🌐 Global | 14 |
-| 📚 Library | 18 |
+| 📚 Library | 17 |
 | 🪪 Miniprofile | 2 |
 | 🎯 Overlay | 8 |
 | 📂 Sidebar | 15 |
