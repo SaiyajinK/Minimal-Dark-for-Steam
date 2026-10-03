@@ -935,7 +935,7 @@
 		},
 		
 		"Alternative game names hover effect :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose the hover border used by game titles in the What's New section.\n\n- Alternative #1 : Show a user-color bottom border.\n- Alternative #2 : Show a full user-color border.\n- Default : Show a user-color left border.",
 		"default": "Default",
 		"values": {
@@ -958,7 +958,7 @@
 		},
 		
 		"Alternative library navigation button :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose the appearance of navigation arrows on library shelves.\n\n- Alternative : Show arrows with gray borders.\n- Default : Show arrows only.",
 		"default": "Alternative",
 		"values": {
@@ -972,7 +972,7 @@
 		},
 		
 		"Alternative view of in-game friends :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose the layout of in-game friend icons in the library.\n\n- Alternative : Place the icons below the game block.\n- Default : Use the default layout.",
 		"default": "Alternative",
 		"values": {
@@ -986,7 +986,7 @@
 		},
 		
 		"Animated button hover :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose whether Play, Install, and Stop buttons animate on hover in the library and on game pages.\n\n- No : Disable the hover animation.\n- Yes : Enable the hover animation.",
 		"default": "yes",
 		"values": {
@@ -999,22 +999,8 @@
 			}
 		},
 		
-		"Compact collections :": {
-		"tab": "Library options (18)",
-		"description": "> Choose whether to reduce the spacing between game covers in collections.\n\n- No : Use Steam's default spacing.\n- Yes : Use reduced spacing.",
-		"default": "no",
-		"values": {
-			"no": {},
-			"yes": {
-			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_collections/compact_collections.css"
-					}
-				}
-			}
-		},
-		
 		"Compact filters :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose whether to reduce the spacing in the library filter block.\n\n- No : Use Steam's default filter spacing.\n- Yes : Use compact filter spacing.",
 		"default": "yes",
 		"values": {
@@ -1028,7 +1014,7 @@
 		},
 		
 		"Compact labels (library + What's New) :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose the layout of date labels in the library and What's New section.\n\n- Compact : Attach compact labels to the top border.\n- Compact (bottom) : Attach compact labels to the bottom border in the library.\n- Default : Use detached labels at the top.\n- Default (bottom) : Use detached labels at the bottom in the library.",
 		"default": "Compact",
 		"values": {
@@ -1051,22 +1037,22 @@
 			}
 		},
 		
-		"Compact library :": {
-		"tab": "Library options (18)",
-		"description": "> Choose whether to reduce the spacing between game covers in the library.\n\n- No : Use Steam's default spacing.\n- Yes : Use reduced spacing.",
+		"Compact library and collections :": {
+		"tab": "Library options (17)",
+		"description": "> Choose whether to reduce the spacing between game covers in the library and collections.\n\n- No : Use Steam's default spacing.\n- Yes : Use reduced spacing.",
 		"default": "yes",
 		"values": {
 			"no": {},
 			"yes": {
 			"TargetCss": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_library/compact_library.css"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_lc/compact_library_collections.css"
 					}
 				}
 			}
 		},
 		
 		"Compact mode :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose which search and filter controls are visible in the sidebar.\n\n- Compact : Hide the filter controls.\n- Default : Show the search and filter controls.\n- Ultra compact : Hide both the search and filter controls.",
 		"default": "Default",
 		"values": {
@@ -1085,7 +1071,7 @@
 		},
 		
 		"Compact news container :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose the size and layout of the What's New section.\n\n- Compact #1 : Use a compact layout with smaller text.\n- Compact #2 : Use a compact layout with normal-size text.\n- Steam default : Use Steam's default layout.\n- Ultra compact : Show text only and fit more news items.\n- Ultra compact (center content) : Use the ultra-compact layout with centered content.",
 		"default": "Ultra compact",
 		"values": {
@@ -1114,7 +1100,7 @@
 		},
 		
 		"Download icon on uninstalled games :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose whether to display download icons on uninstalled games in the library.\n\n- Hide : Hide the download icons.\n- Show : Show the download icons.",
 		"default": "Show",
 		"values": {
@@ -1128,7 +1114,7 @@
 		},
 		
 		"Hide shelf :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose whether to hide the Add Shelf button in the library.\n\n- No : Show the Add Shelf button.\n- Yes : Hide the Add Shelf button.",
 		"default": "no",
 		"values": {
@@ -1142,7 +1128,7 @@
 		},
 		
 		"Label color for completed games :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose the appearance of labels shown on 100% completed games.\n\n- Compact : Use a compact user-color label with white text and a medal.\n- Compact (bottom) : Use the compact label at the bottom.\n- Default : Use a default-size user-color label with white text and a medal.\n- Default (bottom) : Use the default-size label at the bottom.\n- Minimal : Use a blurred background, user-color text, and no medal.\n\nNote : Choose a layout that matches the Compact library labels option.",
 		"default": "Minimal",
 		"values": {
@@ -1171,7 +1157,7 @@
 		},
 		
 		"Library game hover glow color :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose the glow color used when hovering over game artwork in the library.\n\n- Default : Use a white glow.\n- User color : Use the selected user color.\n- No glow : Transparent glow.",
 		"default": "Default",
 		"values": {
@@ -1190,7 +1176,7 @@
 		},
 		
 		"Library labels :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose where date labels such as Today, Yesterday, and Last Week are displayed.\n\n- Hide all : Hide labels in both the library and What's New section.\n- Hide library only : Hide labels in the library only.\n- Hide What's new only : Hide labels in the What's New section only.\n- Show : Show labels in both locations.",
 		"default": "Show",
 		"values": {
@@ -1214,7 +1200,7 @@
 		},
 		
 		"News container :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose whether to display the What's New section in the library.\n\n- Hide : Hide the What's New section.\n- Show : Show the What's New section.",
 		"default": "Show",
 		"values": {
@@ -1228,7 +1214,7 @@
 		},
 		
 		"Static hovering (landscape games of Recent Games | Play Next) :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose the hover effect used by landscape game artwork in Recent Games and Play Next.\n\n- Animated : Use the animated hover effect.\n- Static : Use a static hover effect.",
 		"default": "Animated",
 		"values": {
@@ -1242,7 +1228,7 @@
 		},
 		
 		"Static hovering (portrait games of Library | Collections) :": {
-		"tab": "Library options (18)",
+		"tab": "Library options (17)",
 		"description": "> Choose the hover effect used by portrait game artwork in the library and collections.\n\n- Animated : Use the animated hover effect.\n- Static : Use a static hover effect.",
 		"default": "Static",
 		"values": {
@@ -2519,7 +2505,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.1.8",
+	"version": "6.1.9",
 
 	"github": {
 		"owner": "SaiyajinK",
