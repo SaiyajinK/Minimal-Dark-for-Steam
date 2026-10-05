@@ -1046,6 +1046,9 @@
 			"yes": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_lc/compact_library_collections.css"
+					},
+			"TargetJs": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/compact_lc/compact_library_collections.js"
 					}
 				}
 			}
@@ -2505,7 +2508,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.1.9",
+	"version": "6.2.0",
 
 	"github": {
 		"owner": "SaiyajinK",
