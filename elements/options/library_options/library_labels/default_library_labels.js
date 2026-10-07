@@ -14,10 +14,16 @@
     }
 
     function update() {
-        const cover = document.querySelector(".WYgDg9NyCcMIVuMyZ_NBC");
+		const covers = document.querySelectorAll(".WYgDg9NyCcMIVuMyZ_NBC.Portrait");
+
+		const cover = Array.from(covers).reduce((largest, current) => {
+			return !largest || current.offsetWidth > largest.offsetWidth
+				? current
+				: largest;
+		}, null);
         if (!cover) return;
 
-        const width = Math.round(cover.getBoundingClientRect().width);
+        const width = cover.offsetWidth;
         const y = defaultY(width);
 
         style.textContent = `
