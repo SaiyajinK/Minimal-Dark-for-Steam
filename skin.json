@@ -1021,17 +1021,30 @@
 			"Compact": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_library_labels.css"
+					},
+			"TargetJs": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_library_labels.js"
 					}
 				},
 			"Compact (bottom)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_library_labels_bottom.css"
+					},
+			"TargetJs": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/compact_library_labels_bottom.js"
 					}
 				},
-			"Default": {},
+			"Default": {
+			"TargetJs": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/defaut_library_labels.js"
+					}
+				},
 			"Default (bottom)": {
 			"TargetCss": {
 			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/default_library_labels_bottom.css"
+					},
+			"TargetJs": {
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/defaut_library_labels_bottom.js"
 					}
 				}
 			}
@@ -2508,7 +2521,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.2.0",
+	"version": "6.2.2",
 
 	"github": {
 		"owner": "SaiyajinK",
