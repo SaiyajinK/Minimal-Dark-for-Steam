@@ -1036,7 +1036,7 @@
 				},
 			"Default": {
 			"TargetJs": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/defaut_library_labels.js"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/default_library_labels.js"
 					}
 				},
 			"Default (bottom)": {
@@ -1044,7 +1044,7 @@
 			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/default_library_labels_bottom.css"
 					},
 			"TargetJs": {
-			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/defaut_library_labels_bottom.js"
+			"affects": ["^Steam$"], "src": "elements/options/library_options/library_labels/default_library_labels_bottom.js"
 					}
 				}
 			}
