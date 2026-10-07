@@ -1,23 +1,29 @@
 (() => {
-    let style = document.getElementById("md-compact-bottom-test");
+    let style = document.getElementById("md-compact-scale-test");
 
     if (!style) {
         style = document.createElement("style");
-        style.id = "md-compact-bottom-test";
+        style.id = "md-compact-scale-test";
         document.head.appendChild(style);
     }
 
-	function compactY(width) {
-		return Math.round(
-			(width * width) / 14520 - (39 * width) / 220 - 16 / 3
-		);
-	}
+    function compactY(width) {
+        return Math.round(
+            -167 + (width - 110) * ((-349 + 167) / (220 - 110))
+        );
+    }
 
     function update() {
-        const cover = document.querySelector(".WYgDg9NyCcMIVuMyZ_NBC");
+		const covers = document.querySelectorAll(".WYgDg9NyCcMIVuMyZ_NBC.Portrait");
+
+		const cover = Array.from(covers).reduce((largest, current) => {
+			return !largest || current.offsetWidth > largest.offsetWidth
+				? current
+				: largest;
+		}, null);
         if (!cover) return;
 
-        const width = Math.round(cover.getBoundingClientRect().width);
+        const width = cover.offsetWidth;
         const y = compactY(width);
 
         style.textContent = `
@@ -36,8 +42,8 @@
         );
     }
 
-    clearInterval(window.__mdCompactBottomTest);
-    window.__mdCompactBottomTest = setInterval(update, 250);
+    clearInterval(window.__mdCompactScaleTest);
+    window.__mdCompactScaleTest = setInterval(update, 250);
 
     update();
 })();
