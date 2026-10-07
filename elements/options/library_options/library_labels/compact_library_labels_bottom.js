@@ -1,17 +1,17 @@
 (() => {
-    let style = document.getElementById("md-compact-scale-test");
+    let style = document.getElementById("md-compact-bottom-test");
 
     if (!style) {
         style = document.createElement("style");
-        style.id = "md-compact-scale-test";
+        style.id = "md-compact-bottom-test";
         document.head.appendChild(style);
     }
 
-    function compactY(width) {
-        return Math.round(
-            -167 + (width - 110) * ((-349 + 167) / (220 - 110))
-        );
-    }
+	function compactY(width) {
+		return Math.round(
+			(width * width) / 14520 - (39 * width) / 220 - 16 / 3
+		);
+	}
 
     function update() {
 		const covers = document.querySelectorAll(".WYgDg9NyCcMIVuMyZ_NBC.Portrait");
@@ -42,8 +42,8 @@
         );
     }
 
-    clearInterval(window.__mdCompactScaleTest);
-    window.__mdCompactScaleTest = setInterval(update, 250);
+    clearInterval(window.__mdCompactBottomTest);
+    window.__mdCompactBottomTest = setInterval(update, 250);
 
     update();
 })();
