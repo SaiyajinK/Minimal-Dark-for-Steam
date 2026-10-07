@@ -317,3 +317,160 @@
  * Fin de correction des dimensions des fenêtres natives utilisées par
  * les menus et sous-menus de Steam.
  */
+
+/*
+ * Correction "à quoi on joue ?" pour la taille de la bibliothèque "petite" uniquement.
+ */
+(() => {
+    const STYLE_ID = "md-submessage-marquee-style";
+
+    function getSubMessage() {
+        return document.querySelector(
+            ".PlayNextSuggestions .RecentGameFooter .PortraitMessage.SubMessage"
+        );
+    }
+
+    function isSmallMode() {
+        return !!document.querySelector(".LibraryDisplaySizeSmall");
+    }
+
+    function restoreSubMessage() {
+        const sub = getSubMessage();
+        if (!sub || !sub.dataset.mdOriginalText) return;
+
+        sub.textContent = sub.dataset.mdOriginalText;
+        delete sub.dataset.mdOriginalText;
+    }
+
+    function enableSmallMarquee() {
+        const footer = document.querySelector(
+            ".LibraryDisplaySizeSmall .PlayNextSuggestions .RecentGameFooter"
+        );
+
+        if (!footer) return;
+
+        const steamMarquee = footer.querySelector(".Marquee");
+        const steamContent = steamMarquee?.querySelector(".Content");
+        const sub = footer.querySelector(".PortraitMessage.SubMessage.Short");
+
+        if (!sub || !steamMarquee || !steamContent) return;
+        if (sub.querySelector(".md-submessage-marquee")) return;
+
+        const text = sub.textContent.trim();
+
+        sub.dataset.mdOriginalText = text;
+        sub.textContent = "";
+
+        const viewport = document.createElement("div");
+        viewport.className = "md-submessage-marquee";
+
+        const track = document.createElement("div");
+        track.className = "md-submessage-marquee-track";
+
+        const text1 = document.createElement("span");
+        const text2 = document.createElement("span");
+
+        text1.textContent = text;
+        text2.textContent = text;
+
+        track.append(text1, text2);
+        viewport.appendChild(track);
+        sub.appendChild(viewport);
+
+        const steamDuration =
+            parseFloat(
+                getComputedStyle(steamMarquee)
+                    .getPropertyValue("--duration")
+            ) || 6;
+
+        const steamTextWidth =
+            steamContent.getBoundingClientRect().width;
+
+        const gap = 48;
+        const speed = (steamTextWidth + gap) / steamDuration;
+
+        const textWidth = text1.getBoundingClientRect().width;
+        const distance = textWidth + gap;
+        const duration = distance / speed;
+
+		track.animate(
+			[
+				{
+					transform: "translateX(0)"
+				},
+				{
+					transform: `translateX(-${distance}px)`
+				}
+			],
+			{
+				duration: duration * 1000,
+				easing: "linear",
+				iterations: Infinity,
+				delay: 2000
+			}
+		);
+    }
+
+    function update() {
+        if (isSmallMode()) {
+            enableSmallMarquee();
+        } else {
+            restoreSubMessage();
+        }
+    }
+
+    let style = document.getElementById(STYLE_ID);
+
+    if (!style) {
+        style = document.createElement("style");
+        style.id = STYLE_ID;
+        document.head.appendChild(style);
+    }
+
+    style.textContent = `
+        .LibraryDisplaySizeSmall .PlayNextSuggestions
+        .RecentGameFooter > .PortraitMessage {
+            width: calc(100% - 7px) !important;
+        }
+
+        .LibraryDisplaySizeSmall .PlayNextSuggestions
+        .RecentGameFooter .PortraitMessage.SubMessage.Short {
+            width: 213px !important;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+        }
+
+        .LibraryDisplaySizeSmall .md-submessage-marquee {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            -webkit-mask-image: linear-gradient(
+                to right,
+                transparent 0,
+                black 24px,
+                black calc(100% - 24px),
+                transparent 100%
+            );
+        }
+
+		.LibraryDisplaySizeSmall .md-submessage-marquee-track {
+			display: flex;
+			width: max-content;
+			gap: 48px;
+		}
+
+        .LibraryDisplaySizeSmall .md-submessage-marquee-track span {
+            flex: none;
+            white-space: nowrap;
+        }
+    `;
+
+    clearInterval(window.__mdPlayNextSmallMarquee);
+
+    window.__mdPlayNextSmallMarquee = setInterval(update, 250);
+
+    update();
+})();
+/*
+ * Fin correction "à quoi on joue ?" pour la taille de la bibliothèque "petite"
+ */
