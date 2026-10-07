@@ -11,12 +11,12 @@
 
 .RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5.HighPerfMode.TallWindow.UltraWideWindow.WideWindow ._3vHkmRShhzwd67_MtEq8-n._3DJLGrqzoQ5vMDI_4VG502.Panel {
     padding-right: 0 !important;
-    grid-template-columns: repeat(auto-fill, 152px) !important;
+    /* grid-template-columns: repeat(auto-fill, 152px) !important; */
 }
 
 .RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5.HighPerfMode.MediumWindow ._3vHkmRShhzwd67_MtEq8-n._3DJLGrqzoQ5vMDI_4VG502.Panel {
     padding-right: 0 !important;
-    grid-template-columns: repeat(auto-fill, 148px) !important;
+    /* grid-template-columns: repeat(auto-fill, 148px) !important; */
 }
 
 ._1esfEVxhqNfh8fzr_kEGKa:not(:last-child), ._2a9SnCjTTOhX5y6SfbKFkC:not(:last-child) {
