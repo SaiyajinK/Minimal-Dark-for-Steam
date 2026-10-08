@@ -1999,9 +1999,10 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
 }
 
 .workshop_item_header {
-    background: var(--minimal_dark_black)!important;
+    background: var(--minimal_dark_blacker_alt) !important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+    margin: 10px !important;
 }
 
 .sectionTab, a.sectionTab {
@@ -2024,6 +2025,44 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
     border: 1px solid var(--minimal_dark_color1) !important;
     height: 27px !important;
     transform: translate(0px, 7px) !important;
+}
+
+#mainContents .sharedfiles_tabs_ctn .sectionTabs.item.responsive_hidden a.sectionTab.active {
+    transform: translate(0px, 0px) !important;
+    margin-right: 2px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+#mainContents .sharedfiles_tabs_ctn .sectionTabs.item.responsive_hidden .sectionTab.active>span {
+    background: none !important;
+    line-height: 25px !important;
+}
+
+#mainContents .sharedfiles_tabs_ctn .sectionTabs.item.responsive_hidden .sectionTab, a.sectionTab {
+    transform: translate(0px, 0px) !important;
+    margin-right: 2px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+#mainContents .sharedfiles_tabs_ctn .sectionTabs.item.responsive_hidden a.sectionTab span {
+    line-height: 25px !important;
+}
+
+#highlight_strip_bg {
+    background: var(--minimal_dark_blacker_alt) !important;
+    padding-top: 3px !important;
+    margin-top: 8px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.tabCount {
+    background: var(--minimal_dark_color1) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    color: white !important;
 }
 
 .sectionTab,a.sectionTab {
@@ -3493,6 +3532,7 @@ img.game_header_image_full {
 .highlight_overflow {
     margin-left: 7px !important;
     margin-top: 6px !important;
+    margin-right: 7px !important;
 }
 
 .glance_details img {
@@ -4853,8 +4893,9 @@ span.bb_spoiler {
 
 #mainContents {
     padding-top: 0px !important;
-	border: 1px solid var(--minimal_dark_be_grey) !important;
-	border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    padding: 10px !important;
 }
 
 .games_list_tabs_ctn {
