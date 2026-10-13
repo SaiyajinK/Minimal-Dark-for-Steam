@@ -4083,3 +4083,20 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 0px !important;
 }
+
+#BG_top_sharedfiles {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.sharedfiles_tabs_ctn .sectionTab.active {
+    transform: translate(0px, 0px) !important;
+    line-height: 27px !important;
+}
+
+.sharedfiles_tabs_ctn .sectionTab.active span {
+    background: transparent !important;
+}
+
+.sharedfiles_tabs_ctn .sectionTab span {
+    line-height: 27px !important;
+}
