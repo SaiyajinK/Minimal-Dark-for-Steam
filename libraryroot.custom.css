@@ -2620,3 +2620,7 @@ margin-bottom: 10px !important;
 .MillenniumDesktopSidebar ._2tALpM7z8naXJ35Pp5fNAG.FieldLeftColumn {
     background: transparent !important;
 }
+
+.MillenniumPlugins_Metrics span {
+    animation: none !important;
+}
