@@ -13753,8 +13753,8 @@ p {
 }
 
 textarea {
-    background-color: var(--minimal_dark_blacker_alt) !important;
-    box-shadow: inset 0px 0px 6px #000000 !important;
+    background-color: var(--minimal_dark_invisiblegrey) !important;
+    box-shadow: inset 0px 0px 6px #00000087 !important;
     border-radius: var(--minimal_dark_corner) !important;
 }
 
