@@ -2624,3 +2624,11 @@ margin-bottom: 10px !important;
 .MillenniumPlugins_Metrics span {
     animation: none !important;
 }
+
+.MillenniumPlaceholder_Icon svg path {
+    fill: var(--minimal_dark_greensettings) !important;
+}
+
+[data-restart-steam-root-item="separator"] {
+    background: var(--minimal_dark_blacker) !important;
+}
