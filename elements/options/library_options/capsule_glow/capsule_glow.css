@@ -1,0 +1,31 @@
+/* Keep Steam carousel clipping unchanged. */
+.ShowcaseOuter.minimal-dark-capsule-glow-shelf {
+    position: relative;
+    z-index: 20 !important;
+    overflow: visible !important;
+    isolation: isolate;
+}
+
+/* Keep original capsules above the glow. */
+.ShowcaseOuter.minimal-dark-capsule-glow-shelf > .Showcase {
+    position: relative;
+    z-index: 1;
+}
+
+/* Glow rendered outside the clipped carousel. */
+.ShowcaseOuter > .minimal-dark-capsule-glow-layer {
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    filter: saturate(3) brightness(200%) blur(50px);
+    transform: translate(var(--minimal-dark-capsule-glow-x, 0px), calc(0% + var(--minimal-dark-capsule-glow-y, 0px))) scale(0.9) scaleX(0.9);
+    transition: opacity .4s ease-in-out, transform .1s ease-out;
+}
+
+.ShowcaseOuter > .minimal-dark-capsule-glow-layer.minimal-dark-capsule-glow-active {
+    opacity: 1;
+}
