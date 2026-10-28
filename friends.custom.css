@@ -9,12 +9,13 @@
 }
 
 .friendsui-container .title-area-icon {
-    width: 18px !important;
-    height: 18px !important;
+    width: 26px !important;
+    height: 26px !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transform: translate(-9px, 2px);
     transition: .25s ease-out !important;
     margin-left: 8px;
+    top: 5px !important;
 }
 
 .friendsui-container .title-area-icon.maximizeButton svg line  {
@@ -1462,7 +1463,7 @@ button.DialogButton.Primary:active {
 .gameGroup .gameGroupContainer {
     display: flex;
     color: #c5d6d4 !important;
-	/* rgb(68 209 131 / 85%) !important; */
+	transition: .25s ease-out !important;
 }
 
 .friendGroup.gameGroup .groupName {
@@ -1471,18 +1472,49 @@ button.DialogButton.Primary:active {
     padding-right: 10px !important;
 }
 
+.listContentContainer .friendGroup.gameGroup .groupName.Panel.Focusable .gameGroupContainer {
+    color: #c5d6d4 !important;
+    transition: .25s ease-out !important;
+}
+
+.listContentContainer .friendGroup.gameGroup .groupName.Panel.Focusable:hover .gameGroupContainer {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
 .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
     color: #c5d6d4 !important;
+    transition: .25s ease-out !important;
+	/* color: rgb(133 133 133 / 100%) !important; */
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName:hover {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 	/* color: rgb(133 133 133 / 100%) !important; */
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName {
     color: #c5d6d4 !important;
+    transition: .25s ease-out !important;
+	/* color: rgb(109 207 246 / 75%) !important; */
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName:hover {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 	/* color: rgb(109 207 246 / 75%) !important; */
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.ingameFriends .groupName {
     color: #c5d6d4 !important;
+    transition: .25s ease-out !important;
+	/* color: rgb(145 194 87 / 75%) !important; */
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.ingameFriends .groupName:hover {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 	/* color: rgb(145 194 87 / 75%) !important; */
 }
 
@@ -1501,6 +1533,11 @@ button.DialogButton.Primary:active {
 .recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName {
     color: #c5d6d4 !important;
 	/* color: rgb(255 218 38 / 75%) !important; */
+}
+
+.friendGroup.taggedGroup .groupName:hover {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
 
 .recentChatsGroup .friendGroup .groupName .groupCount {
@@ -1542,7 +1579,7 @@ button.DialogButton.Primary:active {
 }
 
 .socialInputContainer .inputContainer {
-    padding-left: 87px !important;
+    padding-left: 6px !important;
 }
 
 .MemberListColumn .inputContainer {
@@ -2060,7 +2097,7 @@ html.client_chat_frame .popup_chat_frame {
 .groupName .gameGroupContainer .groupIcon {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-    margin-top: -2px !important;
+    /* margin-top: -2px !important; */
 }
 
 .quickAccessFriends .favoriteElement:hover .friend .playerName {
@@ -3186,5 +3223,9 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 
 .MemberListColumn.MemberListViewCompact.Panel.Focusable .CompactFriendsList.chatRoomMembers.groupMemberList .ExpandPlusMinus {
     opacity: 0 !important;
+}
+
+.CompactFriendsList .friendsContainer {
+    padding-bottom: 0px !important;
 }
 /* end compact view */
