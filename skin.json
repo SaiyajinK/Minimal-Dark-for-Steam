@@ -68,7 +68,7 @@
 		},
 		
 		"Alternative color for received/sent messages :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose the colors used for sent and received messages in conversations.\n\n- Colored : Use blue for sent messages and light green for received messages.\n- Default Steam colors : Use off-white for sent messages and gray for received messages.",
 		"default": "Colored",
 		"values": {
@@ -82,7 +82,7 @@
 		},
 		
 		"Alternative normal view for favorite contacts :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Use a smaller normal layout for favorite contacts while keeping contact names visible.\n\n- No : Use the default normal layout.\n- Yes : Use the reduced normal layout.\n\nNote : This option only works when compact mode for favorite contacts is disabled in Steam's settings.",
 		"default": "no",
 		"values": {
@@ -96,7 +96,7 @@
 		},
 		
 		"Animated hovering :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose whether contacts animate when hovered in the friends list.\n\n- No : Disable the hover animation.\n- Yes : Slide contact text to the right on hover.",
 		"default": "yes",
 		"values": {
@@ -110,7 +110,7 @@
 		},
 		
 		"Avatar size :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose the avatar size used in the friends list.\n\n- Default : Use medium avatars.\n- Large (known issues) : Use large avatars. Display issues may occur depending on the game description length and friends list window size.\n- Small : Use small avatars.",
 		"default": "Default",
 		"values": {
@@ -128,8 +128,22 @@
 			}
 		},
 		
+		"Category icons :": {
+		"tab": "Friends options (15)",
+		"description": "> Adds an icon to the left of the categories in the contact list.\n\n- No : Without icons.\n- Yes : With icons.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/friends_options/category_icons/category_icons.css"
+					}
+				}
+			}
+		},
+		
 		"Font size :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose the friends list font size. This setting does not apply in compact mode.\n\n- Default : Use Steam's default font size.\n- Smaller : Use a smaller font size.",
 		"default": "Smaller",
 		"values": {
@@ -143,7 +157,7 @@
 		},
 		
 		"Friends conversation tabs header glow :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose the glow and status dot displayed on conversation tabs.\n\n- Default : Show the yellow glow and yellow dot.\n- Hide (only red dot) : Hide the glow and show only the red dot.\n- Hide (only user color dot) : Hide the glow and show only the user-color dot.\n- Hide (only yellow dot) : Hide the glow and show only the yellow dot.\n- User color : Show a user-color glow and user-color dot.",
 		"default": "Default",
 		"values": {
@@ -172,7 +186,7 @@
 		},
 		
 		"Friends list header glow :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose whether to hide the glow behind the profile picture in the friends list.\n\n- No : Keep the glow effect.\n- Yes : Hide the glow effect.",
 		"default": "no",
 		"values": {
@@ -186,7 +200,7 @@
 		},
 		
 		"Game icon for favorite contacts :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose whether to display the game icon on the tile of a friend pinned to your favorites.\n\n- No : Hide the game icon on favorite contacts.\n- Yes : Show the game icon on favorite contacts.",
 		"default": "no",
 		"values": {
@@ -200,7 +214,7 @@
 		},		
 
 		"Group chat position :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose the position of the group chat block.\n\n- Default (bottom) : Keep Steam's default bottom position.\n- Hide : Hide the group chat block.\n- Top : Move the group chat block to the top.",
 		"default": "Default (bottom)",
 		"values": {
@@ -223,7 +237,7 @@
 		},
 		
 		"Hide footer :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose whether to hide the footer in the friends list.\n\n- No : Show the footer.\n- Yes : Hide the bottom footer bar.",
 		"default": "yes",
 		"values": {
@@ -237,7 +251,7 @@
 		},
 		
 		"Hide footer (fix) :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Enable the animated replacement for the create-group-chat icon when the friends list footer is hidden.\n\n- No : Do not apply the replacement.\n- Yes : Apply the animated replacement.",
 		"default": "yes",
 		"values": {
@@ -251,7 +265,7 @@
 		},
 		
 		"Hide voice chat :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose whether to hide the voice chat button in conversations.\n\n- No : Show the voice chat button.\n- Yes : Hide the voice chat button.",
 		"default": "no",
 		"values": {
@@ -265,7 +279,7 @@
 		},
 		
 		"Inverted contact block :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose the alignment of avatars and text in the contact list.\n\n- No : Place avatars on the left and text on the right.\n- Yes : Place avatars on the right and text on the left.",
 		"default": "no",
 		"values": {
@@ -279,7 +293,7 @@
 		},
 		
 		"Offline friends :": {
-		"tab": "Friends options (14)",
+		"tab": "Friends options (15)",
 		"description": "> Choose whether to display the Offline Friends section in the friends list.\n\n- Hide : Hide the section. Offline friends remain available through search.\n- Show : Show the Offline Friends section.",
 		"default": "Show",
 		"values": {
@@ -1423,7 +1437,7 @@
 		},
 		
 		"Alternative hover effect :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose the hover effect used by games in the sidebar.\n\n- Default : Show a user-color left border.\n- User color gradient : Show a user-color left border and gradient.",
 		"default": "Default",
 		"values": {
@@ -1437,7 +1451,7 @@
 		},
 		
 		"Alternative in-game friends indicator :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose the indicator used for friends who are currently in game.\n\n- Dot #1 : Use a rounded dot.\n- Dot #2 : Use a small rounded dot.\n- Dot #3 : Use a square dot.\n- Dot #4 : Use a small square dot.\n- Minimal Dark alternative #1 : Use the alternative vertical bar.\n- Minimal Dark alternative #2 : Use a horizontal bar.\n- Minimal Dark default : Use the default vertical bar.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -1476,7 +1490,7 @@
 		},
 		
 		"Alternative update color :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose the color of game update notifications in the sidebar.\n\n- Default : Use green.\n- User color : Use the selected user color.",
 		"default": "Default",
 		"values": {
@@ -1489,8 +1503,22 @@
 			}
 		},
 		
+		"Alternative view :": {
+		"tab": "Sidebar options (16)",
+		"description": "> Alternative sidebar layout (includes the friends section).\n\n- No : Minimal defaut view (no margin).\n- Yes : Minimal default with a slight margin.",
+		"default": "no",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/sidebar_options/view/alternative_view.css"
+					}
+				}
+			}
+		},
+		
 		"Animated mouseover :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose whether game entries animate when hovered in the sidebar.\n\n- No : Disable the hover animation.\n- Yes : Enable the hover animation.",
 		"default": "yes",
 		"values": {
@@ -1504,7 +1532,7 @@
 		},
 		
 		"Bigger font size :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose whether to enlarge game names in the sidebar.\n\n- No : Use the normal font size.\n- Yes : Use a larger font size.",
 		"default": "no",
 		"values": {
@@ -1518,7 +1546,7 @@
 		},
 		
 		"Bolder names :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose whether game names in the sidebar use a bolder font weight.\n\n- No : Use the normal font weight.\n- Yes : Use a bolder font weight.",
 		"default": "no",
 		"values": {
@@ -1532,7 +1560,7 @@
 		},
 		
 		"Game name overflow :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose whether long game names remain inside the sidebar.\n\n- No : Allow game names to overflow and display in full.\n- Yes : Keep game names within the sidebar on hover.",
 		"default": "yes",
 		"values": {
@@ -1546,7 +1574,7 @@
 		},
 		
 		"Hide left images :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose whether to hide game cover icons beside names in the sidebar.\n\n- No : Show game cover icons.\n- Yes : Hide game cover icons.",
 		"default": "no",
 		"values": {
@@ -1560,7 +1588,7 @@
 		},
 		
 		"Installed/selected game color :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose the colors used for installed and selected games.\n\n- Minimal Dark : Use beige names and the user color for the selected game.\n- Minimal Dark alternative : Use white names and the user color for the selected game.\n- White : Use white for both game names and the selected game.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1579,7 +1607,7 @@
 		},
 		
 		"Persistent sidebar :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose whether to keep the sidebar visible on WebKit, Community, and profile pages.\n\n- No : Hide the sidebar on those pages.\n- Yes : Show the sidebar on those pages.\n\nNote : The main filter is not accessible on WebKit pages when this option is enabled.",
 		"default": "no",
 		"values": {
@@ -1593,7 +1621,7 @@
 		},
 		
 		"Pointer fix :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose whether to fix the sidebar resize pointer when Persistent sidebar is disabled.\n\n- No : Use this setting when Persistent sidebar is enabled.\n- Yes : Use this setting when Persistent sidebar is disabled.",
 		"default": "no",
 		"values": {
@@ -1607,7 +1635,7 @@
 		},
 		
 		"Resize width :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose whether the sidebar uses a fixed width or can be resized manually.\n\n- Fixed position : Use a fixed sidebar width.\n- Manual resize : Allow the sidebar to be resized manually.\n\nNote : This option is not compatible with Persistent sidebar.",
 		"default": "Fixed position",
 		"values": {
@@ -1625,7 +1653,7 @@
 		},
 		
 		"Right sidebar :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose which side of the Steam window displays the sidebar.\n\n- Left : Place the sidebar on the left.\n- Right : Place the sidebar on the right. The resize handle still moves toward the right.",
 		"default": "Left",
 		"values": {
@@ -1639,7 +1667,7 @@
 		},
 		
 		"Selected uninstalled game color :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose the color used for selected uninstalled games.\n\n- Minimal Dark : Use red.\n- User color : Use the selected user color.\n- White : Use white.",
 		"default": "Minimal Dark",
 		"values": {
@@ -1658,7 +1686,7 @@
 		},
 		
 		"Show sidebar on mouseover :": {
-		"tab": "Sidebar options (15)",
+		"tab": "Sidebar options (16)",
 		"description": "> Choose whether the sidebar remains visible or appears only on hover.\n\n- Default : Keep the sidebar visible.\n- On hover : Show the sidebar when hovered.\n\nNote : Advanced filters and filter buttons are unavailable in hover mode.",
 		"default": "Default",
 		"values": {
@@ -2538,7 +2566,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.2.8",
+	"version": "6.3.0",
 
 	"github": {
 		"owner": "SaiyajinK",
