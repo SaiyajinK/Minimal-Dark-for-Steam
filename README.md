@@ -41,17 +41,17 @@
 | Category | Options |
 |----------|:--------:|
 | 👤 Account | 4 |
-| 👥 Friends | 14 |
+| 👥 Friends | 15 |
 | 🎮 Gamepage | 19 |
 | 🌐 Global | 14 |
 | 📚 Library | 18 |
 | 🪪 Miniprofile | 2 |
 | 🎯 Overlay | 8 |
-| 📂 Sidebar | 15 |
+| 📂 Sidebar | 16 |
 | 🔝 Topbar | 20 |
 | 🧩 Various | 10 |
 | 🌍 Webkit | 14 |
-| **Total** | **138** |
+| **Total** | **140** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
