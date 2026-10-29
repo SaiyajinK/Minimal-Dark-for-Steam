@@ -50,7 +50,7 @@
   margin-top: 10px !important;
 }
 
-.friendBlock.persona.in-game {
+.friendBlock._4v4QMUMYvOM-.in-game, .friendBlock.persona.in-game {
 	color:var(--minimal_dark_status_green)!important;
 	height:36px!important;
 	padding:4px 0 4px 4px!important;
@@ -65,7 +65,7 @@
   border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
-.friendBlock.persona.online {
+.friendBlock._4v4QMUMYvOM-.online, .friendBlock.persona.online {
 	color:#5db2fe!important;
 	height:36px!important;
 	padding:4px 0 4px 4px!important;
@@ -80,7 +80,7 @@
   border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
-.friendBlock.persona.offline {
+.friendBlock._4v4QMUMYvOM-.online, .friendBlock.persona.offline, .friendBlock.persona.online {
 	color:var(--minimal_dark_less_white)!important;
 	height:36px!important;
 	padding:4px 0 4px 4px!important;

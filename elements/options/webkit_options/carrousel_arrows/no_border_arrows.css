@@ -1,26 +1,26 @@
-.carousel_container .arrow.right {
+.carousel_container .arrow.right, button.CarouselBtnRight, html .nHdn-Ea4zSg- button.CarouselBtnRight {
     border: 1px solid transparent !important;
 }
 
-.carousel_container .arrow.right:hover {
+.carousel_container .arrow.right:hover, button.CarouselBtnRight:hover, html .nHdn-Ea4zSg- button.CarouselBtnRight:hover {
     border: 1px solid transparent !important;
 	background: var(--minimal_dark_blacker_alt) !important;
 }
 
-.carousel_container .arrow.right:active {
+.carousel_container .arrow.right:active, button.CarouselBtnRight:active, html .nHdn-Ea4zSg- button.CarouselBtnRight:active {
     box-shadow: none !important;
 }
 
-.carousel_container .arrow.left {
+.carousel_container .arrow.left, button.CarouselBtnLeft, button.CarouselBtnRight, html .nHdn-Ea4zSg- button.CarouselBtnLeft, html .nHdn-Ea4zSg- button.CarouselBtnRight {
     border: 1px solid transparent !important;
 }
 
-.carousel_container .arrow.left:hover {
+.carousel_container .arrow.left:hover, button.CarouselBtnLeft:hover, button.CarouselBtnRight:hover, html .nHdn-Ea4zSg- button.CarouselBtnLeft:hover, html .nHdn-Ea4zSg- button.CarouselBtnRight:hover {
     border: 1px solid transparent !important;
 	background: var(--minimal_dark_blacker_alt) !important;
 }
 
-.carousel_container .arrow.left:active {
+.carousel_container .arrow.left:active, button.CarouselBtnLeft:active, button.CarouselBtnRight:active, html .nHdn-Ea4zSg- button.CarouselBtnLeft:active, html .nHdn-Ea4zSg- button.CarouselBtnRight:active {
     box-shadow: none !important;
 }
 
