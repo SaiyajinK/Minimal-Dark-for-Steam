@@ -39,7 +39,7 @@
     fill: var(--SystemAccentColorAccent) !important;
 }
 
-.l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux>img, .l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux>svg {
+.l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux>img, .l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux>svg, body .NOWMI8171os-, body .-xAyBNitkfo-, body .lfxeePvcPHs- .knSZraHxQvo- button, body .lfxeePvcPHs- .SsCA8NsKGRU- button, .SteamChartsShell .eyc4VnVmsCc-, .SteamChartsShell .NBN-f1mBrso-, .SteamChartsShell .NBN-f1mBrso- ._4IVE0bUT9m8- {
     border-radius: 5px !important;
 }
 
@@ -2676,7 +2676,7 @@ body.r0DFA3TwTH8- .-ql7Gy6zpYM-.OferR7G18q8-, body.r0DFA3TwTH8- .-ql7Gy6zpYM-.hR
     background: url("data:image/svg+xml,%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='8' height='2' fill='%2321ced0'/%3E%3Crect x='1' y='4' width='8' height='2' fill='%2321ced0'/%3E%3Crect x='1' y='7' width='8' height='2' fill='%2321ced0'/%3E%3C/svg%3E%0A") no-repeat 4px 4px #121212d9 !important;
     backdrop-filter: blur(8px) !important;
     border: 1px solid #21ced0 !important;
-    translate: 5px 0px !important;
+    /* translate: 5px 0px !important; */
     border-radius: 5px !important;
 }
 
