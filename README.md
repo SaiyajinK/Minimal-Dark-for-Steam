@@ -1338,7 +1338,7 @@ _Visible_ :<br>
 
 | Step | Action |
 |------|--------|
-| 1️⃣ | Download and install the latest release of Millennium [here](https://docs.steambrew.app/users/installing/) |
+| 1️⃣ | Download and install the latest release of Millennium [here](https://docs.steambrew.app/users/getting-started/installation) |
 | 2️⃣ | Go to `Steam menu` / `Millennium` / `Themes` / `Install a theme` |
 | 3️⃣ | Paste `F4XgbtTW4x5CJmi5DUK3` |
 | 4️⃣ | Refresh Steam when prompted<br> (a full reboot may be necessary) |
