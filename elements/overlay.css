@@ -542,9 +542,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     background: var(--minimal_dark_color) !important;
 }
 
-._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk:hover {
-    background-color: var(--minimal_dark_be_grey) !important;
-}
+
 
 ._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk {
     border-radius: var(--minimal_dark_corner) !important;
@@ -964,9 +962,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     filter: brightness(1) !important;
 }
 
-._1JjIOjZJ9PQ8eHLF6D_Cfv._1VVBnbuAsXSWVXN-gdt5cy:hover {
-    color: var(--minimal_dark_color) !important;
-}
+
 
 ._1JjIOjZJ9PQ8eHLF6D_Cfv._1VVBnbuAsXSWVXN-gdt5cy:hover {
     color: var(--minimal_dark_color) !important;

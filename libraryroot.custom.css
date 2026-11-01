@@ -525,9 +525,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 	background: var(--minimal_dark_blacker_alt) !important;
 }
 
-button.DialogButton::before {
-    box-shadow: none !important;
-}
+
 
 .DialogContent, .DialogContentTransition {
     background: var(--minimal_dark_blacker_alt) !important;

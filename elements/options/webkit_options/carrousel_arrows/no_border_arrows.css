@@ -1,13 +1,13 @@
-.carousel_container .arrow.right, button.CarouselBtnRight, html .nHdn-Ea4zSg- button.CarouselBtnRight {
+.carousel_container .arrow.right {
     border: 1px solid transparent !important;
 }
 
-.carousel_container .arrow.right:hover, button.CarouselBtnRight:hover, html .nHdn-Ea4zSg- button.CarouselBtnRight:hover {
+.carousel_container .arrow.right:hover {
     border: 1px solid transparent !important;
 	background: var(--minimal_dark_blacker_alt) !important;
 }
 
-.carousel_container .arrow.right:active, button.CarouselBtnRight:active, html .nHdn-Ea4zSg- button.CarouselBtnRight:active {
+.carousel_container .arrow.right:active {
     box-shadow: none !important;
 }
 

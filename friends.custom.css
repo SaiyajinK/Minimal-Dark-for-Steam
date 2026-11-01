@@ -810,9 +810,7 @@ button.DialogButton:active, button.DialogButton.gpfocus {
     height: 6px !important;
 }
 
-._3atbNcPD1_nRVTjOvryjWe ._338kJp62vHY5iDbsraaiKD {
-    display: none !important;
-}
+
 
 ._2nrSdZqzl3e01VZleoVaWp {
     display: flex;
@@ -2460,9 +2458,7 @@ button.DialogButton::before {
     stroke-width: 18px !important;
 }
 
-.OpenGraphMessageURL_full {
-    color: var(--minimal_dark_color) !important;
-}
+
 
 .OpenGraphMessageURL_short, .OpenGraphMessageURL_full {
     color: var(--minimal_dark_color) !important;
