@@ -176,7 +176,7 @@ _No_ :<br>
 _Yes_ :<br>
 <img src="https://github.com/user-attachments/assets/3c0112a6-941a-4e1c-a350-af3a56cb6209"></p></details>
 
-<details><summary>Game icon for favorite contact :</summary><br>  
+<details><summary>Game icon for favorite contacts :</summary><br>
 
 _No_ :<br>
 <img src="https://github.com/user-attachments/assets/d88fefa4-998b-4ba5-8a32-e15dca685097"></p>
