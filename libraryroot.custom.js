@@ -1,4 +1,11 @@
 /*
+ * Injection de la prévisualisation des options dans
+ * les paramètres de Millennium de Minimal.
+ */
+import('./elements/options_preview.js')
+    .catch(error => console.error('[Minimal Dark] Preview import:', error));
+
+/*
  * Corrige les dimensions des fenêtres natives utilisées par
  * les menus et sous-menus de Steam.
  */
