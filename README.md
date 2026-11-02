@@ -135,6 +135,14 @@ _Large (known issues)_ :<br>
 _Small_ :<br>
 <img src="https://github.com/user-attachments/assets/b5dbe66a-eeec-44eb-a59f-9175e58bf87c"></p></details>
 
+<details><summary>Category icons :</summary><br>  
+
+_No_ :<br>
+<img src="https://github.com/user-attachments/assets/b82a7842-942e-4508-8892-d2b7f93ad191"></p>
+
+_Yes_ :<br>
+<img src="https://github.com/user-attachments/assets/f3ab8291-1bed-42ad-95f1-287b1a2f4b09"></p></details>
+
 <details><summary>Font size :</summary><br>  
 
 _Default_ :<br>
@@ -167,6 +175,14 @@ _No_ :<br>
 
 _Yes_ :<br>
 <img src="https://github.com/user-attachments/assets/3c0112a6-941a-4e1c-a350-af3a56cb6209"></p></details>
+
+<details><summary>Game icon for favorite contact :</summary><br>  
+
+_No_ :<br>
+<img src="https://github.com/user-attachments/assets/d88fefa4-998b-4ba5-8a32-e15dca685097"></p>
+
+_Yes_ :<br>
+<img src="https://github.com/user-attachments/assets/b2c78b7e-dcdb-469d-93bb-4701f4a9cc54"></p></details>
 
 <details><summary>Group chat position :</summary><br>  
 
@@ -559,13 +575,13 @@ _no_ :<br>
 _yes_ :<br>
 <img src="https://github.com/user-attachments/assets/249145e9-e686-41c7-a69e-4278c21740f1"></p></details>
 
-<details><summary>Compact collections :</summary><br>  
+<details><summary>Capsule glow :</summary><br>  
 
 _no_ :<br>
-<img src="https://github.com/user-attachments/assets/264ac512-0a8c-416f-abca-8c0604808fd0"></p>
+<img src="https://github.com/user-attachments/assets/192fb957-9549-4e74-ac6b-36a4dd6a97be"></p>
 
 _yes_ :<br>
-<img src="https://github.com/user-attachments/assets/fbb83223-3751-4365-9aad-37aa15aa6275"></p></details>
+<img src="https://github.com/user-attachments/assets/6e7a67fb-2655-418d-958e-e3a23fc71cd0"></p></details>
 
 <details><summary>Compact filters :</summary><br>  
 
@@ -583,13 +599,13 @@ _Compact_ :<br>
 _Default_ :<br>
 <img src="https://github.com/user-attachments/assets/dd69b368-e401-479c-b568-d4f4bbc25dbb"></p></details>
 
-<details><summary>Compact library :</summary><br>  
+<details><summary>Compact library and collections :</summary><br>  
 
 _no_ :<br>
-<img src="https://github.com/user-attachments/assets/02f7fe02-3111-42fb-b12e-1b1843c4365c"></p>
+<img src="https://github.com/user-attachments/assets/264ac512-0a8c-416f-abca-8c0604808fd0"></p>
 
 _yes_ :<br>
-<img src="https://github.com/user-attachments/assets/c1c6e036-9a9e-411a-af37-3c511468fcd0"></p></details>
+<img src="https://github.com/user-attachments/assets/fbb83223-3751-4365-9aad-37aa15aa6275"></p></details>
 
 <details><summary>Compact mode :</summary><br>  
 
@@ -718,6 +734,14 @@ _no_ :<br>
 _yes_ :<br>
 <img src="https://github.com/user-attachments/assets/9689347c-2299-4478-b10c-225e27d21969"></p></details>
 
+<details><summary>Millennium sidebar background :</summary><br>  
+
+_Acrylic_ :<br>
+<img src="https://github.com/user-attachments/assets/c4044e99-b339-4b83-acb9-02bb912a896b"></p>
+
+_Solid dark color_ :<br>
+<img src="https://github.com/user-attachments/assets/ea48556b-2dcb-4179-be6a-ab57b064c5ad"></p></details>
+
 <details><summary>No button labels in list mode :</summary><br>  
 
 _no_ :<br>
@@ -758,13 +782,13 @@ _Vanilla UI_ :<br>
 _Minimal UI_ :<br>
 <img src="https://github.com/user-attachments/assets/2220be1c-159b-4302-825b-2dae0037acd0"></p></details>
 
-<details><summary>Millennium sidebar background :</summary><br>  
+<details><summary>Pixel-aligned Overlay window sizes :</summary><br>  
 
-_Acrylic_ :<br>
-<img src="https://github.com/user-attachments/assets/c4044e99-b339-4b83-acb9-02bb912a896b"></p>
+_No_ :<br>
+<img src="https://github.com/user-attachments/assets/3fc5bddc-7874-4bf3-bfa5-5906e54734a4"></p>
 
-_Solid dark color_ :<br>
-<img src="https://github.com/user-attachments/assets/ea48556b-2dcb-4179-be6a-ab57b064c5ad"></p></details>
+_Yes_ :<br>
+<img src="https://github.com/user-attachments/assets/7eb23a40-bb74-420e-ada0-d55753d25049"></p></details>
 
 <hr>
 
@@ -808,6 +832,14 @@ _Default_ :<br>
 
 _User color_ :<br>
 <img src="https://github.com/user-attachments/assets/fce7cfd8-1cce-4f8f-a3c5-b3b8b088e59d"></p></details>
+
+<details><summary>Alternative view :</summary><br> 
+
+_No_ :<br>
+<img src="https://github.com/user-attachments/assets/2c41e07f-1d3e-4b11-8229-056012eff5d8"></p>
+
+_Yes_ :<br>
+<img src="https://github.com/user-attachments/assets/15dae106-a2ef-4c0a-acc3-206c29526f65"></p></details>
 
 <details><summary>Animated mouseover :</summary><br> 
 
