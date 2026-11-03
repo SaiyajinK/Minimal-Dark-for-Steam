@@ -347,6 +347,16 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI .VZ6x_grhNkIYJG__jEEyp._1NBr0Hdw3P-7Q6P5UXs
     color: #dfbb78 !important;
 }
 
+.collectionItem .general_btn.subscribe {
+    background-image: none !important;
+}
+
+
+.collectionItem .subscriptionControls .general_btn.subscribe:hover {
+    padding-right: 4px !important;
+}
+
+
 .HnrHdXpIj-8-.yjeN-68tIxU-, ._1_sHcxv9rQdANehiviVZR4._2G4b7NcQECHtFR_D28hqQG {
     background: linear-gradient(to bottom, #2b2b2b 5%, #2b2b2b 95%);
     border-radius: 10px !important;
@@ -3484,6 +3494,11 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
     padding: 10px !important;
 }
 
+.instructionsTitle {
+    padding-top: 18px !important;
+}
+
+
 .queue_btn_menu:hover .queue_menu_flyout, .queue_menu_flyout:hover, .queue_menu_flyout.force_expand, [aria-expanded=true] ~ .queue_menu_flyout {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
@@ -3767,6 +3782,11 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
     border: none !important;
 }
 
+.browseAppsTitleContainer input#workshopSearchText {
+    border: none !important;
+}
+
+
 ._9F-vJctONnI- {
     color: var(--minimal_dark_color1) !important;
 }
@@ -3791,6 +3811,11 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
     color: var(--minimal_dark_color1) !important;
     transition: .25s ease-out !important;
 }
+
+.workshopAppsRow .app {
+    margin: 0 2px 10px 2px !important;
+}
+
 
 .XjBGa3VUFr8- .xGjiYBznm-U-:hover, .XjBGa3VUFr8- .xGjiYBznm-U-:focus {
     color: var(--minimal_dark_color1) !important;
@@ -3845,6 +3870,22 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
 #BG_top_sharedfiles {
     background: var(--minimal_dark_blacker_alt) !important;
 }
+
+.sharedfiles_tabs_ctn .sectionTab.active {
+    transform: translate(0px, 0px) !important;
+    line-height: 27px !important;
+}
+
+
+.sharedfiles_tabs_ctn .sectionTab.active span {
+    background: transparent !important;
+}
+
+
+.sharedfiles_tabs_ctn .sectionTab span {
+    line-height: 27px !important;
+}
+
 
 ._9pgNwsujvcE- {
     color: var(--minimal_dark_color1) !important;
