@@ -3274,7 +3274,6 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
     background-image: none !important;
 }
 
-
 .add_friend_icon::before {
     content: "" !important;
     width: 34px !important;
@@ -3291,7 +3290,6 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
     position: fixed !important;
 }
 
-
 .btn_green_steamui > span:hover .add_friend_icon::before {
     content: "" !important;
     width: 34px !important;
@@ -3307,7 +3305,6 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
     background-color: #ffffff !important;
     position: fixed !important;
 }
-
 
 .banchecker-verdict.clean, .banchecker-verdict.banned {
     border-radius: 0px !important;
@@ -3821,7 +3818,7 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
     border: none !important;
 }
 
-.browseAppsTitleContainer input#workshopSearchText {
+.browseAppsTitleContainer input#workshopSearchText, .U5oHEUJR3KU- input {
     border: none !important;
 }
 
