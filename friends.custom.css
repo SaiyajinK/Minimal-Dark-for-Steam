@@ -1470,6 +1470,11 @@ button.DialogButton.Primary:active {
     padding-right: 10px !important;
 }
 
+.listContentContainer .friendGroup.gameGroup .groupName.Panel.Focusable:first-child:hover {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
 .listContentContainer .friendGroup.gameGroup .groupName.Panel.Focusable .gameGroupContainer {
     color: #c5d6d4 !important;
     transition: .25s ease-out !important;
