@@ -2523,6 +2523,14 @@ body.v6 .discount_block {
     margin-bottom: 2px !important;
 }
 
+body.v7 .discount_block:not(.no_discount) .bundle_base_discount {
+    font-size: 11px;
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    height: 28px !important;
+}
+
 .btnv6_green_white_innerfade {
 	border-radius: var(--minimal_dark_corner) !important;
 	padding:3px!important;
@@ -8703,6 +8711,15 @@ p.reason.info:before {
 .sale_capsule.with_microtrailer .sale_capsule_image {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.sale_capsule .capsule_image_ctn img.sale_capsule_image.autosize {
+    transition: .25s ease-out !important;
+}
+
+.sale_capsule:hover .capsule_image_ctn img.sale_capsule_image.autosize {
+    border: 1px solid var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
 }
 
 .home_discount_games_ctn {
@@ -15725,5 +15742,13 @@ td.wht_wallet_balance {
 
 .saleEventBannerLink {
     background: transparent !important
+}
+
+.redeem_wallet_code_form, .registerkey_form {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+html.responsive body.v6 {
+    background: var(--minimal_dark_blacker_alt) !important;
 }
 /* end webkit */
