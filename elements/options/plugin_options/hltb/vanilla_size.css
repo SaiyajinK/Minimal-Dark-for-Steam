@@ -1,0 +1,40 @@
+/* hltb plugin */
+.hltb-info {
+    background: rgb(18 18 18 / 40%) !important;
+    backdrop-filter: blur(8px) !important;
+    margin: 4px !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.hltb-info ul li {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.hltb-label {
+    text-transform: uppercase;
+    font-size: 10px;
+    opacity: 0.7;
+    align-content: center !important;
+    padding-right: 10px !important;
+}
+
+.hltb-gametime {
+    color: var(--minimal_dark_color) !important;
+}
+
+.hltb-details-btn {
+    padding: 2px 4px !important;
+	color: white !important;
+}
+
+.hltb-details-btn:hover {
+    padding: 2px 4px !important;
+	color: var(--minimal_dark_color) !important;
+}
+
+.hltb-info ul {
+    padding: 0px  !important;
+}
+/* end hltb plugin */
