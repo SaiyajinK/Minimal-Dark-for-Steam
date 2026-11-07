@@ -2557,6 +2557,24 @@
 				},
 			"Visible": {}
 			}
+		},
+		
+		"HLTB plugin size :": {
+		"tab": "# Plugin options (1)",
+		"description": "> Restore the HLTB plugin interface to its default size.\n\n- No : Minimal size.\n- Yes : Vanilla size.",
+		"default": "Minimal size",
+		"values": {
+			"Minimal size": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/plugin_options/hltb/minimal_size.css"
+					}
+				},
+			"Vanilla size": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/plugin_options/hltb/vanilla_size.css"
+					}
+				}
+			}
 		}
 },
 
@@ -2566,7 +2584,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.5.0",
+	"version": "6.5.2",
 
 	"github": {
 		"owner": "SaiyajinK",
