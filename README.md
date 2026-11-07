@@ -51,7 +51,8 @@
 | 🔝 Topbar | 20 |
 | 🧩 Various | 10 |
 | 🌍 Webkit | 14 |
-| **Total** | **140** |
+| 🎛️ Plugin | 1 |
+| **Total** | **141** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -1351,6 +1352,18 @@ _Show only on hover_ :<br>
 
 _Visible_ :<br>
 <img src="https://github.com/user-attachments/assets/676157b8-31f3-4530-95d5-0a501f6900ca"></p></details><br>
+
+<hr>
+
+### <ins># Plugin options</ins> (1) : 
+
+<details><summary>HLTB plugin size :</summary><br>  
+
+_Minimal size_ :<br>
+<img src="https://github.com/user-attachments/assets/5b9e70a5-261b-42eb-a767-a6884718c9be"></p>
+
+_Vanilla size_ :<br>
+<img src="https://github.com/user-attachments/assets/2effe843-aa17-49e0-b0cb-627759e35cd8"></p></details>
 </details>
 
 <p align="center">
