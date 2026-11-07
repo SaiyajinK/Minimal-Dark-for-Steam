@@ -1572,10 +1572,15 @@ body.v6 div#global_header .content {
     line-height: 28px !important;
     padding: 0px 10px 0px 10px !important;
 	margin-right: 0px !important;
+	transition: .25s ease-out !important;
 }
 
 .apphub_sectionTabsHR {
 	background-color:transparent!important;
+}
+
+.apphub_sectionTab:hover, a.apphub_sectionTab:hover, .apphub_responsive_tab:hover .responsive_tab_control {
+    transition: .25s ease-out !important;
 }
 
 .apphub_sectionTab:hover {
@@ -6508,14 +6513,17 @@ input[type="search" i]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-s
 
 .workshopItemSubscription {
     background-color: var(--minimal_dark_blacker) !important;
+	transition: .25s ease-out !important;
 }
 
 .workshopItemSubscription:hover {
     background-color: rgba(25, 175, 255, 0.15) !important;
+	transition: .25s ease-out !important;
 }
 
-.workshopItemPreviewHolder:hover, ._2cGscAFdIm8-:hover {
+.workshopItemPreviewHolder:hover, .workshopItemPreviewHolder:hover .workshopItemPreviewImage, ._2cGscAFdIm8-:hover {
     border-color: var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
 }
 
 .general_btn {
@@ -6677,8 +6685,15 @@ div.visibilityselect #visibilityselect_activevisibility:hover {
 }
 
 select.languageField {
-    color: white !important;
-    background-color: rgba(25, 175, 255, 0.25) !important;
+    color: var(--minimal_dark_color1) !important;
+    background-color: var(--minimal_dark_blacker_alt) !important;
+	max-width: max-content !important;
+}
+
+select.languageField:hover {
+    color: var(--minimal_dark_color1) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+	max-width: max-content !important;
 }
 
 .language_option.no_content {
@@ -9858,6 +9873,7 @@ html.responsive.touch div.nonresponsive_hidden {
 
 #ig_bottom {
     background: var(--minimal_dark_blacker_alt) !important;
+    margin-top: 10px !important;
 }
 
 .emoticon_hover_arrow {
@@ -10179,6 +10195,10 @@ div#ReviewTitle {
 
 #rightContents .panel.owner {
     border-color: #df9a1a !important;
+}
+
+#ig_bottom .sidebar .panel.owner {
+    border: none !important;
 }
 
 .panel.owner .title {
@@ -16271,7 +16291,7 @@ td.wht_wallet_balance {
     background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
-html.responsive body.v6 {
+html.responsive body.v6, html.responsive:has(.sharedfiles_item_page_header .changeLogCtn), html.responsive body.responsive_page:has(.changeLogCtn) {
     background: var(--minimal_dark_blacker_alt) !important;
 }
 
@@ -16287,5 +16307,50 @@ dialog .UDR84ALyLZI- > button > span, dialog .UDR84ALyLZI- > a > span {
 
 dialog .UDR84ALyLZI- > button:hover > span, dialog .UDR84ALyLZI- > a:hover > span {
     border-color: var(--minimal_dark_color1) !important;
+}
+
+body:has(#BG_top_workshop) #ItemEditText {
+	grid-template-columns: 1fr;
+	transition: .25s ease-out !important;
+}
+
+#mainContents_sharedfiles .pagelink, #mainContents_sharedfiles .page_current {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    color: white !important;
+	transition: .25s ease-out !important;
+}
+
+#mainContents_sharedfiles .pagelink:hover, #mainContents_sharedfiles .page_current {
+    border-color: var(--minimal_dark_color1) !important;
+    color: var(--minimal_dark_color1) !important;
+}
+
+.change_log_controls .btn_grey_black {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    transition: .25s ease-out !important;
+}
+
+.workshopBrowsePaging.withBG {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+}
+
+.workshopAnnouncement.changeLogCtn p {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.detailBox {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    padding: 10px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.apphub_sectionTabs {
+    gap: 2px !important;
+}
+
+.workshopTagsTitle {
+    color: var(--minimal_dark_color1) !important;
 }
 /* end webkit */
