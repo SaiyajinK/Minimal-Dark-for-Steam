@@ -3498,10 +3498,13 @@ body.r0DFA3TwTH8- .YdfMraqn-X8-.k22cBf82EF4- {
 
 .LzRinklSJ-4- ._2uk-hbrhKFI-, ._10UNx2XXsFmsHb86RCyofu ._2Qsf4rHzNzK6Z3UYN7tOFx {
     border-radius: 10px !important;
+    transition: .25s ease-out !important;
 }
 
 .LzRinklSJ-4- ._2uk-hbrhKFI-:hover, ._10UNx2XXsFmsHb86RCyofu ._2Qsf4rHzNzK6Z3UYN7tOFx:hover {
     background-color: var(--minimal_dark_color1) !important;
+    color: white !important;
+    transition: .25s ease-out !important;
 }
 
 .LzRinklSJ-4-, ._10UNx2XXsFmsHb86RCyofu {
