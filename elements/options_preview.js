@@ -575,7 +575,17 @@
             }
         }
 
+        let previousEditor = document.querySelector(EDITOR);
+
         function refresh() {
+            const currentEditor = document.querySelector(EDITOR);
+            if (currentEditor !== previousEditor) {
+                previewPanels.clear();
+                popup.replaceChildren();
+                hide();
+                previousEditor = currentEditor;
+            }
+
             document.querySelectorAll(`${EDITOR} [data-condition]`).forEach(row => {
                 const name = row.getAttribute('data-condition') || '';
                 const images = previews.get(normalize(name));
