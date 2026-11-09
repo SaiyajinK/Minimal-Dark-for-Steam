@@ -2755,6 +2755,18 @@ body.v7 .discount_block:not(.no_discount) .bundle_base_discount {
 	color: var(--minimal_dark_currency) !important;
 }
 
+.game_area_play_stats .review_box .header {
+    padding: 10px !important;
+}
+
+.game_area_play_stats .review_posted_ctn .review_contents {
+    align-self: flex-start !important;
+}
+
+#recommendation_success .review_box .reviewPostedDescription {
+    align-self: center !important;
+}
+
 .review_posted_ctn {
     padding: 10px !important;
 }
@@ -3279,6 +3291,7 @@ img.game_header_image_full {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     /* padding: 10px !important; */
+	background-color: var(--minimal_dark_blacker_alt) !important;
 }
 
 .sysreq_tabs {
@@ -16352,5 +16365,29 @@ body:has(#BG_top_workshop) #ItemEditText {
 
 .workshopTagsTitle {
     color: var(--minimal_dark_color1) !important;
+}
+
+.hPeepTEP2A0- {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+._68B-8ItOIlc- .eBjRkRA8NpA- {
+    background-color: var(--minimal_dark_color1) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+._68B-8ItOIlc- .aejFKWIp7Dg- {
+    background-color: #ffffff0d !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.V3qCIVA6veU- .eUqFFnnOpaE- {
+    transition: .25s ease-out !important;
+}
+
+.V3qCIVA6veU- .eUqFFnnOpaE-:hover {
+    color: var(--minimal_dark_color1) !important;
+    transition: .25s ease-out !important;
 }
 /* end webkit */
