@@ -3826,10 +3826,53 @@ div.early_access_announcements .post .more:hover {
 }
 
 .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span {
-    background: rgba(25, 175, 255, 1) !important;
+    background: var(--minimal_dark_color1) !important;
     color: white !important;
-    border: 1px var(--minimal_dark_be_grey)!important;
-    border-radius: 0px!important;
+    border: 1px var(--minimal_dark_be_grey) !important;
+    border-radius: 0px !important;
+}
+
+#review_container #VoteUpBtn,
+#review_container #VoteDownBtn {
+    transition: background .25s ease-out, border-color .25s ease-out, color .25s ease-out !important;
+}
+
+#review_container #VoteUpBtn {
+    color: #4caf50 !important;
+    border: 1px solid #4caf50 !important;
+    background: rgba(76, 175, 80, .1) !important;
+}
+
+#review_container #VoteDownBtn {
+    color: #e05b5b !important;
+    border: 1px solid #e05b5b !important;
+    background: rgba(224, 91, 91, .1) !important;
+}
+
+#review_container #VoteUpBtn:hover {
+    background: rgba(76, 175, 80, .25) !important;
+}
+
+#review_container #VoteDownBtn:hover {
+    background: rgba(224, 91, 91, .25) !important;
+}
+
+#review_container #VoteUpBtn span,
+#review_container #VoteDownBtn span {
+    color: inherit !important;
+}
+
+#review_container #VoteUpBtn i.ico18 {
+    filter: brightness(0) saturate(100%) invert(62%) sepia(43%) saturate(623%) hue-rotate(72deg) brightness(88%) contrast(89%);
+}
+
+#review_container #VoteDownBtn i.ico18 {
+    filter: brightness(0) saturate(100%) invert(49%) sepia(43%) saturate(952%) hue-rotate(316deg) brightness(101%) contrast(88%);
+}
+
+#review_container #VoteUpBtn i.ico18,
+#review_container #VoteDownBtn i.ico18 {
+    transition: filter .25s ease-out !important;
 }
 
 .enable_review_comments input,.review_received_comp input {
@@ -9994,6 +10037,96 @@ a.trigger, a.activetrigger {
     background: var(--minimal_dark_blacker_alt) !important;
 }
 
+.VoteContainer .DiscussionButton {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    transition: background .25s ease-out, border-color .25s ease-out, color .25s ease-out, box-shadow .25s ease-out !important;
+}
+
+.VoteContainer .DiscussionButton:has(.VoteUpIcon):hover {
+    background: rgba(76, 175, 80, .1) !important;
+    border-color: #4caf50 !important;
+    color: #4caf50 !important;
+}
+
+.VoteContainer .DiscussionButton:has(.VoteDownIcon):hover {
+    background: rgba(224, 91, 91, .1) !important;
+    border-color: #e05b5b !important;
+    color: #e05b5b !important;
+}
+
+.VoteContainer .DiscussionButton:has(.VoteUpIcon):active {
+    background: rgba(76, 175, 80, .25) !important;
+    border-color: #4caf50 !important;
+    color: #4caf50 !important;
+    box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+.VoteContainer .DiscussionButton:has(.VoteDownIcon):active {
+    background: rgba(224, 91, 91, .25) !important;
+    border-color: #e05b5b !important;
+    color: #e05b5b !important;
+    box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+.VoteContainer .DiscussionButton span {
+    color: inherit !important;
+}
+
+.VoteContainer .DiscussionButton svg, .VoteContainer .DiscussionButton svg path {
+    fill: currentColor !important;
+    transition: fill .25s ease-out !important;
+}
+
+.VoteContainer .DiscussionButton {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    transition: background .25s ease-out, border-color .25s ease-out, color .25s ease-out, box-shadow .25s ease-out !important;
+}
+
+.VoteContainer .DiscussionButton:has(.VoteUpIcon):hover, .VoteContainer .DiscussionButton:has(.VoteUpSelectedIcon) {
+    background: rgba(76, 175, 80, .1) !important;
+    border-color: #4caf50 !important;
+    color: #4caf50 !important;
+}
+
+.VoteContainer .DiscussionButton:has(.VoteDownIcon):hover, .VoteContainer .DiscussionButton:has(.VoteDownSelectedIcon) {
+    background: rgba(224, 91, 91, .1) !important;
+    border-color: #e05b5b !important;
+    color: #e05b5b !important;
+}
+
+.VoteContainer .DiscussionButton:has(.VoteUpIcon):active, .VoteContainer .DiscussionButton:has(.VoteUpSelectedIcon):hover {
+    background: rgba(76, 175, 80, .25) !important;
+    border-color: #4caf50 !important;
+    color: #4caf50 !important;
+}
+
+.VoteContainer .DiscussionButton:has(.VoteDownIcon):active, .VoteContainer .DiscussionButton:has(.VoteDownSelectedIcon):hover {
+    background: rgba(224, 91, 91, .25) !important;
+    border-color: #e05b5b !important;
+    color: #e05b5b !important;
+}
+
+.VoteContainer .DiscussionButton:active {
+    box-shadow: inset 0 0 8px #000000c2 !important;
+}
+
+.VoteContainer .DiscussionButton span {
+    color: inherit !important;
+}
+
+.VoteContainer .DiscussionButton svg, .VoteContainer .DiscussionButton svg path {
+    fill: currentColor !important;
+    transition: fill .25s ease-out !important;
+}
+
 ._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c, .m-U1DKR49wc-.RdFiHSeRsZo-, .yYL-OrX9PtQ-.DPUYf3XM-3s- {
     background: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
@@ -12724,6 +12857,7 @@ textarea {
     background-color: var(--minimal_dark_invisiblegrey) !important;
     box-shadow: inset 0px 0px 6px #00000087 !important;
     border-radius: var(--minimal_dark_corner) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 body.v6 .help_refund_request_area h1 {
@@ -16389,5 +16523,46 @@ body:has(#BG_top_workshop) #ItemEditText {
 .V3qCIVA6veU- .eUqFFnnOpaE-:hover {
     color: var(--minimal_dark_color1) !important;
     transition: .25s ease-out !important;
+}
+
+input[type="checkbox"]:checked {
+    appearance: none !important;
+    width: 13px !important;
+    height: 13px !important;
+    background: var(--minimal_dark_color1) !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+    border-radius: 2px !important;
+    position: relative !important;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "" !important;
+    position: absolute !important;
+    left: 3px !important;
+    top: 0 !important;
+    width: 3px !important;
+    height: 7px !important;
+    border: solid #fff !important;
+    border-width: 0 2px 2px 0 !important;
+    transform: rotate(45deg) !important;
+}
+
+.saved_hardware, ._3dINy0xkMymXiTmb2wKD-g ._16FwEPf10yTyglY7gHhaLE {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
+}
+
+.saved_hardware:hover, ._3dINy0xkMymXiTmb2wKD-g ._16FwEPf10yTyglY7gHhaLE:hover {
+	color: var(--minimal_dark_color1) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
+}
+
+#review_create h2, .reviewDate {
+    color: var(--minimal_dark_color1) !important;
 }
 /* end webkit */
