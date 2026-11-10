@@ -481,3 +481,30 @@ import('./elements/options_preview.js')
 /*
  * Fin correction "à quoi on joue ?" pour la taille de la bibliothèque "petite"
  */
+
+/* Étend le clic à toute la surface des onglets de la topbar. */
+(() => {
+    "use strict";
+
+    if (globalThis.__minimalDarkTopbarFullClick) return;
+    globalThis.__minimalDarkTopbarFullClick = true;
+
+    document.addEventListener("click", event => {
+        if (
+            !event.isTrusted ||
+            event.button !== 0 ||
+            event.detail === 0 ||
+            !(event.target instanceof Element)
+        ) return;
+
+        const tab = event.target.closest("._7AlhCx3XGzBeIrQaCneUD");
+        if (!tab || event.target.closest("._19axKcqYRuaJ8vdYKYmtTQ")) return;
+
+        const link = tab.querySelector("._19axKcqYRuaJ8vdYKYmtTQ");
+        if (!link) return;
+
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        link.click();
+    }, true);
+})();
