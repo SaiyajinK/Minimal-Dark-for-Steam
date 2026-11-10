@@ -3832,8 +3832,7 @@ div.early_access_announcements .post .more:hover {
     border-radius: 0px !important;
 }
 
-#review_container #VoteUpBtn,
-#review_container #VoteDownBtn {
+#review_container #VoteUpBtn, #review_container #VoteDownBtn {
     transition: background .25s ease-out, border-color .25s ease-out, color .25s ease-out !important;
 }
 
@@ -3857,8 +3856,7 @@ div.early_access_announcements .post .more:hover {
     background: rgba(224, 91, 91, .25) !important;
 }
 
-#review_container #VoteUpBtn span,
-#review_container #VoteDownBtn span {
+#review_container #VoteUpBtn span, #review_container #VoteDownBtn span {
     color: inherit !important;
 }
 
@@ -3870,8 +3868,7 @@ div.early_access_announcements .post .more:hover {
     filter: brightness(0) saturate(100%) invert(49%) sepia(43%) saturate(952%) hue-rotate(316deg) brightness(101%) contrast(88%);
 }
 
-#review_container #VoteUpBtn i.ico18,
-#review_container #VoteDownBtn i.ico18 {
+#review_container #VoteUpBtn i.ico18, #review_container #VoteDownBtn i.ico18 {
     transition: filter .25s ease-out !important;
 }
 
@@ -10046,50 +10043,6 @@ a.trigger, a.activetrigger {
     transition: background .25s ease-out, border-color .25s ease-out, color .25s ease-out, box-shadow .25s ease-out !important;
 }
 
-.VoteContainer .DiscussionButton:has(.VoteUpIcon):hover {
-    background: rgba(76, 175, 80, .1) !important;
-    border-color: #4caf50 !important;
-    color: #4caf50 !important;
-}
-
-.VoteContainer .DiscussionButton:has(.VoteDownIcon):hover {
-    background: rgba(224, 91, 91, .1) !important;
-    border-color: #e05b5b !important;
-    color: #e05b5b !important;
-}
-
-.VoteContainer .DiscussionButton:has(.VoteUpIcon):active {
-    background: rgba(76, 175, 80, .25) !important;
-    border-color: #4caf50 !important;
-    color: #4caf50 !important;
-    box-shadow: inset 0 0 8px #000000c2 !important;
-}
-
-.VoteContainer .DiscussionButton:has(.VoteDownIcon):active {
-    background: rgba(224, 91, 91, .25) !important;
-    border-color: #e05b5b !important;
-    color: #e05b5b !important;
-    box-shadow: inset 0 0 8px #000000c2 !important;
-}
-
-.VoteContainer .DiscussionButton span {
-    color: inherit !important;
-}
-
-.VoteContainer .DiscussionButton svg, .VoteContainer .DiscussionButton svg path {
-    fill: currentColor !important;
-    transition: fill .25s ease-out !important;
-}
-
-.VoteContainer .DiscussionButton {
-    background: var(--minimal_dark_blacker_alt) !important;
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    border-radius: var(--minimal_dark_corner) !important;
-    color: #fff !important;
-    box-shadow: none !important;
-    transition: background .25s ease-out, border-color .25s ease-out, color .25s ease-out, box-shadow .25s ease-out !important;
-}
-
 .VoteContainer .DiscussionButton:has(.VoteUpIcon):hover, .VoteContainer .DiscussionButton:has(.VoteUpSelectedIcon) {
     background: rgba(76, 175, 80, .1) !important;
     border-color: #4caf50 !important;
@@ -12857,7 +12810,7 @@ textarea {
     background-color: var(--minimal_dark_invisiblegrey) !important;
     box-shadow: inset 0px 0px 6px #00000087 !important;
     border-radius: var(--minimal_dark_corner) !important;
-	border: 1px solid var(--minimal_dark_be_grey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 body.v6 .help_refund_request_area h1 {
@@ -16551,15 +16504,15 @@ input[type="checkbox"]:checked::after {
     background-color: var(--minimal_dark_blacker) !important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
 }
 
 .saved_hardware:hover, ._3dINy0xkMymXiTmb2wKD-g ._16FwEPf10yTyglY7gHhaLE:hover {
-	color: var(--minimal_dark_color1) !important;
+    color: var(--minimal_dark_color1) !important;
     background-color: var(--minimal_dark_blacker) !important;
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_color1) !important;
-	transition: .25s ease-out !important;
+    transition: .25s ease-out !important;
 }
 
 #review_create h2, .reviewDate {
