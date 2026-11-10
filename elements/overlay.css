@@ -1757,7 +1757,7 @@ button.QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable {
     color: #dcdedf !important;
 }
 
-.eKmEXJCm_lgme24Fp_HWt:hover ._3jMlJm4PQCA8SfNlUR99Fo.FieldLabel {
+.MillenniumDesktopSidebar[data-focused-item-type="THEME"] .eKmEXJCm_lgme24Fp_HWt:hover ._3jMlJm4PQCA8SfNlUR99Fo.FieldLabel, .MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .eKmEXJCm_lgme24Fp_HWt:hover ._3jMlJm4PQCA8SfNlUR99Fo.FieldLabel {
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
@@ -1881,4 +1881,8 @@ html.responsive div#footer.compact .footer_content {
     background-color: var(--minimal_dark_black) !important;
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
     border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.MillenniumThemes_ThemeItem .FieldIcon.Front svg path[d^="M31.09 4.38"] {
+    fill: var(--minimal_dark_greensettings) !important;
 }
