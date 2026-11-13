@@ -721,8 +721,27 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
     background-color: var(--minimal_dark_blacker) !important;
 	border: 1px solid var(--minimal_dark_color) !important;
 	fill: var(--minimal_dark_color) !important;
+	color: var(--minimal_dark_color) !important;
 }
 
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L:hover span {
+	fill: var(--minimal_dark_color) !important;
+	color: var(--minimal_dark_color) !important;
+}
+
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn {
+    background-color: var(--minimal_dark_blacker) !important;
+	border: 1px solid var(--minimal_dark_color) !important;
+	color: var(--minimal_dark_color) !important;
+}
+
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn span {
+	color: var(--minimal_dark_color) !important;
+}
+
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn svg path {
+	fill: var(--minimal_dark_color) !important;
+}
 
 .fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg ._2LJMRr1_5XUK4wlt7YMyPi .mh8m9p4PBg_Qrev1bfTzc {
     background-color: var(--minimal_dark_blacker) !important;
@@ -1885,4 +1904,23 @@ html.responsive div#footer.compact .footer_content {
 
 .MillenniumThemes_ThemeItem .FieldIcon.Front svg path[d^="M31.09 4.38"] {
     fill: var(--minimal_dark_greensettings) !important;
+}
+
+/* In-game achievements window */
+.ModalDialogPopup:has(._1RQiwRw4Rf_2s9LJ1rMvqX) {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+.ModalDialogPopup:has(._1RQiwRw4Rf_2s9LJ1rMvqX) ._1RQiwRw4Rf_2s9LJ1rMvqX {
+    border-bottom: 1px solid var(--minimal_dark_be_grey);
+}
+
+._1LgsBQy6Q6ib6juDADhw5r ._1xaCk8gXvL5fRtczLPX01L {
+    background: var(--minimal_dark_blacker_alt) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+}
+
+._1LgsBQy6Q6ib6juDADhw5r ._301Koz8KhQ56mW1_VvClYo:is(:hover, :focus-visible, .gpfocus) {
+    color: var(--minimal_dark_color) !important;
 }
