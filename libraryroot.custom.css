@@ -2631,3 +2631,8 @@ margin-bottom: 10px !important;
 [data-restart-steam-root-item="separator"] {
     background: var(--minimal_dark_blacker) !important;
 }
+
+.RtSv39ZoBOySnb8XQ5hJf {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
