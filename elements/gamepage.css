@@ -1819,13 +1819,15 @@ img._3PXcvKt0U1PJ2DAM8I5lLx {
 }
 
 ._1R9r2OBCxAmtuUVrgBEUBw.ZsU8nIIpj8MJn0vzMzSp1 {
-    border: 1px solid var(--minimal_dark_be_grey) !important;
-    transition: .25s ease-out !important;
+    border: 0 !important;
+    outline: 1px solid var(--minimal_dark_be_grey) !important;
+    outline-offset: -1px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    transition: outline-color .25s ease-out !important;
 }
 
 ._1R9r2OBCxAmtuUVrgBEUBw.ZsU8nIIpj8MJn0vzMzSp1:hover {
-    border: 1px solid var(--minimal_dark_color) !important;
-    transition: .25s ease-out !important;
+    outline-color: var(--minimal_dark_color) !important;
 }
 
 ._2-kDc3UDR-GN6V1lBpSupb, ._3UShzJcf4CyVupLSI3kqfD {
@@ -2317,4 +2319,46 @@ body:has(.gioyPMOZttYFcnmgLnsWf) ._3xFYpKNlOZ6xjQ529ZgRbr ._2Z-Zr4UW8-jHrU5olM_r
 
 .ZBrEpMlUTpZXA3Jtzp7Td.px-4._1i6AhxSEgz1FAUyiEt1Xsk.Background._2YzOLNBx6TonKU0Zmp20l4.Box._3A_c3YHYd4YIjA8Y-olnPl.Reset {
     background: transparent !important;
+}
+
+._3RNWlqbjgrjY8dgjfUoJvY>div {
+    padding: 3px 5px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_invisiblegrey) !important;
+    border: 1px solid var(--minimal_dark_invisiblegrey) !important;
+}
+
+.CompletionAwardStack > .CompletionAward > svg path[fill="#1A9FFF" i] {
+    fill: var(--minimal_dark_color) !important;
+}
+
+.SummarySources span.Text[style*="--text-color: var(--color-blue-8)"] {
+    --text-color: var(--minimal_dark_color) !important;
+}
+
+._2kn-Aabzv0bclc3Cko9_kY {
+    padding-bottom: 6px !important;
+}
+
+.Cgo8G5L7D0oP0OHVGcq_D.p-2._3JCkAyd9cnB90tRcDLPp4W.Direction._12ampOcrpRamy1y301kEaK.Justify._1SxQuUnaM-MXeF5UfssWve.Align.ja5o2GZTopxfGJArsZgFh.Gap._3nHL7awgK1Qei1XivGvHMK.Flex {
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_invisiblgrey) !important;
+}
+
+.EvTiWCnPmaOlfBLffEQgM {
+    color: var(--minimal_dark_color) !important;
+}
+
+._2ra_NO3AboCkkbXh-HBuy7 {
+    background: var(--minimal_dark_invisiblegrey) !important;
+}
+
+._301Koz8KhQ56mW1_VvClYo {
+    transition: .25s ease-out !important;
+}
+
+._301Koz8KhQ56mW1_VvClYo:hover {
+    color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
 }
