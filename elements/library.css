@@ -1728,3 +1728,11 @@ svg._1dzQL1mVR8GTmmSi_kpDgr path {
 .LibraryDisplaySizeSmall ._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM::after {
     display: none !important;
 }
+
+.LibraryDisplaySizeMedium ._2d1hSvdpY5L2-GN1EnUb9Z {
+    height: 77px !important;
+}
+
+html body .PortraitImage.CustomImage > img._24_AuLm54JVe1Zc0AApCDR, html body .PortraitImage:not(.CustomImage) > img._24_AuLm54JVe1Zc0AApCDR {
+    object-fit: fill !important;
+}
