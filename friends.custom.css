@@ -1422,7 +1422,7 @@ button.DialogButton.Primary:active {
 }
 
 .ChatRoomListGroupItem .FriendMessageCount, .unreadFriend .FriendMessageCount {
-    border-radius: 3px !important;
+    border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_invisiblegrey) !important;
 }
 
@@ -3228,5 +3228,9 @@ svg._2FJUPOjT7afeB0125mqdQt._3XfQ_NReAGO_XZ7IQEUNTZ path {
 
 .CompactFriendsList .friendsContainer {
     padding-bottom: 0px !important;
+}
+
+.CompactFriendsList .unreadFriend .FriendMessageCount {
+    margin-top: 6px !important;
 }
 /* end compact view */
