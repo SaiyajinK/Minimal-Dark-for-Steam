@@ -49,10 +49,10 @@
 | 🎯 Overlay | 8 |
 | 📂 Sidebar | 16 |
 | 🔝 Topbar | 20 |
-| 🧩 Various | 10 |
+| 🧩 Various | 11 |
 | 🌍 Webkit | 14 |
 | 🎛️ Plugin | 1 |
-| **Total** | **141** |
+| **Total** | **142** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -1125,7 +1125,7 @@ _yes_ :<br>
 
 <hr>
 
-### <ins>Various options</ins> (10) : 
+### <ins>Various options</ins> (11) : 
 
 <details><summary>Alternative root menu icon :</summary><br>  
 
@@ -1208,6 +1208,17 @@ _yes_ :<br>
 
 _yes_ :<br>
 <img src="https://github.com/user-attachments/assets/a6a8dadc-98e9-409d-b303-691d87c94ca1"></p></details>
+
+<details><summary>Settings tabs layout :</summary><br>  
+
+_Vertical_ :<br>
+<img src="https://github.com/user-attachments/assets/53b52f82-3923-4afe-8303-4c8de6f1a0b7"></p>
+
+_Horizontal_ :<br>
+<img src="https://github.com/user-attachments/assets/223f5ed8-c3a5-481a-aef6-2c9c0f90b9bc"></p>
+
+_Horizontal (alt)_ :<br>
+<img src="https://github.com/user-attachments/assets/028eed28-1754-4fd1-9159-08980881906d"></p></details>
 
 <details><summary>Windows 10 corner fix :</summary><br>  
 
