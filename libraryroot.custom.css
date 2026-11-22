@@ -2637,85 +2637,180 @@ margin-bottom: 10px !important;
     transition: .25s ease-out !important;
 }
 
-/* Storefront plugin */
-.sf-card:hover {
+/* BrewHub plugin */
+.bh-card:hover {
     border: 1px solid var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-.sf-card {
+.bh-card {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
     transition: .25s ease-out !important;
 }
 
-.sf-tab.sf-on, .sf-pill.sf-on {
+.bh-tab.bh-on, .bh-pill.bh-on {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_color) !important;
 	color: var(--minimal_dark_color) !important;
 	transition: .25s ease-out !important;
 }
 
-.sf-tab, .sf-pill {
+.bh-tab, .bh-pill {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transition: .25s ease-out !important;
 }
 
-.sf-tab:hover, .sf-pill:hover {
+.bh-tab:hover, .bh-pill:hover {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_color) !important;
     color: var(--minimal_dark_color) !important;
 	transition: .25s ease-out !important;
 }
 
-.sf-search .sf-input {
+.bh-search .bh-input {
     color: orange !important;
 	transition: .25s ease-out !important;
 }
 
-.sf-input {
+.bh-input {
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker_alt) !important;
 	transition: .25s ease-out !important;
 }
 
-.sf-input:hover {
+.bh-input:hover {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_color) !important;
     background: var(--minimal_dark_blacker_alt) !important;
 	transition: .25s ease-out !important;
 }
 
-.sf-search svg.sf-searchicon {
+.bh-search svg.bh-searchicon {
 	transition: .25s ease-out !important;
 }
 
-.sf-search:hover svg.sf-searchicon {
+.bh-search:hover svg.bh-searchicon {
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-.sf-filter .DialogDropDown._DialogInputContainer {
+.bh-filter .DialogDropDown._DialogInputContainer {
     top: 3px !important;
 }
 
-.sf-filter .sf-input.sf-select {
+.bh-filter .bh-input.bh-select {
     transition: .25s ease-out !important;
 }
 
-.sf-filter:hover .sf-input.sf-select {
+.bh-filter:hover .bh-input.bh-select {
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-.sf-opt.sf-on {
+.bh-opt.bh-on {
     border-left: 2px solid var(--minimal_dark_color) !important;
 }
 
-.sf-chip {
+.bh-chip {
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
-/* End Storefront plugin */
+/* End BrewHub plugin */
+
+/* Achievement Manager */
+.amw-root .amw-rowicon {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+	border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.amw-root .amw-row {
+    padding: 5px 8px 5px 6px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_invisiblegrey) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+	transition: .25s ease-out !important;
+}
+
+.amw-root .amw-row:hover {
+    padding: 5px 8px 5px 6px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    background: var(--minimal_dark_invisiblegrey) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+	transition: .25s ease-out !important;
+}
+
+.amw-root .amw-bar ._1-nHjRywUoX7Mpyc6JOPaQ.ProgressBar {
+    padding: 2px !important;
+}
+
+.amw-root .amw-title {
+    color: var(--minimal_dark_color) !important;
+}
+
+.amw-nav-item._1-vlriAtKYDViAEunue4VO.Focusable.amw-on._2DpXjzK3WWsOtUWUrcuOG7 .amw-count {
+    opacity: 1 !important;
+}
+
+.amw-root .amw-side-note {
+    opacity: .8 !important;
+    color: var(--minimal_dark_installed_games) !important;
+}
+
+.amw-root .amw-rowtitle, .amw-root .amw-row .amw-rowdesc, .amw-root .amw-row .amw-rowpct {
+    transition: .25s ease-out !important;
+}
+
+.amw-root .amw-row:hover .amw-rowtitle, .amw-root .amw-row:hover .amw-rowdesc, .amw-root .amw-row:hover .amw-rowpct {
+    transition: .25s ease-out !important;
+    color: var(--minimal_dark_color) !important;
+}
+
+.amw-search .DialogTextInputBase:not(:disabled) {
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    height: 10px !important;
+    bottom: 3px !important;
+    position: relative !important;
+	background-image: none !important;
+}
+
+.amw-search .DialogTextInputBase:not(:disabled):hover {
+    transition: .25s ease-out !important;
+    border: 1px solid var(--minimal_dark_color) !important;
+    height: 10px !important;
+    bottom: 3px !important;
+    position: relative !important;
+	background-image: none !important;
+}
+
+.amw-search {
+    position: relative !important;
+}
+
+.amw-search::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 8px !important;
+    transform: translateY(-66%) !important;
+    width: 16px !important;
+    height: 17px !important;
+    background-color: #808080 !important;
+    mask-image: url('data:image/svg+xml,<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.1778 10.1661L10.9249 10.5061L11.2188 10.8113L15.2715 15.0195L14.7441 15.5274L10.7075 11.3361L10.4001 11.0168L10.0463 11.2837C9.06851 12.0213 8.83309 12.4265 6.52044 12.4265C4.86181 12.4265 3.37036 11.7935 2.2721 10.6904L2.27215 10.6904L2.26607 10.6845C-0.0833187 8.40347 -0.0940419 4.61907 2.26603 2.24222C3.45879 1.12685 4.95601 0.5 6.52044 0.5C8.08742 0.5 9.5773 1.12825 10.6775 2.23003C11.7881 3.42808 12.413 4.93284 12.413 6.50606C12.413 7.86867 11.982 9.08467 11.1778 10.1661ZM6.52943 11.831C9.4963 11.831 11.9014 9.42583 11.9014 6.45896C11.9014 3.49209 9.4963 1.08696 6.52943 1.08696C3.56256 1.08696 1.15744 3.49209 1.15744 6.45896C1.15744 9.42583 3.56256 11.831 6.52943 11.831Z" fill="%23808080" stroke="%23808080"/></svg>') !important;
+    mask-size: contain !important;
+    mask-repeat: no-repeat !important;
+    pointer-events: none !important;
+    z-index: 1 !important;
+    transition: .25s ease-out !important;
+}
+
+.amw-search:hover::before {
+    background-color: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+/* End Achievement Manager */
