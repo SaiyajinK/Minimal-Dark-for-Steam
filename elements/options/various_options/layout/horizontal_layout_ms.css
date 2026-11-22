@@ -1,0 +1,84 @@
+/* Millennium tabs */
+.MillenniumSettings.ModalDialogPopup {
+    flex-direction: column !important;
+    border-top: none !important;
+}
+
+.MillenniumSettings.ModalDialogPopup ._2kwFFHckg8jvnwJfg9-la8 {
+    flex: unset !important;
+    max-width: unset !important;
+    padding: 12px 16px !important;
+}
+
+.MillenniumSettings.ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy {
+    flex-direction: row !important;
+    padding: 0 !important;
+    gap: 3px !important;
+}
+
+.MillenniumSettings.ModalDialogPopup
+    ._18QCu-7MTzd51UpVbYysDy
+    ._1Hye7o1wYIfc9TE9QKRW4T {
+    display: none !important;
+}
+
+.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 {
+    width: unset !important;
+    max-width: unset !important;
+}
+
+._1-vlriAtKYDViAEunue4VO:not(._2DpXjzK3WWsOtUWUrcuOG7):hover {
+    height: 6px !important;
+	margin-bottom: 10px !important;
+    margin-right: 10px !important;
+}
+
+.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 {
+    margin-top: -0.1rem !important;
+    border-radius: 0 !important;
+}
+
+/* Steam settings tabs */
+.PagedSettingsDialog {
+    flex-direction: column !important;
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.PagedSettingsDialog .PagedSettingsDialog_PageListColumn {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    flex: 0 0 auto !important;
+    box-sizing: border-box !important;
+}
+
+.PagedSettingsDialog .PagedSettingsDialog_PageList {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    box-sizing: border-box !important;
+	margin: 10px !important;
+}
+
+.PagedSettingsDialog .PagedSettingsDialog_PageListItem {
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+    margin-bottom: 10px !important;
+    margin-right: 10px !important;
+}
+
+.PagedSettingsDialog > :not(.PagedSettingsDialog_PageListColumn) {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    box-sizing: border-box !important;
+}
+
+._1Hye7o1wYIfc9TE9QKRW4T {
+    display: none !important;
+}
