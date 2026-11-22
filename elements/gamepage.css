@@ -2363,3 +2363,12 @@ body:has(.gioyPMOZttYFcnmgLnsWf) ._3xFYpKNlOZ6xjQ529ZgRbr ._2Z-Zr4UW8-jHrU5olM_r
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
+
+._1_cYNJSvS6IXs9vLTEYjy5.AppDetailsOverviewPanel.Panel ._3qDWQGB0rtwM3qpXTb11Q-.MenuButton.Focusable .zvLq1GUCH3yLuqv_TXBJ1.DotDotDot svg path {
+    transition: .25s ease-out !important;
+}
+
+._1_cYNJSvS6IXs9vLTEYjy5.AppDetailsOverviewPanel.Panel ._3qDWQGB0rtwM3qpXTb11Q-.MenuButton.Focusable .zvLq1GUCH3yLuqv_TXBJ1.DotDotDot:hover svg path {
+    fill: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
