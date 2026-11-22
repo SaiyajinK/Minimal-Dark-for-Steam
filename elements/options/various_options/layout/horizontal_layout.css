@@ -1,0 +1,37 @@
+/* Millennium tabs */
+.MillenniumSettings.ModalDialogPopup {
+    flex-direction: column !important;
+    border-top: none !important;
+}
+
+.MillenniumSettings.ModalDialogPopup ._2kwFFHckg8jvnwJfg9-la8 {
+    flex: unset !important;
+    max-width: unset !important;
+    padding: 12px 16px !important;
+}
+
+.MillenniumSettings.ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy {
+    flex-direction: row !important;
+    padding: 0 !important;
+    gap: 3px !important;
+}
+
+.MillenniumSettings.ModalDialogPopup
+    ._18QCu-7MTzd51UpVbYysDy
+    ._1Hye7o1wYIfc9TE9QKRW4T {
+    display: none !important;
+}
+
+.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 {
+    width: unset !important;
+    max-width: unset !important;
+}
+
+._1-vlriAtKYDViAEunue4VO:not(._2DpXjzK3WWsOtUWUrcuOG7):hover {
+    height: 6px !important;
+}
+
+.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 {
+    margin-top: -0.1rem !important;
+    border-radius: 0 !important;
+}
