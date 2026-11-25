@@ -50,9 +50,9 @@
 | 📂 Sidebar | 16 |
 | 🔝 Topbar | 20 |
 | 🧩 Various | 11 |
-| 🌍 Webkit | 14 |
+| 🌍 Webkit | 15 |
 | 🎛️ Plugin | 1 |
-| **Total** | **142** |
+| **Total** | **143** |
 
 </p>
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
@@ -1238,7 +1238,7 @@ _yes_ :<br>
 
 <hr>
 
-### <ins>Webkit options</ins> (14) : 
+### <ins>Webkit options</ins> (15) : 
 
 <details><summary>Alternative UI for new Steam menu :</summary><br>  
 
@@ -1296,6 +1296,14 @@ _Hide_ :<br>
 
 _Minimal Dark default_ :<br>
 <img src="https://github.com/user-attachments/assets/065b66b3-1a33-432f-9247-79a2a6886a0f"></p></details>
+
+<details><summary>Homepage gift card section :</summary><br>  
+
+_no_ :<br>
+<img src="https://github.com/user-attachments/assets/a8f5cb8b-fd4c-423c-84b6-a84ccf6dfd30"></p>
+
+_yes_ :<br>
+<img src="https://github.com/user-attachments/assets/977809ab-4ac8-4bf6-be95-e5ff1431326b"></p></details>
 
 <details><summary>Hide '+ Add a Showcase' :</summary><br>  
 
