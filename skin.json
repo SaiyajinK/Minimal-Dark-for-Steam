@@ -2353,7 +2353,7 @@
 		},
 		
 		"Alternative UI for new Steam menu :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose an alternative layout for the new Steam Store menu.\n\n- Minimal new UI : Use the standard Minimal Dark layout.\n- Minimal new UI (buttons) : Use the Minimal Dark layout with buttons.\n- Minimal new UI (compact buttons) : Use the compact Minimal Dark layout with buttons.\n- Minimal new UI (compact) : Use the compact Minimal Dark layout.\n- Ultra compact : Show only the icon at the default size.\n- Ultra compact #1 : Show only the icon at a compact size.",
 		"default": "Minimal new UI (compact)",
 		"values": {
@@ -2387,7 +2387,7 @@
 		},
 		
 		"Block backgrounds :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose the background style used by news and game update blocks.\n\n- Blurred : Use blurred backgrounds.\n- Full dark : Use solid dark backgrounds without transparency.",
 		"default": "Blurred",
 		"values": {
@@ -2401,7 +2401,7 @@
 		},
 		
 		"Carousel arrow borders :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose whether to display borders around carousel arrows on WebKit pages.\n\n- No : Hide carousel arrow borders.\n- Yes : Show carousel arrow borders.",
 		"default": "yes",
 		"values": {
@@ -2415,7 +2415,7 @@
 		},
 		
 		"Compact WebKit :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose whether to hide the left sidebar on the WebKit home page.\n\n- Hide : Hide the left sidebar.\n- Show : Show the left sidebar.",
 		"default": "Hide",
 		"values": {
@@ -2429,7 +2429,7 @@
 		},
 		
 		"Event background :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose the background used by Steam event pages.\n\n- Black background : Replace the event artwork with a dark background.\n- Default background : Show the default event artwork.",
 		"default": "Default background",
 		"values": { 
@@ -2443,7 +2443,7 @@
 		},
 		
 		"Event header :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose whether to display the event artwork header on the WebKit home page.\n\n- Hide : Hide the event artwork header.\n- Minimal Dark default : Show the event artwork header.",
 		"default": "Minimal Dark default",
 		"values": {
@@ -2456,8 +2456,22 @@
 			}
 		},
 		
+		"Homepage gift card section :": {
+		"tab": "Webkit options (15)",
+		"description": "> Enabling this option hides the gift card section on the WebKit homepage.\n\n- No : Show the gift card section.\n- Yes : Hide the gift card section.",
+		"default": "yes",
+		"values": {
+			"no": {},
+			"yes": {
+			"TargetCss": {
+			"affects": [".*"], "src": "elements/options/webkit_options/gift/hide_gift.css"
+					}
+				}
+			}
+		},
+		
 		"Hide '+ Add a Showcase' :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose whether to hide the \"+ Add a Showcase\" control on your Steam profile.\n\n- No : Show the control.\n- Yes : Hide the control.\n\nNote : When hidden, you cannot add a new showcase until this option is disabled.",
 		"default": "no",
 		"values": {
@@ -2471,7 +2485,7 @@
 		},
 		
 		"Hide footers :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose whether to hide legal information in WebKit page footers.\n\n- Hide : Hide footer legal information.\n- Show : Show footer legal information.",
 		"default": "Hide",
 		"values": {
@@ -2485,7 +2499,7 @@
 		},
 		
 		"Hide VAC ban information on profiles :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose whether to hide VAC ban information on user profiles.\n\n- No : Show VAC ban information.\n- Yes : Hide VAC ban information.",
 		"default": "no",
 		"values": {
@@ -2499,7 +2513,7 @@
 		},
 		
 		"Profile borders :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose whether to display borders around blocks on profile pages.\n\n- No : Hide profile block borders.\n- Yes : Show profile block borders.",
 		"default": "no",
 		"values": {
@@ -2513,7 +2527,7 @@
 		},
 		
 		"Profile headers :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose the header style used on Steam profile pages.\n\n- Minimal (for Steam profile themes) : Use Minimal styling while preserving colors from Steam profile themes.\n- Minimal default : Use the default Minimal Dark headers.\n- Vanilla profiles : Use Steam's vanilla profile headers.",
 		"default": "Minimal default",
 		"values": {
@@ -2532,7 +2546,7 @@
 		},
 		
 		"Profiles :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose whether profile blocks use blurred or solid backgrounds.\n\n- Minimal Dark : Use blurred blocks.\n- No blurred blocks : Use solid black blocks.",
 		"default": "Minimal Dark",
 		"values": {
@@ -2546,7 +2560,7 @@
 		},
 		
 		"Solid profile background color :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose whether profile pages display custom artwork or a solid dark background.\n\n- Default : Show profile images and videos.\n- Solid color : Use a solid dark background without images or videos.",
 		"default": "Default",
 		"values": {
@@ -2560,7 +2574,7 @@
 		},
 		
 		"URL bar :": {
-		"tab": "Webkit options (14)",
+		"tab": "Webkit options (15)",
 		"description": "> Choose whether the URL bar is always visible, always hidden, or shown only on hover.\n\n- Hide : Hide the URL bar.\n- Show only on hover : Show the URL bar only on hover.\n- Visible : Keep the URL bar visible.",
 		"default": "Visible",
 		"values": {
@@ -2603,7 +2617,7 @@
 	"author": "SaiyajinK",
 	"description": "Highly customizable dark minimalist skin for Steam.",
 	"name": "Minimal Dark",
-	"version": "6.6.8",
+	"version": "6.7.0",
 
 	"github": {
 		"owner": "SaiyajinK",
@@ -2625,7 +2639,7 @@
 		"Customizable"
 	],
   
-	"header_image": "https://i.imgur.com/h75s8C4.jpeg",
-	"splash_image": "https://i.imgur.com/h75s8C4.jpeg"
+	"header_image": "https://i.imgur.com/y52I7oM.png",
+	"splash_image": "https://i.imgur.com/y52I7oM.png"
 
 }
