@@ -2638,82 +2638,82 @@ margin-bottom: 10px !important;
 }
 
 /* BrewHub plugin */
-.sf-card:hover {
+.bh-card:hover {
     border: 1px solid var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-.sf-card {
+.bh-card {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
     transition: .25s ease-out !important;
 }
 
-.sf-tab.sf-on, .sf-pill.sf-on {
+.bh-tab.bh-on, .bh-pill.bh-on {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_color) !important;
 	color: var(--minimal_dark_color) !important;
 	transition: .25s ease-out !important;
 }
 
-.sf-tab, .sf-pill {
+.bh-tab, .bh-pill {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transition: .25s ease-out !important;
 }
 
-.sf-tab:hover, .sf-pill:hover {
+.bh-tab:hover, .bh-pill:hover {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_color) !important;
     color: var(--minimal_dark_color) !important;
 	transition: .25s ease-out !important;
 }
 
-.sf-search .sf-input {
+.bh-search .bh-input {
     color: orange !important;
 	transition: .25s ease-out !important;
 }
 
-.sf-input {
+.bh-input {
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker_alt) !important;
 	transition: .25s ease-out !important;
 }
 
-.sf-input:hover {
+.bh-input:hover {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_color) !important;
     background: var(--minimal_dark_blacker_alt) !important;
 	transition: .25s ease-out !important;
 }
 
-.sf-search svg.sf-searchicon {
+.bh-search svg.bh-searchicon {
 	transition: .25s ease-out !important;
 }
 
-.sf-search:hover svg.sf-searchicon {
+.bh-search:hover svg.bh-searchicon {
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-.sf-filter .DialogDropDown._DialogInputContainer {
+.bh-filter .DialogDropDown._DialogInputContainer {
     top: 3px !important;
 }
 
-.sf-filter .sf-input.sf-select {
+.bh-filter .bh-input.bh-select {
     transition: .25s ease-out !important;
 }
 
-.sf-filter:hover .sf-input.sf-select {
+.bh-filter:hover .bh-input.bh-select {
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-.sf-opt.sf-on {
+.bh-opt.bh-on {
     border-left: 2px solid var(--minimal_dark_color) !important;
 }
 
-.sf-chip {
+.bh-chip {
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
