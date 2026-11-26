@@ -989,6 +989,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
     /* border: 1px solid #26262685 !important; */
 	border-top-left-radius: 0px !important;
 	border-top-right-radius: 0px !important;
+	background: transparent !important;
 }
 
 .S2Fu9HxHCA5MaCLGrN2ib {
@@ -2000,6 +2001,7 @@ img._3PXcvKt0U1PJ2DAM8I5lLx {
     --achievement-progress-bar-background: var(--minimal_dark_blacker);
     --achievement-progress-bar-foreground: var(--minimal_dark_progress_bar);
     --progress-bar-radius: var(--minimal_dark_corner);
+	padding: 2px !important;
 }
 
 ._3i_h6xYLxqWT-wquwrB4P8[role="switch"] {
@@ -2176,6 +2178,11 @@ body:has(.gioyPMOZttYFcnmgLnsWf) ._3xFYpKNlOZ6xjQ529ZgRbr ._2Z-Zr4UW8-jHrU5olM_r
     box-shadow: inset 0 0 0 1px var(--minimal_dark_be_grey);
 }
 
+._38FqIwZQKW6BlRyzN66pi6.AppDetailsHover._37Lk82ESPo7El4__sqZgOV.Hover.MGoYUyIslJerluzgnU7z9.Achieved {
+    background: transparent !important;
+    backdrop-filter: blur(8px) !important;
+}
+
 ._3ca11X3AK6npLS3emMa5Lr._3i6PczGBBYzCDZXkCDbJAD {
     border-top-color: var(--minimal_dark_be_grey) !important;
 }
@@ -2200,7 +2207,8 @@ body:has(.gioyPMOZttYFcnmgLnsWf) ._3xFYpKNlOZ6xjQ529ZgRbr ._2Z-Zr4UW8-jHrU5olM_r
 }
 
 ._3gaFkyJJveAf0h3zzI-l0C .qKGAkzRGZQ9oo5pqwWwPX ._2qChhX-1VNjV6TirqRTAT6 {
-    background: rgb(25 25 25 / 40%) !important;
+	/* background: rgb(25 25 25 / 40%) !important; */
+    background: transparent !important;
     backdrop-filter: blur(8px) !important;
     border-top: 1px solid var(--minimal_dark_be_grey) !important;
 }
@@ -2370,5 +2378,21 @@ body:has(.gioyPMOZttYFcnmgLnsWf) ._3xFYpKNlOZ6xjQ529ZgRbr ._2Z-Zr4UW8-jHrU5olM_r
 
 ._1_cYNJSvS6IXs9vLTEYjy5.AppDetailsOverviewPanel.Panel ._3qDWQGB0rtwM3qpXTb11Q-.MenuButton.Focusable .zvLq1GUCH3yLuqv_TXBJ1.DotDotDot:hover svg path {
     fill: var(--minimal_dark_color) !important;
+    transition: .25s ease-out !important;
+}
+
+._1GSxIoYhz0hxXOYI0_NNnl {
+    background: transparent !important;
+}
+
+._2YzOLNBx6TonKU0Zmp20l4.Box._3A_c3YHYd4YIjA8Y-olnPl.Reset.nnas6EHBDxM1pKWh2CAoy.CompletionBackgroundLayer._3RaUMfnW2eQ126rzMp1VM2.GroupCompleteHeadingBackground ._2YzOLNBx6TonKU0Zmp20l4.Box._3A_c3YHYd4YIjA8Y-olnPl.Reset._7xJPj6-wg_uV1l9q3flQe.StarsBackground svg path {
+    fill: var(--minimal_dark_color) !important;
+}
+
+._16FwEPf10yTyglY7gHhaLE.SavedHardware.Panel:hover {
+    color: var(--minimal_dark_color) !important;
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
