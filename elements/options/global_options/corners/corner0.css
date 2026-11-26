@@ -1028,14 +1028,49 @@ img.JIMdRVl5GQwMrWUt3A6RH, img.spBDBpjPZo8-, img.unoV6P6DXbM-, video.GL0tHV4bOk8
 }
 
 .home_gift_card_link {
-    background: linear-gradient(to right, #09141B 0%, var(--minimal_dark_color1) 100%) !important;
+    background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: 0px !important;
-	display: none !important;
+    transition: .25s ease-out !important;
 }
 
 .home_gift_card_link:hover {
-    box-shadow: 0 6px 24px 4px rgba(var(--SystemAccentColorAccent-RGB), 0.35) !important;
+    box-shadow: none !important;
+	background: var(--minimal_dark_blacker) !important;
+	border: 1px solid var(--minimal_dark_color1) !important;
+	color: var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
+}
+
+.home_gift_card_img {
+    content: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7") !important;
+    -webkit-mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADFElEQVR4nO2cS04bQRCGf3thJ8IKLCIluUzgIgSukCCSO2QDEkukcAHAURaWl9nkcYI8VuEAgSgB5GVFLTWShdw9rx5Xtef/pNpgXN1d30zbnhkVQAghhBBCCCGEEEIIIWQxGwB2AYwB/ABwA0A6Gje+BucAdnxtWuMBgNcA/hhYuBiNKwD7AIapi/8MwFcDC5RM4guApymLf2FgUZJZXKSQ4E4lHvmoHZ+bbkdvDCxCMo+9usXfKPjAPQWwCWANaZFAWGTN1+A8Mu9LAOt1ku9Gkr5Ee0hGAubZi8z9RZ2E40CyM7SLZCogec1+BpI9R7tIxgI2A3N3P9Yqcx1INkK7SMYCRoG5u1pmUwjJWEDS+VNAPShAGQpQhgKUoQBlKEAZClCGApTpnIC+DyuYFfAQwDGAWwC/AbwN3KwoO65775HPNwNwsoTLJFkLOF6Qa7JAQplxh/699//HSdDGpIB+5PGVyT0JReOGii/+TNDejkwKcPyL5JzMSYiNGyv+3VXHHnQxK+AgklPmJIReLyq+i0PoY1ZAmQJOar62aCvTwqwAxwDAh4JCSo2Y+if3LGBaQBsSpoaKn4WAlBKmxoqfjYAUEqYGi78UAQzUCgoABXQ6KqM9YVmxoABQQKejMskSBRjwa+iSEi2AP8QUBfBShKIAXoxTFMDL0coCjkoWUALBGzINBPT90wtljl6JjMtbkg0EzEpuHVIwLm/K1+Sk5L4tJcYNSXgHfcwKGHkJM79VHCR4MOvQ55r54vPBrBL0Eo/bM7DvZyXA6ripoABlKEAZClCGApShAGUoQBkKUIYClEk2f7arqc6jwNz/pmzY5JoStYlkLGArZcOmUCM69/c2kYwFvI80OKzMThutGFdYwH5k7tt121ZeRZKO/SnX9baVW5Ejv1HbyiKrDJSKRi0+h74RtfYiJNP45B/FaYRrQP3LwGIks3A1e4JEPAbw0cCiJKOm3cna198x8N9+Lg0sUIyGq82rFNtOjHXfC9m14/0e+cXchbgG8M3XYrvJtx1CCCGEEEIIIYQQQgjBSvMf+m4Pz6PUZxoAAAAASUVORK5CYII=") !important;
+    -webkit-mask-size: contain !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-position: center !important;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+    transition: .25s ease-out !important;
+}
+
+.home_gift_card_link:hover img.home_gift_card_img {
+    content: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7") !important;
+    -webkit-mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACqElEQVR4nO2cTW4TQRCF3w6zw6uAkbiO5QVX4Cd3gDhwJgLXACFYBsQuOQCgRMJeFWqpLaHRNHb11ExXxe+T3sqJVfM+Z2acHjVACCGEEEIIIYQQQgghpJ85gFMAHwB8A3ALQAxTQhzmNnfwHsDL3M1o3AfwBsCvkQ+qhARI6uY8d2XKAsCniQ6ihATKVwBPYMRjANcTDl9CguU6dzeI9Kf0eeLBS0jApLPGDAN422DoEhI0a1Qyn+CCK0cg4Gft3dFpo4FLSOC8QAXp3pYCYJKLGgE/KABWSV/W1NxQAKySulTTatgSrUsc67jcHXCJ1gVSAGKHAkABFKDB26ASPGq8DSrBQwGgAArQ4G1QCR411gNsAZwBeJhzBmAzQMCm5/22Dop2KyAV1GXVI+GQeTb5d7usHRTtVkD6lPaxBPBHISB9yp8WfubEQdHhBHQllNhX/u7pjdZFuxWwb210lU8tJUqnnX85d1C0WwGHFLiqfG33et9F3UvUjDHEvlNILd3riMeokSASlgHKdyXAUsIySPnuBFhIWAYqv0oAIYQQQshxwttQtL0N9Vx+RAlqvJcfTYKaCOVHkqDGegD+O1rJFGvC1gsyXBNuvCR54qDoo16UXzgoOtSa8Mr4sRSuCf8n2yzhUc7a4MGs7vvxwawRB5XgoQBQAAVo8DaoBI8ab4NK8FAAKIACNHgbVIJHjbdBJXgoAMEEcLsamOV3jYDvFACrXNYI4JZlMMu7GgFpL2QKgEme1QiY5y0XKQCDkjp8gEpaLHCUkKB5hQHMJty0W+6ggI9Dty7erbNeUQC0ucrdmbDINikAB+WL5fb1O2b52Z6xL8wlJEBSN68B3MOIpCv687wd7+UI35hLiMPc5A4ucifVdzuEEEIIIYQQQgghhBCCO81fhcFoqZ6SDp8AAAAASUVORK5CYII=") !important;
+    -webkit-mask-size: contain !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-position: center !important;
+    background-color: var(--minimal_dark_color1) !important;
+    border-radius: 0px !important;
+    transition: .25s ease-out !important;
+}
+
+.home_gift_card_link img.home_gift_card_img {
+	transition: .25s ease-out !important;
+}
+
+.home_gift_card_link:hover img.home_gift_card_img {
+    background-color: var(--minimal_dark_color1) !important;
+	transition: .25s ease-out !important;
 }
 
 .store_main_capsule .info {
