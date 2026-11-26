@@ -2638,82 +2638,82 @@ margin-bottom: 10px !important;
 }
 
 /* BrewHub plugin */
-.bh-card:hover {
+.sf-card:hover {
     border: 1px solid var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-.bh-card {
+.sf-card {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
     transition: .25s ease-out !important;
 }
 
-.bh-tab.bh-on, .bh-pill.bh-on {
+.sf-tab.sf-on, .sf-pill.sf-on {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_color) !important;
 	color: var(--minimal_dark_color) !important;
 	transition: .25s ease-out !important;
 }
 
-.bh-tab, .bh-pill {
+.sf-tab, .sf-pill {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
     transition: .25s ease-out !important;
 }
 
-.bh-tab:hover, .bh-pill:hover {
+.sf-tab:hover, .sf-pill:hover {
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_color) !important;
     color: var(--minimal_dark_color) !important;
 	transition: .25s ease-out !important;
 }
 
-.bh-search .bh-input {
+.sf-search .sf-input {
     color: orange !important;
 	transition: .25s ease-out !important;
 }
 
-.bh-input {
+.sf-input {
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker_alt) !important;
 	transition: .25s ease-out !important;
 }
 
-.bh-input:hover {
+.sf-input:hover {
     border-radius: var(--minimal_dark_corner) !important;
     border: 1px solid var(--minimal_dark_color) !important;
     background: var(--minimal_dark_blacker_alt) !important;
 	transition: .25s ease-out !important;
 }
 
-.bh-search svg.bh-searchicon {
+.sf-search svg.sf-searchicon {
 	transition: .25s ease-out !important;
 }
 
-.bh-search:hover svg.bh-searchicon {
+.sf-search:hover svg.sf-searchicon {
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-.bh-filter .DialogDropDown._DialogInputContainer {
+.sf-filter .DialogDropDown._DialogInputContainer {
     top: 3px !important;
 }
 
-.bh-filter .bh-input.bh-select {
+.sf-filter .sf-input.sf-select {
     transition: .25s ease-out !important;
 }
 
-.bh-filter:hover .bh-input.bh-select {
+.sf-filter:hover .sf-input.sf-select {
     color: var(--minimal_dark_color) !important;
     transition: .25s ease-out !important;
 }
 
-.bh-opt.bh-on {
+.sf-opt.sf-on {
     border-left: 2px solid var(--minimal_dark_color) !important;
 }
 
-.bh-chip {
+.sf-chip {
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
@@ -2814,3 +2814,11 @@ margin-bottom: 10px !important;
     transition: .25s ease-out !important;
 }
 /* End Achievement Manager */
+
+._2EstNjFIIZm_WUSKm5Wt7n.contextMenuContents._3pofGqV0buiKAfMPEs3_82.MenuPopup._1UgM1Pm8SbTWX7_2f-crGt.NotificationsMenu svg.SVGIcon_Button.SVGIcon_FriendIcon {
+	visibility: hidden !important;
+}
+
+.Fur8xECXK4OVuhm8aWu3K::after {
+    border-radius: var(--minimal_dark_corner) !important;
+}
