@@ -1,10 +1,10 @@
 /* Overlay windows */
-#popup_target > .OverlayPopup {
+#popup_target .OverlayPopup {
     border-radius: var(--minimal_dark_corner) !important;
     overflow: hidden !important;
 }
 
-#popup_target > .OverlayPopup::after {
+#popup_target .OverlayPopup::after {
     content: "";
     position: fixed;
     inset: 0;
