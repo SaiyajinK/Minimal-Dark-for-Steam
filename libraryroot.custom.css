@@ -2638,14 +2638,30 @@ margin-bottom: 10px !important;
 }
 
 /* BrewHub plugin */
-.bh-card:hover {
-    border: 1px solid var(--minimal_dark_color) !important;
-    transition: .25s ease-out !important;
+.bh-grid {
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)) !important;
+    gap: 16px !important;
+}
+
+.bh-img {
+    height: 150px !important;
+}
+
+.bh-dhero {
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 
 .bh-card {
     border: 1px solid var(--minimal_dark_be_grey) !important;
     border-radius: var(--minimal_dark_corner) !important;
+	background: var(--minimal_dark_blacker) !important;
+    transition: .25s ease-out !important;
+}
+
+.bh-card:hover {
+    border: 1px solid var(--minimal_dark_color) !important;
+	background: var(--minimal_dark_black) !important;
     transition: .25s ease-out !important;
 }
 
@@ -2716,6 +2732,26 @@ margin-bottom: 10px !important;
 .bh-chip {
     border-radius: var(--minimal_dark_corner) !important;
     background: var(--minimal_dark_blacker) !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.bh-name {
+    color: var(--minimal_dark_color) !important;
+}
+
+.bh-meta span.bh-link {
+    transition: .25s ease-out !important;
+}
+
+.bh-meta span.bh-link:hover {
+    color: var(--minimal_dark_red2) !important;
+    transition: .25s ease-out !important;
+}
+
+.bh-readme {
+    padding: 22px 26px !important;
+    border-radius: var(--minimal_dark_corner) !important;
+	background: var(--minimal_dark_blacker_alt) !important;
     border: 1px solid var(--minimal_dark_be_grey) !important;
 }
 /* End BrewHub plugin */
