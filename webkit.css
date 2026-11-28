@@ -16618,4 +16618,46 @@ input[type="checkbox"]:checked::after {
 .zBv-ywTeLcQ- .WSZJpvJ2Gdw- {
     text-shadow: none !important;
 }
+
+.light_container.bezel {
+    background: var(--minimal_dark_blacker_alt) !important;
+}
+
+.navigation_bar > a.selected {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_color1) !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    transition: .25s ease-out !important;
+}
+
+.navigation_bar {
+    border-bottom: 1px solid var(--minimal_dark_be_grey) !important;
+}
+
+.navigation_bar > a {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    color: white !important;
+    border: 1px solid var(--minimal_dark_be_grey) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    transition: .25s ease-out !important;
+}
+
+.navigation_bar > a:hover {
+    background-color: var(--minimal_dark_blacker_alt) !important;
+    color: var(--minimal_dark_color1) !important;
+    border: 1px solid var(--minimal_dark_color1) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    transition: .25s ease-out !important;
+}
+
+.navigation_bar > div.nav_right_side > div.curator_report a:hover {
+    background-color: var(--minimal_dark_blacker) !important;
+    border-radius: var(--minimal_dark_corner) !important;
+    border: 1px solid white !important;
+}
+
+a.EYF1OQwj3TE- .oWSo9BvK7oY-, button.EYF1OQwj3TE- .oWSo9BvK7oY- {
+    margin-top: 0px !important;
+}
 /* end webkit */
